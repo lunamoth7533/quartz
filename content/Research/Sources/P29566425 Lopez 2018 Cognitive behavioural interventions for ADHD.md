@@ -15,9 +15,9 @@ pmid: "29566425"
 pmcid: "PMC6494390"
 source_url: "https://doi.org/10.1002/14651858.cd010840.pub2"
 first_online: "2018-03-23"
-access_level: abstract-only
-verification: abstract_checked
-verified_on: 2026-09-24
+access_level: open-access-online
+verification: full_text_checked
+verified_on: 2026-09-25
 reading_status: queued
 queue_tier: core
 pdf: ""
@@ -33,14 +33,14 @@ tags: [research/source, research/condition/adhd, research/domain/psychology]
 
 **Identifiers.** DOI [10.1002/14651858.cd010840.pub2](https://doi.org/10.1002/14651858.cd010840.pub2) · PMID [29566425](https://pubmed.ncbi.nlm.nih.gov/29566425/) · PMCID [PMC6494390](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6494390/)
 
-**Verification.** Abstract-level check via the Europe PMC core API on 2026-09-24 (metadata matched by PMID). Full text was not read; read status is queued.
+**Verification.** Abstract checked 2026-09-24; full text retrieved and checked 2026-09-25 (`receipts/source-checks/P29566425.txt`).
 
-## Reported findings (checked abstract)
+## Reported findings (checked abstract and full text)
 
 Adding CBT to medication beat medication alone on clinician-rated and self-rated core symptoms, and CBT also beat a waiting list on self-reported symptoms.
 ^p29566425-symptoms
 
-The authors rate the evidence as low quality for short-term benefit and note limited long-term follow-up, heterogeneous outcomes and restricted geography.
+Certainty was low or very low for most comparisons: trials were small and outcome measures heterogeneous. Estimates also depended on the comparator - large against waiting list, not statistically significant against supportive psychotherapy.
 ^p29566425-certainty
 
 Some secondary outcomes improved, including self-reported depression and anxiety, while quality-of-life results varied.

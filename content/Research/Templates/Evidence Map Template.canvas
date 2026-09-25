@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"evidence-frame","type":"group","x":-80,"y":-80,"width":2600,"height":1499,"color":"4","label":"Evidence map"},
+		{"id":"evidence-standard","type":"text","text":"### Evidence standard\n\nWhat study design would count?\n\n- Population\n- Outcome\n- Comparator\n- Timeframe\n- Effect size and uncertainty","x":400,"y":430,"width":360,"height":253,"color":"3"},
+		{"id":"objections","type":"text","text":"### Strongest objection\n\nState the best contrary interpretation, then link its evidence.","x":2080,"y":430,"width":360,"height":116,"color":"6"},
+		{"id":"uncertainty","type":"text","text":"### Remaining uncertainty\n\nWhat would change the confidence label?","x":960,"y":1223,"width":360,"height":86,"color":"6"},
+		{"id":"claim","type":"text","text":"## Claim under test\n\nWrite one falsifiable sentence.\n\n**Confidence:** low, medium or high\n**Condition:** add the relevant condition tag\n**Domain:** add the relevant domain tag","x":1170,"y":0,"width":500,"height":201,"color":"4"},
+		{"id":"argument-template","type":"file","file":"Research/Templates/Argument template.md","x":0,"y":0,"width":300,"height":240},
+		{"id":"official-evidence","type":"text","text":"### Educational or official evidence\n\nUse for definitions, mechanisms and context.\n\nDo not treat an official page as a trial.","x":1520,"y":430,"width":360,"height":165,"color":"3"},
+		{"id":"paper-evidence","type":"text","text":"### Paper evidence\n\nPaste links to source-note blocks.\n\nSeparate:\n- Reported finding\n- Scope limit\n- Analyst caution","x":960,"y":430,"width":360,"height":240,"color":"3"},
+		{"id":"next-check","type":"text","text":"### Next check\n\nOne source or calculation that would decide the next step.","x":1580,"y":1223,"width":360,"height":116,"color":"6"},
+		{"id":"source-template","type":"file","file":"Research/Templates/Source template.md","x":960,"y":833,"width":360,"height":240}
+	],
+	"edges":[
+		{"id":"claim-standard","toFloating":false,"fromNode":"claim","fromSide":"bottom","toNode":"evidence-standard","toSide":"top","color":"3","label":"judged by"},
+		{"id":"claim-paper","fromNode":"claim","fromSide":"bottom","toNode":"paper-evidence","toSide":"top","color":"3","label":"supported or challenged by"},
+		{"id":"claim-official","fromNode":"claim","fromSide":"bottom","toNode":"official-evidence","toSide":"top","color":"3","label":"context"},
+		{"id":"objections-claim","fromNode":"objections","fromSide":"top","toNode":"claim","toSide":"bottom","color":"6","label":"limits"},
+		{"id":"uncertainty-next","fromNode":"uncertainty","fromSide":"right","toNode":"next-check","toSide":"left","color":"6","label":"resolve by"},
+		{"id":"source-template-paper","fromNode":"source-template","fromSide":"top","toNode":"paper-evidence","toSide":"bottom","color":"5","label":"create records"},
+		{"id":"argument-template-claim","fromNode":"argument-template","fromSide":"right","toNode":"claim","toSide":"left","color":"5","label":"formalize"}
+	],
+	"metadata":{"version":"1.0-1.0"}
+}

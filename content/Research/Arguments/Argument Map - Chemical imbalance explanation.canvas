@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"frame","type":"group","x":-80,"y":-80,"width":2950,"height":1548,"color":"6","label":"Argument synthesis"},
+		{"id":"legend","type":"text","text":"### Legend\n\nGreen: support for the framing.\nOrange: tension or counter-evidence.\nPurple: deciding evidence and hypotheses.\nEdges label the relationship, not proof.","x":0,"y":0,"width":440,"height":174,"color":"5"},
+		{"id":"question","type":"text","text":"### Question\n\nDoes the chemical-imbalance framing help understanding, or misstate the science?","x":1165,"y":0,"width":460,"height":116,"color":"2"},
+		{"id":"guard","type":"text","text":"### Overreach guard\n\nDo not treat a communication hypothesis as evidence about mechanism, or the reverse.","x":2350,"y":0,"width":440,"height":116,"color":"2"},
+		{"id":"argument","type":"file","file":"Research/Arguments/Argument - Is chemical imbalance a useful explanation.md","x":1165,"y":584,"width":460,"height":220},
+		{"id":"deciding","type":"text","text":"### Evidence that would decide\n\nStudies of how people understand explanations, and whether explanation quality changes engagement or self-blame; replications of transmitter-level findings with medication status controlled.","x":1165,"y":1214,"width":460,"height":174,"color":"6"},
+		{"id":"for-0","type":"file","file":"Research/Sources/F06 OpenStax Cells of the nervous system.md","x":0,"y":464,"width":440,"height":200},
+		{"id":"against-2","type":"file","file":"Research/Topics/Chemical imbalance framing.md","x":2350,"y":854,"width":440,"height":200},
+		{"id":"for-1","type":"file","file":"Research/Learning/Lessons/M03 Neurochemistry/Lesson - Chemical imbalance framing.md","x":0,"y":724,"width":440,"height":200},
+		{"id":"against-1","type":"file","file":"Research/Sources/P25687772 Alda 2015 Lithium pharmacology and pharmacogenetics.md","x":2350,"y":594,"width":440,"height":200},
+		{"id":"against-0","type":"file","file":"Research/Sources/P28289283 Ashok 2017 Dopamine hypothesis of bipolar disorder.md","x":2350,"y":334,"width":440,"height":200}
+	],
+	"edges":[
+		{"id":"edge-for-0","toFloating":false,"fromNode":"for-0","fromSide":"right","toNode":"argument","toSide":"left","color":"4","label":"framing presented alongside mixed receptor effects"},
+		{"id":"edge-for-1","fromNode":"for-1","fromSide":"right","toNode":"argument","toSide":"left","color":"4","label":"worked misconception"},
+		{"id":"edge-against-0","fromNode":"against-0","fromSide":"left","toNode":"argument","toSide":"right","color":"2","label":"model presented as speculation"},
+		{"id":"edge-against-1","fromNode":"against-1","fromSide":"left","toNode":"argument","toSide":"right","color":"2","label":"multi-pathway action"},
+		{"id":"edge-against-2","fromNode":"against-2","fromSide":"left","toNode":"argument","toSide":"right","color":"2","label":"claim-level statement of the problem"},
+		{"id":"edge-deciding","fromNode":"deciding","fromSide":"top","toNode":"argument","toSide":"bottom","color":"6","label":"would settle"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

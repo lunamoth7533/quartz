@@ -2,10 +2,15 @@
 note_type: topic
 title: "Autistic sensory and communication access"
 domain: [psychology]
-condition: [autism]
-source_count: 3
+condition: ['autism']
+source_count: 4
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology]
+content_layer: reference
+concept_kind: framework
+description: "Access as environmental and communicative design, the cost of camouflaging, and the qualitative evidence base behind these recommendations."
+secondary_domain: []
+reviewed: 2026-09-25
 ---
 
 # Autistic sensory and communication access
@@ -27,6 +32,25 @@ tags: [research/topic, research/domain/psychology]
 ## Limitation or common misconception
 
 Service availability varies by region and country, guideline recommendations are professional judgements rather than efficacy estimates, and adult outcome measures are still developing.
+
+> [!info]- Reference: access as a two-sided design problem
+> **Environment matters.** Guidance recommends adapting space, visual supports, lighting and noise, and varying assessment length rather than expecting the person to compensate. [[F24 NICE CG142 autism in adults diagnosis and management#^f25-environment|Autism in adults: diagnosis and management]]
+>
+> **Communication.** Clear language, comprehension checks, and communication aids or interpreters are recommended as standard practice rather than accommodations of last resort. [[F24 NICE CG142 autism in adults diagnosis and management#^f25-communication|Autism in adults: diagnosis and management]]
+>
+> **Partnership.** Respect for autonomy and partnership in decisions is a stated principle, which shifts the framing from management of a deficit to support of participation. [[F24 NICE CG142 autism in adults diagnosis and management#^f25-partnership|Autism in adults: diagnosis and management]]
+>
+> **Camouflaging cost.** Autistic adults describe deliberate and less deliberate strategies for managing self-presentation, and report exhaustion and reduced sense of self as consequences, which is why access is not simply a courtesy. [[P28527095 Hull 2017 Social camouflaging#^p28527095-strategies|Social camouflaging]] [[P28527095 Hull 2017 Social camouflaging#^p28527095-consequence|Social camouflaging]]
+>
+> **Evidence status.** Accommodation research is largely qualitative and practice-based rather than trial-based, which is a limit of the literature rather than of the principle. [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-outcomes|Autistic adults' views on early interventions]]
+>
+> **Why access is design, not accommodation-as-favour.** The guideline's environment recommendations - personal space, lighting, noise, predictability, adjustable assessment duration - treat sensory and communicative fit as properties of the service rather than of the person, which reframes participation problems as mismatches that can be engineered down. That is also why the evidence here is largely qualitative and guideline-derived rather than trial-derived: the question is what services should do, not whether a treatment works. [[F24 NICE CG142 autism in adults diagnosis and management]]
+>
+> **The camouflaging cost connects the literatures.** Camouflaging research documents the effort of managing self-presentation and links it with exhaustion and reduced sense of self, which gives the access recommendations their preventive logic: environments that do not demand camouflaging remove the burden rather than treating its consequences. [[P28527095 Hull 2017 Social camouflaging]] [[Masking and camouflaging]]
+>
+> **What the autistic-adults evidence adds.** The participatory literature finds that autistic adults prioritise wellbeing, autonomy, accessibility and reducing harmful behaviours over normalising outcomes, which is the value base the guideline's partnership and autonomy recommendations formalise - and a standing reminder that outcome choice is itself a design decision. [[P42411151 Nosova 2026 Autistic adults views on early interventions]] [[Intervention outcomes and autistic perspectives]]
+>
+> **Cross-domain connection (curation).** This article is the autism domain's applied bridge to the methods domain's qualitative-design standards: the evidence base is interview and consensus work, and its quality criteria are the qualitative designs article's, not the trial literature's. [[Qualitative designs]] [[Autism support and services]]
 
 ## Related notes
 

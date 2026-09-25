@@ -3,9 +3,14 @@ note_type: topic
 title: "Measurement validity and reliability"
 domain: [research-literacy]
 condition: []
-source_count: 2
+source_count: 4
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
+content_layer: reference
+concept_kind: framework
+description: "Reliability, validity and measurement invariance as separate properties, and why rater identity is part of the measurement rather than noise."
+secondary_domain: []
+reviewed: 2026-09-25
 ---
 
 # Measurement validity and reliability
@@ -20,6 +25,30 @@ tags: [research/topic, research/domain/research-literacy]
 - Criterion validity and construct validity are evaluated after administration through relationships with other measures and known groups. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-validity|P29942800]]
 - A reliability coefficient can coexist with a systematic miss of the target construct, so consistent scores are not evidence that the score is meaningful. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|AI synthesis: P29942800]]
 - In daily ADHD research, clinician-rated and self-rated outcomes can disagree, which makes the rater part of the measurement. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: Lopez 2018 Cognitive behavioural interventions for ADHD]]
+
+> [!info]- In depth: two properties, how they are assessed, and why they are not the same
+> **The development sequence.** Scale development runs through three phases and nine steps: item generation with content validity, scale construction, then evaluation of dimensionality, reliability and validity. Content validity is assessed before administration against the defined domain, while criterion and construct validity are assessed afterwards through relationships with other measures and groups. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-phases|Developing and validating scales]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-content|Developing and validating scales]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-validity|Developing and validating scales]]
+>
+> **Reliability is consistency, not meaning.** Reliability uses statistics such as Cronbach's alpha, ordinal alpha, omega and test-retest coefficients; an instrument can produce consistent scores that consistently miss the construct, and a scale validated in one population or purpose can lose those properties when moved. Reliability is not validity. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-reliability|Developing and validating scales]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|AI appraisal: Developing and validating scales]]
+>
+> **Comparison adds invariance.** Comparing scores across groups or time assumes measurement invariance - configural, metric and scalar constraints - and partial or absent invariance changes what the comparison means. A group difference therefore carries a measurement claim as well as a substantive one. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-definition|Measurement invariance]] [[P27942093 Putnick 2016 Measurement invariance#^p27942093-levels|Measurement invariance]] [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]]
+>
+> **Raters are part of the instrument.** Outcome depends on the rater: clinician-reported and self-reported results differed in the ADHD intervention literature, so a measurement claim should name who provided the data. Sample-size guidance for development work is heuristic - commonly about ten respondents per item and/or 200-300 observations - and varies by purpose and population. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI appraisal: Cognitive behavioural interventions for ADHD]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-sample|Developing and validating scales]]
+>
+> **Reading rule.** Ask what was measured, by whom, in which population, against what criterion, and whether the comparison required invariance. A number without those answers is a reading, not a measurement. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|Cognitive behavioural interventions for ADHD]] [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]]
+
+> [!info]- Reference: two properties and how they are assessed
+> **Reliability.** Reliability concerns consistency: whether an instrument gives stable results across occasions, items and raters. Internal consistency, test-retest and inter-rater agreement are different facets, and a high value on one does not imply the others. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-reliability|Developing and validating scales]]
+>
+> **Validity.** Validity concerns whether an instrument measures the intended construct. It is argued from content, relations to other measures, and consequences rather than established by one coefficient. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-validity|Developing and validating scales]]
+>
+> **Invariance.** Comparing scores across groups or time assumes the instrument measures the same construct in the same way in both; configural, metric and scalar invariance impose progressively stronger constraints. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-definition|Measurement invariance]] [[P27942093 Putnick 2016 Measurement invariance#^p27942093-levels|Measurement invariance]]
+>
+> **Why invariance is not optional.** If invariance fails, a group difference may reflect the instrument rather than the construct, so invariance should be tested and reported. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]]
+>
+> **Rater effects.** Where instruments depend on observers - clinician versus teacher versus self-report - differences between raters are systematic, not noise. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-efficacy|ADHD medication efficacy and tolerability]]
+>
+> **Cross-domain connection (curation).** Validity and reliability are the first-order constraint on any claim in the clinical-psychiatry and condition domains - a diagnostic score, a symptom count or a functioning measure only carries the force that this domain's rules assign to it, and reading condition-domain evidence without this material leaves the measurement claim unexamined. [[Association versus individual prediction]] [[Functional outcomes and measurement]]
 
 ## Limitation or common misconception
 

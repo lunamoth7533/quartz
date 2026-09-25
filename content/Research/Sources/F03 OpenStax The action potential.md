@@ -17,7 +17,7 @@ source_url: "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the
 first_online: ""
 access_level: public-page
 verification: educational_checked
-verified_on: 2026-09-24
+verified_on: 2026-09-25
 reading_status: queued
 queue_tier: core
 pdf: ""
@@ -31,7 +31,7 @@ tags: [research/source, research/educational, research/domain/neurobiology]
 
 **Source.** <https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential>
 
-**Verification.** Official page opened and checked on 2026-09-24; educational material, not primary research.
+**Verification.** Official educational page checked on 2026-09-24; the refractory-period section was additionally checked on 2026-09-25 against `receipts/source-checks/F03.txt`. This is educational material, not a primary experiment.
 
 ## Key points (as published)
 
@@ -43,6 +43,9 @@ If depolarisation reaches threshold, voltage-gated ion channels open in sequence
 
 The action potential is an all-or-none event that propagates at full strength along the axon rather than fading with distance.
 ^f03-signals
+
+Sodium-channel inactivation prevents another action potential during the absolute refractory period; excitability recovers afterward.
+^f03-refractory
 
 ## Scope and limitations
 

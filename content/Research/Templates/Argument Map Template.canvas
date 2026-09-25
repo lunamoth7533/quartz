@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"argument-frame","type":"group","x":-80,"y":-80,"width":1960,"height":1307,"color":"6","label":"Argument map"},
+		{"id":"deciding-evidence","type":"text","text":"### Evidence that would decide\n\nWhat measurement would separate A from B?\n\nWhat tradeoff would make that study hard?","x":1420,"y":745,"width":380,"height":136,"color":"4"},
+		{"id":"evidence-for","type":"text","text":"### Evidence for\n\n- Design\n- Population\n- Outcome\n- Effect size\n- Source link","x":420,"y":745,"width":380,"height":213,"color":"4"},
+		{"id":"overreach-guard","type":"text","text":"### Overreach guard\n\nWrite the sentence a reader should not infer from this map.","x":1420,"y":1031,"width":380,"height":116,"color":"2"},
+		{"id":"evidence-against","type":"text","text":"### Evidence against\n\nInclude rating bias, confounding, missing outcomes and follow-up window.","x":920,"y":745,"width":380,"height":116,"color":"4"},
+		{"id":"explanation-a","type":"text","text":"### Explanation A\n\nWrite the mechanism or interpretation.\n\nThen link the strongest source block that supports it.","x":420,"y":430,"width":380,"height":165,"color":"3"},
+		{"id":"question","type":"text","text":"## Research question\n\nState one question that evidence can answer.\n\n**Origin:** AI starter, literature gap, or your own reading\n**Status:** open, provisional, or resolved\n**Current confidence:** low, medium or high","x":880,"y":0,"width":460,"height":201,"color":"6"},
+		{"id":"argument-template","type":"file","file":"Research/Templates/Argument template.md","x":0,"y":0,"width":300,"height":260},
+		{"id":"explanation-b","type":"text","text":"### Explanation B\n\nWrite the strongest alternative.\n\nLink a different source or a different reading of the same source.","x":920,"y":430,"width":380,"height":165,"color":"3"},
+		{"id":"explanation-c","type":"text","text":"### Boundary condition\n\nWhere does each explanation stop working?\n\nName population, timeframe, measurement or dose context.","x":1420,"y":430,"width":380,"height":165,"color":"3"}
+	],
+	"edges":[
+		{"id":"question-a","fromNode":"question","fromSide":"bottom","toNode":"explanation-a","toSide":"top","color":"3","label":"could be true"},
+		{"id":"question-b","fromNode":"question","fromSide":"bottom","toNode":"explanation-b","toSide":"top","color":"3","label":"could be true"},
+		{"id":"question-c","fromNode":"question","fromSide":"bottom","toNode":"explanation-c","toSide":"top","color":"3","label":"bounded by"},
+		{"id":"a-for","fromNode":"explanation-a","fromSide":"bottom","toNode":"evidence-for","toSide":"top","color":"4","label":"supports"},
+		{"id":"b-against","fromNode":"explanation-b","fromSide":"bottom","toNode":"evidence-against","toSide":"top","color":"4","label":"challenges"},
+		{"id":"c-decides","fromNode":"explanation-c","fromSide":"bottom","toNode":"deciding-evidence","toSide":"top","color":"4","label":"tested by"},
+		{"id":"decide-guard","fromNode":"deciding-evidence","fromSide":"bottom","toNode":"overreach-guard","toSide":"top","color":"2","label":"do not exceed"},
+		{"id":"template-question","fromNode":"argument-template","fromSide":"right","toNode":"question","toSide":"left","color":"5","label":"source format"}
+	],
+	"metadata":{"version":"1.0-1.0"}
+}

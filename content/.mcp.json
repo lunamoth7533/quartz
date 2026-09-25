@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "obsidian-local": {
+      "command": "/Volumes/NVME-Home/plugins/obsidian-local/scripts/launch_obsidian_local",
+      "args": []
+    },
+    "qmd": {
+      "command": "/Volumes/NVME-Home/.local/bin/qmd",
+      "args": ["--index", "obsidian-vault", "mcp"]
+    }
+  }
+}

@@ -5,23 +5,27 @@ This repository contains a private, source-backed Obsidian research vault. It is
 ## Start here
 
 - [[Research/Home]] - orientation and coverage overview
-- [[Research/Learning Path]] - recommended reading sequence
-- [[Research/Library]] - source library documentation
-- [[Research/Visualizations]] - Dataview dashboards
+- [[Research Atlas]] - entry to the fifteen-domain reference encyclopedia
+- [[Learning Path]] - recommended reading sequence
+- [[Library]] - source library documentation
+- [[Visualizations]] - Dataview dashboards
 - [[Research/Maps/Research Synthesis Map.canvas|Research Synthesis Map]] - full Canvas landscape
-- [[Research/Workflow]] - source-to-claim-to-topic workflow
+- [[Workflow]] - source-to-claim-to-topic workflow
 - [[Research/AGENTS]] - vault-specific instructions for agents
 
 ## Repository layout
 
+- `Research/Home.md` - the entry point
+- `Research/Hubs/` - Research Atlas, Reference Index, Library (with `Library.base`, the native source library), Visualizations and Workflow
 - `Research/Sources/` - one note per paper, official page, or educational source
 - `Research/Topics/` - atomic topic notes with source-linked claims
-- `Research/Maps/` - Markdown navigation maps and Canvas synthesis maps
-- `Research/Arguments/` - open research questions and competing explanations
-- `Research/Templates/` - source, topic, argument, and study-session templates
+- `Research/Maps/` - the fifteen domain maps and the landscape canvases
+- `Research/Learning/` - modules, lessons, study aids and one learning-map canvas per module
+- `Research/Arguments/` - open research questions, competing explanations and their argument maps
+- `Research/Templates/` - source, topic, argument, and study-session templates plus canvas templates
 - `Research/Support/` - downloaded attachments and provenance records
-- `Research/Library.base` - native Obsidian Bases views over the source library
 - `.obsidian/` - vault configuration, appearance, snippets, and theme
+- `CLAUDE.md`, `.claude/`, `.mcp.json` - agent setup: vault rules, the lint hook, and the Obsidian and search MCP servers (see `Research/AGENTS.md`)
 - `.gitignore` - excludes volatile workspace state and local plugin binaries
 
 ## Opening this as an Obsidian vault
@@ -32,12 +36,16 @@ This repository contains a private, source-backed Obsidian research vault. It is
 4. Install the community plugins referenced by `.obsidian/community-plugins.json` if Obsidian does not restore them automatically:
    - Dataview
    - Advanced Canvas
+   - Canvas Mindmap
+   - Canvas Positioning Toolkit
    - Excalidraw
    - Templater
    - PDF Plus
    - Editing Toolbar
    - Callout Manager
    - Obsidian Git
+   - Claudian
+   - Share Note (shares are encrypted by default)
 5. Open [[Research/Home]].
 
 Plugin binaries and machine-local plugin data are intentionally not committed. The tracked configuration records the intended vault setup without bundling third-party code.
@@ -62,6 +70,7 @@ Tracked content includes:
 - Base YAML
 - PDF attachments stored under `Research/Support/`
 - Obsidian appearance, snippets, theme, and stable vault settings
+- Agent setup: `CLAUDE.md`, `.claude/settings.json`, `.claude/hooks/`, `.mcp.json`
 
 Excluded content includes:
 

@@ -9,7 +9,7 @@ tags: [research/learning, research/coverage]
 
 Every topic in `Topics/`, the lesson that teaches it, the module that sequences it, and the number of source records its claims cite. Machine-readable copies of the same data live in `coverage-manifest.json` and `source-receipts.json` in the task workspace.
 
-**Totals.** 70 topics · 70 lessons · 10 module guides · 60 source records · 18 Canvas maps.
+**Totals at the learning build (2026-09-24).** 70 topics · 70 lessons · 10 module guides · 60 source records · 18 Canvas maps.
 
 ## Topics to lessons
 

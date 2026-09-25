@@ -1,0 +1,51 @@
+{
+	"nodes":[
+		{"id":"c0ffee0000000004","type":"group","x":-210,"y":-60,"width":3140,"height":260,"label":"Conditions","color":"1"},
+		{"id":"c0ffee0000000003","type":"group","x":-210,"y":380,"width":3140,"height":260,"label":"Clinical and applied","color":"2"},
+		{"id":"c0ffee0000000002","type":"group","x":-210,"y":820,"width":3140,"height":260,"label":"Mind, computation and method","color":"5"},
+		{"id":"c0ffee0000000001","type":"group","x":-950,"y":450,"width":460,"height":640,"label":"Reference spine","color":"6"},
+		{"id":"c0ffee0000000000","type":"group","x":-210,"y":1260,"width":3140,"height":310,"label":"Biology and chemistry","color":"4"},
+		{"id":"a1b2c3d4e5f60000","type":"file","file":"Research/Hubs/Research Atlas.md","x":-890,"y":510,"width":340,"height":160,"color":"6"},
+		{"id":"a1b2c3d4e5f60001","type":"file","file":"Research/Hubs/Reference Index.md","x":-890,"y":870,"width":340,"height":160,"color":"6"},
+		{"id":"a1b2c3d4e5f60007","type":"file","file":"Research/Maps/Neurobiology Map.md","x":1210,"y":1320,"width":300,"height":140,"color":"4"},
+		{"id":"a1b2c3d4e5f60008","type":"file","file":"Research/Maps/Neurochemistry Map.md","x":530,"y":1320,"width":300,"height":140,"color":"4"},
+		{"id":"a1b2c3d4e5f60009","type":"file","file":"Research/Maps/Neuroanatomy and Systems Neuroscience Map.md","x":1890,"y":1320,"width":300,"height":140,"color":"4"},
+		{"id":"a1b2c3d4e5f60010","type":"file","file":"Research/Maps/Genetics and Neurodevelopment Map.md","x":-150,"y":1320,"width":300,"height":140,"color":"4"},
+		{"id":"a1b2c3d4e5f60011","type":"file","file":"Research/Maps/Neuroendocrinology and Neuroimmunology Map.md","x":2570,"y":1320,"width":300,"height":140,"color":"4"},
+		{"id":"a1b2c3d4e5f60012","type":"file","file":"Research/Maps/Psychology Map.md","x":1210,"y":880,"width":300,"height":140,"color":"5"},
+		{"id":"a1b2c3d4e5f60013","type":"file","file":"Research/Maps/Computational Neuroscience and Brain Theories Map.md","x":750,"y":880,"width":300,"height":140,"color":"5"},
+		{"id":"a1b2c3d4e5f60014","type":"file","file":"Research/Maps/Research Methods and Measurement Map.md","x":1670,"y":880,"width":300,"height":140,"color":"5"},
+		{"id":"a1b2c3d4e5f60015","type":"file","file":"Research/Maps/Pharmacology Map.md","x":530,"y":440,"width":300,"height":140,"color":"2"},
+		{"id":"a1b2c3d4e5f60016","type":"file","file":"Research/Maps/Neurology Map.md","x":1890,"y":440,"width":300,"height":140,"color":"2"},
+		{"id":"a1b2c3d4e5f60017","type":"file","file":"Research/Maps/Clinical Psychiatry and Psychopathology Map.md","x":2295,"y":440,"width":300,"height":140,"color":"2"},
+		{"id":"a1b2c3d4e5f60018","type":"file","file":"Research/Maps/Bipolar I Map.md","x":530,"y":0,"width":300,"height":140,"color":"1"},
+		{"id":"a1b2c3d4e5f60019","type":"file","file":"Research/Maps/ADHD Map.md","x":1210,"y":0,"width":300,"height":140,"color":"1"},
+		{"id":"a1b2c3d4e5f60020","type":"file","file":"Research/Maps/Autism Map.md","x":-150,"y":0,"width":300,"height":140,"color":"1"},
+		{"id":"a1b2c3d4e5f60021","type":"file","file":"Research/Maps/CPTSD Map.md","x":2570,"y":0,"width":300,"height":140,"color":"1"}
+	],
+	"edges":[
+		{"id":"f0e1d2c3b4a50000","fromNode":"a1b2c3d4e5f60000","fromSide":"bottom","toNode":"a1b2c3d4e5f60001","toSide":"top","toEnd":"arrow","label":"index of"},
+		{"id":"f0e1d2c3b4a50016","fromNode":"a1b2c3d4e5f60008","fromSide":"right","toNode":"a1b2c3d4e5f60007","toSide":"left","toEnd":"arrow","label":"mechanisms for"},
+		{"id":"f0e1d2c3b4a50017","fromNode":"a1b2c3d4e5f60009","fromSide":"left","toNode":"a1b2c3d4e5f60007","toSide":"right","toEnd":"arrow","label":"structures of"},
+		{"id":"f0e1d2c3b4a50018","fromNode":"a1b2c3d4e5f60010","fromSide":"bottom","toNode":"a1b2c3d4e5f60007","toSide":"bottom","toEnd":"arrow","label":"builds"},
+		{"id":"f0e1d2c3b4a50019","fromNode":"a1b2c3d4e5f60011","fromSide":"left","toNode":"a1b2c3d4e5f60009","toSide":"right","toEnd":"arrow","label":"regulates"},
+		{"id":"f0e1d2c3b4a50020","fromNode":"a1b2c3d4e5f60012","fromSide":"bottom","toNode":"a1b2c3d4e5f60007","toSide":"top","toEnd":"arrow","label":"supported by"},
+		{"id":"f0e1d2c3b4a50021","fromNode":"a1b2c3d4e5f60013","fromSide":"right","toNode":"a1b2c3d4e5f60012","toSide":"left","toEnd":"arrow","label":"models"},
+		{"id":"f0e1d2c3b4a50022","fromNode":"a1b2c3d4e5f60014","fromSide":"left","toNode":"a1b2c3d4e5f60012","toSide":"right","toEnd":"arrow","label":"validates"},
+		{"id":"f0e1d2c3b4a50023","fromNode":"a1b2c3d4e5f60015","fromSide":"bottom","toNode":"a1b2c3d4e5f60008","toSide":"top","toEnd":"arrow","label":"targets"},
+		{"id":"f0e1d2c3b4a50024","fromNode":"a1b2c3d4e5f60016","fromSide":"bottom","toNode":"a1b2c3d4e5f60009","toSide":"top","toEnd":"arrow","label":"localises"},
+		{"id":"f0e1d2c3b4a50025","fromNode":"a1b2c3d4e5f60017","fromSide":"bottom","toNode":"a1b2c3d4e5f60014","toSide":"top","toEnd":"arrow","label":"measured by"},
+		{"id":"f0e1d2c3b4a50026","fromNode":"a1b2c3d4e5f60018","fromSide":"bottom","toNode":"a1b2c3d4e5f60015","toSide":"top","toEnd":"arrow","label":"treated by"},
+		{"id":"f0e1d2c3b4a50027","fromNode":"a1b2c3d4e5f60019","fromSide":"bottom","toNode":"a1b2c3d4e5f60012","toSide":"top","toEnd":"arrow","label":"explained by"},
+		{"id":"f0e1d2c3b4a50028","fromNode":"a1b2c3d4e5f60020","fromSide":"bottom","toNode":"a1b2c3d4e5f60010","toSide":"top","toEnd":"arrow","label":"architecture"},
+		{"id":"f0e1d2c3b4a50029","fromNode":"a1b2c3d4e5f60021","fromSide":"bottom","toNode":"a1b2c3d4e5f60011","toSide":"top","toEnd":"arrow","label":"stress biology"},
+		{"id":"61495d65eeb09393","fromNode":"a1b2c3d4e5f60000","fromSide":"right","toNode":"c0ffee0000000004","toSide":"left","label":"domain"},
+		{"id":"bc3a34d5092cefa6","fromNode":"a1b2c3d4e5f60000","fromSide":"right","toNode":"c0ffee0000000003","toSide":"left","label":"domain"},
+		{"id":"57289923008cb829","fromNode":"a1b2c3d4e5f60000","fromSide":"right","toNode":"c0ffee0000000002","toSide":"left","label":"domain"},
+		{"id":"bdbe9a91ab80df7f","fromNode":"a1b2c3d4e5f60000","fromSide":"right","toNode":"c0ffee0000000000","toSide":"left","label":"domain"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

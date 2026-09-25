@@ -9,7 +9,7 @@ tags: [research/learning]
 
 This is the entry point to the detailed learning layer. The vault keeps its original shape: `Sources/` holds one record per source with anchored blocks, `Topics/` holds the atomic claims, and `Arguments/` holds open questions. This layer adds the teaching that the atomic notes deliberately skip: a plain-language model, mechanisms, worked examples, misconceptions, source boundaries and retrieval practice.
 
-**Coverage.** 70 lessons, 10 module guides, 70 topics (each with a lesson), 60 source records, a glossary, a study workflow and a coverage matrix that names what is still missing.
+**Coverage.** 70 lessons, 10 module guides, 70 topics (each with a lesson), a glossary, a study workflow and a coverage matrix that names what is still missing. The layer was built on the 60 source records the library held on 2026-09-24; the reference build has since added more, and [[Learning Dashboard]] counts them live.
 
 ## How to use this layer
 

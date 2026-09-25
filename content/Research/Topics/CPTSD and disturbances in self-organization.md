@@ -2,10 +2,15 @@
 note_type: topic
 title: "CPTSD and disturbances in self-organization"
 domain: [psychology]
-condition: [cptsd]
-source_count: 2
+condition: ['cptsd']
+source_count: 6
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology, research/condition/cptsd]
+content_layer: reference
+concept_kind: condition
+description: "The ICD-11 complex PTSD construct, its DSO clusters, the exposure requirement and the instrument used to measure it."
+secondary_domain: [clinical-psychiatry]
+reviewed: 2026-09-25
 ---
 
 # CPTSD and disturbances in self-organization
@@ -17,6 +22,33 @@ tags: [research/topic, research/domain/psychology, research/condition/cptsd]
 - The self-organization disturbances cover affect regulation, a persistently negative self-concept and relational difficulties. [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-dso|Complex PTSD: History and Definitions]]
 - The construct is intended to describe the more complex reactions typical of chronic trauma exposure. [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-aim|ICD-11 complex PTSD editorial]]
 - The three domains come from the ICD-11 criteria and the VA overview rather than from the introductory editorial. [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|AI synthesis: ICD-11 complex PTSD editorial]]
+
+> [!info]- In depth: the DSO constructs and how they are assessed
+> **What the diagnosis adds.** Complex PTSD adds disturbances in self-organization to core PTSD symptoms: problems with affect regulation, a persistently negative self-concept and difficulties in relationships, and it requires that the PTSD criteria are met in addition. Current definitions are symptom-based - trauma type or duration alone does not determine the diagnosis. [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-dso|Complex PTSD: history and definitions]] [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-exposure-required|Complex PTSD: history and definitions]] [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-definition|Complex PTSD: history and definitions]]
+>
+> **The rationale and its provenance.** The editorial introducing ICD-11 complex PTSD describes it as covering the more complex reactions typical of individuals exposed to chronic trauma and expects the distinction to provide greater precision - a rationale rather than a body of evidence, since the editorial presents no data. The three self-organization domains come from the ICD-11 criteria and the VA overview, not from that editorial. [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-aim|ICD-11 complex PTSD editorial]] [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|AI appraisal: ICD-11 complex PTSD editorial]] [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-limit|ICD-11 complex PTSD editorial]]
+>
+> **Evidence for the structure.** The review of studies testing the ICD-11 proposals found general support for the proposed symptom structures - three factors for PTSD, six for complex PTSD - and for the distinction between the disorders, and reported that complex PTSD identifies a group with more multiple and sustained traumas and greater functional impairment. It was written before the final release of ICD-11. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-structure|ICD-11 PTSD proposals review]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-impairment|ICD-11 PTSD proposals review]]
+>
+> **Measurement carries the boundary.** The ITQ was developed as a self-report measure of ICD-11 PTSD and complex PTSD with items selected through item response theory, and the optimised 12-item version showed a latent structure consistent with prior findings in the studied samples; the authors frame the instrument as an evolving standard with sample-dependent properties. Where the boundary between PTSD and complex PTSD falls remains sensitive to measurement development. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-structure|International Trauma Questionnaire]] [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|AI appraisal: ICD-11 PTSD proposals review]]
+>
+> **Reading rule.** Name the system, the instrument and the sample. Nothing here carries diagnostic weight for an individual, and the dissociative subtype is a separate PTSD construct rather than a CPTSD component. [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-definition|The dissociative subtype of PTSD]] [[F93 WHO ICD-11 CDDR#^f93-purpose|ICD-11 CDDR]]
+
+> [!info]- Reference: the DSO constructs and their assessment
+> **Core plus DSO.** Complex PTSD adds disturbances in self-organisation to the core PTSD symptoms: problems with affect regulation, a persistent negative self-concept, and difficulties in relationships. [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-dso|Complex PTSD history and definitions]]
+>
+> **Essential features and course.** ICD-11 specifies the essential features and allows specification of course, so the construct is described at the level of symptom clusters rather than severity ratings. [[F93 WHO ICD-11 CDDR#^f93-structure|ICD-11 CDDR]]
+>
+> **Qualifying exposure.** Exposure to a traumatic event remains necessary; trauma type or duration alone does not determine the diagnosis. [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-definition|Complex PTSD history and definitions]] [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-exposure-required|Complex PTSD history and definitions]]
+>
+> **Instrument.** The International Trauma Questionnaire was developed as a self-report measure of ICD-11 PTSD and complex PTSD, with items selected through item response theory in trauma-exposed samples. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-development|International Trauma Questionnaire]] [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-structure|International Trauma Questionnaire]]
+>
+> **Measurement limits.** Diagnostic rates vary across samples and validation studies, so instrument performance should not be assumed to transfer to a new population. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]]
+
+> [!info]- Further depth: the DSO constructs, their provenance and their measurement
+> Complex PTSD adds affect-regulation problems, a persistently negative self-concept and relational difficulties to core PTSD symptoms, and requires that PTSD criteria are met; the editorial introducing the diagnosis states the rationale without presenting data, and the three domains come from the ICD-11 criteria. The review of the ICD-11 proposals found general support for the structures and reported that complex PTSD identifies a group with more multiple and sustained traumas and greater functional impairment. The ITQ was developed as the self-report measure, with items selected through item response theory and sample-dependent properties. [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-dso|Complex PTSD: history and definitions]] [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|AI appraisal: ICD-11 complex PTSD editorial]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-structure|ICD-11 PTSD proposals review]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-impairment|ICD-11 PTSD proposals review]] [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]]
+>
+> **Cross-domain connection (curation).** The DSO constructs (affect dysregulation, negative self-concept, disturbances in relationships) sit at the boundary with the clinical-psychiatry and psychology domains' work on emotion regulation and interpersonal function - which is why CPTSD evidence has to be read against those domains rather than treated as a standalone category. [[Emotion regulation]] [[PTSD biology and CPTSD evidence limits]]
 
 ## Limitation or common misconception
 

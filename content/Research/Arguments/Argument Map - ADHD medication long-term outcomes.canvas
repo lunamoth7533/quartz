@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"frame","type":"group","x":-80,"y":-80,"width":2600,"height":1548,"color":"6","label":"Argument synthesis"},
+		{"id":"legend","type":"text","text":"### Legend\n\nGreen: support for the framing.\nOrange: tension or counter-evidence.\nPurple: deciding evidence and hypotheses.\nEdges label the relationship, not proof.","x":0,"y":0,"width":440,"height":174,"color":"5"},
+		{"id":"question","type":"text","text":"### Question\n\nDo short-term symptom gains translate into long-term function, quality of life and safety?","x":990,"y":0,"width":460,"height":116,"color":"2"},
+		{"id":"for-0","type":"file","file":"Research/Sources/P39701638 Ostinelli 2025 Comparative interventions for ADHD.md","x":0,"y":464,"width":440,"height":200},
+		{"id":"guard","type":"text","text":"### Overreach guard\n\nA symptom average is not a life outcome, and an absence of long-term evidence is not evidence of absence.","x":2000,"y":0,"width":440,"height":146,"color":"2"},
+		{"id":"deciding","type":"text","text":"### Evidence that would decide\n\nRandomised long-term trials where feasible, and large prospective cohorts that record treatment exposure, functional outcomes and harms with pre-specified confounding control.","x":990,"y":1214,"width":460,"height":174,"color":"6"},
+		{"id":"against-0","type":"file","file":"Research/Sources/P30097390 Cortese 2018 ADHD medication efficacy and tolerability.md","x":2000,"y":334,"width":440,"height":200},
+		{"id":"against-2","type":"file","file":"Research/Topics/Short-term versus long-term outcomes.md","x":2000,"y":854,"width":440,"height":200},
+		{"id":"against-1","type":"file","file":"Research/Sources/P40948064 Cortese 2025 ADHD in adults evidence base.md","x":2000,"y":594,"width":440,"height":200},
+		{"id":"for-1","type":"file","file":"Research/Learning/Lessons/M08 ADHD/Lesson - ADHD medication evidence.md","x":0,"y":724,"width":440,"height":200},
+		{"id":"argument","type":"file","file":"Research/Arguments/Argument - Does ADHD medication change long-term outcomes.md","x":990,"y":584,"width":460,"height":220}
+	],
+	"edges":[
+		{"id":"edge-for-0","fromNode":"for-0","fromSide":"right","toNode":"argument","toSide":"left","color":"4","label":"short-term symptom benefit in adults"},
+		{"id":"edge-for-1","fromNode":"for-1","fromSide":"right","toNode":"argument","toSide":"left","color":"4","label":"how the syntheses were read"},
+		{"id":"edge-against-0","fromNode":"against-0","fromSide":"left","toNode":"argument","toSide":"right","color":"2","label":"insufficient data at 26 and 52 weeks"},
+		{"id":"edge-against-1","fromNode":"against-1","fromSide":"left","toNode":"argument","toSide":"right","color":"2","label":"long-term outcomes remain open"},
+		{"id":"edge-against-2","fromNode":"against-2","fromSide":"left","toNode":"argument","toSide":"right","color":"2","label":"claim-level summary"},
+		{"id":"edge-deciding","fromNode":"deciding","fromSide":"top","toNode":"argument","toSide":"bottom","color":"6","label":"would settle"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

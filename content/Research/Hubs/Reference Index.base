@@ -1,0 +1,474 @@
+filters:
+  or:
+    - file.inFolder("Research/Topics")
+    - file.inFolder("Research/Sources")
+    - and:
+        - file.inFolder("Research/Maps")
+        - note_type == "map"
+properties:
+  title:
+    displayName: Title
+  description:
+    displayName: Description
+  concept_kind:
+    displayName: Concept kind
+  content_layer:
+    displayName: Layer
+  domain:
+    displayName: Domain
+  secondary_domain:
+    displayName: Secondary domain
+  condition:
+    displayName: Condition
+  source_count:
+    displayName: Sources
+  reviewed:
+    displayName: Reviewed
+  note_type:
+    displayName: Note type
+  access_level:
+    displayName: Access
+  verification:
+    displayName: Verification
+  verified_on:
+    displayName: Verified on
+  authors:
+    displayName: Authors
+  year:
+    displayName: Year
+  journal:
+    displayName: Journal
+  file.folder:
+    displayName: Folder
+views:
+  - type: table
+    name: Concepts A-Z
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+    order:
+      - file.name
+      - title
+      - concept_kind
+      - domain
+      - condition
+      - source_count
+      - reviewed
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: By concept kind
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+    groupBy:
+      property: concept_kind
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - domain
+      - condition
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Neurobiology"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("neurobiology")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Neurochemistry"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("neurochemistry")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Psychology"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("psychology")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Pharmacology"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("pharmacology")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Neurology"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("neurology")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Bipolar I"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - or:
+            - domain.contains("bipolar-i")
+            - condition.contains("bipolar-i")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: ADHD"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - or:
+            - domain.contains("adhd")
+            - condition.contains("adhd")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Autism"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - or:
+            - domain.contains("autism")
+            - condition.contains("autism")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: CPTSD"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - or:
+            - domain.contains("cptsd")
+            - condition.contains("cptsd")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Neuroanatomy and systems"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("neuroanatomy-systems")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Genetics and neurodevelopment"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("genetics-neurodevelopment")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Neuroendocrine and neuroimmune"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("neuroendocrinology-neuroimmunology")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Computational and theories"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("computational-brain-theories")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Clinical psychiatry"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - domain.contains("clinical-psychiatry")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Domain: Methods and measurement"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - or:
+            - domain.contains("research-methods")
+            - domain.contains("research-literacy")
+    order:
+      - file.name
+      - concept_kind
+      - condition
+      - secondary_domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Domain (combined membership)
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - domain
+      - file.name
+      - concept_kind
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Condition: Bipolar I"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - condition.contains("bipolar-i")
+    order:
+      - file.name
+      - concept_kind
+      - domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Condition: ADHD"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - condition.contains("adhd")
+    order:
+      - file.name
+      - concept_kind
+      - domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Condition: Autism"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - condition.contains("autism")
+    order:
+      - file.name
+      - concept_kind
+      - domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: "Condition: CPTSD"
+    filters:
+      and:
+        - file.inFolder("Research/Topics")
+        - content_layer == "reference"
+        - condition.contains("cptsd")
+    order:
+      - file.name
+      - concept_kind
+      - domain
+      - source_count
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Domain hubs
+    filters:
+      and:
+        - file.inFolder("Research/Maps")
+        - note_type == "map"
+        - content_layer == "reference"
+    order:
+      - file.name
+      - title
+      - description
+      - domain
+      - reviewed
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Sources by access
+    filters:
+      and:
+        - file.inFolder("Research/Sources")
+        - note_type == "source"
+    groupBy:
+      property: access_level
+      direction: ASC
+    order:
+      - access_level
+      - file.name
+      - title
+      - domain
+      - condition
+      - verification
+      - verified_on
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Sources by verification
+    filters:
+      and:
+        - file.inFolder("Research/Sources")
+        - note_type == "source"
+    groupBy:
+      property: verification
+      direction: ASC
+    order:
+      - verification
+      - file.name
+      - access_level
+      - domain
+      - verified_on
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Sources A-Z
+    filters:
+      and:
+        - file.inFolder("Research/Sources")
+        - note_type == "source"
+    order:
+      - file.name
+      - title
+      - authors
+      - year
+      - journal
+      - access_level
+      - verification
+    sort:
+      - property: file.name
+        direction: ASC

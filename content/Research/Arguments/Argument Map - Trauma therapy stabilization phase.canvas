@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"frame","type":"group","x":-80,"y":-80,"width":2874,"height":1288,"color":"6","label":"Argument synthesis"},
+		{"id":"argument","type":"file","x":1127,"y":454,"width":460,"height":220,"file":"Research/Arguments/Argument - Does trauma therapy need a stabilization phase.md"},
+		{"id":"question","type":"text","x":1127,"y":0,"width":460,"height":116,"color":"2","text":"### Question\n\nDoes the comparative evidence support requiring stabilization before trauma processing?"},
+		{"id":"deciding","type":"text","x":1127,"y":954,"width":460,"height":174,"color":"6","text":"### Evidence that would decide\n\nTrials that randomise the sequence of the same components rather than comparing packaged protocols, with baseline moderator analyses for dissociation and affect regulation, and full harm and dropout reporting."},
+		{"id":"guard","type":"text","x":2274,"y":0,"width":440,"height":116,"color":"2","text":"### Overreach guard\n\nThe comparison is between protocols, not a randomised test of sequencing inside one protocol."},
+		{"id":"legend","type":"text","x":0,"y":0,"width":440,"height":174,"color":"5","text":"### Legend\n\nGreen: support for the framing.\nOrange: tension or counter-evidence.\nPurple: deciding evidence and hypotheses.\nEdges label the relationship, not proof."},
+		{"id":"for-0","type":"file","x":0,"y":334,"width":440,"height":200,"file":"Research/Sources/P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy.md"},
+		{"id":"for-1","type":"file","x":0,"y":594,"width":440,"height":200,"file":"Research/Learning/Lessons/M10 CPTSD/Lesson - Phase-based trauma therapy evidence.md"},
+		{"id":"against-0","type":"file","x":2274,"y":334,"width":440,"height":200,"file":"Research/Sources/P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy.md"},
+		{"id":"against-1","type":"file","x":2274,"y":594,"width":440,"height":200,"file":"Research/Learning/Lessons/M10 CPTSD/Lesson - Psychological interventions for complex trauma.md"}
+	],
+	"edges":[
+		{"id":"edge-for-0","fromNode":"for-0","fromSide":"right","toNode":"argument","toSide":"left","label":"multi-phase designs did better on some outcomes","color":"4"},
+		{"id":"edge-for-1","fromNode":"for-1","fromSide":"right","toNode":"argument","toSide":"left","label":"how to read the contrast","color":"4"},
+		{"id":"edge-against-0","fromNode":"against-0","fromSide":"left","toNode":"argument","toSide":"right","label":"no clear difference across most outcomes","color":"2"},
+		{"id":"edge-against-1","fromNode":"against-1","fromSide":"left","toNode":"argument","toSide":"right","label":"pooled effects and moderators","color":"2"},
+		{"id":"edge-deciding","fromNode":"deciding","fromSide":"top","toNode":"argument","toSide":"bottom","label":"would settle","color":"6"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
