@@ -8,7 +8,7 @@ configuration:
   # Personal, local library: no analytics provider and no added telemetry.
   analytics: null
   locale: en-US
-  baseUrl: localhost:8080
+  baseUrl: lunamoth7533.github.io/quartz
   # `Research/AGENTS.md` and `Research/Templates/**` are deliberately NOT listed
   # here: other notes link to them, and ignoring them made those references 404.
   # They are built and marked unlisted instead (research-atlas/utility-pages.ts),
@@ -172,7 +172,9 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    # Disabled: default project URL (lunamoth7533.github.io/quartz), no
+    # custom domain, so CNAME emission is unused.
+    enabled: false
   # Canvas and Base pages are provided by the site's own page types
   # (`research-atlas/page-types.ts`) so the persistent quick navigation reaches
   # those surfaces. Both reuse the installed matchers, generators, frames and

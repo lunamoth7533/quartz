@@ -11,6 +11,7 @@ import {
   AtlasUtilityPages,
 } from "./research-atlas"
 import { AtlasBrandAssets } from "./research-atlas/brand"
+import { AtlasSelfHostedFonts } from "./research-atlas/hosting"
 
 // The canvas frame ships with the canvas page type; register it here because the
 // site's own canvas page type (which adds the persistent nav) replaces the YAML
@@ -41,6 +42,13 @@ config.plugins.pageTypes = [
   AtlasUtilityFolderPages(undefined),
 ]
 config.plugins.emitters = [...(config.plugins.emitters ?? []), AtlasBrandAssets(undefined)]
+
+// The fonts plugin hardcodes an apex-domain stylesheet link; wrap its
+// transformer so the self-hosted fonts resolve under the project prefix on
+// every page (head, nested notes, and the 404 page).
+config.plugins.transformers = (config.plugins.transformers ?? []).map((transformer) =>
+  transformer.name === "Fonts" ? AtlasSelfHostedFonts(transformer) : transformer,
+)
 
 export default config
 
