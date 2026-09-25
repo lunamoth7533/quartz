@@ -4,6 +4,7 @@ title: "{{title}}"
 domain: []
 condition: []
 source_count: 0
+up: ""
 cssclasses: [research-topic]
 tags: [research/topic]
 ---

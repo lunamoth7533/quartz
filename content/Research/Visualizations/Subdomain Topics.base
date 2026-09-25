@@ -1,0 +1,31 @@
+filters:
+  and:
+    - note_type == "topic"
+    - file.folder == this.file.folder
+properties:
+  concept_kind:
+    displayName: Kind
+  source_count:
+    displayName: Sources
+  reviewed:
+    displayName: Reviewed
+  description:
+    displayName: Summary
+views:
+  - type: cards
+    name: Topics
+    order:
+      - file.name
+      - concept_kind
+      - source_count
+      - description
+  - type: table
+    name: Topic table
+    order:
+      - file.name
+      - concept_kind
+      - source_count
+      - reviewed
+      - description
+    summaries:
+      source_count: Sum

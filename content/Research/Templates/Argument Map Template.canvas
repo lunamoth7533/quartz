@@ -7,7 +7,7 @@
 		{"id":"evidence-against","type":"text","text":"### Evidence against\n\nInclude rating bias, confounding, missing outcomes and follow-up window.","x":920,"y":745,"width":380,"height":116,"color":"4"},
 		{"id":"explanation-a","type":"text","text":"### Explanation A\n\nWrite the mechanism or interpretation.\n\nThen link the strongest source block that supports it.","x":420,"y":430,"width":380,"height":165,"color":"3"},
 		{"id":"question","type":"text","text":"## Research question\n\nState one question that evidence can answer.\n\n**Origin:** AI starter, literature gap, or your own reading\n**Status:** open, provisional, or resolved\n**Current confidence:** low, medium or high","x":880,"y":0,"width":460,"height":201,"color":"6"},
-		{"id":"argument-template","type":"file","file":"Research/Templates/Argument template.md","x":0,"y":0,"width":300,"height":260},
+		{"id":"argument-template","type":"file","file":"Research/Templates/Argument template.md","x":0,"y":0,"width":300,"height":852},
 		{"id":"explanation-b","type":"text","text":"### Explanation B\n\nWrite the strongest alternative.\n\nLink a different source or a different reading of the same source.","x":920,"y":430,"width":380,"height":165,"color":"3"},
 		{"id":"explanation-c","type":"text","text":"### Boundary condition\n\nWhere does each explanation stop working?\n\nName population, timeframe, measurement or dose context.","x":1420,"y":430,"width":380,"height":165,"color":"3"}
 	],

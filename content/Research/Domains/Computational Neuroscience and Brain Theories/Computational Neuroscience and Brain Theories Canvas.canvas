@@ -1,0 +1,310 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Computational Neuroscience and Brain Theories\n\nDomain hub: formal models of neural computation - coding, dynamics, learning, inference - and the theories of brain function built on them.\n\n[[Computational Neuroscience and Brain Theories Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Foundations",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1242
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Computational Neuroscience and Brain Theories - Foundations|Foundations index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Dynamical systems models]]**\n*theory* - 4 sources\n\nDescribing neural activity as trajectories through a state space, and what such models do and do not explain.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Levels of analysis]]**\n*framework* - 7 sources\n\nWhy the same system is described at molecular, cellular, circuit, cognitive and behavioural levels, and what each level can and cannot explain.",
+			"x": 30,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[Model comparison and identifiability]]**\n*method* - 4 sources\n\nHow competing models are compared, why a good fit is weak evidence, and what parameter recovery adds.",
+			"x": 30,
+			"y": 1040,
+			"width": 360,
+			"height": 194,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Neural coding and population codes]]**\n*theory* - 5 sources\n\nHow information is represented in firing patterns: rate, timing and population-level descriptions, and the evidence that distinguishes them.",
+			"x": 30,
+			"y": 1294,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Learning and inference",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 1544
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Computational Neuroscience and Brain Theories - Learning and inference|Learning and inference index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Active inference and free energy]]**\n*theory* - 5 sources\n\nA framework that treats action, perception and learning as minimising a single quantity, and the criticisms that scope raises.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Bayesian inference and predictive processing]]**\n*theory* - 3 sources\n\nPerception as probabilistic inference, the predictive-coding family of algorithms, and the differences between them.",
+			"x": 450,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Model-based and model-free control]]**\n*theory* - 4 sources\n\nTwo ways of choosing actions - cached values versus an internal model of the world - and how their signatures are measured.",
+			"x": 450,
+			"y": 1064,
+			"width": 360,
+			"height": 194,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t1_3",
+			"type": "text",
+			"text": "**[[Reinforcement learning]]**\n*theory* - 4 sources\n\nLearning from reward: value functions, policies, the exploration-exploitation trade-off, and why the framework fits neural data.",
+			"x": 450,
+			"y": 1318,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t1_4",
+			"type": "text",
+			"text": "**[[Reward prediction error]]**\n*theory* - 4 sources\n\nThe signal proposed to drive learning from reward, its neural correlates, and the conditions under which the mapping is disputed.",
+			"x": 450,
+			"y": 1596,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Networks and theories",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 988
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Computational Neuroscience and Brain Theories - Networks and theories|Networks and theories index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Global workspace and integrated information]]**\n*theory* - 5 sources\n\nTwo influential theories of consciousness, their core commitments and their different predictions.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Network and connectome models]]**\n*theory* - 7 sources\n\nDescribing the brain as a network: nodes, edges, topology and dynamics, and the assumptions these descriptions carry.",
+			"x": 870,
+			"y": 786,
+			"width": 360,
+			"height": 194,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Theories of consciousness compared]]**\n*framework* - 6 sources\n\nHow to compare theories of consciousness: shared commitments, differing predictions, and the problem of testing them against each other.",
+			"x": 870,
+			"y": 1040,
+			"width": 360,
+			"height": 218,
+			"color": "#7C7CF5"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1670
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[P31769410 Wilson 2019 Computational modelling rules]]\nabstract checked - cited by 10 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[P20068583 Friston 2010 Free-energy principle]]\nabstract checked - cited by 6 topics here",
+			"x": 1290,
+			"y": 580,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P26809759 Spratling 2017 Predictive coding algorithms]]\nabstract checked - cited by 6 topics here",
+			"x": 1290,
+			"y": 776,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P23040802 Marder 2012 Neuromodulation]]\nfull text checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 972,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[F123 Sutton and Barto Reinforcement Learning]]\neducational page - cited by 3 topics here",
+			"x": 1290,
+			"y": 1168,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[P22722855 Churchland 2012 Neural population dynamics]]\nabstract checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1364,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[P27069377 Schultz 2016 Reward prediction error]]\nfull text checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1560,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[P29760524 Berke 2018 What does dopamine mean]]\nfull text checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1780,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

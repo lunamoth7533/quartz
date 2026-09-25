@@ -45,11 +45,20 @@ export interface QueryColumn {
   label: string
 }
 
+/** A Dataview FROM source: folders, tags, `-` negation, AND / OR, parentheses. */
+export type QuerySource =
+  | { kind: "folder"; path: string }
+  | { kind: "tag"; tag: string }
+  | { kind: "not"; value: QuerySource }
+  | { kind: "and" | "or"; left: QuerySource; right: QuerySource }
+
 export interface DashboardQuery {
   kind: "table" | "list"
   withoutId: boolean
   columns: QueryColumn[]
+  /** The folder when FROM names a single folder, else null (see `source`). */
   from: string | null
+  source: QuerySource | null
   /**
    * Data steps in the order the author wrote them. Dataview applies clauses in
    * authored order (so `FLATTEN ... WHERE ...` filters after flattening while
@@ -213,6 +222,12 @@ class ExpressionParser {
   }
 
   private parseUnary(): Expr {
+    // Dataview negates with `!expr` as well as `not expr`; `!=` is its own token.
+    const tok = this.peek()
+    if (tok?.type === "punct" && tok.value === "!") {
+      this.pos++
+      return { kind: "not", value: this.parseUnary() }
+    }
     if (this.eatKeyword("not")) {
       return { kind: "not", value: this.parseUnary() }
     }
@@ -424,6 +439,7 @@ export function parseQuery(source: string): DashboardQuery {
     withoutId,
     columns,
     from: null,
+    source: null,
     steps: [],
     where: null,
     flatten: [],
@@ -439,9 +455,8 @@ export function parseQuery(source: string): DashboardQuery {
             "FROM must come before WHERE/FLATTEN/GROUP BY/SORT, as in the authored queries",
           )
         }
-        const match = /^("([^"]*)"|'([^']*)'|[A-Za-z0-9_./ -]+)$/.exec(clause.body.trim())
-        if (!match) throw new UnsupportedQueryError(`unsupported FROM clause: ${clause.body}`)
-        query.from = (match[2] ?? match[3] ?? match[1]).trim()
+        query.source = parseSource(clause.body)
+        query.from = query.source.kind === "folder" ? query.source.path : null
         break
       }
       case "where": {
@@ -452,8 +467,11 @@ export function parseQuery(source: string): DashboardQuery {
       }
       case "flatten": {
         const { expr, alias } = splitAlias(clause.body)
-        if (!alias) throw new UnsupportedQueryError(`FLATTEN requires an alias: ${clause.body}`)
-        const parsed = { expr: parseExpression(expr), alias }
+        // Dataview lets `FLATTEN field` keep the field's own name; anything
+        // computed still needs an explicit alias.
+        const name = alias ?? (/^[A-Za-z_]\w*$/.test(expr.trim()) ? expr.trim() : undefined)
+        if (!name) throw new UnsupportedQueryError(`FLATTEN requires an alias: ${clause.body}`)
+        const parsed = { expr: parseExpression(expr), alias: name }
         query.flatten.push(parsed)
         query.steps.push({ kind: "flatten", ...parsed })
         break
@@ -558,7 +576,16 @@ function asArray(value: unknown): unknown[] {
   return Array.isArray(value) ? value : [value]
 }
 
+/** Dates compare as ISO strings: the form authors write and YAML dates normalise to. */
+function isoDate(value: unknown): string | null {
+  if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value.toISOString()
+  const text = value == null ? "" : String(value).trim()
+  return /^\d{4}-\d{2}(-\d{2})?/.test(text) ? text : null
+}
+
 function compareValues(left: unknown, right: unknown): number {
+  if (left instanceof Date) left = isoDate(left)
+  if (right instanceof Date) right = isoDate(right)
   const leftEmpty = left == null || left === ""
   const rightEmpty = right == null || right === ""
   if (leftEmpty && rightEmpty) return 0
@@ -650,6 +677,14 @@ export function evaluateExpression(expr: Expr, row: Record<string, unknown>): un
           }
           return total
         }
+        case "join":
+          // Dataview joins list items with ", " unless a separator is given.
+          return asArray(args[0])
+            .filter((item) => item != null)
+            .map(String)
+            .join(args.length > 1 ? String(args[1]) : ", ")
+        case "date":
+          return isoDate(args[0])
         default:
           throw new UnsupportedQueryError(`unsupported function ${expr.name}()`)
       }
@@ -759,8 +794,72 @@ export function toQueryRow(note: SourceNote): QueryRow {
   return row
 }
 
-export function selectRows(rows: QueryRow[], from: string | null): QueryRow[] {
+/**
+ * Parses a FROM body. A lone folder keeps the original rule (quoted or bare);
+ * anything else is Dataview's source grammar over quoted folders and #tags.
+ */
+export function parseSource(body: string): QuerySource {
+  const trimmed = body.trim()
+  const lone = /^("([^"]*)"|'([^']*)'|[A-Za-z0-9_./ -]+)$/.exec(trimmed)
+  if (lone && !trimmed.startsWith("-")) {
+    return { kind: "folder", path: (lone[2] ?? lone[3] ?? lone[1]).trim() }
+  }
+  const tokens = trimmed.match(/"[^"]*"|'[^']*'|#[^\s()]+|[()-]|[A-Za-z]+/g) ?? []
+  let pos = 0
+  const fail = (): never => {
+    throw new UnsupportedQueryError(`unsupported FROM clause: ${body}`)
+  }
+  const keyword = (word: string) => tokens[pos]?.toLowerCase() === word && ++pos > 0
+  const either = (): QuerySource => {
+    let left = both()
+    while (keyword("or")) left = { kind: "or", left, right: both() }
+    return left
+  }
+  const both = (): QuerySource => {
+    let left = term()
+    while (keyword("and")) left = { kind: "and", left, right: term() }
+    return left
+  }
+  const term = (): QuerySource => {
+    const tok = tokens[pos++] ?? fail()
+    if (tok === "-") return { kind: "not", value: term() }
+    if (tok === "(") {
+      const inner = either()
+      if (tokens[pos++] !== ")") fail()
+      return inner
+    }
+    if (tok.startsWith("#")) return { kind: "tag", tag: tok.slice(1).toLowerCase() }
+    if (/^["']/.test(tok)) return { kind: "folder", path: tok.slice(1, -1).trim() }
+    return fail()
+  }
+  const source = either()
+  if (pos !== tokens.length) fail()
+  return source
+}
+
+function matchesSource(row: QueryRow, source: QuerySource): boolean {
+  switch (source.kind) {
+    case "folder": {
+      const folder = source.path.replace(/^\/+|\/+$/g, "")
+      return !folder || row.file.path.startsWith(`${folder}/`) || row.file.path === `${folder}.md`
+    }
+    case "tag":
+      // Dataview matches a tag and its nested tags, case-insensitively.
+      return row.file.tags.some((tag) => {
+        const t = tag.replace(/^#/, "").toLowerCase()
+        return t === source.tag || t.startsWith(`${source.tag}/`)
+      })
+    case "not":
+      return !matchesSource(row, source.value)
+    case "and":
+      return matchesSource(row, source.left) && matchesSource(row, source.right)
+    case "or":
+      return matchesSource(row, source.left) || matchesSource(row, source.right)
+  }
+}
+
+export function selectRows(rows: QueryRow[], from: QuerySource | string | null): QueryRow[] {
   if (!from) return rows
-  const folder = from.replace(/^\/+|\/+$/g, "")
-  return rows.filter((row) => row.file.path.startsWith(`${folder}/`))
+  const source: QuerySource = typeof from === "string" ? { kind: "folder", path: from } : from
+  return rows.filter((row) => matchesSource(row, source))
 }

@@ -9,13 +9,13 @@ tags:
 
 # Library
 
-`Library.base` is the operational article library: one row per source record, filtered to `Research/Sources` and `note_type: source`. Every view is a native Bases view, so sorting, grouping and export stay inside Obsidian.
+`Library.base` is the operational article library: one row per source record, filtered to `note_type: source`, wherever the record is filed (each domain keeps its sources in `Articles/` and `Pages/`). Every view is a native Bases view, so sorting, grouping and export stay inside Obsidian.
 
 Current coverage, counted live by source kind:
 
 ```dataview
 TABLE WITHOUT ID source_kind AS "Source kind", length(rows) AS "Records"
-FROM "Research/Sources"
+FROM #research/source AND -"Research/Templates"
 WHERE note_type = "source"
 GROUP BY source_kind
 ```
@@ -46,7 +46,8 @@ Columns to read first: `verification` (what was actually checked), `access_level
 
 The Canvas layer lives beside the notes it maps:
 
-- `Maps/` - [[Reading Queue Map.canvas]], [[Research Synthesis Map.canvas]] and [[Reference Atlas.canvas]]
+- `Visualizations/` - [[Reading Queue Map.canvas]], [[Research Synthesis Map.canvas]] and [[Reference Atlas.canvas]]
+- `Domains/<Domain>/` - one domain canvas beside each domain map
 - `Templates/` - [[Evidence Map Template.canvas]], [[Argument Map Template.canvas]] and [[Topic System Template.canvas]]
 - `Learning/Maps/` - one learning map per module
 - `Arguments/` - one argument map per starter question

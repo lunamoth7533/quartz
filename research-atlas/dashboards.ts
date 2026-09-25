@@ -221,7 +221,7 @@ export function renderBlock(
   const context: RenderContext = { currentSlug, knownSlugs: index.slugs }
   try {
     const query = parseQuery(block.source)
-    const selected = selectRows(index.rows, query.from)
+    const selected = selectRows(index.rows, query.source ?? query.from)
     const results = evaluateQuery(query, selected)
     const rendered = renderDashboard(query, results, context, block.source)
     return { html: rendered.html, status: rendered.status, rowCount: rendered.rowCount }

@@ -4,10 +4,12 @@ This folder is a source-backed research library inside an Obsidian vault. It cov
 
 ## Where things live
 
-- `Home.md` - the entry point. `Hubs/` holds the other entry and index notes: `Research Atlas`, `Reference Index` (with `Reference Index.base` and the two relationship registers), `Library` (with `Library.base`, the native article library), `Visualizations` and `Workflow`.
-- `Sources/` - one record per paper or official/educational page. Each note separates `## Reported findings (checked abstract)`, `## Scope as reported` and `## Analyst cautions (AI synthesis)`; topics cite the anchors.
-- `Topics/` - atomic notes. Every claim links to a source block as `[[Source note#^anchor]]`. Long-form depth ("In depth", "Reference", "Further depth") sits in collapsed `> [!info]-` callouts after the core sections.
-- `Maps/` - the fifteen domain maps plus the landscape canvases (Research Synthesis Map, Reference Atlas, Reading Queue Map).
+- `Home.md` - the entry point. `Hubs/` holds the other entry and index notes: `Research Atlas`, `Reference Index` (with `Reference Index.base` and the two relationship registers), `Library` (with `Library.base`, the native article library) and `Workflow`.
+- `Domains/` - the fifteen domains in [[Research Atlas]] order. Each domain folder holds its map (`<Domain> Map`), a snapshot canvas (`<Domain> Canvas`), one folder per subdomain, and `Articles/` (papers) and `Pages/` (official and educational pages). The subdomains are the groups of the map's concept register; each subdomain folder holds a `<Domain> - <Group>` index note and its topic notes. A topic is filed under the one register that lists it (a discipline map wins over a condition map); a source record is filed once, under its own `domain`, however many topics cite it.
+- Hierarchy: a topic's `up` names its subdomain note, a subdomain's `up` names the domain map, and a map's `up` names [[Research Atlas]]. Breadcrumbs, ExcaliBrain and the graph read these links.
+- Topic notes (`note_type: topic`) are atomic. Every claim links to a source block as `[[Source note#^anchor]]`. Each point is stated once: mechanism in `## How it works` (bold lead-in paragraphs, ending with a **Reading rule**), evidence strength in `## Evidence and status`, and the cross-domain curation paragraph at the end of `## Connections`. Older notes keep `## Supported claims` first and carry the curation paragraph at the end of `## How it works`.
+- Source records (`note_type: source`) separate `## Reported findings (checked abstract)`, `## Scope as reported` and `## Analyst cautions (AI synthesis)`; topics cite the anchors.
+- `Visualizations/` - the visual index (`Visualizations.md`: graph views, charts and dashboards), `Knowledge Explorer.base`, the two Bases that maps and subdomain notes embed (`Domain Contents`, `Subdomain Topics`), and the landscape canvases (Research Synthesis Map, Reference Atlas, Reading Queue Map).
 - `Learning/` - modules, lessons, study aids, `Learning Path`, `Learning Dashboard`, `Learning Library.base`, and one learning-map canvas per module in `Learning/Maps/`.
 - `Arguments/` - open questions, each beside its argument-map canvas. `Templates/` - note templates and the three canvas templates. `Support/` - attachments with provenance.
 
@@ -25,7 +27,10 @@ This folder is a source-backed research library inside an Obsidian vault. It cov
 - `.claude/hooks/vault_lint.py` checks links, heading and block anchors, canvases (JSON, ids, edges, file nodes, overlaps, group borders, text overflow, edges that loop back), Bases and frontmatter. `python3 .claude/hooks/vault_lint.py` audits the whole vault and should print `0 errors · 0 warnings`. Claude Code runs it after every Write or Edit (`.claude/settings.json`) and feeds errors back. `python3 .claude/hooks/test_vault_lint.py` proves it still catches seeded defects.
 - `.mcp.json` registers two MCP servers: `obsidian-local` (typed note operations through the official Obsidian CLI: read, search, create, link-aware move, properties, backlinks) and `qmd` (semantic search over the `obsidian-vault` index, refreshed in the background at every Claude Code session start; by hand: `qmd --index obsidian-vault update` then `qmd --index obsidian-vault embed`).
 - Move or rename files through Obsidian (the app, or `obsidian vault="Obsidian Vault" move path=... to=...`) so wikilinks and canvas file paths update. `obsidian vault="Obsidian Vault" unresolved` and `orphans` are quick health checks.
-- The CSS snippet `research-library` colours note titles by type and hides the properties table inside canvas file cards.
+- The CSS snippet `research-library` colours note titles by type, hides the properties table inside canvas file cards, quiets graph links and fits dashboard diagrams to the page.
+- Queries select notes by `note_type` or tag, never by folder, so a note can move between domains without breaking a view; the vault check counts `source_count` against linked notes whose `note_type` is `source`.
+- Obsidian setup: graph views are bookmarks (`.obsidian/bookmarks.json`, group *Graph views*); the global graph colours by domain family and Extended Graph shapes nodes by `note_type`; the file-explorer order is `Support/Explorer order.md` (Custom File Explorer sorting); icons come from Iconize. The settings of these display plugins are tracked in git; token-bearing plugin data is not.
+- Adding a topic: file it in its subdomain folder and set `up`. Adding a subdomain: create its folder and a `<Domain> - <Group>` index note (`note_type: subdomain`, `up` to the map), link its label in the map's concept register, and add it to `Explorer order.md`.
 
 ### Canvas conventions
 
@@ -53,7 +58,7 @@ Older standalone source-build payloads must not be replayed over the learning la
 
 ## Reference encyclopedia
 
-The reference layer is `Hubs/Research Atlas.md`, `Maps/`, `Topics/`, `Sources/`, `Hubs/Reference Index.md`, `Hubs/Reference Index.base` and `Maps/Reference Atlas.canvas`. Anchors, access labels, reading status and the separation of reported findings from appraisal govern every note, including the lessons, concepts, hubs and source records.
+The reference layer is `Hubs/Research Atlas.md`, the maps, topics and source records under `Domains/`, `Hubs/Reference Index.md`, `Hubs/Reference Index.base` and `Visualizations/Reference Atlas.canvas`. Anchors, access labels, reading status and the separation of reported findings from appraisal govern every note, including the lessons, concepts, hubs and source records.
 
 ### Fields this layer adds
 
@@ -76,7 +81,8 @@ The live vault was tidied by hand on request. Git history holds every pre-image.
 
 - **Moved (through Obsidian, links updated):** `Research Atlas`, `Reference Index` (note, Base, both registers), `Library` (note and Base), `Visualizations` and `Workflow` into `Hubs/`; `Learning Path`, `Learning Dashboard` and `Learning Library.base` into `Learning/`; learning-map canvases into `Learning/Maps/`; argument-map canvases into `Arguments/`; the three canvas templates into `Templates/`.
 - **Canvases:** every canvas re-laid out (geometry and edge sides only), text cards switched from `<br>` to newlines, the Reference Atlas's fifteen identical "domain" spokes replaced by one "domain" edge per domain group, and the learning maps' per-edge "grounded by" labels moved into each legend.
-- **Topics:** depth sections folded into collapsed callouts and gathered after the core sections; the text of every line is unchanged.
+- **Topics:** the repeated depth sections ("In depth", "Further depth", "Reference") were merged into the core sections so each point is stated once. Every source link, AI-appraisal label, reading rule and curation paragraph was kept; each note was checked against its pre-merge text for lost links and for sentences whose content disappeared. Git history holds the pre-merge text.
+- **Domains:** `Topics/`, `Sources/` and `Maps/` were replaced by `Domains/` (domain, subdomain, topic; `Articles/` and `Pages/` per domain), and the Visualizations hub and landscape canvases moved into `Visualizations/`, all through Obsidian's rename so links and canvas paths updated. Folder-based Dataview and Bases filters now select by `note_type` or tag; each topic gained an `up` property and each subdomain an index note.
 - **Repair:** `Argument - Does ADHD medication change long-term outcomes` had a stale copy of the topic "ADHD diagnosis and measurement" (frontmatter included) prepended to it, so it was typed as a topic and missing from argument views. It was restored from the original build payload; the removed block duplicated `Topics/ADHD diagnosis and measurement.md` line for line.
 - **Tidy:** duplicate `research/source` tags removed from 61 source notes; hard-coded coverage counts replaced by live Dataview counts or dated to the build they describe; the Learning Path's plasticity note corrected in place.
 

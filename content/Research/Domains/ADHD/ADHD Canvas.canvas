@@ -1,0 +1,280 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## ADHD\n\nCondition hub: ADHD heterogeneity, competing cognitive accounts, rater-dependent measurement, and the shape of the treatment evidence.\n\n[[ADHD Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Constructs and assessment",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1266
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[ADHD - Constructs and assessment|Constructs and assessment index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[ADHD across the lifespan]]**\n*condition* - 5 sources\n\nLifespan presentation, heterogeneity and measurement sources in ADHD, with function distinguished from symptom counts.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[ADHD diagnosis and measurement]]**\n*method* - 8 sources\n\nMulti-source assessment, rater and task measurement problems, and the adult-specific limits of retrospective reporting in ADHD.",
+			"x": 30,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[Heterogeneity and presentations in ADHD]]**\n*framework* - 6 sources\n\nWhy ADHD is better described as a heterogeneous set of profiles than as one deficit, with consequences for measurement and treatment.",
+			"x": 30,
+			"y": 1040,
+			"width": 360,
+			"height": 242,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Rater and measurement effects in ADHD]]**\n*method* - 7 sources\n\nHow parent, teacher, clinician and self-report measures of ADHD diverge, and why that is measurement rather than noise.",
+			"x": 30,
+			"y": 1342,
+			"width": 360,
+			"height": 194,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Accounts",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 758
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[ADHD - Accounts|Accounts index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[ADHD and prefrontal catecholamines]]**\n*mechanism* - 4 sources\n\nHow prefrontal dopamine and noradrenaline modulate attention, why the relationship is an inverted U, and what the evidence does and does not license.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Reinforcement learning accounts of ADHD]]**\n*theory* - 7 sources\n\nAccounts that explain ADHD-related behaviour through altered reinforcement sensitivity or learning rate, and their evidence.",
+			"x": 450,
+			"y": 786,
+			"width": 360,
+			"height": 242,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Evidence",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 1012
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[ADHD - Evidence|Evidence index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[ADHD medication evidence]]**\n*framework* - 4 sources\n\nShort-term randomised evidence, rater and dose effects, tolerability patterns, and the long-term evidence gap in ADHD medication research.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[CBT for adult ADHD]]**\n*framework* - 4 sources\n\nWhat CBT for adult ADHD targets, why comparator and rater determine the result, and how it sits in the wider adult intervention evidence.",
+			"x": 870,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Short-term versus long-term outcomes]]**\n*method* - 7 sources\n\nHow the evidence horizon bounds a treatment claim, what remains open at 26 and 52 weeks, and the certainty tools used to say so.",
+			"x": 870,
+			"y": 1064,
+			"width": 360,
+			"height": 218,
+			"color": "#FF8FA3"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1598
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[P40948064 Cortese 2025 ADHD in adults evidence base]]\nabstract checked - cited by 7 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[P39701638 Ostinelli 2025 Comparative interventions for ADHD]]\nabstract checked - cited by 6 topics here",
+			"x": 1290,
+			"y": 556,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P20410727 Sonuga-Barke 2010 Beyond the dual pathway]]\nabstract checked - cited by 5 topics here",
+			"x": 1290,
+			"y": 752,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[F23 WHO International Classification of Functioning]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 948,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD]]\nfull text checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 1144,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[P30097390 Cortese 2018 ADHD medication efficacy and tolerability]]\nabstract checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 1364,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[F86 NIMH ADHD]]\neducational page - cited by 3 topics here",
+			"x": 1290,
+			"y": 1560,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[P33549739 Faraone 2021 World Federation ADHD consensus statement]]\nabstract checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1732,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

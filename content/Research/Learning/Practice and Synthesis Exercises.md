@@ -13,7 +13,7 @@ reading the worked answer, and write your answer down; the writing is where the 
 
 ## 1. Claim tracing
 
-Choose any supported claim in `Topics/` that cites a source you have not opened. Open the source block, read it,
+Choose any supported claim in a topic note that cites a source you have not opened. Open the source block, read it,
 and decide: does the block say what the claim says it says, or something narrower? Then rewrite the claim so that
 it matches the block exactly.
 

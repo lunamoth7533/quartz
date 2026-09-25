@@ -48,7 +48,11 @@ export function resolveAuthoredSlug(
     if (!page.slug || !page.relativePath) continue
     if (slugifyFilePath(page.relativePath as FilePath) === wanted) return page.slug as FullSlug
   }
-  return null
+  // Like an Obsidian link, fall back to the file name when it is unique, so the
+  // site's own targets survive the vault being refiled. Ambiguity stays unresolved.
+  const name = wanted.split("/").pop()
+  const byName = pages.filter((page) => page.slug?.split("/").pop() === name)
+  return byName.length === 1 ? (byName[0].slug as FullSlug) : null
 }
 
 export interface AuthoredHref {

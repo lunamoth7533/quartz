@@ -1,0 +1,46 @@
+{
+	"nodes":[
+		{"id":"header","type":"text","text":"## Neuroanatomy and Systems Neuroscience\n\nDomain hub: anatomical organisation, regional and systems-level structure, and how structure relates to function.\n\n[[Neuroanatomy and Systems Neuroscience Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.","x":0,"y":0,"width":1680,"height":170,"color":"#4F9BF0"},
+		{"id":"g0","type":"group","label":"Foundations","x":0,"y":310,"width":420,"height":734},
+		{"id":"s0","type":"text","text":"**[[Neuroanatomy and Systems Neuroscience - Foundations|Foundations index]]**","x":30,"y":360,"width":360,"height":88,"color":"#B8A4FF"},
+		{"id":"t0_0","type":"text","text":"**[[Anatomical axes and planes]]**\n*structure* - 6 sources\n\nThe directional vocabulary of neuroanatomy: anterior-posterior, dorsal-ventral, medial-lateral, and the planes in which the nervous system is sectioned.","x":30,"y":508,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t0_1","type":"text","text":"**[[Neuroanatomical methods]]**\n*method* - 11 sources\n\nHow nervous-system structure is established: histological staining, tract tracing, lesions, dissection and modern imaging of connections.","x":30,"y":786,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"g1","type":"group","label":"Regions","x":420,"y":310,"width":420,"height":2560},
+		{"id":"s1","type":"text","text":"**[[Neuroanatomy and Systems Neuroscience - Regions|Regions index]]**","x":450,"y":360,"width":360,"height":88,"color":"#B8A4FF"},
+		{"id":"t1_0","type":"text","text":"**[[Amygdala]]**\n*structure* - 4 sources\n\nThe amygdala's connections, its role in fear learning and emotional salience, and the limits of the 'fear centre' shorthand.","x":450,"y":508,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t1_1","type":"text","text":"**[[Basal ganglia]]**\n*structure* - 9 sources\n\nThe basal ganglia's components, direct and indirect pathways, and how their dysfunction produces movement disorders.","x":450,"y":786,"width":360,"height":194,"color":"#4F9BF0"},
+		{"id":"t1_2","type":"text","text":"**[[Cerebellum and brainstem]]**\n*structure* - 9 sources\n\nCerebellar circuit architecture and learning, and the brain stem's role in cranial nerve function, autonomic control and arousal.","x":450,"y":1040,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t1_3","type":"text","text":"**[[Cerebral cortex and lobes]]**\n*structure* - 11 sources\n\nLobar organisation, primary and association areas, and what cortical maps do and do not mean.","x":450,"y":1318,"width":360,"height":194,"color":"#4F9BF0"},
+		{"id":"t1_4","type":"text","text":"**[[Cortical layers and columns]]**\n*structure* - 9 sources\n\nLaminar and columnar organisation of cortex, cortical cell types, and why layer identity predicts connection patterns.","x":450,"y":1572,"width":360,"height":194,"color":"#4F9BF0"},
+		{"id":"t1_5","type":"text","text":"**[[Hippocampal system]]**\n*structure* - 4 sources\n\nThe hippocampal formation, its intrinsic circuit, and its role in memory and as a model system for synaptic plasticity.","x":450,"y":1826,"width":360,"height":194,"color":"#4F9BF0"},
+		{"id":"t1_6","type":"text","text":"**[[Spinal cord]]**\n*structure* - 5 sources\n\nSegmental organisation, dorsal and ventral horns, ascending and descending tracts, and the reasoning that links level to deficit.","x":450,"y":2080,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t1_7","type":"text","text":"**[[Thalamus and hypothalamus]]**\n*structure* - 10 sources\n\nTwo diencephalic structures with different jobs: sensory and motor relay with cortical loops, and the integration of endocrine and autonomic regulation.","x":450,"y":2358,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t1_8","type":"text","text":"**[[White matter and tracts]]**\n*structure* - 12 sources\n\nWhite-matter organisation, association and projection tracts, and why disconnection produces specific syndromes.","x":450,"y":2636,"width":360,"height":194,"color":"#4F9BF0"},
+		{"id":"g2","type":"group","label":"Systems","x":840,"y":310,"width":420,"height":1544},
+		{"id":"s2","type":"text","text":"**[[Neuroanatomy and Systems Neuroscience - Systems|Systems index]]**","x":870,"y":360,"width":360,"height":88,"color":"#B8A4FF"},
+		{"id":"t2_0","type":"text","text":"**[[Association cortex and networks]]**\n*framework* - 7 sources\n\nAssociation regions that integrate across modalities, and the network descriptions used to summarise their coordinated activity.","x":870,"y":508,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t2_1","type":"text","text":"**[[Brain regions and networks]]**\n*framework* - 10 sources\n\nHow regional descriptions of the brain relate to systems, loops and network accounts, and what each kind of claim can support.","x":870,"y":786,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t2_2","type":"text","text":"**[[Interoception and autonomic pathways]]**\n*structure* - 5 sources\n\nSensing the body's internal state and controlling it: interoceptive afferents, insular representation, and the central autonomic network.","x":870,"y":1064,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t2_3","type":"text","text":"**[[Nervous system divisions]]**\n*framework* - 6 sources\n\nThe central, peripheral, somatic, autonomic and enteric divisions, how they relate, and why the scheme is a teaching device rather than a functional partition.","x":870,"y":1342,"width":360,"height":218,"color":"#4F9BF0"},
+		{"id":"t2_4","type":"text","text":"**[[Sensory and motor systems]]**\n*framework* - 10 sources\n\nThe parallel organisation of sensory and motor pathways and the three-neuron logic they share.","x":870,"y":1620,"width":360,"height":194,"color":"#4F9BF0"},
+		{"id":"g3","type":"group","label":"Most-cited evidence","x":1260,"y":310,"width":420,"height":1502},
+		{"id":"ev0","type":"text","text":"[[F52 OpenStax Central processing]]\neducational page - cited by 8 topics here","x":1290,"y":360,"width":360,"height":112,"color":"#6E7787"},
+		{"id":"ev1","type":"text","text":"[[F05 OpenStax The central nervous system]]\neducational page - cited by 7 topics here","x":1290,"y":532,"width":360,"height":112,"color":"#6E7787"},
+		{"id":"ev2","type":"text","text":"[[F01 OpenStax Nervous system structure and function]]\neducational page - cited by 6 topics here","x":1290,"y":704,"width":360,"height":136,"color":"#6E7787"},
+		{"id":"ev3","type":"text","text":"[[F28 OpenStax Brain imaging Psychology 2e]]\neducational page - cited by 6 topics here","x":1290,"y":900,"width":360,"height":112,"color":"#6E7787"},
+		{"id":"ev4","type":"text","text":"[[F33 OpenStax Overview of the neurological exam]]\neducational page - cited by 6 topics here","x":1290,"y":1072,"width":360,"height":136,"color":"#6E7787"},
+		{"id":"ev5","type":"text","text":"[[F54 Neuroscience Online nervous system overview]]\neducational page - cited by 6 topics here","x":1290,"y":1268,"width":360,"height":136,"color":"#6E7787"},
+		{"id":"ev6","type":"text","text":"[[F02 OpenStax Nervous tissue]]\neducational page - cited by 5 topics here","x":1290,"y":1464,"width":360,"height":112,"color":"#6E7787"},
+		{"id":"ev7","type":"text","text":"[[F109 Neuroscience Online association and executive processing]]\neducational page - cited by 5 topics here","x":1290,"y":1636,"width":360,"height":136,"color":"#6E7787"}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"header","fromSide":"bottom","toNode":"g0","toSide":"top"},
+		{"id":"e1","fromNode":"header","fromSide":"bottom","toNode":"g1","toSide":"top"},
+		{"id":"e2","fromNode":"header","fromSide":"bottom","toNode":"g2","toSide":"top"},
+		{"id":"e3","fromNode":"header","fromSide":"bottom","toNode":"g3","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

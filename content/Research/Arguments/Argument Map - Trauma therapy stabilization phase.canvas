@@ -6,9 +6,9 @@
 		{"id":"deciding","type":"text","x":1127,"y":954,"width":460,"height":174,"color":"6","text":"### Evidence that would decide\n\nTrials that randomise the sequence of the same components rather than comparing packaged protocols, with baseline moderator analyses for dissociation and affect regulation, and full harm and dropout reporting."},
 		{"id":"guard","type":"text","x":2274,"y":0,"width":440,"height":116,"color":"2","text":"### Overreach guard\n\nThe comparison is between protocols, not a randomised test of sequencing inside one protocol."},
 		{"id":"legend","type":"text","x":0,"y":0,"width":440,"height":174,"color":"5","text":"### Legend\n\nGreen: support for the framing.\nOrange: tension or counter-evidence.\nPurple: deciding evidence and hypotheses.\nEdges label the relationship, not proof."},
-		{"id":"for-0","type":"file","x":0,"y":334,"width":440,"height":200,"file":"Research/Sources/P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy.md"},
+		{"id":"for-0","type":"file","x":0,"y":334,"width":440,"height":200,"file":"Research/Domains/Psychology/Articles/P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy.md"},
 		{"id":"for-1","type":"file","x":0,"y":594,"width":440,"height":200,"file":"Research/Learning/Lessons/M10 CPTSD/Lesson - Phase-based trauma therapy evidence.md"},
-		{"id":"against-0","type":"file","x":2274,"y":334,"width":440,"height":200,"file":"Research/Sources/P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy.md"},
+		{"id":"against-0","type":"file","x":2274,"y":334,"width":440,"height":200,"file":"Research/Domains/Psychology/Articles/P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy.md"},
 		{"id":"against-1","type":"file","x":2274,"y":594,"width":440,"height":200,"file":"Research/Learning/Lessons/M10 CPTSD/Lesson - Psychological interventions for complex trauma.md"}
 	],
 	"edges":[

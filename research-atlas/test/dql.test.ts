@@ -7,7 +7,9 @@ import {
   evaluateExpression,
   evaluateQuery,
   groupKeyColumn,
+  parseExpression,
   parseQuery,
+  parseSource,
   selectRows,
   toQueryRow,
   type QueryRow,
@@ -82,8 +84,16 @@ const notes = readVaultNotes()
 const rows = rowsFromNotes(notes)
 const blocks = authoredDashboardBlocks()
 
+// The vault files notes by domain, so its dashboards select sources and topics
+// by tag and leave the templates out; the fixtures below do the same.
+const SOURCES_FROM = '#research/source AND -"Research/Templates"'
+const TOPICS_FROM = '#research/topic AND -"Research/Templates"'
+const SOURCES = parseSource(SOURCES_FROM)
+
 test("every authored dataview block is inside the supported subset", () => {
-  assert.equal(blocks.length, 27, "expected the 27 authored dashboard blocks")
+  // The vault is edited continuously, so the invariant is that every block parses,
+  // not how many there are.
+  assert.ok(blocks.length > 0, "the vault has authored dashboard blocks")
   for (const block of blocks) {
     assert.doesNotThrow(() => parseQuery(block.source), `unsupported query in ${block.path}`)
   }
@@ -92,36 +102,38 @@ test("every authored dataview block is inside the supported subset", () => {
 test("no authored dashboards evaluate to an unsupported view", () => {
   for (const block of blocks) {
     const query = parseQuery(block.source)
-    const results = evaluateQuery(query, selectRows(rows, query.from))
+    const results = evaluateQuery(query, selectRows(rows, query.source ?? query.from))
     assert.ok(Array.isArray(results), `query in ${block.path} did not evaluate`)
   }
 })
 
-test("folder selection excludes templates and unrelated notes", () => {
-  const sources = selectRows(rows, "Research/Sources")
+test("source selection excludes templates and unrelated notes", () => {
+  const sources = selectRows(rows, SOURCES)
   assert.ok(sources.length > 50)
   for (const row of sources) {
-    assert.ok(row.file.path.startsWith("Research/Sources/"), row.file.path)
+    assert.equal(row.note_type, "source", row.file.path)
+    assert.ok(!row.file.path.startsWith("Research/Templates/"), row.file.path)
   }
   const templates = selectRows(rows, "Research/Templates")
   assert.equal(templates.length, 4, "the four note templates live in their own folder")
+  assert.ok(templates.some((row) => row.note_type === "source"), "a template carries the source tag")
 })
 
 test("reading-queue query matches authored queue semantics", () => {
   const query = parseQuery(
-    'TABLE WITHOUT ID file.link AS Source, queue_tier AS Queue FROM "Research/Sources" WHERE reading_status = "queued" SORT queue_tier ASC, year DESC, file.name ASC',
+    `TABLE WITHOUT ID file.link AS Source, queue_tier AS Queue FROM ${SOURCES_FROM} WHERE reading_status = "queued" SORT queue_tier ASC, year DESC, file.name ASC`,
   )
-  const results = evaluateQuery(query, selectRows(rows, query.from))
-  const expected = selectRows(rows, "Research/Sources").filter(
+  const results = evaluateQuery(query, selectRows(rows, query.source ?? query.from))
+  const expected = selectRows(rows, SOURCES).filter(
     (row) => row.reading_status === "queued",
   )
   assert.equal(results.length, expected.length)
   assert.ok(results.length > 0)
   const core = evaluateQuery(
     parseQuery(
-      'TABLE file.link AS Source FROM "Research/Sources" WHERE reading_status = "queued" AND queue_tier = "core"',
+      `TABLE file.link AS Source FROM ${SOURCES_FROM} WHERE reading_status = "queued" AND queue_tier = "core"`,
     ),
-    selectRows(rows, "Research/Sources"),
+    selectRows(rows, SOURCES),
   )
   assert.equal(
     core.length,
@@ -132,11 +144,11 @@ test("reading-queue query matches authored queue semantics", () => {
 test("array membership, flatten and grouping agree with the metadata", () => {
   const adhd = evaluateQuery(
     parseQuery(
-      'TABLE file.link AS Source FROM "Research/Sources" WHERE contains(condition, "adhd")',
+      `TABLE file.link AS Source FROM ${SOURCES_FROM} WHERE contains(condition, "adhd")`,
     ),
-    selectRows(rows, "Research/Sources"),
+    selectRows(rows, SOURCES),
   )
-  const manualAdhd = selectRows(rows, "Research/Sources").filter((row) =>
+  const manualAdhd = selectRows(rows, SOURCES).filter((row) =>
     (Array.isArray(row.condition) ? row.condition : [row.condition])
       .map((value) => String(value).toLowerCase())
       .includes("adhd"),
@@ -146,15 +158,15 @@ test("array membership, flatten and grouping agree with the metadata", () => {
 
   const byCondition = evaluateQuery(
     parseQuery(
-      'TABLE length(rows) AS Sources FROM "Research/Sources" FLATTEN condition AS Condition WHERE Condition GROUP BY Condition',
+      `TABLE length(rows) AS Sources FROM ${SOURCES_FROM} FLATTEN condition AS Condition WHERE Condition GROUP BY Condition`,
     ),
-    selectRows(rows, "Research/Sources"),
+    selectRows(rows, SOURCES),
   )
   const totalFlattened = byCondition.reduce(
     (sum, group) => sum + (group.rows as unknown[]).length,
     0,
   )
-  const manualFlattened = selectRows(rows, "Research/Sources").reduce((sum, row) => {
+  const manualFlattened = selectRows(rows, SOURCES).reduce((sum, row) => {
     const values = row.condition
     if (values == null || values === "") return sum
     return sum + (Array.isArray(values) ? values.length : 1)
@@ -164,15 +176,18 @@ test("array membership, flatten and grouping agree with the metadata", () => {
 
 test("flatten aliases shadow same-named fields and grouped tables keep their key column", () => {
   const query = parseQuery(
-    'TABLE length(rows) AS Sources FROM "Research/Sources" FLATTEN condition AS Condition WHERE Condition GROUP BY Condition SORT Condition ASC',
+    `TABLE length(rows) AS Sources FROM ${SOURCES_FROM} FLATTEN condition AS Condition WHERE Condition GROUP BY Condition SORT Condition ASC`,
   )
-  const groups = evaluateQuery(query, selectRows(rows, query.from))
+  const groups = evaluateQuery(query, selectRows(rows, query.source ?? query.from))
   const keys = groups.map((group) => String(group.key))
-  assert.deepEqual(keys, ["adhd", "autism", "bipolar-i", "cptsd"])
+  assert.deepEqual(keys, [...keys].sort(), "groups come back in authored sort order")
+  for (const condition of ["adhd", "autism", "bipolar-i", "cptsd"]) {
+    assert.ok(keys.includes(condition), `a group for ${condition}`)
+  }
 
   // A note that lists two conditions must appear once in each of those groups,
   // not once in a group keyed by the whole array.
-  const multiValueNote = selectRows(rows, "Research/Sources").find(
+  const multiValueNote = selectRows(rows, SOURCES).find(
     (row) => Array.isArray(row.condition) && row.condition.length > 1,
   )
   assert.ok(multiValueNote, "the vault has a source that lists two conditions")
@@ -185,7 +200,7 @@ test("flatten aliases shadow same-named fields and grouped tables keep their key
   )
   assert.ok(!keys.some((key) => key.includes(",")), "group keys stay scalar")
 
-  const sourcesWithCondition = selectRows(rows, "Research/Sources").filter((row) => {
+  const sourcesWithCondition = selectRows(rows, SOURCES).filter((row) => {
     const value = row.condition
     return Array.isArray(value) ? value.length > 0 : value != null && value !== ""
   })
@@ -200,14 +215,14 @@ test("flatten aliases shadow same-named fields and grouped tables keep their key
 
   const keyColumn = groupKeyColumn(query)
   assert.equal(keyColumn?.label, "Condition")
-  assert.equal(groupKeyColumn(parseQuery('TABLE key AS K FROM "Research/Sources" GROUP BY domain')), null)
+  assert.equal(groupKeyColumn(parseQuery(`TABLE key AS K FROM ${SOURCES_FROM} GROUP BY domain`)), null)
 })
 
 test("grouped counts use distinct values for shared citations", () => {
   const query = parseQuery(
     'TABLE length(rows) AS Lessons, length(unique(flat(rows.sources))) AS Sources, sum(rows.question_count) AS Questions FROM "Research/Learning/Lessons" WHERE note_type = "lesson" GROUP BY module_title',
   )
-  const results = evaluateQuery(query, selectRows(rows, query.from))
+  const results = evaluateQuery(query, selectRows(rows, query.source ?? query.from))
   assert.ok(results.length >= 10, "one group per module")
   const lessonRows = selectRows(rows, "Research/Learning/Lessons").filter(
     (row) => row.note_type === "lesson",
@@ -236,24 +251,30 @@ test("grouped counts use distinct values for shared citations", () => {
 
 test("comparison against an empty field does not match", () => {
   const query = parseQuery(
-    'TABLE file.link AS Topic FROM "Research/Topics" WHERE note_type = "topic" AND source_count <= 1',
+    `TABLE file.link AS Topic FROM ${TOPICS_FROM} WHERE note_type = "topic" AND source_count <= 1`,
   )
-  const results = evaluateQuery(query, selectRows(rows, query.from))
+  const empty = toQueryRow({
+    slug: "research/topics/unsourced",
+    relativePath: "Research/Domains/X/Unsourced.md",
+    title: "Unsourced",
+    frontmatter: { note_type: "topic", tags: ["research/topic"] },
+  })
+  const results = evaluateQuery(query, selectRows([...rows, empty], query.source ?? query.from))
   for (const row of results) {
     assert.ok(Number(row.source_count) <= 1)
     assert.ok(row.source_count != null, "empty metadata stays out of range comparisons")
   }
-  assert.ok(results.length > 0, "the vault reports thin-coverage topics")
+  assert.ok(!results.some((row) => (row.file as { slug: string }).slug === "research/topics/unsourced"))
 })
 
 test("clauses apply in authored order", () => {
   const flattenThenWhere = parseQuery(
-    'TABLE file.link AS Source FROM "Research/Sources" FLATTEN condition AS Item WHERE Item',
+    `TABLE file.link AS Source FROM ${SOURCES_FROM} FLATTEN condition AS Item WHERE Item`,
   )
-  const afterFlatten = evaluateQuery(flattenThenWhere, selectRows(rows, flattenThenWhere.from))
+  const afterFlatten = evaluateQuery(flattenThenWhere, selectRows(rows, flattenThenWhere.source ?? flattenThenWhere.from))
   assert.equal(
     afterFlatten.length,
-    selectRows(rows, "Research/Sources").reduce(
+    selectRows(rows, SOURCES).reduce(
       (total, row) => total + (Array.isArray(row.condition) ? row.condition.length : 0),
       0,
     ),
@@ -264,18 +285,18 @@ test("clauses apply in authored order", () => {
   }
 
   const whereThenFlatten = parseQuery(
-    'TABLE file.link AS Source FROM "Research/Sources" WHERE contains(condition, "adhd") FLATTEN condition AS Item WHERE Item',
+    `TABLE file.link AS Source FROM ${SOURCES_FROM} WHERE contains(condition, "adhd") FLATTEN condition AS Item WHERE Item`,
   )
   const beforeFlattenRows = evaluateQuery(
     whereThenFlatten,
-    selectRows(rows, whereThenFlatten.from),
+    selectRows(rows, whereThenFlatten.source ?? whereThenFlatten.from),
   )
   assert.ok(beforeFlattenRows.length > 0)
   assert.ok(
     beforeFlattenRows.length < afterFlatten.length,
     "filtering before flattening keeps fewer rows than filtering after",
   )
-  const matchedSources = selectRows(rows, "Research/Sources").filter(
+  const matchedSources = selectRows(rows, SOURCES).filter(
     (row) =>
       Array.isArray(row.condition) &&
       row.condition.some((value) => String(value).toLowerCase() === "adhd"),
@@ -288,10 +309,13 @@ test("clauses apply in authored order", () => {
     ),
     "a WHERE before FLATTEN keeps whole rows, which then expand one row per value",
   )
+  const allowed = new Set(
+    matchedSources.flatMap((row) => (row.condition as unknown[]).map((v) => String(v).toLowerCase())),
+  )
   for (const row of beforeFlattenRows) {
     // A source that lists two conditions appears once per value, so the kept
     // values are the conditions of the rows that matched.
-    assert.ok(["adhd", "autism"].includes(String(row.Item).toLowerCase()))
+    assert.ok(allowed.has(String(row.Item).toLowerCase()))
   }
   assert.ok(
     beforeFlattenRows.some((row) => String(row.Item).toLowerCase() === "adhd"),
@@ -299,25 +323,25 @@ test("clauses apply in authored order", () => {
 })
 
 test("flatten skips null and empty list elements", () => {
-  const query = parseQuery('TABLE file.link AS N FROM "Research/Sources" FLATTEN condition AS Item')
+  const query = parseQuery(`TABLE file.link AS N FROM ${SOURCES_FROM} FLATTEN condition AS Item`)
   const synthetic = [
     toQueryRow({
       slug: "research/sources/empty",
       relativePath: "Research/Sources/Empty.md",
       title: "Empty",
-      frontmatter: { note_type: "source", condition: [] },
+      frontmatter: { note_type: "source", tags: ["research/source"], condition: [] },
     }),
     toQueryRow({
       slug: "research/sources/mixed",
       relativePath: "Research/Sources/Mixed.md",
       title: "Mixed",
-      frontmatter: { note_type: "source", condition: [null, "", "adhd"] },
+      frontmatter: { note_type: "source", tags: ["research/source"], condition: [null, "", "adhd"] },
     }),
     toQueryRow({
       slug: "research/sources/scalar",
       relativePath: "Research/Sources/Scalar.md",
       title: "Scalar",
-      frontmatter: { note_type: "source", condition: "cptsd" },
+      frontmatter: { note_type: "source", tags: ["research/source"], condition: "cptsd" },
     }),
   ]
   const results = evaluateQuery(query, selectRows(synthetic, query.from))
@@ -330,14 +354,54 @@ test("flatten skips null and empty list elements", () => {
 
 test("unsupported query shapes fail loudly instead of guessing", () => {
   assert.throws(() => {
-    const query = parseQuery('TABLE x AS X FROM "Research/Sources" WHERE bar(access_level) = 1')
-    evaluateQuery(query, selectRows(rows, query.from))
+    const query = parseQuery(`TABLE x AS X FROM ${SOURCES_FROM} WHERE bar(access_level) = 1`)
+    evaluateQuery(query, selectRows(rows, query.source ?? query.from))
   }, /unsupported function bar/)
   assert.throws(() => parseQuery("CALENDAR something"))
-  assert.throws(() => parseQuery('TABLE x FROM "a" FLATTEN condition'))
+  assert.throws(() => parseQuery('TABLE x FROM "a" FLATTEN length(condition)'), /requires an alias/)
   assert.throws(() => parseQuery('TABLE x FROM "a" GROUP BY condition SORT condition ASC LIMIT 5'))
   assert.throws(
-    () => parseQuery('TABLE x WHERE note_type = "lesson" FROM "Research/Sources"'),
+    () => parseQuery(`TABLE x WHERE note_type = "lesson" FROM ${SOURCES_FROM}`),
     /FROM must come before/,
   )
+})
+
+test("FROM sources combine tags, folders, negation and grouping as Dataview does", () => {
+  const synthetic = [
+    { slug: "a", relativePath: "Research/Domains/X/Articles/A.md", tags: ["research/source"] },
+    { slug: "b", relativePath: "Research/Domains/X/Pages/B.md", tags: ["Research/Source/educational"] },
+    { slug: "c", relativePath: "Research/Templates/C.md", tags: ["research/source"] },
+    { slug: "d", relativePath: "Research/Domains/X/Topic D.md", tags: ["research/topic"] },
+  ].map((n) => toQueryRow({ ...n, title: n.slug, frontmatter: { tags: n.tags } }))
+  const pick = (from: string) =>
+    selectRows(synthetic, parseSource(from))
+      .map((row) => (row.file as { slug: string }).slug)
+      .sort()
+  assert.deepEqual(pick(SOURCES_FROM), ["a", "b"], "nested tags match, case-insensitively")
+  assert.deepEqual(pick('#research/topic OR "Research/Templates"'), ["c", "d"])
+  assert.deepEqual(pick('-(#research/source OR #research/topic)'), [])
+  assert.deepEqual(pick('"Research/Domains" AND -#research/topic'), ["a", "b"])
+  assert.deepEqual(parseSource('"Research/Learning"'), { kind: "folder", path: "Research/Learning" })
+  assert.throws(() => parseSource('#a AND'), /unsupported FROM/)
+})
+
+test("negation, flatten-in-place, join and date follow Dataview", () => {
+  const row = toQueryRow({
+    slug: "s",
+    relativePath: "Research/Domains/X/Articles/S.md",
+    title: "S",
+    frontmatter: { condition: ["adhd", "autism"], reviewed: new Date("2025-12-01T00:00:00Z") },
+  })
+  const run = (query: string) => evaluateQuery(parseQuery(query), [row])
+  assert.equal(run('LIST WHERE !contains(condition, "cptsd")').length, 1)
+  assert.equal(run('LIST WHERE !contains(condition, "adhd")').length, 0)
+  assert.equal(run("LIST WHERE condition != null").length, 1, "!= is still inequality")
+  assert.deepEqual(
+    run("TABLE condition FLATTEN condition").map((r) => r.condition),
+    ["adhd", "autism"],
+  )
+  assert.equal(evaluateExpression(parseExpression('join(condition, " / ")'), row), "adhd / autism")
+  assert.equal(evaluateExpression(parseExpression("join(condition)"), row), "adhd, autism")
+  assert.equal(run('LIST WHERE reviewed < date("2026-01-01")').length, 1)
+  assert.equal(run('LIST WHERE reviewed < date("2025-06-01")').length, 0)
 })

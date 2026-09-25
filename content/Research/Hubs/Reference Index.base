@@ -1,9 +1,10 @@
 filters:
-  or:
-    - file.inFolder("Research/Topics")
-    - file.inFolder("Research/Sources")
-    - and:
-        - file.inFolder("Research/Maps")
+  and:
+    - not:
+        - file.inFolder("Research/Templates")
+    - or:
+        - note_type == "topic"
+        - note_type == "source"
         - note_type == "map"
 properties:
   title:
@@ -45,7 +46,7 @@ views:
     name: Concepts A-Z
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
     order:
       - file.name
@@ -62,7 +63,7 @@ views:
     name: By concept kind
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
     groupBy:
       property: concept_kind
@@ -79,7 +80,7 @@ views:
     name: "Domain: Neurobiology"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("neurobiology")
     order:
@@ -95,7 +96,7 @@ views:
     name: "Domain: Neurochemistry"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("neurochemistry")
     order:
@@ -111,7 +112,7 @@ views:
     name: "Domain: Psychology"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("psychology")
     order:
@@ -127,7 +128,7 @@ views:
     name: "Domain: Pharmacology"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("pharmacology")
     order:
@@ -143,7 +144,7 @@ views:
     name: "Domain: Neurology"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("neurology")
     order:
@@ -159,7 +160,7 @@ views:
     name: "Domain: Bipolar I"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - or:
             - domain.contains("bipolar-i")
@@ -177,7 +178,7 @@ views:
     name: "Domain: ADHD"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - or:
             - domain.contains("adhd")
@@ -195,7 +196,7 @@ views:
     name: "Domain: Autism"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - or:
             - domain.contains("autism")
@@ -213,7 +214,7 @@ views:
     name: "Domain: CPTSD"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - or:
             - domain.contains("cptsd")
@@ -231,7 +232,7 @@ views:
     name: "Domain: Neuroanatomy and systems"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("neuroanatomy-systems")
     order:
@@ -247,7 +248,7 @@ views:
     name: "Domain: Genetics and neurodevelopment"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("genetics-neurodevelopment")
     order:
@@ -263,7 +264,7 @@ views:
     name: "Domain: Neuroendocrine and neuroimmune"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("neuroendocrinology-neuroimmunology")
     order:
@@ -279,7 +280,7 @@ views:
     name: "Domain: Computational and theories"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("computational-brain-theories")
     order:
@@ -295,7 +296,7 @@ views:
     name: "Domain: Clinical psychiatry"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - domain.contains("clinical-psychiatry")
     order:
@@ -311,7 +312,7 @@ views:
     name: "Domain: Methods and measurement"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - or:
             - domain.contains("research-methods")
@@ -329,7 +330,7 @@ views:
     name: Domain (combined membership)
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
     groupBy:
       property: domain
@@ -345,7 +346,7 @@ views:
     name: "Condition: Bipolar I"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - condition.contains("bipolar-i")
     order:
@@ -360,7 +361,7 @@ views:
     name: "Condition: ADHD"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - condition.contains("adhd")
     order:
@@ -375,7 +376,7 @@ views:
     name: "Condition: Autism"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - condition.contains("autism")
     order:
@@ -390,7 +391,7 @@ views:
     name: "Condition: CPTSD"
     filters:
       and:
-        - file.inFolder("Research/Topics")
+        - note_type == "topic"
         - content_layer == "reference"
         - condition.contains("cptsd")
     order:
@@ -405,7 +406,6 @@ views:
     name: Domain hubs
     filters:
       and:
-        - file.inFolder("Research/Maps")
         - note_type == "map"
         - content_layer == "reference"
     order:
@@ -421,7 +421,6 @@ views:
     name: Sources by access
     filters:
       and:
-        - file.inFolder("Research/Sources")
         - note_type == "source"
     groupBy:
       property: access_level
@@ -441,7 +440,6 @@ views:
     name: Sources by verification
     filters:
       and:
-        - file.inFolder("Research/Sources")
         - note_type == "source"
     groupBy:
       property: verification
@@ -459,7 +457,6 @@ views:
     name: Sources A-Z
     filters:
       and:
-        - file.inFolder("Research/Sources")
         - note_type == "source"
     order:
       - file.name

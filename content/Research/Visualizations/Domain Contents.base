@@ -1,0 +1,56 @@
+filters:
+  and:
+    - file.inFolder(this.file.folder)
+    - or:
+        - note_type == "topic"
+        - note_type == "source"
+formulas:
+  folder: 'file.folder.split("/").slice(3, 4).join("")'
+  linked_from: file.backlinks.length
+properties:
+  formula.folder:
+    displayName: Folder
+  formula.linked_from:
+    displayName: Linked from
+  concept_kind:
+    displayName: Kind
+  source_count:
+    displayName: Sources
+  description:
+    displayName: Summary
+  access_level:
+    displayName: Access
+  verification:
+    displayName: Checked
+  year:
+    displayName: Year
+views:
+  - type: table
+    name: Topics by subdomain
+    filters:
+      and:
+        - note_type == "topic"
+    groupBy:
+      property: formula.folder
+      direction: ASC
+    order:
+      - file.name
+      - concept_kind
+      - source_count
+      - description
+    summaries:
+      source_count: Sum
+  - type: table
+    name: Evidence filed here
+    filters:
+      and:
+        - note_type == "source"
+    groupBy:
+      property: formula.folder
+      direction: ASC
+    order:
+      - file.name
+      - year
+      - access_level
+      - verification
+      - formula.linked_from

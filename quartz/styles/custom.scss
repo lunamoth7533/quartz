@@ -14,6 +14,23 @@
   --atlas-measure: 44rem;
   --atlas-radius: 6px;
 
+  /* Data colours, shared by the graph, the insight charts and the navigation
+     marks (taxonomy in research-atlas/categories.ts). Checked with the dataviz
+     palette validator against this paper and the dark surface: the three hues
+     pass all-pairs CVD separation, which is why hubs, arguments and tags use
+     ink and shape instead of a fourth hue. Orange and aqua sit under 3:1 on the
+     paper, so every use carries a text label (legend, table or direct label). */
+  --atlas-cat-source: #2a78d6;
+  --atlas-cat-topic: #eb6834;
+  --atlas-cat-learning: #1baf7a;
+  --atlas-cat-hub: var(--darkgray);
+  --atlas-cat-argument: var(--darkgray);
+  --atlas-cat-tag: var(--gray);
+  /* Ordinal ramp in the Sources hue: how deeply a source was checked. */
+  --atlas-ord-1: #6da7ec;
+  --atlas-ord-2: #2a78d6;
+  --atlas-ord-3: #104281;
+
   /* Self-hosted families from @quartz-community/quartz-fonts, with local
      fallbacks. Unlayered, so these win over the plugin's @layer defaults. */
   --bodyFont: "Source Serif 4", Charter, "Iowan Old Style", Georgia, serif;
@@ -951,6 +968,17 @@ article .atlas-list {
   }
 }
 
+/* Dark data colours: the same hues stepped for the dark surface (validated as
+   a set), and the ordinal ramp brightening with depth instead of darkening. */
+:root[saved-theme="dark"] {
+  --atlas-cat-source: #3987e5;
+  --atlas-cat-topic: #d95926;
+  --atlas-cat-learning: #199e70;
+  --atlas-ord-1: #184f95;
+  --atlas-ord-2: #3987e5;
+  --atlas-ord-3: #9ec5f4;
+}
+
 /* Dark-mode canvas contrast: node text and edges need explicit light ink. */
 :root[saved-theme="dark"] {
   .canvas-page {
@@ -1155,4 +1183,415 @@ article .atlas-list {
   html {
     scroll-behavior: auto;
   }
+}
+
+/* ==========================================================================
+   Insights (research-atlas/insights.tsx): build-time charts on the
+   Visualizations hub. Marks follow the site's chart rules: thin bars with a
+   4px rounded data end, hairline recessive axes, text in ink (never in the
+   series colour), colour reserved for the note families. Heatmaps shade with
+   a neutral ramp mixed from this theme's paper and ink, so they flip correctly
+   in dark mode and never borrow a family hue.
+   ========================================================================== */
+
+.atlas-insights {
+  margin: 0.5rem 0 2.5rem;
+  font-family: var(--interfaceFont);
+
+  > h2 {
+    margin-top: 0;
+    font-family: var(--interfaceFont);
+  }
+}
+
+.atlas-insights-lead {
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.atlas-inline-key {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.atlas-chart-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+}
+
+.atlas-chart {
+  min-width: 0;
+  margin: 0;
+  padding: 1rem 1.1rem 1.1rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  background: var(--light);
+
+  figcaption h3 {
+    margin: 0 0 0.25rem;
+    font-family: var(--interfaceFont);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  figcaption p {
+    margin: 0 0 0.9rem;
+    color: var(--darkgray);
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
+
+.atlas-bars {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: minmax(7rem, 42%) minmax(0, 1fr) 2.75rem;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0;
+    font-size: 0.82rem;
+  }
+}
+
+.atlas-bar-label {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  color: var(--darkgray);
+  line-height: 1.25;
+}
+
+.atlas-bar-track {
+  display: block;
+  height: 14px;
+  border-left: 1px solid var(--atlas-rule);
+}
+
+.atlas-bar {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+  border-radius: 0 4px 4px 0;
+  background: var(--atlas-cat-source);
+
+  &[data-cat="topic"] {
+    background: var(--atlas-cat-topic);
+  }
+  &[data-cat="learning"] {
+    background: var(--atlas-cat-learning);
+  }
+  &[data-cat="hub"],
+  &[data-cat="argument"] {
+    background: var(--atlas-cat-hub);
+  }
+}
+
+.atlas-bar-value {
+  color: var(--dark);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.atlas-columns {
+  --atlas-col-color: var(--atlas-cat-source);
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  grid-template-rows: 9rem auto auto;
+  column-gap: 0.4rem;
+  padding-top: 1.2rem;
+  color: var(--gray);
+  font-size: 0.72rem;
+
+  &[data-cat="topic"] {
+    --atlas-col-color: var(--atlas-cat-topic);
+  }
+}
+
+.atlas-columns-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.atlas-columns-plot {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  border-bottom: 1px solid var(--atlas-rule);
+}
+
+.atlas-col {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 0;
+  height: 100%;
+}
+
+.atlas-col-bar {
+  display: block;
+  width: 100%;
+  max-width: 24px;
+  border-radius: 4px 4px 0 0;
+  background: var(--atlas-col-color);
+}
+
+.atlas-col-peak {
+  position: absolute;
+  top: -1.1rem;
+  color: var(--dark);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.atlas-columns-axis {
+  display: flex;
+  grid-column: 2;
+  gap: 2px;
+  padding-top: 0.25rem;
+  font-variant-numeric: tabular-nums;
+
+  span {
+    flex: 1 1 0;
+    min-width: 0;
+    overflow: visible;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+.atlas-columns-caption {
+  grid-column: 2;
+  margin: 0.35rem 0 0;
+  text-align: center;
+}
+
+.atlas-heat-wrap {
+  overflow-x: auto;
+}
+
+table.atlas-heat {
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-size: 0.8rem;
+
+  caption {
+    padding-top: 0.4rem;
+    caption-side: bottom;
+    color: var(--gray);
+    font-size: 0.72rem;
+    text-align: left;
+  }
+
+  tr,
+  tr:nth-child(even) {
+    background: none;
+  }
+
+  th,
+  td {
+    border: none;
+  }
+
+  th {
+    padding: 0.25rem 0.5rem 0.25rem 0;
+    color: var(--darkgray);
+    font-weight: 500;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  thead th {
+    color: var(--gray);
+    font-size: 0.72rem;
+    text-align: center;
+
+    &:first-child {
+      text-align: left;
+    }
+  }
+
+  td {
+    min-width: 2.5rem;
+    padding: 0.32rem 0.4rem;
+    border-radius: 3px;
+    color: var(--dark);
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+  }
+}
+
+.heat-0 {
+  color: var(--gray);
+}
+.heat-1 {
+  background: color-mix(in srgb, var(--darkgray) 10%, var(--light));
+}
+.heat-2 {
+  background: color-mix(in srgb, var(--darkgray) 22%, var(--light));
+}
+.heat-3 {
+  background: color-mix(in srgb, var(--darkgray) 36%, var(--light));
+}
+.heat-4 {
+  background: color-mix(in srgb, var(--darkgray) 52%, var(--light));
+}
+table.atlas-heat td.heat-5 {
+  background: color-mix(in srgb, var(--darkgray) 68%, var(--light));
+  color: var(--light);
+}
+table.atlas-heat td.heat-6 {
+  background: color-mix(in srgb, var(--darkgray) 84%, var(--light));
+  color: var(--light);
+}
+
+.atlas-stack {
+  display: flex;
+  gap: 2px;
+  height: 22px;
+  margin: 0.2rem 0 0.7rem;
+}
+
+.atlas-stack-seg {
+  flex-basis: 0;
+  min-width: 3px;
+
+  &:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+  &:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+.ord-1 {
+  background: var(--atlas-ord-1);
+}
+.ord-2 {
+  background: var(--atlas-ord-2);
+}
+.ord-3 {
+  background: var(--atlas-ord-3);
+}
+
+.atlas-stack-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.1rem;
+  margin: 0;
+  padding: 0;
+  color: var(--darkgray);
+  font-size: 0.82rem;
+  list-style: none;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.1rem;
+    margin: 0;
+  }
+
+  strong {
+    margin-left: 0.3rem;
+    color: var(--dark);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.atlas-swatch {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.3rem;
+  border-radius: 2px;
+}
+
+.atlas-chart-note {
+  margin: 0.75rem 0 0;
+  color: var(--gray);
+  font-size: 0.8rem;
+}
+
+.atlas-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+
+  div {
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+  }
+
+  dt {
+    color: var(--gray);
+    font-size: 0.75rem;
+  }
+
+  dd {
+    margin: 0.15rem 0 0;
+    color: var(--dark);
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    span {
+      color: var(--gray);
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.atlas-chart-data {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+
+  summary {
+    color: var(--secondary);
+    cursor: pointer;
+  }
+
+  table {
+    margin: 0.5rem 0 0;
+    font-size: 0.8rem;
+  }
+}
+
+.atlas-loose-list {
+  margin: 0.5rem 0 0;
+  padding: 0;
+  columns: 2 16rem;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    margin: 0.15rem 0;
+    break-inside: avoid;
+  }
+}
+
+/* Long generated views (Base embeds render every view, dashboards every row):
+   let the browser skip laying out whatever is off screen. Content stays in the
+   page, so find-in-page, anchors and screen readers are unaffected. */
+.bases-view,
+.atlas-dashboard {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
 }

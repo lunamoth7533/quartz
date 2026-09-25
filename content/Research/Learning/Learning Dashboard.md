@@ -57,7 +57,7 @@ than inferred from links. This table shows how many source records stand behind 
 
 ```dataview
 TABLE WITHOUT ID file.link AS Topic, source_count AS Sources, domain AS Domain, condition AS Condition
-FROM "Research/Topics"
+FROM #research/topic AND -"Research/Templates"
 WHERE note_type = "topic"
 SORT source_count ASC, file.name ASC
 ```
@@ -66,7 +66,7 @@ SORT source_count ASC, file.name ASC
 
 ```dataview
 TABLE WITHOUT ID file.link AS Topic, source_count AS Sources, domain AS Domain, condition AS Condition
-FROM "Research/Topics"
+FROM #research/topic AND -"Research/Templates"
 WHERE note_type = "topic" AND source_count <= 1
 SORT source_count ASC, file.name ASC
 ```
@@ -75,7 +75,7 @@ SORT source_count ASC, file.name ASC
 
 ```dataview
 TABLE WITHOUT ID file.link AS Source, year AS Year, access_level AS Access, verification AS Verified, queue_tier AS Queue
-FROM "Research/Sources"
+FROM #research/source AND -"Research/Templates"
 WHERE verification = "full_text_checked" OR access_level = "official-page"
 SORT year DESC, file.name ASC
 ```
@@ -96,7 +96,7 @@ changed a reading state; check that it was earned.
 
 ```dataview
 TABLE WITHOUT ID file.link AS Source, reading_status AS Status, access_level AS Access
-FROM "Research/Sources"
+FROM #research/source AND -"Research/Templates"
 WHERE reading_status = "read" OR verification = "full_text_checked"
 SORT reading_status ASC, file.name ASC
 ```

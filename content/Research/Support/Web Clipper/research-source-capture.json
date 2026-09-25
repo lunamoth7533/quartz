@@ -3,7 +3,7 @@
   "name": "Research source capture",
   "behavior": "create",
   "noteNameFormat": "{{title}}",
-  "path": "Research/Sources",
+  "path": "Research/Inbox",
   "noteContentFormat": "## Source\n\n{{url}}\n\n## Summary (your paraphrase)\n\nRead the original and write a short summary here.\n^summary\n\n## Scope and limitations\n\nRecord the study design, population, and limits after reviewing the source.\n^limitation\n\n## Review checklist\n\n- Confirm the title, author, date, and DOI when available.\n- Classify source_kind as paper or educational after review.\n- Update verification only after checking the evidence.\n- Link supported claims to topic notes.\n",
   "properties": [
     {

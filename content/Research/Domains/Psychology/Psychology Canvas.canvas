@@ -1,0 +1,386 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Psychology\n\nDomain hub: perception, attention, learning, memory, emotion, motivation, language, social cognition, development and therapy models.\n\n[[Psychology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 2100,
+			"height": 170,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Perception and attention",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1218
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Psychology - Perception and attention|Perception and attention index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Attention]]**\n*process* - 8 sources\n\nSelection, capacity limits, sustained attention and the evidence for separable attention systems.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Attention and executive function]]**\n*framework* - 6 sources\n\nAttention as selection and executive function as a family of separable control processes, with the measurement gap between tasks and everyday life.",
+			"x": 30,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[Perception]]**\n*process* - 5 sources\n\nSensation and perception distinguished, psychophysical thresholds, and the constructive character of perceptual experience.",
+			"x": 30,
+			"y": 1040,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Working memory]]**\n*process* - 5 sources\n\nHolding and manipulating information over seconds: capacity limits, executive control and measurement issues.",
+			"x": 30,
+			"y": 1294,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Learning and memory",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 1750
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Psychology - Learning and memory|Learning and memory index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Decision-making]]**\n*process* - 6 sources\n\nJudgment under uncertainty: heuristics, biases, framing effects and their interpretation.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Episodic memory]]**\n*process* - 4 sources\n\nMemory for personally experienced events: encoding conditions, retrieval cues, and the reconstruction problem.",
+			"x": 450,
+			"y": 762,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Learning and conditioning]]**\n*process* - 5 sources\n\nClassical, operant and observational learning as three routes to behaviour change, and how cognitive accounts absorbed conditioning paradigms.",
+			"x": 450,
+			"y": 1016,
+			"width": 360,
+			"height": 218,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t1_3",
+			"type": "text",
+			"text": "**[[Memory processes]]**\n*process* - 4 sources\n\nEncoding, storage and retrieval across memory systems, the reconstructive nature of recall, and which practice manipulations actually work.",
+			"x": 450,
+			"y": 1294,
+			"width": 360,
+			"height": 218,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t1_4",
+			"type": "text",
+			"text": "**[[Motivation and reward]]**\n*process* - 6 sources\n\nDrive, expectancy and value accounts of why behaviour persists, and how reward is measured.",
+			"x": 450,
+			"y": 1572,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t1_5",
+			"type": "text",
+			"text": "**[[Procedural memory and habit]]**\n*process* - 7 sources\n\nSkill learning, habit formation and the shift from goal-directed to automatic control.",
+			"x": 450,
+			"y": 1826,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Emotion and social",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 1194
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Psychology - Emotion and social|Emotion and social index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Emotion regulation]]**\n*framework* - 8 sources\n\nEmotion components and theories, common regulation strategies, and why self-report, physiology and behaviour diverge.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Language]]**\n*process* - 4 sources\n\nLanguage structure, development and the classical localisation models with their modern qualifications.",
+			"x": 870,
+			"y": 762,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Personality models]]**\n*framework* - 7 sources\n\nTrait models, dimensional measurement and the debate about consistency across situations.",
+			"x": 870,
+			"y": 1016,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t2_3",
+			"type": "text",
+			"text": "**[[Social cognition]]**\n*framework* - 8 sources\n\nHow people perceive, interpret and reason about other minds, and the interpretive frameworks used to explain differences.",
+			"x": 870,
+			"y": 1270,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Development and therapy",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 988
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**[[Psychology - Development and therapy|Development and therapy index]]**",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t3_0",
+			"type": "text",
+			"text": "**[[CBT and its evidence base]]**\n*framework* - 5 sources\n\nThe CBT model, its behavioural roots, how its effects are tested, and the design constraints that come with psychological treatments.",
+			"x": 1290,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t3_1",
+			"type": "text",
+			"text": "**[[Developmental perspectives and attachment]]**\n*framework* - 9 sources\n\nLifespan developmental theories, attachment concepts, and how early relationships are studied without over-reading them.",
+			"x": 1290,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "t3_2",
+			"type": "text",
+			"text": "**[[Therapy models overview]]**\n*framework* - 3 sources\n\nThe main psychotherapy orientations, what each targets, and how their evidence is generated and compared.",
+			"x": 1290,
+			"y": 1064,
+			"width": 360,
+			"height": 194,
+			"color": "#4CC38A"
+		},
+		{
+			"id": "g4",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1680,
+			"y": 310,
+			"width": 420,
+			"height": 1550
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F09 Noba Research designs]]\neducational page - cited by 5 topics here",
+			"x": 1710,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F11 Noba Memory encoding storage retrieval]]\neducational page - cited by 5 topics here",
+			"x": 1710,
+			"y": 532,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[F41 OpenStax Psychology 2e how memory functions]]\neducational page - cited by 4 topics here",
+			"x": 1710,
+			"y": 728,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[F10 Noba Conditioning and learning]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 924,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[F109 Neuroscience Online association and executive processing]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 1096,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[F37 OpenStax Psychology 2e sensation versus perception]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 1292,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[F39 OpenStax Psychology 2e operant conditioning]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 1488,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F46 OpenStax Psychology 2e social psychology]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 1684,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		},
+		{
+			"id": "e4",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g4",
+			"toSide": "top"
+		}
+	]
+}

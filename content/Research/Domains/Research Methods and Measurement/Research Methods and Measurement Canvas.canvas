@@ -1,0 +1,396 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Research Methods and Measurement\n\nDomain hub: study design, measurement, causal inference, synthesis and research integrity - the lens applied to every other domain.\n\n[[Research Methods and Measurement Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 2100,
+			"height": 170,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Designs",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1544
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Research Methods and Measurement - Designs|Designs index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Experimental designs]]**\n*method* - 5 sources\n\nManipulation, randomisation, control conditions and blinding: what an experiment buys and where its inference stops.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Longitudinal and within-person inference]]**\n*method* - 5 sources\n\nFollowing people over time, distinguishing between-person from within-person effects, and the specific problems of repeated measurement.",
+			"x": 30,
+			"y": 762,
+			"width": 360,
+			"height": 242,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[Observational designs]]**\n*method* - 4 sources\n\nCohort, case-control and cross-sectional designs, their characteristic biases, and the reporting standards built for them.",
+			"x": 30,
+			"y": 1064,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Qualitative designs]]**\n*method* - 3 sources\n\nWhat qualitative research is designed to answer, how rigour is judged, and what it contributes alongside quantitative evidence.",
+			"x": 30,
+			"y": 1318,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t0_4",
+			"type": "text",
+			"text": "**[[Reading a study and matching populations]]**\n*method* - 8 sources\n\nA working checklist for reading a result: population, rater, outcome, duration and comparator.",
+			"x": 30,
+			"y": 1596,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Measurement",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 1218
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Research Methods and Measurement - Measurement|Measurement index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Measurement invariance]]**\n*method* - 3 sources\n\nTesting whether an instrument measures the same thing across groups and time, and what changes when it does not.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Measurement validity and reliability]]**\n*framework* - 4 sources\n\nReliability, validity and measurement invariance as separate properties, and why rater identity is part of the measurement rather than noise.",
+			"x": 450,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Neuroimaging methods]]**\n*method* - 5 sources\n\nWhat structural, functional and diffusion imaging measure, and the specific inference problems each carries.",
+			"x": 450,
+			"y": 1040,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t1_3",
+			"type": "text",
+			"text": "**[[Psychophysiology methods]]**\n*method* - 6 sources\n\nPeripheral physiological measures used as indices of psychological state, and the inference steps they require.",
+			"x": 450,
+			"y": 1294,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Inference",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 1822
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Research Methods and Measurement - Inference|Inference index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Association versus individual prediction]]**\n*framework* - 11 sources\n\nWhy a group association and a useful individual prediction are different achievements, and what prediction additionally requires.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 242,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Bias and confounding]]**\n*framework* - 7 sources\n\nConfounding, selection, analytic flexibility, publication bias and low power, and the procedural remedies that target each.",
+			"x": 870,
+			"y": 810,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Causality and counterfactuals]]**\n*framework* - 5 sources\n\nWhat a causal claim asserts, why the counterfactual is the reference point, and which designs approximate it.",
+			"x": 870,
+			"y": 1064,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t2_3",
+			"type": "text",
+			"text": "**[[Effect sizes and uncertainty]]**\n*method* - 4 sources\n\nAbsolute, relative and standardised effect sizes, the limits of conventional thresholds, and why significance is not magnitude.",
+			"x": 870,
+			"y": 1318,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t2_4",
+			"type": "text",
+			"text": "**[[Evidence types and causal inference]]**\n*framework* - 6 sources\n\nDesign-claim matching: what randomised, observational and qualitative designs can support, and the reporting standards that make appraisal possible.",
+			"x": 870,
+			"y": 1596,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t2_5",
+			"type": "text",
+			"text": "**[[Meta-analysis and review limits]]**\n*method* - 7 sources\n\nPooling, reporting standards, certainty rating and indirect comparisons: what meta-analysis and network meta-analysis can and cannot establish.",
+			"x": 870,
+			"y": 1874,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Integrity",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 988
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**[[Research Methods and Measurement - Integrity|Integrity index]]**",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t3_0",
+			"type": "text",
+			"text": "**[[Replication and publication bias]]**\n*framework* - 7 sources\n\nWhy published effects are usually larger than true effects, and the practices that change the picture.",
+			"x": 1290,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t3_1",
+			"type": "text",
+			"text": "**[[Reviews, guidelines and preprints]]**\n*framework* - 8 sources\n\nHow systematic reviews, guidelines and preprints differ in evidential weight, and what to check before relying on any of them.",
+			"x": 1290,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "t3_2",
+			"type": "text",
+			"text": "**[[Translational validity]]**\n*framework* - 5 sources\n\nWhat it means for a model or a marker to translate between species, levels and settings, and the criteria that make translation claims testable.",
+			"x": 1290,
+			"y": 1040,
+			"width": 360,
+			"height": 218,
+			"color": "#E9D44D"
+		},
+		{
+			"id": "g4",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1680,
+			"y": 310,
+			"width": 420,
+			"height": 1670
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F09 Noba Research designs]]\neducational page - cited by 7 topics here",
+			"x": 1710,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F22 Cochrane Handbook for Systematic Reviews of Interventions]]\neducational page - cited by 4 topics here",
+			"x": 1710,
+			"y": 532,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P16060722 Ioannidis 2005 Why most findings are false]]\nabstract checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 728,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P27942093 Putnick 2016 Measurement invariance]]\nfull text checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 924,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[P28053326 Poldrack 2017 Neuroimaging reproducibility]]\nfull text checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 1144,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[P29531091 Nosek 2018 Preregistration revolution]]\nfull text checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 1364,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[P29942800 Boateng 2018 Developing and validating scales]]\nfull text checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 1584,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[P30097390 Cortese 2018 ADHD medication efficacy and tolerability]]\nabstract checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 1804,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		},
+		{
+			"id": "e4",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g4",
+			"toSide": "top"
+		}
+	]
+}

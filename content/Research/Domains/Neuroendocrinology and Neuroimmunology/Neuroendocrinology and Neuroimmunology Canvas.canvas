@@ -1,0 +1,326 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Neuroendocrinology and Neuroimmunology\n\nDomain hub: hormonal and immune signalling between body and brain, including stress axes, autonomic control, circadian timing and neuroimmune interactions.\n\n[[Neuroendocrinology and Neuroimmunology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 2100,
+			"height": 170,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Axes and physiology",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 734
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Neuroendocrinology and Neuroimmunology - Axes and physiology|Axes and physiology index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[HPA axis]]**\n*process* - 8 sources\n\nThe hypothalamic-pituitary-adrenal axis as a control loop: releasing factors, circulating hormones, feedback, and the timescales involved.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Stress response and the HPA axis]]**\n*mechanism* - 5 sources\n\nHPA axis anatomy and feedback, the contested role of glucocorticoids, the acute-to-chronic transition, and why single cortisol measures mislead.",
+			"x": 30,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Autonomic",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 758
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Neuroendocrinology and Neuroimmunology - Autonomic|Autonomic index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Autonomic measurement and heart rate variability]]**\n*method* - 4 sources\n\nHow autonomic function is measured, why heart rate variability has several definitions, and what physiological inferences are defensible.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 242,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Autonomic regulation]]**\n*mechanism* - 6 sources\n\nAutonomic divisions and central control, the limits of the fight-or-flight shorthand, and why heart rate variability is not one quantity.",
+			"x": 450,
+			"y": 810,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Timing",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 734
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Neuroendocrinology and Neuroimmunology - Timing|Timing index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Circadian clock biology]]**\n*process* - 4 sources\n\nThe molecular clock, its coordination across tissues, and the outputs that connect biological timing to physiology and behaviour.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Circadian rhythms and sleep]]**\n*mechanism* - 4 sources\n\nCircadian clock biology, distributed tissue clocks, sleep pressure versus timing, and the limited evidence linking rhythm disruption to mood episodes.",
+			"x": 870,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Immune and barrier",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1616
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**[[Neuroendocrinology and Neuroimmunology - Immune and barrier|Immune and barrier index]]**",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t3_0",
+			"type": "text",
+			"text": "**[[Allostasis and chronic stress]]**\n*theory* - 5 sources\n\nStability through change: the allostatic framework, its proposed consequences of repeated activation, and how it is measured.",
+			"x": 1290,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t3_1",
+			"type": "text",
+			"text": "**[[Blood-brain barrier]]**\n*structure* - 4 sources\n\nThe components that separate blood from neural tissue, how selectivity is achieved, and why 'leaky barrier' claims need precision.",
+			"x": 1290,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t3_2",
+			"type": "text",
+			"text": "**[[Cytokines and inflammation in psychiatric conditions]]**\n*theory* - 6 sources\n\nInflammatory signalling as a proposed contributor in a subset of cases, with the population-level evidence and its interpretation limits.",
+			"x": 1290,
+			"y": 1064,
+			"width": 360,
+			"height": 242,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t3_3",
+			"type": "text",
+			"text": "**[[Microbiome-gut-brain axis]]**\n*theory* - 4 sources\n\nGut microbiota as a proposed actor in brain function, the communication routes involved, and the causal limits of current evidence.",
+			"x": 1290,
+			"y": 1366,
+			"width": 360,
+			"height": 218,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "t3_4",
+			"type": "text",
+			"text": "**[[Neuroimmune interactions and microglia]]**\n*mechanism* - 7 sources\n\nMicroglia as the brain's resident immune cells, their surveillance and responses, and how immune signalling interacts with neural function.",
+			"x": 1290,
+			"y": 1644,
+			"width": 360,
+			"height": 242,
+			"color": "#8FA8FF"
+		},
+		{
+			"id": "g4",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1680,
+			"y": 310,
+			"width": 420,
+			"height": 1550
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F08 OpenStax What is stress]]\neducational page - cited by 4 topics here",
+			"x": 1710,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F105 Neuroscience Online blood-brain barrier]]\neducational page - cited by 4 topics here",
+			"x": 1710,
+			"y": 532,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P17290796 McEwen 2006 Stress mediators]]\nabstract checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 728,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P10696570 Sapolsky 2000 Glucocorticoids and stress]]\nabstract checked - cited by 3 topics here",
+			"x": 1710,
+			"y": 900,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[P18073775 Dantzer 2008 Inflammation to sickness and depression]]\nfull text checked - cited by 3 topics here",
+			"x": 1710,
+			"y": 1096,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[F02 OpenStax Nervous tissue]]\neducational page - cited by 2 topics here",
+			"x": 1710,
+			"y": 1316,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[F14 NINDS Brain basics understanding sleep]]\neducational page - cited by 2 topics here",
+			"x": 1710,
+			"y": 1488,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F32 OpenStax Divisions of the autonomic nervous system]]\neducational page - cited by 2 topics here",
+			"x": 1710,
+			"y": 1684,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		},
+		{
+			"id": "e4",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g4",
+			"toSide": "top"
+		}
+	]
+}

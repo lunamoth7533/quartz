@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"queue-frame","type":"group","x":-80,"y":-80,"width":1880,"height":1300,"color":"3","label":"Reading queue strategy"},
+		{"id":"learning-path","type":"file","file":"Research/Learning/Learning Path.md","x":0,"y":0,"width":400,"height":240},
+		{"id":"visualizations","type":"file","file":"Research/Visualizations/Visualizations.md","x":1320,"y":0,"width":400,"height":240},
+		{"id":"core-rules","type":"text","text":"### Core queue\n\nRead in learning-path order.\n\nPrefer:\n- foundation before condition\n- research literacy before trials\n- mechanism before applied medication evidence","x":0,"y":460,"width":400,"height":264,"color":"4"},
+		{"id":"access-rules","type":"text","text":"### Access labels\n\n**abstract-only:** checked abstract, not full text\n**public-page:** official or educational page checked\n**official-pdf:** official PDF available; availability is not reading","x":1320,"y":460,"width":400,"height":201,"color":"2"},
+		{"id":"condition-priority","type":"text","text":"### Condition sequence\n\n1. Research literacy\n2. Cells and circuits\n3. Chemistry\n4. Psychology\n5. Pharmacology\n6. Neurology\n7. Conditions","x":0,"y":874,"width":400,"height":266,"color":"4"},
+		{"id":"verification-rules","type":"text","text":"### Verification labels\n\n**abstract_checked:** publisher abstract checked\n**educational_checked:** official or educational page checked\n\nNever upgrade these labels without the matching read.","x":1320,"y":874,"width":400,"height":217,"color":"2"},
+		{"id":"library-base","type":"file","file":"Research/Hubs/Library.base","x":660,"y":0,"width":400,"height":300},
+		{"id":"advanced-rules","type":"text","text":"### Advanced queue\n\nHold back sources that need:\n- polygenic reasoning\n- aggregate dose models\n- exome sequencing\n- certainty-of-evidence methods","x":660,"y":460,"width":400,"height":227,"color":"6"}
+	],
+	"edges":[
+		{"id":"library-learning","fromNode":"library-base","fromSide":"left","toNode":"learning-path","toSide":"right","color":"4","label":"ordered by"},
+		{"id":"library-visualizations","fromNode":"library-base","fromSide":"right","toNode":"visualizations","toSide":"left","color":"4","label":"summarized by"},
+		{"id":"learning-core","fromNode":"learning-path","fromSide":"bottom","toNode":"core-rules","toSide":"top","color":"4","label":"defines"},
+		{"id":"visualizations-access","fromNode":"visualizations","fromSide":"bottom","toNode":"access-rules","toSide":"top","color":"2","label":"exposes"},
+		{"id":"core-advanced","fromNode":"core-rules","fromSide":"right","toNode":"advanced-rules","toSide":"left","color":"6","label":"defer"},
+		{"id":"advanced-access","fromNode":"advanced-rules","fromSide":"right","toNode":"access-rules","toSide":"left","color":"2","label":"constrained by"},
+		{"id":"access-verification","fromNode":"access-rules","fromSide":"bottom","toNode":"verification-rules","toSide":"top","color":"2","label":"interpreted with"},
+		{"id":"core-sequence","fromNode":"core-rules","fromSide":"bottom","toNode":"condition-priority","toSide":"top","color":"4","label":"sequence"}
+	],
+	"metadata":{"version":"1.0-1.0"}
+}

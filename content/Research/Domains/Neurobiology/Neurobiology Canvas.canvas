@@ -1,0 +1,360 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Neurobiology\n\nDomain hub: cellular signalling, synaptic transmission, plasticity and the developmental programme that builds and prunes circuits.\n\n[[Neurobiology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Structures",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1798
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Neurobiology - Structures|Structures index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Chemical and electrical synapses]]**\n*structure* - 3 sources\n\nTwo modes of neuronal connection: transmitter-mediated chemical synapses and gap-junction electrical synapses, their properties and their different roles.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Glial cell types]]**\n*structure* - 5 sources\n\nAstrocytes, oligodendrocytes, microglia and ependymal cells, their distinct functions, and why they are signalling partners rather than support tissue.",
+			"x": 30,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[Membrane transport and ion channels]]**\n*structure* - 11 sources\n\nThe molecular machinery that sets and changes membrane potential: pumps, leak channels, voltage-gated channels, transporters and their selectivity.",
+			"x": 30,
+			"y": 1064,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Myelin and saltatory conduction]]**\n*structure* - 5 sources\n\nThe myelin sheath, nodes of Ranvier, how conduction speed is achieved, and what changes when myelin is damaged.",
+			"x": 30,
+			"y": 1342,
+			"width": 360,
+			"height": 194,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t0_4",
+			"type": "text",
+			"text": "**[[Nervous tissue and myelin]]**\n*structure* - 7 sources\n\nGrey and white matter, myelin structure, saltatory conduction, and the developmental timeline of central myelination.",
+			"x": 30,
+			"y": 1596,
+			"width": 360,
+			"height": 194,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t0_5",
+			"type": "text",
+			"text": "**[[Neurons and glia]]**\n*structure* - 5 sources\n\nNeurons and the major glial cell types, their compartments, and the division of labour between signalling, insulation, support and immune surveillance.",
+			"x": 30,
+			"y": 1850,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Processes and mechanisms",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 2958
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Neurobiology - Processes and mechanisms|Processes and mechanisms index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Action potentials]]**\n*mechanism* - 6 sources\n\nThe phases of the action potential, its self-propagating conduction, the refractory period, and why amplitude carries no graded information.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Circuit development and homeostasis]]**\n*process* - 8 sources\n\nHow developing circuits are built, refined and then held stable: overproduction and selection, activity dependence, and homeostatic regulation of excitability.",
+			"x": 450,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Dendritic integration]]**\n*mechanism* - 8 sources\n\nHow inputs distributed across a dendritic tree are combined: passive spread, active dendritic conductances, and summation at the axon initial segment.",
+			"x": 450,
+			"y": 1064,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_3",
+			"type": "text",
+			"text": "**[[Ion gradients and membrane potential]]**\n*mechanism* - 6 sources\n\nIon gradients, the electrochemical driving forces behind the resting potential, and the distinction between graded and all-or-none signalling.",
+			"x": 450,
+			"y": 1342,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_4",
+			"type": "text",
+			"text": "**[[Long-term potentiation and depression]]**\n*mechanism* - 2 sources\n\nLTP and LTD as the cellular model of lasting synaptic change: induction rules, timing dependence, metaplasticity and the translation boundary.",
+			"x": 450,
+			"y": 1620,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_5",
+			"type": "text",
+			"text": "**[[Neuronal cell biology and energetics]]**\n*structure* - 10 sources\n\nHow a neuron builds, transports and powers itself: protein synthesis in the soma, axonal transport, mitochondrial distribution, and the energy cost of signalling.",
+			"x": 450,
+			"y": 1898,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_6",
+			"type": "text",
+			"text": "**[[Neurotrophic support and cell death]]**\n*process* - 3 sources\n\nTrophic signalling, activity-dependent competition for target-derived support, and programmed cell death as a normal part of nervous-system development.",
+			"x": 450,
+			"y": 2176,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_7",
+			"type": "text",
+			"text": "**[[Short-term synaptic plasticity]]**\n*process* - 6 sources\n\nFacilitation, depression and other changes that last milliseconds to seconds, driven by residual calcium and vesicle availability.",
+			"x": 450,
+			"y": 2454,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_8",
+			"type": "text",
+			"text": "**[[Synapses and plasticity]]**\n*mechanism* - 7 sources\n\nChemical synaptic transmission, receptor classes, short- and long-term plasticity, and the developmental creation and removal of synapses.",
+			"x": 450,
+			"y": 2732,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "t1_9",
+			"type": "text",
+			"text": "**[[The synaptic vesicle cycle]]**\n*process* - 5 sources\n\nHow transmitter is packaged, released and recycled: vesicle pools, calcium-triggered fusion, quantal release and membrane retrieval.",
+			"x": 450,
+			"y": 3010,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Frameworks and contested ideas",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 456
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Neurobiology - Frameworks and contested ideas|Frameworks and contested ideas index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Excitation and inhibition balance]]**\n*theory* - 9 sources\n\nExcitatory and inhibitory transmission considered as a balance: mechanisms, measurement approaches, and the limits of the E/I framing.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#5CC8F2"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1478
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F02 OpenStax Nervous tissue]]\neducational page - cited by 9 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F04 OpenStax Communication between neurons]]\neducational page - cited by 8 topics here",
+			"x": 1290,
+			"y": 532,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[F100 Neuroscience Online synaptic plasticity]]\neducational page - cited by 6 topics here",
+			"x": 1290,
+			"y": 728,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P23040802 Marder 2012 Neuromodulation]]\nfull text checked - cited by 6 topics here",
+			"x": 1290,
+			"y": 924,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[F03 OpenStax The action potential]]\neducational page - cited by 5 topics here",
+			"x": 1290,
+			"y": 1120,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[F102 Neuroscience Online cell types]]\neducational page - cited by 5 topics here",
+			"x": 1290,
+			"y": 1292,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[F51 OpenStax Function of nervous tissue]]\neducational page - cited by 5 topics here",
+			"x": 1290,
+			"y": 1464,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F06 OpenStax Cells of the nervous system]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 1636,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

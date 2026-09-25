@@ -1,0 +1,310 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Bipolar I\n\nCondition hub: episode and course description, competing mechanistic hypotheses, and how treatment evidence is organised by phase.\n\n[[Bipolar I Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#F0506E"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Constructs and course",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 686
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Bipolar I - Constructs and course|Constructs and course index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Bipolar I episodes and course]]**\n*condition* - 5 sources\n\nEpisode definitions against the lifetime course, and why acute and long-term questions must be separated in this condition.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Bipolar depression and mixed features]]**\n*condition* - 5 sources\n\nDepressive episodes in bipolar disorder, mixed presentations, and why they are distinguished from unipolar depression.",
+			"x": 30,
+			"y": 762,
+			"width": 360,
+			"height": 194,
+			"color": "#F0506E"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Hypotheses",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 1338
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Bipolar I - Hypotheses|Hypotheses index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Cellular energy and mitochondrial hypotheses]]**\n*theory* - 6 sources\n\nThe proposal that cellular energy metabolism contributes to bipolar disorder, and what the supporting evidence can bear.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Circadian and social rhythm hypotheses]]**\n*theory* - 5 sources\n\nThe proposal that rhythm disruption links life events to mood episodes, together with the evidence and its limits.",
+			"x": 450,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Dopamine hypothesis in bipolar disorder]]**\n*theory* - 4 sources\n\nState-dependent dopamine findings, the pharmacological clues that complicate a single-direction account, and the boundary between group evidence and individual inference.",
+			"x": 450,
+			"y": 1064,
+			"width": 360,
+			"height": 266,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t1_3",
+			"type": "text",
+			"text": "**[[Inflammation and immune hypotheses in bipolar disorder]]**\n*theory* - 5 sources\n\nImmune markers in bipolar disorder, the inflammation-depression model they borrow from, and the interpretation limits.",
+			"x": 450,
+			"y": 1390,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Evidence and treatment",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 1870
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Bipolar I - Evidence and treatment|Evidence and treatment index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Bipolar MRI findings and their limits]]**\n*method* - 3 sources\n\nWhat consortium imaging studies show in bipolar disorder, the confounds they cannot remove, and why they do not classify individuals.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Bipolar genetics and polygenic risk]]**\n*framework* - 5 sources\n\nPolygenic architecture in bipolar disorder, genetic sharing with other conditions, and why loci are not mechanisms or diagnoses.",
+			"x": 870,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Bipolar psychotherapy evidence]]**\n*framework* - 3 sources\n\nWhat adjunctive psychotherapy trials in bipolar disorder test, what they find for recurrence and symptoms, and why component estimates are averages.",
+			"x": 870,
+			"y": 1064,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t2_3",
+			"type": "text",
+			"text": "**[[Lithium mechanisms and uncertainty]]**\n*mechanism* - 3 sources\n\nLithium's signalling targets, why its recurrence-prevention mechanism stays unresolved, and how narrow-window monitoring is a class property.",
+			"x": 870,
+			"y": 1342,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t2_4",
+			"type": "text",
+			"text": "**[[Phase-specific bipolar treatment evidence]]**\n*framework* - 4 sources\n\nWhy bipolar treatment evidence is organised by phase, how guidelines attach strength to evidence, and the boundaries of what trials measure.",
+			"x": 870,
+			"y": 1620,
+			"width": 360,
+			"height": 242,
+			"color": "#F0506E"
+		},
+		{
+			"id": "t2_5",
+			"type": "text",
+			"text": "**[[Psychoeducation and social rhythms]]**\n*framework* - 5 sources\n\nPsychoeducation and social rhythm components, the circadian machinery they target, and the status of social zeitgeber theory.",
+			"x": 870,
+			"y": 1922,
+			"width": 360,
+			"height": 218,
+			"color": "#F0506E"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1574
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F16 NIMH Bipolar disorder]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F94 NICE Bipolar disorder CG185]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 532,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P38695002 Keramatian 2023 CANMAT and ISBD bipolar treatment guidelines]]\nabstract checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 704,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P39843750 O'Connell 2025 Genomics of bipolar disorder]]\nabstract checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 900,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder]]\nabstract checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1096,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[P28686856 Visscher 2017 10 years of GWAS discovery]]\nfull text checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1292,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder]]\nabstract checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1512,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F14 NINDS Brain basics understanding sleep]]\neducational page - cited by 2 topics here",
+			"x": 1290,
+			"y": 1708,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

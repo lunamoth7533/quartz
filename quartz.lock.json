@@ -1,6 +1,24 @@
 {
   "version": "1.0.0",
   "plugins": {
+    "obsidian-plugin-leaflet": {
+      "source": "github:quartz-community/obsidian-plugin-leaflet",
+      "resolved": "https://github.com/quartz-community/obsidian-plugin-leaflet.git",
+      "commit": "579bda5295216493c585b0af738a5377b99a8489",
+      "installedAt": "2026-09-25T17:36:34.073Z"
+    },
+    "obsidian-plugin-ttrpg-tools-maps": {
+      "source": "github:quartz-community/obsidian-plugin-ttrpg-tools-maps",
+      "resolved": "https://github.com/quartz-community/obsidian-plugin-ttrpg-tools-maps.git",
+      "commit": "bc33fffc305aa46938c816431a978497fcd38bcd",
+      "installedAt": "2026-09-25T17:36:34.091Z"
+    },
+    "quartz-leaflet-bases-plugin": {
+      "source": "github:Requiae/quartz-leaflet-bases-plugin",
+      "resolved": "https://github.com/Requiae/quartz-leaflet-bases-plugin.git",
+      "commit": "48da13cf01ba6d742e616da2e837fd2a9478ac79",
+      "installedAt": "2026-09-25T17:36:34.588Z"
+    },
     "tui": {
       "source": "github:quartz-community/tui",
       "resolved": "https://github.com/quartz-community/tui.git",

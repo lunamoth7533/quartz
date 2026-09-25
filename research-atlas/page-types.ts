@@ -12,6 +12,7 @@ import { BasesPage } from "@quartz-community/bases-page"
 import { CanvasPage } from "@quartz-community/canvas-page"
 import { ContentPage } from "@quartz-community/content-page"
 import type { QuartzPageTypePlugin } from "@quartz-community/types"
+import type { FullSlug } from "../quartz/util/path"
 import {
   AtlasBasesBodyComponent,
   AtlasCanvasBodyComponent,
@@ -64,5 +65,28 @@ export const AtlasCanvasPages: QuartzPageTypePlugin = () => {
     name: "AtlasCanvasPages",
     priority: (base.priority ?? 0) + 1,
     body: AtlasCanvasBodyComponent,
+  }
+}
+
+/**
+ * The site root. Quartz publishes a root `index.md` as the home page; this vault
+ * keeps its landing note at `Research/Home.md` and has no root note, so the build
+ * emitted no index.html and GitHub Pages served the RSS feed (index.xml) at the
+ * site root instead. This publishes the site's own home surface (AtlasHome) there
+ * and steps aside as soon as the vault gains a root index note.
+ */
+export const AtlasHomePages: QuartzPageTypePlugin = () => {
+  const base = ContentPage()
+  return {
+    ...base,
+    name: "AtlasHomePages",
+    priority: (base.priority ?? 0) + 6,
+    body: AtlasContentBodyComponent,
+    // Only ever renders the page it generates; real notes stay with AtlasContentPages.
+    match: () => false,
+    generate: ({ content }) =>
+      content.some(([, file]) => file.data?.slug === "index")
+        ? []
+        : [{ slug: "index" as FullSlug, title: "Research Atlas", data: {} }],
   }
 }

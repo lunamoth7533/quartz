@@ -13,7 +13,7 @@ export {
   replaceDashboardBlocks,
   dedupeBodyTitle,
 } from "./dashboards"
-export { AtlasBasesPages, AtlasCanvasPages, AtlasContentPages } from "./page-types"
+export { AtlasBasesPages, AtlasCanvasPages, AtlasContentPages, AtlasHomePages } from "./page-types"
 export {
   AtlasUtilityFolderPages,
   AtlasUtilityPages,

@@ -12,3 +12,11 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+# Vault tooling that `quartz sync` copies in with the notes: agent settings and
+# hooks, MCP config, caches. Not site content, and this repository is public.
+content/.claude/
+content/.claudian/
+content/.mcp.json
+content/.ruff_cache/
+content/CLAUDE.md

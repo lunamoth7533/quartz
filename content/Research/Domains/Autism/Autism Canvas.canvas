@@ -1,0 +1,280 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Autism\n\nCondition hub: autism heterogeneity, partial cognitive and biological accounts, multi-source assessment, and support framed by autistic perspectives.\n\n[[Autism Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#D9467F"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Description",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1266
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Autism - Description|Description index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Autism heterogeneity and support needs]]**\n*condition* - 6 sources\n\nHeterogeneity in autism and its consequences: individualised support, frequent co-occurrence, and outcomes beyond measured traits.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 242,
+			"color": "#D9467F"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Double empathy]]**\n*theory* - 5 sources\n\nThe proposal that misunderstanding between autistic and non-autistic people is bidirectional, and the evidence that supports it.",
+			"x": 30,
+			"y": 810,
+			"width": 360,
+			"height": 218,
+			"color": "#D9467F"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[Masking and camouflaging]]**\n*process* - 5 sources\n\nDeliberate and automatic self-presentation strategies, their reported costs, and their consequences for assessment.",
+			"x": 30,
+			"y": 1088,
+			"width": 360,
+			"height": 194,
+			"color": "#D9467F"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Social cognition accounts]]**\n*theory* - 6 sources\n\nAccounts that explain autistic social differences through social-cognitive processes, and the criticisms they attracted.",
+			"x": 30,
+			"y": 1342,
+			"width": 360,
+			"height": 194,
+			"color": "#D9467F"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Biology",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 456
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Autism - Biology|Biology index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Autism genetics and rare variants]]**\n*framework* - 7 sources\n\nCommon and rare variant architecture in autism, what exome sequencing has shown, and why a risk variant is not a diagnosis or a mechanism.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#D9467F"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Assessment and support",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 1314
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Autism - Assessment and support|Assessment and support index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Adult autism assessment and differential considerations]]**\n*method* - 3 sources\n\nRecognition, screening limits, comprehensive multi-source assessment and differential scope in adult autism assessment.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#D9467F"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Autism support and services]]**\n*framework* - 5 sources\n\nHow autism support and services are organised, where medication belongs, and why access and participation are part of the evidence.",
+			"x": 870,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#D9467F"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Autistic sensory and communication access]]**\n*framework* - 4 sources\n\nAccess as environmental and communicative design, the cost of camouflaging, and the qualitative evidence base behind these recommendations.",
+			"x": 870,
+			"y": 1064,
+			"width": 360,
+			"height": 242,
+			"color": "#D9467F"
+		},
+		{
+			"id": "t2_3",
+			"type": "text",
+			"text": "**[[Intervention outcomes and autistic perspectives]]**\n*framework* - 6 sources\n\nWhat intervention research measures, what autistic adults say about outcomes, and how the two relate.",
+			"x": 870,
+			"y": 1366,
+			"width": 360,
+			"height": 218,
+			"color": "#D9467F"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1646
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults]]\nfull text checked - cited by 7 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F24 NICE CG142 autism in adults diagnosis and management]]\neducational page - cited by 6 topics here",
+			"x": 1290,
+			"y": 580,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P28527095 Hull 2017 Social camouflaging]]\nabstract checked - cited by 5 topics here",
+			"x": 1290,
+			"y": 776,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P31949163 Lord 2020 Autism spectrum disorder primer]]\nabstract checked - cited by 5 topics here",
+			"x": 1290,
+			"y": 948,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[P42411151 Nosova 2026 Autistic adults views on early interventions]]\nfull text checked - cited by 5 topics here",
+			"x": 1290,
+			"y": 1144,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[F20 NIMH Autism spectrum disorder]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 1364,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[P24808851 Leitner 2014 Co-occurrence of autism and ADHD]]\nfull text checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 1536,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[P27942093 Putnick 2016 Measurement invariance]]\nfull text checked - cited by 3 topics here",
+			"x": 1290,
+			"y": 1756,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

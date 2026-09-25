@@ -1,28 +1,209 @@
 {
-	"nodes":[
-		{"id":"topic-system-frame","type":"group","x":-80,"y":-80,"width":2440,"height":1150,"color":"5","label":"Topic system"},
-		{"id":"major-topic","type":"text","text":"## Major topic\n\nOne sentence definition.\n\n**Claim to explain:** write the claim that needs support\n**Common misconception:** write the oversimplification to avoid","x":1080,"y":0,"width":480,"height":201,"color":"5"},
-		{"id":"topic-template","type":"file","file":"Research/Templates/Topic template.md","x":0,"y":0,"width":300,"height":240},
-		{"id":"psychology","type":"text","text":"### Psychology\n\nBehavior, measurement, learning or therapy evidence.\n\nName the outcome and who reports it.","x":1160,"y":440,"width":320,"height":193,"color":"3"},
-		{"id":"pharmacology","type":"text","text":"### Pharmacology\n\nExposure, action, benefit, harm or interactions.\n\nNo dosing or individual treatment advice.","x":1550,"y":440,"width":320,"height":193,"color":"3"},
-		{"id":"neurology","type":"text","text":"### Neurology\n\nMeasurement, examination or group-level structure.\n\nSeparate group difference from individual prediction.","x":1940,"y":440,"width":320,"height":193,"color":"3"},
-		{"id":"conditions","type":"text","text":"### Conditions touched\n\nLink the condition maps only when the mechanism is actually relevant.","x":1420,"y":773,"width":340,"height":116,"color":"4"},
-		{"id":"open-questions","type":"text","text":"### Open questions\n\nWhat would falsify the current explanation?\n\nWhat source would settle the next uncertainty?","x":1940,"y":773,"width":340,"height":193,"color":"6"},
-		{"id":"neurobiology","type":"text","text":"### Neurobiology\n\nCells, circuits, anatomy or development.\n\nLink the topic that supplies the mechanism.","x":380,"y":440,"width":320,"height":193,"color":"3"},
-		{"id":"neurochemistry","type":"text","text":"### Neurochemistry\n\nTransmitter, receptor or signalling context.\n\nName where the signal matters and where it does not.","x":770,"y":440,"width":320,"height":193,"color":"3"},
-		{"id":"subtopics","type":"text","text":"### Atomic subtopics\n\nOne concept per note. Link each claim to a source block.","x":380,"y":773,"width":340,"height":116,"color":"4"},
-		{"id":"source-cluster","type":"text","text":"### Source cluster\n\nPapers\nOfficial pages\nReviews\n\nRecord access and verification separately.","x":900,"y":773,"width":340,"height":217,"color":"4"}
+	"nodes": [
+		{
+			"id": "topic-system-frame",
+			"type": "group",
+			"x": -80,
+			"y": -80,
+			"width": 2440,
+			"height": 1150,
+			"color": "5",
+			"label": "Topic system"
+		},
+		{
+			"id": "major-topic",
+			"type": "text",
+			"text": "## Major topic\n\nOne sentence definition.\n\n**Claim to explain:** write the claim that needs support\n**Common misconception:** write the oversimplification to avoid",
+			"x": 1080,
+			"y": 0,
+			"width": 480,
+			"height": 201,
+			"color": "5"
+		},
+		{
+			"id": "topic-template",
+			"type": "file",
+			"file": "Research/Templates/Topic template.md",
+			"x": 0,
+			"y": 0,
+			"width": 300,
+			"height": 831
+		},
+		{
+			"id": "psychology",
+			"type": "text",
+			"text": "### Psychology\n\nBehavior, measurement, learning or therapy evidence.\n\nName the outcome and who reports it.",
+			"x": 1160,
+			"y": 440,
+			"width": 320,
+			"height": 193,
+			"color": "3"
+		},
+		{
+			"id": "pharmacology",
+			"type": "text",
+			"text": "### Pharmacology\n\nExposure, action, benefit, harm or interactions.\n\nNo dosing or individual treatment advice.",
+			"x": 1550,
+			"y": 440,
+			"width": 320,
+			"height": 193,
+			"color": "3"
+		},
+		{
+			"id": "neurology",
+			"type": "text",
+			"text": "### Neurology\n\nMeasurement, examination or group-level structure.\n\nSeparate group difference from individual prediction.",
+			"x": 1940,
+			"y": 440,
+			"width": 320,
+			"height": 193,
+			"color": "3"
+		},
+		{
+			"id": "neurobiology",
+			"type": "text",
+			"text": "### Neurobiology\n\nCells, circuits, anatomy or development.\n\nLink the topic that supplies the mechanism.",
+			"x": 380,
+			"y": 440,
+			"width": 320,
+			"height": 193,
+			"color": "3"
+		},
+		{
+			"id": "neurochemistry",
+			"type": "text",
+			"text": "### Neurochemistry\n\nTransmitter, receptor or signalling context.\n\nName where the signal matters and where it does not.",
+			"x": 770,
+			"y": 440,
+			"width": 320,
+			"height": 193,
+			"color": "3"
+		},
+		{
+			"id": "subtopics",
+			"type": "text",
+			"text": "### Atomic subtopics\n\nOne concept per note. Link each claim to a source block.",
+			"x": 360,
+			"y": 657,
+			"width": 340,
+			"height": 116,
+			"color": "4"
+		},
+		{
+			"id": "conditions",
+			"type": "text",
+			"text": "### Conditions touched\n\nLink the condition maps only when the mechanism is actually relevant.",
+			"x": 1530,
+			"y": 657,
+			"width": 340,
+			"height": 116,
+			"color": "4"
+		},
+		{
+			"id": "open-questions",
+			"type": "text",
+			"text": "### Open questions\n\nWhat would falsify the current explanation?\n\nWhat source would settle the next uncertainty?",
+			"x": 2000,
+			"y": 831,
+			"width": 340,
+			"height": 193,
+			"color": "6"
+		},
+		{
+			"id": "source-cluster",
+			"type": "text",
+			"text": "### Source cluster\n\nPapers\nOfficial pages\nReviews\n\nRecord access and verification separately.",
+			"x": 930,
+			"y": 807,
+			"width": 340,
+			"height": 217,
+			"color": "4"
+		}
 	],
-	"edges":[
-		{"id":"topic-neurobiology","fromNode":"major-topic","fromSide":"bottom","toNode":"neurobiology","toSide":"top","color":"3","label":"structure"},
-		{"id":"topic-neurochemistry","fromNode":"major-topic","fromSide":"bottom","toNode":"neurochemistry","toSide":"top","color":"3","label":"signalling"},
-		{"id":"topic-psychology","fromNode":"major-topic","fromSide":"bottom","toNode":"psychology","toSide":"top","color":"3","label":"behavior"},
-		{"id":"topic-pharmacology","fromNode":"major-topic","fromSide":"bottom","toNode":"pharmacology","toSide":"top","color":"3","label":"intervention"},
-		{"id":"topic-neurology","fromNode":"major-topic","fromSide":"bottom","toNode":"neurology","toSide":"top","color":"3","label":"measurement"},
-		{"id":"subtopics-sources","fromNode":"subtopics","fromSide":"right","toNode":"source-cluster","toSide":"left","color":"4","label":"supported by"},
-		{"id":"sources-conditions","fromNode":"source-cluster","fromSide":"right","toNode":"conditions","toSide":"left","color":"4","label":"generalizes to"},
-		{"id":"conditions-questions","fromNode":"conditions","fromSide":"right","toNode":"open-questions","toSide":"left","color":"6","label":"exposes"},
-		{"id":"template-topic","fromNode":"topic-template","fromSide":"right","toNode":"major-topic","toSide":"left","color":"5","label":"note format"}
+	"edges": [
+		{
+			"id": "topic-neurobiology",
+			"fromNode": "major-topic",
+			"fromSide": "bottom",
+			"toNode": "neurobiology",
+			"toSide": "top",
+			"color": "3",
+			"label": "structure"
+		},
+		{
+			"id": "topic-neurochemistry",
+			"fromNode": "major-topic",
+			"fromSide": "bottom",
+			"toNode": "neurochemistry",
+			"toSide": "top",
+			"color": "3",
+			"label": "signalling"
+		},
+		{
+			"id": "topic-psychology",
+			"fromNode": "major-topic",
+			"fromSide": "bottom",
+			"toNode": "psychology",
+			"toSide": "top",
+			"color": "3",
+			"label": "behavior"
+		},
+		{
+			"id": "topic-pharmacology",
+			"fromNode": "major-topic",
+			"fromSide": "bottom",
+			"toNode": "pharmacology",
+			"toSide": "top",
+			"color": "3",
+			"label": "intervention"
+		},
+		{
+			"id": "topic-neurology",
+			"fromNode": "major-topic",
+			"fromSide": "bottom",
+			"toNode": "neurology",
+			"toSide": "top",
+			"color": "3",
+			"label": "measurement"
+		},
+		{
+			"id": "subtopics-sources",
+			"fromNode": "subtopics",
+			"fromSide": "right",
+			"toNode": "source-cluster",
+			"toSide": "left",
+			"color": "4",
+			"label": "supported by"
+		},
+		{
+			"id": "sources-conditions",
+			"fromNode": "source-cluster",
+			"fromSide": "right",
+			"toNode": "conditions",
+			"toSide": "left",
+			"color": "4",
+			"label": "generalizes to"
+		},
+		{
+			"id": "conditions-questions",
+			"fromNode": "conditions",
+			"fromSide": "right",
+			"toNode": "open-questions",
+			"toSide": "left",
+			"color": "6",
+			"label": "exposes"
+		},
+		{
+			"id": "template-topic",
+			"fromNode": "topic-template",
+			"fromSide": "right",
+			"toNode": "major-topic",
+			"toSide": "left",
+			"color": "5",
+			"label": "note format"
+		}
 	],
-	"metadata":{"version":"1.0-1.0"}
+	"metadata": {
+		"version": "1.0-1.0"
+	}
 }

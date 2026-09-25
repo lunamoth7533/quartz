@@ -7,7 +7,7 @@ tags: [research/workflow]
 
 # Workflow
 
-This vault follows the source to claim to topic to argument structure: notes live in `Sources/`, `Topics/` and `Arguments/` with attachments in `Support/`, and an article library is built from metadata with Bases.
+This vault follows the source to claim to topic to argument structure: topics and sources live in `Domains/` (domain, then subdomain, then topic; each domain keeps its sources in `Articles/` and `Pages/`), open questions in `Arguments/` and attachments in `Support/`, and an article library is built from metadata with Bases.
 
 ## 1. One source record per source
 
@@ -44,14 +44,14 @@ Open the PDF in a split pane (command palette: *Split right*) and keep the sourc
 
 ## 5. Separate findings from hypotheses
 
-Atomic statements belong in `Topics/`. Questions, competing explanations and evidence needs belong in `Arguments/`, marked as AI-generated starter questions (33:00-36:50). Never move a hypothesis into a topic note's claim list without a source that supports it.
+Atomic statements belong in topic notes, filed in their subdomain folder under `Domains/` with `up` naming the subdomain note. Questions, competing explanations and evidence needs belong in `Arguments/`, marked as AI-generated starter questions (33:00-36:50). Never move a hypothesis into a topic note's claim list without a source that supports it.
 
 ## 6. Capture new pages
 
 For non-PDF sources the official Web Clipper can create a source record from a URL (31:50). The ready template lives at `Research/Support/Web Clipper/research-source-capture.json`:
 
 1. Open the Web Clipper extension, choose **Import** and pick that file.
-2. Set the template's vault to `Obsidian Vault`; the capture path is already `Research/Sources`.
+2. Set the template's vault to `Obsidian Vault`; the capture path is `Research/Inbox`. After checking a capture, move the record into its domain's `Articles/` (papers) or `Pages/` (official and educational pages) folder.
 3. Clip a page, then replace the captured text with your own summary, add a block anchor and set `reading_status`.
 
 Without a browser extension, capture the page manually with the fields from [[Source template]].

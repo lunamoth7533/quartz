@@ -1,7 +1,8 @@
 filters:
   and:
-    - file.inFolder("Research/Sources")
     - note_type == "source"
+    - not:
+        - file.inFolder("Research/Templates")
 properties:
   title:
     displayName: Title
@@ -50,27 +51,36 @@ properties:
 views:
   - type: table
     name: Source Table
+    groupBy:
+      property: domain
+      direction: ASC
     order:
-      - file.name
       - title
-      - authors
       - year
-      - journal
       - publisher
       - condition
-      - domain
       - source_kind
-      - study_type
-      - access_level
-      - verification
-      - reading_status
-      - queue_tier
       - source_url
+      - study_type
+      - journal
+      - domain
     sort:
       - property: title
         direction: ASC
+      - property: year
+        direction: ASC
+      - property: study_type
+        direction: ASC
+      - property: source_url
+        direction: ASC
     summaries:
       file.name: Filled
+    columnSize:
+      note.publisher: 196
+      note.condition: 80
+      note.source_kind: 89
+      note.source_url: 185
+      note.study_type: 204
   - type: cards
     name: Reading Queue Board
     filters: reading_status == "queued"

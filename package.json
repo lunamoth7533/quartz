@@ -91,6 +91,7 @@
     "ansi-truncate": "^1.4.0",
     "async-mutex": "^0.5.0",
     "chokidar": "^5.0.0",
+    "d3-force": "^3.0.0",
     "esbuild-sass-plugin": "^3.6.0",
     "github-slugger": "^2.0.0",
     "globby": "^16.1.0",
@@ -122,6 +123,7 @@
   "devDependencies": {
     "@quartz-community/types": "^1.0.0",
     "@quartz-community/utils": "^1.0.1",
+    "@types/d3-force": "^3.0.10",
     "@types/hast": "^3.0.4",
     "@types/node": "^26.6.2",
     "@types/pretty-time": "^1.1.5",

@@ -5,6 +5,7 @@ import { render } from "preact-render-to-string"
 import type { QuartzComponent, QuartzComponentProps, QuartzPluginData } from "@quartz-community/types"
 import { AtlasHomeComponent, AtlasNavComponent } from "../components"
 import { resolveAuthoredHref } from "../notes"
+import { AtlasHomePages } from "../page-types"
 
 /**
  * The site's own navigation targets are authored the way the vault is authored:
@@ -204,4 +205,37 @@ test("anchors survive resolution and unknown paths are reported", () => {
 
   const missing = resolveAuthoredHref("index", allFiles, "Research/Does Not Exist")
   assert.equal(missing.resolved, false, "a path with no page behind it must not report success")
+})
+
+test("a refiled target still resolves by its unique name, like an Obsidian link", () => {
+  const refiled = [
+    file("research/hubs/library", "Research/Hubs/Library.md", { title: "Library" }),
+    file("research/visualizations/map.canvas", "Research/Visualizations/Map.canvas.md", {}),
+    file("research/a/overview", "Research/A/Overview.md", {}),
+    file("research/b/overview", "Research/B/Overview.md", {}),
+  ]
+  const moved = resolveAuthoredHref("index", refiled, "Research/Library")
+  assert.equal(moved.resolved, true)
+  assert.equal(moved.href, "./research/hubs/library")
+  assert.equal(resolveAuthoredHref("index", refiled, "Research/Maps/Map.canvas").resolved, true)
+  assert.equal(
+    resolveAuthoredHref("index", refiled, "Research/Overview").resolved,
+    false,
+    "two notes share the name, so the link stays unresolved instead of guessing",
+  )
+})
+
+test("the site root is generated only while the vault has no root note", () => {
+  const home = AtlasHomePages()
+  const generate = (slugs: string[]) =>
+    home.generate!({
+      content: slugs.map((slug) => [{}, { data: { slug } }]),
+    } as never)
+  assert.deepEqual(
+    generate(["research/home"]).map((page) => page.slug),
+    ["index"],
+    "no index.md: publish the home surface at the root",
+  )
+  assert.deepEqual(generate(["index", "research/home"]), [], "an authored index.md wins")
+  assert.equal(home.match!({ slug: "index" } as never), false, "real notes stay with the content page type")
 })

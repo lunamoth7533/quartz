@@ -440,17 +440,14 @@ export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts
       continue
     }
     const noteType = text((file.frontmatter as Frontmatter)?.note_type)
-    // Count by folder *and* note type: the vault is organised by folder, and one
-    // authored argument note carries a `note_type: topic` value that a raw type
-    // tally would misreport as a topic.
-    if (isInFolder(relativePath, "Research/Sources") && noteType === "source") counts.sources += 1
-    else if (isInFolder(relativePath, "Research/Topics") && noteType === "topic")
-      counts.topics += 1
-    else if (isInFolder(relativePath, "Research/Learning/Lessons") && noteType === "lesson")
-      counts.lessons += 1
-    else if (isInFolder(relativePath, "Research/Learning/Modules") && noteType === "module")
-      counts.modules += 1
-    else if (isInFolder(relativePath, "Research/Arguments")) counts.arguments += 1
+    // Count by authored note type, which survives the vault being refiled. The
+    // Arguments folder still wins over the type: an argument note may carry a
+    // `note_type: topic` value that a raw type tally would misreport as a topic.
+    if (isInFolder(relativePath, "Research/Arguments") || noteType === "argument") counts.arguments += 1
+    else if (noteType === "source") counts.sources += 1
+    else if (noteType === "topic") counts.topics += 1
+    else if (noteType === "lesson") counts.lessons += 1
+    else if (noteType === "module") counts.modules += 1
   }
   return counts
 }

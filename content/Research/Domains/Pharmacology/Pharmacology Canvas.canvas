@@ -1,0 +1,336 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Pharmacology\n\nDomain hub: drug exposure, target action, adaptation, safety principles, drug classes and how treatment evidence is measured.\n\n[[Pharmacology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 2100,
+			"height": 170,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Exposure",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 710
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Pharmacology - Exposure|Exposure index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Half-life and steady state]]**\n*process* - 5 sources\n\nHalf-life, accumulation and steady state as exposure models, with lithium as the worked example of why timing and clearance matter.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Pharmacokinetics and ADME]]**\n*process* - 6 sources\n\nAbsorption, distribution, metabolism and excretion, each linked to the clinical consequences it explains.",
+			"x": 30,
+			"y": 786,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Action",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 964
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Pharmacology - Action|Action index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Pharmacodynamics and receptors]]**\n*mechanism* - 6 sources\n\nDrug targets, agonism and antagonism, the gap between occupancy and clinical effect, and receptor-level adaptation.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Receptor adaptation tolerance and dependence]]**\n*process* - 5 sources\n\nHow repeated drug action changes the system, and the difference between tolerance, dependence and withdrawal.",
+			"x": 450,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Target binding and dose-response]]**\n*mechanism* - 7 sources\n\nAffinity, efficacy and potency: what binding measurements establish and what they leave open.",
+			"x": 450,
+			"y": 1040,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Classes",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 1266
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Pharmacology - Classes|Classes index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Antidepressant mechanisms]]**\n*mechanism* - 6 sources\n\nWhat antidepressants do at the synapse, why clinical change is slower than the pharmacology, and what that implies.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Antipsychotic mechanisms]]**\n*mechanism* - 8 sources\n\nD2 blockade as the time-scoped shared mechanism of the dopamine-blocking class, the pathways behind response, movement and endocrine effects, and the 2024 muscarinic alternative.",
+			"x": 870,
+			"y": 762,
+			"width": 360,
+			"height": 242,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Drug classes and mechanisms overview]]**\n*framework* - 10 sources\n\nHow psychotropic drug classes are organised by target and mechanism, and what the class labels do and do not tell you.",
+			"x": 870,
+			"y": 1064,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t2_3",
+			"type": "text",
+			"text": "**[[Stimulant and non-stimulant mechanisms]]**\n*mechanism* - 6 sources\n\nHow ADHD medications increase catecholamine signalling by different routes, and how their evidence is measured.",
+			"x": 870,
+			"y": 1318,
+			"width": 360,
+			"height": 218,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Safety and evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 988
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**[[Pharmacology - Safety and evidence|Safety and evidence index]]**",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t3_0",
+			"type": "text",
+			"text": "**[[Efficacy versus tolerability]]**\n*framework* - 4 sources\n\nEfficacy and tolerability as separate endpoints, and how rater and comparator choices change what an effect estimate means.",
+			"x": 1290,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t3_1",
+			"type": "text",
+			"text": "**[[Therapeutic index, monitoring and interactions]]**\n*framework* - 3 sources\n\nTherapeutic index, monitoring logic and interaction classes, with the explicit boundary that this is reference material rather than personal guidance.",
+			"x": 1290,
+			"y": 762,
+			"width": 360,
+			"height": 242,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "t3_2",
+			"type": "text",
+			"text": "**[[Trial endpoints, benefit and harms]]**\n*framework* - 8 sources\n\nHow outcomes are selected and reported in treatment trials, and why the choice of endpoint changes what a result means.",
+			"x": 1290,
+			"y": 1064,
+			"width": 360,
+			"height": 194,
+			"color": "#F07A3C"
+		},
+		{
+			"id": "g4",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1680,
+			"y": 310,
+			"width": 420,
+			"height": 1598
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F13 NIGMS How do medicines work]]\neducational page - cited by 6 topics here",
+			"x": 1710,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F12 NIGMS What happens to medicine in your body]]\neducational page - cited by 5 topics here",
+			"x": 1710,
+			"y": 532,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[P28153641 Harmer 2017 How do antidepressants work]]\nfull text checked - cited by 5 topics here",
+			"x": 1710,
+			"y": 728,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P30097390 Cortese 2018 ADHD medication efficacy and tolerability]]\nabstract checked - cited by 5 topics here",
+			"x": 1710,
+			"y": 948,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[P31299229 Kaar 2020 Antipsychotics mechanisms]]\nabstract checked - cited by 5 topics here",
+			"x": 1710,
+			"y": 1144,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance]]\nfull text checked - cited by 4 topics here",
+			"x": 1710,
+			"y": 1340,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[F27 DailyMed lithium carbonate labelling]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 1560,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F34 OpenStax Pituitary gland and hypothalamus]]\neducational page - cited by 3 topics here",
+			"x": 1710,
+			"y": 1732,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		},
+		{
+			"id": "e4",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g4",
+			"toSide": "top"
+		}
+	]
+}

@@ -1,0 +1,96 @@
+filters:
+  and:
+    - file.inFolder("Research/Domains")
+formulas:
+  domain_folder: 'file.folder.split("/").slice(2, 3).join("")'
+  place: 'file.folder.split("/").slice(2, 4).join(" / ")'
+  cited_by: file.backlinks.length
+  decade: 'if(year, year.toString().slice(0, 3) + "0s", "undated")'
+properties:
+  formula.domain_folder:
+    displayName: Domain
+  formula.place:
+    displayName: Domain / subdomain
+  formula.cited_by:
+    displayName: Linked from
+  formula.decade:
+    displayName: Decade
+  concept_kind:
+    displayName: Kind
+  source_count:
+    displayName: Sources
+  secondary_domain:
+    displayName: Also belongs to
+  verification:
+    displayName: Checked
+  description:
+    displayName: Summary
+views:
+  - type: cards
+    name: Subdomain cards
+    filters:
+      and:
+        - note_type == "subdomain"
+    groupBy:
+      property: formula.domain_folder
+      direction: ASC
+    order:
+      - file.name
+      - description
+  - type: table
+    name: Topics by domain and subdomain
+    filters:
+      and:
+        - note_type == "topic"
+    groupBy:
+      property: formula.place
+      direction: ASC
+    order:
+      - file.name
+      - concept_kind
+      - source_count
+      - description
+    summaries:
+      source_count: Sum
+  - type: table
+    name: Bridge topics
+    filters:
+      and:
+        - note_type == "topic"
+        - secondary_domain.length > 0
+    groupBy:
+      property: formula.domain_folder
+      direction: ASC
+    order:
+      - file.name
+      - secondary_domain
+      - concept_kind
+      - source_count
+  - type: table
+    name: Evidence reach
+    filters:
+      and:
+        - note_type == "source"
+    sort:
+      - property: formula.cited_by
+        direction: DESC
+    limit: 40
+    order:
+      - file.name
+      - formula.cited_by
+      - verification
+      - year
+      - formula.domain_folder
+  - type: table
+    name: Evidence age
+    filters:
+      and:
+        - note_type == "source"
+    groupBy:
+      property: formula.decade
+      direction: DESC
+    order:
+      - file.name
+      - year
+      - verification
+      - formula.domain_folder

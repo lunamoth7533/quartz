@@ -107,7 +107,9 @@ These are AI-generated starter questions with competing explanations, not claims
 
 ## Visualization layer
 
-- [[Visualizations]] - Dataview dashboards for queue, access, verification, source kind, condition, domain, topic and argument coverage.
+- [[Visualizations]] - the visual index: which view answers which question, the graph-view legend, live charts, the domain-connection diagram, and the dashboards for queue, access, verification, source kind, condition, domain, topic and argument coverage.
+- Graph views - saved under **Bookmarks → Graph views**: knowledge map, concept skeleton, domain hierarchy, evidence quality, concept kinds, one close-up per domain family, learning layer and arguments.
+- Domain canvases - one per domain, beside its map, starting with [[Neurobiology Canvas.canvas]].
 - [[Research Synthesis Map.canvas]] - the full condition, foundation and argument landscape.
 - [[Reference Atlas.canvas]] - how the fifteen reference domains connect.
 - [[Reading Queue Map.canvas]] - strategic queue rules and access interpretation.
@@ -125,10 +127,9 @@ See [[Library]] for what each view is for and how to read the columns.
 
 | Folder | Holds |
 | --- | --- |
-| `Hubs/` | entry and index notes: Research Atlas, Reference Index, Library, Visualizations and Workflow |
-| `Topics/` | atomic notes; each claim links to a source block |
-| `Sources/` | one record per paper or educational source, with anchors topics link to |
-| `Maps/` | the fifteen domain maps and the landscape canvases |
+| `Hubs/` | entry and index notes: Research Atlas, Reference Index, Library and Workflow |
+| `Domains/` | the fifteen domains in atlas order; each holds its map and canvas, one folder per subdomain with its index note and topic notes, and `Articles/` and `Pages/` for the source records filed under that domain |
+| `Visualizations/` | the visual index, dashboards and Bases, and the landscape canvases |
 | `Learning/` | modules, lessons, learning maps and study aids |
 | `Arguments/` | questions and evidence needs, kept separate from findings, with their argument maps |
 | `Templates/` | source, topic, argument and study-session templates plus the canvas templates |

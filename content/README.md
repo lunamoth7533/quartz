@@ -8,18 +8,17 @@ This repository contains a private, source-backed Obsidian research vault. It is
 - [[Research Atlas]] - entry to the fifteen-domain reference encyclopedia
 - [[Learning Path]] - recommended reading sequence
 - [[Library]] - source library documentation
-- [[Visualizations]] - Dataview dashboards
-- [[Research/Maps/Research Synthesis Map.canvas|Research Synthesis Map]] - full Canvas landscape
+- [[Visualizations]] - visual index: graph views, charts and dashboards
+- [[Research Synthesis Map.canvas|Research Synthesis Map]] - full Canvas landscape
 - [[Workflow]] - source-to-claim-to-topic workflow
 - [[Research/AGENTS]] - vault-specific instructions for agents
 
 ## Repository layout
 
 - `Research/Home.md` - the entry point
-- `Research/Hubs/` - Research Atlas, Reference Index, Library (with `Library.base`, the native source library), Visualizations and Workflow
-- `Research/Sources/` - one note per paper, official page, or educational source
-- `Research/Topics/` - atomic topic notes with source-linked claims
-- `Research/Maps/` - the fifteen domain maps and the landscape canvases
+- `Research/Hubs/` - Research Atlas, Reference Index, Library (with `Library.base`, the native source library) and Workflow
+- `Research/Domains/` - fifteen domains; each holds its map and canvas, one folder per subdomain (index note plus topic notes with source-linked claims), and `Articles/` and `Pages/` for its source records
+- `Research/Visualizations/` - visual index, dashboards, Bases and the landscape canvases
 - `Research/Learning/` - modules, lessons, study aids and one learning-map canvas per module
 - `Research/Arguments/` - open research questions, competing explanations and their argument maps
 - `Research/Templates/` - source, topic, argument, and study-session templates plus canvas templates
@@ -46,9 +45,25 @@ This repository contains a private, source-backed Obsidian research vault. It is
    - Obsidian Git
    - Claudian
    - Share Note (shares are encrypted by default)
+
+   Navigation and visualization:
+   - Custom File Explorer sorting (explorer order, from `Research/Support/Explorer order.md`)
+   - Iconize (folder and hub icons)
+   - Extended Graph (node shapes by note type)
+   - Sync Graph Settings (local graphs use the global colours)
+   - Breadcrumbs (hierarchy trail from `up`)
+   - ExcaliBrain (visual navigator)
+   - Charts (dashboard charts)
+   - Mindmap NextGen
+   - Strange New Worlds (reference counts)
+   - Omnisearch
+   - Homepage (opens `Research/Home`)
+   - Hover Editor
+   - Style Settings
+   - Tag Wrangler
 5. Open [[Research/Home]].
 
-Plugin binaries and machine-local plugin data are intentionally not committed. The tracked configuration records the intended vault setup without bundling third-party code.
+Plugin binaries and machine-local plugin data are intentionally not committed; the exception is the settings of the navigation and display plugins above, which hold no tokens. The tracked configuration records the intended vault setup without bundling third-party code.
 
 ## Research rules
 
@@ -69,7 +84,7 @@ Tracked content includes:
 - Canvas JSON
 - Base YAML
 - PDF attachments stored under `Research/Support/`
-- Obsidian appearance, snippets, theme, and stable vault settings
+- Obsidian appearance, snippets, theme, and stable vault settings, including graph presets (`bookmarks.json`) and the display-plugin settings
 - Agent setup: `CLAUDE.md`, `.claude/settings.json`, `.claude/hooks/`, `.mcp.json`
 
 Excluded content includes:

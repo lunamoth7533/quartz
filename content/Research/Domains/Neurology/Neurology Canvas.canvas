@@ -1,0 +1,340 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Neurology\n\nDomain hub: localisation, examination and diagnostic reasoning, with the main neurological disorder categories and their mechanisms.\n\n[[Neurology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Method",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1218
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Neurology - Method|Method index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Differential reasoning in neurology]]**\n*framework* - 9 sources\n\nHow neurological differentials are constructed: mechanism, timing, distribution and the tests that change probabilities.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[EEG and other diagnostics]]**\n*method* - 6 sources\n\nWhat EEG, evoked potentials, cerebrospinal fluid studies and nerve conduction tests contribute, and what each cannot settle.",
+			"x": 30,
+			"y": 762,
+			"width": 360,
+			"height": 218,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[History and localisation]]**\n*method* - 7 sources\n\nLocalisation as clinical reasoning: using history, examination and anatomy together to infer where a problem is.",
+			"x": 30,
+			"y": 1040,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Neurological examination]]**\n*method* - 5 sources\n\nThe neurological examination as a localisation method: its domains, its reasoning frame and the limits of a normal result.",
+			"x": 30,
+			"y": 1294,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Measurement",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 988
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Neurology - Measurement|Measurement index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Interpreting group brain differences]]**\n*method* - 4 sources\n\nWhat group-average imaging findings establish, how medication and course confound them, and why they do not become individual tests.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[MRI versus EEG]]**\n*method* - 6 sources\n\nMRI, fMRI and EEG compared on signal, temporal and spatial resolution, and the inference each supports.",
+			"x": 450,
+			"y": 786,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Structural versus functional measures]]**\n*framework* - 4 sources\n\nStructure and function as different levels of measurement, why group differences are not diagnoses, and the confounds that complicate clinical imaging findings.",
+			"x": 450,
+			"y": 1040,
+			"width": 360,
+			"height": 218,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Conditions",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 2258
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Neurology - Conditions|Conditions index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Cerebrovascular disease]]**\n*condition* - 4 sources\n\nStroke and related vascular disease: mechanisms, risk factors, urgency and the logic of vascular territory deficits.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Demyelination and multiple sclerosis]]**\n*condition* - 6 sources\n\nImmune-mediated demyelination, its clinical courses, the diagnostic logic, and what myelin loss does to signalling.",
+			"x": 870,
+			"y": 762,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_2",
+			"type": "text",
+			"text": "**[[Headache and pain]]**\n*condition* - 3 sources\n\nPrimary headache disorders, nociceptive mechanisms, and the distinction between pain as a symptom and pain as a condition.",
+			"x": 870,
+			"y": 1016,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_3",
+			"type": "text",
+			"text": "**[[Movement disorders]]**\n*condition* - 5 sources\n\nTremor, chorea, dystonia, rigidity and bradykinesia: how movement disorders are distinguished and mapped onto circuits.",
+			"x": 870,
+			"y": 1270,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_4",
+			"type": "text",
+			"text": "**[[Neurodegeneration and cognitive syndromes]]**\n*condition* - 6 sources\n\nProgressive neurodegeneration, the dementia syndrome, and the distinction between clinical and pathological diagnosis.",
+			"x": 870,
+			"y": 1524,
+			"width": 360,
+			"height": 218,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_5",
+			"type": "text",
+			"text": "**[[Peripheral neuropathy and neuromuscular disease]]**\n*condition* - 5 sources\n\nDisorders of peripheral nerves and the neuromuscular junction: causes, patterns and the logic of length-dependent deficits.",
+			"x": 870,
+			"y": 1802,
+			"width": 360,
+			"height": 218,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_6",
+			"type": "text",
+			"text": "**[[Seizures and epilepsy]]**\n*condition* - 8 sources\n\nSeizure types, the definition of epilepsy, evaluation logic and the principles behind antiseizure treatment.",
+			"x": 870,
+			"y": 2080,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "t2_7",
+			"type": "text",
+			"text": "**[[Sleep disorders]]**\n*condition* - 4 sources\n\nInsomnia, sleep-related breathing problems, circadian rhythm disorders and parasomnias, and how sleep is assessed.",
+			"x": 870,
+			"y": 2334,
+			"width": 360,
+			"height": 194,
+			"color": "#F59E3B"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1502
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[F33 OpenStax Overview of the neurological exam]]\neducational page - cited by 10 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F15 NINDS Neurological diagnostic tests and procedures]]\neducational page - cited by 7 topics here",
+			"x": 1290,
+			"y": 580,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[F28 OpenStax Brain imaging Psychology 2e]]\neducational page - cited by 5 topics here",
+			"x": 1290,
+			"y": 776,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[F112 Neuroscience Online motor disorders]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 948,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[F59 Neuroscience Online spinal cord]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 1120,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[F75 MedlinePlus Multiple sclerosis]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 1292,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder]]\nabstract checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 1464,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F95 NICE Epilepsies NG217]]\neducational page - cited by 3 topics here",
+			"x": 1290,
+			"y": 1660,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

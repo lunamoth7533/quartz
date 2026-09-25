@@ -1,0 +1,320 @@
+{
+	"nodes": [
+		{
+			"id": "header",
+			"type": "text",
+			"text": "## Clinical Psychiatry and Psychopathology\n\nDomain hub: how psychopathology is described and classified, the main construct families, and the limits of assessment and evidence.\n\n[[Clinical Psychiatry and Psychopathology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"x": 0,
+			"y": 0,
+			"width": 1680,
+			"height": 170,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "g0",
+			"type": "group",
+			"label": "Description and classification",
+			"x": 0,
+			"y": 310,
+			"width": 420,
+			"height": 1290
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**[[Clinical Psychiatry and Psychopathology - Description and classification|Description and classification index]]**",
+			"x": 30,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t0_0",
+			"type": "text",
+			"text": "**[[Categorical versus dimensional classification]]**\n*theory* - 7 sources\n\nCategories versus dimensions, the evidence for each, and the hybrid approaches now proposed.",
+			"x": 30,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t0_1",
+			"type": "text",
+			"text": "**[[Co-occurrence and differential reasoning]]**\n*framework* - 8 sources\n\nWhy co-occurrence is common, what generates it, and how differential reasoning changes when more than one condition is present.",
+			"x": 30,
+			"y": 786,
+			"width": 360,
+			"height": 242,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t0_2",
+			"type": "text",
+			"text": "**[[ICD-11 versus DSM-5 classification]]**\n*framework* - 7 sources\n\nHow ICD-11 and DSM-5-TR differ in scope, structure and constructs, and why the system must be stated whenever a diagnostic label is used.",
+			"x": 30,
+			"y": 1088,
+			"width": 360,
+			"height": 218,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t0_3",
+			"type": "text",
+			"text": "**[[Symptoms syndromes and diagnoses]]**\n*framework* - 5 sources\n\nThe levels of clinical description: individual symptoms, clusters that co-occur, and the diagnostic labels built on them.",
+			"x": 30,
+			"y": 1366,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "g1",
+			"type": "group",
+			"label": "Construct families",
+			"x": 420,
+			"y": 310,
+			"width": 420,
+			"height": 1980
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**[[Clinical Psychiatry and Psychopathology - Construct families|Construct families index]]**",
+			"x": 450,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t1_0",
+			"type": "text",
+			"text": "**[[Anxiety and fear constructs]]**\n*condition* - 7 sources\n\nFear, anxiety and avoidance as constructs, the family of anxiety disorders, and the learning accounts behind exposure treatment.",
+			"x": 450,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t1_1",
+			"type": "text",
+			"text": "**[[Dissociative constructs]]**\n*condition* - 7 sources\n\nDissociation as disruption of integrated functions, its place in trauma-related classification, and the assessment problem.",
+			"x": 450,
+			"y": 786,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t1_2",
+			"type": "text",
+			"text": "**[[Mood disorders]]**\n*condition* - 7 sources\n\nDepressive and bipolar constructs, their boundaries, and how recurrence and course shape the description.",
+			"x": 450,
+			"y": 1040,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t1_3",
+			"type": "text",
+			"text": "**[[OCD and related constructs]]**\n*condition* - 8 sources\n\nObsessions and compulsions, the reinforcement cycle, and how the construct is distinguished from anxiety disorders.",
+			"x": 450,
+			"y": 1294,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t1_4",
+			"type": "text",
+			"text": "**[[Personality constructs and traits]]**\n*condition* - 7 sources\n\nTrait dimensions and personality disorder constructs, and the dimensional turn in their measurement.",
+			"x": 450,
+			"y": 1548,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t1_5",
+			"type": "text",
+			"text": "**[[Psychosis constructs]]**\n*condition* - 8 sources\n\nPsychosis as a symptom domain, the schizophrenia construct, and the dimensional features within it.",
+			"x": 450,
+			"y": 1802,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t1_6",
+			"type": "text",
+			"text": "**[[Substance-related constructs]]**\n*condition* - 8 sources\n\nSubstance use, dependence and addiction constructs, and the reward and adaptation accounts that describe them.",
+			"x": 450,
+			"y": 2056,
+			"width": 360,
+			"height": 194,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "g2",
+			"type": "group",
+			"label": "Formulation and context",
+			"x": 840,
+			"y": 310,
+			"width": 420,
+			"height": 734
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**[[Clinical Psychiatry and Psychopathology - Formulation and context|Formulation and context index]]**",
+			"x": 870,
+			"y": 360,
+			"width": 360,
+			"height": 88,
+			"color": "#B8A4FF"
+		},
+		{
+			"id": "t2_0",
+			"type": "text",
+			"text": "**[[Functional outcomes and measurement]]**\n*framework* - 6 sources\n\nFunctioning and participation as outcomes in their own right, the ICF framework, and why symptom change is not the same as life change.",
+			"x": 870,
+			"y": 508,
+			"width": 360,
+			"height": 218,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "t2_1",
+			"type": "text",
+			"text": "**[[Network and developmental formulations]]**\n*framework* - 6 sources\n\nTwo integrative ways of describing psychopathology: interacting symptoms and developmental pathways.",
+			"x": 870,
+			"y": 786,
+			"width": 360,
+			"height": 218,
+			"color": "#F2C14E"
+		},
+		{
+			"id": "g3",
+			"type": "group",
+			"label": "Most-cited evidence",
+			"x": 1260,
+			"y": 310,
+			"width": 420,
+			"height": 1550
+		},
+		{
+			"id": "ev0",
+			"type": "text",
+			"text": "[[P28333488 Kotov 2017 HiTOP]]\nabstract checked - cited by 9 topics here",
+			"x": 1290,
+			"y": 360,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev1",
+			"type": "text",
+			"text": "[[F93 WHO ICD-11 CDDR]]\neducational page - cited by 8 topics here",
+			"x": 1290,
+			"y": 532,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev2",
+			"type": "text",
+			"text": "[[F47 OpenStax Psychology 2e psychological disorders]]\neducational page - cited by 5 topics here",
+			"x": 1290,
+			"y": 704,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev3",
+			"type": "text",
+			"text": "[[P27942093 Putnick 2016 Measurement invariance]]\nfull text checked - cited by 5 topics here",
+			"x": 1290,
+			"y": 900,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev4",
+			"type": "text",
+			"text": "[[F121 NIMH RDoC]]\neducational page - cited by 4 topics here",
+			"x": 1290,
+			"y": 1120,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev5",
+			"type": "text",
+			"text": "[[P23488505 Hatzenbuehler 2013 Stigma as fundamental cause]]\nfull text checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 1292,
+			"width": 360,
+			"height": 160,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev6",
+			"type": "text",
+			"text": "[[P28127906 Borsboom 2017 Network theory]]\nfull text checked - cited by 4 topics here",
+			"x": 1290,
+			"y": 1512,
+			"width": 360,
+			"height": 136,
+			"color": "#6E7787"
+		},
+		{
+			"id": "ev7",
+			"type": "text",
+			"text": "[[F122 NIMH RDoC constructs]]\neducational page - cited by 3 topics here",
+			"x": 1290,
+			"y": 1708,
+			"width": 360,
+			"height": 112,
+			"color": "#6E7787"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g0",
+			"toSide": "top"
+		},
+		{
+			"id": "e1",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g1",
+			"toSide": "top"
+		},
+		{
+			"id": "e2",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g2",
+			"toSide": "top"
+		},
+		{
+			"id": "e3",
+			"fromNode": "header",
+			"fromSide": "bottom",
+			"toNode": "g3",
+			"toSide": "top"
+		}
+	]
+}

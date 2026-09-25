@@ -1,28 +1,21 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
-# Research Atlas - local reading and research site over the Obsidian research vault.
 configuration:
   pageTitle: Research Atlas
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  # Personal, local library: no analytics provider and no added telemetry.
   analytics: null
   locale: en-US
   baseUrl: lunamoth7533.github.io/quartz
-  # `Research/AGENTS.md` and `Research/Templates/**` are deliberately NOT listed
-  # here: other notes link to them, and ignoring them made those references 404.
-  # They are built and marked unlisted instead (research-atlas/utility-pages.ts),
-  # which keeps them out of the index, search, explorer, graph and the dashboards.
   ignorePatterns:
     - private
+    - CLAUDE.md
     - templates
     - .obsidian
     - .claudian
     - .omc
     - src
   theme:
-    # Fonts are downloaded at build time and served from this site, so browsing
-    # never contacts a font CDN.
     fontOrigin: selfHosted
     cdnCaching: false
     typography:
@@ -33,7 +26,6 @@ configuration:
       lightMode:
         light: "#faf6ef"
         lightgray: "#e9e1d3"
-        # 5.2:1 on the paper background; `gray` carries small meaningful labels.
         gray: "#726656"
         darkgray: "#3f3a34"
         dark: "#211d18"
@@ -76,7 +68,7 @@ plugins:
       highlight: true
       wikilinks: true
       callouts: true
-      mermaid: true
+      mermaid: false
       parseTags: true
       parseArrows: true
       parseBlockReferences: true
@@ -103,12 +95,12 @@ plugins:
     enabled: true
     order: 70
   - source: "@quartz-community/latex"
-    enabled: true
+    enabled: false
     options:
       renderEngine: katex
     order: 80
   - source: "@quartz-community/citations"
-    enabled: false
+    enabled: true
     order: 85
   - source: "@quartz-community/hard-line-breaks"
     enabled: true
@@ -124,18 +116,13 @@ plugins:
     options:
       fontOrigin: selfHosted
       useThemeFonts: false
-      # Families are fetched and self-hosted by this plugin; local fallbacks are
-      # added as unlayered CSS overrides in quartz/styles/custom.scss.
       body: Source Serif 4
       header: Fraunces
       title: Fraunces
       interface: Inter
       code: IBM Plex Mono
-  # Quartz Themes ships its own palettes (including the "default" theme, which
-  # overrides --secondary/--light with a violet scheme). The Research Atlas
-  # palette is defined in configuration.theme above, so the theme layer is off.
   - source: "@quartz-themes/core"
-    enabled: false
+    enabled: true
     options:
       theme: default
       mode: both
@@ -155,7 +142,7 @@ plugins:
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
   - source: "@quartz-community/stacked-pages"
-    enabled: false
+    enabled: true
     layout:
       position: afterBody
       priority: 50
@@ -168,19 +155,13 @@ plugins:
       enableSiteMap: true
       enableRSS: true
   - source: "@quartz-community/favicon"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    # Disabled: default project URL (lunamoth7533.github.io/quartz), no
-    # custom domain, so CNAME emission is unused.
-    enabled: false
-  # Canvas and Base pages are provided by the site's own page types
-  # (`research-atlas/page-types.ts`) so the persistent quick navigation reaches
-  # those surfaces. Both reuse the installed matchers, generators, frames and
-  # transforms; their manifest defaults are passed through unchanged.
+    enabled: true
   - source: "@quartz-community/canvas-page"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/content-page"
     enabled: true
   - source: "@quartz-community/folder-page"
@@ -221,7 +202,7 @@ plugins:
       position: beforeBody
       priority: 25
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -249,7 +230,7 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options: {}
@@ -303,8 +284,17 @@ plugins:
       exportPadding: 20
     order: 50
   - source: github:quartz-community/tui
-    enabled: true
+    enabled: false
     options: {}
+    order: 50
+  - source: github:quartz-community/obsidian-plugin-leaflet
+    enabled: true
+    order: 50
+  - source: github:quartz-community/obsidian-plugin-ttrpg-tools-maps
+    enabled: true
+    order: 50
+  - source: github:Requiae/quartz-leaflet-bases-plugin
+    enabled: true
     order: 50
 layout:
   groups:
