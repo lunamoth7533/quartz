@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"id":"evidence-frame","type":"group","x":-729,"y":-1311,"width":2452,"height":1679,"color":"4","label":"Evidence map"},
-		{"id":"source-template","type":"file","file":"Research/Templates/Source template.md","x":1400,"y":-299,"width":260,"height":192},
-		{"id":"argument-template","type":"file","file":"Research/Templates/Argument template.md","x":474,"y":-919,"width":260,"height":197},
+		{"id":"evidence-frame","type":"group","x":-729,"y":-1311,"width":1137,"height":1679,"color":"4","label":"Evidence map"},
 		{"id":"evidence-standard","type":"text","text":"### Evidence standard<br><br>What study design would count?<br><br>- Population<br>- Outcome<br>- Comparator<br>- Timeframe<br>- Effect size and uncertainty","x":-664,"y":-554,"width":220,"height":288,"color":"3"},
 		{"id":"objections","type":"text","text":"### Strongest objection<br><br>State the best contrary interpretation, then link its evidence.","x":-444,"y":-219,"width":220,"height":224,"color":"6"},
-		{"id":"paper-evidence","type":"text","text":"### Paper evidence<br><br>Paste links to source-note blocks.<br><br>Separate:<br>- Reported finding<br>- Scope limit<br>- Analyst caution","x":-186,"y":-409,"width":220,"height":270,"color":"3"},
-		{"id":"official-evidence","type":"text","text":"### Educational or official evidence<br><br>Use for definitions, mechanisms and context.<br><br>Do not treat an official page as a trial.","x":168,"y":-649,"width":220,"height":285,"color":"3"},
 		{"id":"uncertainty","type":"text","text":"### Remaining uncertainty<br><br>What would change the confidence label?","x":-444,"y":133,"width":220,"height":130,"color":"6"},
-		{"id":"next-check","type":"text","text":"### Next check<br><br>One source or calculation that would decide the next step.","x":514,"y":133,"width":220,"height":130,"color":"6"},
-		{"id":"claim","type":"text","text":"## Claim under test<br><br>Write one falsifiable sentence.<br><br>**Confidence:** low, medium or high<br>**Condition:** add the relevant condition tag<br>**Domain:** add the relevant domain tag","x":-544,"y":-1259,"width":420,"height":180,"color":"4"}
+		{"id":"claim","type":"text","text":"## Claim under test<br><br>Write one falsifiable sentence.<br><br>**Confidence:** low, medium or high<br>**Condition:** add the relevant condition tag<br>**Domain:** add the relevant domain tag","x":-544,"y":-1259,"width":420,"height":180,"color":"4"},
+		{"id":"argument-template","type":"file","file":"Research/Templates/Argument template.md","x":38,"y":-1259,"width":260,"height":197},
+		{"id":"official-evidence","type":"text","text":"### Educational or official evidence<br><br>Use for definitions, mechanisms and context.<br><br>Do not treat an official page as a trial.","x":34,"y":-887,"width":220,"height":285,"color":"3"},
+		{"id":"paper-evidence","type":"text","text":"### Paper evidence<br><br>Paste links to source-note blocks.<br><br>Separate:<br>- Reported finding<br>- Scope limit<br>- Analyst caution","x":-182,"y":-410,"width":220,"height":270,"color":"3"},
+		{"id":"next-check","type":"text","text":"### Next check<br><br>One source or calculation that would decide the next step.","x":58,"y":133,"width":220,"height":130,"color":"6"},
+		{"id":"source-template","type":"file","file":"Research/Templates/Source template.md","x":148,"y":-554,"width":260,"height":192}
 	],
 	"edges":[
 		{"id":"claim-standard","toFloating":false,"fromNode":"claim","fromSide":"bottom","toNode":"evidence-standard","toSide":"top","color":"3","label":"judged by"},

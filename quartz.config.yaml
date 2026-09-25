@@ -1,45 +1,56 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+# Research Atlas - local reading and research site over the Obsidian research vault.
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Research Atlas
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  # Personal, local library: no analytics provider and no added telemetry.
+  analytics: null
   locale: en-US
   baseUrl: localhost:8080
+  # `Research/AGENTS.md` and `Research/Templates/**` are deliberately NOT listed
+  # here: other notes link to them, and ignoring them made those references 404.
+  # They are built and marked unlisted instead (research-atlas/utility-pages.ts),
+  # which keeps them out of the index, search, explorer, graph and the dashboards.
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - .claudian
+    - .omc
+    - src
   theme:
-    fontOrigin: googleFonts
-    cdnCaching: true
+    # Fonts are downloaded at build time and served from this site, so browsing
+    # never contacts a font CDN.
+    fontOrigin: selfHosted
+    cdnCaching: false
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Fraunces
+      body: Source Serif 4
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#faf6ef"
+        lightgray: "#e9e1d3"
+        # 5.2:1 on the paper background; `gray` carries small meaningful labels.
+        gray: "#726656"
+        darkgray: "#3f3a34"
+        dark: "#211d18"
+        secondary: "#125e5b"
+        tertiary: "#2f8f80"
+        highlight: rgba(18, 94, 91, 0.1)
+        textHighlight: "#f2d27a88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1b1b1d"
+        lightgray: "#34343a"
+        gray: "#9a9ca6"
+        darkgray: "#d9d5cd"
+        dark: "#f4f1ea"
+        secondary: "#6fd3c4"
+        tertiary: "#9fe0d4"
+        highlight: rgba(111, 211, 196, 0.12)
+        textHighlight: "#d8c26a88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -82,7 +93,7 @@ plugins:
     order: 50
     layout:
       position: right
-      priority: 30
+      priority: 20
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
@@ -110,8 +121,21 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: selfHosted
+      useThemeFonts: false
+      # Families are fetched and self-hosted by this plugin; local fallbacks are
+      # added as unlayered CSS overrides in quartz/styles/custom.scss.
+      body: Source Serif 4
+      header: Fraunces
+      title: Fraunces
+      interface: Inter
+      code: IBM Plex Mono
+  # Quartz Themes ships its own palettes (including the "default" theme, which
+  # overrides --secondary/--light with a violet scheme). The Research Atlas
+  # palette is defined in configuration.theme above, so the theme layer is off.
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: default
       mode: both
@@ -144,13 +168,17 @@ plugins:
       enableSiteMap: true
       enableRSS: true
   - source: "@quartz-community/favicon"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
     enabled: true
+  # Canvas and Base pages are provided by the site's own page types
+  # (`research-atlas/page-types.ts`) so the persistent quick navigation reaches
+  # those surfaces. Both reuse the installed matchers, generators, frames and
+  # transforms; their manifest defaults are passed through unchanged.
   - source: "@quartz-community/canvas-page"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/content-page"
     enabled: true
   - source: "@quartz-community/folder-page"
@@ -166,7 +194,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 40
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -189,7 +217,7 @@ plugins:
     enabled: true
     layout:
       position: beforeBody
-      priority: 20
+      priority: 25
   - source: "@quartz-community/tag-list"
     enabled: false
     layout:
@@ -230,8 +258,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Quartz: https://quartz.jzhao.xyz
     layout:
       position: footer
       priority: 50
@@ -246,7 +273,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: "@quartz-community/bases-page"
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: "@quartz-community/note-properties"
@@ -258,7 +285,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"queue-frame","type":"group","x":-2631,"y":-1452,"width":4864,"height":4860,"color":"3","label":"Reading queue strategy"},
+		{"id":"queue-frame","type":"group","x":-1462,"y":-221,"width":1597,"height":1400,"color":"3","label":"Reading queue strategy"},
 		{"id":"learning-path","type":"file","file":"Research/Learning Path.md","x":-1462,"y":-131,"width":260,"height":256},
 		{"id":"visualizations","type":"file","file":"Research/Visualizations.md","x":-125,"y":-131,"width":260,"height":256},
 		{"id":"core-rules","type":"text","text":"### Core queue<br><br>Read in learning-path order.<br><br>Prefer:<br>- foundation before condition<br>- research literacy before trials<br>- mechanism before applied medication evidence","x":-1462,"y":361,"width":250,"height":349,"color":"4"},
