@@ -429,6 +429,7 @@ interface Counts {
 
 export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts {
   const counts: Counts = { sources: 0, topics: 0, lessons: 0, modules: 0, arguments: 0, canvases: 0 }
+  const canvases = new Set<string>()
   for (const file of allFiles) {
     if (isTemplatePath(file.relativePath)) continue
     const relativePath = file.relativePath ?? ""
@@ -436,7 +437,8 @@ export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts
     // Canvas and Base pages arrive as virtual pages whose slug keeps the
     // original extension while their relative path ends in `.md`.
     if (relativePath.endsWith(".canvas") || slug.endsWith(".canvas")) {
-      counts.canvases += 1
+      // A canvas can arrive twice (its file and its virtual page); count it once.
+      canvases.add(slug.replace(/\.canvas$/, ""))
       continue
     }
     const noteType = text((file.frontmatter as Frontmatter)?.note_type)
@@ -449,6 +451,7 @@ export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts
     else if (noteType === "lesson") counts.lessons += 1
     else if (noteType === "module") counts.modules += 1
   }
+  counts.canvases = canvases.size
   return counts
 }
 

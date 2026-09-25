@@ -531,7 +531,7 @@ function mountGraph(
     const candidates = nodes
       .filter((n) => everything || n.id === current || n === hovered || active?.has(n.id) || n.deg >= 12)
       .sort((a, b) => priority(b) - priority(a))
-      .slice(0, mode === "global" ? 70 : 40)
+      .slice(0, width < 420 ? 8 : mode === "global" ? 70 : 40)
 
     ctx.textAlign = "center"
     ctx.textBaseline = "top"
@@ -862,11 +862,16 @@ document.addEventListener("nav", async () => {
   const locals = [...document.querySelectorAll<HTMLElement>(".atlas-graph-local")]
   if (locals.length > 0) {
     const model = await getModel()
+    // A page with no links of its own (the generated home page, listings) gets
+    // an overview of the whole atlas instead of an empty frame.
+    const inIndex = model.notes.has(simplify(currentSlug()))
     for (const el of locals) {
       if (!el.isConnected) continue
       const cfg = JSON.parse(el.dataset.cfg ?? "{}") as Partial<GraphCfg>
       handles.add(
-        mountGraph(el, model, "local", { depth: cfg.depth ?? 1, showTags: cfg.showTags ?? false }, new Set()),
+        inIndex
+          ? mountGraph(el, model, "local", { depth: cfg.depth ?? 1, showTags: cfg.showTags ?? false }, new Set())
+          : mountGraph(el, model, "global", { depth: -1, showTags: false }, new Set<AtlasCategory>(["tag"])),
       )
     }
   }

@@ -46,3 +46,57 @@ a local preview.
 
 `ci.yaml` and `deploy-v5.yaml` are upstream Quartz workflows gated on
 `jackyzha0/quartz`; they are skipped on this repository.
+
+## Local preview
+
+`npx quartz build --serve --baseDir quartz` serves <http://localhost:8080/quartz>.
+Preview builds skip the ~800 social-card images, which are most of the build
+time; deploys still render them. Let a rebuild finish before saving the next
+source change: a hard rebuild that starts mid-build can stall the watcher.
+
+## Configuration notes
+
+`npx quartz plugin …` and `npx quartz tui` rewrite `quartz.config.yaml` and drop
+its comments, so the reasons for the non-default choices live here.
+
+Off on purpose (installed; one line to turn back on):
+
+| Plugin | Why it is off |
+| --- | --- |
+| `latex` | No note uses math. On, every page loads KaTeX's stylesheet and script from cdn.jsdelivr.net. |
+| `mermaid` (option of `obsidian-flavored-markdown`) | No note has a mermaid block. On, every page preconnects to cdnjs.cloudflare.com. |
+| `citations` | Needs a bibliography file. Without one every build fails. |
+| `canvas-page`, `bases-page` | Canvas and Base pages come from `research-atlas/page-types.ts`, which adds the site navigation. |
+| `@quartz-themes/core` | Replaces the Research Atlas palette the graph and charts are checked against. |
+| `obsidian-plugin-leaflet` | No note has a map; on, its template code adds a script and stylesheet to every page. |
+| `tui` | The terminal plugin manager (`npx quartz tui`), not a site plugin. |
+| `explicit-publish`, `ox-hugo`, `roam`, `comments`, `recent-notes` | Would hide unmarked notes, re-parse Obsidian syntax, need a comments service, or list notes by sync date. |
+
+Site layer (`research-atlas/`):
+
+- **Graph.** The `@quartz-community/graph` entry keeps deciding where the graph
+  sits and its options; `quartz.ts` points that slot at `research-atlas/graph`,
+  which colours notes by family, clusters the global view, filters by legend,
+  condition, domain and search, and bundles `d3-force` instead of loading d3 and
+  pixi.js from a CDN. Ctrl/Cmd+G opens the global view.
+- **Families.** One taxonomy (`research-atlas/categories.ts`, from `note_type`
+  or the structural tags, never folders) drives the graph, the charts and the
+  marks beside links in the explorer, backlinks, listings and search.
+- **Insights.** The note tagged `research/visualizations` gets build-time charts:
+  layer links, most-linked notes, domain and condition coverage, publication
+  years, study designs, depth of checking, reading state, topic support and
+  loose ends.
+- **Home.** When the vault has no root `index.md`, the site root is generated
+  (the Atlas home) so GitHub Pages does not fall back to the RSS feed.
+- **Dashboards.** Authored `dataview` blocks render at build time, including
+  `FROM #tag AND -"folder"` sources, `!` negation, `FLATTEN field`, `join()` and
+  `date()`.
+
+One core file differs from upstream Quartz: `quartz/components/Head.tsx` only
+preconnects to cdnjs.cloudflare.com when `theme.cdnCaching` is on (it is off
+here, and nothing on this site loads from cdnjs). Keep that line when running
+`npx quartz upgrade`.
+
+`npm test` includes `research-atlas/test/dql.test.ts`, which reads the live
+vault: a new query shape the site cannot render fails there before it reaches
+the site.

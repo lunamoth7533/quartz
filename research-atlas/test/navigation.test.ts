@@ -3,7 +3,7 @@ import test from "node:test"
 import { h } from "preact"
 import { render } from "preact-render-to-string"
 import type { QuartzComponent, QuartzComponentProps, QuartzPluginData } from "@quartz-community/types"
-import { AtlasHomeComponent, AtlasNavComponent } from "../components"
+import { AtlasHomeComponent, AtlasNavComponent, countContent } from "../components"
 import { resolveAuthoredHref } from "../notes"
 import { AtlasHomePages } from "../page-types"
 
@@ -238,4 +238,13 @@ test("the site root is generated only while the vault has no root note", () => {
   )
   assert.deepEqual(generate(["index", "research/home"]), [], "an authored index.md wins")
   assert.equal(home.match!({ slug: "index" } as never), false, "real notes stay with the content page type")
+})
+
+test("a canvas counts once although it arrives as a file and as its virtual page", () => {
+  const counts = countContent([
+    file("research/maps/a.canvas", "Research/Maps/a.canvas", {}),
+    file("research/maps/a.canvas", "Research/Maps/a.canvas.md", {}),
+    file("research/maps/b.canvas", "Research/Maps/b.canvas.md", {}),
+  ])
+  assert.equal(counts.canvases, 2)
 })

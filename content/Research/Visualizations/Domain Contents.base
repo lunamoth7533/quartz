@@ -5,7 +5,7 @@ filters:
         - note_type == "topic"
         - note_type == "source"
 formulas:
-  folder: 'file.folder.split("/").slice(3, 4).join("")'
+  folder: file.folder.split("/").slice(3, 4).join("")
   linked_from: file.backlinks.length
 properties:
   formula.folder:

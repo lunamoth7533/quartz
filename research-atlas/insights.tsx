@@ -422,9 +422,8 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
       <p class="atlas-insights-lead">
         Computed from note properties and links each time the site is built. Colour and shape mean the same
         kind of note everywhere on this site:{" "}
-        {(["source", "topic", "learning", "hub", "argument"] as AtlasCategory[]).map((cat, i) => (
-          <span class="atlas-inline-key">
-            {i > 0 ? " " : ""}
+        {(["source", "topic", "learning", "hub", "argument"] as AtlasCategory[]).map((cat) => (
+          <span class="atlas-inline-key" key={cat}>
             <CategoryKey category={cat} />
             {familyLabel(cat)}
           </span>

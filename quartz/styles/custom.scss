@@ -1595,3 +1595,16 @@ table.atlas-heat td.heat-6 {
   content-visibility: auto;
   contain-intrinsic-size: auto 900px;
 }
+
+.atlas-inline-key + .atlas-inline-key {
+  margin-left: 0.65rem;
+}
+
+/* Long titles (papers) wrap to two lines; the full title stays in the tooltip
+   and the data table. */
+.atlas-bar-label a {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
