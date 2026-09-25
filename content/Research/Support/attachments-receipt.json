@@ -1,0 +1,35 @@
+{
+  "verified_on": "2026-09-24",
+  "attachments": [
+    {
+      "name": "NINDS - Understanding Sleep.pdf",
+      "url": "https://www.ninds.nih.gov/sites/default/files/2025-05/understanding-sleep.pdf",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "NIMH - Autism Spectrum Disorder.pdf",
+      "url": "https://www.nimh.nih.gov/sites/default/files/documents/health/publications/autism-spectrum-disorder/autism-spectrum-disorder.pdf",
+      "final_url": "https://www.nimh.nih.gov/sites/default/files/documents/health/publications/autism-spectrum-disorder/autism-spectrum-disorder.pdf",
+      "bytes": 1134384,
+      "sha256": "64bfe90e4a0c8c1c632e3abfcef5c13f83d1f6c44ab5731ed80b550d932aa2b3",
+      "access_basis": "Official NIH public educational publication",
+      "status": "downloaded"
+    },
+    {
+      "name": "CPTSD - Phase based therapy meta analysis 2026.pdf",
+      "url": "https://europepmc.org/articles/PMC13063326?pdf=render",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "manuscript_attempt": {
+    "url": "https://kclpure.kcl.ac.uk/ws/files/122611358/LOrd_et_al_2020_NRDP_Nealry_final_version_Autism_spectrum_disorder.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "notes": [
+    "Only files present with a matching sha256 are treated as local attachments.",
+    "HTTP 403 endpoints remain online links; no local copy is claimed."
+  ]
+}

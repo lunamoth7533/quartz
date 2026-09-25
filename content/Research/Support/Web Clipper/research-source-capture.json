@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Research source capture",
+  "behavior": "create",
+  "noteNameFormat": "{{title}}",
+  "path": "Research/Sources",
+  "noteContentFormat": "## Source\n\n{{url}}\n\n## Summary (your paraphrase)\n\nRead the original and write a short summary here.\n^summary\n\n## Scope and limitations\n\nRecord the study design, population, and limits after reviewing the source.\n^limitation\n\n## Review checklist\n\n- Confirm the title, author, date, and DOI when available.\n- Classify source_kind as paper or educational after review.\n- Update verification only after checking the evidence.\n- Link supported claims to topic notes.\n",
+  "properties": [
+    {
+      "name": "note_type",
+      "value": "source",
+      "type": "text"
+    },
+    {
+      "name": "source_kind",
+      "value": "unclassified",
+      "type": "text"
+    },
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "publisher",
+      "value": "{{domain}}",
+      "type": "text"
+    },
+    {
+      "name": "source_url",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "access_level",
+      "value": "web-capture",
+      "type": "text"
+    },
+    {
+      "name": "verification",
+      "value": "unverified",
+      "type": "text"
+    },
+    {
+      "name": "reading_status",
+      "value": "queued",
+      "type": "text"
+    },
+    {
+      "name": "domain",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "condition",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "cssclasses",
+      "value": "research-source",
+      "type": "multitext"
+    },
+    {
+      "name": "tags",
+      "value": "research/source",
+      "type": "multitext"
+    }
+  ],
+  "context": ""
+}

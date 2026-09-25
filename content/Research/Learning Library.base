@@ -1,0 +1,112 @@
+filters:
+  and:
+    - file.inFolder("Research/Learning")
+properties:
+  title:
+    displayName: Title
+  module:
+    displayName: Module
+  module_title:
+    displayName: Module title
+  lesson_order:
+    displayName: Order
+  domain:
+    displayName: Domain
+  condition:
+    displayName: Condition
+  prerequisites:
+    displayName: Prerequisites
+  source_count:
+    displayName: Sources
+  question_count:
+    displayName: Questions
+  word_count:
+    displayName: Words
+  lesson_count:
+    displayName: Lessons
+  canvas:
+    displayName: Canvas
+  file.folder:
+    displayName: Folder
+views:
+  - type: table
+    name: Lessons
+    filters: note_type == "lesson"
+    order:
+      - file.name
+      - title
+      - module
+      - lesson_order
+      - domain
+      - condition
+      - source_count
+      - question_count
+      - word_count
+    sort:
+      - property: module
+        direction: ASC
+      - property: lesson_order
+        direction: ASC
+  - type: cards
+    name: Lesson cards by module
+    filters: note_type == "lesson"
+    groupBy:
+      property: module_title
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - lesson_order
+      - prerequisites
+      - source_count
+      - question_count
+    sort:
+      - property: lesson_order
+        direction: ASC
+  - type: table
+    name: Module guides
+    filters: note_type == "module"
+    order:
+      - file.name
+      - title
+      - module
+      - lesson_count
+      - source_count
+      - canvas
+    sort:
+      - property: module
+        direction: ASC
+  - type: table
+    name: Prerequisites and sequence
+    filters: note_type == "lesson"
+    order:
+      - file.name
+      - module_title
+      - lesson_order
+      - prerequisites
+    sort:
+      - property: module
+        direction: ASC
+      - property: lesson_order
+        direction: ASC
+  - type: table
+    name: Assessment coverage
+    filters: note_type == "lesson"
+    order:
+      - file.name
+      - title
+      - module
+      - question_count
+      - source_count
+    sort:
+      - property: question_count
+        direction: ASC
+  - type: cards
+    name: Study aids
+    filters: note_type == "learning-aid" || note_type == "glossary"
+    order:
+      - file.name
+      - title
+    sort:
+      - property: file.name
+        direction: ASC

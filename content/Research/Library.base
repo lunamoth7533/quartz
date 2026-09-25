@@ -1,0 +1,310 @@
+filters:
+  and:
+    - file.inFolder("Research/Sources")
+    - note_type == "source"
+properties:
+  title:
+    displayName: Title
+  authors:
+    displayName: Authors
+  year:
+    displayName: Year
+  journal:
+    displayName: Journal
+  publisher:
+    displayName: Publisher
+  source_kind:
+    displayName: Source kind
+  condition:
+    displayName: Condition
+  domain:
+    displayName: Domain
+  study_type:
+    displayName: Study type
+  population:
+    displayName: Population / scope
+  doi:
+    displayName: DOI
+  pmid:
+    displayName: PMID
+  pmcid:
+    displayName: PMCID
+  source_url:
+    displayName: Source URL
+  first_online:
+    displayName: First online
+  access_level:
+    displayName: Access
+  verification:
+    displayName: Verification
+  verified_on:
+    displayName: Verified on
+  reading_status:
+    displayName: Reading status
+  queue_tier:
+    displayName: Queue
+  pdf:
+    displayName: PDF
+  file.folder:
+    displayName: Folder
+views:
+  - type: table
+    name: Source Table
+    order:
+      - file.name
+      - title
+      - authors
+      - year
+      - journal
+      - publisher
+      - condition
+      - domain
+      - source_kind
+      - study_type
+      - access_level
+      - verification
+      - reading_status
+      - queue_tier
+      - source_url
+    sort:
+      - property: title
+        direction: ASC
+    summaries:
+      file.name: Filled
+  - type: cards
+    name: Reading Queue Board
+    filters: reading_status == "queued"
+    groupBy:
+      property: queue_tier
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - condition
+      - domain
+      - source_kind
+      - access_level
+      - verification
+      - reading_status
+      - queue_tier
+    sort:
+      - property: title
+        direction: ASC
+  - type: cards
+    name: Condition Cards
+    groupBy:
+      property: condition
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - condition
+      - domain
+      - source_kind
+      - access_level
+      - verification
+      - reading_status
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Journal articles
+    filters: source_kind == "paper"
+    order:
+      - file.name
+      - title
+      - authors
+      - year
+      - journal
+      - condition
+      - domain
+      - study_type
+      - population
+      - doi
+      - pmid
+      - access_level
+      - verification
+      - reading_status
+      - queue_tier
+      - source_url
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: Educational and official
+    filters: source_kind == "educational"
+    order:
+      - file.name
+      - title
+      - publisher
+      - year
+      - domain
+      - condition
+      - access_level
+      - verification
+      - reading_status
+      - queue_tier
+      - source_url
+      - pdf
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Reading queue
+    filters: reading_status == "queued"
+    groupBy:
+      property: queue_tier
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - queue_tier
+      - condition
+      - domain
+      - source_kind
+      - access_level
+      - verification
+      - source_url
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Condition coverage
+    groupBy:
+      property: condition
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - condition
+      - domain
+      - source_kind
+      - study_type
+      - access_level
+      - verification
+      - year
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Domain coverage
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - domain
+      - condition
+      - source_kind
+      - study_type
+      - access_level
+      - verification
+      - year
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Source kind summary
+    groupBy:
+      property: source_kind
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - source_kind
+      - condition
+      - domain
+      - access_level
+      - verification
+      - year
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Access and verification
+    groupBy:
+      property: access_level
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - access_level
+      - verification
+      - source_kind
+      - condition
+      - domain
+      - reading_status
+      - queue_tier
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Bipolar I
+    filters: condition.contains("bipolar-i")
+    order:
+      - file.name
+      - title
+      - year
+      - journal
+      - domain
+      - study_type
+      - access_level
+      - verification
+      - doi
+      - pmid
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: ADHD
+    filters: condition.contains("adhd")
+    order:
+      - file.name
+      - title
+      - year
+      - journal
+      - domain
+      - study_type
+      - access_level
+      - verification
+      - doi
+      - pmid
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: Autism
+    filters: condition.contains("autism")
+    order:
+      - file.name
+      - title
+      - year
+      - journal
+      - publisher
+      - domain
+      - study_type
+      - access_level
+      - verification
+      - doi
+      - pmid
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: CPTSD
+    filters: condition.contains("cptsd")
+    order:
+      - file.name
+      - title
+      - year
+      - journal
+      - domain
+      - study_type
+      - access_level
+      - verification
+      - doi
+      - pmid
+    sort:
+      - property: year
+        direction: DESC
