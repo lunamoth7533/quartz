@@ -2,10 +2,10 @@ filters:
   and:
     - file.inFolder("Research/Domains")
 formulas:
-  domain_folder: 'file.folder.split("/").slice(2, 3).join("")'
-  place: 'file.folder.split("/").slice(2, 4).join(" / ")'
+  domain_folder: file.folder.split("/").slice(2, 3).join("")
+  place: file.folder.split("/").slice(2, 4).join(" / ")
   cited_by: file.backlinks.length
-  decade: 'if(year, year.toString().slice(0, 3) + "0s", "undated")'
+  decade: if(year, year.toString().slice(0, 3) + "0s", "undated")
 properties:
   formula.domain_folder:
     displayName: Domain
@@ -71,16 +71,16 @@ views:
     filters:
       and:
         - note_type == "source"
-    sort:
-      - property: formula.cited_by
-        direction: DESC
-    limit: 40
     order:
       - file.name
       - formula.cited_by
       - verification
       - year
       - formula.domain_folder
+    sort:
+      - property: formula.cited_by
+        direction: DESC
+    limit: 40
   - type: table
     name: Evidence age
     filters:
