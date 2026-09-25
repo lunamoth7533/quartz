@@ -541,7 +541,8 @@ function mountGraph(
       ctx.font = `${strong ? 600 : 400} ${size}px ${palette.font}`
       const text = n.title.length > 38 ? `${n.title.slice(0, 36)}…` : n.title
       const [nx, y] = toScreen(n)
-      const top = y + n.r * Math.max(0.6, Math.min(1.6, Math.sqrt(k))) + 3
+      const below = y + n.r * Math.max(0.6, Math.min(1.6, Math.sqrt(k))) + 3
+      const top = Math.min(Math.max(below, 2), height - size - 4)
       const w = ctx.measureText(text).width
       // Keep the label inside the frame rather than letting the edge cut it.
       const x = Math.min(Math.max(nx, w / 2 + 4), width - w / 2 - 4)

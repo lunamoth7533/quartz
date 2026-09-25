@@ -438,7 +438,8 @@ export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts
     // original extension while their relative path ends in `.md`.
     if (relativePath.endsWith(".canvas") || slug.endsWith(".canvas")) {
       // A canvas can arrive twice (its file and its virtual page); count it once.
-      canvases.add(slug.replace(/\.canvas$/, ""))
+      // Virtual pages carry a slug-shaped path, so templates are caught by slug.
+      if (!/(^|\/)templates\//i.test(slug)) canvases.add(slug.replace(/\.canvas$/, ""))
       continue
     }
     const noteType = text((file.frontmatter as Frontmatter)?.note_type)

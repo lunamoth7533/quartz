@@ -245,6 +245,7 @@ test("a canvas counts once although it arrives as a file and as its virtual page
     file("research/maps/a.canvas", "Research/Maps/a.canvas", {}),
     file("research/maps/a.canvas", "Research/Maps/a.canvas.md", {}),
     file("research/maps/b.canvas", "Research/Maps/b.canvas.md", {}),
+    file("research/templates/t.canvas", "research/templates/t.canvas.md", {}),
   ])
-  assert.equal(counts.canvases, 2)
+  assert.equal(counts.canvases, 2, "templates are not library canvases")
 })
