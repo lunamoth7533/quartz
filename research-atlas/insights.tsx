@@ -12,7 +12,11 @@
  * every chart has its data in a table.
  */
 
-import type { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "@quartz-community/types"
+import type {
+  QuartzComponent,
+  QuartzComponentConstructor,
+  QuartzComponentProps,
+} from "@quartz-community/types"
 import { classNames } from "../quartz/util/lang"
 import { resolveRelative } from "../quartz/util/path"
 import type { FullSlug } from "../quartz/util/path"
@@ -29,9 +33,12 @@ export const INSIGHTS_TAG = "research/visualizations"
 
 const fm = (file: File) => (file.frontmatter ?? {}) as Frontmatter
 const list = (value: unknown): string[] =>
-  value == null ? [] : (Array.isArray(value) ? value : [value]).map(String).filter((v) => v.length > 0)
+  value == null
+    ? []
+    : (Array.isArray(value) ? value : [value]).map(String).filter((v) => v.length > 0)
 const text = (value: unknown) => (value == null ? "" : String(value))
-const simple = (slug: string) => (slug === "index" ? "/" : slug.endsWith("/index") ? slug.slice(0, -5) : slug)
+const simple = (slug: string) =>
+  slug === "index" ? "/" : slug.endsWith("/index") ? slug.slice(0, -5) : slug
 const titleOf = (file: File) => text(fm(file).title) || String(file.slug)
 const familyOf = (file: File) =>
   categoryFor({ slug: String(file.slug), noteType: fm(file).note_type, tags: fm(file).tags })
@@ -39,11 +46,13 @@ const familyOf = (file: File) =>
 /** Published notes: no templates or utility pages (they are unlisted everywhere). */
 export function publishedNotes(allFiles: Files): File[] {
   return allFiles.filter(
-    (file) => Boolean(file.slug) && !isTemplatePath(file.relativePath) && !isUtilityPage(file.relativePath),
+    (file) =>
+      Boolean(file.slug) && !isTemplatePath(file.relativePath) && !isUtilityPage(file.relativePath),
   )
 }
 
-const isListing = (slug: string) => slug === "index" || slug.endsWith("/index") || slug.startsWith("tags/")
+const isListing = (slug: string) =>
+  slug === "index" || slug.endsWith("/index") || slug.startsWith("tags/")
 
 function median(values: number[]): number {
   if (values.length === 0) return 0
@@ -134,7 +143,10 @@ export function looseEnds(stats: LinkStats) {
   return [...stats.noteBySlug.entries()]
     .filter(([slug]) => !stats.inbound.has(slug))
     .map(([slug, file]) => ({ slug, file, category: familyOf(file) }))
-    .sort((a, b) => a.category.localeCompare(b.category) || titleOf(a.file).localeCompare(titleOf(b.file)))
+    .sort(
+      (a, b) =>
+        a.category.localeCompare(b.category) || titleOf(a.file).localeCompare(titleOf(b.file)),
+    )
 }
 
 const sourcesOf = (allFiles: Files) =>
@@ -228,10 +240,21 @@ export function topicDepth(allFiles: Files) {
 
 // --- chart primitives ------------------------------------------------------------
 
-const pct = (value: number, max: number) => (max > 0 ? Math.max(0, Math.min(100, (value / max) * 100)) : 0)
+const pct = (value: number, max: number) =>
+  max > 0 ? Math.max(0, Math.min(100, (value / max) * 100)) : 0
 const fmt = (value: number) => value.toLocaleString("en-US")
 
-function Chart({ id, title, takeaway, children }: { id: string; title: string; takeaway: string; children: unknown }) {
+function Chart({
+  id,
+  title,
+  takeaway,
+  children,
+}: {
+  id: string
+  title: string
+  takeaway: string
+  children: unknown
+}) {
   return (
     <figure class="atlas-chart" aria-labelledby={`${id}-title`}>
       <figcaption>
@@ -291,7 +314,11 @@ function Bars({ rows, unit }: { rows: BarRow[]; unit: string }) {
             )}
           </span>
           <span class="atlas-bar-track">
-            <span class="atlas-bar" data-cat={row.category} style={`width:${pct(row.value, max)}%`} />
+            <span
+              class="atlas-bar"
+              data-cat={row.category}
+              style={`width:${pct(row.value, max)}%`}
+            />
           </span>
           <span class="atlas-bar-value">{fmt(row.value)}</span>
         </li>
@@ -370,7 +397,10 @@ function Heatmap({
             <tr>
               <th scope="row">{row.label}</th>
               {row.values.map((value, i) => (
-                <td class={`heat-${step(value)}`} title={`${row.label} · ${columns[i]}: ${fmt(value)}`}>
+                <td
+                  class={`heat-${step(value)}`}
+                  title={`${row.label} · ${columns[i]}: ${fmt(value)}`}
+                >
                   {value > 0 ? fmt(value) : <span aria-label="none">·</span>}
                 </td>
               ))}
@@ -384,7 +414,11 @@ function Heatmap({
 
 // --- the panel ---------------------------------------------------------------------
 
-const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
+const AtlasInsights: QuartzComponent = ({
+  fileData,
+  allFiles,
+  displayClass,
+}: QuartzComponentProps) => {
   if (!list(fm(fileData as File).tags).includes(INSIGHTS_TAG)) return null
   const here = fileData.slug as FullSlug
   const href = (slug: string) => resolveRelative(here, slug as FullSlug)
@@ -399,11 +433,16 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
   )
   const top = backbone(stats)
   const loose = looseEnds(stats)
-  const looseByFamily = FLOW_FAMILIES.map((cat) => ({ cat, count: loose.filter((l) => l.category === cat).length }))
+  const looseByFamily = FLOW_FAMILIES.map((cat) => ({
+    cat,
+    count: loose.filter((l) => l.category === cat).length,
+  }))
 
   const domains = coverageMatrix(allFiles, "domain")
   const lessonCol = domains.columns.indexOf("Lessons")
-  const untaught = domains.rows.filter((row) => lessonCol >= 0 && row.values[lessonCol] === 0 && row.total >= 10)
+  const untaught = domains.rows.filter(
+    (row) => lessonCol >= 0 && row.values[lessonCol] === 0 && row.total >= 10,
+  )
   const conditions = coverageMatrix(allFiles, "condition")
   const byTotal = [...conditions.rows].filter((r) => r.total >= 5)
 
@@ -417,11 +456,14 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
   const thin = depth.values.filter((v) => v <= 2).length
 
   return (
-    <section class={classNames(displayClass, "atlas-insights")} aria-labelledby="atlas-insights-title">
+    <section
+      class={classNames(displayClass, "atlas-insights")}
+      aria-labelledby="atlas-insights-title"
+    >
       <h2 id="atlas-insights-title">At a glance</h2>
       <p class="atlas-insights-lead">
-        Computed from note properties and links each time the site is built. Colour and shape mean the same
-        kind of note everywhere on this site:{" "}
+        Computed from note properties and links each time the site is built. Colour and shape mean
+        the same kind of note everywhere on this site:{" "}
         {(["source", "topic", "learning", "hub", "argument"] as AtlasCategory[]).map((cat) => (
           <span class="atlas-inline-key" key={cat}>
             <CategoryKey category={cat} />
@@ -447,7 +489,10 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
             corner="Links from ↓ to →"
             caption="Links from notes in each row family to notes in each column family"
             columns={FLOW_FAMILIES.map(familyLabel)}
-            rows={FLOW_FAMILIES.map((cat, i) => ({ label: familyLabel(cat), values: stats.flows[i] }))}
+            rows={FLOW_FAMILIES.map((cat, i) => ({
+              label: familyLabel(cat),
+              values: stats.flows[i],
+            }))}
           />
         </Chart>
 
@@ -471,7 +516,11 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
           />
           <DataTable
             head={["Note", "Kind", "Notes linking to it"]}
-            rows={top.map((entry) => [titleOf(entry.file), familyLabel(familyOf(entry.file)), entry.count])}
+            rows={top.map((entry) => [
+              titleOf(entry.file),
+              familyLabel(familyOf(entry.file)),
+              entry.count,
+            ])}
           />
         </Chart>
 
@@ -541,7 +590,10 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
           }
         >
           <Bars unit="sources" rows={designs.rows} />
-          <DataTable head={["Design (as recorded)", "Sources"]} rows={designs.rows.map((r) => [r.label, r.value])} />
+          <DataTable
+            head={["Design (as recorded)", "Sources"]}
+            rows={designs.rows.map((r) => [r.label, r.value])}
+          />
         </Chart>
 
         <Chart
@@ -549,7 +601,11 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
           title="How deeply papers were checked"
           takeaway={`${fmt(full)} of ${fmt(checks.papers)} papers (${Math.round(pct(full, checks.papers))}%) were checked against the full text; ${fmt(abstractOnly)} rest on the abstract only.`}
         >
-          <div class="atlas-stack" role="img" aria-label={checks.segments.map((s) => `${s.label}: ${s.value}`).join(", ")}>
+          <div
+            class="atlas-stack"
+            role="img"
+            aria-label={checks.segments.map((s) => `${s.label}: ${s.value}`).join(", ")}
+          >
             {checks.segments
               .filter((s) => s.value > 0)
               .map((s) => (
@@ -570,8 +626,8 @@ const AtlasInsights: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
             {checks.unrecorded > 0 ? <li>Not recorded {fmt(checks.unrecorded)}</li> : null}
           </ul>
           <p class="atlas-chart-note">
-            {fmt(checks.othersChecked)} of {fmt(checks.others)} educational and official sources were checked against
-            the page itself.
+            {fmt(checks.othersChecked)} of {fmt(checks.others)} educational and official sources
+            were checked against the page itself.
           </p>
         </Chart>
 

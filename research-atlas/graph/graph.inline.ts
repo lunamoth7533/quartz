@@ -114,7 +114,9 @@ function navigate(currentFull: string, id: string) {
 let modelPromise: Promise<Model> | undefined
 
 function getModel(): Promise<Model> {
-  modelPromise ??= fetchData.then((index) => buildModel(index as unknown as Record<string, ContentDetails>))
+  modelPromise ??= fetchData.then((index) =>
+    buildModel(index as unknown as Record<string, ContentDetails>),
+  )
   return modelPromise
 }
 
@@ -223,7 +225,13 @@ function radius(deg: number, mode: Mode, cat: AtlasCategory): number {
   return Math.min(base, mode === "global" ? 13 : 16)
 }
 
-function selectNoteIds(model: Model, mode: Mode, cfg: GraphCfg, current: string, hidden: Set<AtlasCategory>) {
+function selectNoteIds(
+  model: Model,
+  mode: Mode,
+  cfg: GraphCfg,
+  current: string,
+  hidden: Set<AtlasCategory>,
+) {
   if (mode === "global") {
     return new Set([...model.notes.values()].filter((n) => !hidden.has(n.cat)).map((n) => n.id))
   }
@@ -326,7 +334,8 @@ function mountGraph(
         }
         nodes.push(node)
         byId.set(id, node)
-        for (const member of members) links.push({ source: byId.get(member)!, target: node, tag: true })
+        for (const member of members)
+          links.push({ source: byId.get(member)!, target: node, tag: true })
       }
     }
     neighbours = new Map()
@@ -370,7 +379,10 @@ function mountGraph(
             return mode === "global" && l.source.cat !== l.target.cat ? base * 0.3 : base
           }),
       )
-      .force("collide", forceCollide<GNode>((n) => n.r + (mode === "global" ? 1.5 : 4)))
+      .force(
+        "collide",
+        forceCollide<GNode>((n) => n.r + (mode === "global" ? 1.5 : 4)),
+      )
       .force(
         "x",
         forceX<GNode>((n) => (mode === "global" ? ANCHORS[n.cat][0] * spread : 0)).strength(
@@ -410,7 +422,13 @@ function mountGraph(
       maxY = Math.max(maxY, n.y! + n.r)
     }
     const pad = mode === "global" ? 48 : 24
-    k = Math.max(0.15, Math.min(2.2, Math.min((width - pad) / (maxX - minX || 1), (height - pad) / (maxY - minY || 1))))
+    k = Math.max(
+      0.15,
+      Math.min(
+        2.2,
+        Math.min((width - pad) / (maxX - minX || 1), (height - pad) / (maxY - minY || 1)),
+      ),
+    )
     tx = -((minX + maxX) / 2) * k
     ty = -((minY + maxY) / 2) * k
   }
@@ -424,14 +442,20 @@ function mountGraph(
     const members = highlight.tag ? new Set(model.tagMembers.get(highlight.tag) ?? []) : null
     focus = new Set(
       nodes
-        .filter((n) => (!members || members.has(n.id)) && (!query || n.title.toLowerCase().includes(query)))
+        .filter(
+          (n) =>
+            (!members || members.has(n.id)) && (!query || n.title.toLowerCase().includes(query)),
+        )
         .map((n) => n.id),
     )
   }
 
   // --- drawing ---
 
-  const toScreen = (n: GNode): [number, number] => [width / 2 + tx + n.x! * k, height / 2 + ty + n.y! * k]
+  const toScreen = (n: GNode): [number, number] => [
+    width / 2 + tx + n.x! * k,
+    height / 2 + ty + n.y! * k,
+  ]
 
   function nodePath(n: GNode, x: number, y: number, r: number) {
     ctx.beginPath()
@@ -527,9 +551,12 @@ function mountGraph(
     const placed: [number, number, number, number][] = []
     const priority = (n: GNode) =>
       n.id === current ? 1e6 : n === hovered ? 1e5 : active?.has(n.id) ? 1e4 + n.deg : n.deg
-    const everything = k >= (mode === "global" ? 1.7 : 1.2) || (mode === "local" && nodes.length <= 14)
+    const everything =
+      k >= (mode === "global" ? 1.7 : 1.2) || (mode === "local" && nodes.length <= 14)
     const candidates = nodes
-      .filter((n) => everything || n.id === current || n === hovered || active?.has(n.id) || n.deg >= 12)
+      .filter(
+        (n) => everything || n.id === current || n === hovered || active?.has(n.id) || n.deg >= 12,
+      )
       .sort((a, b) => priority(b) - priority(a))
       .slice(0, width < 420 ? 8 : mode === "global" ? 70 : 40)
 
@@ -546,8 +573,15 @@ function mountGraph(
       const w = ctx.measureText(text).width
       // Keep the label inside the frame rather than letting the edge cut it.
       const x = Math.min(Math.max(nx, w / 2 + 4), width - w / 2 - 4)
-      const box: [number, number, number, number] = [x - w / 2 - 2, top - 1, x + w / 2 + 2, top + size + 2]
-      const overlaps = placed.some((p) => box[0] < p[2] && box[2] > p[0] && box[1] < p[3] && box[3] > p[1])
+      const box: [number, number, number, number] = [
+        x - w / 2 - 2,
+        top - 1,
+        x + w / 2 + 2,
+        top + size + 2,
+      ]
+      const overlaps = placed.some(
+        (p) => box[0] < p[2] && box[2] > p[0] && box[1] < p[3] && box[3] > p[1],
+      )
       if (overlaps && !strong) continue
       placed.push(box)
       ctx.globalAlpha = !active || active.has(n.id) ? 1 : 0.35
@@ -578,7 +612,14 @@ function mountGraph(
   }
 
   const pointers = new Map<number, { x: number; y: number }>()
-  let drag: { node: GNode | null; startX: number; startY: number; moved: boolean; tx: number; ty: number } | null = null
+  let drag: {
+    node: GNode | null
+    startX: number
+    startY: number
+    moved: boolean
+    tx: number
+    ty: number
+  } | null = null
   let pinch: { dist: number; k: number } | null = null
 
   const local = (e: PointerEvent | WheelEvent) => {
@@ -621,7 +662,11 @@ function mountGraph(
     if (pointers.has(e.pointerId)) pointers.set(e.pointerId, { x, y })
     if (pinch && pointers.size === 2) {
       const [a, b] = [...pointers.values()]
-      zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, pinch.k * (Math.hypot(a.x - b.x, a.y - b.y) / pinch.dist))
+      zoomAt(
+        (a.x + b.x) / 2,
+        (a.y + b.y) / 2,
+        pinch.k * (Math.hypot(a.x - b.x, a.y - b.y) / pinch.dist),
+      )
       return
     }
     if (drag) {
@@ -712,7 +757,8 @@ function mountGraph(
       sim?.stop()
       if (frame) cancelAnimationFrame(frame)
       observer.disconnect()
-      if (mode === "global") for (const n of nodes) if (n.cat !== "tag") globalPositions.set(n.id, { x: n.x!, y: n.y! })
+      if (mode === "global")
+        for (const n of nodes) if (n.cat !== "tag") globalPositions.set(n.id, { x: n.x!, y: n.y! })
     },
     redraw() {
       palette = readPalette(container)
@@ -792,7 +838,13 @@ async function mountPanel(panel: HTMLElement): Promise<Handle | null> {
   if (!panel.isConnected) return null
   const cfg = JSON.parse(panel.dataset.cfg ?? "{}") as Partial<GraphCfg>
   const hidden = loadGlobalPrefs()
-  const handle = mountGraph(stage, model, "global", { depth: -1, showTags: cfg.showTags ?? true }, hidden)
+  const handle = mountGraph(
+    stage,
+    model,
+    "global",
+    { depth: -1, showTags: cfg.showTags ?? true },
+    hidden,
+  )
 
   const search = panel.querySelector<HTMLInputElement>(".atlas-global-search")
   const condition = panel.querySelector<HTMLSelectElement>(".atlas-global-condition")
@@ -809,7 +861,8 @@ async function mountPanel(panel: HTMLElement): Promise<Handle | null> {
     if (!status) return
     const { notes, links, matched } = handle.counts()
     const parts = [`${notes.toLocaleString()} notes`, `${links.toLocaleString()} links`]
-    if (search?.value || condition?.value || domain?.value) parts.push(`${matched.toLocaleString()} highlighted`)
+    if (search?.value || condition?.value || domain?.value)
+      parts.push(`${matched.toLocaleString()} highlighted`)
     status.textContent = parts.join(" · ")
   }
 
@@ -830,7 +883,10 @@ async function mountPanel(panel: HTMLElement): Promise<Handle | null> {
 
   const applyHighlight = () => {
     // One tag at a time: choosing a condition clears the domain and vice versa.
-    handle.setHighlight({ query: search?.value ?? "", tag: condition?.value || domain?.value || "" })
+    handle.setHighlight({
+      query: search?.value ?? "",
+      tag: condition?.value || domain?.value || "",
+    })
     updateStatus()
   }
   if (search) {
@@ -871,8 +927,20 @@ document.addEventListener("nav", async () => {
       const cfg = JSON.parse(el.dataset.cfg ?? "{}") as Partial<GraphCfg>
       handles.add(
         inIndex
-          ? mountGraph(el, model, "local", { depth: cfg.depth ?? 1, showTags: cfg.showTags ?? false }, new Set())
-          : mountGraph(el, model, "global", { depth: -1, showTags: false }, new Set<AtlasCategory>(["tag"])),
+          ? mountGraph(
+              el,
+              model,
+              "local",
+              { depth: cfg.depth ?? 1, showTags: cfg.showTags ?? false },
+              new Set(),
+            )
+          : mountGraph(
+              el,
+              model,
+              "global",
+              { depth: -1, showTags: false },
+              new Set<AtlasCategory>(["tag"]),
+            ),
       )
     }
   }
@@ -942,7 +1010,9 @@ document.addEventListener("nav", async () => {
     }
     overlay.addEventListener("click", onBackdrop)
     overlay.addEventListener("atlas-graph-navigate", close)
-    overlay.querySelector<HTMLButtonElement>(".atlas-global-close")?.addEventListener("click", close)
+    overlay
+      .querySelector<HTMLButtonElement>(".atlas-global-close")
+      ?.addEventListener("click", close)
     cleanups.push(() => {
       overlay.removeEventListener("click", onBackdrop)
       overlay.removeEventListener("atlas-graph-navigate", close)

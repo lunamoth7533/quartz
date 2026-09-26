@@ -25,7 +25,11 @@ type Frontmatter = Record<string, unknown>
 
 function text(value: unknown): string {
   if (value == null) return ""
-  if (Array.isArray(value)) return value.map((item) => text(item)).filter(Boolean).join(", ")
+  if (Array.isArray(value))
+    return value
+      .map((item) => text(item))
+      .filter(Boolean)
+      .join(", ")
   return String(value)
 }
 
@@ -332,7 +336,11 @@ function lessonsInModule(allFiles: QuartzComponentProps["allFiles"], module: str
     .sort((a, b) => a.order - b.order)
 }
 
-const LessonContext: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
+const LessonContext: QuartzComponent = ({
+  fileData,
+  allFiles,
+  displayClass,
+}: QuartzComponentProps) => {
   const frontmatter = (fileData.frontmatter ?? {}) as Frontmatter
   const noteType = text(frontmatter.note_type)
   if (noteType !== "lesson" || isTemplatePath(fileData.relativePath)) return null
@@ -379,7 +387,10 @@ const LessonContext: QuartzComponent = ({ fileData, allFiles, displayClass }: Qu
               <span key={prerequisite}>
                 {index > 0 ? ", " : null}
                 {target ? (
-                  <a class="internal" href={resolveRelative(fileData.slug as FullSlug, target.slug)}>
+                  <a
+                    class="internal"
+                    href={resolveRelative(fileData.slug as FullSlug, target.slug)}
+                  >
                     {prerequisite}
                   </a>
                 ) : (
@@ -428,7 +439,14 @@ interface Counts {
 }
 
 export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts {
-  const counts: Counts = { sources: 0, topics: 0, lessons: 0, modules: 0, arguments: 0, canvases: 0 }
+  const counts: Counts = {
+    sources: 0,
+    topics: 0,
+    lessons: 0,
+    modules: 0,
+    arguments: 0,
+    canvases: 0,
+  }
   const canvases = new Set<string>()
   for (const file of allFiles) {
     if (isTemplatePath(file.relativePath)) continue
@@ -446,7 +464,8 @@ export function countContent(allFiles: QuartzComponentProps["allFiles"]): Counts
     // Count by authored note type, which survives the vault being refiled. The
     // Arguments folder still wins over the type: an argument note may carry a
     // `note_type: topic` value that a raw type tally would misreport as a topic.
-    if (isInFolder(relativePath, "Research/Arguments") || noteType === "argument") counts.arguments += 1
+    if (isInFolder(relativePath, "Research/Arguments") || noteType === "argument")
+      counts.arguments += 1
     else if (noteType === "source") counts.sources += 1
     else if (noteType === "topic") counts.topics += 1
     else if (noteType === "lesson") counts.lessons += 1
@@ -487,13 +506,15 @@ const AtlasHome: QuartzComponent = ({ fileData, allFiles, displayClass }: Quartz
   const entryPoints: { label: string; detail: string; authoredPath: string; note: string }[] = [
     {
       label: "Start learning",
-      detail: "Ten modules that build research literacy first, then neurobiology through to the conditions.",
+      detail:
+        "Ten modules that build research literacy first, then neurobiology through to the conditions.",
       authoredPath: "Research/Learning/Learning Hub",
       note: `${counts.modules} modules, ${counts.lessons} lessons`,
     },
     {
       label: "Browse evidence",
-      detail: "Every source record keeps reported findings, scope limits and analyst cautions separate.",
+      detail:
+        "Every source record keeps reported findings, scope limits and analyst cautions separate.",
       authoredPath: "Research/Library",
       note: `${counts.sources} source records`,
     },
@@ -507,12 +528,16 @@ const AtlasHome: QuartzComponent = ({ fileData, allFiles, displayClass }: Quartz
   return (
     <div class={classNames(displayClass, "atlas-home")}>
       <p class="atlas-home-tagline">
-        A source-backed library for learning how the evidence on bipolar I, ADHD, autism and complex PTSD was
-        produced, what it can support and where it is still thin.
+        A source-backed library for learning how the evidence on bipolar I, ADHD, autism and complex
+        PTSD was produced, what it can support and where it is still thin.
       </p>
       <div class="atlas-entries">
         {entryPoints.map((entry) => {
-          const target = resolveAuthoredHref(String(fileData.slug ?? ""), allFiles, entry.authoredPath)
+          const target = resolveAuthoredHref(
+            String(fileData.slug ?? ""),
+            allFiles,
+            entry.authoredPath,
+          )
           return (
             <a
               class="internal atlas-entry"
@@ -644,7 +669,10 @@ const AtlasNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
 export const AtlasNavComponent: QuartzComponentConstructor = () => AtlasNav
 
 /** Keeps a wrapped component's stylesheet and client scripts attached to the wrapper. */
-function inheritComponentResources(wrapper: QuartzComponent, inner: QuartzComponent): QuartzComponent {
+function inheritComponentResources(
+  wrapper: QuartzComponent,
+  inner: QuartzComponent,
+): QuartzComponent {
   wrapper.css = inner.css
   wrapper.beforeDOMLoaded = inner.beforeDOMLoaded
   wrapper.afterDOMLoaded = inner.afterDOMLoaded

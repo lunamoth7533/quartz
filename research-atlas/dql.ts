@@ -168,7 +168,10 @@ function tokenize(input: string): Token[] {
 class ExpressionParser {
   private pos = 0
 
-  constructor(private tokens: Token[], private source: string) {}
+  constructor(
+    private tokens: Token[],
+    private source: string,
+  ) {}
 
   parse(): Expr {
     const expr = this.parseOr()
@@ -642,7 +645,8 @@ export function evaluateExpression(expr: Expr, row: Record<string, unknown>): un
       switch (expr.name) {
         case "contains": {
           const [haystack, needle] = args
-          if (Array.isArray(haystack)) return haystack.some((item) => compareValues(item, needle) === 0)
+          if (Array.isArray(haystack))
+            return haystack.some((item) => compareValues(item, needle) === 0)
           if (haystack == null) return false
           return String(haystack).toLowerCase().includes(String(needle).toLowerCase())
         }
@@ -744,7 +748,10 @@ export function evaluateQuery(query: DashboardQuery, rows: QueryRow[]): Record<s
       case "sort": {
         working = [...working].sort((a, b) => {
           for (const term of step.terms) {
-            const cmp = compareValues(evaluateExpression(term.expr, a), evaluateExpression(term.expr, b))
+            const cmp = compareValues(
+              evaluateExpression(term.expr, a),
+              evaluateExpression(term.expr, b),
+            )
             if (cmp !== 0) return term.desc ? -cmp : cmp
           }
           return 0

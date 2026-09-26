@@ -2,7 +2,11 @@ import assert from "node:assert/strict"
 import test from "node:test"
 import { h } from "preact"
 import { render } from "preact-render-to-string"
-import type { QuartzComponent, QuartzComponentProps, QuartzPluginData } from "@quartz-community/types"
+import type {
+  QuartzComponent,
+  QuartzComponentProps,
+  QuartzPluginData,
+} from "@quartz-community/types"
 import { categoryFor, tagLabel } from "../categories"
 import {
   AtlasInsightsComponent,
@@ -16,7 +20,12 @@ import {
   yearCounts,
 } from "../insights"
 
-function note(slug: string, relativePath: string, frontmatter: Record<string, unknown>, links: string[] = []) {
+function note(
+  slug: string,
+  relativePath: string,
+  frontmatter: Record<string, unknown>,
+  links: string[] = [],
+) {
   return {
     slug,
     relativePath,
@@ -74,22 +83,34 @@ const allFiles = [
     title: "Visualizations",
     tags: ["research/visualizations"],
   }),
-  note("research/templates/source", "Research/Templates/Source.md", { note_type: "source", year: 1900 }, [
-    "research/sources/c",
-  ]),
+  note(
+    "research/templates/source",
+    "Research/Templates/Source.md",
+    { note_type: "source", year: 1900 },
+    ["research/sources/c"],
+  ),
   note("research/sources/index", "Research/Sources/index.md", {}, []),
 ]
 
 test("categories follow what a note is, wherever it is filed", () => {
-  assert.equal(categoryFor({ slug: "research/domains/x/articles/p1", noteType: "source" }), "source")
+  assert.equal(
+    categoryFor({ slug: "research/domains/x/articles/p1", noteType: "source" }),
+    "source",
+  )
   assert.equal(categoryFor({ slug: "research/domains/x/y/topic", noteType: "topic" }), "topic")
-  assert.equal(categoryFor({ slug: "research/learning/lessons/m01/x", noteType: "lesson" }), "learning")
+  assert.equal(
+    categoryFor({ slug: "research/learning/lessons/m01/x", noteType: "lesson" }),
+    "learning",
+  )
   assert.equal(categoryFor({ slug: "anywhere", noteType: "module" }), "learning")
   assert.equal(categoryFor({ slug: "research/arguments/a", noteType: "argument" }), "argument")
   assert.equal(categoryFor({ slug: "research/domains/x/x-map", noteType: "map" }), "hub")
   assert.equal(categoryFor({ slug: "research/domains/x/y/y", noteType: "subdomain" }), "hub")
   // In the browser only tags are known; nested and #-prefixed tags still count.
-  assert.equal(categoryFor({ slug: "a", tags: ["research/educational", "research/source"] }), "source")
+  assert.equal(
+    categoryFor({ slug: "a", tags: ["research/educational", "research/source"] }),
+    "source",
+  )
   assert.equal(categoryFor({ slug: "a", tags: ["#Research/Topic/sub"] }), "topic")
   assert.equal(categoryFor({ slug: "a", tags: ["research/reference"] }), "hub")
   assert.equal(categoryFor({ slug: "tags/research/domain/psychology" }), "tag")
@@ -129,7 +150,11 @@ test("link stats count each linking note once and ignore self, missing and templ
 
 test("loose ends are notes nothing links to", () => {
   const loose = looseEnds(linkStats(allFiles)).map((entry) => entry.slug)
-  assert.deepEqual(loose, ["research/hubs/visualizations", "research/learning/lessons/l1", "research/sources/c"])
+  assert.deepEqual(loose, [
+    "research/hubs/visualizations",
+    "research/learning/lessons/l1",
+    "research/sources/c",
+  ])
 })
 
 test("paper checks split papers by depth and report the other sources separately", () => {
@@ -182,12 +207,15 @@ test("the insights panel renders only on the tagged hub", () => {
   const renderFor = (slug: string) => {
     const fileData = allFiles.find((f) => f.slug === slug)!
     return render(
-      h(Insights as never, {
-        fileData,
-        allFiles,
-        cfg: {},
-        displayClass: undefined,
-      } as unknown as QuartzComponentProps),
+      h(
+        Insights as never,
+        {
+          fileData,
+          allFiles,
+          cfg: {},
+          displayClass: undefined,
+        } as unknown as QuartzComponentProps,
+      ),
     )
   }
   const html = renderFor("research/hubs/visualizations")

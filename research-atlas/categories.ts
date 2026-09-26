@@ -25,7 +25,14 @@ export interface CategoryInfo {
 }
 
 /** Legend order: the three coloured families first, in palette-slot order. */
-export const CATEGORY_ORDER: AtlasCategory[] = ["source", "topic", "learning", "hub", "argument", "tag"]
+export const CATEGORY_ORDER: AtlasCategory[] = [
+  "source",
+  "topic",
+  "learning",
+  "hub",
+  "argument",
+  "tag",
+]
 
 export const CATEGORY_INFO: Record<AtlasCategory, CategoryInfo> = {
   source: { label: "Sources", shape: "circle" },
@@ -70,7 +77,9 @@ export function categoryFor({ slug, noteType, tags }: CategorySubject): AtlasCat
   if (slug.startsWith("tags/")) return "tag"
   const typed = typeof noteType === "string" ? TYPE_FAMILY[noteType] : undefined
   if (typed) return typed
-  const own = (Array.isArray(tags) ? tags : []).map((tag) => String(tag).replace(/^#/, "").toLowerCase())
+  const own = (Array.isArray(tags) ? tags : []).map((tag) =>
+    String(tag).replace(/^#/, "").toLowerCase(),
+  )
   for (const [tag, family] of TAG_FAMILY) {
     if (own.some((t) => t === tag || t.startsWith(`${tag}/`))) return family
   }
