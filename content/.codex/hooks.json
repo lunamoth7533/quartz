@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 '/Volumes/NVME-Home/Documents/Obsidian Vault/.codex/hooks/vault_lint.py' --hook",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}
