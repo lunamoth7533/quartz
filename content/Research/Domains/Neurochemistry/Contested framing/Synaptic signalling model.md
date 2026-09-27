@@ -4,14 +4,14 @@ title: "Synaptic signalling model"
 domain: [neurochemistry]
 condition: []
 source_count: 8
-up: "[[Neurochemistry - Contested framing]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: theory
 description: "The stepwise synaptic signalling model, the evidence for each step, and the phenomena it omits such as volume transmission and neuromodulation."
 secondary_domain: [pharmacology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Synaptic signalling model
@@ -32,7 +32,7 @@ reviewed: 2026-09-25
 
 **Assumption 1: transmission is synaptic and point-to-point.** Volume transmission breaks this: peptidergic and gaseous messengers are released at sites that are not aligned with a single postsynaptic density, and peptides can act on nearby targets. Transmission also includes extrasynaptic receptors and retrograde signalling by endocannabinoids and gas messengers. For those systems the model is the wrong shape rather than an approximation. [[F107 Neuroscience Online neuropeptides and nitric oxide#^f107-transmission|Neuropeptides and Nitric Oxide]] [[P26698193 Lu 2016 Endogenous cannabinoid system#^p26698193-retrograde|Endogenous cannabinoid system]]
 
-**Assumption 2: an action potential is required.** Release depends on calcium availability and on the state of the release machinery, so the same action potential can produce different amounts of transmitter, and some cells release transmitter in proportion to graded input without a spike threshold at all. [[F115 Neuroscience Online transmitter release#^f115-requirements|Mechanisms of Neurotransmitter Release]] [[F04 OpenStax Communication between neurons#^f04-caution-summation|AI synthesis: Communication Between Neurons]]
+**Assumption 2: an action potential is required.** Release depends on calcium availability and on the state of the release machinery, so the same action potential can produce different amounts of transmitter, and some cells release transmitter in proportion to graded input without a spike threshold at all. [[F115 Neuroscience Online transmitter release#^f115-requirements|Mechanisms of Neurotransmitter Release]] [[F04 OpenStax Communication between neurons#^f04-caution-summation|Appraisal: Communication Between Neurons]]
 
 **Assumption 3: transmitter identity determines effect.** Receptor identity determines sign, so a transmitter can be excitatory at one synapse and inhibitory at another, or slow instead of fast. [[F04 OpenStax Communication between neurons#^f04-receptor|Communication Between Neurons]] [[F106 Neuroscience Online amino acid transmitters#^f106-spatial|Amino Acid Transmitters]]
 
@@ -46,11 +46,13 @@ reviewed: 2026-09-25
 
 Transmitter names describe molecules rather than moods, and the same molecule does different jobs in different circuits.
 
-## Related notes
+## Connections
 
-- [[Dopamine signalling]]
-- [[Chemical imbalance framing]]
-- [[Excitation and inhibition balance]]
+- [[Dopamine signalling]] - a worked case of the third assumption: D1-type and D2-type receptors give one transmitter opposite effects, so identity alone does not fix the sign.
+- [[Chemical imbalance framing]] - what goes wrong when the model's intervention language, raising or lowering a transmitter, is read as a prediction of mood.
+- [[Excitation and inhibition balance]] - the circuit-level aggregate of the model's excitatory and inhibitory synapses, where receptor sign and synapse placement combine.
+- [[Neuromodulation and circuit state]] - the fourth assumption in full: modulators reconfigure circuits, so the same wiring produces different outputs and wiring alone does not fix function.
+- [[Transmitter synthesis, release and clearance]] - the structure-level account of the model's first and sixth steps, from synthesis and packaging to reuptake or enzymatic clearance.
 
 ## Study question
 

@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [adhd]
 secondary_domain: []
 condition: []
-source_count: 6
-reviewed: 2026-09-25
-up: "[[ADHD - Constructs and assessment]]"
+source_count: 8
+reviewed: 2026-09-27
+up: "[[ADHD Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/adhd]
 ---
@@ -39,11 +39,18 @@ Heterogeneity is well established in cognitive and clinical studies; subclassifi
 
 **What heterogeneity does to a treatment claim.** The Cochrane review of cognitive behavioural interventions in adults with ADHD rated certainty low or very low for most comparisons, in part because trials were small and outcome measures heterogeneous, and its estimates depended on the comparator - large against a waiting list, not statistically significant against supportive therapy. Naming the outcome, the comparator, the rater and the sample is therefore part of reading any claim in this domain. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|Cognitive behavioural interventions for ADHD]]
 
-**Consensus as orientation, not as data.** The World Federation consensus statement curates 208 empirically supported assertions about ADHD, drawn from studies with more than 2000 participants or from meta-analyses meeting comparable thresholds. It is a synthesis of a moving literature produced by judgement, so it maps where agreement sits without replacing current primary evidence on a specific question. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-scope|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-methods|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|AI appraisal: ADHD consensus statement]]
+**Consensus as orientation, not as data.** The World Federation consensus statement curates 208 empirically supported assertions about ADHD, drawn from studies with more than 2000 participants or from meta-analyses meeting comparable thresholds. It is a synthesis of a moving literature produced by judgement, so it maps where agreement sits without replacing current primary evidence on a specific question. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-scope|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-methods|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|Appraisal: ADHD consensus statement]]
+
+## Recent research
+
+- **2024 · Psychometric validation study (Assessment).** Shows how presentation labels can borrow from other conditions: in 618 adults with anxiety disorders, some self-reported hyperactivity items loaded more strongly on anxiety than on ADHD, and a three-factor model separating impulsivity from hyperactivity fitted best. [[P38288573 Alarachi 2024 ADHD screener validity in anxiety#^p38288573-limit|Alarachi 2024]] [[P38288573 Alarachi 2024 ADHD screener validity in anxiety#^p38288573-overlap|Alarachi 2024]] [[P38288573 Alarachi 2024 ADHD screener validity in anxiety#^p38288573-factors|Alarachi 2024]] A presentation built from self-reported hyperactivity can therefore partly reflect co-occurring anxiety. [[P38288573 Alarachi 2024 ADHD screener validity in anxiety#^p38288573-caution-overlap|Appraisal: Alarachi 2024]]
+- **2023 · Case-control clustering study (JAMA Network Open).** Supports heterogeneity at the brain level: clustering resting-state connectivity in two independent data sets gave replicable subgroups that differed in intelligence and hyperactivity-impulsivity but cut across ADHD, autism, OCD and typical development. [[P36912839 Vandewouw 2023 Replicable transdiagnostic brain subgroups#^p36912839-subgroups|Vandewouw 2023]] [[P36912839 Vandewouw 2023 Replicable transdiagnostic brain subgroups#^p36912839-transdiagnostic|Vandewouw 2023]] Such subgroups describe variation rather than distinct causes and would not guide a decision for one person. [[P36912839 Vandewouw 2023 Replicable transdiagnostic brain subgroups#^p36912839-caution-subgroups|Appraisal: Vandewouw 2023]]
 
 ## Connections
 
 This note qualifies [[ADHD across the lifespan]] and is referenced by [[Attention and executive function]] and [[ADHD across the lifespan]].
+
+- [[ADHD in girls and women]] - sex as one axis of this heterogeneity: severity differences between diagnosed females and males are small and appear on rating scales rather than in clinical interviews.
 
 ## Uncertainties
 

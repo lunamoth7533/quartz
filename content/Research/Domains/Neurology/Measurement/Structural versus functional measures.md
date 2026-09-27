@@ -4,7 +4,7 @@ title: "Structural versus functional measures"
 domain: [neurology]
 condition: []
 source_count: 4
-up: "[[Neurology - Measurement]]"
+up: "[[Neurology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurology]
 content_layer: reference
@@ -21,7 +21,7 @@ reviewed: 2026-09-25
 ## Supported claims
 
 - The NINDS overview covers history and examination, CT and MRI imaging, EEG and laboratory tests, and what each measures. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-modalities|Neurological Diagnostic Tests and Procedures]]
-- MRI is a family: conventional structural MRI images anatomy while functional MRI measures activity-related signal change. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|AI synthesis: Neurological Diagnostic Tests and Procedures]]
+- MRI is a family: conventional structural MRI images anatomy while functional MRI measures activity-related signal change. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|Appraisal: Neurological Diagnostic Tests and Procedures]]
 
 ## How it works
 
@@ -35,7 +35,7 @@ reviewed: 2026-09-25
 
 **Stability is a property and a trap.** Structural measures' session-to-session stability makes them attractive phenotypes; the same stability makes it tempting to treat them as traits, when they also move with medication, age, illness course and training. Functional measures' state dependence is likewise double-edged: it complicates comparison, and it is exactly what makes functional measures able to detect state changes. Each measure's stability profile is evidence about what it can be used for. [[F28 OpenStax Brain imaging Psychology 2e#^f28-mri|Brain imaging]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]
 
-**Group differences and confounds.** Structural findings in psychiatric samples are group averages with overlap between groups, which is why they are not diagnostic. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-thickness|ENIGMA cortical abnormalities]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI appraisal: ENIGMA cortical abnormalities]] Medication, illness duration and substance use are associated with structural measures, so findings in clinical samples are difficult to attribute to the condition itself. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-medication|ENIGMA cortical abnormalities]]
+**Group differences and confounds.** Structural findings in psychiatric samples are group averages with overlap between groups, which is why they are not diagnostic. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-thickness|ENIGMA cortical abnormalities]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical abnormalities]] Medication, illness duration and substance use are associated with structural measures, so findings in clinical samples are difficult to attribute to the condition itself. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-medication|ENIGMA cortical abnormalities]]
 
 **Group-to-individual is the hardest crossing.** Even highly reliable group differences support individual classification weakly, because between-group effect sizes that look large in group statistics translate into overlapping distributions where many individuals sit on the wrong side of any threshold. This gap is why imaging findings in psychiatry remain research statements rather than diagnostic tests. [[Interpreting group brain differences]] [[Association versus individual prediction]] Structural and functional findings are complementary descriptions at different levels, and neither can be converted into a diagnosis or an individual prediction without validation. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-limit|ENIGMA cortical abnormalities]]
 
@@ -47,11 +47,13 @@ reviewed: 2026-09-25
 
 A measure can be reliable and objective and still answer only the question it was designed for.
 
-## Related notes
+## Connections
 
-- [[MRI versus EEG]]
-- [[Interpreting group brain differences]]
-- [[Nervous tissue and myelin]]
+- [[MRI versus EEG]] - the modality-level version of this distinction: MRI suits structure and slow functional change, while EEG suits timing and oscillatory activity.
+- [[Interpreting group brain differences]] - applies the structural side: consortium cortical-thickness differences are group averages entangled with medication and illness course.
+- [[Nervous tissue and myelin]] - the tissue that structural measures index: grey-matter volume and thickness, and white-matter tract integrity built on myelin.
+- [[Neuroimaging methods]] - the methods detail behind both families, including diffusion imaging and the analytic flexibility that complicates functional maps.
+- [[Measurement validity and reliability]] - the general frame: session-to-session stability is a reliability property, while what a structural or functional signal indexes is a validity question.
 
 ## Study question
 

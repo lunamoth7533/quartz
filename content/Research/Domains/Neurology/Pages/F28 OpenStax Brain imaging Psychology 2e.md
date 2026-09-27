@@ -49,8 +49,7 @@ EEG measures the brain's electrical activity through scalp electrodes, reporting
 An introductory textbook section covering modality categories at a general level. It does not cover sensitivity, source localisation, artefacts, acquisition parameters or clinical thresholds, and it teaches concepts rather than methods decisions.
 ^f28-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from OpenStax.
 
 The three modalities measure different quantities — magnetic tissue properties, haemodynamic change and summed electrical activity — so disagreement between them is not automatically error, and agreement does not make any one of them a clinical classifier.
@@ -60,6 +59,8 @@ The three modalities measure different quantities — magnetic tissue properties
 
 - [[Lesson - MRI versus EEG]]
 - [[Module 06 - Neurology]]
+- [[Default mode, salience and executive networks]]
+- [[Neural oscillations]]
 
 ## Working notes
 

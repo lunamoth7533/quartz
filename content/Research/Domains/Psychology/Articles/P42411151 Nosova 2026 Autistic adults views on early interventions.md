@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/domain/psychology, research/condition/autism]
+tags: [research/source, research/recent, research/domain/psychology, research/condition/autism]
 ---
 
 # The Views of Autistic Adults on Early Autism Interventions
@@ -57,8 +57,7 @@ The reviewers conclude that early interventions should be autism-affirmative, de
 A systematic review of qualitative and mixed-methods studies. Participants were mostly adults commenting retrospectively on childhood interventions, the included studies used varied methods, and the review is recent (2026), so its findings describe priorities rather than intervention effects.
 ^p42411151-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the review.
 
 Reported views inform which outcomes matter to autistic adults; they are not measurements of whether a specific intervention works, and the retrospective design means recall and selection shape what was reported.
@@ -68,7 +67,8 @@ Reported views inform which outcomes matter to autistic adults; they are not mea
 
 - [[Autistic sensory and communication access]]
 - [[Lesson - Autistic sensory and communication access]]
+- [[Neurodiversity paradigm]]
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

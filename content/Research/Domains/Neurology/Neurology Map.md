@@ -4,7 +4,7 @@ title: "Neurology Map"
 map_kind: foundation
 condition: []
 domain: [neurology]
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map]
 content_layer: reference
@@ -17,9 +17,15 @@ concept_kind: framework
 
 The neurology layer covers how the nervous system is organized, examined and measured, and how to read group imaging findings honestly.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Core sequence|Core sequence]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Evidence gaps|Evidence gaps]], [[#Study question|Study question]], [[#Learning layer|Learning layer]]
 
-## Reference overview
+## Concept register
+
+- **Method:** [[History and localisation]], [[Neurological examination]], [[Differential reasoning in neurology]], [[EEG and other diagnostics]]
+- **Measurement:** [[MRI versus EEG]], [[Structural versus functional measures]], [[Neuroimaging methods]]
+- **Conditions:** [[Seizures and epilepsy]], [[Cerebrovascular disease]], [[Demyelination and multiple sclerosis]], [[Movement disorders]], [[Neurodegeneration and cognitive syndromes]], [[Peripheral neuropathy and neuromuscular disease]], [[Headache and pain]], [[Sleep disorders]], [[Traumatic brain injury]], [[Functional neurological disorder]], [[Tic disorders and Tourette syndrome]]
+
+## Overview
 
 Neurology covers diseases of the nervous system and the clinical method used to localise them.
 Its reference value for this library is that it supplies the discipline of lesion-based reasoning -
@@ -61,7 +67,7 @@ individuals. [[Bipolar MRI findings and their limits]] [[F15 NINDS Neurological 
 
 **Where to start.** [[History and localisation]] for the clinical method, [[Cerebrovascular disease]] and [[Seizures and epilepsy]] as worked examples, and [[EEG and other diagnostics]] for what the tests actually measure. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Neurology here is organised around localisation and mechanism: using history and examination to infer where a problem is, then using tests selectively to change probabilities.
 
@@ -71,21 +77,7 @@ Localisation relies on a few robust rules. Sensory pathways cross, so lateralise
 
 Disorder categories follow their mechanisms. Stroke interrupts perfusion with territory-dependent deficits; demyelination slows or blocks conduction while leaving axons intact; movement disorders map onto basal ganglia and cerebellar circuits; neurodegeneration produces progressive cognitive syndromes whose clinical and pathological diagnoses are not identical. [[F74 MedlinePlus Stroke#^f74-mechanism|Stroke]] [[F75 MedlinePlus Multiple sclerosis#^f75-mechanism|Multiple Sclerosis]] [[F112 Neuroscience Online motor disorders#^f112-dyskinesias|Disorders of the Motor System]] [[F113 Neuroscience Online CNS aging and Alzheimer's disease#^f113-diagnosis|CNS Aging and Alzheimer's Disease]]
 
-Diagnostics are interpreted against pre-test probability, and no modality substitutes for clinical reasoning: MRI, EEG, nerve conduction studies and cerebrospinal fluid each measure specific properties with specific limits. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-modalities|Neurological diagnostic tests and procedures]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|AI appraisal: Brain imaging]]
-
-## Concept register
-
-- **[[Neurology - Method|Method]]:** [[History and localisation]], [[Neurological examination]], [[Differential reasoning in neurology]], [[EEG and other diagnostics]]
-- **[[Neurology - Measurement|Measurement]]:** [[MRI versus EEG]], [[Structural versus functional measures]], [[Neuroimaging methods]]
-- **[[Neurology - Conditions|Conditions]]:** [[Seizures and epilepsy]], [[Cerebrovascular disease]], [[Demyelination and multiple sclerosis]], [[Movement disorders]], [[Neurodegeneration and cognitive syndromes]], [[Peripheral neuropathy and neuromuscular disease]], [[Headache and pain]], [[Sleep disorders]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
+Diagnostics are interpreted against pre-test probability, and no modality substitutes for clinical reasoning: MRI, EEG, nerve conduction studies and cerebrospinal fluid each measure specific properties with specific limits. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-modalities|Neurological diagnostic tests and procedures]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|Appraisal: Brain imaging]]
 
 ## Where this domain connects
 
@@ -98,10 +90,6 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 Localisation rules are clinically validated heuristics rather than deterministic laws, imaging findings are frequently non-specific, and incidental findings create their own management problems. [[F110 Neuroscience Online language#^f110-limits|Higher Cortical Functions: Language]]
 
 ## Learning route
-
-The sections below keep the earlier learning-oriented framing of this hub - course sequence, study questions and the learning-layer pointer. They are retained for continuity and cross-reference; where they state a mechanism, the reference overview above and the linked articles are the current account.
-
-## Core sequence
 
 ### Organization
 
@@ -140,3 +128,11 @@ Design a minimum honest sentence for reporting a group imaging finding.
 
 - [[Module 06 - Neurology]] - module guide, lesson sequence, prerequisites and assessment.
 - [[Learning Map - Neurology.canvas]] - populated canvas with lessons, sources, uncertainty and open questions.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

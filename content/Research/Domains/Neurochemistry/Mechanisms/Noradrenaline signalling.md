@@ -3,15 +3,15 @@ note_type: topic
 title: "Noradrenaline signalling"
 domain: [neurochemistry]
 condition: []
-source_count: 8
-up: "[[Neurochemistry - Mechanisms]]"
+source_count: 10
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Noradrenaline sources, receptor families, inattentive and autonomic roles, and the inverted-U evidence from prefrontal circuits."
 secondary_domain: [adhd]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Noradrenaline signalling
@@ -47,11 +47,19 @@ reviewed: 2026-09-25
 
 Arousal is easy to measure badly, and much of the mechanistic evidence is animal-based.
 
-## Related notes
+## Recent research
 
-- [[Dopamine signalling]]
-- [[Attention and executive function]]
-- [[Stress response and the HPA axis]]
+- **2024 · Review with consensus recommendations (Journal of Neurophysiology).** Bears on measurement: as locus coeruleus recordings spread beyond rats and monkeys, the authors propose shared anatomical and electrophysiological criteria for identifying its neurons. [[P38842506 Vreven 2024 Guidelines for identifying the locus coeruleus#^p38842506-criteria|Vreven 2024]] If animal recordings need explicit criteria, human arousal proxies need at least as much validation before they stand for locus coeruleus activity. [[P38842506 Vreven 2024 Guidelines for identifying the locus coeruleus#^p38842506-caution-identity|Appraisal: Vreven 2024]]
+- **2023 · Narrative review (Physiology & Behavior).** Refines 'source and reach' above: the nucleus, long treated as uniform, varies in developmental origin, projections, topography, molecular make-up, electrophysiology and by sex. [[P37172640 Ma 2023 Heterogeneous organization of locus coeruleus#^p37172640-homogeneous|Ma 2023]] [[P37172640 Ma 2023 Heterogeneous organization of locus coeruleus#^p37172640-heterogeneity|Ma 2023]] The mapping is mostly from rodents and does not yet say which subpopulations matter in people. [[P37172640 Ma 2023 Heterogeneous organization of locus coeruleus#^p37172640-caution-modules|Appraisal: Ma 2023]]
+
+## Connections
+
+- [[Dopamine signalling]] - the sibling catecholamine; the same prefrontal inverted U and reuptake logic apply, so compare both systems before crediting either with a stimulant or arousal effect.
+- [[Attention and executive function]] - the cognitive functions this system tunes; the prefrontal catecholamine account ties noradrenaline release to the working-memory activity studied there.
+- [[Stress response and the HPA axis]] - noradrenaline carries the fast sympathetic arm that complements the slower hormonal axis, so a stress claim must say which arm it measured.
+- [[ADHD and prefrontal catecholamines]] - the condition-level application of the inverted U and postsynaptic alpha-2A receptor account described here.
+- [[Autonomic regulation]] - the peripheral side of the same transmitter: postganglionic sympathetic neurons release noradrenaline, so autonomic and central findings share machinery but not conclusions.
+- [[Serotonin-noradrenaline reuptake inhibitors]] - antidepressants that block this system's transporter together with serotonin's, used in depression, anxiety and chronic pain.
 
 ## Study question
 

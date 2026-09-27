@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 6
 reviewed: 2026-09-25
-up: "[[Neurochemistry - Mechanisms]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurochemistry, research/domain/computational]
 ---

@@ -4,14 +4,14 @@ title: "Memory processes"
 domain: [psychology]
 condition: []
 source_count: 4
-up: "[[Psychology - Learning and memory]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology]
 content_layer: reference
 concept_kind: process
 description: "Encoding, storage and retrieval across memory systems, the reconstructive nature of recall, and which practice manipulations actually work."
 secondary_domain: [neurobiology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Memory processes
@@ -38,7 +38,7 @@ reviewed: 2026-09-25
 
 **Practice conditions change durability.** The taxonomy explains why testing yourself - a retrieval manipulation - improves later performance more than re-reading, an encoding manipulation: practice that exercises retrieval strengthens the pathway that will be needed. The same total study time distributed across sessions also produces more durable retention than massed study, an effect about storage and consolidation dynamics rather than motivation. [[F11 Noba Memory encoding storage retrieval#^f11-stages|Memory (Encoding, Storage, Retrieval)]] [[P37615780 Trumble 2024 Distributed and retrieval practice review]]
 
-**How settled the practice effects are.** Spacing and retrieval practice are among the most robustly replicated learning techniques, though effect sizes depend on the outcome measured. [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-results|Distributed and retrieval practice review]] Distributed practice is one of the largest and best-replicated effects in the learning literature, and it generalises across materials and ages - which makes it one of the few educational claims this library treats as close to settled. [[P37615780 Trumble 2024 Distributed and retrieval practice review]] In the health-professions education studies reviewed, spacing and retrieval practice - distributing study and testing recall - improved retention relative to massed rereading, with effects appearing in most experiments, and time on task and assessment stakes were flagged as confounders to track. [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-results|Distributed and retrieval practice review]] [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-confounders|Distributed and retrieval practice review]] [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-caution-transfer|AI synthesis: Distributed and retrieval practice review]]
+**How settled the practice effects are.** Spacing and retrieval practice are among the most robustly replicated learning techniques, though effect sizes depend on the outcome measured. [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-results|Distributed and retrieval practice review]] Distributed practice is one of the largest and best-replicated effects in the learning literature, and it generalises across materials and ages - which makes it one of the few educational claims this library treats as close to settled. [[P37615780 Trumble 2024 Distributed and retrieval practice review]] In the health-professions education studies reviewed, spacing and retrieval practice - distributing study and testing recall - improved retention relative to massed rereading, with effects appearing in most experiments, and time on task and assessment stakes were flagged as confounders to track. [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-results|Distributed and retrieval practice review]] [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-confounders|Distributed and retrieval practice review]] [[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-caution-transfer|Appraisal: Distributed and retrieval practice review]]
 
 **Reading rule.** Memory claims should name the process, the material and the test. Confidence, accuracy and accessibility are three different measurements that routinely disagree. [[F11 Noba Memory encoding storage retrieval#^f11-limit|Memory encoding, storage and retrieval]]
 
@@ -48,10 +48,12 @@ reviewed: 2026-09-25
 
 Confidence is not a reliable index of accuracy, which complicates any notes system that treats recollection as record.
 
-## Related notes
+## Connections
 
-- [[Learning and conditioning]]
-- [[Reading a study and matching populations]]
+- [[Learning and conditioning]] - a sibling system with its own rules: conditioned associations are learned and extinguished, and their context-dependent return mirrors retrieval's dependence on cues.
+- [[Reading a study and matching populations]] - the methods checklist behind this note's reading rule: name the population, measure and outcome before trusting a memory claim.
+- [[Working memory]] - the active end of the same encoding, storage and retrieval framework, where information is held and manipulated for seconds rather than stored.
+- [[Episodic memory]] - the system for personally experienced events, where reconstruction and cue-dependence matter most for how people report their own histories.
 
 ## Study question
 

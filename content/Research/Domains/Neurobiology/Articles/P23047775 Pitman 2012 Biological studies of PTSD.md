@@ -45,8 +45,7 @@ PTSD is presented as the disorder whose cause is regarded as known - a threateni
 Review published in 2012; it covers PTSD rather than complex PTSD.
 ^p23047775-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 PTSD findings cannot be relabelled as complex PTSD specific mechanisms, and no single biological marker explains PTSD.

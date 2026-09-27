@@ -63,8 +63,7 @@ The review also discusses translational neuromodulation work.
 A narrative review of basic plasticity research written for a clinical audience, with a 2011 literature base. Effects described in slices or animals are mechanisms under study, not readouts of human learning, and the review offers no treatment recommendations.
 ^p21779718-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the paper.
 
 LTP and LTD are the dominant cellular model of learning-related change, not a measurement of learning. A synaptic change in a slice constrains what a memory mechanism could look like; it does not by itself show what any person learned.
@@ -81,4 +80,4 @@ LTP and LTD are the dominant cellular model of learning-related change, not a me
 
 ## Working notes
 
-- Reading status: `queued` (queued for the user, not read by them). Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued` (queued for the user, not read by them). Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

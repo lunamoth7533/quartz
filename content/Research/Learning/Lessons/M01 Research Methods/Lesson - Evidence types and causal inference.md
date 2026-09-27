@@ -45,7 +45,7 @@ random assignment and control groups exist: they make the comparison groups more
 One more layer matters when you read reviews. Statistical analyses of trial components can add detail to an
 average effect across many studies without establishing what will happen for one person, because the analysis
 is still describing a distribution of trial averages.
-[[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|AI synthesis: Comparative efficacy of ADHD interventions in adults]]
+[[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|Appraisal: Comparative efficacy of ADHD interventions in adults]]
 
 ## Worked example (hypothetical)
 
@@ -100,4 +100,4 @@ frequently replicated; that step needs a design that supports it, or explicit la
 ## Next steps
 
 - Continue to [[Lesson - Bias and confounding]] for how comparisons get distorted even when the design is right.
-- Use the checklist in [[Learning Hub]] to keep the design question first when you read any claim in this vault.
+- Use the checklist in [[Learning Path]] to keep the design question first when you read any claim in this vault.

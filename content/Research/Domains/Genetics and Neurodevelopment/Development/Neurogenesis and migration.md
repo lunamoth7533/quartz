@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Development]]"
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics]
 ---
@@ -42,6 +42,8 @@ Embryonic development is established in animals and human tissue; adult human ne
 ## Connections
 
 This note is the first stage of the developmental sequence completed by [[Axon guidance and synaptogenesis]] and [[Synaptic pruning and myelination]].
+
+- [[Adult neurogenesis]] - the adult sequel to this process: whether the human hippocampus keeps making neurons after development, and why its proposed link to antidepressant action is contested.
 
 **Cross-domain connection (curation).** The developmental-timing literature in the neurology domain consumes this sequence directly: perinatal injuries are interpreted through what is migrating and differentiating at the time of injury, which is why the same injury at different gestational ages produces different patterns. [[Cerebrovascular disease]] [[Neurodegeneration and cognitive syndromes]]
 

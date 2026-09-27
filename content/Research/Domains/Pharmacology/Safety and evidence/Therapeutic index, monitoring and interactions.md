@@ -4,7 +4,7 @@ title: "Therapeutic index, monitoring and interactions"
 domain: [pharmacology]
 condition: []
 source_count: 3
-up: "[[Pharmacology - Safety and evidence]]"
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/pharmacology]
 content_layer: reference
@@ -32,7 +32,7 @@ reviewed: 2026-09-25
 
 **What monitoring actually monitors.** Biological monitoring for a narrow-index drug tracks a surrogate - a blood concentration, a renal marker, an electrolyte - chosen because it tracks the danger before symptoms do. Each surrogate has its own validity question: how well it reflects tissue exposure, how much it swings with non-drug factors, and how quickly it changes. A monitoring programme is therefore a measurement system with the same validity and timing questions the methods domain applies to any instrument. [[F18 FDA Narrow therapeutic index drugs#^f18-nti|Setting and Implementing Standards for Narrow Therapeutic Index Drugs]] [[Measurement validity and reliability]]
 
-**Interactions are pharmacokinetic or pharmacodynamic, and the difference matters.** Interactions arise when one agent changes the absorption, metabolism or protein binding of another, or when two agents act on the same physiological system, so they can change how much drug is present or how it acts. A kinetic interaction changes exposure - one agent speeds or slows another's metabolism, absorption or binding - so the effect looks like a dose change; a dynamic interaction changes effect at the same exposure, as two agents acting on the same physiological system add or oppose. Predicting them requires the kinetic and dynamic profile rather than the class name: kinetic interactions live in metabolism and transport, dynamic ones in receptor and circuit overlap. [[F19 FDA Drug interactions what you should know#^f19-types|Drug Interactions: What You Should Know]]
+**Interactions are pharmacokinetic or pharmacodynamic, and the difference matters.** Interactions arise when one drug changes the absorption, metabolism or protein binding of another, or when two drugs act on the same physiological system, so they can change how much drug is present or how it acts. A kinetic interaction changes exposure - one drug speeds or slows another's metabolism, absorption or binding - so the effect looks like a dose change; a dynamic interaction changes effect at the same exposure, as two drugs acting on the same physiological system add or oppose. Predicting them requires the kinetic and dynamic profile rather than the class name: kinetic interactions live in metabolism and transport, dynamic ones in receptor and circuit overlap. [[F19 FDA Drug interactions what you should know#^f19-types|Drug Interactions: What You Should Know]]
 
 **The lithium case ties the three concepts together.** Narrow index, renal clearance sensitive to salt and fluid balance, and dynamic interactions with systems it shares - lithium is the standard worked example because every concept in this article is load-bearing for it at once, which the lithium article develops without turning the account into personal guidance. [[Lithium mechanisms and uncertainty]] [[Half-life and steady state]]
 
@@ -46,11 +46,14 @@ reviewed: 2026-09-25
 
 Monitoring manages concentration rather than the whole clinical picture; individual decisions belong with clinicians and product labelling.
 
-## Related notes
+## Connections
 
-- [[Half-life and steady state]]
-- [[Lithium mechanisms and uncertainty]]
-- [[Pharmacokinetics and ADME]]
+- [[Half-life and steady state]] - the kinetics behind monitoring: time since dose, peak-trough swing and steady state decide when a concentration sample means what it appears to mean.
+- [[Lithium mechanisms and uncertainty]] - the standard worked example: narrow index, renal clearance sensitive to salt and fluid balance, and shared-system interactions are all load-bearing for lithium at once.
+- [[Pharmacokinetics and ADME]] - the source of kinetic interactions: absorption, metabolism and protein binding are the processes one drug can alter for another, shifting exposure as if the dose had changed.
+- [[Pharmacodynamics and receptors]] - the source of dynamic interactions: two drugs acting on the same receptors or physiological system can add or oppose at unchanged exposure.
+- [[Measurement validity and reliability]] - monitoring treated as measurement: a blood level or renal marker is a surrogate whose validity, reliability and timing need checking like any instrument's.
+- [[Tricyclic antidepressants]] - a drug class ranked second-line for its narrow overdose margin and anticholinergic burden rather than for weaker efficacy.
 
 ## Study question
 

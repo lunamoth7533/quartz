@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 5
 reviewed: 2026-09-25
-up: "[[Neurobiology - Processes and mechanisms]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurobiology, research/domain/neurochemistry]
 ---

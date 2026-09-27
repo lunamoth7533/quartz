@@ -50,6 +50,10 @@ Educational overview written for a general audience; it simplifies and does not 
 
 - [[Serotonin signalling]]
 - [[Pharmacodynamics and receptors]]
+- [[Selective serotonin reuptake inhibitors]]
+- [[Serotonin-noradrenaline reuptake inhibitors]]
+- [[Tricyclic antidepressants]]
+- [[Atypical antidepressants]]
 
 ## Working notes
 

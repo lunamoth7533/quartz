@@ -14,7 +14,7 @@ tags: [research/module, research/module/m10]
 
 # Module 10 - CPTSD
 
-**Lessons.** 6 · **Canvas.** [[Learning Map - CPTSD.canvas]] · **Entry point.** [[Learning Hub]]
+**Lessons.** 6 · **Canvas.** [[Learning Map - CPTSD.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -80,7 +80,7 @@ Answer from memory first; the parent lesson holds the supporting detail.
 
 3. What would justify calling a biological finding specific to complex PTSD?
    - *Working answer.* Studies that recruit ICD-11 complex PTSD samples, compare them with PTSD and appropriate controls, and replicate the finding with convergent measures.
-   - *Answer sources.* [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|AI synthesis: biological studies of PTSD]]
+   - *Answer sources.* [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|Appraisal: biological studies of PTSD]]
 
 ## Source boundaries
 
@@ -89,4 +89,4 @@ Every lesson names the access level and check status of its sources. Where a cla
 ## Next steps
 
 - Revisit [[Learning Coverage Matrix]] to see which topics this module does not yet cover and why.
-- Move to the next module in [[Learning Hub]] once the check-yourself questions are answerable without the notes.
+- Move to the next module in [[Learning Path]] once the check-yourself questions are answerable without the notes.

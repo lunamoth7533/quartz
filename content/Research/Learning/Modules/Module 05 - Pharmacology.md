@@ -14,7 +14,7 @@ tags: [research/module, research/module/m05]
 
 # Module 05 - Pharmacology
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Pharmacology.canvas]] · **Entry point.** [[Learning Hub]]
+**Lessons.** 5 · **Canvas.** [[Learning Map - Pharmacology.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -87,4 +87,4 @@ Every lesson names the access level and check status of its sources. Where a cla
 ## Next steps
 
 - Revisit [[Learning Coverage Matrix]] to see which topics this module does not yet cover and why.
-- Move to the next module in [[Learning Hub]] once the check-yourself questions are answerable without the notes.
+- Move to the next module in [[Learning Path]] once the check-yourself questions are answerable without the notes.

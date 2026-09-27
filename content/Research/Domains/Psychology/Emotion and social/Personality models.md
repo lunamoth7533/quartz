@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Psychology - Emotion and social]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology, research/domain/clinical]
 ---
@@ -31,7 +31,7 @@ Personality models describe enduring patterns of thinking, feeling and behaving.
 
 **The dimensional critique is mainstream here.** Categorical taxonomies suffer from arbitrary thresholds, unclear boundaries, frequent co-occurrence, within-disorder heterogeneity and diagnostic instability, and the proposed response is to organise covarying syndromes into dimensional spectra as a research effort, which is why dimensional models are increasingly used in research. Personality pathology is where that critique is least contested, and the critique supplies the reason the clinical hybrid is contested. [[P28333488 Kotov 2017 HiTOP#^p28333488-problem|HiTOP]] [[P28333488 Kotov 2017 HiTOP#^p28333488-structure|HiTOP]]
 
-**Measurement before comparison.** Self-report personality measures are vulnerable to reference-group effects and to invariance problems when compared across cultures. Comparing trait or pathology scores across groups or time assumes invariance, so invariance testing is the prerequisite for any group comparison, and absent invariance changes what a difference means. Reliability is not validity: an instrument can produce consistent scores that consistently miss the construct. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|AI appraisal: Developing and validating scales]]
+**Measurement before comparison.** Self-report personality measures are vulnerable to reference-group effects and to invariance problems when compared across cultures. Comparing trait or pathology scores across groups or time assumes invariance, so invariance testing is the prerequisite for any group comparison, and absent invariance changes what a difference means. Reliability is not validity: an instrument can produce consistent scores that consistently miss the construct. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|Appraisal: Developing and validating scales]]
 
 **Reading rule.** Cultural expectations shape what counts as disordered, so criteria are not culture-free, and harm or dysfunction is part of the definition rather than an add-on. A trait score is a position in a distribution, not a verdict. [[F47 OpenStax Psychology 2e psychological disorders#^f47-cultural|Psychological Disorders]] [[F47 OpenStax Psychology 2e psychological disorders#^f47-harm|Psychological Disorders]]
 

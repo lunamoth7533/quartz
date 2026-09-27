@@ -51,8 +51,7 @@ Psychosocial interventions in children can improve behaviours such as joint atte
 Review primer for clinicians and researchers rather than a single study.
 ^p31949163-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Child intervention findings do not automatically transfer to adults; this is a methodological limit, and the paper itself calls for long-term research.

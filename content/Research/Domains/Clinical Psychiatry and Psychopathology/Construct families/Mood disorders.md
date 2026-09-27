@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Construct families]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical]
 ---
@@ -46,6 +46,10 @@ Episode definitions are reliably applied in research settings; boundaries betwee
 ## Connections
 
 This note is the generic reference point for [[Bipolar I episodes and course]] and for the clinical material on depression in [[Antidepressant mechanisms]].
+
+- [[Sex hormones and mood across the lifespan]] - times mood episodes against the menstrual cycle, the postpartum period and perimenopause, and asks what such timing can show about hormones.
+- [[Thyroid axis and mood]] - an endocrine correlate of depression: hypothyroidism shows a modest association, stronger for overt disease and seen in women.
+- [[Eating disorders]] - depression is common across eating disorders, and the low mood and withdrawal of acute illness have to be told apart from a separate depressive disorder.
 
 **Cross-domain connection (curation).** The neurochemistry domain's monoamine and antidepressant-mechanism articles supply the treatment-side mechanism debate, and the inflammation and stress material supplies the systemic-correlate layer; the mood-disorder article's job is to keep those layers attached to a precisely described clinical construct. [[Antidepressant mechanisms]] [[Allostasis and chronic stress]]
 

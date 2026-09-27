@@ -4,14 +4,14 @@ title: "Acetylcholine signalling"
 domain: [neurochemistry]
 condition: []
 source_count: 4
-up: "[[Neurochemistry - Mechanisms]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Acetylcholine pathways, nicotinic and muscarinic receptor families, enzymatic clearance, and the clinical associations that are often over-generalised."
 secondary_domain: [pharmacology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Acetylcholine signalling
@@ -33,7 +33,7 @@ reviewed: 2026-09-25
 
 **The Alzheimer's thread, kept honest.** Degeneration of the basal forebrain cholinergic projection is one of the pathologies associated with Alzheimer's disease, which motivated cholinergic drug development. The chapter frames this as a rationale for a treatment avenue, not a demonstration that the degeneration is the disease or that enhancement reverses it; it does not make acetylcholine "the memory transmitter" or generalise to other conditions, and the drug classes that act here also illustrate the trade-off between central and peripheral cholinergic effects. The thread is historically important and mechanistically partial. [[F108 Neuroscience Online acetylcholine#^f108-alzheimer|Acetylcholine]] [[F13 NIGMS How do medicines work#^f13-targets|How do medicines work]]
 
-**Reading rule.** A claim about acetylcholine and memory should specify the pathway, the receptor family and the preparation; a claim about a drug should specify whether it acts on the receptor, on the enzyme or on precursor supply, because those three produce different effect profiles. [[F108 Neuroscience Online acetylcholine#^f108-limit|Acetylcholine]] [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI synthesis: Cells of the Nervous System]]
+**Reading rule.** A claim about acetylcholine and memory should specify the pathway, the receptor family and the preparation; a claim about a drug should specify whether it acts on the receptor, on the enzyme or on precursor supply, because those three produce different effect profiles. [[F108 Neuroscience Online acetylcholine#^f108-limit|Acetylcholine]] [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]]
 
 **Cross-domain connection (curation).** Pharmacology's anticholinergic side-effect catalogue - dry mouth, constipation, cognitive blunting - is the peripheral-and-central muscarinic distribution showing up as drug effects, which is why drug-class articles track anticholinergic burden alongside their primary mechanisms. [[Drug classes and mechanisms overview]] [[Attention and executive function]]
 
@@ -41,10 +41,12 @@ reviewed: 2026-09-25
 
 The same molecule serves motor output and cognitive regulation in different circuits, so single-purpose intuition misleads.
 
-## Related notes
+## Connections
 
-- [[Synaptic signalling model]]
-- [[Attention and executive function]]
+- [[Synaptic signalling model]] - the general model this note instantiates; quantal, calcium-dependent release was demonstrated at the cholinergic neuromuscular junction, and enzymatic breakdown is its clearance step here.
+- [[Attention and executive function]] - where the basal forebrain projection's role in cortical activation and attention is studied at the level of cognition.
+- [[Autonomic regulation]] - acetylcholine acts at nicotinic receptors in the autonomic ganglia of both divisions, so autonomic drug effects run partly through this system.
+- [[Receptor families and second messengers]] - the nicotinic-ionotropic versus muscarinic-metabotropic split here is the general receptor-family distinction in its most familiar form.
 
 ## Study question
 

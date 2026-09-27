@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## Neurobiology\n\nDomain hub: cellular signalling, synaptic transmission, plasticity and the developmental programme that builds and prunes circuits.\n\n[[Neurobiology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## Neurobiology\n\nDomain hub: cellular signalling, synaptic transmission, plasticity and the developmental programme that builds and prunes circuits.\n\n[[Neurobiology Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 1680,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 1798
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[Neurobiology - Structures|Structures index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1650
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[Chemical and electrical synapses]]**\n*structure* - 3 sources\n\nTwo modes of neuronal connection: transmitter-mediated chemical synapses and gap-junction electrical synapses, their properties and their different roles.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -44,7 +34,7 @@
 			"type": "text",
 			"text": "**[[Glial cell types]]**\n*structure* - 5 sources\n\nAstrocytes, oligodendrocytes, microglia and ependymal cells, their distinct functions, and why they are signalling partners rather than support tissue.",
 			"x": 30,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -54,7 +44,7 @@
 			"type": "text",
 			"text": "**[[Membrane transport and ion channels]]**\n*structure* - 11 sources\n\nThe molecular machinery that sets and changes membrane potential: pumps, leak channels, voltage-gated channels, transporters and their selectivity.",
 			"x": 30,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -64,7 +54,7 @@
 			"type": "text",
 			"text": "**[[Myelin and saltatory conduction]]**\n*structure* - 5 sources\n\nThe myelin sheath, nodes of Ranvier, how conduction speed is achieved, and what changes when myelin is damaged.",
 			"x": 30,
-			"y": 1342,
+			"y": 1194,
 			"width": 360,
 			"height": 194,
 			"color": "#5CC8F2"
@@ -74,7 +64,7 @@
 			"type": "text",
 			"text": "**[[Nervous tissue and myelin]]**\n*structure* - 7 sources\n\nGrey and white matter, myelin structure, saltatory conduction, and the developmental timeline of central myelination.",
 			"x": 30,
-			"y": 1596,
+			"y": 1448,
 			"width": 360,
 			"height": 194,
 			"color": "#5CC8F2"
@@ -84,7 +74,7 @@
 			"type": "text",
 			"text": "**[[Neurons and glia]]**\n*structure* - 5 sources\n\nNeurons and the major glial cell types, their compartments, and the division of labour between signalling, insulation, support and immune surveillance.",
 			"x": 30,
-			"y": 1850,
+			"y": 1702,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -96,24 +86,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 2958
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[Neurobiology - Processes and mechanisms|Processes and mechanisms index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 2810
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Action potentials]]**\n*mechanism* - 6 sources\n\nThe phases of the action potential, its self-propagating conduction, the refractory period, and why amplitude carries no graded information.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -123,7 +103,7 @@
 			"type": "text",
 			"text": "**[[Circuit development and homeostasis]]**\n*process* - 8 sources\n\nHow developing circuits are built, refined and then held stable: overproduction and selection, activity dependence, and homeostatic regulation of excitability.",
 			"x": 450,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -133,7 +113,7 @@
 			"type": "text",
 			"text": "**[[Dendritic integration]]**\n*mechanism* - 8 sources\n\nHow inputs distributed across a dendritic tree are combined: passive spread, active dendritic conductances, and summation at the axon initial segment.",
 			"x": 450,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -143,7 +123,7 @@
 			"type": "text",
 			"text": "**[[Ion gradients and membrane potential]]**\n*mechanism* - 6 sources\n\nIon gradients, the electrochemical driving forces behind the resting potential, and the distinction between graded and all-or-none signalling.",
 			"x": 450,
-			"y": 1342,
+			"y": 1194,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -153,7 +133,7 @@
 			"type": "text",
 			"text": "**[[Long-term potentiation and depression]]**\n*mechanism* - 2 sources\n\nLTP and LTD as the cellular model of lasting synaptic change: induction rules, timing dependence, metaplasticity and the translation boundary.",
 			"x": 450,
-			"y": 1620,
+			"y": 1472,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -163,7 +143,7 @@
 			"type": "text",
 			"text": "**[[Neuronal cell biology and energetics]]**\n*structure* - 10 sources\n\nHow a neuron builds, transports and powers itself: protein synthesis in the soma, axonal transport, mitochondrial distribution, and the energy cost of signalling.",
 			"x": 450,
-			"y": 1898,
+			"y": 1750,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -173,7 +153,7 @@
 			"type": "text",
 			"text": "**[[Neurotrophic support and cell death]]**\n*process* - 3 sources\n\nTrophic signalling, activity-dependent competition for target-derived support, and programmed cell death as a normal part of nervous-system development.",
 			"x": 450,
-			"y": 2176,
+			"y": 2028,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -183,7 +163,7 @@
 			"type": "text",
 			"text": "**[[Short-term synaptic plasticity]]**\n*process* - 6 sources\n\nFacilitation, depression and other changes that last milliseconds to seconds, driven by residual calcium and vesicle availability.",
 			"x": 450,
-			"y": 2454,
+			"y": 2306,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -193,7 +173,7 @@
 			"type": "text",
 			"text": "**[[Synapses and plasticity]]**\n*mechanism* - 7 sources\n\nChemical synaptic transmission, receptor classes, short- and long-term plasticity, and the developmental creation and removal of synapses.",
 			"x": 450,
-			"y": 2732,
+			"y": 2584,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -203,7 +183,7 @@
 			"type": "text",
 			"text": "**[[The synaptic vesicle cycle]]**\n*process* - 5 sources\n\nHow transmitter is packaged, released and recycled: vesicle pools, calcium-triggered fusion, quantal release and membrane retrieval.",
 			"x": 450,
-			"y": 3010,
+			"y": 2862,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"
@@ -215,24 +195,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 456
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[Neurobiology - Frameworks and contested ideas|Frameworks and contested ideas index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 308
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Excitation and inhibition balance]]**\n*theory* - 9 sources\n\nExcitatory and inhibitory transmission considered as a balance: mechanisms, measurement approaches, and the limits of the E/I framing.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#5CC8F2"

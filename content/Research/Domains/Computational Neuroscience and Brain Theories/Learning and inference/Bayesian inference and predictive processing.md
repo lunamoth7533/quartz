@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [computational-brain-theories, psychology]
 secondary_domain: []
 condition: []
-source_count: 3
-reviewed: 2026-09-25
-up: "[[Computational Neuroscience and Brain Theories - Learning and inference]]"
+source_count: 5
+reviewed: 2026-09-27
+up: "[[Computational Neuroscience and Brain Theories Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/computational, research/domain/psychology]
 ---
@@ -40,6 +40,11 @@ Bayesian accounts treat perception as inference about the causes of sensory data
 The free-energy principle is a theoretical proposal by its author, and its breadth is also the basis of the criticism that a framework accommodating many theories is difficult to falsify. It therefore cannot be cited as proof that behavioural or neural results have established probabilistic inference in general: that requires a specific model whose quantitative predictions survive comparison with alternatives. [[P20068583 Friston 2010 Free-energy principle#^p20068583-claim|The free-energy principle]] [[P20068583 Friston 2010 Free-energy principle#^p20068583-status|The free-energy principle]] [[P20068583 Friston 2010 Free-energy principle#^p20068583-limit|The free-energy principle]]
 
 What would count as a test is correspondingly specific: a useful test specifies the generative model, derives a quantitative prediction that differs from a competing account, and survives comparison on held-out data. Broad statements that a system 'minimises prediction error' fail this bar because many mechanisms do, which is the criticism attached to the unifying proposals rather than to individual models. [[P20068583 Friston 2010 Free-energy principle#^p20068583-unification|The free-energy principle]] [[P20068583 Friston 2010 Free-energy principle#^p20068583-status|The free-energy principle]] [[Model comparison and identifiability]]
+
+## Recent research
+
+- **2025 · Systematic review and meta-analysis (Autism Research).** Pooling mismatch-negativity studies, autistic children and adolescents showed smaller responses than peers in multi-deviant designs while autistic adults showed larger ones, with no latency difference - an age-dependent pattern that any prediction-error account of autism has to explain. [[P41168907 Sapey-Triomphe 2025 Mismatch negativity in autism meta-analysis#^p41168907-age|Sapey-Triomphe 2025]] [[P41168907 Sapey-Triomphe 2025 Mismatch negativity in autism meta-analysis#^p41168907-latency|Sapey-Triomphe 2025]] Reading mismatch negativity as prediction error is itself a model-dependent step. [[P41168907 Sapey-Triomphe 2025 Mismatch negativity in autism meta-analysis#^p41168907-caution-reading|Appraisal: Sapey-Triomphe 2025]]
+- **2026 · Systematic review and meta-analysis (Neuropsychology Review).** Across 23 studies, autistic participants showed a small-to-moderate effect in the direction of broader priors or heightened sensory precision (g = 0.37), but heterogeneity was large and unexplained, so the universal 'simple Bayesian' account of autism gets only limited support - the autism application mentioned above now has a meta-analytic test. [[P40576893 Cui 2026 Simple Bayesian model of autism meta-analysis#^p40576893-effect|Cui 2026]] [[P40576893 Cui 2026 Simple Bayesian model of autism meta-analysis#^p40576893-heterogeneity|Cui 2026]] An average in the predicted direction does not identify which parameter differs. [[P40576893 Cui 2026 Simple Bayesian model of autism meta-analysis#^p40576893-caution-identifiability|Appraisal: Cui 2026]]
 
 ## Connections
 

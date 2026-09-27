@@ -7,9 +7,9 @@ concept_kind: structure
 domain: [neuroanatomy-systems, neurology]
 secondary_domain: []
 condition: []
-source_count: 9
-reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Regions]]"
+source_count: 11
+reviewed: 2026-09-27
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/neurology]
 ---
@@ -41,9 +41,16 @@ The pathway model is well established as a framework that has been refined rathe
 
 The textbook version - two pathways with opposed signs, one output rate, dopamine as a balance knob - breaks down in several places: recordings show patterned, temporally structured activity rather than a single rate; the hyperdirect pathway from cortex to STN provides a fast route that bypasses the striatum; GPe and STN form a recurrent network rather than a one-way chain; and different cell types within striatum have different connectivity. [[F56 Neuroscience Online basal ganglia#^f56-pathways|Basal ganglia]] [[F56 Neuroscience Online basal ganglia#^f56-limit|Basal ganglia]] [[P23040802 Marder 2012 Neuromodulation#^p23040802-degeneracy|Neuromodulation]]
 
+## Recent research
+
+- **2024 · Observational cohort study (Translational Psychiatry).** In children with ADHD followed for two years in the ABCD cohort, real-world stimulant exposure was associated with changes in striatal-cortical connectivity, including lower caudate-frontoparietal coupling, some of which the authors read as moving towards typical values. [[P39505862 Kaminski 2024 Striatal connectivity and stimulant exposure#^p39505862-networks|Kaminski 2024]] [[P39505862 Kaminski 2024 Striatal connectivity and stimulant exposure#^p39505862-specific|Kaminski 2024]] [[P39505862 Kaminski 2024 Striatal connectivity and stimulant exposure#^p39505862-normalising|Kaminski 2024]] Because treatment was not randomised, this shows that medication history must be modelled when striatal findings are read, not that the drug caused the change. [[P39505862 Kaminski 2024 Striatal connectivity and stimulant exposure#^p39505862-caution-observational|Appraisal: Kaminski 2024]]
+- **2024 · Mega-analysis (American Journal of Psychiatry).** Pooling six datasets with 1,696 youths with ADHD and 6,737 controls, ADHD was associated with stronger coupling of striatal seeds - above all the caudate - with supplementary motor, fronto-insular and temporal cortex, robust to motion and co-occurring problems but small in size. [[P38476041 Norman 2024 Subcortico-cortical connectivity in ADHD#^p38476041-limit|Norman 2024]] [[P38476041 Norman 2024 Subcortico-cortical connectivity in ADHD#^p38476041-striatal|Norman 2024]] [[P38476041 Norman 2024 Subcortico-cortical connectivity in ADHD#^p38476041-caudate|Norman 2024]] [[P38476041 Norman 2024 Subcortico-cortical connectivity in ADHD#^p38476041-effect|Norman 2024]] It supports the associative loop through caudate described above at population level, with a largest effect near d = 0.15 that cannot characterise an individual. [[P38476041 Norman 2024 Subcortico-cortical connectivity in ADHD#^p38476041-caution-effect|Appraisal: Norman 2024]]
+
 ## Connections
 
 This article sits between [[Sensory and motor systems]] and [[Movement disorders]] and is one of the clearest cases in which anatomy predicts clinical signs.
+
+- [[Tic disorders and Tourette syndrome]] - a hyperkinetic disorder read through these direct and indirect pathways, although how tics arise in the circuits is still incompletely understood.
 
 **Cross-domain connection (curation).** The neuroanatomy of the basal ganglia supplies the circuit substrate that the pharmacology domain uses when it describes dopamine-receptor drug effects on movement, and that the clinical-psychiatry domain uses when it discusses extrapyramidal side effects of antipsychotic medication. Anatomy-to-clinical inference runs through pharmacology in between, and reading them together makes that two-step chain explicit. [[Antipsychotic mechanisms]] [[Movement disorders]]
 

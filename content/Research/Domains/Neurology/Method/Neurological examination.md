@@ -4,7 +4,7 @@ title: "Neurological examination"
 domain: [neurology]
 condition: []
 source_count: 5
-up: "[[Neurology - Method]]"
+up: "[[Neurology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurology]
 content_layer: reference
@@ -21,7 +21,7 @@ reviewed: 2026-09-25
 ## Supported claims
 
 - The NINDS overview places history and examination alongside imaging, EEG and laboratory testing in the diagnostic process. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-modalities|Neurological Diagnostic Tests and Procedures]]
-- Findings are interpreted against norms and context; a normal examination does not exclude every neurological or psychiatric condition. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|AI synthesis: Neurological Diagnostic Tests and Procedures]]
+- Findings are interpreted against norms and context; a normal examination does not exclude every neurological or psychiatric condition. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|Appraisal: Neurological Diagnostic Tests and Procedures]]
 
 ## How it works
 
@@ -35,7 +35,7 @@ reviewed: 2026-09-25
 
 **Causes grouped by mechanism.** Deficits are grouped as vascular, infectious, genetic, degenerative and traumatic, providing an organising frame for interpretation rather than a diagnosis. [[F33 OpenStax Overview of the neurological exam#^f33-causes|Overview of the Neurological Exam]]
 
-**Limits and reliability.** A normal examination does not exclude disease, and findings are interpreted against history, timing and context; the exam is a reasoning tool rather than a test with a threshold. Many examination findings have modest inter-rater reliability, and their interpretation depends on the examiner's technique and the patient's cooperation; this is a measurement property, not a criticism of examination as a method. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|AI appraisal: Neurological diagnostic tests]]
+**Limits and reliability.** A normal examination does not exclude disease, and findings are interpreted against history, timing and context; the exam is a reasoning tool rather than a test with a threshold. Many examination findings have modest inter-rater reliability, and their interpretation depends on the examiner's technique and the patient's cooperation; this is a measurement property, not a criticism of examination as a method. [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|Appraisal: Neurological diagnostic tests]]
 
 **Reading rule.** An examination claim should state the sign, the technique and the patient's state; the same nominal sign can mean different things depending on how it was elicited. [[History and localisation]]
 
@@ -45,11 +45,13 @@ reviewed: 2026-09-25
 
 Examination findings depend on the examiner's technique and on the person's cooperation, so they are evidence rather than certainty.
 
-## Related notes
+## Connections
 
-- [[Nervous system divisions]]
-- [[Structural versus functional measures]]
-- [[MRI versus EEG]]
+- [[Nervous system divisions]] - the anatomical scheme the examination's domains partition; each probe samples a division or level so that a deficit can be localised.
+- [[Structural versus functional measures]] - the examination measures function at the bedside; imaging then asks whether a structural lesion explains the functional deficit found.
+- [[MRI versus EEG]] - the tests an examination finding usually leads to: structural questions go to MRI, and timing questions such as seizures go to EEG.
+- [[History and localisation]] - the reasoning the examination serves: history, signs and anatomy combined to infer where in the nervous system a problem lies.
+- [[Differential reasoning in neurology]] - the step after localisation: building the differential by mechanism, timing and distribution, and choosing tests that change probabilities.
 
 ## Study question
 

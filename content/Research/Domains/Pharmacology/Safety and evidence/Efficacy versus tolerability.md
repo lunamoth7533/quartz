@@ -4,7 +4,7 @@ title: "Efficacy versus tolerability"
 domain: [pharmacology]
 condition: []
 source_count: 4
-up: "[[Pharmacology - Safety and evidence]]"
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/pharmacology]
 content_layer: reference
@@ -36,7 +36,7 @@ reviewed: 2026-09-25
 
 **Certainty labels belong to outcomes, not drugs.** Confidence in ADHD efficacy estimates ranged between very low and moderate in the adult synthesis, depending on comparison and outcome, which means two outcomes from the same trials can carry different evidential weight. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-limit|Comparative efficacy of ADHD interventions in adults]] A single sentence like "drug X is well supported" therefore flattens a table in which efficacy on one rater's scale and acceptability on another carry different weights; the honest summary names the outcome, the comparator and the certainty grade together. [[Trial endpoints, benefit and harms]] [[Meta-analysis and review limits]]
 
-**Rankings are not decisions.** Network estimates are averages with uncertainty: group-level rankings have wide uncertainty intervals and describe average populations, which is why they are not individual guidance. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|AI appraisal: ADHD medication efficacy and tolerability]] The sources here caution that the choice among options depends on the outcome that matters to the person and on contraindications the trials did not measure. [[P27913917 Network meta-analysis introduction#^p27913917-interpretation|Network meta-analysis: an introduction for clinicians]] Network meta-analysis also depends on the transitivity assumption, so indirect comparisons rest on the similarity of the studies combined. [[P27913917 Network meta-analysis introduction#^p27913917-assumption|Network meta-analysis]]
+**Rankings are not decisions.** Network estimates are averages with uncertainty: group-level rankings have wide uncertainty intervals and describe average populations, which is why they are not individual guidance. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|Appraisal: ADHD medication efficacy and tolerability]] The sources here caution that the choice among options depends on the outcome that matters to the person and on contraindications the trials did not measure. [[P27913917 Network meta-analysis introduction#^p27913917-interpretation|Network meta-analysis: an introduction for clinicians]] Network meta-analysis also depends on the transitivity assumption, so indirect comparisons rest on the similarity of the studies combined. [[P27913917 Network meta-analysis introduction#^p27913917-assumption|Network meta-analysis]]
 
 **Reading rule.** Report efficacy and tolerability separately, with the outcome scale and the comparator; combined single statements ('drug X is better') hide the trade-off that matters clinically. [[Trial endpoints, benefit and harms]]
 
@@ -46,11 +46,13 @@ reviewed: 2026-09-25
 
 Trials measure tolerability mainly through dropout, which undercounts bothersome effects that people endure rather than report.
 
-## Related notes
+## Connections
 
-- [[Short-term versus long-term outcomes]]
-- [[ADHD medication evidence]]
-- [[Phase-specific bipolar treatment evidence]]
+- [[Short-term versus long-term outcomes]] - adds the time axis: a balance measured over weeks of follow-up cannot be assumed to hold over years, since extending short-term results is an assumption.
+- [[ADHD medication evidence]] - the main worked example: the same network meta-analyses report efficacy by rater and tolerability by age group, showing the two axes separating within one set of comparisons.
+- [[Phase-specific bipolar treatment evidence]] - the same weighing in another condition: bipolar guidelines rank options by efficacy, safety and tolerability together, separately for each illness phase.
+- [[Trial endpoints, benefit and harms]] - the sibling note on endpoint choice: which benefit and which harm a trial records decides what an efficacy-tolerability comparison can mean.
+- [[Target binding and dose-response]] - the receptor-level basis of the dose trade-off: affinity and potency shape dose-response curves, along which benefit and adverse-effect dropout can both rise.
 
 ## Study question
 

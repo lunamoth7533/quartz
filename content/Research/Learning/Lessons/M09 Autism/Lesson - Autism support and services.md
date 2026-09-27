@@ -42,7 +42,7 @@ which makes it a checkable reference rather than a summary of a summary.
 The research framing adds the limits. Psychosocial interventions in children can improve specific behaviours,
 and families are often the major source of support, but child findings do not automatically transfer to adults.
 [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-support|Autism spectrum disorder primer]];
-[[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI synthesis: Autism spectrum disorder primer]]
+[[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]]
 
 And co-occurring ADHD is associated with lower quality of life and poorer adaptive functioning, which changes
 what a support plan needs to address.

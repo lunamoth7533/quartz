@@ -8,7 +8,7 @@ concept_kind: framework
 condition: []
 domain: [research-methods]
 reviewed: 2026-09-25
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map, research/reference, research/domain/research-methods]
 ---
@@ -16,11 +16,18 @@ tags: [research/map, research/reference, research/domain/research-methods]
 
 This domain is the lens for everything else in the library: how studies are designed, how constructs are measured, what causal claims require, and how evidence is synthesised and evaluated.
 
-> **Reference entry point:** [[Research Atlas]] carries the fifteen-domain reference layer for this hub; [[Reference Index]] lists every concept article, the native views and the relationship register.
+> **Reference entry point:** [[Home]] lists all fifteen domain maps; [[Reference Index]] lists every concept article, the native views and the relationship register.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Where the method argument is won|Where the argument is won]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Where the method argument is won|Where the method argument is won]]
 
-## Reference overview
+## Concept register
+
+- **Designs:** [[Experimental designs]], [[Observational designs]], [[Qualitative designs]], [[Longitudinal and within-person inference]]
+- **Measurement:** [[Measurement validity and reliability]], [[Measurement invariance]], [[Psychophysiology methods]], [[Neuroimaging methods]], [[Genome-wide association studies]]
+- **Inference:** [[Causality and counterfactuals]], [[Effect sizes and uncertainty]], [[Association versus individual prediction]], [[Meta-analysis and review limits]], [[Network and connectome models]]
+- **Integrity:** [[Replication and publication bias]], [[Translational validity]], [[Reviews, guidelines and preprints]]
+
+## Overview
 
 Methods is the domain that makes the rest of the reference readable. It covers how studies are
 designed, how constructs are operationalised, how causal claims are licensed, and how a body of
@@ -65,7 +72,7 @@ assumption that must be argued. [[Translational validity]] [[Association versus 
 
 **Where to start.** [[Experimental designs]], [[Observational designs]] and [[Qualitative designs]] for design; [[Measurement validity and reliability]] for instruments; [[Effect sizes and uncertainty]] and [[Replication and publication bias]] for inference. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Designs determine claims. Randomised experiments support causal inference about an intervention because assignment breaks the link with confounders; observational designs describe associations that must be argued into causal ones; qualitative designs answer questions about meaning and process. [[F09 Noba Research designs#^f09-designs|Research designs]] [[F09 Noba Research designs#^f09-confounds|Research designs]] [[P18626033 Qualitative research criteria#^p18626033-criteria|Evaluative criteria for qualitative research in health care]]
 
@@ -77,29 +84,22 @@ Effect interpretation is a discipline of its own. Absolute, relative and standar
 
 Integrity practices address documented problems. Published effects are typically larger than replication effects, and the mechanisms - low power, analytic flexibility, selective reporting, publication incentives - are systemic rather than individual. Preregistration, registered reports and open data are the responses. [[P26315443 Open Science Collaboration 2015 Reproducibility#^p26315443-result|Estimating the reproducibility of psychological science]] [[P33954258 Munafo 2017 Reproducible science#^p33954258-metadata|A manifesto for reproducible science]] [[P29531091 Nosek 2018 Preregistration revolution#^p29531091-distinction|The preregistration revolution]]
 
-## Concept register
-
-- **[[Research Methods and Measurement - Designs|Designs]]:** [[Experimental designs]], [[Observational designs]], [[Qualitative designs]], [[Longitudinal and within-person inference]]
-- **[[Research Methods and Measurement - Measurement|Measurement]]:** [[Measurement validity and reliability]], [[Measurement invariance]], [[Psychophysiology methods]], [[Neuroimaging methods]], [[Genome-wide association studies]]
-- **[[Research Methods and Measurement - Inference|Inference]]:** [[Causality and counterfactuals]], [[Effect sizes and uncertainty]], [[Association versus individual prediction]], [[Meta-analysis and review limits]], [[Network and connectome models]]
-- **[[Research Methods and Measurement - Integrity|Integrity]]:** [[Replication and publication bias]], [[Translational validity]], [[Reviews, guidelines and preprints]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
-
 ## Where this domain connects
 
 Every domain hub cites this one. The most common applications are [[Interpreting group brain differences]], [[Rater and measurement effects in ADHD]] and [[Bipolar MRI findings and their limits]].
 
 ## Evidence boundaries
 
-Methodological guidance defines standards rather than producing findings: a checklist is not evidence about a treatment. Tools such as GRADE rate certainty; they do not create it. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-caution-authority|AI appraisal: Cochrane Handbook]]
+Methodological guidance defines standards rather than producing findings: a checklist is not evidence about a treatment. Tools such as GRADE rate certainty; they do not create it. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-caution-authority|Appraisal: Cochrane Handbook]]
 
 ## Where the method argument is won
 
 Three habits make the difference between a finding and a claim. First, name the design before the result: a randomised comparison supports a causal claim about the contrast actually tested, while an observational estimate describes a sample and leaves confounding paths open. Second, separate the levels - description, association, prediction, mechanism - because each needs different evidence, and most overstatement happens when a descriptive result is reported as a mechanism. Third, report uncertainty with the outcome in its own units: effect sizes can be statistically conclusive and trivial, and certainty grades belong beside the estimate rather than in a footnote. The articles below develop each of these; the measurement articles add the fourth habit, which is checking that the instrument means the same thing in the populations being compared.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [computational-brain-theories, psychology]
 secondary_domain: []
 condition: []
-source_count: 4
-reviewed: 2026-09-25
-up: "[[Computational Neuroscience and Brain Theories - Learning and inference]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[Computational Neuroscience and Brain Theories Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/computational, research/domain/psychology]
 ---
@@ -17,7 +17,7 @@ tags: [research/topic, research/reference, research/domain/computational, resear
 
 ## Definition
 
-Reinforcement learning formalises how an agent learns to choose actions from reward signals. Value functions estimate future reward, policies select actions, and learning updates both. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]]
+Reinforcement learning formalises how a learner comes to choose actions from reward signals. Value functions estimate future reward, policies select actions, and learning updates both. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]]
 
 ## How it works
 
@@ -27,7 +27,7 @@ Reinforcement learning formalises how an agent learns to choose actions from rew
 
 **Exploration.** The framework treats exploration and exploitation as an explicit trade-off, which is why it is used to model adaptive behaviour under uncertainty. [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]]
 
-**Model-based and model-free versions.** Agents can learn cached values (model-free) or build an internal model of the environment and evaluate options at decision time (model-based); the two dissociate behaviourally, producing different behavioural signatures, and have different computational costs, which is why the distinction is used to interpret choice experiments in several domains in this library. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[P31769410 Wilson 2019 Computational modelling rules#^p31769410-fitting|Computational modelling rules]]
+**Model-based and model-free versions.** A learner can cache values (model-free) or build an internal model of the environment and evaluate options at decision time (model-based); the two dissociate behaviourally, producing different behavioural signatures, and have different computational costs, which is why the distinction is used to interpret choice experiments in several domains in this library. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[P31769410 Wilson 2019 Computational modelling rules#^p31769410-fitting|Computational modelling rules]]
 
 **The biological anchor.** The formal quantity - the prediction error - is what made the framework neuroscientifically productive, because midbrain dopamine responses track exactly that difference: activation when an outcome is better than predicted (unexpected reward excites), depression when it is worse (omitted reward suppresses), and no response when a reward is fully predicted. That signal maps onto the teaching signal the formalism uses, which is why the framework links cellular recording to a computational language. [[F123 Sutton and Barto Reinforcement Learning#^f123-td|Reinforcement Learning]] [[P27069377 Schultz 2016 Reward prediction error#^p27069377-rpe|Reward prediction error]] [[P27069377 Schultz 2016 Reward prediction error#^p27069377-learning|Reward prediction error]]
 
@@ -41,9 +41,16 @@ Reinforcement learning formalises how an agent learns to choose actions from rew
 
 The formal framework is standard in machine learning and well supported as a description of some neural signals; using it as a complete account of human motivation is an extrapolation.
 
+## Recent research
+
+- **2023 · Case-control computational modelling study (Journal of Affective Disorders).** In people with bipolar I or II in remission, both subtypes learned less from rewards than controls, which modelling captured as lower sensitivity to rewards relative to punishments - the authors' support for the reward-hyposensitivity account. [[P37591352 Pouchon 2023 Reward and punishment learning in bipolar subtypes#^p37591352-reward|Pouchon 2023]] [[P37591352 Pouchon 2023 Reward and punishment learning in bipolar subtypes#^p37591352-subtypes|Pouchon 2023]] Medication and residual symptoms are not separable in one modest sample, and one task's parameter is not yet a trait marker. [[P37591352 Pouchon 2023 Reward and punishment learning in bipolar subtypes#^p37591352-caution-medication|Appraisal: Pouchon 2023]]
+- **2023 · Test-retest reliability study (Computational Psychiatry).** Over two weeks, bandit-task learning rates were reliable and sensitivity parameters only fairly so, and a person's own parameters predicted their later choices better than other people's - a partial answer to the stability question under Uncertainties. [[P38774643 Mkrtchian 2023 Reliability of reinforcement learning parameters#^p38774643-reliability|Mkrtchian 2023]] [[P38774643 Mkrtchian 2023 Reliability of reinforcement learning parameters#^p38774643-prediction|Mkrtchian 2023]] Healthy volunteers over one interval do not establish stability in clinical groups or across tasks. [[P38774643 Mkrtchian 2023 Reliability of reinforcement learning parameters#^p38774643-caution-generalise|Appraisal: Mkrtchian 2023]]
+
 ## Connections
 
 This note is developed further in [[Reward prediction error]] and [[Model-based and model-free control]], and it links to the psychology material on [[Motivation and reward]].
+
+- [[Computational psychiatry]] - uses learning rates and sensitivities from these models as candidate clinical measures in bipolar disorder and ADHD, with the reliability limits that brings.
 
 **Cross-domain connection (curation).** This formalism is the computational home of the conditioning article and the habit article in psychology: classical and operant paradigms, habit formation and the model-based/model-free distinction are all expressible inside it, which is why those three articles cross-link here rather than restating the maths. [[Learning and conditioning]] [[Procedural memory and habit]]
 

@@ -8,7 +8,7 @@ concept_kind: framework
 condition: []
 domain: [neuroendocrinology-neuroimmunology]
 reviewed: 2026-09-25
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map, research/reference, research/domain/neuroendocrinology-neuroimmunology]
 ---
@@ -16,11 +16,18 @@ tags: [research/map, research/reference, research/domain/neuroendocrinology-neur
 
 This domain covers the signalling systems that connect the brain to the rest of the body: endocrine axes, autonomic pathways, circadian timing and immune signalling.
 
-> **Reference entry point:** [[Research Atlas]] carries the fifteen-domain reference layer for this hub; [[Reference Index]] lists every concept article, the native views and the relationship register.
+> **Reference entry point:** [[Home]] lists all fifteen domain maps; [[Reference Index]] lists every concept article, the native views and the relationship register.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
 
-## Reference overview
+## Concept register
+
+- **Axes and physiology:** [[HPA axis]], [[HPA axis]], [[Stress response and the HPA axis]], [[Thalamus and hypothalamus]], [[Thyroid axis and mood]], [[Sex hormones and mood across the lifespan]]
+- **Autonomic:** [[Autonomic regulation]], [[Autonomic measurement and heart rate variability]], [[Interoception and autonomic pathways]]
+- **Timing:** [[Circadian clock biology]], [[Circadian rhythms and sleep]], [[Sleep and circadian disruption across conditions]]
+- **Immune and barrier:** [[Neuroimmune interactions and microglia]], [[Cytokines and inflammation in psychiatric conditions]], [[Blood-brain barrier]], [[Microbiome-gut-brain axis]], [[Allostasis and chronic stress]]
+
+## Overview
 
 This domain covers the three systems that connect the brain to the rest of the body: the endocrine
 axes that release hormones, the autonomic nervous system that controls organs within seconds, and
@@ -45,7 +52,7 @@ outflows cooperate as well as oppose, and their central control comes from a dis
 Peripheral indices such as heart-rate variability reflect the net effect of several inputs on one
 organ, and their values depend on recording length, posture, breathing, medication and age - which
 is why they are estimates of a state rather than readouts of a nerve. [[Autonomic regulation]]
-[[Autonomic measurement and heart rate variability]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI synthesis: Heart rate variability metrics]]
+[[Autonomic measurement and heart rate variability]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: Heart rate variability metrics]]
 
 **Timing systems couple the two.** Circadian clocks in the brain and periphery set daily
 structure, and sleep timing is regulated by the clock interacting with homeostatic sleep drive;
@@ -65,7 +72,7 @@ does not measure that condition in an individual. [[HPA axis]] [[P18073775 Dantz
 
 **Where to start.** [[HPA axis]] and [[Allostasis and chronic stress]] for the stress system, [[Autonomic measurement and heart rate variability]] for measurement, and [[Cytokines and inflammation in psychiatric conditions]] for the immune interface. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 The stress system has two arms. The sympathetic response is fast and neural; the HPA axis is slower and hormonal, ending in cortisol release with feedback on hypothalamus and pituitary. What glucocorticoids do during stress is contested, and the classification into permissive, suppressive, stimulatory and preparative actions is a proposal rather than a settled taxonomy. [[F08 OpenStax What is stress#^f08-axis|What is Stress]] [[F64 OpenStax The adrenal glands#^f64-drive|The Adrenal Glands]] [[P10696570 Sapolsky 2000 Glucocorticoids and stress#^p10696570-four|How do glucocorticoids influence stress responses?]]
 
@@ -77,21 +84,6 @@ Immune signalling reaches the brain through defined interfaces. Microglia survey
 
 Chronicity has a framework. Allostasis describes stability through change, and allostatic load describes the cost of repeated activation, with the brain as both regulator and target. [[P17290796 McEwen 2006 Stress mediators#^p17290796-allostasis|Protective and damaging effects of stress mediators]] [[P17290796 McEwen 2006 Stress mediators#^p17290796-load|Protective and damaging effects of stress mediators]]
 
-## Concept register
-
-- **[[Neuroendocrinology and Neuroimmunology - Axes and physiology|Axes and physiology]]:** [[HPA axis]], [[HPA axis]], [[Stress response and the HPA axis]], [[Thalamus and hypothalamus]]
-- **[[Neuroendocrinology and Neuroimmunology - Autonomic|Autonomic]]:** [[Autonomic regulation]], [[Autonomic measurement and heart rate variability]], [[Interoception and autonomic pathways]]
-- **[[Neuroendocrinology and Neuroimmunology - Timing|Timing]]:** [[Circadian clock biology]], [[Circadian rhythms and sleep]]
-- **[[Neuroendocrinology and Neuroimmunology - Immune and barrier|Immune and barrier]]:** [[Neuroimmune interactions and microglia]], [[Cytokines and inflammation in psychiatric conditions]], [[Blood-brain barrier]], [[Microbiome-gut-brain axis]], [[Allostasis and chronic stress]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
-
 ## Where this domain connects
 
 - Neuroanatomy supplies the hypothalamic and brain-stem structures: [[Thalamus and hypothalamus]], [[Cerebellum and brainstem]].
@@ -101,3 +93,11 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 ## Evidence boundaries
 
 Hormone and autonomic physiology are well characterised; immune contributions to psychiatric conditions are largely correlational in humans, and single-measure indices of chronic activity are weak.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

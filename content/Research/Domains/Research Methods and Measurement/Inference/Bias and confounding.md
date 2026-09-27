@@ -4,7 +4,7 @@ title: "Bias and confounding"
 domain: [research-literacy]
 condition: []
 source_count: 7
-up: "[[Research Methods and Measurement - Inference]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
@@ -49,10 +49,12 @@ reviewed: 2026-09-25
 
 Naming a bias does not measure it; direction and size usually require replication or sensitivity analysis.
 
-## Related notes
+## Connections
 
-- [[Evidence types and causal inference]]
-- [[Reviews, guidelines and preprints]]
+- [[Evidence types and causal inference]] - matches claims to designs; confounding and selection are the reasons an observational association cannot carry a causal claim without further argument.
+- [[Reviews, guidelines and preprints]] - how these biases travel upward: a review or guideline inherits the confounding, selection and reporting biases of the studies it summarises.
+- [[Replication and publication bias]] - the literature-level result of the low power, flexible analysis and selective publication described here, and the registration practices designed against them.
+- [[Causality and counterfactuals]] - defines the counterfactual comparison that confounding corrupts; randomisation is valued because it approximates that comparison.
 
 ## Study question
 

@@ -41,7 +41,7 @@ exposure can be as effective as structured approaches, while some outcomes may s
 
 The methodological limit is decisive for interpretation: the comparison is between packaged protocols rather
 than a randomised test of sequencing inside one protocol.
-[[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|AI synthesis: Phase-based versus non-phase-based trauma therapy]]
+[[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|Appraisal: Phase-based versus non-phase-based trauma therapy]]
 
 The trial base is small, with a single analysis time point and heterogeneous outcome measures, as the authors
 state.

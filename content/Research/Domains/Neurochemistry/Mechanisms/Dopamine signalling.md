@@ -3,15 +3,15 @@ note_type: topic
 title: "Dopamine signalling"
 domain: [neurochemistry]
 condition: []
-source_count: 8
-up: "[[Neurochemistry - Mechanisms]]"
+source_count: 10
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Dopamine pathways and receptor families, reward prediction error evidence, and the reasons a single 'reward molecule' story fails."
 secondary_domain: [computational-brain-theories]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Dopamine signalling
@@ -46,11 +46,18 @@ reviewed: 2026-09-25
 
 Dopamine is not one signal: pathways, receptor subtypes and brain regions do different jobs with the same molecule.
 
-## Related notes
+## Recent research
 
-- [[Dopamine hypothesis in bipolar disorder]]
-- [[Noradrenaline signalling]]
-- [[Synaptic signalling model]]
+- **2024 · Perspective review (Nature Neuroscience).** Qualifies the prediction-error account above: the original reading is judged too simple for dopamine ramps, sensory and motor responses and effects on action selection. [[P39054370 Gershman 2024 Dopamine prediction errors and beyond#^p39054370-challenges|Gershman 2024]] A generalised prediction-error concept may absorb those three, while other findings may need different theories. [[P39054370 Gershman 2024 Dopamine prediction errors and beyond#^p39054370-generalised|Gershman 2024]] As a synthesis of animal work it cannot say which reading applies in a clinical condition. [[P39054370 Gershman 2024 Dopamine prediction errors and beyond#^p39054370-caution-scope|Appraisal: Gershman 2024]]
+- **2023 · Systematic review and meta-analysis (Journal of Psychopharmacology).** Sets a clinical boundary like the bipolar one above: in major depressive disorder, striatal D2/3 availability and synthesis-and-release capacity did not differ from controls. [[P37811803 Mizuno 2023 Dopamine imaging in major depression#^p37811803-receptors|Mizuno 2023]] A lower transporter signal appeared only with transporter-selective tracers. [[P37811803 Mizuno 2023 Dopamine imaging in major depression#^p37811803-transporter|Mizuno 2023]] Whether a difference shows up depends on the tracer, a property of the measurement rather than of the illness. [[P37811803 Mizuno 2023 Dopamine imaging in major depression#^p37811803-caution-tracer|Appraisal: Mizuno 2023]]
+
+## Connections
+
+- [[Dopamine hypothesis in bipolar disorder]] - where this pathway and receptor logic is tested as a clinical hypothesis, with state-dependent and partly contradictory imaging and drug findings.
+- [[Noradrenaline signalling]] - the sibling catecholamine; both shape prefrontal function in an arousal-dependent inverted U, so a catecholamine claim should name which transmitter it means.
+- [[Synaptic signalling model]] - the general frame this note specialises; receptor identity rather than transmitter identity sets the sign of a signal, as the D1 versus D2 contrast shows.
+- [[Reward prediction error]] - the computational treatment of the teaching-signal account; this note supplies the pathways and receptors that the formal model leaves out.
+- [[Monoamine reuptake and degradation]] - the clearance step: transporter reuptake ends the dopamine signal, and the same transporter is what stimulant medications and transporter imaging act on.
 
 ## Study question
 

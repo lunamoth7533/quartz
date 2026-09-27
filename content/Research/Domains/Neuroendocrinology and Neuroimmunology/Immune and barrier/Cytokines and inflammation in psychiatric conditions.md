@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [neuroendocrinology-neuroimmunology, clinical-psychiatry]
 secondary_domain: []
 condition: []
-source_count: 6
-reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Immune and barrier]]"
+source_count: 8
+reviewed: 2026-09-27
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine, research/domain/clinical]
 ---
@@ -38,6 +38,11 @@ A systematic review pooled studies of endogenous cytokine concentrations in bipo
 Group differences in circulating markers are reproducible in some conditions: elevated group-level cytokine concentrations survive meta-analysis in bipolar disorder and subgroup analyses in depression, and they support exactly that - a group-level difference in a peripheral marker. Individual-level prediction and causal direction are not established. The chain from marker to mechanism requires direction (cause or consequence), specificity (which signalling) and timing (state or trait), and the sources themselves state that circulating markers are affected by infection, sleep, medication, body composition and illness state, so group differences are not usable individual tests. [[P22749156 Munkholm 2013 Cytokines in bipolar disorder#^p22749156-finding|Cytokines in bipolar disorder]] [[P26711676 Miller 2016 Inflammation in depression#^p26711676-subset|The role of inflammation in depression]] [[P22749156 Munkholm 2013 Cytokines in bipolar disorder#^p22749156-caution|Cytokines in bipolar disorder]]
 
 Anti-inflammatory strategies are discussed as experimental directions requiring targeting and patient selection, not as established practice: they follow the same narrowing, investigated for marker-defined subgroups rather than offered as general antidepressants. [[P26711676 Miller 2016 Inflammation in depression#^p26711676-treatment|The role of inflammation in depression]]
+
+## Recent research
+
+- **2025 · Systematic review and meta-analysis (Journal of Psychiatric Research).** Updates the bipolar marker evidence above: TNF-alpha and both soluble receptors were higher in bipolar disorder than in controls. [[P41082830 McIntyre 2025 TNF-alpha in bipolar disorder meta-analysis#^p41082830-elevated|McIntyre 2025]] The elevations appeared in mania and depression but not in euthymia. [[P41082830 McIntyre 2025 TNF-alpha in bipolar disorder meta-analysis#^p41082830-state|McIntyre 2025]] A marker bound to episodes fits a state marker as well as a cause. [[P41082830 McIntyre 2025 TNF-alpha in bipolar disorder meta-analysis#^p41082830-caution-state|Appraisal: McIntyre 2025]]
+- **2023 · Meta-analysis (Journal of Psychiatric Research).** Soluble TNF receptor 1 was raised across severe mental illness, most clearly in bipolar disorder. [[P37515950 Goh 2023 Soluble TNF receptors in severe mental illness#^p37515950-receptors|Goh 2023]] Receptor levels were higher with younger onset, longer illness and psychotropic medication. [[P37515950 Goh 2023 Soluble TNF receptors in severe mental illness#^p37515950-moderators|Goh 2023]] Those moderators are the confounding this note warns about, since illness course and treatment move the marker. [[P37515950 Goh 2023 Soluble TNF receptors in severe mental illness#^p37515950-caution-confounds|Appraisal: Goh 2023]]
 
 ## Connections
 

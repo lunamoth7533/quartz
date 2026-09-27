@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Neurochemistry - Structures]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurochemistry]
 ---

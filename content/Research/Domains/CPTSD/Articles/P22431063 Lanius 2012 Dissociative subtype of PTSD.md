@@ -49,3 +49,7 @@ It argues the distinction may matter for treatment, while acknowledging that evi
 
 A review that supported a decision in DSM-5. Access in this build was abstract-level; subtype validity claims are group-level and evolving.
 ^p22431063-limit
+
+## Used by
+
+- [[Post-traumatic stress disorder]]

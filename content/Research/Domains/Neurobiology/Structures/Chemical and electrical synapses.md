@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 3
 reviewed: 2026-09-25
-up: "[[Neurobiology - Structures]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurobiology]
 ---
@@ -39,7 +39,7 @@ Neurons connect in two ways. At chemical synapses the presynaptic cell releases 
 
 Both modes are established by direct electrical recording and anatomy. The functional weight of electrical coupling in mammalian cortex is the subject of ongoing work; its clearest roles are in systems where synchrony is required. [[F06 OpenStax Cells of the nervous system#^f06-electrical|Cells of the Nervous System]]
 
-The textbook chapters describe the canonical division - chemical with receptor-dependent effects, electrical with gap junctions - from preparations that made each mechanism visible, and they do not cover every signalling role: transmitter release can be graded rather than spike-triggered in some cells, and gap junctions can be gated and asymmetric. The division is a starting taxonomy, not a complete inventory. [[F115 Neuroscience Online transmitter release#^f115-limit|Mechanisms of Neurotransmitter Release]] [[F04 OpenStax Communication between neurons#^f04-caution-summation|AI synthesis: Communication Between Neurons]]
+The textbook chapters describe the canonical division - chemical with receptor-dependent effects, electrical with gap junctions - from preparations that made each mechanism visible, and they do not cover every signalling role: transmitter release can be graded rather than spike-triggered in some cells, and gap junctions can be gated and asymmetric. The division is a starting taxonomy, not a complete inventory. [[F115 Neuroscience Online transmitter release#^f115-limit|Mechanisms of Neurotransmitter Release]] [[F04 OpenStax Communication between neurons#^f04-caution-summation|Appraisal: Communication Between Neurons]]
 
 ## Connections
 

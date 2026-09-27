@@ -47,7 +47,7 @@ The evidence is layered: human imaging, genetic linkage and animal pharmacology,
 matters for how strongly you can hold the mechanism, and the review itself predates later treatment literature.
 [[P19621976 Arnsten 2009 Prefrontal catecholamines and ADHD#^p19621976-limit|Prefrontal catecholamine mechanisms]]
 Mechanistic plausibility does not reduce ADHD to one transmitter deficit.
-[[P19621976 Arnsten 2009 Prefrontal catecholamines and ADHD#^p19621976-caution-transfer|AI synthesis: Prefrontal catecholamine mechanisms]]
+[[P19621976 Arnsten 2009 Prefrontal catecholamines and ADHD#^p19621976-caution-transfer|Appraisal: Prefrontal catecholamine mechanisms]]
 
 ## Worked example (hypothetical)
 

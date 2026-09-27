@@ -118,6 +118,22 @@ views:
       - property: title
         direction: ASC
   - type: table
+    name: Recent research
+    filters: file.hasTag("research/recent")
+    order:
+      - file.name
+      - year
+      - journal
+      - study_type
+      - condition
+      - domain
+      - access_level
+      - verification
+      - reading_status
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
     name: Journal articles
     filters: source_kind == "paper"
     order:
@@ -252,6 +268,23 @@ views:
   - type: table
     name: Bipolar I
     filters: condition.contains("bipolar-i")
+    order:
+      - file.name
+      - title
+      - year
+      - journal
+      - domain
+      - study_type
+      - access_level
+      - verification
+      - doi
+      - pmid
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: Bipolar II
+    filters: condition.contains("bipolar-ii")
     order:
       - file.name
       - title

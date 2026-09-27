@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Neurobiology - Processes and mechanisms]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurobiology]
 ---
@@ -35,7 +35,7 @@ Dendritic integration is the process by which thousands of synaptic inputs distr
 
 ## Evidence and status
 
-The mechanisms are established in reduced preparations with direct recording; the extent to which specific dendritic computations matter for behaviour in intact animals is an active question. The strongest statements about dendritic computation - branch-level spikes, coincidence detection in thin dendrites - come from reduced preparations and modelling, and the introductory treatments used here present linear summation as the baseline case. A defensible reading is that summation describes most textbook situations, that non-linear dendritic events are established in specific cell types, and that generalising either level to all neurons is unwarranted. [[F51 OpenStax Function of nervous tissue#^f51-limit|Function of Nervous Tissue]] [[F04 OpenStax Communication between neurons#^f04-caution-summation|AI synthesis: Communication Between Neurons]]
+The mechanisms are established in reduced preparations with direct recording; the extent to which specific dendritic computations matter for behaviour in intact animals is an active question. The strongest statements about dendritic computation - branch-level spikes, coincidence detection in thin dendrites - come from reduced preparations and modelling, and the introductory treatments used here present linear summation as the baseline case. A defensible reading is that summation describes most textbook situations, that non-linear dendritic events are established in specific cell types, and that generalising either level to all neurons is unwarranted. [[F51 OpenStax Function of nervous tissue#^f51-limit|Function of Nervous Tissue]] [[F04 OpenStax Communication between neurons#^f04-caution-summation|Appraisal: Communication Between Neurons]]
 
 Population-level analyses of cortical activity show that the relevant variables are often distributed rather than localised to single cells, which constrains how much a single neuron's integration can explain. [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-trajectory|Neural population dynamics]]
 

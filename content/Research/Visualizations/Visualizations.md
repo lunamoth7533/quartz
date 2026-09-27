@@ -16,31 +16,34 @@ Two distinctions matter:
 
 ## Visual index
 
-Each view answers one question. Graph views live under **Bookmarks → Graph views**; opening one switches the graph to that filter, colouring and layout.
+Each view answers one question. Graph views live under **Bookmarks → Graph views**; opening one switches the graph to that filter and colouring. The global graph opens on the concept map.
 
 | Question | Where to look |
 | --- | --- |
-| How is the library organised? | Graph view *Domain hierarchy* · the domain canvases below · [[Knowledge Explorer.base]] (*Subdomain cards*) |
-| How does everything connect? | Graph views *Knowledge map* and *Concept skeleton* |
-| Which domains lean on each other? | *Domain connections* diagram below · the family graph views |
+| How is the library organised? | Graph view *Concept map* · the domain canvases below · [[Home#Domain maps]] |
+| How do the ideas connect? | Graph view *Concepts only* · the *Connections* section of any concept note |
+| Which domains lean on each other? | *Domain connections* diagram below · [[Reference Atlas.canvas]] |
+| Which concepts rest on which sources? | Graph view *Concepts and evidence* · [[Library.base]] |
+| What has recent research added? | Graph view *Recent research* · [[Library#Recent research]] |
 | How well checked is the evidence? | *Evidence checking by domain* chart · graph view *Evidence quality* · [[Library.base]] (*Access and verification*) |
 | Which sources carry the most weight? | *Evidence reach* chart · [[Knowledge Explorer.base]] (*Evidence reach*) |
 | How old is the evidence? | *Evidence age* chart · [[Knowledge Explorer.base]] (*Evidence age*) |
 | What kind of knowledge does each domain hold? | *Concept kinds* chart · graph view *Concept kinds* |
-| Which topics bridge domains? | [[Knowledge Explorer.base]] (*Bridge topics*) |
+| Which concepts bridge domains? | [[Knowledge Explorer.base]] (*Bridge topics*) |
 | What should I read next? | [[Reading Queue Map.canvas]] · [[Library.base]] (*Reading Queue Board*) · the tables further down |
-| What does the course teach, and in what order? | Graph view *Learning layer* · [[Learning Library.base]] · the learning maps |
-| Where are the open arguments? | Graph view *Arguments* · the argument maps beside each argument note |
-| Where am I? | The Breadcrumbs trail at the top of every note · the local graph · ExcaliBrain |
+| What does the course teach, and in what order? | [[Learning Path]] · graph view *Learning route* · [[Learning Library.base]] · the learning maps |
+| Where are the open questions? | Graph view *Open questions* · the argument maps beside each question |
+| Where am I? | The Breadcrumbs trail at the top of every note · the local graph (depth 1-2) |
 
 ## Graph views
 
 Colour says where a note belongs; with Extended Graph on (the default), shape says what it is.
 
-- **Colour:** blue - neuroscience foundations · green - psychology · orange - clinical psychiatry, neurology, pharmacology · red - bipolar I, ADHD, autism, CPTSD · yellow - research methods · lavender - subdomain notes · white - hubs and domain maps · grey - sources (darker for articles, lighter for pages) · teal - learning layer · magenta - arguments.
-- **Shape:** hexagon - domain map · diamond - subdomain · circle - topic · square - source · triangle - argument · pentagon - lesson · octagon - module · star - hub.
-- **Views:** *Knowledge map* (everything) · *Concept skeleton* (sources hidden) · *Domain hierarchy* (atlas, maps, subdomains, topics; arrows point up the hierarchy) · *Evidence quality* (sources coloured by how they were checked: green full text, amber abstract, blue educational page, white official; topics dimmed) · *Concept kinds* (topics by structure, process, mechanism, theory, method, condition, framework) · one close-up per family, with the psychology and methods views coloured by subdomain · *Learning layer* · *Arguments*.
-- **Local graph:** the global colour groups are copied into every local graph, so a note's neighbourhood uses the same legend.
+- **Colour:** blue - biology and chemistry · green - mind and computation · orange - clinical and applied · red - the four conditions · yellow - research methods · white - Home and domain maps · gold - recent research (2023 onward) · grey - other sources (darker for articles, lighter for pages) · teal - lessons and modules · magenta - open questions.
+- **Shape:** hexagon - domain map · circle - concept · square - source · triangle - open question · pentagon - lesson · octagon - module · star - hub.
+- **Views:** *Concept map* (Home, maps and concepts: the default) · *Concepts only* · *Concepts and evidence* · *Recent research* · three family close-ups (*Conditions*, *Foundations*, *Clinical and applied*) · *Learning route* · *Open questions* · *Evidence quality* (sources coloured by how they were checked: green full text, amber abstract, blue educational page, white official) · *Concept kinds* · *Everything* (unfiltered, for maintenance).
+- **Why sources and index pages are hidden by default:** they link to almost everything, so they pull every concept into one tangle. Filtering them out lets the fifteen domain clusters and the links between them show.
+- **Local graph:** the global colour groups are copied into every local graph, so a note's neighbourhood uses the same legend. Depth 1 or 2 is the most useful setting for navigation.
 
 ## Charts
 
@@ -49,7 +52,7 @@ The charts are computed from note properties and links each time the page render
 ### Library shape: topics and filed sources per domain
 
 ```dataviewjs
-const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar I","ADHD","Autism","CPTSD","Research Methods and Measurement"];
+const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar Disorders","ADHD","Autism","CPTSD","Research Methods and Measurement"];
 const pages = dv.pages('"Research/Domains"');
 const n = (d, f) => pages.where(p => p.file.path.split("/")[2] === d && f(p)).length;
 window.renderChart({type: "bar", data: {labels: order, datasets: [
@@ -62,7 +65,7 @@ window.renderChart({type: "bar", data: {labels: order, datasets: [
 ### Evidence checking by domain: how the sources each domain's topics cite were checked
 
 ```dataviewjs
-const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar I","ADHD","Autism","CPTSD","Research Methods and Measurement"];
+const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar Disorders","ADHD","Autism","CPTSD","Research Methods and Measurement"];
 const kinds = {"Full text": "#4CC38A", "Abstract or article page": "#F5B93B", "Educational page": "#7FA7D9", "Official page or document": "#F2F2F7"};
 const cls = v => v === "full_text_checked" ? "Full text" : (v === "abstract_checked" || v === "article_page_checked") ? "Abstract or article page" : v === "educational_checked" ? "Educational page" : "Official page or document";
 const seen = Object.fromEntries(order.map(d => [d, Object.fromEntries(Object.keys(kinds).map(k => [k, new Set()]))]));
@@ -91,7 +94,7 @@ window.renderChart({type: "bar", data: {labels: bins.map(b => b + "-" + String(b
 ### Concept kinds: what sort of knowledge each domain holds
 
 ```dataviewjs
-const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar I","ADHD","Autism","CPTSD","Research Methods and Measurement"];
+const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar Disorders","ADHD","Autism","CPTSD","Research Methods and Measurement"];
 const kinds = {structure: "#4F9BF0", process: "#43C6D6", mechanism: "#4CC38A", theory: "#B07CF0", method: "#E9D44D", condition: "#F0506E", framework: "#F59E3B"};
 const topics = dv.pages('"Research/Domains"').where(p => p.note_type === "topic");
 window.renderChart({type: "bar", data: {labels: order, datasets: Object.entries(kinds).map(([k, c]) => ({label: k, backgroundColor: c,
@@ -114,8 +117,8 @@ window.renderChart({type: "bar", data: {labels: top.map(x => x.name).array(), da
 Each line joins two domains; its number counts topic-to-topic links across them. The strongest pairs are shown.
 
 ```dataviewjs
-const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar I","ADHD","Autism","CPTSD","Research Methods and Measurement"];
-const fam = d => ["Psychology"].includes(d) ? "psy" : ["Pharmacology", "Neurology", "Clinical Psychiatry and Psychopathology"].includes(d) ? "clin" : ["Bipolar I", "ADHD", "Autism", "CPTSD"].includes(d) ? "cond" : d === "Research Methods and Measurement" ? "meth" : "found";
+const order = ["Neurobiology","Neurochemistry","Neuroanatomy and Systems Neuroscience","Genetics and Neurodevelopment","Neuroendocrinology and Neuroimmunology","Psychology","Computational Neuroscience and Brain Theories","Pharmacology","Neurology","Clinical Psychiatry and Psychopathology","Bipolar Disorders","ADHD","Autism","CPTSD","Research Methods and Measurement"];
+const fam = d => ["Psychology"].includes(d) ? "psy" : ["Pharmacology", "Neurology", "Clinical Psychiatry and Psychopathology"].includes(d) ? "clin" : ["Bipolar Disorders", "ADHD", "Autism", "CPTSD"].includes(d) ? "cond" : d === "Research Methods and Measurement" ? "meth" : "found";
 const short = {"Neuroanatomy and Systems Neuroscience": "Neuroanatomy", "Genetics and Neurodevelopment": "Genetics and development", "Neuroendocrinology and Neuroimmunology": "Neuroendocrine and immune", "Computational Neuroscience and Brain Theories": "Computational", "Clinical Psychiatry and Psychopathology": "Clinical psychiatry", "Research Methods and Measurement": "Research methods"};
 const dom = p => p.file.path.split("/")[2], id = d => "D" + order.indexOf(d), pair = {};
 for (const t of dv.pages('"Research/Domains"').where(p => p.note_type === "topic"))
@@ -130,11 +133,11 @@ dv.paragraph("```mermaid\n" + m + "```");
 
 ## Hierarchy and navigation
 
-- **Breadcrumbs** shows the trail *Research Atlas > domain map > subdomain > topic* at the top of every note, built from each note's `up` property; its tree and matrix views list children and siblings.
+- **Breadcrumbs** shows the trail *Home > domain map > concept* at the top of every note, built from each note's `up` property; its tree and matrix views list children and siblings.
 - **ExcaliBrain** (command palette: *ExcaliBrain: Start*) draws the open note with its parents above, children below and linked notes beside it; it reads the same `up` links.
 - **Mindmap NextGen** (command palette: *Mindmap: Open as mindmap*) turns the open note's headings into a mind map.
 - **Strange New Worlds** counts, beside each link and block anchor, how many notes reference it, so a source anchor shows how many topics rely on it.
-- **Domain canvases** give each domain's subdomains, topics and most-cited evidence on one board: [[Neurobiology Canvas.canvas|Neurobiology]] · [[Neurochemistry Canvas.canvas|Neurochemistry]] · [[Neuroanatomy and Systems Neuroscience Canvas.canvas|Neuroanatomy]] · [[Genetics and Neurodevelopment Canvas.canvas|Genetics and neurodevelopment]] · [[Neuroendocrinology and Neuroimmunology Canvas.canvas|Neuroendocrinology]] · [[Psychology Canvas.canvas|Psychology]] · [[Computational Neuroscience and Brain Theories Canvas.canvas|Computational]] · [[Pharmacology Canvas.canvas|Pharmacology]] · [[Neurology Canvas.canvas|Neurology]] · [[Clinical Psychiatry and Psychopathology Canvas.canvas|Clinical psychiatry]] · [[Bipolar I Canvas.canvas|Bipolar I]] · [[ADHD Canvas.canvas|ADHD]] · [[Autism Canvas.canvas|Autism]] · [[CPTSD Canvas.canvas|CPTSD]] · [[Research Methods and Measurement Canvas.canvas|Research methods]]. They are snapshots of 2026-09-25; each map's *In this folder* section is the live view.
+- **Domain canvases** give each domain's themes, concepts and most-cited evidence on one board: [[Neurobiology Canvas.canvas|Neurobiology]] · [[Neurochemistry Canvas.canvas|Neurochemistry]] · [[Neuroanatomy and Systems Neuroscience Canvas.canvas|Neuroanatomy]] · [[Genetics and Neurodevelopment Canvas.canvas|Genetics and neurodevelopment]] · [[Neuroendocrinology and Neuroimmunology Canvas.canvas|Neuroendocrinology]] · [[Psychology Canvas.canvas|Psychology]] · [[Computational Neuroscience and Brain Theories Canvas.canvas|Computational]] · [[Pharmacology Canvas.canvas|Pharmacology]] · [[Neurology Canvas.canvas|Neurology]] · [[Clinical Psychiatry and Psychopathology Canvas.canvas|Clinical psychiatry]] · [[Bipolar Disorders Canvas.canvas|Bipolar I]] · [[ADHD Canvas.canvas|ADHD]] · [[Autism Canvas.canvas|Autism]] · [[CPTSD Canvas.canvas|CPTSD]] · [[Research Methods and Measurement Canvas.canvas|Research methods]]. They are snapshots of 2026-09-25; each map's *In this folder* section is the live view.
 
 ## Native Bases
 

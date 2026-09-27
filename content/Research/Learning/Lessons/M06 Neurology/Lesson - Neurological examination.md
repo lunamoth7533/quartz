@@ -37,7 +37,7 @@ interpreted, and what would change the plan.
 
 Findings are interpreted against norms and context; a normal examination does not exclude every neurological or
 psychiatric condition.
-[[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|AI synthesis: Neurological Diagnostic Tests and Procedures]]
+[[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|Appraisal: Neurological Diagnostic Tests and Procedures]]
 
 Two sources of variability sit in the examination itself: the examiner's technique and the person's
 cooperation, attention and state. That does not make the examination unreliable; it makes it evidence of a

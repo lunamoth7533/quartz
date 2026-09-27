@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Psychology - Emotion and social]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology, research/domain/neuroanatomy]
 ---

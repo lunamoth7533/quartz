@@ -57,8 +57,7 @@ Each trial outcome carries its own absolute, relative and person-based measures.
 A short teaching article built on a hypothetical comparison, designed to explain risk measures rather than to establish the effectiveness of any treatment. Time-to-event and competing-risk settings need additional methods that the tutorial does not cover.
 ^p26952180-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the tutorial.
 
 Reporting only a relative reduction can flatter a small absolute benefit, which is why this library's clinical lessons ask for both numbers, the baseline risk, and the outcome being counted.
@@ -73,4 +72,4 @@ Reporting only a relative reduction can flatter a small absolute benefit, which 
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

@@ -3,15 +3,15 @@ note_type: topic
 title: "CBT and its evidence base"
 domain: [psychology]
 condition: []
-source_count: 5
-up: "[[Psychology - Development and therapy]]"
+source_count: 7
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology]
 content_layer: reference
 concept_kind: framework
 description: "The CBT model, its behavioural roots, how its effects are tested, and the design constraints that come with psychological treatments."
 secondary_domain: [clinical-psychiatry]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # CBT and its evidence base
@@ -38,7 +38,7 @@ reviewed: 2026-09-25
 
 **Limits of the design.** Blinding participants to a psychotherapy is impossible, so expectancy and allegiance effects are structural features of the design rather than artefacts that can be removed.
 
-**Reading rule.** Name the condition, the comparator, the rater and the outcome; then check the certainty rating. Guideline documents sit on top of that evidence and are service documents rather than measurements. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI appraisal: Cognitive behavioural interventions for ADHD]] [[F94 NICE Bipolar disorder CG185#^f94-framing|Bipolar disorder CG185]]
+**Reading rule.** Name the condition, the comparator, the rater and the outcome; then check the certainty rating. Guideline documents sit on top of that evidence and are service documents rather than measurements. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: Cognitive behavioural interventions for ADHD]] [[F94 NICE Bipolar disorder CG185#^f94-framing|Bipolar disorder CG185]]
 
 **Cross-domain connection (curation).** Therapy evidence is clinical-trials evidence, so the certainty, reporting and synthesis conventions described in the methods domain (GRADE, PRISMA, publication-bias checks) apply directly here; reading this article alongside the methods material makes the evidence base interpretable rather than merely reported. [[Replication and publication bias]] [[Meta-analysis and review limits]]
 
@@ -46,12 +46,20 @@ reviewed: 2026-09-25
 
 Evidence is protocol- and population-specific: 'CBT' covers many manuals and delivery formats.
 
-## Related notes
+## Recent research
 
-- [[Learning and conditioning]]
-- [[Psychoeducation and social rhythms]]
-- [[CBT for adult ADHD]]
-- [[Bipolar psychotherapy evidence]]
+- **2025 · Systematic review and component network meta-analysis (The Lancet Psychiatry).** In randomized trials of adults with ADHD, CBT - like cognitive remediation, mindfulness and psychoeducation - was better than placebo only on clinician-reported measures, extending the rater dependence described above to a larger evidence base. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-nonpharm|Ostinelli 2025]] Confidence in the estimates ranged from very low to moderate. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-limit|Ostinelli 2025]]
+- **2023 · Systematic review and meta-analysis (World Psychiatry).** Across 409 trials in depression, CBT had moderate-to-large effects against waiting list or usual care but only a small, fragile advantage over other psychotherapies; it matched medication in the short term, and combined treatment beat medication alone but not CBT alone. [[P36640411 Cuijpers 2023 CBT for depression comprehensive meta-analysis#^p36640411-control|Cuijpers 2023]] [[P36640411 Cuijpers 2023 CBT for depression comprehensive meta-analysis#^p36640411-comparators|Cuijpers 2023]] The comparator sets the effect size, and depression lies outside this library's four conditions. [[P36640411 Cuijpers 2023 CBT for depression comprehensive meta-analysis#^p36640411-caution-comparator|Appraisal: Cuijpers 2023]]
+
+## Connections
+
+- [[Learning and conditioning]] - supplies the behavioural mechanism: exposure methods apply extinction, which is new learning rather than erasure, so relapse planning belongs in treatment design.
+- [[Psychoeducation and social rhythms]] - a sibling structured treatment in bipolar disorder; the component analysis cited here links brief psychoeducation, like family therapy, to higher retention.
+- [[CBT for adult ADHD]] - the condition-specific application where comparator and rater decide the result, which is this note's reading rule applied to one evidence base.
+- [[Bipolar psychotherapy evidence]] - the condition-specific application in bipolar disorder, where the outcome that moves with adjunctive psychotherapy is recurrence rather than a symptom score.
+- [[Fear learning and extinction]] - the laboratory model behind exposure, explaining why fear can return after successful treatment and what that implies for relapse planning.
+- [[Therapy models overview]] - places CBT among the other psychotherapy orientations, which matters because comparisons with other active therapies shrink the apparent CBT advantage.
+- [[Acceptance and commitment therapy]] - a third-wave member of the cognitive behavioural family built on a psychological flexibility model, so its trials face the comparator and blinding limits described here.
 
 ## Study question
 

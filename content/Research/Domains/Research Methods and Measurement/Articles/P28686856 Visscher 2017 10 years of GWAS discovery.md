@@ -60,8 +60,7 @@ The review covers prediction, causal inference such as Mendelian randomisation, 
 A review of the first decade of GWAS, dominated by studies in European-ancestry samples, reporting population-level statistical associations. Individual effect estimates and scores are distributional properties of studied populations, not clinical predictions.
 ^p28686856-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the paper.
 
 A polygenic score summarises average risks across a sample. Turning it into a statement about one person requires calibration and validation in a comparable population, evidence for decision benefit, and a clinical pathway that does not exist yet for most conditions in this vault.
@@ -76,4 +75,4 @@ A polygenic score summarises average risks across a sample. Turning it into a st
 
 ## Working notes
 
-- Reading status: `queued`. Access: `public-page`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `advanced`.
+- Reading status: `queued`. Access: `public-page`. Check: `full_text_checked` on 2026-09-24. Queue tier: `advanced`.

@@ -55,8 +55,7 @@ Precise counts are difficult because no single study covers everyone and estimat
 An official public education page about U.S. adult prevalence. It reports population estimates and risk factors, not a diagnostic test, and the figures describe the United States rather than any other country or any individual.
 ^f26-scope
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the VA.
 
 Population estimates cannot tell anyone whether they have PTSD; assessment requires the diagnostic criteria applied by a qualified clinician, and exposure is a precondition rather than a diagnosis.

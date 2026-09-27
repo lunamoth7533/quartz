@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/domain/genetics-neurodevelopment, research/domain/psychology]
+tags: [research/source, research/recent, research/domain/genetics-neurodevelopment, research/domain/psychology]
 ---
 # Gene-environment correlation: the role of family environment in academic development
 

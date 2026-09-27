@@ -7,9 +7,9 @@ concept_kind: method
 domain: [research-methods]
 secondary_domain: []
 condition: []
-source_count: 3
-reviewed: 2026-09-25
-up: "[[Research Methods and Measurement - Measurement]]"
+source_count: 5
+reviewed: 2026-09-27
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/methods]
 ---
@@ -31,13 +31,18 @@ Measurement invariance is the property that an instrument relates to its underly
 
 **Where it bites.** Comparisons of prevalence across countries, changes across development and translated instruments all depend on invariance, and in this library so does every study that compares autistic and non-autistic groups, clinical and control samples, or the same people before and after treatment: invariance is the property that decides whether the comparison is interpretable. Instrument performance is also population-specific rather than universal - psychometric development studies report item properties in particular samples and frame the instrument as an evolving standard whose performance in a new population must be established rather than assumed. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]] [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limit|International Trauma Questionnaire]]
 
-**How it relates to validity.** Content validity is assessed against a defined domain before administration, and reliability statistics describe consistency; invariance is a further question about whether those properties hold across the groups being compared. Reliability and content validity are separate properties that do not substitute for it: a scale can be reliable and content-valid in the population where it was developed and still fail the invariance test elsewhere. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-content|Developing and validating scales]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|AI appraisal: Developing and validating scales]]
+**How it relates to validity.** Content validity is assessed against a defined domain before administration, and reliability statistics describe consistency; invariance is a further question about whether those properties hold across the groups being compared. Reliability and content validity are separate properties that do not substitute for it: a scale can be reliable and content-valid in the population where it was developed and still fail the invariance test elsewhere. [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-content|Developing and validating scales]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|Appraisal: Developing and validating scales]]
 
 **Reading rule.** A cross-group difference in scores is a claim about the instrument as well as about the groups; invariance is the test that separates the two, and untested invariance means the claim carries unknown measurement error. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]]
 
 ## Evidence and status
 
 The statistical framework is established; in practice it is often untested, which is one reason cross-group comparisons in the literature should be read cautiously. Invariance failures are common and rarely visible without testing - a scale can behave adequately within groups while its cross-group comparisons are biased - and partial invariance is the usual finding. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]]
+
+## Recent research
+
+- **2025 · Cross-national psychometric study (PLoS One).** In 56,968 people from 65 nations, a short life-satisfaction scale kept the same structure and loadings everywhere but reached full scalar invariance only across gender identity and age, with partial scalar invariance across nations and languages: the stepwise pattern described above, at scale. [[P39841629 Swami 2025 Life satisfaction scale invariance#^p39841629-levels|Swami 2025]] [[P39841629 Swami 2025 Life satisfaction scale invariance#^p39841629-partial|Swami 2025]] Partial scalar invariance supports model-based latent-mean comparison, not raw score comparison. [[P39841629 Swami 2025 Life satisfaction scale invariance#^p39841629-caution-alignment|Appraisal: Swami 2025]]
+- **2025 · Systematic review with reanalysis (Psychological Methods).** Only 4% of 929 comparisons of self-report scale scores in open-data psychology articles came with an invariance test, none of the reported tests could be reproduced, and only about a quarter of the authors' own adequately powered tests reached scalar invariance, which confirms that untested invariance is the norm and violations are common. [[P38147039 Maassen 2025 Disregard of invariance testing#^p38147039-rarely|Maassen 2025]] [[P38147039 Maassen 2025 Disregard of invariance testing#^p38147039-violations|Maassen 2025]] [[P38147039 Maassen 2025 Disregard of invariance testing#^p38147039-caution-difference|Appraisal: Maassen 2025]]
 
 ## Connections
 

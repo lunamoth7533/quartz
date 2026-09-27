@@ -4,14 +4,14 @@ title: "Action potentials"
 domain: [neurobiology]
 condition: []
 source_count: 6
-up: "[[Neurobiology - Processes and mechanisms]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: mechanism
 description: "The phases of the action potential, its self-propagating conduction, the refractory period, and why amplitude carries no graded information."
 secondary_domain: [computational-brain-theories]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Action potentials
@@ -37,7 +37,7 @@ reviewed: 2026-09-25
 
 **The caution on coding claims.** The strongest single-study support for the population view comes from motor cortex, where preparatory and movement-related activity formed distinct low-dimensional trajectories that single-neuron rates did not capture well. The authors framed the result as being about the descriptive power of population models rather than a circuit mechanism, and population findings depend on which cells were recorded and on the task; the defensible statement is that rate, timing and population structure are complementary descriptions whose usefulness is task- and area-dependent. [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-population|Neural population dynamics]] [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-claim|Neural population dynamics]] [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-limit|Neural population dynamics]]
 
-**Where the model stops.** The Hodgkin-Huxley account describes axonal spikes well; dendritic spikes, plateau potentials and graded-release cells are cases the simple model does not cover, which is why summation is described as the usual route to firing rather than the only one. [[F04 OpenStax Communication between neurons#^f04-caution-summation|AI synthesis: Communication Between Neurons]]
+**Where the model stops.** The Hodgkin-Huxley account describes axonal spikes well; dendritic spikes, plateau potentials and graded-release cells are cases the simple model does not cover, which is why summation is described as the usual route to firing rather than the only one. [[F04 OpenStax Communication between neurons#^f04-caution-summation|Appraisal: Communication Between Neurons]]
 
 **Cross-domain connection (curation).** The coding descriptions here are the vocabulary the computational-brain-theories domain uses when it talks about rate, timing and population codes as formal descriptions of neural computation; a claim in one domain has to be translatable into the other without change of meaning. [[Neural coding and population codes]] [[Dynamical systems models]]
 
@@ -45,10 +45,12 @@ reviewed: 2026-09-25
 
 All-or-none describes the spike itself; many neurons also release transmitter in graded ways without producing one.
 
-## Related notes
+## Connections
 
-- [[Ion gradients and membrane potential]]
-- [[Synapses and plasticity]]
+- [[Ion gradients and membrane potential]] - the precondition for a spike: the resting potential and driving forces set out there are what the voltage-gated sequence here briefly overturns and then restores.
+- [[Synapses and plasticity]] - the next step in the chain: a spike arriving at the terminal triggers calcium-dependent release, where the amount released, unlike spike amplitude, can vary.
+- [[Myelin and saltatory conduction]] - the speed mechanism mentioned here in passing: insulation and node spacing set conduction velocity in myelinated fibres, developed there in full.
+- [[Dendritic integration]] - the input side of initiation: how distributed synaptic inputs combine and reach the initial segment decides whether and when a spike starts.
 
 ## Study question
 

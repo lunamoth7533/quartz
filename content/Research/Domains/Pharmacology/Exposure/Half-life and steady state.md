@@ -4,7 +4,7 @@ title: "Half-life and steady state"
 domain: [pharmacology]
 condition: []
 source_count: 5
-up: "[[Pharmacology - Exposure]]"
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/pharmacology]
 content_layer: reference
@@ -47,10 +47,12 @@ reviewed: 2026-09-25
 
 Concentration is a proxy: clinical response often lags exposure and depends on adaptation in the system the drug acts on.
 
-## Related notes
+## Connections
 
-- [[Pharmacokinetics and ADME]]
-- [[Therapeutic index, monitoring and interactions]]
+- [[Pharmacokinetics and ADME]] - the processes that set half-life: metabolism and excretion determine clearance, so any change in them moves the time to steady state.
+- [[Therapeutic index, monitoring and interactions]] - where the exposure model becomes a safety question: with a narrow window, peak-trough swings and sampling time decide whether a measured level is interpretable.
+- [[Lithium mechanisms and uncertainty]] - the worked example: renal elimination, a half-life of roughly 18 to 36 hours and narrow-window monitoring make every part of this model matter at once.
+- [[Receptor adaptation tolerance and dependence]] - why kinetics and effect can dissociate: steady state can arrive well before clinical change, partly because the target system adapts over days to weeks.
 
 ## Study question
 

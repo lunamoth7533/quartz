@@ -51,8 +51,7 @@ Some secondary outcomes improved, including self-reported depression and anxiety
 Cochrane review of randomized trials in adults; adverse events were rare.
 ^p29566425-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Outcome depends on the rater: clinician-reported and self-reported results differed, so a benefit claim should name who rated it.

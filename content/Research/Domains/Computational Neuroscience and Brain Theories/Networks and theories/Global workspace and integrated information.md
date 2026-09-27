@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 5
 reviewed: 2026-09-25
-up: "[[Computational Neuroscience and Brain Theories - Networks and theories]]"
+up: "[[Computational Neuroscience and Brain Theories Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/computational]
 ---

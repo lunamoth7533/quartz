@@ -47,3 +47,10 @@ Evidence-based psychotherapies are described as the primary approach, with medic
 
 An official public education page. It describes the construct and treatment approaches at a general level.
 ^f84-limit
+
+## Used by
+
+- [[Personality models]]
+- [[Personality constructs and traits]]
+- [[Dialectical behaviour therapy]]
+- [[Self-concept and identity]]

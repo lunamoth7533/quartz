@@ -10,7 +10,7 @@ properties:
   formula.domain_folder:
     displayName: Domain
   formula.place:
-    displayName: Domain / subdomain
+    displayName: Domain / theme
   formula.cited_by:
     displayName: Linked from
   formula.decade:
@@ -26,19 +26,8 @@ properties:
   description:
     displayName: Summary
 views:
-  - type: cards
-    name: Subdomain cards
-    filters:
-      and:
-        - note_type == "subdomain"
-    groupBy:
-      property: formula.domain_folder
-      direction: ASC
-    order:
-      - file.name
-      - description
   - type: table
-    name: Topics by domain and subdomain
+    name: Concepts by domain and theme
     filters:
       and:
         - note_type == "topic"

@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: advanced
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/adhd, research/domain/pharmacology]
+tags: [research/source, research/recent, research/condition/adhd, research/domain/pharmacology]
 ---
 
 # Pharmacological interventions for ADHD: a systematic review and dose-effect network meta-analysis.
@@ -51,8 +51,7 @@ The authors say the findings challenge both therapeutic inertia and uncritical d
 Aggregate dose-effect modelling across age groups; dose ranges are study-specific and this record omits numeric dosing.
 ^p42134365-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Aggregate dose-response curves cannot set a dose for an individual, and no titration guidance is reproduced in this library.

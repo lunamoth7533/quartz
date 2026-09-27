@@ -77,7 +77,7 @@ baseline is the misleading one, because it hides how many people actually benefi
 Two trials both claim to study "complex PTSD": one recruits people with ICD-11 complex PTSD, the other recruits
 adults exposed to complex trauma who meet a PTSD diagnosis. Both report large effects. Explain why the two
 numbers are not directly comparable and what you would record about each.
-[[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-caution-category|AI synthesis: Hu 2025, category boundary]];
+[[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-caution-category|Appraisal: Hu 2025, category boundary]];
 [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-definition|VA, symptom-based definitions]]
 
 **Worked answer.** The samples are defined by different constructs: one by a formal ICD-11 diagnosis that adds

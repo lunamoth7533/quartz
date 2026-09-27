@@ -11,7 +11,7 @@ tags: [research/argument]
 
 **Question.** Clinical guidance has long recommended stabilization before trauma-focused processing. Does the comparative evidence support requiring that sequence?
 
-**Origin.** AI-generated starter question, written for this library. It does not represent anyone's beliefs or history.
+**Origin.** Starter question written for this library. It does not represent anyone's beliefs or history.
 
 ## Competing explanations
 

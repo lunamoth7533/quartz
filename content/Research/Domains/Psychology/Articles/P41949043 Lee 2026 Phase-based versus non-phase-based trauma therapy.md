@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/cptsd, research/domain/psychology]
+tags: [research/source, research/recent, research/condition/cptsd, research/domain/psychology]
 ---
 
 # Phase-based versus non-phase-based psychological interventions for complex PTSD: a systematic review and meta-analysis.
@@ -51,8 +51,7 @@ Their reading of the evidence: in many situations, approaches without a stabiliz
 Meta-analysis limited by the small number of available trials, a single time point and heterogeneity in outcome measures - limitations the authors state themselves.
 ^p41949043-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 The comparison is between packaged protocols, not a randomized test of sequencing inside one protocol, so the clinical question stays open.

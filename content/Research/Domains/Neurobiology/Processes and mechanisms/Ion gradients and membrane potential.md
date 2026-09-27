@@ -4,14 +4,14 @@ title: "Ion gradients and membrane potential"
 domain: [neurobiology]
 condition: []
 source_count: 6
-up: "[[Neurobiology - Processes and mechanisms]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: mechanism
 description: "Ion gradients, the electrochemical driving forces behind the resting potential, and the distinction between graded and all-or-none signalling."
 secondary_domain: []
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Ion gradients and membrane potential
@@ -37,7 +37,7 @@ reviewed: 2026-09-25
 
 **The resting potential is not fixed.** 'Resting potential' is not one fixed number for every neuron or every moment: cells change their leak and channel composition, and neuromodulators shift excitability by acting on those conductances. [[P23040802 Marder 2012 Neuromodulation#^p23040802-reconfigure|Neuromodulation]]
 
-**What the resting potential is not.** It is not a measure of how active a cell has been, nor an index of energy status that can be read off directly; and the popular 'electricity' framing obscures that currents here are carried by ions across a thin lipid layer, with magnitudes in nanoamperes and milliseconds. Reading the resting potential as a state variable of the whole cell is a category error, which is one reason extracellular recordings and imaging proxies cannot be converted into it. [[F03 OpenStax The action potential#^f03-limit|The Action Potential]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|AI appraisal: Brain imaging]]
+**What the resting potential is not.** It is not a measure of how active a cell has been, nor an index of energy status that can be read off directly; and the popular 'electricity' framing obscures that currents here are carried by ions across a thin lipid layer, with magnitudes in nanoamperes and milliseconds. Reading the resting potential as a state variable of the whole cell is a category error, which is one reason extracellular recordings and imaging proxies cannot be converted into it. [[F03 OpenStax The action potential#^f03-limit|The Action Potential]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|Appraisal: Brain imaging]]
 
 **Cross-domain connection (curation).** Driving force is what turns the pharmacology domain's receptor-occupancy claims into effects at the cell - a ligand-gated channel opened by a drug produces a postsynaptic response of a magnitude that depends on the ion gradient it opens onto, so pharmacodynamic claims depend on the cellular physics described here. [[Pharmacodynamics and receptors]] [[Antipsychotic mechanisms]]
 
@@ -45,11 +45,13 @@ reviewed: 2026-09-25
 
 The battery metaphor is useful and incomplete: membrane voltage is dynamic and channel types differ across cells.
 
-## Related notes
+## Connections
 
-- [[Action potentials]]
-- [[Excitation and inhibition balance]]
-- [[Synaptic signalling model]]
+- [[Action potentials]] - the all-or-none event built on this substrate: threshold, the conductance sequence and the refractory period are changes in the potentials and driving forces described here.
+- [[Excitation and inhibition balance]] - driving force applied to synaptic input: whether an opened conductance pushes the membrane towards or away from threshold makes an input excitatory or inhibitory in that cell.
+- [[Synaptic signalling model]] - the stepwise model of transmission whose postsynaptic step is ion flow through receptors, acting on the gradients and driving forces explained here.
+- [[Membrane transport and ion channels]] - the molecular machinery behind every term here: the pumps, leak channels and voltage-gated channels that build the gradients and set the permeabilities.
+- [[Neuronal cell biology and energetics]] - the energy side of the leaky system described here: the pumps that restore the gradients are part of the energy cost of signalling covered there.
 
 ## Study question
 

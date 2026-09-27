@@ -4,7 +4,7 @@ title: "Effect sizes and uncertainty"
 domain: [research-literacy]
 condition: []
 source_count: 4
-up: "[[Research Methods and Measurement - Inference]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
@@ -26,7 +26,7 @@ reviewed: 2026-09-25
 - Risk measures can be absolute (risk difference), relative (proportional reduction) or person-based (number needed to treat), and the same relative reduction can hide very different absolute changes. [[P26952180 Ranganathan 2016 Absolute and relative risk#^p26952180-measures|P26952180]]; [[P26952180 Ranganathan 2016 Absolute and relative risk#^p26952180-rrr|P26952180]]
 - P values are commonly misread as the probability that a hypothesis is true or that results arose by chance; confidence intervals are compatibility ranges under a model rather than probability distributions for a parameter. [[P27209009 Greenland 2016 Statistical tests and P values#^p27209009-guide|P27209009]]; [[P27209009 Greenland 2016 Statistical tests and P values#^p27209009-ci|P27209009]]
 - Cochrane guidance tells reviewers not to rely on significance thresholds and to report the confidence interval with the exact P value. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-thresholds|F22]]
-- Presenting only a relative reduction can exaggerate a small absolute benefit, which is why this library asks for both numbers and the baseline risk. [[P26952180 Ranganathan 2016 Absolute and relative risk#^p26952180-caution-framing|AI synthesis: P26952180]]
+- Presenting only a relative reduction can exaggerate a small absolute benefit, which is why this library asks for both numbers and the baseline risk. [[P26952180 Ranganathan 2016 Absolute and relative risk#^p26952180-caution-framing|Appraisal: P26952180]]
 
 ## How it works
 
@@ -36,7 +36,7 @@ reviewed: 2026-09-25
 
 **Standardised and unstandardised answer different questions.** A standardised effect size (a correlation, a standardised mean difference) is unit-free and comparable across studies - but only insofar as the underlying construct, measurement instrument and population variance are themselves comparable, so a standardised difference computed on different instruments or in very different populations is not automatically a like-for-like comparison. [[P23997866 Sullivan 2012 Using effect size#^p23997866-magnitude|Using effect size]] An unstandardised effect (kilograms, points on a named scale, absolute risk difference) keeps the units that make clinical meaning possible. Large standardised effects can be clinically trivial and small absolute-risk changes can matter at population scale - the aspirin example in the effect-size literature is the canonical demonstration - so reporting practice needs both, with the interval, not the point estimate, carrying the uncertainty. [[P23997866 Sullivan 2012 Using effect size#^p23997866-significance|Using effect size]] [[P26952180 Ranganathan 2016 Absolute and relative risk|Absolute and relative risk]]
 
-**Conventions are not thresholds.** Cohen's d values of 0.2, 0.5 and 0.8 are heuristics that ignore measurement accuracy and population diversity, so they should be read as rough bands. A small standardised difference can matter for policy and a large one can be irrelevant for an individual, so context determines importance. [[P23997866 Sullivan 2012 Using effect size#^p23997866-cohen|Using effect size]] [[P23997866 Sullivan 2012 Using effect size#^p23997866-caution-thresholds|AI appraisal: Using effect size]]
+**Conventions are not thresholds.** Cohen's d values of 0.2, 0.5 and 0.8 are heuristics that ignore measurement accuracy and population diversity, so they should be read as rough bands. A small standardised difference can matter for policy and a large one can be irrelevant for an individual, so context determines importance. [[P23997866 Sullivan 2012 Using effect size#^p23997866-cohen|Using effect size]] [[P23997866 Sullivan 2012 Using effect size#^p23997866-caution-thresholds|Appraisal: Using effect size]]
 
 **Match the inference to the question.** A p-value summarises compatibility with a particular null model, and a confidence interval is a compatibility range - a range of effects under a statistical model and its construction assumptions. Their usual correspondence requires matching models and tests: an interval corresponds to the test only when the model and test assumptions match. An interval that excludes the null is a statement about that null, not about equivalence. An interval crossing the null does not demonstrate equivalence: it can still exclude some practically important effects, or can permit both important benefit and harm, and where it includes practically important effects alongside the null it does not rule them out - the actual bounds matter. [[P27209009 Greenland 2016 Statistical tests and P values#^p27209009-ci|Statistical tests and P values]] [[P23997866 Sullivan 2012 Using effect size#^p23997866-significance|Using effect size]] Equivalence is a separate question requiring justified, prespecified margins and an appropriate analysis: whether an interval rules out a clinically important difference depends on what 'clinically important' was specified to mean before the data were seen, and statistical non-significance alone cannot answer it. [[P27209009 Greenland 2016 Statistical tests and P values#^p27209009-ci|Statistical tests and P values]] [[Longitudinal and within-person inference]]
 
@@ -48,12 +48,14 @@ reviewed: 2026-09-25
 
 These are reporting conventions, not a scoring system: whether an effect matters depends on the outcome, the comparator and the decision, not on the label attached to the number.
 
-## Related notes
+## Connections
 
-- [[Evidence types and causal inference]]
-- [[Bias and confounding]]
-- [[Reading a study and matching populations]]
-- [[Efficacy versus tolerability]]
+- [[Evidence types and causal inference]] - the design decides what an effect estimate means: the same magnitude can describe an association or a causal effect.
+- [[Bias and confounding]] - bias is systematic, so it moves the estimate itself; a compatibility interval reflects model-based uncertainty and cannot reveal a distortion of that kind.
+- [[Reading a study and matching populations]] - an effect is indexed to its comparator, rater and population, so reading its magnitude needs the checklist that note sets out.
+- [[Efficacy versus tolerability]] - applies these currencies to drug trials, where benefit and harm are separate endpoints that each need an absolute and a relative reading.
+- [[Association versus individual prediction]] - explains why even a precise, sizeable group effect can say little about one person, the limit every effect size shares.
+- [[Meta-analysis and review limits]] - where effect sizes are pooled; commensurable effect measures and honest intervals are the preconditions for any pooled estimate.
 
 ## Study question
 

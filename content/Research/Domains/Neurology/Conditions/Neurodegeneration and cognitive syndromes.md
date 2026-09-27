@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 6
 reviewed: 2026-09-25
-up: "[[Neurology - Conditions]]"
+up: "[[Neurology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurology, research/domain/clinical]
 ---
@@ -33,11 +33,11 @@ Neurodegeneration is progressive loss of neuronal structure and function. Cognit
 
 **Why the exam still matters.** The neurological exam is a structured set of tests whose purpose is to identify where function is lost so that a deficit can be attributed to a region or pathway rather than to a symptom name, with domains corresponding to functional divisions of the nervous system. In a progressive condition the exam's value is longitudinal: change over time localises where the process is advancing. [[F33 OpenStax Overview of the neurological exam#^f33-purpose|Overview of the Neurological Exam]] [[F33 OpenStax Overview of the neurological exam#^f33-domains|Overview of the Neurological Exam]]
 
-**Functioning, not just test scores.** The ICF describes functioning through activities, participation and environmental factors, with the linked WHODAS instrument covering cognition, mobility, self-care, getting along, life activities and participation. A functioning score summarises reported activity and participation rather than symptom severity or capacity, which is why dementia assessment and disability assessment answer different questions. [[F23 WHO International Classification of Functioning#^f23-domains|International Classification of Functioning]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI appraisal: International Classification of Functioning]]
+**Functioning, not just test scores.** The ICF describes functioning through activities, participation and environmental factors, with the linked WHODAS instrument covering cognition, mobility, self-care, getting along, life activities and participation. A functioning score summarises reported activity and participation rather than symptom severity or capacity, which is why dementia assessment and disability assessment answer different questions. [[F23 WHO International Classification of Functioning#^f23-domains|International Classification of Functioning]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
 **Coordination and cognitive concerns are part of care.** Guidance for a progressive neurological condition addresses coordination of care, information and support alongside disease-modifying treatment, and treats symptom management - including cognitive concerns - as standard care rather than an afterthought. That structure applies to neurodegenerative care generally: the disease process and the functional consequences are managed in parallel. [[F96 NICE Multiple sclerosis NG220#^f96-care|Multiple sclerosis NG220]] [[F96 NICE Multiple sclerosis NG220#^f96-symptoms|Multiple sclerosis NG220]]
 
-**Reading rule.** Name the syndrome, the stage and the measurement, and keep pathological diagnosis separate from clinical syndrome. Group-level findings in this area describe samples; they do not diagnose or prognosticate for an individual. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
+**Reading rule.** Name the syndrome, the stage and the measurement, and keep pathological diagnosis separate from clinical syndrome. Group-level findings in this area describe samples; they do not diagnose or prognosticate for an individual. [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
 
 ## Evidence and status
 
@@ -46,6 +46,8 @@ Pathological descriptions are well established; the accuracy of clinical diagnos
 ## Connections
 
 This article belongs with [[Memory processes]] and [[Association cortex and networks]], and it is the reference point for the neuropsychological testing discussion in [[Structural versus functional measures]].
+
+- [[Traumatic brain injury]] - an acquired rather than progressive cause of cognitive change, though repeated injury can accumulate into chronic traumatic encephalopathy.
 
 **Cross-domain connection (curation).** The cholinergic-degeneration link is this domain's historical bridge to pharmacology, and the acetylcholine article keeps it honest: a treatment rationale motivated by one associated pathology, not a demonstration that the pathology is the disease. [[Acetylcholine signalling]] [[Antidepressant mechanisms]]
 

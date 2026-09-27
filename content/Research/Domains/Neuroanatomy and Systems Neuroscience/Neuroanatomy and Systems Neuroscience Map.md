@@ -8,7 +8,7 @@ concept_kind: framework
 condition: []
 domain: [neuroanatomy-systems]
 reviewed: 2026-09-25
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map, research/reference, research/domain/neuroanatomy-systems]
 ---
@@ -16,11 +16,17 @@ tags: [research/map, research/reference, research/domain/neuroanatomy-systems]
 
 This domain covers the physical organisation of the nervous system and the systems built on it: directions and planes, methods, regional anatomy, and the sensory, motor and association systems that cut across regions.
 
-> **Reference entry point:** [[Research Atlas]] carries the fifteen-domain reference layer for this hub; [[Reference Index]] lists every concept article, the native views and the relationship register.
+> **Reference entry point:** [[Home]] lists all fifteen domain maps; [[Reference Index]] lists every concept article, the native views and the relationship register.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Background reading|Background reading]], [[#Evidence boundaries|Evidence boundaries]]
 
-## Reference overview
+## Concept register
+
+- **Foundations:** [[Anatomical axes and planes]], [[Neuroanatomical methods]]
+- **Regions:** [[Cerebral cortex and lobes]], [[Cortical layers and columns]], [[Thalamus and hypothalamus]], [[Hippocampal system]], [[Amygdala]], [[Basal ganglia]], [[Cerebellum and brainstem]], [[Spinal cord]], [[White matter and tracts]], [[Prefrontal cortex]], [[Insula]]
+- **Systems:** [[Sensory and motor systems]], [[Association cortex and networks]], [[Interoception and autonomic pathways]], [[Brain regions and networks]], [[Nervous system divisions]], [[Default mode, salience and executive networks]]
+
+## Overview
 
 Neuroanatomy is the physical description of the nervous system, and systems neuroscience is what
 happens when those descriptions are asked to explain function. The domain's discipline is that
@@ -64,7 +70,7 @@ network') names a statistical regularity rather than an anatomical object. [[P28
 
 **Where to start.** [[Anatomical axes and planes]] and [[Neuroanatomical methods]] for the vocabulary, [[Basal ganglia]] and [[Cerebral cortex and lobes]] for regional logic, and [[Sensory and motor systems]] for how the parts cooperate. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Anatomy starts with shared vocabulary. Directions and planes give a consistent frame for describing position and section, which is why radiological and surgical descriptions always specify plane and level. [[F54 Neuroscience Online nervous system overview#^f54-divisions|Overview of the Nervous System]] [[F54 Neuroscience Online nervous system overview#^f54-sections|Overview of the Nervous System]]
 
@@ -73,20 +79,6 @@ Methods determine what can be claimed. Staining distinguishes grey from white ma
 Regional anatomy supplies hubs rather than functions. Cortex is laminated and columnar; the thalamus relays and participates in cortical loops; the hypothalamus coordinates endocrine and autonomic output; hippocampal and amygdala systems underlie memory and salience; basal ganglia and cerebellum shape movement; the brain stem and spinal cord carry cranial, segmental and long-tract organisation. [[F05 OpenStax The central nervous system#^f05-parts|The Central Nervous System]] [[F102 Neuroscience Online cell types#^f102-compartments|Organization of Cell Types]] [[F58 Neuroscience Online hypothalamus#^f58-zones|Hypothalamus]] [[F61 Neuroscience Online hippocampus#^f61-circuit|Hippocampus]] [[F60 Neuroscience Online amygdala#^f60-connections|Amygdala]] [[F56 Neuroscience Online basal ganglia#^f56-pathways|Basal Ganglia]] [[F57 Neuroscience Online cerebellum#^f57-layers|Cerebellum]] [[F59 Neuroscience Online spinal cord#^f59-tracts|Anatomy of the Spinal Cord]]
 
 Systems cut across regions. Sensory pathways run as three-neuron chains that cross the midline, motor commands descend through lateral and medial systems, and association cortex integrates across modalities within networks whose statistical structure is a separate level of description. [[F52 OpenStax Central processing#^f52-pathway|Central Processing]] [[F53 OpenStax Motor responses#^f53-descending|Motor Responses]] [[F109 Neuroscience Online association and executive processing#^f109-areas|Association and Executive Processing]] [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-population|Neural population dynamics]]
-
-## Concept register
-
-- **[[Neuroanatomy and Systems Neuroscience - Foundations|Foundations]]:** [[Anatomical axes and planes]], [[Neuroanatomical methods]]
-- **[[Neuroanatomy and Systems Neuroscience - Regions|Regions]]:** [[Cerebral cortex and lobes]], [[Cortical layers and columns]], [[Thalamus and hypothalamus]], [[Hippocampal system]], [[Amygdala]], [[Basal ganglia]], [[Cerebellum and brainstem]], [[Spinal cord]], [[White matter and tracts]]
-- **[[Neuroanatomy and Systems Neuroscience - Systems|Systems]]:** [[Sensory and motor systems]], [[Association cortex and networks]], [[Interoception and autonomic pathways]], [[Brain regions and networks]], [[Nervous system divisions]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
 
 ## Where this domain connects
 
@@ -102,3 +94,11 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 ## Evidence boundaries
 
 Anatomical description is the most secure material in this domain; connectional claims in humans are indirect and method-dependent, and functional attribution from lesions is limited by fibres of passage and compensation. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

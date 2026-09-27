@@ -53,7 +53,7 @@ axis in stress physiology.
 [[F08 OpenStax What is stress#^f08-axis|What Is Stress?]]
 
 The working rule: a single autonomic measurement is not a direct readout of stress or of one branch's activity.
-[[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI synthesis: Shaffer and Ginsberg 2017]]
+[[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: Shaffer and Ginsberg 2017]]
 
 ## Worked example (hypothetical)
 

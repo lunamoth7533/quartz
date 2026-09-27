@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [research-methods]
 secondary_domain: []
 condition: []
-source_count: 7
-reviewed: 2026-09-25
-up: "[[Research Methods and Measurement - Integrity]]"
+source_count: 9
+reviewed: 2026-09-27
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/methods]
 ---
@@ -38,6 +38,11 @@ Replication is the reproduction of a finding with new data. Publication bias is 
 ## Evidence and status
 
 The pattern is well documented but field-specific in magnitude; reading guidelines and certainty ratings now routinely incorporate these considerations. Reviews rate certainty partly by publication bias, and GRADE lists it among the domains that lower certainty along with risk of bias, inconsistency, indirectness and imprecision. [[P18436948 Guyatt 2008 GRADE#^p18436948-domains|GRADE]] [[P18436948 Guyatt 2008 GRADE#^p18436948-use|GRADE]]
+
+## Recent research
+
+- **2024 · Meta-research study (PLoS One).** Among highly cited clinical intervention studies from 2004-2018 that had a valid replication, 20 of 24 replicated and effects showed no systematic inflation, which qualifies the account above: how much a literature shrinks on replication depends on the field and on which studies are sampled. [[P39110675 da Costa 2024 Replicability of highly cited clinical research#^p39110675-rate|da Costa 2024]] [[P39110675 da Costa 2024 Replicability of highly cited clinical research#^p39110675-inflation|da Costa 2024]] Most of the 89 eligible studies had no replication at all, and replications that are meta-analyses may pool the original trial. [[P39110675 da Costa 2024 Replicability of highly cited clinical research#^p39110675-limit|da Costa 2024]] [[P39110675 da Costa 2024 Replicability of highly cited clinical research#^p39110675-caution-selection|Appraisal: da Costa 2024]]
+- **2023 · Analysis of a replication dataset (Royal Society Open Science).** Eleven years of student-run replications of psychology experiments succeeded about half the time, and only 46% of comparable replication estimates fell inside the original prediction interval, which confirms the pattern above; larger original effects and within-participants designs replicated best. [[P38026006 Boyce 2023 Student replication projects#^p38026006-rate|Boyce 2023]] [[P38026006 Boyce 2023 Student replication projects#^p38026006-predictors|Boyce 2023]] The original studies were not a random sample of the literature. [[P38026006 Boyce 2023 Student replication projects#^p38026006-caution-sample|Appraisal: Boyce 2023]]
 
 ## Connections
 

@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/bipolar-i, research/domain/neurobiology, research/domain/neurochemistry]
+tags: [research/source, research/recent, research/condition/bipolar-i, research/domain/neurobiology, research/domain/neurochemistry]
 ---
 
 # Genomics yields biological and phenotypic insights into bipolar disorder.
@@ -51,8 +51,7 @@ Cell-type analyses implicate GABAergic interneurons and medium spiny neurons, an
 Case-control genomic association study. The authors note high heritability (60-80%) while stating that most underlying determinants remained unknown before this analysis.
 ^p39843750-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Risk architecture is statistical and polygenic; it describes populations and does not predict an individual's course or justify personal genetic prediction.

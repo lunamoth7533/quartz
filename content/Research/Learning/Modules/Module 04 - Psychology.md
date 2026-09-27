@@ -14,7 +14,7 @@ tags: [research/module, research/module/m04]
 
 # Module 04 - Psychology
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Psychology.canvas]] · **Entry point.** [[Learning Hub]]
+**Lessons.** 5 · **Canvas.** [[Learning Map - Psychology.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -70,7 +70,7 @@ Answer from memory first; the parent lesson holds the supporting detail.
 
 1. Why does the rater matter in a psychological treatment trial?
    - *Working answer.* Clinician-rated and self-rated outcomes can disagree, and each is subject to different biases, so a benefit claim should name who reported it and how.
-   - *Answer sources.* [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD rater caution]]
+   - *Answer sources.* [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD rater caution]]
 
 2. What does the extinction finding imply for planning behaviour change?
    - *Working answer.* Old associations can return in new contexts or after stress, so plans need ongoing practice and context variation rather than a single 'finished' moment.
@@ -85,4 +85,4 @@ Every lesson names the access level and check status of its sources. Where a cla
 ## Next steps
 
 - Revisit [[Learning Coverage Matrix]] to see which topics this module does not yet cover and why.
-- Move to the next module in [[Learning Hub]] once the check-yourself questions are answerable without the notes.
+- Move to the next module in [[Learning Path]] once the check-yourself questions are answerable without the notes.

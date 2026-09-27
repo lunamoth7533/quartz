@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [neuroendocrinology-neuroimmunology]
 secondary_domain: []
 condition: []
-source_count: 4
-reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Immune and barrier]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine]
 ---
@@ -40,6 +40,11 @@ The microbiota-gut-brain axis describes signalling between gut microorganisms an
 **The causal ladder the field itself uses.** The literature's strongest designs are germ-free and colonisation studies in animals, which establish that microbiota are necessary or sufficient for specific effects; human studies are mostly correlational, with intervention trials (probiotics, diet) still small and heterogeneous. Reading the human literature by the animal ladder's standards is the discipline this review's own caution implies: association in people, causation in mice, and a gap between them that is being filled study by study rather than jumped. [[P31460832 Cryan 2019 Microbiota-gut-brain axis#^p31460832-status|The Microbiota-Gut-Brain Axis]] [[P31460832 Cryan 2019 Microbiota-gut-brain axis#^p31460832-routes|The Microbiota-Gut-Brain Axis]]
 
 **What the human evidence can support today.** Human studies support three modest statements: microbiota composition differs between some clinical groups and controls; diet shifts composition measurably; and small intervention trials show mixed, mostly short-term effects on mood or behaviour. None of these establishes that altering microbiota treats a psychiatric condition, and the composition differences themselves are confounded by medication, diet and illness state - the same confounding structure that the cytokines literature had to work through. [[P31460832 Cryan 2019 Microbiota-gut-brain axis#^p31460832-metabolites|The Microbiota-Gut-Brain Axis]]
+
+## Recent research
+
+- **2024 · Systematic review and meta-analysis (Frontiers in Immunology).** In PTSD, pooled inflammatory markers did not differ from comparison groups. [[P38410510 Petakh 2024 PTSD gut microbiota and inflammatory markers#^p38410510-inflammation|Petakh 2024]] Only isolated microbiota studies reported lower diversity or Lachnospiraceae, and the pooled Shannon difference was not significant. [[P38410510 Petakh 2024 PTSD gut microbiota and inflammatory markers#^p38410510-microbiota|Petakh 2024]] Six studies cannot support a PTSD-specific signature. [[P38410510 Petakh 2024 PTSD gut microbiota and inflammatory markers#^p38410510-caution-sparse|Appraisal: Petakh 2024]]
+- **2023 · Systematic review, meta-analysis and meta-regression (Translational Psychiatry).** Across 44 depression studies, overall diversity and the major phyla did not differ from controls. [[P38065935 Gao 2023 Gut microbiota in depressive disorder#^p38065935-diversity|Gao 2023]] Butyrate-producing genera were consistently depleted, but heterogeneity stayed unexplained, with medication, diet and method as candidate influences. [[P38065935 Gao 2023 Gut microbiota in depressive disorder#^p38065935-genera|Gao 2023]] That pattern is what confounding would also produce. [[P38065935 Gao 2023 Gut microbiota in depressive disorder#^p38065935-caution-confounds|Appraisal: Gao 2023]]
 
 ## Connections
 

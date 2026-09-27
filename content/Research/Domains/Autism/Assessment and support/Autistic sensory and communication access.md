@@ -3,15 +3,15 @@ note_type: topic
 title: "Autistic sensory and communication access"
 domain: [psychology]
 condition: ['autism']
-source_count: 4
-up: "[[Autism - Assessment and support]]"
+source_count: 6
+up: "[[Autism Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology]
 content_layer: reference
 concept_kind: framework
 description: "Access as environmental and communicative design, the cost of camouflaging, and the qualitative evidence base behind these recommendations."
 secondary_domain: []
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Autistic sensory and communication access
@@ -28,7 +28,7 @@ reviewed: 2026-09-25
 - Autistic adults endorsed outcomes of well-being, adult support and accessibility, and reducing harmful behaviours, and did not endorse interventions aimed at reducing autism traits. [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-outcomes|P42411151]]
 - They described respecting authentic autistic communication, changing environments and reducing demands, and reported harms from being taught to hide autistic characteristics. [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-support|P42411151]]; [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-masking|P42411151]]
 - Existing quality-of-life measures for autistic adults with lower support needs have limitations in content validity, measurement invariance and cultural or linguistic adaptation; the authors do not establish that no validated instruments exist, and self-report and proxy report carry different limitations. [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-gap|P41993846]]; [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-report|P41993846]]
-- A recommendation to adapt an environment is a design principle rather than a measured effect. [[F24 NICE CG142 autism in adults diagnosis and management#^f25-caution|AI synthesis: F24]]
+- A recommendation to adapt an environment is a design principle rather than a measured effect. [[F24 NICE CG142 autism in adults diagnosis and management#^f25-caution|Appraisal: F24]]
 
 ## How it works
 
@@ -38,7 +38,7 @@ reviewed: 2026-09-25
 
 **Partnership.** Respect for autonomy and partnership in decisions is a stated principle, which shifts the framing from management of a deficit to support of participation. [[F24 NICE CG142 autism in adults diagnosis and management#^f25-partnership|Autism in adults: diagnosis and management]]
 
-**The camouflaging cost connects the literatures.** Autistic adults describe deliberate and less deliberate strategies for managing self-presentation, and report exhaustion and reduced sense of self as consequences, which is why access is not simply a courtesy. [[P28527095 Hull 2017 Social camouflaging#^p28527095-strategies|Social camouflaging]] [[P28527095 Hull 2017 Social camouflaging#^p28527095-consequence|Social camouflaging]] That documented effort gives the access recommendations their preventive logic: environments that do not demand camouflaging remove the burden rather than treating its consequences. [[P28527095 Hull 2017 Social camouflaging]] [[Masking and camouflaging]]
+**The camouflaging cost connects the literatures.** Autistic adults describe masking and compensation strategies for managing self-presentation, and report exhaustion and reduced sense of self as consequences, which is why access is not simply a courtesy. [[P28527095 Hull 2017 Social camouflaging#^p28527095-strategies|Social camouflaging]] [[P28527095 Hull 2017 Social camouflaging#^p28527095-consequence|Social camouflaging]] That documented effort gives the access recommendations their preventive logic: environments that do not demand camouflaging remove the burden rather than treating its consequences. [[P28527095 Hull 2017 Social camouflaging]] [[Masking and camouflaging]]
 
 **What the autistic-adults evidence adds.** The participatory literature finds that autistic adults prioritise wellbeing, autonomy, accessibility and reducing harmful behaviours over normalising outcomes, which is the value base the guideline's partnership and autonomy recommendations formalise - and a standing reminder that outcome choice is itself a design decision. [[P42411151 Nosova 2026 Autistic adults views on early interventions]] [[Intervention outcomes and autistic perspectives]]
 
@@ -50,12 +50,19 @@ reviewed: 2026-09-25
 
 Service availability varies by region and country, guideline recommendations are professional judgements rather than efficacy estimates, and adult outcome measures are still developing.
 
-## Related notes
+## Recent research
 
-- [[Autism support and services]]
-- [[Adult autism assessment and differential considerations]]
-- [[Functional outcomes and measurement]]
-- [[Autism heterogeneity and support needs]]
+- **2026 · Survey study (Autism).** In 154 responses from autistic adults aged 18 to 35, noise, crowding and unpredictability were tied to losing words, scripting and withdrawal, quiet familiar spaces eased self-expression, and talking with non-autistic partners took more effort and masking than talking with autistic partners. [[P42547992 Miller 2026 Environment and mixed-neurotype communication#^p42547992-environment|Miller 2026]] [[P42547992 Miller 2026 Environment and mixed-neurotype communication#^p42547992-partner|Miller 2026]] These are recalled experiences, not measured communication. [[P42547992 Miller 2026 Environment and mixed-neurotype communication#^p42547992-caution-recall|Appraisal: Miller 2026]]
+- **2024 · Qualitative study (Autism).** An autistic-led analysis of written survey accounts traced a path from early barriers, communication mismatch, doubt, helplessness and fear to healthcare avoidance and adverse health outcomes, and framed the encounter problem as a triple empathy problem. [[P37846479 Shaw 2024 Healthcare barriers and triple empathy#^p37846479-themes|Shaw 2024]] [[P37846479 Shaw 2024 Healthcare barriers and triple empathy#^p37846479-model|Shaw 2024]] Such data show which barriers people report, not how often they occur. [[P37846479 Shaw 2024 Healthcare barriers and triple empathy#^p37846479-caution-frequency|Appraisal: Shaw 2024]]
+
+## Connections
+
+- [[Autism support and services]] - the service structure these access principles are meant to shape: individualised programmes, adult teams and the outcomes used to judge them.
+- [[Adult autism assessment and differential considerations]] - communication access conditions the quality of assessment evidence, because accurate self-report and consent depend on questions being understood.
+- [[Functional outcomes and measurement]] - participation is the outcome access is meant to change, and the ICF framework treats it as distinct from symptoms.
+- [[Autism heterogeneity and support needs]] - sensory and communication differences are part of heterogeneity, which is why adaptation is matched to the person rather than applied as one standard.
+- [[Predictive processing accounts of autism]] - a candidate mechanism for the sensory differences these adaptations respond to; its support is mixed, whereas access recommendations rest on service-design principles.
+- [[Double empathy]] - the relational framing behind communication mismatch: difficulty located between partners, which makes the service side of an encounter part of access.
 
 ## Study question
 

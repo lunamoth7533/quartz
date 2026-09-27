@@ -49,8 +49,7 @@ Some neurons communicate through electrical synapses formed by gap junctions; th
 Educational overview written for a general audience; it simplifies and does not carry the qualifications of primary literature.
 ^f06-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological notes, not statements from the page.
 
 The chapter presents the biological-imbalance perspective as one psychological perspective and also documents receptor-dependent mixed effects; it does not resolve whether transmitter levels explain disorders, so this library treats one-transmitter explanations as oversimplified.
@@ -62,6 +61,8 @@ The chapter presents the biological-imbalance perspective as one psychological p
 - [[Serotonin signalling]]
 - [[Acetylcholine signalling]]
 - [[Chemical imbalance framing]]
+- [[Selective serotonin reuptake inhibitors]]
+- [[Serotonin-noradrenaline reuptake inhibitors]]
 
 ## Working notes
 

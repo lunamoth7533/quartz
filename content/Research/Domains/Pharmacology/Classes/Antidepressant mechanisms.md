@@ -7,9 +7,9 @@ concept_kind: mechanism
 domain: [pharmacology, clinical-psychiatry]
 secondary_domain: []
 condition: []
-source_count: 6
-reviewed: 2026-09-25
-up: "[[Pharmacology - Classes]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/pharmacology, research/domain/clinical]
 ---
@@ -29,20 +29,33 @@ Antidepressants act mainly by increasing monoamine availability through reuptake
 
 **Adaptation.** Receptor and transporter changes develop over days to weeks, which is also why discontinuation effects occur. [[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance#^p25566076-tolerance|Opioid receptor desensitization and tolerance]]
 
-**What the mechanism does not settle.** Mechanism plausibility does not tell a reader who will respond, how quickly or at what cost; those are empirical questions answered by trials with named outcomes and raters, and the tolerability picture differs between agents and age groups. The pharmacological time course in a review is a hypothesis-generating structure, not a treatment plan. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-tolerability|ADHD medication efficacy and tolerability]]
+**What the mechanism does not settle.** Mechanism plausibility does not tell a reader who will respond, how quickly or at what cost; those are empirical questions answered by trials with named outcomes and raters, and the tolerability picture differs between drugs and age groups. The pharmacological time course in a review is a hypothesis-generating structure, not a treatment plan. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-tolerability|ADHD medication efficacy and tolerability]]
 
 **Reading rule.** Separate acute target engagement, early processing change, delayed clinical change and mechanism proposals. Each is a different claim with a different evidence base, and collapsing them is how a transporter story becomes a story about depression. [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-monoamine|How do antidepressants work?]]
 
 ## Evidence and status
 
-Mechanistic proposals are hypotheses under test; efficacy evidence comes from randomised trials and meta-analyses, with effect sizes depending on severity, outcome and comparator. [[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-caution-use|AI appraisal: Mass production of systematic reviews]] The trials are numerous, small and sometimes duplicated in publications, so meta-analytic estimates carry publication and study-quality issues alongside clinical heterogeneity. That is not a reason to dismiss the evidence; it is why certainty language matters as much as effect sizes. [[P27620683 Ioannidis 2016 Mass production of systematic reviews|Mass production of systematic reviews]] [[Efficacy versus tolerability]]
+Mechanistic proposals are hypotheses under test; efficacy evidence comes from randomised trials and meta-analyses, with effect sizes depending on severity, outcome and comparator. [[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-caution-use|Appraisal: Mass production of systematic reviews]] The trials are numerous, small and sometimes duplicated in publications, so meta-analytic estimates carry publication and study-quality issues alongside clinical heterogeneity. That is not a reason to dismiss the evidence; it is why certainty language matters as much as effect sizes. [[P27620683 Ioannidis 2016 Mass production of systematic reviews|Mass production of systematic reviews]] [[Efficacy versus tolerability]]
+
+## Recent research
+
+- **2024 · Narrative review (Molecular Psychiatry).** Sharpens the delay problem from the other side: ketamine and esketamine can act rapidly in treatment-resistant depression with effects that outlast the drug, and the review argues that pharmacologically diverse rapid-acting compounds converge on stronger excitatory synapses and altered capacity for later plasticity, a version of the plasticity account above. [[P38177353 Brown 2024 Metaplasticity and sustained antidepressant action#^p38177353-rapid|Brown 2024]] [[P38177353 Brown 2024 Metaplasticity and sustained antidepressant action#^p38177353-convergence|Brown 2024]] The synthesis is largely preclinical and concerns rapid-acting compounds, so it does not show that conventional monoamine drugs work the same way. [[P38177353 Brown 2024 Metaplasticity and sustained antidepressant action#^p38177353-caution-scope|Appraisal: Brown 2024]]
 
 ## Connections
 
 This article belongs with [[Drug classes and mechanisms overview]] and is referenced from the clinical and condition domains. It contains no dose or prescribing guidance.
 
+- [[Adult neurogenesis]] - the neurogenic version of the plasticity account, resting on rodent ablation work while the existence of adult human hippocampal neurogenesis is itself disputed.
+- [[Selective serotonin reuptake inhibitors]] - the class in which the delay between immediate transporter block and weeks-long clinical change is best documented, with its uses and harms by condition.
+- [[Serotonin-noradrenaline reuptake inhibitors]] - dual transporter block tested in depression and chronic pain, showing that one mechanism can serve two indications with separate evidence.
+- [[Tricyclic antidepressants]] - the older dual-reuptake class whose efficacy matches newer drugs while anticholinergic effects and overdose risk rank it second-line.
+- [[Monoamine oxidase inhibitors]] - the enzyme-inhibition route to the same monoamine rise, with the same delay and a class-defining interaction burden.
+- [[Atypical antidepressants]] - drugs with different first targets, from alpha-2 blockade to melatonergic agonism, that converge on the same clinical use.
+- [[Ketamine and rapid-acting antidepressants]] - fast-onset treatments that sharpen the delay problem and extend the plasticity account beyond monoamines.
+- [[Psychedelics and MDMA-assisted therapy]] - serotonin-receptor activation within structured therapy, tested for speed and durability under imperfect blinding.
+
 **Cross-domain connection (curation).** Psychology's therapy-evidence articles and this note meet at the same trial literature: both domains read effect sizes with raters, comparators and certainty grades attached, and neither can convert a group average into an individual prediction. [[Therapy models overview]] [[Efficacy versus tolerability]]
 
 ## Uncertainties
 
-- Why some people respond to one agent and not another is not predicted by mechanism.
+- Why some people respond to one drug and not another is not predicted by mechanism.

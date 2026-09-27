@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/cptsd, research/domain/psychology]
+tags: [research/source, research/recent, research/condition/cptsd, research/domain/psychology]
 ---
 
 # Efficacy of psychological interventions for complex post-traumatic stress disorder in adults exposed to complex traumas: A meta-analysis of randomized controlled trials.
@@ -51,8 +51,7 @@ Participants with childhood trauma showed lower effects than those with other tr
 Meta-analysis of psychological therapies in adults with complex trauma; the authors call for work on how interventions can be tailored.
 ^p40154799-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Complex trauma exposure in these trials is not the same category as a formal ICD-11 complex PTSD diagnosis, so group averages should not be read as individual prognosis.
@@ -62,6 +61,7 @@ Complex trauma exposure in these trials is not the same category as a formal ICD
 
 - [[Bias and confounding]]
 - [[Psychological interventions for complex trauma]]
+- [[Adverse childhood experiences]]
 
 ## Working notes
 

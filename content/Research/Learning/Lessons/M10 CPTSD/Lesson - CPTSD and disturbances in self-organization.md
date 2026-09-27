@@ -51,7 +51,7 @@ PTSD.
 [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-definition|Complex PTSD: History and Definitions]]
 And the three domains come from the ICD-11 criteria and the VA overview rather than from the introductory
 editorial, which is a provenance note rather than a scientific claim.
-[[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|AI synthesis: ICD-11 complex PTSD editorial]]
+[[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|Appraisal: ICD-11 complex PTSD editorial]]
 
 In practice the three domains overlap: affect dysregulation, negative self-concept and relational difficulty
 feed one another, and instruments operationalize them differently across studies. That is a live measurement

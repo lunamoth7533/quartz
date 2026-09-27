@@ -48,8 +48,7 @@ Sleep timing is regulated by circadian rhythms interacting with homeostatic slee
 Educational overview written for a general audience; it simplifies and does not carry the qualifications of primary literature.
 ^f14-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological notes, not statements from the page.
 
 The NINDS sleep page could not be re-fetched on 2026-09-24 (HTTP 403). Its key points rest on the parent verification recorded in EVIDENCE.md.
@@ -59,6 +58,8 @@ The NINDS sleep page could not be re-fetched on 2026-09-24 (HTTP 403). Its key p
 
 - [[Circadian rhythms and sleep]]
 - [[Psychoeducation and social rhythms]]
+- [[Sleep and circadian disruption across conditions]]
+- [[Neural oscillations]]
 
 ## Working notes
 

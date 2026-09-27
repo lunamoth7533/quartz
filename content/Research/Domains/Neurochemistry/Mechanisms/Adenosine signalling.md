@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Neurochemistry - Mechanisms]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurochemistry]
 ---
@@ -31,7 +31,7 @@ Adenosine is a nucleoside that acts as a signalling molecule throughout the body
 
 ## Evidence and status
 
-The metabolic relationship and receptor pharmacology are established experimentally; sleep-pressure models combine this with behavioural and electrophysiological measures. Attribution of sleep pressure to adenosine alone is a simplification, since other signals also accumulate with wakefulness and chronic caffeine use produces adaptive changes. [[F98 OpenStax Psychology 2e stages of sleep#^f98-stages|Stages of Sleep]] [[F14 NINDS Brain basics understanding sleep#^f14-rhythm|Brain Basics: Understanding Sleep]] Adenosine's role in sleep is supported mainly at the level of receptor pharmacology and animal work; claims that an intervention "clears adenosine" or "restores receptor sensitivity" in people are marketing rather than evidence, and the general sleep source used here is an educational overview rather than a trial. [[F14 NINDS Brain basics understanding sleep#^f14-caution-ninds|AI synthesis: Brain Basics: Understanding Sleep]] [[F62 Neuroscience Online biogenic amines#^f62-limit|Biogenic Amines]]
+The metabolic relationship and receptor pharmacology are established experimentally; sleep-pressure models combine this with behavioural and electrophysiological measures. Attribution of sleep pressure to adenosine alone is a simplification, since other signals also accumulate with wakefulness and chronic caffeine use produces adaptive changes. [[F98 OpenStax Psychology 2e stages of sleep#^f98-stages|Stages of Sleep]] [[F14 NINDS Brain basics understanding sleep#^f14-rhythm|Brain Basics: Understanding Sleep]] Adenosine's role in sleep is supported mainly at the level of receptor pharmacology and animal work; claims that an intervention "clears adenosine" or "restores receptor sensitivity" in people are marketing rather than evidence, and the general sleep source used here is an educational overview rather than a trial. [[F14 NINDS Brain basics understanding sleep#^f14-caution-ninds|Appraisal: Brain Basics: Understanding Sleep]] [[F62 Neuroscience Online biogenic amines#^f62-limit|Biogenic Amines]]
 
 ## Connections
 

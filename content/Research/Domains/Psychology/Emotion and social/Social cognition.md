@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Psychology - Emotion and social]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology]
 ---
@@ -33,7 +33,7 @@ Social cognition covers the processes by which people perceive and reason about 
 
 **Cultural context.** Cultural expectations shape what counts as appropriate social behaviour, which is why social-cognitive findings cannot be read as culture-free norms. [[F47 OpenStax Psychology 2e psychological disorders#^f47-cultural|What Are Psychological Disorders?]]
 
-**Reading rule.** Name the construct, the task, the comparison group and the informant, and state whether the claim is about capacity, performance or interaction. Most disputes in this area are disputes about which of the three a study measured. [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-difference|Predictive coding algorithms]] [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI appraisal: Autism spectrum disorder primer]]
+**Reading rule.** Name the construct, the task, the comparison group and the informant, and state whether the claim is about capacity, performance or interaction. Most disputes in this area are disputes about which of the three a study measured. [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-difference|Predictive coding algorithms]] [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]]
 
 ## Evidence and status
 
@@ -42,6 +42,8 @@ Attribution and mentalising effects are established in laboratory paradigms; the
 ## Connections
 
 This note is used in the autism domain for [[Social cognition accounts]] and [[Double empathy]], and it connects to [[Personality models]].
+
+- [[Alexithymia]] - a co-occurring trait tested as an alternative explanation for some emotion-recognition differences attributed to autism; in non-clinical adults it tracks poorer emotion recognition and empathy.
 
 **Cross-domain connection (curation).** The autism condition domain is where these frameworks are contested most visibly, and the computational domain's probabilistic accounts supply the most formal proposals; this article holds the middle position that the constructs are measurable but theory-laden, which is the disciplined reading both domains depend on. [[Social cognition accounts]] [[Autism heterogeneity and support needs]]
 

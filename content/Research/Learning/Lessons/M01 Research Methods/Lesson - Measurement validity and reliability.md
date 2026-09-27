@@ -46,11 +46,11 @@ relationships with other measures and groups.
 
 The distinction earns its keep in clinical research. In the ADHD literature, clinician-rated and self-rated
 outcomes can disagree, which makes the rater part of the measurement rather than a neutral observer.
-[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD (Cochrane review)]]
+[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD (Cochrane review)]]
 
 So the working rule: reliable is not valid, valid is not universal, and a score always carries its population,
 purpose and rater.
-[[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|AI synthesis: Developing and Validating Scales]]
+[[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|Appraisal: Developing and Validating Scales]]
 
 ## Worked example (hypothetical)
 

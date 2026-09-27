@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Construct families]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical]
 ---

@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Regions]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/psychology]
 ---
@@ -35,11 +35,13 @@ The hippocampal formation comprises the dentate gyrus, the hippocampus proper an
 
 Anatomy and the memory association are well established; mechanistic claims usually come from animal preparations and are extrapolated to humans. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]]
 
-**What the model does not carry.** Slice and animal preparations establish mechanism; they do not measure human memory, and the transposition from a cellular phenomenon to a memory claim requires behavioural evidence that the same manipulation changes recall. The plasticity review also notes that human non-invasive effects described as LTP-like have not demonstrated the defining features of LTP. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]] [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|AI appraisal: Long-term potentiation and depression]]
+**What the model does not carry.** Slice and animal preparations establish mechanism; they do not measure human memory, and the transposition from a cellular phenomenon to a memory claim requires behavioural evidence that the same manipulation changes recall. The plasticity review also notes that human non-invasive effects described as LTP-like have not demonstrated the defining features of LTP. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]] [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|Appraisal: Long-term potentiation and depression]]
 
 ## Connections
 
 The hippocampal system is the anatomical setting for [[Memory and trauma]], [[Episodic memory]] and the plasticity material in [[Long-term potentiation and depression]].
+
+- [[Adult neurogenesis]] - whether new granule cells join the dentate gyrus in adult humans, and why post-mortem methods have not settled the question.
 
 ## Uncertainties
 

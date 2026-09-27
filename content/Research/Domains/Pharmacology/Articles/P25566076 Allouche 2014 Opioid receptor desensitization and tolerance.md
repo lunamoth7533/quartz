@@ -50,8 +50,7 @@ Those processes include phosphorylation, uncoupling, internalisation and post-en
 A narrative review of receptor pharmacology, synthesising cell-system and animal studies rather than testing a clinical intervention. The mechanisms are described for opioid receptors and are not presented as a general account of every drug's tolerance.
 ^p25566076-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the review.
 
 This source is used in the pharmacology module as one checked example that tolerance can have receptor-level mechanisms; it does not licence a universal desensitisation story for every drug, and mechanism detail cannot be transferred between drug classes without their own evidence.

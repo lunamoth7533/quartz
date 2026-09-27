@@ -8,9 +8,9 @@ concept_kind: process
 domain: [pharmacology, neurochemistry]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Pharmacology - Action]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/pharmacology, research/domain/neurochemistry]
 ---
@@ -41,6 +41,10 @@ Tolerance is reduced effect after repeated exposure; dependence is a state in wh
 ## Evidence and status
 
 Receptor-level adaptation is well characterised in cell and animal systems; predicting an individual's tolerance or withdrawal from mechanism alone is not reliable.
+
+## Recent research
+
+- **2024 · Systematic review and meta-analysis (Lancet Psychiatry).** Puts a number on antidepressant withdrawal: across 79 studies, about 31% of people had at least one discontinuation symptom after stopping an antidepressant against about 17% after stopping placebo, giving an estimated specific incidence of roughly one in six to seven, with severe symptoms in about 3%. [[P38851198 Henssler 2024 Antidepressant discontinuation symptom incidence#^p38851198-limit|Henssler 2024]] [[P38851198 Henssler 2024 Antidepressant discontinuation symptom incidence#^p38851198-incidence|Henssler 2024]] [[P38851198 Henssler 2024 Antidepressant discontinuation symptom incidence#^p38851198-severe|Henssler 2024]] The placebo-group rate shows how much of what follows stopping is non-specific, which matters when withdrawal has to be told apart from relapse. [[P38851198 Henssler 2024 Antidepressant discontinuation symptom incidence#^p38851198-caution-incidence|Appraisal: Henssler 2024]]
 
 ## Connections
 

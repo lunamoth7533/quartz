@@ -51,8 +51,7 @@ Risk-gene expression was enriched in excitatory and inhibitory lineages, which t
 Genetic association study using rare de novo and case-control variation; it estimates population-level risk contributions.
 ^p31981491-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Finding a risk gene does not determine an individual's traits, strengths or support needs.

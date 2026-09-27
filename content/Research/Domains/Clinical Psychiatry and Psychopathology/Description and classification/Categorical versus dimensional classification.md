@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [clinical-psychiatry, research-methods]
 secondary_domain: []
 condition: []
-source_count: 7
-reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Description and classification]]"
+source_count: 8
+reviewed: 2026-09-27
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical, research/domain/methods]
 ---
@@ -41,9 +41,15 @@ Categorical classification assigns people to groups; dimensional classification 
 
 The empirical case for dimensionality is strong for many constructs; how to translate dimensions into decisions is unresolved, which is why hybrid models are proposed. The network approach is a theoretical proposal with early empirical support, not a replacement for classification in clinical use, and its own literature discusses its limitations. [[P28127906 Borsboom 2017 Network theory#^p28127906-status|Network theory]] [[P28127906 Borsboom 2017 Network theory#^p28127906-limit|Network theory]]
 
+## Recent research
+
+- **2024 · Systematic review (Journal of psychopathology and clinical science).** Among large neuroimaging studies, replicated brain correlates appeared for dimensions at five levels of the HiTOP hierarchy, from the general p-factor to the depression symptom dimension, evidence that dimensional targets can be studied biologically in what the authors call a young field. [[P39480338 DeYoung 2024 HiTOP and neurobiological substrates#^p39480338-replicated|DeYoung 2024]] [[P39480338 DeYoung 2024 HiTOP and neurobiological substrates#^p39480338-limits|DeYoung 2024]] Replication shows association in large samples, not biologically separate kinds. [[P39480338 DeYoung 2024 HiTOP and neurobiological substrates#^p39480338-caution-dimensions|Appraisal: DeYoung 2024]]
+
 ## Connections
 
 This note frames the whole clinical domain and connects to [[Network and developmental formulations]].
+
+- [[Emotion dysregulation across conditions]] - a worked example of a dimension that runs across categories: dysregulation described in ADHD, bipolar disorder, autism and complex PTSD rather than owned by one diagnosis.
 
 **Cross-domain connection (curation).** The measurement-invariance article is the dimensional programme's load-bearing methods dependency - spectra are only comparable across groups and time if their measures hold invariance - and the personality article is the domain where dimensional measurement is longest established. [[Measurement invariance]] [[Personality models]]
 

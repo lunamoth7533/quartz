@@ -40,7 +40,7 @@ Families are often the major source of support, and autistic perspectives belong
 [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-support|Autism spectrum disorder primer]]
 
 Child intervention findings do not automatically transfer to adults.
-[[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI synthesis: Autism spectrum disorder primer]]
+[[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]]
 
 Co-occurrence adds another dimension: registry data associate autism combined with ADHD with lower quality of
 life and poorer adaptive functioning than either condition alone.

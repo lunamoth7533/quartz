@@ -53,7 +53,7 @@ effects in participants with childhood trauma.
 
 The summary rule: a review is a method with a paper trail. Ask which studies were eligible, how they were
 appraised, what was pre-specified, who funded and wrote it, and what the certainty rating is.
-[[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-caution-use|AI synthesis: Mass production of systematic reviews]]
+[[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-caution-use|Appraisal: Mass production of systematic reviews]]
 
 ## Worked example (hypothetical)
 

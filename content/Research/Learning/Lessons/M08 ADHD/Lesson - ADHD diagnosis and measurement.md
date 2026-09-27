@@ -32,7 +32,7 @@ The use of objective diagnostic measures is listed among the open questions in a
 
 Rating scales measure reports. An informant's report and a self-report are different measurements, and
 clinician-rated and self-rated outcomes can disagree.
-[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD (Cochrane review)]]
+[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD (Cochrane review)]]
 
 Treatment trials make the consequence concrete. A 2025 synthesis of 113 adult trials found that stimulants and
 atomoxetine reduced core symptoms on both self- and clinician-rated scales at 12 weeks, while cognitive

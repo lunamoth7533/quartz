@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/bipolar-i, research/domain/pharmacology, research/domain/psychology]
+tags: [research/source, research/recent, research/condition/bipolar-i, research/domain/pharmacology, research/domain/psychology]
 ---
 
 # The CANMAT and ISBD Guidelines for the Treatment of Bipolar Disorder: Summary and a 2023 Update of Evidence.
@@ -48,8 +48,7 @@ The stated objective is to help clinicians navigate a rapidly changing treatment
 Summary of a clinical guideline (2018 CANMAT/ISBD recommendations plus a 2023 evidence update), not a new trial.
 ^p38695002-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Phase-specific medication detail lives in the full guideline. This record is a summary of a summary and carries no prescribing or dose guidance.

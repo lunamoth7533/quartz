@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 6
 reviewed: 2026-09-25
-up: "[[Research Methods and Measurement - Measurement]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/methods, research/domain/neuroendocrine]
 ---
@@ -23,7 +23,7 @@ Psychophysiology measures body signals - heart activity, skin conductance, pupil
 
 **What the approach measures.** Psychophysiology records physiological signals continuously and non-invasively as indices of autonomic and central state, which makes them attractive; they are also influenced by many things at once, which is the central methodological problem. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-metrics|Heart rate variability metrics]]
 
-**Each signal indexes a different physiological layer.** Skin conductance indexes sympathetic arousal through sweat-gland activity driven by sympathetic fibres; heart rate and its variability index cardiac autonomic control through multiple rhythms, with heart rate variability reflecting respiratory, baroreflex and autonomic influences; pupil size reflects light plus arousal and cognitive load; EEG indexes summed cortical postsynaptic currents; cortisol indexes the slower hormonal arm. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-metrics|Heart rate variability metrics]] Because the layers are coupled but not identical, agreement and disagreement between them are both informative - and a claim from one layer about another (heart rate from EEG, emotion from cortisol) needs the coupling evidence stated. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI appraisal: Heart rate variability metrics]] [[F08 OpenStax What is stress#^f08-axis|What Is Stress?]]
+**Each signal indexes a different physiological layer.** Skin conductance indexes sympathetic arousal through sweat-gland activity driven by sympathetic fibres; heart rate and its variability index cardiac autonomic control through multiple rhythms, with heart rate variability reflecting respiratory, baroreflex and autonomic influences; pupil size reflects light plus arousal and cognitive load; EEG indexes summed cortical postsynaptic currents; cortisol indexes the slower hormonal arm. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-metrics|Heart rate variability metrics]] Because the layers are coupled but not identical, agreement and disagreement between them are both informative - and a claim from one layer about another (heart rate from EEG, emotion from cortisol) needs the coupling evidence stated. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: Heart rate variability metrics]] [[F08 OpenStax What is stress#^f08-axis|What Is Stress?]]
 
 **The worked example: heart rate variability.** HRV metrics fall into time-domain, frequency-domain and non-linear families with different recording requirements; baseline values depend on recording length, age, sex and posture; published norms are not interchangeable; and the LF/HF ratio is controversial because autonomic interactions are non-linear and respiration confounds the band. Breathing, heart rate, medication and individual factors all influence recorded values. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-metrics|Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-context|Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-lfhf|Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-confounds|Heart rate variability metrics]]
 
@@ -35,7 +35,7 @@ Psychophysiology measures body signals - heart activity, skin conductance, pupil
 
 **Inference steps.** Moving from a signal to a construct such as stress or emotion regulation requires a chain of assumptions, and each link should be stated. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-limit|Heart rate variability metrics]]
 
-**Reading rule.** For any psychophysiology claim, name the signal, the recording conditions, the construct being inferred, and the confounds controlled. The library's own caution is explicit: heart rate variability is not a direct readout of stress, calm or one autonomic branch, and a single short recording cannot separate the influences involved. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI appraisal: Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-limit|Heart rate variability metrics]]
+**Reading rule.** For any psychophysiology claim, name the signal, the recording conditions, the construct being inferred, and the confounds controlled. The library's own caution is explicit: heart rate variability is not a direct readout of stress, calm or one autonomic branch, and a single short recording cannot separate the influences involved. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-limit|Heart rate variability metrics]]
 
 ## Evidence and status
 

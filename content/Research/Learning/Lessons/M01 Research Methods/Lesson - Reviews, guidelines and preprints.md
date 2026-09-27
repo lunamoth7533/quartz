@@ -44,7 +44,7 @@ preferences.
 
 Consensus statements in particular reflect judgement about a literature that keeps changing. When a treatment
 question matters, check whether a newer primary study or a newer synthesis has appeared after the consensus.
-[[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|AI synthesis: World Federation ADHD consensus statement]]
+[[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|Appraisal: World Federation ADHD consensus statement]]
 
 Preprints add a timing problem: they may be the newest thing available and they have not completed peer review.
 Treat a preprint as a claim to check against its data, not as a settled result.

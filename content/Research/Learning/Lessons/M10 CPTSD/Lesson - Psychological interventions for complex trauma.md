@@ -45,7 +45,7 @@ The authors call for work on how interventions can be tailored.
 
 One boundary is easy to miss: complex trauma exposure in these trials is not the same category as a formal
 ICD-11 complex PTSD diagnosis.
-[[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-caution-category|AI synthesis: Psychological interventions for complex PTSD]]
+[[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-caution-category|Appraisal: Psychological interventions for complex PTSD]]
 
 So the honest summary has three parts: psychotherapy outperformed control on several outcomes on average;
 effects attenuated somewhat at follow-up for some outcomes; and the pooled sample is heterogeneous, with

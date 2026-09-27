@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [genetics-neurodevelopment]
 secondary_domain: []
 condition: []
-source_count: 7
-reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Genetics]]"
+source_count: 9
+reviewed: 2026-09-27
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics]
 ---
@@ -41,9 +41,16 @@ Gene-environment interplay covers several distinct phenomena: interaction (the e
 
 **What this note does not claim.** It does not claim demonstrated human transgenerational inheritance of trauma-related marks; the studies that would support it are rare, small and contested in design. It does not claim that a peripheral mark indexes a brain state. And it does not claim that heritability estimates settle the nature-nurture question: they decompose variation within a population at a time, not the development of an individual. [[F07 OpenStax Human genetics#^f07-heritability|Human genetics]] [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-limit|10 years of GWAS discovery]]
 
+## Recent research
+
+- **2024 · Epigenome-wide meta-analysis (Genome Medicine).** Across 23 military and civilian cohorts (5,077 trauma-exposed participants), blood methylation at 11 CpG sites was associated with PTSD, and many of the sites had methylation levels correlated between blood and brain. [[P39696436 Katrinli 2024 PTSD epigenome-wide meta-analysis#^p39696436-limit|Katrinli 2024]] [[P39696436 Katrinli 2024 PTSD epigenome-wide meta-analysis#^p39696436-cpgs|Katrinli 2024]] [[P39696436 Katrinli 2024 PTSD epigenome-wide meta-analysis#^p39696436-brain|Katrinli 2024]] This is the site-by-site cross-tissue evidence the note asks for, but in a cross-sectional design the marks may reflect susceptibility, trauma, the disorder or its sequelae, and PTSD is not the same construct as complex PTSD. [[P39696436 Katrinli 2024 PTSD epigenome-wide meta-analysis#^p39696436-caution-direction|Appraisal: Katrinli 2024]]
+- **2023 · Systematic review and meta-analysis of quasi-experimental studies (American Journal of Psychiatry).** Across 34 studies (54,646 participants) using twin, sibling, adoption and related designs, the link between childhood maltreatment and mental health problems shrank from d = 0.56 to d = 0.31 after adjustment for confounding but did not disappear. [[P36628513 Baldwin 2023 Childhood maltreatment quasi-experimental meta-analysis#^p36628513-limit|Baldwin 2023]] [[P36628513 Baldwin 2023 Childhood maltreatment quasi-experimental meta-analysis#^p36628513-attenuation|Baldwin 2023]] [[P36628513 Baldwin 2023 Childhood maltreatment quasi-experimental meta-analysis#^p36628513-designs|Baldwin 2023]] It shows the design logic above at work - part of the raw association reflects wider genetic and environmental risk - while each design still rests on its own assumptions. [[P36628513 Baldwin 2023 Childhood maltreatment quasi-experimental meta-analysis#^p36628513-interpretation|Baldwin 2023]] [[P36628513 Baldwin 2023 Childhood maltreatment quasi-experimental meta-analysis#^p36628513-caution-designs|Appraisal: Baldwin 2023]]
+
 ## Connections
 
 This note qualifies [[Inheritance and variation]] and connects to [[Sensitive periods]] and to the stress material in [[Allostasis and chronic stress]].
+
+- [[Adverse childhood experiences]] - a counted-adversity framework whose raw associations with later health partly reflect shared genetic and environmental risk, as quasi-experimental designs show.
 
 ## Uncertainties
 

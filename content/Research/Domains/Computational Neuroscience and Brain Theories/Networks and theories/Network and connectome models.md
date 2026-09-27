@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Computational Neuroscience and Brain Theories - Networks and theories]]"
+up: "[[Computational Neuroscience and Brain Theories Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/computational, research/domain/neuroanatomy]
 ---
@@ -37,11 +37,13 @@ Network models represent the brain as nodes (regions or neurons) connected by ed
 
 ## Evidence and status
 
-Structural connectivity from animal tracing is direct; human functional network findings are reproducible at the group level but sensitive to analysis choices and modest in individual-level reliability. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-power|Neuroimaging reproducibility]] Connectome estimates inherit analytic flexibility and modest power, with data and code sharing, preregistration, larger samples and multiverse analyses proposed as responses; a group connectome is a sample description rather than an individual fingerprint, and it does not identify an individual. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-practice|Neuroimaging reproducibility]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
+Structural connectivity from animal tracing is direct; human functional network findings are reproducible at the group level but sensitive to analysis choices and modest in individual-level reliability. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-power|Neuroimaging reproducibility]] Connectome estimates inherit analytic flexibility and modest power, with data and code sharing, preregistration, larger samples and multiverse analyses proposed as responses; a group connectome is a sample description rather than an individual fingerprint, and it does not identify an individual. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-practice|Neuroimaging reproducibility]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
 
 ## Connections
 
 This note applies the systems material from [[Association cortex and networks]] and provides the framework used in [[Network and developmental formulations]] in the clinical domain.
+
+- [[Default mode, salience and executive networks]] - one substantive use of these methods: three named networks, the triple-network model of psychopathology, and why its clinical findings shift with design.
 
 **Cross-domain connection (curation).** The neurology domain's lesion-based localisation and this network framing are complementary lenses on one system - lesions test necessity, network measures describe coordination - and clinical articles that mix them should say which lens each claim uses. [[History and localisation]] [[Interpreting group brain differences]]
 

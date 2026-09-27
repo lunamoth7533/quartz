@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Genetics]]"
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics]
 ---
@@ -37,7 +37,7 @@ Inheritance describes how genetic variants are transmitted from parents to offsp
 
 **Genomics changes the scale of the question.** Genomics studies the whole set of genetic material rather than single genes, which changes the kinds of question that can be asked about a trait, and it connects to areas such as pharmacogenomics and drug development, each with its own evidence base and time frame. [[F66 NHGRI Genomics fact sheet#^f66-scope|Genomics fact sheet]] [[F66 NHGRI Genomics fact sheet#^f66-applications|Genomics fact sheet]] [[F66 NHGRI Genomics fact sheet#^f66-updates|Genomics fact sheet]]
 
-**Reading rule.** Distinguish transmission, heritability, association and individual prediction; each is a different claim, and moving between them silently is the most common error in popular genetics writing. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|AI appraisal: 10 years of GWAS discovery]] [[F07 OpenStax Human genetics#^f07-limit|Human Genetics]]
+**Reading rule.** Distinguish transmission, heritability, association and individual prediction; each is a different claim, and moving between them silently is the most common error in popular genetics writing. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|Appraisal: 10 years of GWAS discovery]] [[F07 OpenStax Human genetics#^f07-limit|Human Genetics]]
 
 ## Evidence and status
 
@@ -46,6 +46,8 @@ Inheritance patterns for monogenic conditions are established; heritability esti
 ## Connections
 
 This is the conceptual bridge between [[DNA RNA and gene expression]] and [[Common and rare variants]], and it is the reason [[Genome-wide association studies]] replaced candidate-gene reasoning.
+
+- [[Heritability and twin studies]] - takes this note's heritability paragraph further: how twin designs produce the estimates, the figures for the library's conditions, and the gap between twin and molecular estimates.
 
 **Cross-domain connection (curation).** The pharmacology domain's pharmacogenomics interest and this note's complex-inheritance limits meet at the same boundary: single-gene prediction works where single genes are decisive, and psychiatric-relevant traits sit mostly on the polygenic side of that line. [[Genetic inference and polygenic scores]] [[Drug classes and mechanisms overview]]
 

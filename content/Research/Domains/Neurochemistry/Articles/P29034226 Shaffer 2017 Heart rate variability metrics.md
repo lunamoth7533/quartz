@@ -57,8 +57,7 @@ Breathing, heart rate, medication and individual factors all influence recorded 
 A methodological review that surveys metrics and published norms; it is a measurement resource rather than a study of any clinical population, and it does not establish HRV as a diagnostic or treatment target.
 ^p29034226-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the review.
 
 Heart rate variability is not a direct readout of stress, calm or one autonomic branch. A single short recording cannot separate the influences the review lists, which is why autonomic claims in this vault stay at the level of physiology and model-building, never personal interpretation.
@@ -73,4 +72,4 @@ Heart rate variability is not a direct readout of stress, calm or one autonomic 
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

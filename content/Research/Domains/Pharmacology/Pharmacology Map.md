@@ -4,7 +4,7 @@ title: "Pharmacology Map"
 map_kind: foundation
 condition: []
 domain: [pharmacology]
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map]
 content_layer: reference
@@ -17,9 +17,16 @@ concept_kind: framework
 
 Pharmacology has two directions: what the body does to a drug and what the drug does to the body, plus the trial logic that evaluates both.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Core sequence|Core sequence]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Evidence gaps|Evidence gaps]], [[#Study question|Study question]], [[#Learning layer|Learning layer]]
 
-## Reference overview
+## Concept register
+
+- **Exposure:** [[Pharmacokinetics and ADME]], [[Half-life and steady state]]
+- **Action:** [[Pharmacodynamics and receptors]], [[Target binding and dose-response]], [[Receptor adaptation tolerance and dependence|Receptor adaptation, tolerance and dependence]], [[Monoamine reuptake and degradation]]
+- **Classes:** [[Drug classes and mechanisms overview]], [[Antidepressant mechanisms]], [[Antipsychotic mechanisms]], [[Stimulant and non-stimulant mechanisms]], [[Selective serotonin reuptake inhibitors]], [[Serotonin-noradrenaline reuptake inhibitors]], [[Tricyclic antidepressants]], [[Monoamine oxidase inhibitors]], [[Atypical antidepressants]], [[Ketamine and rapid-acting antidepressants]], [[Psychedelics and MDMA-assisted therapy]]
+- **Safety and evidence:** [[Therapeutic index, monitoring and interactions]], [[Efficacy versus tolerability]], [[Trial endpoints, benefit and harms]]
+
+## Overview
 
 Pharmacology describes what the body does to a drug and what a drug does to the body, and then
 asks how that translates into measured benefit and harm. The domain is included here because
@@ -56,11 +63,11 @@ comparator determines what a result supports. [[Drug classes and mechanisms over
 
 **Evidence boundaries.** Binding and functional assays are in vitro or animal measurements; trial
 populations differ from clinic populations; efficacy and tolerability trade off differently across
-people; and this library contains no dose, titration or individualised guidance. [[Efficacy versus tolerability]] [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|AI synthesis: ADHD medication efficacy and tolerability]]
+people; and this library contains no dose, titration or individualised guidance. [[Efficacy versus tolerability]] [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|Appraisal: ADHD medication efficacy and tolerability]]
 
 **Where to start.** [[Pharmacokinetics and ADME]] and [[Half-life and steady state]] for exposure, [[Target binding and dose-response]] for action, and [[Trial endpoints, benefit and harms]] for how effects are established. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Pharmacology explains how drugs move through the body, how they act at targets, and how their effects are measured. The organising distinction is between exposure - what the body does to the drug - and response - what the drug does to the body.
 
@@ -71,21 +78,6 @@ Response begins with binding. Affinity, efficacy and potency are separate proper
 Repeated action produces adaptation. Tolerance can be partial and effect-specific, and receptor-level processes including desensitisation and trafficking are part of the explanation; dependence and withdrawal overlap with, but are not identical to, tolerance. [[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance#^p25566076-tolerance|Opioid receptor desensitization and tolerance]] [[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance#^p25566076-mechanism|Opioid receptor desensitization and tolerance]] [[P23789008 Griffin 2013 Benzodiazepine pharmacology#^p23789008-risks|Benzodiazepine pharmacology]]
 
 Evidence comes from trials with specific endpoints, raters and durations. Effects differ by who rates the outcome and by what the comparator is, and long-term literature is thinner than short-term literature for most classes. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-efficacy|ADHD medication efficacy and tolerability]] [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-longterm|ADHD medication efficacy and tolerability]]
-
-## Concept register
-
-- **[[Pharmacology - Exposure|Exposure]]:** [[Pharmacokinetics and ADME]], [[Half-life and steady state]]
-- **[[Pharmacology - Action|Action]]:** [[Pharmacodynamics and receptors]], [[Target binding and dose-response]], [[Receptor adaptation tolerance and dependence|Receptor adaptation, tolerance and dependence]], [[Monoamine reuptake and degradation]]
-- **[[Pharmacology - Classes|Classes]]:** [[Drug classes and mechanisms overview]], [[Antidepressant mechanisms]], [[Antipsychotic mechanisms]], [[Stimulant and non-stimulant mechanisms]]
-- **[[Pharmacology - Safety and evidence|Safety and evidence]]:** [[Therapeutic index, monitoring and interactions]], [[Efficacy versus tolerability]], [[Trial endpoints, benefit and harms]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
 
 ## Where this domain connects
 
@@ -98,10 +90,6 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 Mechanism is much better established than individual response prediction. Nothing in this domain is dosing, titration or personal treatment guidance. [[F19 FDA Drug interactions what you should know#^f19-advice|Drug interactions: what you should know]]
 
 ## Learning route
-
-The sections below keep the earlier learning-oriented framing of this hub - course sequence, study questions and the learning-layer pointer. They are retained for continuity and cross-reference; where they state a mechanism, the reference overview above and the linked articles are the current account.
-
-## Core sequence
 
 ### Exposure
 
@@ -146,3 +134,11 @@ Given a drug's half-life, therapeutic window and interaction profile, what would
 
 - [[Module 05 - Pharmacology]] - module guide, lesson sequence, prerequisites and assessment.
 - [[Learning Map - Pharmacology.canvas]] - populated canvas with lessons, sources, uncertainty and open questions.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

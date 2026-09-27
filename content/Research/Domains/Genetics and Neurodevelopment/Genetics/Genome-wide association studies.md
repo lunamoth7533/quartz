@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 3
 reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Genetics]]"
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics, research/domain/methods]
 ---
@@ -31,7 +31,7 @@ A genome-wide association study tests hundreds of thousands to millions of commo
 
 **The step between association and mechanism.** A genome-wide signal marks a region in linkage disequilibrium, so identifying which variant is causal requires additional statistical and functional work. Fine-mapping constructs credible sets of variants consistent with the data, can be combined with functional annotation, and yields candidates that can then be prioritised for functional work; it narrows candidates but does not establish the mechanism by which a variant acts, and results depend on sample size and ancestry. [[P29844615 Schaid 2018 Fine-mapping#^p29844615-problem|Fine-mapping]] [[P29844615 Schaid 2018 Fine-mapping#^p29844615-methods|Fine-mapping]] [[P29844615 Schaid 2018 Fine-mapping#^p29844615-limits|Fine-mapping]]
 
-**Reading rule.** Separate four inferential steps - association, fine-mapping, mechanism and prediction - and say which one a claim occupies. Most reporting collapses them, which is how a peak in a Manhattan plot becomes a story about a gene. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|AI appraisal: 10 years of GWAS discovery]] [[F67 NHGRI GWAS fact sheet#^f67-scale|GWAS fact sheet]]
+**Reading rule.** Separate four inferential steps - association, fine-mapping, mechanism and prediction - and say which one a claim occupies. Most reporting collapses them, which is how a peak in a Manhattan plot becomes a story about a gene. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|Appraisal: 10 years of GWAS discovery]] [[F67 NHGRI GWAS fact sheet#^f67-scale|GWAS fact sheet]]
 
 ## Evidence and status
 

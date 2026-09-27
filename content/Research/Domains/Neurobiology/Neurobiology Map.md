@@ -4,7 +4,7 @@ title: "Neurobiology Map"
 map_kind: foundation
 condition: []
 domain: [neurobiology]
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map]
 content_layer: reference
@@ -17,9 +17,15 @@ concept_kind: framework
 
 Start here if you want the physical substrate: cells, membranes, spikes, connections and the genetic material that builds them.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Core sequence|Core sequence]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Evidence gaps|Evidence gaps]], [[#Study question|Study question]], [[#Learning layer|Learning layer]]
 
-## Reference overview
+## Concept register
+
+- **Structures:** [[Neurons and glia]], [[Glial cell types]], [[Nervous tissue and myelin]], [[Membrane transport and ion channels]], [[Myelin and saltatory conduction]], [[Chemical and electrical synapses]]
+- **Processes and mechanisms:** [[Ion gradients and membrane potential]], [[Action potentials]], [[The synaptic vesicle cycle]], [[Synapses and plasticity]], [[Short-term synaptic plasticity]], [[Long-term potentiation and depression]], [[Dendritic integration]], [[Neuronal cell biology and energetics]], [[Neurotrophic support and cell death]], [[Circuit development and homeostasis]], [[Neural oscillations]], [[Adult neurogenesis]]
+- **Frameworks and contested ideas:** [[Excitation and inhibition balance]], [[Levels of analysis]]
+
+## Overview
 
 **Neurobiology** is the layer every other domain rests on: cells that signal, membranes that make
 signalling possible, connections that change with use, and a developmental programme that builds
@@ -61,12 +67,12 @@ the conditions for signalling and, in several cases, respond to it. [[Glial cell
 preparations and animals, so human claims sit one level above the evidence; the dominance of LTP
 and LTD as an account of learning-related change is a modelling choice as much as a finding; and
 excitatory/inhibitory language is only meaningful once a level (synapse, cell, network) is named.
-[[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|AI synthesis: Long-term potentiation and depression]]
+[[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|Appraisal: Long-term potentiation and depression]]
 [[P23040802 Marder 2012 Neuromodulation#^p23040802-degeneracy|Neuromodulation]]
 
 **Where to start.** [[Neurons and glia]] for the cell inventory, [[Action potentials]] for signalling, [[Synapses and plasticity]] for change, and [[Circuit development and homeostasis]] for how the system is built. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Neurobiology is the layer beneath every other domain here: cells that signal, membranes that make signalling possible, connections that can change, and a developmental programme that builds and prunes them.
 
@@ -78,20 +84,6 @@ At synapses the electrical signal becomes chemical. Calcium entry triggers quant
 
 Development supplies the scaffold plasticity later modifies: proliferation, migration, differentiation, synaptogenesis and experience-dependent pruning, with myelin added over a longer timeline. Removal is part of the programme, with competition and trophic support deciding which inputs survive. [[P19794405 Tau 2010 Normal development of brain circuits#^p19794405-sequence|Normal development of brain circuits]] [[P21042938 Stiles 2010 Basics of brain development#^p21042938-processes|The basics of brain development]] [[F101 Neuroscience Online synapse formation and elimination#^f101-competition|Synapse Formation, Survival, and Elimination]]
 
-## Concept register
-
-- **[[Neurobiology - Structures|Structures]]:** [[Neurons and glia]], [[Glial cell types]], [[Nervous tissue and myelin]], [[Membrane transport and ion channels]], [[Myelin and saltatory conduction]], [[Chemical and electrical synapses]]
-- **[[Neurobiology - Processes and mechanisms|Processes and mechanisms]]:** [[Ion gradients and membrane potential]], [[Action potentials]], [[The synaptic vesicle cycle]], [[Synapses and plasticity]], [[Short-term synaptic plasticity]], [[Long-term potentiation and depression]], [[Dendritic integration]], [[Neuronal cell biology and energetics]], [[Neurotrophic support and cell death]], [[Circuit development and homeostasis]]
-- **[[Neurobiology - Frameworks and contested ideas|Frameworks and contested ideas]]:** [[Excitation and inhibition balance]], [[Levels of analysis]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
-
 ## Where this domain connects
 
 - Neurochemistry supplies the transmitters and receptors used here: [[Transmitter synthesis, release and clearance]], [[Receptor families and second messengers]].
@@ -101,13 +93,9 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 
 ## Evidence boundaries
 
-Cellular mechanisms are established mainly in reduced preparations and animals, so human claims sit a level above the evidence. LTP and LTD are the dominant cellular model of learning-related change rather than a measurement of learning, and human 'LTP-like' effects are not LTP. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]] [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|AI appraisal: Long-term potentiation and depression]]
+Cellular mechanisms are established mainly in reduced preparations and animals, so human claims sit a level above the evidence. LTP and LTD are the dominant cellular model of learning-related change rather than a measurement of learning, and human 'LTP-like' effects are not LTP. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]] [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|Appraisal: Long-term potentiation and depression]]
 
 ## Learning route
-
-The sections below keep the earlier learning-oriented framing of this hub - course sequence, study questions and the learning-layer pointer. They are retained for continuity and cross-reference; where they state a mechanism, the reference overview above and the linked articles are the current account.
-
-## Core sequence
 
 ### Cells and tissue
 
@@ -146,3 +134,11 @@ Which claim in this map would you most want to see demonstrated in living humans
 
 - [[Module 02 - Neurobiology]] - module guide, lesson sequence, prerequisites and assessment.
 - [[Learning Map - Neurobiology.canvas]] - populated canvas with lessons, sources, uncertainty and open questions.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

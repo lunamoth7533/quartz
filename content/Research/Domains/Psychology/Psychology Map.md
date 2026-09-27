@@ -4,7 +4,7 @@ title: "Psychology Map"
 map_kind: foundation
 condition: []
 domain: [psychology]
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map]
 content_layer: reference
@@ -17,9 +17,16 @@ concept_kind: framework
 
 The psychology layer covers attention, learning, memory, emotion regulation and the therapy evidence that uses them.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Core sequence|Core sequence]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Background reading|Background reading]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Evidence gaps|Evidence gaps]], [[#Study question|Study question]], [[#Learning layer|Learning layer]]
 
-## Reference overview
+## Concept register
+
+- **Perception and attention:** [[Perception]], [[Attention]], [[Attention and executive function]], [[Working memory]]
+- **Learning and memory:** [[Learning and conditioning]], [[Memory processes]], [[Episodic memory]], [[Procedural memory and habit]], [[Decision-making]], [[Motivation and reward]]
+- **Emotion and social:** [[Emotion regulation]], [[Social cognition]], [[Language]], [[Personality models]], [[Alexithymia]], [[Rumination and repetitive negative thinking]], [[Self-concept and identity]], [[Shame and guilt]]
+- **Development and therapy:** [[Developmental perspectives and attachment]], [[Therapy models overview]], [[CBT and its evidence base]], [[Dialectical behaviour therapy]], [[EMDR]], [[Acceptance and commitment therapy]], [[Mindfulness-based interventions]]
+
+## Overview
 
 Psychology in this library covers the processes that sit between a stimulus and a response -
 perception, attention, memory, learning, emotion, motivation, language, social cognition and
@@ -64,7 +71,7 @@ than the constructs themselves. [[Measurement validity and reliability]] [[Rater
 
 **Where to start.** [[Attention and executive function]] and [[Memory processes]] for the cognitive core, [[Emotion regulation]] for affect, and [[CBT and its evidence base]] for how psychological treatments are tested. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Psychology here covers the processes between neural activity and behaviour - perception, attention, learning, memory, emotion, motivation, language, social cognition - together with the developmental and therapeutic frameworks that organise them.
 
@@ -75,21 +82,6 @@ Learning has three well-characterised routes: classical conditioning gives cues 
 Motivation and emotion supply the value and state context. Expectancy and self-efficacy shape persistence, and emotion is described through physiological, cognitive, behavioural and expressive components that do not always agree. [[F43 OpenStax Psychology 2e motivation#^f43-efficacy|Motivation]] [[F44 OpenStax Psychology 2e emotion#^f44-components|Emotion]] Social cognition adds the interpretation of other minds and the situational emphasis that distinguishes social psychology from dispositional explanation. [[F46 OpenStax Psychology 2e social psychology#^f46-attribution|What Is Social Psychology?]]
 
 Therapy models apply these processes deliberately: exposure uses extinction logic, cognitive work targets appraisals, and combined treatment is common rather than exceptional. [[F49 OpenStax Psychology 2e types of treatment#^f49-behavioural|Types of Treatment]] [[F49 OpenStax Psychology 2e types of treatment#^f49-biomedical|Types of Treatment]]
-
-## Concept register
-
-- **[[Psychology - Perception and attention|Perception and attention]]:** [[Perception]], [[Attention]], [[Attention and executive function]], [[Working memory]]
-- **[[Psychology - Learning and memory|Learning and memory]]:** [[Learning and conditioning]], [[Memory processes]], [[Episodic memory]], [[Procedural memory and habit]], [[Decision-making]], [[Motivation and reward]]
-- **[[Psychology - Emotion and social|Emotion and social]]:** [[Emotion regulation]], [[Social cognition]], [[Language]], [[Personality models]]
-- **[[Psychology - Development and therapy|Development and therapy]]:** [[Developmental perspectives and attachment]], [[Therapy models overview]], [[CBT and its evidence base]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
 
 ## Where this domain connects
 
@@ -106,10 +98,6 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 Psychology's replication record is mixed: some findings are robust across large samples while others have not survived. The methodological pages apply here as much as anywhere. [[P26315443 Open Science Collaboration 2015 Reproducibility#^p26315443-result|Estimating the reproducibility of psychological science]] [[P33954258 Munafo 2017 Reproducible science#^p33954258-metadata|A manifesto for reproducible science]]
 
 ## Learning route
-
-The sections below keep the earlier learning-oriented framing of this hub - course sequence, study questions and the learning-layer pointer. They are retained for continuity and cross-reference; where they state a mechanism, the reference overview above and the linked articles are the current account.
-
-## Core sequence
 
 ### Cognition
 
@@ -148,3 +136,11 @@ Which psychological measure would you keep if you had to drop the rest, and what
 
 - [[Module 04 - Psychology]] - module guide, lesson sequence, prerequisites and assessment.
 - [[Learning Map - Psychology.canvas]] - populated canvas with lessons, sources, uncertainty and open questions.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

@@ -4,14 +4,14 @@ title: "Stress response and the HPA axis"
 domain: [neurochemistry]
 condition: []
 source_count: 5
-up: "[[Neuroendocrinology and Neuroimmunology - Axes and physiology]]"
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "HPA axis anatomy and feedback, the contested role of glucocorticoids, the acute-to-chronic transition, and why single cortisol measures mislead."
 secondary_domain: [psychology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Stress response and the HPA axis
@@ -42,11 +42,13 @@ reviewed: 2026-09-25
 
 Cortisol is not a synonym for stress: it follows a daily rhythm and responds to many inputs.
 
-## Related notes
+## Connections
 
-- [[Emotion regulation]]
-- [[Trauma and stress responses]]
-- [[Circadian rhythms and sleep]]
+- [[Emotion regulation]] - appraisal shapes the stress response, so how a demand is regulated psychologically belongs to the same system rather than a separate topic.
+- [[Trauma and stress responses]] - the trauma-domain application; the acute-versus-chronic distinction drawn here limits what trauma studies can claim from cortisol.
+- [[Circadian rhythms and sleep]] - cortisol follows a daily rhythm, so time of day and sleep shape every cortisol measurement discussed here.
+- [[HPA axis]] - the control-loop article, with the releasing factors, feedback sites and two receptor populations behind the axis summarised here.
+- [[Allostasis and chronic stress]] - the framework for the acute-to-chronic transition, which treats cumulative cost across several mediators rather than one cortisol value.
 
 ## Study question
 

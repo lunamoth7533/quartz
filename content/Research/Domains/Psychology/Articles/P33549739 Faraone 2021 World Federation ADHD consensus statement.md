@@ -51,8 +51,7 @@ The authors conclude that many ADHD findings are supported by meta-analysis, all
 Consensus synthesis of an existing literature rather than a new experiment.
 ^p33549739-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Consensus reflects judgment about a literature that keeps changing. For treatment questions, check newer primary studies and guidelines as well.

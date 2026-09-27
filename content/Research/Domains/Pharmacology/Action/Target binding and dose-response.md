@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Pharmacology - Action]]"
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/pharmacology]
 ---
@@ -33,7 +33,7 @@ Affinity describes how tightly a drug binds its target; efficacy describes the r
 
 **Time course matters as much as concentration.** Antidepressant effects emerge over weeks even though monoamine changes occur within hours, which is why dose-response reasoning about the acute target does not predict the clinical timeline; the field explains the delay with downstream processing and plasticity changes. [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-monoamine|How do antidepressants work]] [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-plasticity|How do antidepressants work]]
 
-**Reading rule.** Separate affinity, occupancy, functional effect, dose and outcome. This library reproduces no dosing, titration or monitoring guidance; the reference point here is the shape of the relationship rather than any number. [[F13 NIGMS How do medicines work#^f13-limit|How do medicines work]] [[P25687772 Alda 2015 Lithium pharmacology and pharmacogenetics#^p25687772-caution-monitoring|AI appraisal: Lithium pharmacology and pharmacogenetics]]
+**Reading rule.** Separate affinity, occupancy, functional effect, dose and outcome. This library reproduces no dosing, titration or monitoring guidance; the reference point here is the shape of the relationship rather than any number. [[F13 NIGMS How do medicines work#^f13-limit|How do medicines work]] [[P25687772 Alda 2015 Lithium pharmacology and pharmacogenetics#^p25687772-caution-monitoring|Appraisal: Lithium pharmacology and pharmacogenetics]]
 
 ## Evidence and status
 

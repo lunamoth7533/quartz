@@ -52,8 +52,7 @@ It is documented for use across diseases and cultures in 36-item and 12-item ver
 An official framework and instrument description rather than a study. How functioning is operationalized, scored and interpreted depends on the instrument, the informant and the study design.
 ^f23-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from WHO.
 
 A functioning score summarises reported activity and participation; it is not a direct measure of symptom severity, capacity or potential, and it should not be read as a verdict about a person. This library uses the framework to ask better outcome questions, not to benchmark anyone.

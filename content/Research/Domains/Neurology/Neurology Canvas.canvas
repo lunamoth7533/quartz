@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## Neurology\n\nDomain hub: localisation, examination and diagnostic reasoning, with the main neurological disorder categories and their mechanisms.\n\n[[Neurology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## Neurology\n\nDomain hub: localisation, examination and diagnostic reasoning, with the main neurological disorder categories and their mechanisms.\n\n[[Neurology Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 1680,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 1218
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[Neurology - Method|Method index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1070
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[Differential reasoning in neurology]]**\n*framework* - 9 sources\n\nHow neurological differentials are constructed: mechanism, timing, distribution and the tests that change probabilities.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -44,7 +34,7 @@
 			"type": "text",
 			"text": "**[[EEG and other diagnostics]]**\n*method* - 6 sources\n\nWhat EEG, evoked potentials, cerebrospinal fluid studies and nerve conduction tests contribute, and what each cannot settle.",
 			"x": 30,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 218,
 			"color": "#F59E3B"
@@ -54,7 +44,7 @@
 			"type": "text",
 			"text": "**[[History and localisation]]**\n*method* - 7 sources\n\nLocalisation as clinical reasoning: using history, examination and anatomy together to infer where a problem is.",
 			"x": 30,
-			"y": 1040,
+			"y": 892,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -64,7 +54,7 @@
 			"type": "text",
 			"text": "**[[Neurological examination]]**\n*method* - 5 sources\n\nThe neurological examination as a localisation method: its domains, its reasoning frame and the limits of a normal result.",
 			"x": 30,
-			"y": 1294,
+			"y": 1146,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -76,24 +66,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 988
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[Neurology - Measurement|Measurement index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 840
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Interpreting group brain differences]]**\n*method* - 4 sources\n\nWhat group-average imaging findings establish, how medication and course confound them, and why they do not become individual tests.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#F59E3B"
@@ -103,7 +83,7 @@
 			"type": "text",
 			"text": "**[[MRI versus EEG]]**\n*method* - 6 sources\n\nMRI, fMRI and EEG compared on signal, temporal and spatial resolution, and the inference each supports.",
 			"x": 450,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -113,7 +93,7 @@
 			"type": "text",
 			"text": "**[[Structural versus functional measures]]**\n*framework* - 4 sources\n\nStructure and function as different levels of measurement, why group differences are not diagnoses, and the confounds that complicate clinical imaging findings.",
 			"x": 450,
-			"y": 1040,
+			"y": 892,
 			"width": 360,
 			"height": 218,
 			"color": "#F59E3B"
@@ -125,24 +105,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 2258
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[Neurology - Conditions|Conditions index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 2110
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Cerebrovascular disease]]**\n*condition* - 4 sources\n\nStroke and related vascular disease: mechanisms, risk factors, urgency and the logic of vascular territory deficits.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -152,7 +122,7 @@
 			"type": "text",
 			"text": "**[[Demyelination and multiple sclerosis]]**\n*condition* - 6 sources\n\nImmune-mediated demyelination, its clinical courses, the diagnostic logic, and what myelin loss does to signalling.",
 			"x": 870,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -162,7 +132,7 @@
 			"type": "text",
 			"text": "**[[Headache and pain]]**\n*condition* - 3 sources\n\nPrimary headache disorders, nociceptive mechanisms, and the distinction between pain as a symptom and pain as a condition.",
 			"x": 870,
-			"y": 1016,
+			"y": 868,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -172,7 +142,7 @@
 			"type": "text",
 			"text": "**[[Movement disorders]]**\n*condition* - 5 sources\n\nTremor, chorea, dystonia, rigidity and bradykinesia: how movement disorders are distinguished and mapped onto circuits.",
 			"x": 870,
-			"y": 1270,
+			"y": 1122,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -182,7 +152,7 @@
 			"type": "text",
 			"text": "**[[Neurodegeneration and cognitive syndromes]]**\n*condition* - 6 sources\n\nProgressive neurodegeneration, the dementia syndrome, and the distinction between clinical and pathological diagnosis.",
 			"x": 870,
-			"y": 1524,
+			"y": 1376,
 			"width": 360,
 			"height": 218,
 			"color": "#F59E3B"
@@ -192,7 +162,7 @@
 			"type": "text",
 			"text": "**[[Peripheral neuropathy and neuromuscular disease]]**\n*condition* - 5 sources\n\nDisorders of peripheral nerves and the neuromuscular junction: causes, patterns and the logic of length-dependent deficits.",
 			"x": 870,
-			"y": 1802,
+			"y": 1654,
 			"width": 360,
 			"height": 218,
 			"color": "#F59E3B"
@@ -202,7 +172,7 @@
 			"type": "text",
 			"text": "**[[Seizures and epilepsy]]**\n*condition* - 8 sources\n\nSeizure types, the definition of epilepsy, evaluation logic and the principles behind antiseizure treatment.",
 			"x": 870,
-			"y": 2080,
+			"y": 1932,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"
@@ -212,7 +182,7 @@
 			"type": "text",
 			"text": "**[[Sleep disorders]]**\n*condition* - 4 sources\n\nInsomnia, sleep-related breathing problems, circadian rhythm disorders and parasomnias, and how sleep is assessed.",
 			"x": 870,
-			"y": 2334,
+			"y": 2186,
 			"width": 360,
 			"height": 194,
 			"color": "#F59E3B"

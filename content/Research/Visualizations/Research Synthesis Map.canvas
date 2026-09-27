@@ -13,7 +13,7 @@
 		{"id":"adhd-map","type":"file","file":"Research/Domains/ADHD/ADHD Map.md","x":0,"y":1085,"width":380,"height":160},
 		{"id":"autism-map","type":"file","file":"Research/Domains/Autism/Autism Map.md","x":0,"y":1355,"width":380,"height":160},
 		{"id":"cptsd-map","type":"file","file":"Research/Domains/CPTSD/CPTSD Map.md","x":0,"y":1625,"width":380,"height":160},
-		{"id":"bipolar-map","type":"file","file":"Research/Domains/Bipolar I/Bipolar I Map.md","x":0,"y":815,"width":380,"height":160},
+		{"id":"bipolar-map","type":"file","file":"Research/Domains/Bipolar Disorders/Bipolar Disorders Map.md","x":0,"y":815,"width":380,"height":160},
 		{"id":"neurochemistry-map","type":"file","file":"Research/Domains/Neurochemistry/Neurochemistry Map.md","x":840,"y":1085,"width":380,"height":160},
 		{"id":"pharmacology-map","type":"file","file":"Research/Domains/Pharmacology/Pharmacology Map.md","x":840,"y":1625,"width":380,"height":160},
 		{"id":"trauma-argument","type":"file","file":"Research/Arguments/Argument - Does trauma therapy need a stabilization phase.md","x":1680,"y":1355,"width":380,"height":160},

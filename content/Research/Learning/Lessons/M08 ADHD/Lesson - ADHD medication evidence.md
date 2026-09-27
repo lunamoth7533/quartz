@@ -49,7 +49,7 @@ The structural caveats matter more than the rankings. Network comparisons mix di
 in the 2018 synthesis most indirect comparisons carried low or very low confidence.
 [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-limit|ADHD medication network meta-analysis]]
 Group rankings and head-to-head averages are not prescribing guidance for one person.
-[[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|AI synthesis: ADHD medication network meta-analysis]]
+[[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|Appraisal: ADHD medication network meta-analysis]]
 
 ## Worked example (hypothetical)
 

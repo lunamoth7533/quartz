@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## Psychology\n\nDomain hub: perception, attention, learning, memory, emotion, motivation, language, social cognition, development and therapy models.\n\n[[Psychology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## Psychology\n\nDomain hub: perception, attention, learning, memory, emotion, motivation, language, social cognition, development and therapy models.\n\n[[Psychology Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 2100,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 1218
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[Psychology - Perception and attention|Perception and attention index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1070
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[Attention]]**\n*process* - 8 sources\n\nSelection, capacity limits, sustained attention and the evidence for separable attention systems.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -44,7 +34,7 @@
 			"type": "text",
 			"text": "**[[Attention and executive function]]**\n*framework* - 6 sources\n\nAttention as selection and executive function as a family of separable control processes, with the measurement gap between tasks and everyday life.",
 			"x": 30,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 218,
 			"color": "#4CC38A"
@@ -54,7 +44,7 @@
 			"type": "text",
 			"text": "**[[Perception]]**\n*process* - 5 sources\n\nSensation and perception distinguished, psychophysical thresholds, and the constructive character of perceptual experience.",
 			"x": 30,
-			"y": 1040,
+			"y": 892,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -64,7 +54,7 @@
 			"type": "text",
 			"text": "**[[Working memory]]**\n*process* - 5 sources\n\nHolding and manipulating information over seconds: capacity limits, executive control and measurement issues.",
 			"x": 30,
-			"y": 1294,
+			"y": 1146,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -76,24 +66,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 1750
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[Psychology - Learning and memory|Learning and memory index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1602
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Decision-making]]**\n*process* - 6 sources\n\nJudgment under uncertainty: heuristics, biases, framing effects and their interpretation.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -103,7 +83,7 @@
 			"type": "text",
 			"text": "**[[Episodic memory]]**\n*process* - 4 sources\n\nMemory for personally experienced events: encoding conditions, retrieval cues, and the reconstruction problem.",
 			"x": 450,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -113,7 +93,7 @@
 			"type": "text",
 			"text": "**[[Learning and conditioning]]**\n*process* - 5 sources\n\nClassical, operant and observational learning as three routes to behaviour change, and how cognitive accounts absorbed conditioning paradigms.",
 			"x": 450,
-			"y": 1016,
+			"y": 868,
 			"width": 360,
 			"height": 218,
 			"color": "#4CC38A"
@@ -123,7 +103,7 @@
 			"type": "text",
 			"text": "**[[Memory processes]]**\n*process* - 4 sources\n\nEncoding, storage and retrieval across memory systems, the reconstructive nature of recall, and which practice manipulations actually work.",
 			"x": 450,
-			"y": 1294,
+			"y": 1146,
 			"width": 360,
 			"height": 218,
 			"color": "#4CC38A"
@@ -133,7 +113,7 @@
 			"type": "text",
 			"text": "**[[Motivation and reward]]**\n*process* - 6 sources\n\nDrive, expectancy and value accounts of why behaviour persists, and how reward is measured.",
 			"x": 450,
-			"y": 1572,
+			"y": 1424,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -143,7 +123,7 @@
 			"type": "text",
 			"text": "**[[Procedural memory and habit]]**\n*process* - 7 sources\n\nSkill learning, habit formation and the shift from goal-directed to automatic control.",
 			"x": 450,
-			"y": 1826,
+			"y": 1678,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -155,24 +135,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 1194
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[Psychology - Emotion and social|Emotion and social index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1332
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Emotion regulation]]**\n*framework* - 8 sources\n\nEmotion components and theories, common regulation strategies, and why self-report, physiology and behaviour diverge.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -182,7 +152,7 @@
 			"type": "text",
 			"text": "**[[Language]]**\n*process* - 4 sources\n\nLanguage structure, development and the classical localisation models with their modern qualifications.",
 			"x": 870,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -192,7 +162,7 @@
 			"type": "text",
 			"text": "**[[Personality models]]**\n*framework* - 7 sources\n\nTrait models, dimensional measurement and the debate about consistency across situations.",
 			"x": 870,
-			"y": 1016,
+			"y": 868,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -202,7 +172,7 @@
 			"type": "text",
 			"text": "**[[Social cognition]]**\n*framework* - 8 sources\n\nHow people perceive, interpret and reason about other minds, and the interpretive frameworks used to explain differences.",
 			"x": 870,
-			"y": 1270,
+			"y": 1122,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -214,24 +184,14 @@
 			"x": 1260,
 			"y": 310,
 			"width": 420,
-			"height": 988
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**[[Psychology - Development and therapy|Development and therapy index]]**",
-			"x": 1290,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 840
 		},
 		{
 			"id": "t3_0",
 			"type": "text",
 			"text": "**[[CBT and its evidence base]]**\n*framework* - 5 sources\n\nThe CBT model, its behavioural roots, how its effects are tested, and the design constraints that come with psychological treatments.",
 			"x": 1290,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#4CC38A"
@@ -241,7 +201,7 @@
 			"type": "text",
 			"text": "**[[Developmental perspectives and attachment]]**\n*framework* - 9 sources\n\nLifespan developmental theories, attachment concepts, and how early relationships are studied without over-reading them.",
 			"x": 1290,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#4CC38A"
@@ -251,7 +211,7 @@
 			"type": "text",
 			"text": "**[[Therapy models overview]]**\n*framework* - 3 sources\n\nThe main psychotherapy orientations, what each targets, and how their evidence is generated and compared.",
 			"x": 1290,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 194,
 			"color": "#4CC38A"
@@ -344,6 +304,16 @@
 			"width": 360,
 			"height": 136,
 			"color": "#6E7787"
+		},
+		{
+			"id": "n-alexithymia",
+			"type": "text",
+			"text": "**[[Alexithymia]]**\n*framework* - 10 sources\n\nDifficulty identifying and describing one's own feelings: its facets, why its main questionnaire is contested, its relation to interoception, and the evidence in autism, trauma and ADHD.",
+			"x": 870,
+			"y": 1376,
+			"width": 360,
+			"height": 226,
+			"color": "#4CC38A"
 		}
 	],
 	"edges": [

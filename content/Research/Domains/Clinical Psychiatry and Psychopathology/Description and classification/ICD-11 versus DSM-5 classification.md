@@ -3,15 +3,15 @@ note_type: topic
 title: "ICD-11 versus DSM-5 classification"
 domain: [psychology]
 condition: [cptsd]
-source_count: 7
-up: "[[Clinical Psychiatry and Psychopathology - Description and classification]]"
+source_count: 9
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology, research/condition/cptsd]
 content_layer: reference
 concept_kind: framework
 description: "How ICD-11 and DSM-5-TR differ in scope, structure and constructs, and why the system must be stated whenever a diagnostic label is used."
 secondary_domain: []
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # ICD-11 versus DSM-5 classification
@@ -23,7 +23,7 @@ reviewed: 2026-09-25
 - ICD-11 includes complex PTSD; DSM-5 does not use the separate diagnosis. [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-systems|Complex PTSD: History and Definitions]]
 - A validity review reports support for the proposed 3-factor PTSD structure, 6-factor complex PTSD structure and the distinction between them. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-structure|ICD-11 PTSD and complex PTSD proposals]]
 - ICD-11 complex PTSD identifies a group with more multiple and sustained traumas and greater functional impairment than PTSD. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-impairment|ICD-11 PTSD and complex PTSD proposals]]
-- Where the boundary should fall remains sensitive to measurement development. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|AI synthesis: ICD-11 PTSD and complex PTSD proposals]]
+- Where the boundary should fall remains sensitive to measurement development. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|Appraisal: ICD-11 PTSD and complex PTSD proposals]]
 
 ## How it works
 
@@ -39,7 +39,7 @@ reviewed: 2026-09-25
 
 **Both are conventions.** A psychological disorder is defined through clinically significant disturbance tied to dysfunction and distress, with cultural expectations shaping what counts as disordered - so classifications are instruments with stated boundaries rather than discoveries of natural kinds. [[F47 OpenStax Psychology 2e psychological disorders#^f47-definition|Psychological Disorders]] [[F47 OpenStax Psychology 2e psychological disorders#^f47-cultural|Psychological Disorders]] Categories are useful summaries that encode clinical and research judgements; disagreement between the systems reflects that rather than one system being simply wrong, and the dimensional critique of categorical taxonomies applies to both. [[P28333488 Kotov 2017 HiTOP#^p28333488-problem|HiTOP]]
 
-**Reading rule.** Name the system and, where relevant, the instrument built from it; a prevalence or outcome figure from one system does not transfer to another, and the boundary between PTSD and complex PTSD remains sensitive to measurement development. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|AI appraisal: ICD-11 PTSD proposals review]]
+**Reading rule.** Name the system and, where relevant, the instrument built from it; a prevalence or outcome figure from one system does not transfer to another, and the boundary between PTSD and complex PTSD remains sensitive to measurement development. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|Appraisal: ICD-11 PTSD proposals review]]
 
 **Cross-domain connection (curation).** Which classification a study uses determines which sample it defines, so the same methods-domain principle (name the population before reading the result) applies across the library: a prevalence or prevalence-difference claim in any condition domain is system-dependent. [[Reading a study and matching populations]] [[Association versus individual prediction]]
 
@@ -47,11 +47,19 @@ reviewed: 2026-09-25
 
 Cross-system differences mean studies are not directly comparable unless the diagnostic instrument is reported.
 
-## Related notes
+## Recent research
 
-- [[CPTSD and disturbances in self-organization]]
-- [[Phase-based trauma therapy evidence]]
-- [[Trauma and stress responses]]
+- **2025 · Representative population survey (Epidemiology and psychiatric sciences).** In German adults, the DSM-5 and ICD-11 algorithms gave the same probable PTSD prevalence (4.7%) but agreed only substantially (kappa 0.62), and moderately on re-experiencing, so the two systems pick out partly different people. [[P40859920 Pettrich 2025 DSM-5 versus ICD-11 PTSD prevalence#^p40859920-prevalence|Pettrich 2025]] [[P40859920 Pettrich 2025 DSM-5 versus ICD-11 PTSD prevalence#^p40859920-agreement|Pettrich 2025]] ICD-11 caseness was approximated from a DSM-5 checklist. [[P40859920 Pettrich 2025 DSM-5 versus ICD-11 PTSD prevalence#^p40859920-caution-approximation|Appraisal: Pettrich 2025]]
+- **2025 · Population survey (Journal of anxiety disorders).** A Dutch probability sample estimated current DSM-5 PTSD at 1.3%, current ICD-11 PTSD at 1.0% and current ICD-11 complex PTSD at 1.6%. [[P39808949 Hoeboer 2025 PTSD and CPTSD epidemiology Netherlands#^p39808949-prevalence|Hoeboer 2025]] Each system's estimate rests on different instruments and algorithms. [[P39808949 Hoeboer 2025 PTSD and CPTSD epidemiology Netherlands#^p39808949-caution-systems|Appraisal: Hoeboer 2025]]
+
+## Connections
+
+- [[CPTSD and disturbances in self-organization]] - the construct at the centre of the systems' disagreement, with its self-organisation clusters and the questionnaire built to measure them.
+- [[Phase-based trauma therapy evidence]] - an applied case: trial inclusion rests on how complex PTSD was defined, so the sequencing evidence inherits this note's system caveats.
+- [[Trauma and stress responses]] - the step from exposure to diagnosis, which each system draws with its own symptom rules.
+- [[Categorical versus dimensional classification]] - the wider argument: both systems are categorical conventions, and the dimensional critique of thresholds applies to each.
+- [[Dissociative constructs]] - the DSM-5 dissociative subtype, argued to map onto part of complex PTSD; mapping is not equivalence.
+- [[Post-traumatic stress disorder]] - the diagnosis on which the systems differ most concretely: four DSM symptom areas against three ICD-11 fear-based components, identifying partly different people.
 
 ## Study question
 

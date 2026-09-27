@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [autism, psychology]
 secondary_domain: []
 condition: []
-source_count: 6
-reviewed: 2026-09-25
-up: "[[Autism - Description]]"
+source_count: 8
+reviewed: 2026-09-27
+up: "[[Autism Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/autism, research/domain/psychology]
 ---
@@ -31,7 +31,7 @@ Social cognition accounts propose that autistic social differences reflect diffe
 
 **Measurement decides what a group difference means.** Comparing autistic and non-autistic samples on any social-cognition measure assumes the instrument works the same way in both groups; invariance is a testable property, and absent or partial invariance changes what a comparison means. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-definition|Measurement invariance]] [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]] Self-report and behavioural measures can diverge from each other and from observed social behaviour, and quality-of-life work documents both self-report and proxy-report limitations, so any account should state what it is measuring and which level it is describing. [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-report|Quality-of-life assessment in autistic adults]]
 
-**Predictive-processing versions of the account need the same discipline.** The term predictive coding covers several distinct algorithms that differ in their generative models and optimisation methods even though all fit a generative model to sensory data. Evidence for one algorithm is not automatically evidence for another, and the conflation is easy to make in either direction - and this library does not source predictive-processing applications to autism. [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-plural|Predictive coding algorithms]] [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-common|Predictive coding algorithms]] [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-difference|Predictive coding algorithms]]
+**Predictive-processing versions of the account need the same discipline.** The term predictive coding covers several distinct algorithms that differ in their generative models and optimisation methods even though all fit a generative model to sensory data. Evidence for one algorithm is not automatically evidence for another, and the conflation is easy to make in either direction; the autism applications and their mixed experimental record are set out in [[Predictive processing accounts of autism]]. [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-plural|Predictive coding algorithms]] [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-common|Predictive coding algorithms]] [[P26809759 Spratling 2017 Predictive coding algorithms#^p26809759-difference|Predictive coding algorithms]]
 
 **The account sits among several partial descriptions, not above them.** Alongside mentalising, sensory and communication-access accounts and interactional accounts describe different parts of the same phenomenon, and a given study's findings usually bear on one rather than settling the field. Reading them as competing theories to be ranked is less productive than reading them as different levels of description that each constrain what a clinical or educational response can claim. [[Double empathy]] [[Autistic sensory and communication access]]
 
@@ -39,11 +39,20 @@ Social cognition accounts propose that autistic social differences reflect diffe
 
 Mentalising task differences are replicable at group level; their explanatory scope is limited, and the account is now treated as one partial explanation among several - alongside interactional accounts and developmental accounts of sensory and communication access. [[F20 NIMH Autism spectrum disorder#^f20-development|Autism spectrum disorder]]
 
-The primer is also explicit about the limits of transferring findings. Interventions in children can improve behaviours such as joint attention, language and social engagement. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-support|Autism spectrum disorder primer]] Child intervention findings do not automatically transfer to adults, and the primers reviewed here are explicit about the additional caution needed when child-based intervention evidence is read across to adults. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI appraisal: Autism spectrum disorder primer]] The substantial anatomical and functional differences reported in the literature are subtle and appear in heterogeneous groups rather than as gross pathology. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-biology|Autism spectrum disorder primer]]
+The primer is also explicit about the limits of transferring findings. Interventions in children can improve behaviours such as joint attention, language and social engagement. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-support|Autism spectrum disorder primer]] Child intervention findings do not automatically transfer to adults, and the primers reviewed here are explicit about the additional caution needed when child-based intervention evidence is read across to adults. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]] The substantial anatomical and functional differences reported in the literature are subtle and appear in heterogeneous groups rather than as gross pathology. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-biology|Autism spectrum disorder primer]]
+
+## Recent research
+
+- **2025 · Pre-registered online experiment (Autism).** On a task separating visual perspective taking from belief reasoning, autistic adults were no slower or less accurate than non-autistic adults and made fewer errors; the main difference was a steeper response-time cost as the self-other angle grew, which the authors read as a difference in strategy rather than a deficit. [[P39533155 Lara Green 2025 Perspective taking and belief reasoning#^p39533155-performance|Lara Green 2025]] [[P39533155 Lara Green 2025 Perspective taking and belief reasoning#^p39533155-rotation|Lara Green 2025]] [[P39533155 Lara Green 2025 Perspective taking and belief reasoning#^p39533155-interpretation|Lara Green 2025]] Self-reported diagnosis and an online, cognitively able sample limit how far this generalises. [[P39533155 Lara Green 2025 Perspective taking and belief reasoning#^p39533155-caution-sample|Appraisal: Lara Green 2025]]
+- **2023 · Experimental study (Autism Research).** Using repeated false-belief trials, the authors report altered self-other control in autistic adults - more difficulty flexibly adopting another's perspective and less interference from it when judging their own - and describe theory-of-mind differences as real but subtle. [[P37353968 Schuwerk 2023 Self-other control in theory of mind#^p37353968-selfother|Schuwerk 2023]] [[P37353968 Schuwerk 2023 Self-other control in theory of mind#^p37353968-subtle|Schuwerk 2023]] Whether this task-level mechanism relates to everyday interaction is not tested. [[P37353968 Schuwerk 2023 Self-other control in theory of mind#^p37353968-caution-task|Appraisal: Schuwerk 2023]]
 
 ## Connections
 
 This note pairs with [[Double empathy]] and with the psychology-domain article [[Social cognition]].
+
+- [[Predictive processing accounts of autism]] - a rival mechanism-level account that derives theory-of-mind differences from inflexible prediction-error weighting, so its evidence faces the same task-versus-everyday caution.
+- [[Oxytocin and vasopressin]] - the peptide treatment these accounts helped motivate; large placebo-controlled trials of intranasal oxytocin found no reliable social benefit.
+- [[Monotropism]] - reverses the order these accounts assume, deriving social and communication differences from how attention is distributed rather than treating them as primary.
 
 **Cross-domain connection (curation).** The social-cognition accounts discussed here connect the autism domain's task-level differences to the psychology domain's broader work on mentalising and inference about others, and to the research-methods domain's measurement-invariance discipline (since comparing groups on a social-cognition measure assumes the instrument works the same way in both). Reading them together makes the measurement, construct and diagnostic layers explicit. [[Measurement invariance]] [[Autistic sensory and communication access]]
 

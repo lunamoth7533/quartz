@@ -54,8 +54,7 @@ Retention was higher for family or conjoint therapy and for brief psychoeducatio
 Systematic review and network meta-analysis of 39 randomized trials in outpatients, whose conclusions the authors temper for heterogeneity in populations, duration and follow-up.
 ^p33052390-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Component analyses estimate average contributions across heterogeneous protocols; they do not identify which ingredient produced one person's improvement.

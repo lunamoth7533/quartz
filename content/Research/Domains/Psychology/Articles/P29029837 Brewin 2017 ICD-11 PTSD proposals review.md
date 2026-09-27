@@ -51,8 +51,7 @@ ICD-11 PTSD detects some impaired people missed by DSM-IV or DSM-5, and complex 
 Review of studies conducted to test the ICD-11 diagnostic proposals, written before the final release of ICD-11.
 ^p29029837-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Where the boundary between PTSD and complex PTSD should fall remains sensitive to measurement development, so classification claims should name the instrument used.
@@ -61,6 +60,7 @@ Where the boundary between PTSD and complex PTSD should fall remains sensitive t
 ## Used by
 
 - [[ICD-11 versus DSM-5 classification]]
+- [[Post-traumatic stress disorder]]
 
 ## Working notes
 

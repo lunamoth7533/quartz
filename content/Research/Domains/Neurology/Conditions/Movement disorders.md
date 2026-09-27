@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 5
 reviewed: 2026-09-25
-up: "[[Neurology - Conditions]]"
+up: "[[Neurology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurology]
 ---
@@ -42,6 +42,9 @@ Phenomenological classification and the association with specific circuits are w
 ## Connections
 
 This article links [[Basal ganglia]] and [[Cerebellum and brainstem]] to the clinical domain's pharmacology discussion of extrapyramidal effects.
+
+- [[Tic disorders and Tourette syndrome]] - the childhood-onset hyperkinetic disorder in this family, notable for how often ADHD and OCD accompany it.
+- [[Monoamine oxidase inhibitors]] - the antidepressant class whose selective MAO-B members, such as selegiline, are also used in Parkinson disease.
 
 **Cross-domain connection (curation).** The pharmacology domain's antipsychotic article meets this territory from the other side: drug-induced parkinsonism and dyskinesia are the same D2-occupancy pharmacology producing movement-system effects, a two-direction bridge between the condition and the drug class. [[Antipsychotic mechanisms]] [[Stimulant and non-stimulant mechanisms]]
 

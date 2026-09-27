@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/adhd, research/domain/psychology, research/domain/pharmacology]
+tags: [research/source, research/recent, research/condition/adhd, research/domain/psychology, research/domain/pharmacology]
 ---
 
 # Attention-deficit/hyperactivity disorder (ADHD) in adults: evidence base, uncertainties and controversies.
@@ -51,8 +51,7 @@ The paper includes lived-experience perspectives on unmet needs and priorities f
 Narrative review of current empirical evidence alongside uncertainties and controversies.
 ^p40948064-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 The review lists objective diagnostic measures as an open question; this library does not establish an individual diagnostic biomarker for ADHD.
@@ -64,6 +63,7 @@ The review lists objective diagnostic measures as an open question; this library
 - [[Short-term versus long-term outcomes]]
 - [[ADHD across the lifespan]]
 - [[ADHD diagnosis and measurement]]
+- [[Cognitive models of ADHD]]
 
 ## Working notes
 

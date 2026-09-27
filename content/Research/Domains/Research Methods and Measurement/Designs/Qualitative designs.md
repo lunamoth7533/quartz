@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 3
 reviewed: 2026-09-25
-up: "[[Research Methods and Measurement - Designs]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/methods]
 ---
@@ -33,7 +33,7 @@ Qualitative research investigates meaning, process and experience using intervie
 
 **Combination.** Mixed-methods designs use qualitative work to explain or contextualise quantitative findings; the two strands answer different questions rather than validating each other's numbers. [[P18626033 Qualitative research criteria#^p18626033-reading|Qualitative research criteria]]
 
-**What it cannot do.** A qualitative study does not estimate prevalence, does not test whether an intervention works, and does not license extrapolation to populations it did not study. Its findings are about the studied cases, and their transferability is an argument a reader makes rather than a property the design guarantees. [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-caution|AI appraisal: Autistic adults' views on early interventions]] [[P18626033 Qualitative research criteria#^p18626033-limit|Qualitative research criteria]]
+**What it cannot do.** A qualitative study does not estimate prevalence, does not test whether an intervention works, and does not license extrapolation to populations it did not study. Its findings are about the studied cases, and their transferability is an argument a reader makes rather than a property the design guarantees. [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-caution|Appraisal: Autistic adults' views on early interventions]] [[P18626033 Qualitative research criteria#^p18626033-limit|Qualitative research criteria]]
 
 ## Evidence and status
 

@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/open-access, research/domain/computational-brain-theories]
+tags: [research/source, research/recent, research/open-access, research/domain/computational-brain-theories]
 ---
 # Adversarial testing of global neuronal workspace and integrated information theories of consciousness
 

@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/domain/psychology, research/condition/autism]
+tags: [research/source, research/recent, research/domain/psychology, research/condition/autism]
 ---
 
 # Quality-of-life assessment in autistic adults with lower support needs
@@ -54,8 +54,7 @@ Stigma is described as a consistent negative predictor, and contextual and inter
 A mini-review synthesising conceptual, psychometric and representativeness issues rather than a new empirical study. It highlights emerging challenges in adult quality-of-life measurement and is recent (2026), so its claims describe the current state of a developing literature.
 ^p41993846-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the review.
 
 A measurement gap is not evidence that no support works; it constrains what current studies can detect and argues for outcome measures designed with autistic adults rather than for them.
@@ -68,4 +67,4 @@ A measurement gap is not evidence that no support works; it constrains what curr
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

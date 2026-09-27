@@ -4,14 +4,14 @@ title: "Long-term potentiation and depression"
 domain: [neurobiology]
 condition: []
 source_count: 2
-up: "[[Neurobiology - Processes and mechanisms]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: mechanism
 description: "LTP and LTD as the cellular model of lasting synaptic change: induction rules, timing dependence, metaplasticity and the translation boundary."
 secondary_domain: [computational-brain-theories]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Long-term potentiation and depression
@@ -26,7 +26,7 @@ reviewed: 2026-09-25
 - Spike timing within roughly 50 milliseconds sets the direction: presynaptic-then-postsynaptic favours LTP and the reverse order favours LTD. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-timing|P21779718]]
 - Metaplasticity means previous activity changes how a synapse responds to later plasticity protocols. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-metaplasticity|P21779718]]
 - Human non-invasive stimulation produces LTP-like or LTD-like changes, but the review says their defining features still need to be shown, so human learning claims outrun the evidence. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|P21779718]]
-- The most detailed mechanisms come from reduced animal preparations, so a synaptic change is evidence about a mechanism rather than proof about a person's learning. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|AI synthesis: P21779718]]
+- The most detailed mechanisms come from reduced animal preparations, so a synaptic change is evidence about a mechanism rather than proof about a person's learning. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|Appraisal: P21779718]]
 
 ## How it works
 
@@ -40,7 +40,7 @@ reviewed: 2026-09-25
 
 **Systems context.** Neuromodulators reconfigure which synapses are plastic at a given moment, so plasticity rules established in a slice may not predict behaviour in an intact, modulated circuit. [[P23040802 Marder 2012 Neuromodulation#^p23040802-state|Neuromodulation]]
 
-**What the model is and is not.** Mechanisms come mainly from reduced animal preparations - slices and animals - and human non-invasive protocols produce changes described as LTP-like that have not demonstrated the defining features of the cellular phenomenon, so they are not measurements of LTP in a person. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]] The review's own caution is the important one: LTP and LTD are the dominant cellular model of learning-related change, not a measurement of learning, and a synaptic change in a slice constrains but does not determine what a behaving animal or person learns. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|AI synthesis: Long-term potentiation and depression]]
+**What the model is and is not.** Mechanisms come mainly from reduced animal preparations - slices and animals - and human non-invasive protocols produce changes described as LTP-like that have not demonstrated the defining features of the cellular phenomenon, so they are not measurements of LTP in a person. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Long-term potentiation and depression]] The review's own caution is the important one: LTP and LTD are the dominant cellular model of learning-related change, not a measurement of learning, and a synaptic change in a slice constrains but does not determine what a behaving animal or person learns. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|Appraisal: Long-term potentiation and depression]]
 
 **Reading rule.** Ask three questions of any plasticity claim: which preparation, which protocol, and which timescale. Answers that specify only 'plasticity' hide all three. [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-limit|Long-term potentiation and depression]]
 
@@ -50,12 +50,13 @@ reviewed: 2026-09-25
 
 The evidence base for mechanisms is largely animal tissue; LTP and LTD are models of learning-related change, not measurements of memory in a person.
 
-## Related notes
+## Connections
 
-- [[Synapses and plasticity]]
-- [[Synaptic signalling model]]
-- [[Memory processes]]
-- [[Learning and conditioning]]
+- [[Synapses and plasticity]] - the broader frame: this note covers the lasting end of the three timescales of synaptic change set out there, where protein synthesis is required.
+- [[Synaptic signalling model]] - the baseline transmission steps whose strength LTP and LTD change, and a reminder that the stepwise model omits neuromodulation, which reshapes plasticity here.
+- [[Memory processes]] - the behavioural target of the analogy: LTP and LTD are the dominant cellular model of lasting change, but encoding and recall are measured at a different level.
+- [[Learning and conditioning]] - the behavioural paradigms plasticity is invoked to explain; the inference from a synaptic change to a learned behaviour is the translation boundary described here.
+- [[Short-term synaptic plasticity]] - the contrasting timescale: residual calcium and vesicle availability change release for milliseconds to seconds, whereas persistence and protein synthesis mark the changes here.
 
 ## Study question
 

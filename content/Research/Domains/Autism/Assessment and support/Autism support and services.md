@@ -3,15 +3,15 @@ note_type: topic
 title: "Autism support and services"
 domain: [psychology]
 condition: [autism]
-source_count: 5
-up: "[[Autism - Assessment and support]]"
+source_count: 7
+up: "[[Autism Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology, research/condition/autism]
 content_layer: reference
 concept_kind: framework
 description: "How autism support and services are organised, where medication belongs, and why access and participation are part of the evidence."
 secondary_domain: [clinical-psychiatry]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Autism support and services
@@ -32,9 +32,9 @@ reviewed: 2026-09-25
 
 **Level of the official material.** The NIMH booklet documents this structure at the level of an Interventions and Services section plus a Medication section, which is a general overview rather than a comparative evidence review and does not establish effect sizes for any programme. [[F20 NIMH Autism spectrum disorder#^f20-page6|Autism Spectrum Disorder]] [[F20 NIMH Autism spectrum disorder#^f20-limit|Autism Spectrum Disorder]]
 
-**What the child-intervention evidence supports.** The clinical primer reports that psychosocial interventions in children can improve behaviours such as joint attention, language and social engagement, calls for long-term research, notes that families often provide the main support, and cautions that child findings do not automatically transfer to adults. The claim is about named behavioural targets in children, not about autism generally. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-support|Autism spectrum disorder primer]] [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI appraisal: Autism spectrum disorder primer]]
+**What the child-intervention evidence supports.** The clinical primer reports that psychosocial interventions in children can improve behaviours such as joint attention, language and social engagement, calls for long-term research, notes that families often provide the main support, and cautions that child findings do not automatically transfer to adults. The claim is about named behavioural targets in children, not about autism generally. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-support|Autism spectrum disorder primer]] [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]]
 
-**Adult services are assessed differently.** Adult guidance expects consideration of assessment when autistic features accompany functional difficulties or a relevant service history, uses screening only to route to assessment, and recommends teams coordinating assessment, interventions, housing, education and employment, with plans reflecting experience, impairment and environment. The caution attached is that access to services varies. [[F24 NICE CG142 autism in adults diagnosis and management#^f24-identification|Autism in adults: diagnosis and management]] [[F24 NICE CG142 autism in adults diagnosis and management#^f25-teams|Autism in adults: diagnosis and management]] [[F24 NICE CG142 autism in adults diagnosis and management#^f25-interventions|Autism in adults: diagnosis and management]] [[F24 NICE CG142 autism in adults diagnosis and management#^f25-caution|AI appraisal: Autism in adults: diagnosis and management]]
+**Adult services are assessed differently.** Adult guidance expects consideration of assessment when autistic features accompany functional difficulties or a relevant service history, uses screening only to route to assessment, and recommends teams coordinating assessment, interventions, housing, education and employment, with plans reflecting experience, impairment and environment. The caution attached is that access to services varies. [[F24 NICE CG142 autism in adults diagnosis and management#^f24-identification|Autism in adults: diagnosis and management]] [[F24 NICE CG142 autism in adults diagnosis and management#^f25-teams|Autism in adults: diagnosis and management]] [[F24 NICE CG142 autism in adults diagnosis and management#^f25-interventions|Autism in adults: diagnosis and management]] [[F24 NICE CG142 autism in adults diagnosis and management#^f25-caution|Appraisal: Autism in adults: diagnosis and management]]
 
 **Quality of life is a separate measurement question.** Instrument reviews identify content-validity, invariance and adaptation problems for autistic adults, note that tools may overestimate quality of life and under-detect vulnerability, and describe stigma as a consistent negative predictor of outcomes, with contextual factors shaping participation. A support claim that names no outcome measure cannot be assessed. [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-gap|Quality-of-life assessment in autistic adults]] [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-validity|Quality-of-life assessment in autistic adults]] [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-context|Quality-of-life assessment in autistic adults]]
 
@@ -48,10 +48,18 @@ reviewed: 2026-09-25
 
 Service availability and evidence quality vary by country and age group, and this note describes options rather than recommending any.
 
-## Related notes
+## Recent research
 
-- [[Autism heterogeneity and support needs]]
-- [[Reading a study and matching populations]]
+- **2025 · Systematic review (Autism in Adulthood).** Across 16 studies of support in higher education, mentoring was the most common model and was linked to gains in well-being, belonging and academic self-efficacy, multimodal psychosocial programmes to lower anxiety and loneliness, and the authors call for co-designed, individually tailored support with environmental and systemic change. [[P41050147 Koops 2025 Higher education support programs#^p41050147-mentoring|Koops 2025]] [[P41050147 Koops 2025 Higher education support programs#^p41050147-multimodal|Koops 2025]] [[P41050147 Koops 2025 Higher education support programs#^p41050147-recommendation|Koops 2025]] Without pooled estimates, the size and durability of these benefits are unknown. [[P41050147 Koops 2025 Higher education support programs#^p41050147-caution-effects|Appraisal: Koops 2025]]
+- **2023 · Updated systematic review and meta-analysis (BMJ).** An updated synthesis of 252 early-childhood intervention studies found that most summary effects lost significance once reporter-rated and detection-biased outcomes were set aside, and that adverse events were poorly monitored, which qualifies the named-target evidence in children described above. [[P37963634 Sandbank 2023 Project AIM early intervention meta-analysis#^p37963634-bias|Sandbank 2023]] [[P37963634 Sandbank 2023 Project AIM early intervention meta-analysis#^p37963634-harms|Sandbank 2023]] [[P37963634 Sandbank 2023 Project AIM early intervention meta-analysis#^p37963634-caution-outcomes|Appraisal: Sandbank 2023]]
+
+## Connections
+
+- [[Autism heterogeneity and support needs]] - the reason support is individualised: profiles, co-occurring conditions and needs vary too much between people for one programme to fit.
+- [[Reading a study and matching populations]] - child trial evidence and adult services involve different populations, raters and outcomes, so transferring a finding needs checking claim by claim.
+- [[Intervention outcomes and autistic perspectives]] - the outcome question behind every service claim here: which endpoints count as benefit, and who chose them.
+- [[Autistic burnout]] - autistic adults' term for exhaustion under chronic load without adequate support, which makes access to support part of that construct's proposed mechanism.
+- [[Neurodiversity paradigm]] - the framework behind the tension between changing environments and teaching individual skills, and behind calls for co-designed, affirming support.
 
 ## Study question
 

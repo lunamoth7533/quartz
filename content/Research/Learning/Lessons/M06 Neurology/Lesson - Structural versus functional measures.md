@@ -33,7 +33,7 @@ measures.
 
 MRI is a family of methods: conventional structural MRI images anatomy, while functional MRI measures
 activity-related signal change rather than electrical activity itself.
-[[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|AI synthesis: Neurological Diagnostic Tests and Procedures]]
+[[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|Appraisal: Neurological Diagnostic Tests and Procedures]]
 
 So the working taxonomy is: structure (what is there), function (activity-related signals at a coarse temporal
 resolution), electrophysiology (electrical activity with millisecond resolution), and chemistry or laboratory

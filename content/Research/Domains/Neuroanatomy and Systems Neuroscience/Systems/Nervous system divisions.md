@@ -4,14 +4,14 @@ title: "Nervous system divisions"
 domain: [neurology]
 condition: []
 source_count: 6
-up: "[[Neuroanatomy and Systems Neuroscience - Systems]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurology]
 content_layer: reference
 concept_kind: framework
 description: "The central, peripheral, somatic, autonomic and enteric divisions, how they relate, and why the scheme is a teaching device rather than a functional partition."
 secondary_domain: []
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Nervous system divisions
@@ -45,11 +45,13 @@ reviewed: 2026-09-25
 
 Anatomical divisions are teaching aids; function crosses them constantly.
 
-## Related notes
+## Connections
 
-- [[Neurons and glia]]
-- [[Neurological examination]]
-- [[Stress response and the HPA axis]]
+- [[Neurons and glia]] - the cellular reason the divisions behave differently: central and peripheral tissue use different myelinating glia, which shapes disease patterns and regeneration.
+- [[Neurological examination]] - the clinical use of the divisions: examination reasons from which division and level a sign implicates, making the scheme diagnostic as well as descriptive.
+- [[Stress response and the HPA axis]] - the fast sympathetic branch of the autonomic division pairs with the slower hormonal HPA axis there, so the stress response spans this map and the endocrine one.
+- [[Interoception and autonomic pathways]] - the afferent and central arm of the autonomic division: how bodily signals reach the insula and how the central autonomic network controls the outflow described here.
+- [[Spinal cord]] - where central meets peripheral: segmental organisation and the reasoning that links the level of an injury to its deficit.
 
 ## Study question
 

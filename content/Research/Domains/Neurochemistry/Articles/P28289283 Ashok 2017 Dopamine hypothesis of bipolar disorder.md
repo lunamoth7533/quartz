@@ -51,8 +51,7 @@ The receptor and transporter homeostasis model is presented as speculation, with
 Mechanistic review; the authors report reliance on pharmacological evidence, which can affect other monoamines, and scarce imaging evidence on dopaminergic function.
 ^p28289283-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 A hypothesis that organizes research questions is not a chemical test for the disorder, and the direction of dopamine findings differs between mania and depression.

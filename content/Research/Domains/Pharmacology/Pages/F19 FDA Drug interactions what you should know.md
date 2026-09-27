@@ -49,6 +49,11 @@ Educational overview written for a general audience; it simplifies and does not 
 ## Used by
 
 - [[Therapeutic index, monitoring and interactions]]
+- [[Selective serotonin reuptake inhibitors]]
+- [[Serotonin-noradrenaline reuptake inhibitors]]
+- [[Tricyclic antidepressants]]
+- [[Monoamine oxidase inhibitors]]
+- [[Atypical antidepressants]]
 
 ## Working notes
 

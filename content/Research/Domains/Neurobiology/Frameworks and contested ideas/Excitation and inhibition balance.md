@@ -3,15 +3,15 @@ note_type: topic
 title: "Excitation and inhibition balance"
 domain: [neurochemistry]
 condition: []
-source_count: 9
-up: "[[Neurobiology - Frameworks and contested ideas]]"
+source_count: 11
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: theory
 description: "Excitatory and inhibitory transmission considered as a balance: mechanisms, measurement approaches, and the limits of the E/I framing."
 secondary_domain: [clinical-psychiatry]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Excitation and inhibition balance
@@ -36,7 +36,7 @@ reviewed: 2026-09-25
 
 **Balance is dynamic, not a set point.** Because inhibition onto a cell can be recruited in proportion to its own recent activity, and because neuromodulators change the properties of both excitatory and inhibitory synapses, the operating point moves with state. This is why the same circuit can be described as balanced during one behavioural state and unbalanced in another without contradiction. [[P23040802 Marder 2012 Neuromodulation#^p23040802-state|Neuromodulation]] [[P23040802 Marder 2012 Neuromodulation#^p23040802-reconfigure|Neuromodulation]]
 
-**Where the concept is used and overused.** Increased excitation-to-inhibition ratio has been advanced as a hypothesis for autism features and for seizure vulnerability, and it remains a model under test rather than an established cause. [[P14606691 Rubenstein 2003 Excitation-inhibition model#^p14606691-proposal|Excitation-inhibition model]] [[P14606691 Rubenstein 2003 Excitation-inhibition model#^p14606691-status|Excitation-inhibition model]] The widely cited version of the framing - that transmitter systems are 'out of balance' in psychiatric conditions - is presented in the introductory sources as one psychological perspective among others, and the same chapter documents receptor-dependent mixed effects that undercut a one-directional reading. Where E/I imbalance is proposed as a mechanism for a condition, it is a hypothesis with candidate molecular routes, not a finding that an individual's brain is out of balance in a measurable way. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI synthesis: Cells of the Nervous System]] [[P14606691 Rubenstein 2003 Excitation-inhibition model#^p14606691-status|Excitation-inhibition model]]
+**Where the concept is used and overused.** Increased excitation-to-inhibition ratio has been advanced as a hypothesis for autism features and for seizure vulnerability, and it remains a model under test rather than an established cause. [[P14606691 Rubenstein 2003 Excitation-inhibition model#^p14606691-proposal|Excitation-inhibition model]] [[P14606691 Rubenstein 2003 Excitation-inhibition model#^p14606691-status|Excitation-inhibition model]] The widely cited version of the framing - that transmitter systems are 'out of balance' in psychiatric conditions - is presented in the introductory sources as one psychological perspective among others, and the same chapter documents receptor-dependent mixed effects that undercut a one-directional reading. Where E/I imbalance is proposed as a mechanism for a condition, it is a hypothesis with candidate molecular routes, not a finding that an individual's brain is out of balance in a measurable way. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]] [[P14606691 Rubenstein 2003 Excitation-inhibition model#^p14606691-status|Excitation-inhibition model]]
 
 **Reading rule.** Treat every E/I claim as three questions: which level (synapse, cell, region, network), which measure, and which state. Without those, 'balance' is a metaphor that can be made to fit almost any dataset.
 
@@ -46,11 +46,18 @@ reviewed: 2026-09-25
 
 Balance is usually measured indirectly, and a difference in one circuit says little about the whole brain.
 
-## Related notes
+## Recent research
 
-- [[Glutamate and GABA]]
-- [[Action potentials]]
-- [[Interpreting group brain differences]]
+- **2024 · Systematic review and meta-analysis (Neuroscience and Biobehavioral Reviews).** Pooled spectroscopy studies found lower GABA in autistic than in comparison groups, largest in children and in limbic regions, with results that shifted with demographic and method choices. [[P38796123 Thomson 2024 MRS neurometabolites in autism#^p38796123-gaba|Thomson 2024]] [[P38796123 Thomson 2024 MRS neurometabolites in autism#^p38796123-age|Thomson 2024]] [[P38796123 Thomson 2024 MRS neurometabolites in autism#^p38796123-methods|Thomson 2024]] It is a regional-concentration measure - one of the four meanings above - and not a reading of synaptic inhibition. [[P38796123 Thomson 2024 MRS neurometabolites in autism#^p38796123-caution-measure|Appraisal: Thomson 2024]]
+- **2024 · Postmortem case-control study (Cerebral Cortex).** In prefrontal cortex from 10 autistic and 10 control brains, counts of paired pre- and postsynaptic markers showed more excitatory synapses in upper layers and fewer inhibitory synapses across all layers. [[P38696601 Vakilzadeh 2024 Prefrontal excitatory and inhibitory synapses in autism#^p38696601-counts|Vakilzadeh 2024]] [[P38696601 Vakilzadeh 2024 Prefrontal excitatory and inhibitory synapses in autism#^p38696601-markers|Vakilzadeh 2024]] [[P38696601 Vakilzadeh 2024 Prefrontal excitatory and inhibitory synapses in autism#^p38696601-limit|Vakilzadeh 2024]] That supports the synapse-density meaning of imbalance in one region, from a small postmortem sample that cannot show how the circuit behaved in life. [[P38696601 Vakilzadeh 2024 Prefrontal excitatory and inhibitory synapses in autism#^p38696601-caution-proxy|Appraisal: Vakilzadeh 2024]]
+
+## Connections
+
+- [[Glutamate and GABA]] - the transmitter systems behind the two sides of the balance, including the metabolic coupling that makes treating them as independent levers a simplification.
+- [[Action potentials]] - the output the balance governs: summed excitation and inhibition at the initial segment decide whether a spike fires, which is why the location of an input matters.
+- [[Interpreting group brain differences]] - the reading rules for the regional and imaging E/I measures used in condition research: group averages, medication and course confounds, and no individual test.
+- [[Circuit development and homeostasis]] - where excitability is regulated during development and then held stable, the slower counterpart to the state-dependent shifts in balance described here.
+- [[Sensitive periods]] - the developmental meaning of E/I listed here: maturation of local inhibition is the trigger that opens the best-studied plasticity window described there.
 
 ## Study question
 

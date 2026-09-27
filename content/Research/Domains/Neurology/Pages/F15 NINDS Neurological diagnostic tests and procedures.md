@@ -43,11 +43,10 @@ The overview covers history and examination, imaging with CT and MRI, electroenc
 Educational overview written for a general audience; it simplifies and does not carry the qualifications of primary literature.
 ^f15-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological notes, not statements from the page.
 
-MRI is a family of methods: conventional structural MRI images anatomy while functional MRI measures activity-related signal change, and EEG measures electrical activity over time. This distinction is AI synthesis because the NINDS page could not be re-fetched on 2026-09-24 (HTTP 403).
+MRI is a family of methods: conventional structural MRI images anatomy while functional MRI measures activity-related signal change, and EEG measures electrical activity over time. This distinction is the library's own appraisal because the NINDS page could not be re-fetched on 2026-09-24 (HTTP 403).
 ^f15-caution-modality
 
 ## Used by

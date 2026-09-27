@@ -45,7 +45,7 @@ of life and poorer adaptive functioning than either condition alone.
 
 Two cautions keep this reasoning honest. First, co-occurrence is a group-level, definition-dependent
 observation: it does not establish that one condition causes the other.
-[[P24808851 Leitner 2014 Co-occurrence of autism and ADHD#^p24808851-caution-label|AI synthesis: Co-occurrence of autism and ADHD]]
+[[P24808851 Leitner 2014 Co-occurrence of autism and ADHD#^p24808851-caution-label|Appraisal: Co-occurrence of autism and ADHD]]
 Second, definitions themselves are constructs: current ICD-11 and DSM-5 categories are symptom-based, and
 trauma type or duration alone does not determine a diagnosis.
 [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-definition|Complex PTSD: History and Definitions]]

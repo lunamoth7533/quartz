@@ -74,8 +74,7 @@ Plans reflect experience, impairment and environment.
 UK clinical guidance (published 2012, last updated 2021) for health and social care services in England and Wales. Recommendations are judgements based on the best available evidence at the time; they describe service expectations rather than measured effect sizes, they do not measure the efficacy of any specific support, and they do not determine eligibility or availability in other countries.
 ^f24-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from NICE.
 
 Screens can produce false positives and false negatives, so a score alone neither confirms nor excludes autism; it leads to assessment rather than diagnosis, and a guideline recommendation is not a measurement of any individual's needs.
@@ -91,6 +90,7 @@ A recommendation to adapt an environment is a design principle, not a trial resu
 - [[Lesson - Adult autism assessment and differential considerations]]
 - [[Lesson - Autistic sensory and communication access]]
 - [[Module 09 - Autism]]
+- [[Co-occurring conditions in autism]]
 
 ## Working notes
 

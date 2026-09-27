@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 3
 reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Development]]"
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics, research/domain/neurobiology]
 ---

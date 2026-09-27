@@ -57,8 +57,7 @@ Common sample-size guidance is about ten respondents per item and/or 200-300 obs
 Methodological guidance synthesising psychometric conventions rather than a single empirical study. The recommendations are heuristics for health and behavioural research that vary by instrument purpose, population and analysis method.
 ^p29942800-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the primer.
 
 Reliability is not validity. An instrument can produce consistent scores that consistently miss the construct, and a scale validated in one population or purpose can lose those properties when it is moved. In this library, "measured" always invites the follow-up question: measured how, in whom, and against what criterion.
@@ -72,4 +71,4 @@ Reliability is not validity. An instrument can produce consistent scores that co
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

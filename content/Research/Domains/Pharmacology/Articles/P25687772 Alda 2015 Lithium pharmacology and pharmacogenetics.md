@@ -51,8 +51,7 @@ Genetic and pharmacogenetic findings are described as promising but limited by s
 Mechanistic review; no randomized trial data and no dose or monitoring guidance.
 ^p25687772-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Narrow-therapeutic-window monitoring is not a finding of this review. That concept is documented separately in the FDA narrow-therapeutic-index source.

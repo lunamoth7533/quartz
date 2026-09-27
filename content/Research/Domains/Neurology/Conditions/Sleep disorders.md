@@ -7,9 +7,9 @@ concept_kind: condition
 domain: [neurology, psychology]
 secondary_domain: []
 condition: []
-source_count: 4
-reviewed: 2026-09-25
-up: "[[Neurology - Conditions]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[Neurology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurology, research/domain/psychology]
 ---
@@ -37,11 +37,18 @@ Sleep disorders are a family of conditions involving difficulty falling or stayi
 
 ## Evidence and status
 
-Diagnostic categories and the physiology of sleep are well established; treatment evidence varies substantially between categories. The reference account has limits: the consumer overview orients readers to categories and assessment without diagnostic criteria, and the sleep-cycle descriptions come from an introductory psychology source, so nothing here supports self-diagnosis or treatment decisions. [[F79 MedlinePlus Sleep disorders#^f79-limit|Sleep Disorders]] The one caution recorded in this library's own notes is that the NINDS sleep page could not be re-fetched, so its key points rest on the earlier verification. [[F14 NINDS Brain basics understanding sleep#^f14-caution-ninds|AI appraisal: Brain Basics: Understanding Sleep]]
+Diagnostic categories and the physiology of sleep are well established; treatment evidence varies substantially between categories. The reference account has limits: the consumer overview orients readers to categories and assessment without diagnostic criteria, and the sleep-cycle descriptions come from an introductory psychology source, so nothing here supports self-diagnosis or treatment decisions. [[F79 MedlinePlus Sleep disorders#^f79-limit|Sleep Disorders]] The one caution recorded in this library's own notes is that the NINDS sleep page could not be re-fetched, so its key points rest on the earlier verification. [[F14 NINDS Brain basics understanding sleep#^f14-caution-ninds|Appraisal: Brain Basics: Understanding Sleep]]
+
+## Recent research
+
+- **2024 · State of the Science review (Sleep).** A Sleep Research Society review reports that consumer-grade wearables now estimate sleep better than traditional actigraphy when judged against polysomnography, but misclassify night-time wake, track poorly outside the main sleep period and perform uncertainly in some groups, which updates the actigraphy-based assessment described above. [[P38149978 de Zambotti 2024 Wearables in sleep research#^p38149978-performance|de Zambotti 2024]] [[P38149978 de Zambotti 2024 Wearables in sleep research#^p38149978-limits|de Zambotti 2024]] A tracker's output for one person remains an estimate. [[P38149978 de Zambotti 2024 Wearables in sleep research#^p38149978-caution-device|Appraisal: de Zambotti 2024]]
+- **2024 · Systematic review and component network meta-analysis (JAMA Psychiatry).** Across 241 trials in 31,452 adults with chronic insomnia, cognitive restructuring, third-wave components, sleep restriction and stimulus control were associated with remission while sleep hygiene education was not essential, consistent with the account above of insomnia as hyperarousal and maladaptive sleep-related behaviour. [[P38231522 Furukawa 2024 Components of CBT for insomnia#^p38231522-components|Furukawa 2024]] Component estimates are indirect averages across trials, and the authors note possible undetected interactions, so they are not guidance for any individual. [[P38231522 Furukawa 2024 Components of CBT for insomnia#^p38231522-limit|Furukawa 2024]] [[P38231522 Furukawa 2024 Components of CBT for insomnia#^p38231522-caution-components|Appraisal: Furukawa 2024]]
 
 ## Connections
 
 This article links [[Circadian clock biology]] and [[Circadian rhythms and sleep]] to clinical material, including the sleep questions that appear in mood and ADHD assessment.
+
+- [[Atypical antidepressants]] - mirtazapine, whose receptor profile is linked to sedation, trazodone, which blocks histamine receptors, and agomelatine, a melatonergic agonist, all meet sleep questions here.
 
 **Cross-domain connection (curation).** Sleep sits at the intersection of this domain and two others: the neurochemistry domain's circadian-clock and adenosine material supplies the timing and pressure mechanisms, and the psychiatric domains meet it because sleep disturbance is both symptom and maintaining factor across conditions. [[Circadian rhythms and sleep]] [[Adenosine signalling]]
 

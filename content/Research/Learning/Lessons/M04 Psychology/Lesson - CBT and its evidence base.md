@@ -44,7 +44,7 @@ linked to fewer recurrences than individual delivery.
 
 The limit is built into the method: component analyses estimate average contributions across heterogeneous
 protocols and cannot say what produced one person's improvement.
-[[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-caution-ingredients|AI synthesis: Adjunctive psychotherapy component network meta-analysis]]
+[[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-caution-ingredients|Appraisal: Adjunctive psychotherapy component network meta-analysis]]
 And retention differed by format, which is a practical outcome in its own right.
 [[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-retention|Adjunctive psychotherapy component network meta-analysis]]
 

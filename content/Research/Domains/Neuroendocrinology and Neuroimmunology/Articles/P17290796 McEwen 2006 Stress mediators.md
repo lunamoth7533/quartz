@@ -49,3 +49,7 @@ The argument covers glucocorticoids, autonomic activity and other mediators, tre
 
 A conceptual review in Dialogues in Clinical Neuroscience. It proposes a framework and synthesises animal and human evidence.
 ^p17290796-limit
+
+## Used by
+
+- [[Adverse childhood experiences]]

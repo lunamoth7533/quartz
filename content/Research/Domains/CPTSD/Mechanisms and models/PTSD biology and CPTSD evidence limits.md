@@ -3,15 +3,15 @@ note_type: topic
 title: "PTSD biology and CPTSD evidence limits"
 domain: [neurobiology]
 condition: ['cptsd']
-source_count: 10
-up: "[[CPTSD - Mechanisms and models]]"
+source_count: 12
+up: "[[CPTSD Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology, research/condition/cptsd]
 content_layer: reference
 concept_kind: framework
 description: "What PTSD biology covers, why it does not transfer to complex PTSD, and the status of the dissociative subtype as the best-supported subdivision."
 secondary_domain: [neuroendocrinology-neuroimmunology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # PTSD biology and CPTSD evidence limits
@@ -21,20 +21,20 @@ reviewed: 2026-09-25
 ## Supported claims
 
 - A 2012 review surveys psychophysiological, neuroimaging, endocrinological, genetic and molecular studies in humans and animals. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-layers|Biological studies of PTSD]]
-- PTSD findings cannot be relabelled as complex PTSD specific mechanisms. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|AI synthesis: Biological studies of PTSD]]
-- No single biological marker explains PTSD, so these findings describe mechanisms under study rather than a diagnostic test. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|AI synthesis: Biological studies of PTSD]]
+- PTSD findings cannot be relabelled as complex PTSD specific mechanisms. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|Appraisal: Biological studies of PTSD]]
+- No single biological marker explains PTSD, so these findings describe mechanisms under study rather than a diagnostic test. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|Appraisal: Biological studies of PTSD]]
 
 In depth: what the biology of PTSD can and cannot be carried over to complex PTSD
 
 **The unusual starting point.** PTSD is presented as the disorder whose cause is regarded as known - a threatening event that evokes intense fear, helplessness or horror - and the review surveys psychophysiological, neuroimaging, endocrinological, genetic and other findings across those levels. Having a known aetiological event does not make the biological findings diagnostic. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-layers|Biological studies of PTSD]] [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-limit|Biological studies of PTSD]]
 
-**PTSD findings are not CPTSD mechanisms.** The library's own caution states that PTSD findings cannot be relabelled as complex PTSD specific mechanisms and that no single biological marker explains PTSD. That warning matters because the two constructs are distinguished by additional self-organization domains rather than by a separate biology. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|AI appraisal: Biological studies of PTSD]] [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-dso|Complex PTSD: history and definitions]]
+**PTSD findings are not CPTSD mechanisms.** The library's own caution states that PTSD findings cannot be relabelled as complex PTSD specific mechanisms and that no single biological marker explains PTSD. That warning matters because the two constructs are distinguished by additional self-organization domains rather than by a separate biology. [[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|Appraisal: Biological studies of PTSD]] [[F17 VA National Center for PTSD Complex PTSD history and definitions#^f17-dso|Complex PTSD: history and definitions]]
 
 **What does generalise is the stress physiology.** Acute stress responses are adaptive and chronic activation is associated with wear on regulation, mood and health, and allostatic load describes the cumulative cost of repeated or poorly managed responses with the brain as both regulator and target. Those statements describe a system context for trauma-related conditions rather than a marker of them. [[F08 OpenStax What is stress#^f08-chronic|What is stress?]] [[P17290796 McEwen 2006 Stress mediators#^p17290796-load|Stress mediators]]
 
-**The subtype is a separate construct.** A dissociative subtype of PTSD was proposed around depersonalisation and derealisation supported by latent class analyses, argued from antecedent, concurrent and predictive evidence with differential-response evidence still developing - and it is a PTSD construct rather than an ICD-11 CPTSD component. [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-definition|The dissociative subtype of PTSD]] [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-implication|The dissociative subtype of PTSD]] [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|AI appraisal: ICD-11 complex PTSD editorial]]
+**The subtype is a separate construct.** A dissociative subtype of PTSD was proposed around depersonalisation and derealisation supported by latent class analyses, argued from antecedent, concurrent and predictive evidence with differential-response evidence still developing - and it is a PTSD construct rather than an ICD-11 CPTSD component. [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-definition|The dissociative subtype of PTSD]] [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-implication|The dissociative subtype of PTSD]] [[P32345416 Cloitre 2020 ICD-11 complex PTSD editorial#^p32345416-caution-domains|Appraisal: ICD-11 complex PTSD editorial]]
 
-**Reading rule.** Attach every biological statement to the construct and the sample where it was measured. In this literature the construct boundary is instrument-dependent, so a marker claim without an instrument is not interpretable. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|AI appraisal: ICD-11 PTSD proposals review]]
+**Reading rule.** Attach every biological statement to the construct and the sample where it was measured. In this literature the construct boundary is instrument-dependent, so a marker claim without an instrument is not interpretable. [[P30178492 Cloitre 2018 International Trauma Questionnaire#^p30178492-limits|International Trauma Questionnaire]] [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|Appraisal: ICD-11 PTSD proposals review]]
 
 ## How it works
 
@@ -55,11 +55,18 @@ The absence of complex PTSD specific biology here is an evidence gap, not a find
 - [[Lesson - PTSD biology and CPTSD evidence limits]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
 - Module: [[Module 10 - CPTSD|CPTSD]]
 
-## Related notes
+## Recent research
 
-- [[Trauma and stress responses]]
-- [[Stress response and the HPA axis]]
-- [[ICD-11 versus DSM-5 classification]]
+- **2024 · Multi-ancestry genome-wide association meta-analysis (Nature genetics).** Identified 95 PTSD loci, 80 of them new, and 43 candidate genes spanning synaptic, developmental, endocrine and immune functions, a large gain for a disorder whose genetics had been hard to discover. [[P38637617 Nievergelt 2024 PTSD genome-wide association#^p38637617-loci|Nievergelt 2024]] [[P38637617 Nievergelt 2024 PTSD genome-wide association#^p38637617-genes|Nievergelt 2024]] [[P38637617 Nievergelt 2024 PTSD genome-wide association#^p38637617-discoverability|Nievergelt 2024]] These are PTSD associations, not complex-PTSD-specific mechanisms or individual predictors. [[P38637617 Nievergelt 2024 PTSD genome-wide association#^p38637617-caution-ptsd|Appraisal: Nievergelt 2024]]
+- **2024 · Narrative review (Molecular psychiatry).** A decade of imaging made progress on separating pre-existing from acquired brain differences, predicting treatment response and proposing biotypes, but the review judges none of it ready for clinical use and asks for scans before trauma and replicated biotypes. [[P38632413 Hinojosa 2024 PTSD neuroimaging progress#^p38632413-questions|Hinojosa 2024]] [[P38632413 Hinojosa 2024 PTSD neuroimaging progress#^p38632413-status|Hinojosa 2024]] [[P38632413 Hinojosa 2024 PTSD neuroimaging progress#^p38632413-designs|Hinojosa 2024]]
+
+## Connections
+
+- [[Trauma and stress responses]] - the process this biology describes: appraisal, the two timescales of stress physiology, and the separate step from response to diagnosis.
+- [[Stress response and the HPA axis]] - the stress physiology that does generalise across trauma-related conditions, and the reason single cortisol measures are weak indices of it.
+- [[ICD-11 versus DSM-5 classification]] - the sample-definition problem behind every biological claim here: PTSD and complex PTSD samples are defined by different systems and instruments.
+- [[Genome-wide association studies]] - the method behind the PTSD locus counts; a genome-wide signal marks an associated region, not a mechanism, and still less a complex-PTSD-specific one.
+- [[Dissociative constructs]] - where the dissociative subtype, the best-supported biological-clinical subdivision discussed here, sits in the wider classification.
 
 ## Study question
 

@@ -11,7 +11,7 @@ tags: [research/argument]
 
 **Question.** Randomized evidence covers weeks to months. Do those short-term symptom gains translate into long-term function, quality of life and safety?
 
-**Origin.** AI-generated starter question, written for this library. It does not represent anyone's beliefs or history.
+**Origin.** Starter question written for this library. It does not represent anyone's beliefs or history.
 
 ## Competing explanations
 
@@ -19,7 +19,7 @@ tags: [research/argument]
 
 **Short-term gains may not generalize.** Trial evidence is short and focused on symptoms, reviews keep long-term outcomes open, and the strongest synthesis found insufficient data at 26 and 52 weeks. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-longterm|ADHD medication network meta-analysis]]; [[P40948064 Cortese 2025 ADHD in adults evidence base#^p40948064-open|ADHD in adults review]]
 
-**Different outcomes need different studies.** Randomized trials estimate average efficacy; function and safety over years usually need large observational cohorts with their own confounding problems. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|AI synthesis: ADHD medication network meta-analysis]]
+**Different outcomes need different studies.** Randomized trials estimate average efficacy; function and safety over years usually need large observational cohorts with their own confounding problems. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-caution-choice|Appraisal: ADHD medication network meta-analysis]]
 
 ## Evidence that would decide
 

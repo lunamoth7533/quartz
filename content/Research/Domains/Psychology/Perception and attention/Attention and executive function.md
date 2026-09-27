@@ -3,15 +3,15 @@ note_type: topic
 title: "Attention and executive function"
 domain: [psychology]
 condition: []
-source_count: 6
-up: "[[Psychology - Perception and attention]]"
+source_count: 7
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology]
 content_layer: reference
 concept_kind: framework
 description: "Attention as selection and executive function as a family of separable control processes, with the measurement gap between tasks and everyday life."
 secondary_domain: [neuroanatomy-systems]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Attention and executive function
@@ -44,11 +44,20 @@ reviewed: 2026-09-25
 
 Laboratory tasks are narrow proxies for daily functioning, and group performance says little about one person.
 
-## Related notes
+## Recent research
 
-- [[Brain regions and networks]]
-- [[ADHD across the lifespan]]
-- [[ADHD diagnosis and measurement]]
+- **2023 · Systematic review (JCPP Advances).** In preschool children, autism studies consistently reported shifting difficulties and ADHD studies inhibition and planning difficulties, with overlap between the two - component-level dissociation across diagnoses rather than one executive deficit. [[P37431322 Christoforou 2023 Preschool executive function in autism and ADHD#^p37431322-profiles|Christoforou 2023]] Informant ratings showed more robust differences than laboratory tasks, the task-rating gap already visible at preschool age; ten ADHD studies and raters who know the diagnosis limit what the contrast shows. [[P37431322 Christoforou 2023 Preschool executive function in autism and ADHD#^p37431322-measures|Christoforou 2023]] [[P37431322 Christoforou 2023 Preschool executive function in autism and ADHD#^p37431322-caution-rater|Appraisal: Christoforou 2023]]
+
+## Connections
+
+- [[Brain regions and networks]] - the anatomical layer: executive control is attributed to prefrontal and association networks, and that note sets out what regional versus network claims can support.
+- [[ADHD across the lifespan]] - the developmental view of the same measurement problem: presentation changes with age, and everyday function is kept separate from symptom counts.
+- [[ADHD diagnosis and measurement]] - the task-life gap applied diagnostically: task, rater and self-report measures of executive function disagree, so assessment combines several sources.
+- [[Working memory]] - one of the separable executive components and the one most often measured alone, so the same task-impurity and everyday-function cautions apply to it.
+- [[Drift diffusion models]] - decompose the reaction-time variability often read as an attention measure into drift rate, response caution and non-decision components.
+- [[ADHD and prefrontal catecholamines]] - the state mechanism behind the inverted-U: catecholamine tone tunes prefrontal control, so executive performance is a state as well as a trait.
+- [[Cognitive models of ADHD]] - where the executive-function account is set against its rivals: medium group differences on executive tasks, absent in many individuals, make executive weakness one component of ADHD rather than its core.
+- [[Prefrontal cortex]] - the region most tied to these processes, with its sector-by-sector emphases, its slow maturation into the twenties and the small group effects behind condition claims.
 
 ## Study question
 

@@ -4,14 +4,14 @@ title: "Brain regions and networks"
 domain: [neurobiology]
 condition: []
 source_count: 10
-up: "[[Neuroanatomy and Systems Neuroscience - Systems]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: framework
 description: "How regional descriptions of the brain relate to systems, loops and network accounts, and what each kind of claim can support."
 secondary_domain: [computational-brain-theories]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Brain regions and networks
@@ -38,7 +38,7 @@ reviewed: 2026-09-25
 
 **What a network measure adds and what it costs.** Network descriptions compress high-dimensional activity - thousands of pairwise relationships - into a small number of nameable patterns, which is the only practical way to describe large-scale coordination and useful for generating hypotheses about integration. The same compression is why they are easy to over-interpret: it discards the anatomy underneath - two regions can covary because they are connected, because both track a third signal, or because the sample's tasks pushed them together - and the analysis choices (threshold, atlas, parcellation) and the sample move the boundaries of the named network. A network claim earns more confidence when it predicts something held out rather than redescribing the data it was found in. [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-population|Neural population dynamics]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-practice|Neuroimaging reproducibility]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]
 
-**Interpretive caution.** Reading a structure-function claim from a lesion requires knowing which fibres pass through the region, and reading one from imaging requires knowing what the signal measures. [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|AI appraisal: Brain imaging]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]
+**Interpretive caution.** Reading a structure-function claim from a lesion requires knowing which fibres pass through the region, and reading one from imaging requires knowing what the signal measures. [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|Appraisal: Brain imaging]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]
 
 **A worked example: prefrontal networks and attention.** Prefrontal regions participate in networks that regulate attention, screen distraction, inhibit impulses and plan; the evidence for those functions comes from lesion, recording and imaging work converging on the prefrontal contributions rather than from one method. Reading the claim well means keeping its parts separate: the region named (prefrontal cortex), the network it participates in (with parietal and subcortical partners), the function measured (a specific task contrast), and the population studied. Collapsing them produces the shorthand 'the prefrontal cortex does attention', which survives neither a lesion study nor a network analysis. [[P19621976 Arnsten 2009 Prefrontal catecholamines and ADHD#^p19621976-networks|Prefrontal catecholamine mechanisms]]
 
@@ -50,11 +50,14 @@ reviewed: 2026-09-25
 
 'The amygdala does X' style claims are shorthand that hides loops, feedback and individual variation.
 
-## Related notes
+## Connections
 
-- [[Neurons and glia]]
-- [[Attention and executive function]]
-- [[Structural versus functional measures]]
+- [[Neurons and glia]] - the cellular level beneath regional and network labels; claims about a region are claims about populations of these cells and their connections.
+- [[Attention and executive function]] - the functions in the prefrontal worked example; that note separates the control processes, and the gap between tasks and everyday life, that this one only names.
+- [[Structural versus functional measures]] - the distinction behind the two descriptive layers here: anatomical connection and functional coupling are different measurements that do not reduce to each other.
+- [[Association cortex and networks]] - the integrative regions where network language is used most, with the same warning that a named network is a statistical summary.
+- [[Network and connectome models]] - the formal side of network description: nodes, edges and topology, and the assumptions a network analysis carries into any regional claim.
+- [[Default mode, salience and executive networks]] - the named networks that network descriptions most often invoke, with how resting-state studies define them and why condition findings stay group-level.
 
 ## Study question
 

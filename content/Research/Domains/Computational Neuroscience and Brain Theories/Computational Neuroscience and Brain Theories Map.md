@@ -8,7 +8,7 @@ concept_kind: framework
 condition: []
 domain: [computational-brain-theories]
 reviewed: 2026-09-25
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map, research/reference, research/domain/computational-brain-theories]
 ---
@@ -16,11 +16,17 @@ tags: [research/map, research/reference, research/domain/computational-brain-the
 
 This domain covers formal descriptions of what neural systems compute and how: codes, dynamics, learning rules, inference frameworks, and the theories of consciousness that compete at a different level.
 
-> **Reference entry point:** [[Research Atlas]] carries the fifteen-domain reference layer for this hub; [[Reference Index]] lists every concept article, the native views and the relationship register.
+> **Reference entry point:** [[Home]] lists all fifteen domain maps; [[Reference Index]] lists every concept article, the native views and the relationship register.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
 
-## Reference overview
+## Concept register
+
+- **Foundations:** [[Levels of analysis]], [[Neural coding and population codes]], [[Dynamical systems models]], [[Model comparison and identifiability]], [[Computational psychiatry]]
+- **Learning and inference:** [[Reinforcement learning]], [[Reward prediction error]], [[Model-based and model-free control]], [[Bayesian inference and predictive processing]], [[Active inference and free energy]], [[Drift diffusion models]]
+- **Networks and theories:** [[Network and connectome models]], [[Global workspace and integrated information]], [[Theories of consciousness compared]]
+
+## Overview
 
 This domain asks what the brain computes and how that computation could be realised. Its value to
 the rest of the reference is that it forces precision: a claim about coding, inference or
@@ -62,7 +68,7 @@ accommodates every result predicts none. [[Model comparison and identifiability]
 
 **Where to start.** [[Levels of analysis]] first, then [[Neural coding and population codes]] and [[Reinforcement learning]] for mechanisms, and [[Theories of consciousness compared]] for the contested end of the domain. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Levels matter. Molecular, cellular, circuit, cognitive and behavioural descriptions are different languages, and translating between them requires an explicit model that can fail informatively. [[F91 Computational Cognitive Neuroscience#^f91-levels|Computational Cognitive Neuroscience]] [[F92 Neuronal Dynamics#^f92-models|Neuronal Dynamics]]
 
@@ -74,20 +80,6 @@ Theories of consciousness sit at the contested end. Function-based accounts such
 
 Model comparison is the discipline that keeps all of this honest: different models often fit the same data, so parameter recovery and out-of-sample validation are required before interpreting parameters. [[P31769410 Wilson 2019 Computational modelling rules#^p31769410-validation|Ten simple rules for the computational modeling of behavioral data]] [[P31769410 Wilson 2019 Computational modelling rules#^p31769410-identifiability|Ten simple rules for the computational modeling of behavioral data]]
 
-## Concept register
-
-- **[[Computational Neuroscience and Brain Theories - Foundations|Foundations]]:** [[Levels of analysis]], [[Neural coding and population codes]], [[Dynamical systems models]], [[Model comparison and identifiability]]
-- **[[Computational Neuroscience and Brain Theories - Learning and inference|Learning and inference]]:** [[Reinforcement learning]], [[Reward prediction error]], [[Model-based and model-free control]], [[Bayesian inference and predictive processing]], [[Active inference and free energy]]
-- **[[Computational Neuroscience and Brain Theories - Networks and theories|Networks and theories]]:** [[Network and connectome models]], [[Global workspace and integrated information]], [[Theories of consciousness compared]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
-
 ## Where this domain connects
 
 - Neurobiology supplies the mechanisms being modelled: [[Long-term potentiation and depression]], [[Ion gradients and membrane potential]].
@@ -97,3 +89,11 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 ## Evidence boundaries
 
 Models can fit data without being unique, and neural correlates of a computational term are not the term itself. This domain is explicitly about formal descriptions and their testability.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

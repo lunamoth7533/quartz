@@ -7,9 +7,9 @@ concept_kind: structure
 domain: [neurobiology]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Neurobiology - Structures]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurobiology]
 ---
@@ -37,18 +37,22 @@ tags: [research/topic, research/reference, research/domain/neurobiology]
 
 Cellular anatomy is well established from microscopy and tracer work; the physiological roles of each type are established in varying degrees. Oligodendrocyte function is tightly constrained by conduction evidence, including the functional consequences of myelin loss. [[F75 MedlinePlus Multiple sclerosis#^f75-mechanism|Multiple Sclerosis]] Microglial surveillance is demonstrated by direct in vivo imaging. [[P15831717 Nimmerjahn 2005 Microglial surveillance#^p15831717-revision|Microglial surveillance]] Astrocyte contributions to synaptic physiology are the most actively revised area. The frequently quoted neuron-to-glia ratio is an average rather than a universal constant: current estimates put the glia-to-neuron ratio at roughly one to one in humans - a correction to the older claim that glia vastly outnumber neurons. [[F02 OpenStax Nervous tissue#^f02-glia|Nervous Tissue]]
 
+## Recent research
+
+- **2024 · Single-nucleus genomics study (Science).** In postmortem autism cortex, transcriptomic changes were mostly specific to cell types and included distinct reactive states of oligodendrocytes, microglia and astrocytes alongside neuronal changes. [[P38781372 Wamsley 2024 Single-cell genomics of autism cortex#^p38781372-celltype|Wamsley 2024]] [[P38781372 Wamsley 2024 Single-cell genomics of autism cortex#^p38781372-glia|Wamsley 2024]] It fits the move from a binary resting/activated picture to multiple glial states, but a postmortem snapshot cannot say whether those states are cause or consequence. [[P38781372 Wamsley 2024 Single-cell genomics of autism cortex#^p38781372-caution-snapshot|Appraisal: Wamsley 2024]]
+- **2023 · Systematic review and meta-analysis (Brain, Behavior, and Immunity).** Across 156 case-control TSPO PET studies, cortical increases in the inflammation signal were significant only in neurodegenerative disease, cortico-limbic increases also appeared in mood disorders, and the quantification method explained about a quarter of between-study variance. [[P37543251 De Picker 2023 TSPO PET transdiagnostic meta-analysis#^p37543251-limit|De Picker 2023]] [[P37543251 De Picker 2023 TSPO PET transdiagnostic meta-analysis#^p37543251-cortex|De Picker 2023]] [[P37543251 De Picker 2023 TSPO PET transdiagnostic meta-analysis#^p37543251-mood|De Picker 2023]] [[P37543251 De Picker 2023 TSPO PET transdiagnostic meta-analysis#^p37543251-method|De Picker 2023]] TSPO is an indirect index, so such differences do not identify which glial cells changed or why. [[P37543251 De Picker 2023 TSPO PET transdiagnostic meta-analysis#^p37543251-caution-signal|Appraisal: De Picker 2023]]
+
 ## Connections
 
 Glia are covered here because they mediate processes that other notes treat as neuronal: [[Myelin and saltatory conduction]] depends on oligodendrocytes, [[Neurotrophic support and cell death]] involves glial signalling, and [[Neuroimmune interactions and microglia]] develops the immune role in more detail.
+
+- [[Neurons and glia]] - the parent overview of the division of labour between signalling cells and glia, which this note expands one glial family at a time.
+- [[Nervous tissue and myelin]] - the tissue-level view: how oligodendrocyte myelin and glial composition shape grey and white matter, where these cell types become measurable anatomy.
+- [[Neuroimmune interactions and microglia]] - the immune role of microglia in depth, including how immune signalling interacts with neural function beyond the surveillance summary given here.
+- [[Synaptic pruning and myelination]] - two developmental jobs of the cells described here: microglial engulfment of tagged synapses and oligodendrocyte myelination of maturing tracts.
 
 ## Uncertainties
 
 - How much of synaptic signalling depends on astrocyte activity in the intact human brain remains contested, with most evidence from slice and animal preparations.
 - Microglial states are heterogeneous, and the field has moved from a binary resting/activated model to multi-state descriptions that are still being standardised.
 - Human-specific glial biology is difficult to study, so cross-species generalisation is a real limitation.
-
-## Related notes
-
-- [[Neurons and glia]]
-- [[Nervous tissue and myelin]]
-- [[Neuroimmune interactions and microglia]]

@@ -49,12 +49,12 @@ The bipolar literature shows the scale and the limit: 298 loci and 36 credible g
 multi-ancestry analysis, with the authors describing the architecture as statistical rather than personally
 predictive.
 [[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-loci|Bipolar disorder genomics]];
-[[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-caution-prediction|AI synthesis: Bipolar disorder genomics]]
+[[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-caution-prediction|Appraisal: Bipolar disorder genomics]]
 
 Turning a score into a personal statement requires calibration in a comparable population and evidence that
 using it changes decisions for the better. Without that, the score is a distributional statement about a
 sample.
-[[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|AI synthesis: 10 Years of GWAS Discovery]]
+[[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|Appraisal: 10 Years of GWAS Discovery]]
 
 ## Worked example (hypothetical)
 

@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 11
 reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Foundations]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/methods]
 ---
@@ -29,7 +29,7 @@ Neuroanatomical methods are the techniques used to establish what connects to wh
 
 **Lesion logic.** Removing or stimulating a structure and observing the consequence provides functional evidence, and lesions provided the first functional maps. [[F56 Neuroscience Online basal ganglia#^f56-disorders|Basal ganglia]] Their classic weakness is fibres of passage: a lesion destroys axons passing through the region as well as the cells in it, so the inference from lesion to function is weaker than it appears, and compensation and plasticity add a second source of error. [[F110 Neuroscience Online language#^f110-limits|Language]] [[History and localisation]]
 
-**Human imaging.** Imaging added in-vivo anatomy to a literature previously built on dissection, histology and tracing. Structural MRI renders anatomical geometry from magnetic tissue properties, reconstructing a signal from hydrogen atoms in tissues of different densities; diffusion methods estimate white-matter pathways and connection indirectly; functional methods measure activity-related signals - the metabolic consequences of activity - on slower timescales; and electrophysiology measures fields or potentials with excellent timing and poor spatial specificity. Each measures something different from the others, and each modality has a defined inference distance to the mechanism it is used for. [[F28 OpenStax Brain imaging Psychology 2e#^f28-mri|Brain imaging]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|AI synthesis: Brain imaging]] [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|AI appraisal: Neurological diagnostic tests]] [[EEG and other diagnostics]]
+**Human imaging.** Imaging added in-vivo anatomy to a literature previously built on dissection, histology and tracing. Structural MRI renders anatomical geometry from magnetic tissue properties, reconstructing a signal from hydrogen atoms in tissues of different densities; diffusion methods estimate white-matter pathways and connection indirectly; functional methods measure activity-related signals - the metabolic consequences of activity - on slower timescales; and electrophysiology measures fields or potentials with excellent timing and poor spatial specificity. Each measures something different from the others, and each modality has a defined inference distance to the mechanism it is used for. [[F28 OpenStax Brain imaging Psychology 2e#^f28-mri|Brain imaging]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|Appraisal: Brain imaging]] [[F15 NINDS Neurological diagnostic tests and procedures#^f15-caution-modality|Appraisal: Neurological diagnostic tests]] [[EEG and other diagnostics]]
 
 **Reading rule.** State the method before the claim: 'tracing in primates shows', 'diffusion estimates suggest', 'the lesion study indicates' carry very different weights, and collapsing them into 'the brain connects X to Y' hides exactly the information that matters. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-limit|Neuroimaging reproducibility]]
 

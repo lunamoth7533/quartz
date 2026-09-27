@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Psychology - Perception and attention]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology, research/domain/neuroanatomy]
 ---
@@ -44,6 +44,8 @@ Selection has an early and a late version, and the debate is empirical: whether 
 ## Connections
 
 This article is closely tied to [[Attention and executive function]] and to the ADHD domain's discussion of state regulation and network accounts.
+
+- [[Monotropism]] - an autistic-developed theory that makes the allocation of attention the organising difference in autism; its questionnaire and laboratory measures do not yet agree.
 
 **Cross-domain connection (curation).** Neuroanatomy supplies the control circuitry - association cortex plus prefrontal modulation - and the cholinergic and catecholamine systems supply its state; the precision-weighting account from predictive coding is the formal proposal that ties selection to perception, and it remains at the algorithmic-proposal level of evidence in this library. [[Bayesian inference and predictive processing]] [[Noradrenaline signalling]]
 

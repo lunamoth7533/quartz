@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 5
 reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Description and classification]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical]
 ---

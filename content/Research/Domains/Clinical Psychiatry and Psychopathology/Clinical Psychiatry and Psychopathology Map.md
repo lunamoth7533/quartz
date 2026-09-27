@@ -8,7 +8,7 @@ concept_kind: framework
 condition: []
 domain: [clinical-psychiatry]
 reviewed: 2026-09-25
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map, research/reference, research/domain/clinical-psychiatry]
 ---
@@ -16,11 +16,17 @@ tags: [research/map, research/reference, research/domain/clinical-psychiatry]
 
 This domain covers the description and classification of psychopathology, the main construct families, and the reasoning that connects symptoms to formulation. It is general reference material, not a self-diagnostic checklist.
 
-> **Reference entry point:** [[Research Atlas]] carries the fifteen-domain reference layer for this hub; [[Reference Index]] lists every concept article, the native views and the relationship register.
+> **Reference entry point:** [[Home]] lists all fifteen domain maps; [[Reference Index]] lists every concept article, the native views and the relationship register.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]]
 
-## Reference overview
+## Concept register
+
+- **Description and classification:** [[Symptoms syndromes and diagnoses]], [[Categorical versus dimensional classification]], [[ICD-11 versus DSM-5 classification]], [[Co-occurrence and differential reasoning]], [[Categorical versus dimensional classification]]
+- **Construct families:** [[Mood disorders]], [[Anxiety and fear constructs]], [[Psychosis constructs]], [[OCD and related constructs]], [[Dissociative constructs]], [[Substance-related constructs]], [[Personality constructs and traits]], [[Symptoms syndromes and diagnoses]], [[Borderline personality disorder]], [[Eating disorders]]
+- **Formulation and context:** [[Network and developmental formulations]], [[Functional outcomes and measurement]], [[Functional outcomes and measurement]], [[Measurement validity and reliability]], [[Emotion dysregulation across conditions]], [[Suicide and self-harm]]
+
+## Overview
 
 Clinical psychiatry is the study of how distress and dysfunction are described, classified and
 explained. Its reference value here is conceptual rather than prescriptive: the domain explains
@@ -60,9 +66,9 @@ have documented reliability and validity limits; group-level findings do not dia
 and this library is reference material rather than a self-assessment or treatment guide.
 [[Measurement validity and reliability]] [[Reviews, guidelines and preprints]]
 
-**Where to start.** [[Symptoms syndromes and diagnoses]] and [[Categorical versus dimensional classification]] for the framework, then the condition hubs [[Bipolar I Map]], [[ADHD Map]], [[Autism Map]] and [[CPTSD Map]]. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
+**Where to start.** [[Symptoms syndromes and diagnoses]] and [[Categorical versus dimensional classification]] for the framework, then the condition hubs [[Bipolar Disorders Map]], [[ADHD Map]], [[Autism Map]] and [[CPTSD Map]]. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Description has levels. A symptom is a feature, a syndrome is a cluster that co-occurs, and a diagnosis is a named category with specified criteria used for communication, statistics and planning. Defining disorder requires harm or dysfunction and is not settled by unusualness alone. [[F47 OpenStax Psychology 2e psychological disorders#^f47-definition|What Are Psychological Disorders?]] [[F47 OpenStax Psychology 2e psychological disorders#^f47-harm|What Are Psychological Disorders?]]
 
@@ -74,26 +80,20 @@ Construct families are described in their own articles: mood, anxiety and fear, 
 
 Context is part of the clinical picture. Stigma operates as a structural cause of inequality through constrained access to resources, and functioning and participation are outcomes in their own right rather than proxies for symptoms. [[P23488505 Hatzenbuehler 2013 Stigma as fundamental cause#^p23488505-argument|Stigma as a fundamental cause of health inequalities]] [[F23 WHO International Classification of Functioning#^f23-framework|International Classification of Functioning]]
 
-## Concept register
-
-- **[[Clinical Psychiatry and Psychopathology - Description and classification|Description and classification]]:** [[Symptoms syndromes and diagnoses]], [[Categorical versus dimensional classification]], [[ICD-11 versus DSM-5 classification]], [[Co-occurrence and differential reasoning]], [[Categorical versus dimensional classification]]
-- **[[Clinical Psychiatry and Psychopathology - Construct families|Construct families]]:** [[Mood disorders]], [[Anxiety and fear constructs]], [[Psychosis constructs]], [[OCD and related constructs]], [[Dissociative constructs]], [[Substance-related constructs]], [[Personality constructs and traits]], [[Symptoms syndromes and diagnoses]]
-- **[[Clinical Psychiatry and Psychopathology - Formulation and context|Formulation and context]]:** [[Network and developmental formulations]], [[Functional outcomes and measurement]], [[Functional outcomes and measurement]], [[Measurement validity and reliability]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
-
 ## Where this domain connects
 
 - Pharmacology covers treatment mechanisms: [[Drug classes and mechanisms overview]], [[Trial endpoints, benefit and harms]].
 - Methods govern measurement and inference: [[Measurement invariance]], [[Causality and counterfactuals]].
-- Condition hubs apply the constructs: [[Bipolar I Map]], [[ADHD Map]], [[Autism Map]], [[CPTSD Map]].
+- Condition hubs apply the constructs: [[Bipolar Disorders Map]], [[ADHD Map]], [[Autism Map]], [[CPTSD Map]].
 
 ## Evidence boundaries
 
 Diagnostic reliability varies by category, and many findings cited in this domain are group-level differences with substantial overlap. Nothing here is a diagnosis for any person or a treatment plan.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

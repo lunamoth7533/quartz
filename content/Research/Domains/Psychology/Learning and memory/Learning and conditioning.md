@@ -4,14 +4,14 @@ title: "Learning and conditioning"
 domain: [psychology]
 condition: []
 source_count: 5
-up: "[[Psychology - Learning and memory]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology]
 content_layer: reference
 concept_kind: process
 description: "Classical, operant and observational learning as three routes to behaviour change, and how cognitive accounts absorbed conditioning paradigms."
 secondary_domain: [computational-brain-theories]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Learning and conditioning
@@ -42,11 +42,13 @@ reviewed: 2026-09-25
 
 Pavlovian vocabulary is often stretched over complex behaviour; real reinforcement schedules are messy and hard to observe.
 
-## Related notes
+## Connections
 
-- [[Memory processes]]
-- [[CBT and its evidence base]]
-- [[Psychoeducation and social rhythms]]
+- [[Memory processes]] - the wider memory framework this learning sits in; extinguished responses returning with context change parallel retrieval's dependence on cues and context.
+- [[CBT and its evidence base]] - where conditioning becomes treatment: exposure applies extinction deliberately, and the trials test whether that translates into lasting symptom change.
+- [[Psychoeducation and social rhythms]] - a structured bipolar treatment in which supervised practice, not information alone, carried the benefit: rehearsed skills in a supported context, applied to daily routines.
+- [[Reinforcement learning]] - the computational formalisation of the operant half: values, prediction errors and model-based versus model-free control restate conditioning quantitatively.
+- [[Fear learning and extinction]] - the translational extension in trauma: fear conditioning and extinction mechanisms, and why relapse after successful exposure is expected rather than anomalous.
 
 ## Study question
 

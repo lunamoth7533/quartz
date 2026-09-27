@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Neurology - Conditions]]"
+up: "[[Neurology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurology]
 ---
@@ -44,6 +44,10 @@ Seizure classification and drug efficacy by seizure type are established; progno
 ## Connections
 
 Epilepsy is the clearest clinical case for the excitation-inhibition material in [[Excitation and inhibition balance]] and for the diagnostic pathway in [[EEG and other diagnostics]].
+
+- [[Functional neurological disorder]] - functional seizures are the main alternative to epilepsy in the seizure differential, diagnosed from positive signs rather than by excluding epilepsy alone.
+
+- [[Co-occurring conditions in autism]] - epilepsy affects about one in ten autistic people, more often where intellectual disability is present, one of the clearest neurological overlaps with a developmental condition.
 
 **Cross-domain connection (curation).** Pharmacology meets epilepsy at shared mechanisms: psychotropics that lower seizure threshold and antiseizure drugs with psychiatric effects are the practical case for the interaction article's dynamic-interaction category. [[Therapeutic index, monitoring and interactions]] [[Drug classes and mechanisms overview]]
 

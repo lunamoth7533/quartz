@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [neuroendocrinology-neuroimmunology]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Immune and barrier]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine]
 ---
@@ -34,6 +34,11 @@ Allostasis describes the maintenance of stability through change: physiological 
 ## Evidence and status
 
 The framework is widely used and supported by animal and human correlational evidence; composite load indices vary between studies, and causal direction is difficult to establish in observational work.
+
+## Recent research
+
+- **2023 · Narrative review (Psychotherapy and Psychosomatics).** Restates allostatic load as the cumulative burden of life events and chronic stress, with overload when challenges exceed coping capacity. [[P37253338 Sonino 2023 Allostatic load and endocrine disorders#^p37253338-definition|Sonino 2023]] It argues for measuring load with clinimetric indices and rating scales alongside biomarkers. [[P37253338 Sonino 2023 Allostatic load and endocrine disorders#^p37253338-assessment|Sonino 2023]] Wider composites help clinical description but make indices harder to compare. [[P37253338 Sonino 2023 Allostatic load and endocrine disorders#^p37253338-caution-clinimetric|Appraisal: Sonino 2023]]
+- **2023 · Longitudinal cohort (Psychoneuroendocrinology).** Tests one proposed behavioural route: in a 12-year Australian cohort, combinations of lifestyle behaviours did not explain the association between stressful life events and allostatic load. [[P36610209 Siew 2023 Stressful life events and allostatic load#^p36610209-mediation|Siew 2023]] A null behavioural path does not demonstrate the physiological one. [[P36610209 Siew 2023 Stressful life events and allostatic load#^p36610209-caution-pathway|Appraisal: Siew 2023]]
 
 ## Connections
 

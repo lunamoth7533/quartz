@@ -57,8 +57,7 @@ Power is a property of a test design under assumptions, not a probability that a
 A methodological essay about how statistical summaries are interpreted, aimed at researchers and readers rather than a study of any population. Its examples are illustrative rather than exhaustive.
 ^p27209009-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the essay.
 
 The convention of "statistically significant at p < 0.05" is a threshold, not a finding, and this library treats it that way: reported results are read together with effect sizes, intervals, design and the decisions that produced them.
@@ -71,4 +70,4 @@ The convention of "statistically significant at p < 0.05" is a threshold, not a 
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

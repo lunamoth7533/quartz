@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Psychology - Learning and memory]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology, research/domain/computational]
 ---
@@ -29,7 +29,7 @@ Procedural memory supports skills and habits acquired through practice, typicall
 
 **The goal-directed to habit transition.** Repeated performance in a stable context shifts control toward cue-triggered behaviour. The behavioural signature of the transition is outcome-insensitivity: after enough repetition, performance persists even when the outcome becomes less valuable or is devalued, which is the operational test distinguishing habit from goal-directed control. The distinction matters clinically because interventions aimed at goals and expectations act on the goal-directed system, while cue-triggered habits respond to context change and competing responses - so the kind of intervention must match the kind of control. [[F39 OpenStax Psychology 2e operant conditioning#^f39-consequences|Operant Conditioning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]]
 
-**The computational version.** Reinforcement learning formalises how an agent learns from reward signals to choose actions with value functions and policies. Habitual control resembles model-free learning from cached values, while flexible goal-directed control resembles model-based evaluation - the formal reason a well-practised behaviour can persist when its outcome changes - and tasks are designed to separate them. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]]
+**The computational version.** Reinforcement learning formalises how a learner uses reward signals to choose actions with value functions and policies. Habitual control resembles model-free learning from cached values, while flexible goal-directed control resembles model-based evaluation - the formal reason a well-practised behaviour can persist when its outcome changes - and tasks are designed to separate them. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]]
 
 **The circuit-level home.** Striatal circuits are implicated in habit learning and in the transition from goal-directed to habitual control. Signals are processed through direct and indirect pathways whose relative activity shapes cortical output, which is why the basal ganglia are described as modulating rather than generating movement - the same circuitry implicated in habit learning and in movement disorders. [[F56 Neuroscience Online basal ganglia#^f56-pathways|Basal Ganglia]] [[F56 Neuroscience Online basal ganglia#^f56-disorders|Basal Ganglia]]
 

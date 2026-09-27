@@ -35,12 +35,12 @@ Each of those is a boundary on where the result travels.
 
 Then the measurement. Trials differ in who rated the outcome, and clinician-reported and self-reported results
 can disagree.
-[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD (Cochrane review)]]
+[[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD (Cochrane review)]]
 The rater is part of the measurement, not a formality.
 
 Then transfer. Child intervention findings do not automatically transfer to adults; the constructs may overlap
 while the outcome measures, developmental context and support needs differ.
-[[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI synthesis: Autism spectrum disorder primer]]
+[[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]]
 
 Finally, design. A study that describes co-occurrence cannot answer a causal question no matter how precisely
 the population is defined.

@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [computational-brain-theories]
 secondary_domain: []
 condition: []
-source_count: 6
-reviewed: 2026-09-25
-up: "[[Computational Neuroscience and Brain Theories - Networks and theories]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Computational Neuroscience and Brain Theories Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/computational]
 ---
@@ -40,6 +40,11 @@ Several theories address how consciousness arises: functional accounts such as g
 Empirical work continues, including paradigms designed for theory comparison; no theory is currently established, and this note is deliberately agnostic.
 
 **The adversarial-collaboration test.** Because most consciousness measures are theory-laden, simple comparisons cannot separate frameworks, so the adversarial collaboration approach sets out to test theories with paradigms designed so that their predictions diverge. The Cogitate Consortium (2025) tested integrated information theory (IIT) and global neuronal workspace theory (GNWT) in 256 human participants using fMRI, MEG and intracranial EEG: theory proponents and a neutral consortium preregistered divergent predictions - on decoding location, maintenance profile and inter-areal connectivity - together with expected outcomes and interpretation before data collection. Results aligned with some predictions of each theory while substantially challenging key tenets of both: IIT was challenged by the absence of sustained gamma-band synchronisation within posterior cortex, and GNWT by the general lack of ignition at stimulus offset and limited prefrontal representation of certain conscious dimensions. [[P40307561 Cogitate 2025 Adversarial consciousness#^p40307561-results|Cogitate 2025]] These are challenges to the tested predictions in this paradigm, not definitive refutations of either theory: the study tested predictions within a specific visual paradigm, the authors' own framing distinguishes predictions challenged from theories definitively rejected, and a failed prediction can be absorbed by adjusting auxiliary assumptions or by restricting a theory's scope. [[P24811198 Oizumi 2014 Integrated information theory#^p24811198-claim|Integrated information theory]] [[P31078047 Doerig 2019 Unfolding argument#^p31078047-debate|The unfolding argument]]
+
+## Recent research
+
+- **2025 · Preregistered adversarial collaboration (Nature).** The adversarial test of integrated information and global neuronal workspace theories challenged key tenets of both rather than selecting a winner; its design and results are set out under Evidence and status above. [[P40307561 Cogitate 2025 Adversarial consciousness#^p40307561-results|Cogitate 2025]]
+- **2025 · Review of a structured debate among theory proponents (Neuroscience and Biobehavioral Reviews).** Proponents of global workspace, higher-order, integrated information, recurrent processing and predictive processing theories set out their explananda, mechanisms and refutation conditions, and found more disagreement than agreement on what consciousness is, how conscious states are identified and what a theory must explain - the unresolved first step the Uncertainties section names. [[P39929381 Mudrik 2025 Theories of consciousness debate#^p39929381-format|Mudrik 2025]] [[P39929381 Mudrik 2025 Theories of consciousness debate#^p39929381-disagreement|Mudrik 2025]] A debate records positions rather than testing them. [[P39929381 Mudrik 2025 Theories of consciousness debate#^p39929381-caution-positions|Appraisal: Mudrik 2025]]
 
 ## Connections
 

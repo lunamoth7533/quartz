@@ -14,7 +14,7 @@ tags: [research/module, research/module/m08]
 
 # Module 08 - ADHD
 
-**Lessons.** 6 · **Canvas.** [[Learning Map - ADHD.canvas]] · **Entry point.** [[Learning Hub]]
+**Lessons.** 6 · **Canvas.** [[Learning Map - ADHD.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -72,7 +72,7 @@ Answer from memory first; the parent lesson holds the supporting detail.
 
 1. Why does the rater matter when judging an ADHD treatment result?
    - *Working answer.* Clinician-rated and self-rated outcomes can disagree, and classroom or workplace informants add another perspective; the rater is part of the measurement.
-   - *Answer sources.* [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD rater caution]]
+   - *Answer sources.* [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD rater caution]]
 
 2. What is the strongest and weakest part of the ADHD medication evidence base?
    - *Working answer.* Short-term randomised comparisons of core symptoms are relatively strong; long-term functional and safety evidence is thin, with insufficient data at 26 and 52 weeks in the 2018 synthesis.
@@ -89,4 +89,4 @@ Every lesson names the access level and check status of its sources. Where a cla
 ## Next steps
 
 - Revisit [[Learning Coverage Matrix]] to see which topics this module does not yet cover and why.
-- Move to the next module in [[Learning Hub]] once the check-yourself questions are answerable without the notes.
+- Move to the next module in [[Learning Path]] once the check-yourself questions are answerable without the notes.

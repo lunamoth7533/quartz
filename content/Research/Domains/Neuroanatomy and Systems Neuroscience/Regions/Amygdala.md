@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Regions]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/psychology]
 ---
@@ -33,11 +33,13 @@ The amygdala is a group of nuclei in the medial temporal lobe connected with cor
 
 ## Evidence and status
 
-Conditioning evidence is strong in animals and healthy humans, and direct evidence comes largely from that animal work and from human conditioning in healthy participants; human imaging findings localise group-level responses rather than individual states. Amygdala findings in clinical samples come from group designs with the analytic flexibility and power problems documented for neuroimaging generally, so an average difference is a sample-level description rather than a test for an individual. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-power|Neuroimaging reproducibility]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
+Conditioning evidence is strong in animals and healthy humans, and direct evidence comes largely from that animal work and from human conditioning in healthy participants; human imaging findings localise group-level responses rather than individual states. Amygdala findings in clinical samples come from group designs with the analytic flexibility and power problems documented for neuroimaging generally, so an average difference is a sample-level description rather than a test for an individual. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-power|Neuroimaging reproducibility]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
 
 ## Connections
 
 This note is the structural counterpart to [[Fear learning and extinction]] and to the emotional-processing material in [[Emotion regulation]].
+
+- [[Insula]] - over-activated together with the amygdala during negative emotional processing across PTSD and phobic disorders, and the hub of the salience network.
 
 **Cross-domain connection (curation).** The CPTSD condition domain consumes this circuit logic through its fear-learning and treatment articles, and the neuroendocrine domain meets it at the hypothalamic outputs the hub drives - the amygdala is one of the anatomical places where the psychology of learned fear, the physiology of stress output and the treatment literature physically intersect. [[Fear learning and extinction]] [[Stress response and the HPA axis]]
 

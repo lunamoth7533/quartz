@@ -58,8 +58,7 @@ Metabotropic receptors act through second messengers that can modify ion channel
 Educational overview written for a general audience; it simplifies and does not carry the qualifications of primary literature.
 ^f04-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological notes, not statements from the page.
 
 Summation is the usual route to firing, not a universal rule: some cells release transmitter in proportion to graded input without a spike threshold.

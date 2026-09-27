@@ -3,15 +3,15 @@ note_type: topic
 title: "Phase-based trauma therapy evidence"
 domain: [psychology]
 condition: ['cptsd']
-source_count: 2
-up: "[[CPTSD - Assessment and treatment]]"
+source_count: 4
+up: "[[CPTSD Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology, research/condition/cptsd]
 content_layer: reference
 concept_kind: framework
 description: "The stabilisation-first rationale, the comparative evidence, and what the sequencing debate is actually about."
 secondary_domain: [clinical-psychiatry]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Phase-based trauma therapy evidence
@@ -23,7 +23,7 @@ reviewed: 2026-09-25
 - Across most outcomes there were no significant differences between phase-based and non-phase-based interventions. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-comparison|Phase-based versus non-phase-based trauma therapy]]
 - Multi-phase interventions did better on PTSD symptoms, and phase, multi-phase and exposure designs did better on affect regulation. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-outcomes|Phase-based versus non-phase-based trauma therapy]]
 - Non-phase-based and non-exposure-based approaches can be as effective as structured approaches in many contexts, while some outcomes may still benefit from structure. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-conclusion|Phase-based versus non-phase-based trauma therapy]]
-- The comparison is between packaged protocols rather than a randomized test of sequencing within one protocol. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|AI synthesis: Phase-based versus non-phase-based trauma therapy]]
+- The comparison is between packaged protocols rather than a randomized test of sequencing within one protocol. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|Appraisal: Phase-based versus non-phase-based trauma therapy]]
 
 ## How it works
 
@@ -33,13 +33,13 @@ reviewed: 2026-09-25
 
 **The authors' reading.** In many situations, approaches without a stabilisation phase or formal exposure performed comparably, while selected outcomes still looked better under structured designs. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-conclusion|Phase-based versus non-phase-based trauma therapy]] Outcomes that are broadly comparable between approaches do not support a requirement for stabilisation as a precondition, but they are a statement about average differences between packaged protocols rather than a demonstration that sequencing does not matter. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-outcomes|Phase-based versus non-phase-based trauma therapy]]
 
-**What the design cannot answer.** The comparison is between packaged protocols, not a randomised test of sequencing inside one protocol, so the clinical question of how to order components for a particular person stays open. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|AI appraisal: Phase-based versus non-phase-based trauma therapy]] Meta-analytic limits compound the ambiguity: few trials, a single time point and heterogeneous outcome measures, as the authors state themselves. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-limit|Phase-based versus non-phase-based trauma therapy]]
+**What the design cannot answer.** The comparison is between packaged protocols, not a randomised test of sequencing inside one protocol, so the clinical question of how to order components for a particular person stays open. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|Appraisal: Phase-based versus non-phase-based trauma therapy]] Meta-analytic limits compound the ambiguity: few trials, a single time point and heterogeneous outcome measures, as the authors state themselves. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-limit|Phase-based versus non-phase-based trauma therapy]]
 
-**The related pooled evidence.** Psychotherapy for complex trauma showed significant pooled effects on PTSD, depression, anxiety and dissociation outcomes, with effects slightly smaller at follow-up and no longer significant for anxiety and dissociation, and with moderators including childhood trauma and risk of bias. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-improvement|Psychological interventions for CPTSD]] [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-followup|Psychological interventions for CPTSD]] Complex trauma exposure in those trials is not identical to a formal ICD-11 complex PTSD diagnosis. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-caution-category|AI appraisal: Psychological interventions for CPTSD]]
+**The related pooled evidence.** Psychotherapy for complex trauma showed significant pooled effects on PTSD, depression, anxiety and dissociation outcomes, with effects slightly smaller at follow-up and no longer significant for anxiety and dissociation, and with moderators including childhood trauma and risk of bias. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-improvement|Psychological interventions for CPTSD]] [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-followup|Psychological interventions for CPTSD]] Complex trauma exposure in those trials is not identical to a formal ICD-11 complex PTSD diagnosis. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-caution-category|Appraisal: Psychological interventions for CPTSD]]
 
 **Guideline framing.** Current guideline products describe trauma-focused therapy as central for PTSD while acknowledging that sequencing may be adapted for particular presentations. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-improvement|Psychological interventions for CPTSD]]
 
-**Boundary.** This is a research summary; it contains no instruction for any individual's treatment and no trauma-exposure guidance. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|AI appraisal: Phase-based versus non-phase-based trauma therapy]]
+**Boundary.** This is a research summary; it contains no instruction for any individual's treatment and no trauma-exposure guidance. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|Appraisal: Phase-based versus non-phase-based trauma therapy]]
 
 **Reading rule.** Separate a null contrast between protocols, a positive finding on one outcome, and a claim about how treatment should be sequenced. Only the last is the clinical question, and the evidence here does not settle it. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-limit|Psychological interventions for CPTSD]] [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-limit|Phase-based versus non-phase-based trauma therapy]]
 
@@ -49,11 +49,18 @@ reviewed: 2026-09-25
 
 The trial base is small, with one analysis time point and heterogeneous outcome measures, as the authors state.
 
-## Related notes
+## Recent research
 
-- [[CPTSD and disturbances in self-organization]]
-- [[Psychological interventions for complex trauma]]
-- [[CBT and its evidence base]]
+- **2024 · Systematic review and meta-analysis (Journal of anxiety disorders).** Across randomised trials, trauma-focused therapy showed no average worsening of PTSD symptoms at mid-treatment compared with controls, which is the risk that stabilisation-first sequencing is meant to guard against, and small benefits by mid-treatment in higher-quality trials. [[P39270371 Purnell 2024 Mid-treatment PTSD symptoms#^p39270371-exacerbation|Purnell 2024]] [[P39270371 Purnell 2024 Mid-treatment PTSD symptoms#^p39270371-sensitivity|Purnell 2024]] Earlier transient worsening, and the dropout of people who worsen, could not be excluded. [[P39270371 Purnell 2024 Mid-treatment PTSD symptoms#^p39270371-limit|Purnell 2024]] [[P39270371 Purnell 2024 Mid-treatment PTSD symptoms#^p39270371-caution-average|Appraisal: Purnell 2024]]
+- **2023 · Randomised controlled trial (Journal of anxiety disorders).** In adults with complex PTSD after childhood abuse, a phase-based sequence (skills training, then narrative therapy) did not outperform prolonged exposure or skills training alone: prolonged exposure reduced PTSD symptoms more, and at one year prolonged exposure and skills training both improved complex PTSD symptoms more than the phase-based sequence. [[P37871452 Sele 2023 Phase-based versus exposure RCT#^p37871452-design|Sele 2023]] [[P37871452 Sele 2023 Phase-based versus exposure RCT#^p37871452-post|Sele 2023]] [[P37871452 Sele 2023 Phase-based versus exposure RCT#^p37871452-followup|Sele 2023]] One residential trial whose arms differ in format and dose tests packages, not sequencing alone. [[P37871452 Sele 2023 Phase-based versus exposure RCT#^p37871452-caution-setting|Appraisal: Sele 2023]]
+
+## Connections
+
+- [[CPTSD and disturbances in self-organization]] - the construct the sequencing debate is about; its affect-regulation cluster is one of the outcomes on which structured designs did better.
+- [[Psychological interventions for complex trauma]] - the pooled evidence that therapy helps in complex trauma at all, which the sequencing question sits on top of.
+- [[CBT and its evidence base]] - the structured, skills-based therapy model and the design constraints of testing psychological treatments, both of which shape how sequencing trials are built.
+- [[Fear learning and extinction]] - the laboratory mechanism behind exposure components; that note hands its clinical questions over to this one.
+- [[Emotion regulation]] - the target of the stabilisation or skills phase, and the outcome domain on which phase-based, multi-phase and exposure designs showed greater improvement.
 
 ## Study question
 

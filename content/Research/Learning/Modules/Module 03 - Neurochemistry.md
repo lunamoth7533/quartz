@@ -14,7 +14,7 @@ tags: [research/module, research/module/m03]
 
 # Module 03 - Neurochemistry
 
-**Lessons.** 11 · **Canvas.** [[Learning Map - Neurochemistry.canvas]] · **Entry point.** [[Learning Hub]]
+**Lessons.** 11 · **Canvas.** [[Learning Map - Neurochemistry.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -86,7 +86,7 @@ Answer from memory first; the parent lesson holds the supporting detail.
 
 2. Why is 'excitation and inhibition balance' easy to say and hard to measure?
    - *Working answer.* It is a local, dynamic relationship between inputs at a integration point; most measurements are indirect and a difference in one circuit says little about the whole brain.
-   - *Answer sources.* [[F04 OpenStax Communication between neurons#^f04-caution-summation|AI synthesis: Communication Between Neurons]]
+   - *Answer sources.* [[F04 OpenStax Communication between neurons#^f04-caution-summation|Appraisal: Communication Between Neurons]]
 
 3. What three things would you need before interpreting a single HRV measurement?
    - *Working answer.* Recording length and context, individual factors such as age, posture and breathing, and a comparison value from a comparable population or from the same person over time.
@@ -99,4 +99,4 @@ Every lesson names the access level and check status of its sources. Where a cla
 ## Next steps
 
 - Revisit [[Learning Coverage Matrix]] to see which topics this module does not yet cover and why.
-- Move to the next module in [[Learning Hub]] once the check-yourself questions are answerable without the notes.
+- Move to the next module in [[Learning Path]] once the check-yourself questions are answerable without the notes.

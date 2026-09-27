@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## Neuroendocrinology and Neuroimmunology\n\nDomain hub: hormonal and immune signalling between body and brain, including stress axes, autonomic control, circadian timing and neuroimmune interactions.\n\n[[Neuroendocrinology and Neuroimmunology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## Neuroendocrinology and Neuroimmunology\n\nDomain hub: hormonal and immune signalling between body and brain, including stress axes, autonomic control, circadian timing and neuroimmune interactions.\n\n[[Neuroendocrinology and Neuroimmunology Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 2100,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 734
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[Neuroendocrinology and Neuroimmunology - Axes and physiology|Axes and physiology index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 586
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[HPA axis]]**\n*process* - 8 sources\n\nThe hypothalamic-pituitary-adrenal axis as a control loop: releasing factors, circulating hormones, feedback, and the timescales involved.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -44,7 +34,7 @@
 			"type": "text",
 			"text": "**[[Stress response and the HPA axis]]**\n*mechanism* - 5 sources\n\nHPA axis anatomy and feedback, the contested role of glucocorticoids, the acute-to-chronic transition, and why single cortisol measures mislead.",
 			"x": 30,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -56,24 +46,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 758
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[Neuroendocrinology and Neuroimmunology - Autonomic|Autonomic index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 610
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Autonomic measurement and heart rate variability]]**\n*method* - 4 sources\n\nHow autonomic function is measured, why heart rate variability has several definitions, and what physiological inferences are defensible.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 242,
 			"color": "#8FA8FF"
@@ -83,7 +63,7 @@
 			"type": "text",
 			"text": "**[[Autonomic regulation]]**\n*mechanism* - 6 sources\n\nAutonomic divisions and central control, the limits of the fight-or-flight shorthand, and why heart rate variability is not one quantity.",
 			"x": 450,
-			"y": 810,
+			"y": 662,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -95,24 +75,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 734
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[Neuroendocrinology and Neuroimmunology - Timing|Timing index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 896
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Circadian clock biology]]**\n*process* - 4 sources\n\nThe molecular clock, its coordination across tissues, and the outputs that connect biological timing to physiology and behaviour.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -122,7 +92,7 @@
 			"type": "text",
 			"text": "**[[Circadian rhythms and sleep]]**\n*mechanism* - 4 sources\n\nCircadian clock biology, distributed tissue clocks, sleep pressure versus timing, and the limited evidence linking rhythm disruption to mood episodes.",
 			"x": 870,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -134,24 +104,14 @@
 			"x": 1260,
 			"y": 310,
 			"width": 420,
-			"height": 1616
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**[[Neuroendocrinology and Neuroimmunology - Immune and barrier|Immune and barrier index]]**",
-			"x": 1290,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1468
 		},
 		{
 			"id": "t3_0",
 			"type": "text",
 			"text": "**[[Allostasis and chronic stress]]**\n*theory* - 5 sources\n\nStability through change: the allostatic framework, its proposed consequences of repeated activation, and how it is measured.",
 			"x": 1290,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -161,7 +121,7 @@
 			"type": "text",
 			"text": "**[[Blood-brain barrier]]**\n*structure* - 4 sources\n\nThe components that separate blood from neural tissue, how selectivity is achieved, and why 'leaky barrier' claims need precision.",
 			"x": 1290,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -171,7 +131,7 @@
 			"type": "text",
 			"text": "**[[Cytokines and inflammation in psychiatric conditions]]**\n*theory* - 6 sources\n\nInflammatory signalling as a proposed contributor in a subset of cases, with the population-level evidence and its interpretation limits.",
 			"x": 1290,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 242,
 			"color": "#8FA8FF"
@@ -181,7 +141,7 @@
 			"type": "text",
 			"text": "**[[Microbiome-gut-brain axis]]**\n*theory* - 4 sources\n\nGut microbiota as a proposed actor in brain function, the communication routes involved, and the causal limits of current evidence.",
 			"x": 1290,
-			"y": 1366,
+			"y": 1218,
 			"width": 360,
 			"height": 218,
 			"color": "#8FA8FF"
@@ -191,7 +151,7 @@
 			"type": "text",
 			"text": "**[[Neuroimmune interactions and microglia]]**\n*mechanism* - 7 sources\n\nMicroglia as the brain's resident immune cells, their surveillance and responses, and how immune signalling interacts with neural function.",
 			"x": 1290,
-			"y": 1644,
+			"y": 1496,
 			"width": 360,
 			"height": 242,
 			"color": "#8FA8FF"
@@ -284,6 +244,16 @@
 			"width": 360,
 			"height": 136,
 			"color": "#6E7787"
+		},
+		{
+			"id": "n-sleep-and-circadian-disruption-across-conditions",
+			"type": "text",
+			"text": "**[[Sleep and circadian disruption across conditions]]**\n*framework* - 18 sources\n\nHow sleep and circadian disturbance shows up in bipolar I, ADHD, autism and PTSD/CPTSD, and what recent evidence says about cause, consequence and shared vulnerability.",
+			"x": 870,
+			"y": 916,
+			"width": 360,
+			"height": 250,
+			"color": "#8FA8FF"
 		}
 	],
 	"edges": [

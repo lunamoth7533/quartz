@@ -4,7 +4,7 @@ title: "Reading a study and matching populations"
 domain: [research-literacy]
 condition: []
 source_count: 8
-up: "[[Research Methods and Measurement - Designs]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
@@ -21,8 +21,8 @@ reviewed: 2026-09-25
 ## Supported claims
 
 - A Cochrane review of CBT for adult ADHD rated the evidence low-quality and flagged short follow-up, heterogeneous outcomes and limited geography. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|CBT for ADHD (Cochrane review)]]
-- Child intervention findings do not automatically transfer to adults. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI synthesis: Autism spectrum disorder primer]]
-- Trials differ in who rated the outcome, and clinician-reported and self-reported results can disagree. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD (Cochrane review)]]
+- Child intervention findings do not automatically transfer to adults. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]]
+- Trials differ in who rated the outcome, and clinician-reported and self-reported results can disagree. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD (Cochrane review)]]
 
 ## How it works
 
@@ -30,9 +30,9 @@ reviewed: 2026-09-25
 
 **What was compared.** The comparator decides the size and meaning of an effect: estimates are relative to a specific comparator, so a result against placebo is not interchangeable with a result against an active treatment. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-stimulants|Comparative interventions for ADHD]] The Cochrane review of cognitive behavioural interventions in adults with ADHD found large effects against a waiting list and no statistically significant difference against supportive psychotherapy, with certainty low or very low for most comparisons because trials were small and outcome measures heterogeneous. An effect size read without its comparator is uninterpretable. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|Cognitive behavioural interventions for ADHD]]
 
-**Who rated the outcome.** Outcome ratings differ systematically between clinicians, teachers, parents and participants, which is why trials report them separately rather than pooling them; clinician-reported and self-reported results differed, so a benefit claim should name who rated it. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI appraisal: Cognitive behavioural interventions for ADHD]] The medication network meta-analysis shows the same dependency at scale - all drugs beat placebo on clinicians' ratings in children and adolescents while only two did on teachers' ratings. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-efficacy|ADHD medication efficacy and tolerability]]
+**Who rated the outcome.** Outcome ratings differ systematically between clinicians, teachers, parents and participants, which is why trials report them separately rather than pooling them; clinician-reported and self-reported results differed, so a benefit claim should name who rated it. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: Cognitive behavioural interventions for ADHD]] The medication network meta-analysis shows the same dependency at scale - all drugs beat placebo on clinicians' ratings in children and adolescents while only two did on teachers' ratings. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-efficacy|ADHD medication efficacy and tolerability]]
 
-**What was measured.** Symptom scales, functional measures and quality-of-life instruments are different outcomes, and improvement in one need not imply improvement in another. [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI appraisal: International Classification of Functioning]]
+**What was measured.** Symptom scales, functional measures and quality-of-life instruments are different outcomes, and improvement in one need not imply improvement in another. [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
 **How long it was measured.** Most trials cover weeks to months: the medication trials supply short-term evidence and almost nothing beyond it, with insufficient data at 26 and 52 weeks and the authors calling for urgent research on long-term effects. Duration is a property of the evidence base, and a claim about long-term benefit cannot be read off a 12-week result; long-term questions often rest on observational data with different inferential limits. [[P30097390 Cortese 2018 ADHD medication efficacy and tolerability#^p30097390-longterm|ADHD medication efficacy and tolerability]]
 
@@ -40,7 +40,7 @@ reviewed: 2026-09-25
 
 **Transporting results is an argument, not a default.** Applying a finding to a new population assumes the effect's mechanism operates there similarly - an assumption that can be argued from shared mechanisms and checked with local data, but not assumed. This transportability discipline is what the translational-validity article develops for species and settings; the same logic applies population to population. [[Translational validity]] [[Evidence types and causal inference]]
 
-**The transfer rule.** That child intervention findings do not automatically transfer to adults is stated by the sources themselves rather than inferred. Matching populations means naming recruitment, comparator, rater and horizon, and stating which of them differs from the population or question at hand. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|AI appraisal: Autism spectrum disorder primer]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI appraisal: International Classification of Functioning]]
+**The transfer rule.** That child intervention findings do not automatically transfer to adults is stated by the sources themselves rather than inferred. Matching populations means naming recruitment, comparator, rater and horizon, and stating which of them differs from the population or question at hand. [[P31949163 Lord 2020 Autism spectrum disorder primer#^p31949163-caution-adult|Appraisal: Autism spectrum disorder primer]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
 **Cross-domain connection (curation).** The adult-ADHD evidence article is a worked instance: its population, rater and duration caveats are the checklist applied to one literature, and its open-questions list marks where the checklist found thin samples. [[ADHD across the lifespan]] [[P40948064 Cortese 2025 ADHD in adults evidence base#^p40948064-open|ADHD in adults review]]
 
@@ -48,11 +48,13 @@ reviewed: 2026-09-25
 
 Effect sizes are population averages; the farther your situation is from the trial sample, the weaker the inference.
 
-## Related notes
+## Connections
 
-- [[Evidence types and causal inference]]
-- [[CBT for adult ADHD]]
-- [[Autism heterogeneity and support needs]]
+- [[Evidence types and causal inference]] - comes first in the reading order: identify the claim and the design, then check whether the sampled population matches the question.
+- [[CBT for adult ADHD]] - a worked case: large effects against waiting lists, no clear difference against supportive therapy, and diverging clinician and self-ratings show comparator and rater deciding the result.
+- [[Autism heterogeneity and support needs]] - heterogeneity is why population matching matters: an average from one autistic sample may not describe people with different support needs.
+- [[Measurement validity and reliability]] - the outcome measure must be valid in the population being read about; a scale validated elsewhere may not carry its properties over.
+- [[Effect sizes and uncertainty]] - once the population matches, the effect still has to be read in absolute terms, against baseline risk and with its interval.
 
 ## Study question
 

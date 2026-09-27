@@ -1,31 +1,108 @@
 ---
 note_type: hub
 title: Research Home
+description: "The front door: five ways in, the fifteen domain maps in five families, recent research and open questions."
 cssclasses: [research-hub]
 tags: [research/home]
 ---
 
 # Research Home
 
-A curated starting library for **Bipolar I, ADHD, autism and complex PTSD**, plus the neurobiology, neurochemistry, psychology, pharmacology and neurology underneath them. Every substantive claim in a topic note links to a block in a source note so you can check it.
+A connected library for learning how **bipolar I and II, ADHD, autism and complex PTSD** relate to the brain and mind science underneath them. Concepts link to each other with a reason for every link, lessons teach them in order, and every factual sentence points at the evidence behind it.
 
-> [!warning] Research library, not clinical advice
-> It is a research library, not an individual treatment plan. Nothing here is a diagnosis, a dose or a substitute for clinical advice.
+> [!warning] Educational library, not clinical advice
+> Nothing here is a diagnosis, a dose, a titration or a substitute for clinical care.
 
-## Start here
+## Five ways in
 
-| If you want to… | Open |
+| I want to… | Start at |
 | --- | --- |
-| Look up a concept or a field | [[Research Atlas]] → [[Reference Index]] |
-| Learn the material in order | [[Learning Path]] → [[Learning Hub]] |
-| Find or check a source | [[Library]] |
-| See queues and coverage | [[Visualizations]] · [[Learning Dashboard]] |
-| Understand the method | [[Workflow]] |
-| See the whole landscape | [[Research Synthesis Map.canvas\|Research Synthesis Map]] · [[Reference Atlas.canvas\|Reference Atlas]] |
+| **Learn** it in order | [[Learning Path]] - eight stages, ten modules, a lesson for each core concept |
+| **Explore** a field or condition | [[#Domain maps]] below - fifteen maps in five families |
+| **Look up** a term or concept | [[Reference Index]] (A-Z, by kind, by condition) · [[Glossary]] |
+| **Check the evidence** | [[Library]] - every paper and page, with what was checked |
+| **Weigh an open question** | [[#Open questions]] below |
 
-## Coverage
+New here? Read [[How to use this vault]] first; it takes ten minutes and explains the note types, the study loop and the graph.
 
-Live counts by note type:
+## Domain maps
+
+Each map is a curated overview of one field: what it is about, its concepts grouped by theme, how it connects to the other fields, and where its evidence runs out.
+
+**Biology and chemistry**
+- [[Neurobiology Map]] - cells, membranes, spikes, synapses, plasticity and the cell biology of the nervous system.
+- [[Neurochemistry Map]] - transmitter life cycles, receptor families, the signalling systems and why one-molecule stories fail.
+- [[Neuroanatomy and Systems Neuroscience Map]] - regions, pathways and large-scale systems, from spinal cord to association cortex.
+- [[Genetics and Neurodevelopment Map]] - inheritance, common and rare variants, polygenic scores and how the brain is built.
+- [[Neuroendocrinology and Neuroimmunology Map]] - stress axes, autonomic control, circadian timing and immune signalling.
+
+**Mind and computation**
+- [[Psychology Map]] - perception, attention, learning, memory, emotion, social cognition and therapy models.
+- [[Computational Neuroscience and Brain Theories Map]] - neural coding, reinforcement learning, predictive processing and theories of consciousness.
+
+**Clinical and applied**
+- [[Pharmacology Map]] - exposure, action, drug classes, and how benefit and harm are measured.
+- [[Neurology Map]] - examination, localisation, diagnostics and the main neurological conditions.
+- [[Clinical Psychiatry and Psychopathology Map]] - classification, construct families, formulation and co-occurrence.
+
+**The four conditions**
+- [[Bipolar Disorders Map]] - bipolar I (mania) and bipolar II (hypomania), shared course and features, the leading hypotheses and phase-specific treatment evidence.
+- [[ADHD Map]] - lifespan course, measurement, catecholamine and learning accounts, medication and psychological treatment evidence.
+- [[Autism Map]] - heterogeneity, masking, double empathy, genetics, assessment in adults and support.
+- [[CPTSD Map]] - the ICD-11 construct, trauma and memory mechanisms, and the treatment-sequencing debate.
+
+**Method**
+- [[Research Methods and Measurement Map]] - designs, measurement, inference, bias and research integrity: the tools for reading everything else.
+
+Relationships between domains are stated in the concept notes themselves; the curated register is in [[Reference Index#Relationship register|the reference index]], and [[Reference Atlas.canvas|Reference Atlas]] draws the domains as one picture.
+
+## Bridges between the conditions
+
+The four conditions share more than their maps suggest. These concepts cut across them, each with the evidence for what is shared and what is not:
+
+- [[Emotion dysregulation across conditions]] - one dimension measured in ADHD, bipolar disorders, autism and complex PTSD, and why similar scores need not mean a shared mechanism.
+- [[Sleep and circadian disruption across conditions]] - sleep loss before mania, delayed sleep phase in ADHD, insomnia in autism, nightmares after trauma: cause, consequence or shared vulnerability.
+- [[Trauma and PTSD in autistic and ADHD people]] - higher exposure, harder assessment, and what adapting trauma treatment involves.
+- [[Alexithymia]] - difficulty naming one's own feelings, and how much of the autism and trauma findings it explains.
+- [[Co-occurrence and differential reasoning]] - how overlapping features are told apart, and why co-occurrence is the rule rather than the exception.
+
+Condition-specific additions: [[Autistic burnout]] · [[Predictive processing accounts of autism]] · [[Mood monitoring and early warning signs in bipolar disorder]].
+
+## Start with research literacy
+
+These five concepts make the rest of the library readable:
+
+- [[Evidence types and causal inference]] · [[Bias and confounding]] · [[Reading a study and matching populations]] · [[Association versus individual prediction]] · [[Reviews, guidelines and preprints]]
+
+## Recent research
+
+Papers from 2023 onward, linked into the concepts they update. Each source note says what was checked; all are queued, none marked read.
+
+```dataview
+TABLE WITHOUT ID file.link AS "Paper", year AS "Year", study_type AS "Design", file.inlinks AS "Linked from"
+FROM #research/recent
+WHERE note_type = "source"
+SORT year DESC, file.name ASC
+LIMIT 25
+```
+
+The full list, with access and verification columns, is in [[Library#Recent research]].
+
+## Open questions
+
+Starter questions with competing explanations and the evidence each would need; they are not claims about any person.
+
+- [[Argument - Is chemical imbalance a useful explanation]]
+- [[Argument - Does ADHD medication change long-term outcomes]]
+- [[Argument - Does trauma therapy need a stabilization phase]]
+
+## Views
+
+- [[Visualizations]] - dashboards and charts; the graph views are under **Bookmarks → Graph views**, and the global graph opens on the concept map.
+- [[Research Synthesis Map.canvas|Research Synthesis Map]] - conditions, foundations and questions on one canvas.
+- Each domain map has a canvas beside it, and each module has a learning map in `Learning/Maps/`.
+
+## Library at a glance
 
 ```dataview
 TABLE WITHOUT ID note_type AS "Note type", length(rows) AS "Notes"
@@ -35,102 +112,14 @@ GROUP BY note_type
 SORT length(rows) DESC
 ```
 
-All sources are queued; verification labels say what was actually checked - abstract-level checks, official pages, or full-text reads - and file availability is tracked separately from reading status. This is a curated reference library rather than a systematic review: the reference layer was rebuilt from a staged source pack whose retrieval receipts are kept with the build. The journal set includes reviews, guidelines and one editorial, so each record states its own `study_type` rather than claiming uniform peer review.
-
-Source records separate what the checked abstract reports from the analyst's own methodological cautions, and topics label any link into those cautions as AI synthesis. Where a mechanism still has no verified source, the note says so and points to the advanced queue instead of filling the gap.
-
-## Reference encyclopedia
-
-[[Research Atlas]] maps fifteen domains to canonical concept articles, [[Reference Index]] carries the dynamic A-Z, domain, condition and evidence routes plus the cross-domain relationship register, and `Reference Index.base` renders the same notes as native tables. The learning material below remains the slower route through the same library.
-
-**Condition hubs**
-
-- [[Bipolar I Map]] - mania-defined course, phase-specific treatment evidence, dopamine and genomic findings, imaging limits.
-- [[ADHD Map]] - lifespan course, prefrontal catecholamines, medication and CBT evidence, measurement problems.
-- [[Autism Map]] - heterogeneity, rare variants, support and services, adult evidence gaps.
-- [[CPTSD Map]] - ICD-11 construct, classification differences, phase-based therapy evidence, biological evidence limits.
-
-**Foundation hubs**
-
-- [[Neurobiology Map]] - cells, membranes, spikes, synapses, networks, genes.
-- [[Neurochemistry Map]] - signalling basics, transmitters, balance, stress and sleep systems.
-- [[Psychology Map]] - attention, learning, memory, regulation, therapy evidence.
-- [[Pharmacology Map]] - exposure, action, safety, trial logic, applied medication evidence.
-- [[Neurology Map]] - organization, examination, measurement, honest interpretation.
-
-**Six further domain hubs** complete the reference taxonomy:
-- [[Neuroanatomy and Systems Neuroscience Map]]
-- [[Genetics and Neurodevelopment Map]]
-- [[Neuroendocrinology and Neuroimmunology Map]]
-- [[Computational Neuroscience and Brain Theories Map]]
-- [[Clinical Psychiatry and Psychopathology Map]]
-- [[Research Methods and Measurement Map]]
-
-- [[Research Atlas]] - collects all fifteen.
-
-## Start with research literacy
-
-These five notes make the rest of the library readable. They explain designs, bias, populations, prediction and how to treat guideline summaries.
-
-- [[Evidence types and causal inference]]
-- [[Bias and confounding]]
-- [[Reading a study and matching populations]]
-- [[Association versus individual prediction]]
-- [[Reviews, guidelines and preprints]]
-
-## How to study here
-
-1. [[Learning Path]] sequences the material from research literacy through cells and circuits to conditions.
-2. [[Workflow]] shows the source to claim to topic to argument method, with a working PDF page link and block transclusion.
-3. [[Study session template]] is the note format for a working session.
-
-Templates: [[Source template]], [[Topic template]], [[Argument template]], [[Study session template]].
-
-## Learning layer
-
-The detailed curriculum sits under `Learning/` and keeps the atomic notes as the evidence layer.
-
-- [[Learning Hub]] - entry point: how to use the layer, the ten modules and the study loop.
-- [[Module 01 - Research Methods and Evidence Literacy|Research Methods]] - start here; then the nine field and condition modules.
-- [[Learning Dashboard]] - Dataview views for lessons, modules, prerequisites and coverage.
-- [[Learning Library.base]] - native Base views over the learning layer.
-- [[Learning Coverage Matrix]] - every topic, its lesson, sources and open questions.
-- [[Glossary]] and [[Practice and Synthesis Exercises]] - terminology, claim tracing and worked reasoning practice.
-
-## Starter research questions
-
-- [[Argument - Is chemical imbalance a useful explanation]]
-- [[Argument - Does ADHD medication change long-term outcomes]]
-- [[Argument - Does trauma therapy need a stabilization phase]]
-
-These are AI-generated starter questions with competing explanations, not claims about any person.
-
-## Visualization layer
-
-- [[Visualizations]] - the visual index: which view answers which question, the graph-view legend, live charts, the domain-connection diagram, and the dashboards for queue, access, verification, source kind, condition, domain, topic and argument coverage.
-- Graph views - saved under **Bookmarks → Graph views**: knowledge map, concept skeleton, domain hierarchy, evidence quality, concept kinds, one close-up per domain family, learning layer and arguments.
-- Domain canvases - one per domain, beside its map, starting with [[Neurobiology Canvas.canvas]].
-- [[Research Synthesis Map.canvas]] - the full condition, foundation and argument landscape.
-- [[Reference Atlas.canvas]] - how the fifteen reference domains connect.
-- [[Reading Queue Map.canvas]] - strategic queue rules and access interpretation.
-- Learning maps - one canvas per module in `Learning/Maps/`, starting with [[Learning Map - Research Methods.canvas]].
-- Argument maps - one canvas beside each starter question in `Arguments/`.
-- [[Evidence Map Template.canvas]], [[Argument Map Template.canvas]] and [[Topic System Template.canvas]] - reusable synthesis canvases.
-
-## Article library
-
-See [[Library]] for what each view is for and how to read the columns.
-
-![[Library.base]]
-
-## Folders
+## Where things live
 
 | Folder | Holds |
 | --- | --- |
-| `Hubs/` | entry and index notes: Research Atlas, Reference Index, Library and Workflow |
-| `Domains/` | the fifteen domains in atlas order; each holds its map and canvas, one folder per subdomain with its index note and topic notes, and `Articles/` and `Pages/` for the source records filed under that domain |
-| `Visualizations/` | the visual index, dashboards and Bases, and the landscape canvases |
-| `Learning/` | modules, lessons, learning maps and study aids |
-| `Arguments/` | questions and evidence needs, kept separate from findings, with their argument maps |
-| `Templates/` | source, topic, argument and study-session templates plus the canvas templates |
-| `Support/` | downloaded attachments and their provenance |
+| `Hubs/` | [[How to use this vault]], [[Reference Index]] (with its Base and relationship registers) and [[Library]] |
+| `Domains/` | the fifteen domains; each holds its map and canvas, a folder per theme with the concept notes, and `Articles/` and `Pages/` for the sources filed under it |
+| `Learning/` | [[Learning Path]], modules, lessons, study aids and learning-map canvases |
+| `Arguments/` | open questions beside their argument maps |
+| `Visualizations/` | [[Visualizations]], dashboard Bases and the landscape canvases |
+| `Templates/` | note and canvas templates |
+| `Support/` | downloaded attachments with provenance |

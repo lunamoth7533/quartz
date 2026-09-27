@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 11
 reviewed: 2026-09-25
-up: "[[Neurobiology - Structures]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurobiology]
 ---

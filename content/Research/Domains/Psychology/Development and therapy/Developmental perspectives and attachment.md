@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [psychology]
 secondary_domain: []
 condition: []
-source_count: 9
-reviewed: 2026-09-25
-up: "[[Psychology - Development and therapy]]"
+source_count: 11
+reviewed: 2026-09-27
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology]
 ---
@@ -41,9 +41,16 @@ Longitudinal studies support associations between early caregiving and later out
 
 The sensitive-window machinery comes from visual-cortex work: reactivating it is proposed as a research strategy rather than a treatment, and applying it to attachment or social development is an extrapolation. [[P16261181 Hensch 2005 Critical period plasticity#^p16261181-reactivation|Critical period plasticity]] [[P16261181 Hensch 2005 Critical period plasticity#^p16261181-limit|Critical period plasticity]]
 
+## Recent research
+
+- **2025 · Two three-level meta-analyses (Trauma, Violence & Abuse).** Across 25 studies, a parent's self-reported history of childhood maltreatment had a weak association with offspring attachment insecurity (r = .06) and no significant association with disorganisation, with signs of publication bias - evidence against treating a parent's history as decisive. [[P39352085 Sirparanta 2025 Parental maltreatment and offspring attachment#^p39352085-insecurity|Sirparanta 2025]] [[P39352085 Sirparanta 2025 Parental maltreatment and offspring attachment#^p39352085-disorganization|Sirparanta 2025]] Pooled associations describe dyads in aggregate and leave effects beyond self-report and early childhood untested. [[P39352085 Sirparanta 2025 Parental maltreatment and offspring attachment#^p39352085-caution-population|Appraisal: Sirparanta 2025]]
+- **2025 · Registered analyses of two longitudinal cohorts (Development and Psychopathology).** In two landmark Strange Situation cohorts, covariate-adjusted associations between infant attachment security and later socioemotional outcomes were at most about .10-.15, and links with academic skills were as large or larger - prediction that is real but small, as the account above expects. [[P38086607 Nivison 2025 Predictive validity of the strange situation#^p38086607-socioemotional|Nivison 2025]] [[P38086607 Nivison 2025 Predictive validity of the strange situation#^p38086607-composites|Nivison 2025]] Two cohorts from one country cannot fix the size of the association elsewhere. [[P38086607 Nivison 2025 Predictive validity of the strange situation#^p38086607-caution-scope|Appraisal: Nivison 2025]]
+
 ## Connections
 
 This note is the psychological counterpart to [[Developmental perspectives and attachment]] in the CPTSD domain and to [[Sensitive periods]] in the genetics domain.
+
+- [[Adverse childhood experiences]] - counted adversities in the caregiving years and their graded associations with later health, with the limits of retrospective counts and of scores for any one person.
 
 **Cross-domain connection (curation).** The genetics-and-development domain supplies the biological timeline - overlapping processes, system-specific schedules, sensitive windows with known machinery - and this article's psychological timeline is credible to the extent it respects those constraints rather than assuming a single smooth maturational story. [[Sensitive periods]] [[Synaptic pruning and myelination]]
 

@@ -49,8 +49,7 @@ Serum concentrations should be sampled when levels are relatively stable, and to
 Official U.S. product labelling for one manufacturer's lithium carbonate product, describing its approved uses, pharmacology, monitoring and safety information. It documents exposure and safety rather than explaining the mechanism of the mood-stabilising effect.
 ^f27-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the label.
 
 Labelling describes population-level pharmacology and monitoring requirements; it is not a mechanism story for how lithium reduces recurrence, and nothing here is guidance for an individual's treatment.

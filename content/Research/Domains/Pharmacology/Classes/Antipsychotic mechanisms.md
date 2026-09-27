@@ -7,9 +7,9 @@ concept_kind: mechanism
 domain: [pharmacology, clinical-psychiatry]
 secondary_domain: []
 condition: []
-source_count: 8
-reviewed: 2026-09-25
-up: "[[Pharmacology - Classes]]"
+source_count: 9
+reviewed: 2026-09-27
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/pharmacology, research/domain/clinical]
 ---
@@ -27,7 +27,7 @@ Antipsychotic drugs reduce psychotic symptoms. Across the dopamine-blocking drug
 
 **Partial agonism is the same target with different intrinsic activity.** D2/3 partial agonists produce submaximal signalling at the same receptor rather than acting somewhere else, and the review places them inside this framework rather than treating them as a different mechanism. That distinction is a difference in what binding does, not in where it happens. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-d2|Antipsychotics mechanisms]]
 
-**Off-target binding shapes side-effect profiles.** Binding at serotonergic, histaminergic, cholinergic and adrenergic receptors contributes to effects such as weight gain, sedation and dysphoria, which is why agents in the class do not share one side-effect profile. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-offtarget|Antipsychotics mechanisms]]
+**Off-target binding shapes side-effect profiles.** Binding at serotonergic, histaminergic, cholinergic and adrenergic receptors contributes to effects such as weight gain, sedation and dysphoria, which is why drugs in the class do not share one side-effect profile. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-offtarget|Antipsychotics mechanisms]]
 
 **A second mechanism now in the class.** The 2024 muscarinic combination is not a dopamine-blocking drug. Its approved prescribing information states that xanomeline's mechanism of action in schizophrenia is unclear but that efficacy is thought to follow from agonist activity at M1 and M4 muscarinic acetylcholine receptors in the central nervous system, with trospium antagonising muscarinic receptors mainly in peripheral tissues. [[F127 FDA prescribing information COBENFY#^f127-mechanism|COBENFY prescribing information]] [[F126 FDA Drug Trials Snapshot COBENFY#^f126-approval|Drug Trials Snapshot: COBENFY]] The review was published in 2020 and synthesises work to that point, covering muscarinic and other non-dopaminergic strategies as approaches under development. Because the field has since approved a muscarinic treatment, the correct reading is time-scoped: D2 blockade is the mechanism of the dopamine-blocking subclass as established in that literature, not a definition of antipsychotic action, and a class-wide claim that antipsychotics work by blocking D2 has to carry a date and a subclass. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-limit|Antipsychotics mechanisms]]
 
@@ -35,11 +35,15 @@ Antipsychotic drugs reduce psychotic symptoms. Across the dopamine-blocking drug
 
 **Where the mechanism stops explaining.** Antipsychotics are ineffective for some patients, response varies, and side effects drive non-adherence in others, so mechanism does not translate into uniform benefit - which rules out the reading in which the target explains the illness. Negative and cognitive symptom domains are where a D2 story has least purchase, and the review treats them as separate problems with separate candidate approaches. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-limits|Antipsychotics mechanisms]] [[F83 NIMH Schizophrenia#^f83-features|Schizophrenia]]
 
-**Reading rule.** Separate four statements that are often merged: the class-level claim that this subclass of drugs acts at D2 receptors; the pathway-level claim about which circuit produces which effect; the agent-level claim about what else a particular molecule binds; and the person-level claim about how an individual will respond. The first is well supported, the second is supported pathway by pathway, the third differs between agents, and the fourth is not delivered by occupancy alone. No ranking of the four in terms of predictive strength is asserted here, because the sources do not measure one. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-offtarget|Antipsychotics mechanisms]] [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-limits|Antipsychotics mechanisms]]
+**Reading rule.** Separate four statements that are often merged: the class-level claim that this subclass of drugs acts at D2 receptors; the pathway-level claim about which circuit produces which effect; the drug-level claim about what else a particular molecule binds; and the person-level claim about how an individual will respond. The first is well supported, the second is supported pathway by pathway, the third differs between drugs, and the fourth is not delivered by occupancy alone. No ranking of the four in terms of predictive strength is asserted here, because the sources do not measure one. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-offtarget|Antipsychotics mechanisms]] [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-limits|Antipsychotics mechanisms]]
 
 ## Evidence and status
 
 The D2 mechanism is among the best-supported in psychopharmacology - its support comes from the convergence of the evidence types the review surveys - and dopamine-blocking drugs produce predictable extrapyramidal effects. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-d2|Antipsychotics mechanisms]] [[F112 Neuroscience Online motor disorders#^f112-extrapyramidal|Disorders of the Motor System]]
+
+## Recent research
+
+- **2024 · Phase 3 randomised trial (JAMA Psychiatry).** Adds randomised evidence for the non-D2 route: in EMERGENT-3, xanomeline-trospium, which has no direct D2 blocking activity, reduced PANSS total scores more than placebo at five weeks, with mainly gastrointestinal adverse events and rates of extrapyramidal symptoms, weight gain and somnolence similar to placebo. [[P38691387 Kaul 2024 Xanomeline-trospium EMERGENT-3 trial#^p38691387-efficacy|Kaul 2024]] [[P38691387 Kaul 2024 Xanomeline-trospium EMERGENT-3 trial#^p38691387-safety|Kaul 2024]] The motor result fits the account above, in which D2 blockade underlies the class's motor side effects. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-d2|Antipsychotics mechanisms]] A five-week placebo comparison does not rank the drug against dopamine-blocking antipsychotics or show long-term effects. [[P38691387 Kaul 2024 Xanomeline-trospium EMERGENT-3 trial#^p38691387-caution-comparison|Appraisal: Kaul 2024]]
 
 ## Connections
 

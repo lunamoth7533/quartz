@@ -45,8 +45,7 @@ The editorial describes ICD-11 complex PTSD as a new disorder covering the more 
 Short expert commentary introducing the diagnosis; no data are presented.
 ^p32345416-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 The three self-organization domains come from the ICD-11 criteria and the VA overview in this library, not from this editorial, which states the rationale only.

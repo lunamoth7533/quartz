@@ -49,6 +49,9 @@ The review covers sedative, anxiolytic, anticonvulsant and muscle-relaxant effec
 It describes tolerance, dependence and withdrawal, together with adverse effects such as sedation and falls in older patients.
 ^p23789008-risks
 
+The abstract adds that the class spans drugs of different potency and duration of action, and that older people, people with lung, liver or kidney disease and people taking other medication classes are particularly vulnerable to toxicity.
+^p23789008-profiles
+
 ## Scope as reported
 
 A pharmacology review in The Ochsner Journal aimed at clinicians. It describes mechanisms and risks, not prescriptive advice.

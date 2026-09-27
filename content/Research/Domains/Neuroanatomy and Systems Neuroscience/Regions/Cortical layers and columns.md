@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 9
 reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Regions]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/neurobiology]
 ---

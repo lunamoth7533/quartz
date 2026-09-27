@@ -11,7 +11,7 @@ tags: [research/argument]
 
 **Question.** State the question in one sentence.
 
-**Origin.** Mark starter questions as AI-generated; never attribute a position to a person.
+**Origin.** Say where the question came from (starter question, literature gap or your own reading); never attribute a position to a person.
 
 ## Competing explanations
 

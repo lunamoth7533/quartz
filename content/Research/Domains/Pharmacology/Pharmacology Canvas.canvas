@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## Pharmacology\n\nDomain hub: drug exposure, target action, adaptation, safety principles, drug classes and how treatment evidence is measured.\n\n[[Pharmacology Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## Pharmacology\n\nDomain hub: drug exposure, target action, adaptation, safety principles, drug classes and how treatment evidence is measured.\n\n[[Pharmacology Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 2100,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 710
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[Pharmacology - Exposure|Exposure index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 562
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[Half-life and steady state]]**\n*process* - 5 sources\n\nHalf-life, accumulation and steady state as exposure models, with lithium as the worked example of why timing and clearance matter.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#F07A3C"
@@ -44,7 +34,7 @@
 			"type": "text",
 			"text": "**[[Pharmacokinetics and ADME]]**\n*process* - 6 sources\n\nAbsorption, distribution, metabolism and excretion, each linked to the clinical consequences it explains.",
 			"x": 30,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"
@@ -56,24 +46,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 964
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[Pharmacology - Action|Action index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 816
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Pharmacodynamics and receptors]]**\n*mechanism* - 6 sources\n\nDrug targets, agonism and antagonism, the gap between occupancy and clinical effect, and receptor-level adaptation.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"
@@ -83,7 +63,7 @@
 			"type": "text",
 			"text": "**[[Receptor adaptation tolerance and dependence]]**\n*process* - 5 sources\n\nHow repeated drug action changes the system, and the difference between tolerance, dependence and withdrawal.",
 			"x": 450,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 218,
 			"color": "#F07A3C"
@@ -93,7 +73,7 @@
 			"type": "text",
 			"text": "**[[Target binding and dose-response]]**\n*mechanism* - 7 sources\n\nAffinity, efficacy and potency: what binding measurements establish and what they leave open.",
 			"x": 450,
-			"y": 1040,
+			"y": 892,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"
@@ -105,24 +85,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 1266
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[Pharmacology - Classes|Classes index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1118
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Antidepressant mechanisms]]**\n*mechanism* - 6 sources\n\nWhat antidepressants do at the synapse, why clinical change is slower than the pharmacology, and what that implies.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"
@@ -132,7 +102,7 @@
 			"type": "text",
 			"text": "**[[Antipsychotic mechanisms]]**\n*mechanism* - 8 sources\n\nD2 blockade as the time-scoped shared mechanism of the dopamine-blocking class, the pathways behind response, movement and endocrine effects, and the 2024 muscarinic alternative.",
 			"x": 870,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 242,
 			"color": "#F07A3C"
@@ -142,7 +112,7 @@
 			"type": "text",
 			"text": "**[[Drug classes and mechanisms overview]]**\n*framework* - 10 sources\n\nHow psychotropic drug classes are organised by target and mechanism, and what the class labels do and do not tell you.",
 			"x": 870,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"
@@ -152,7 +122,7 @@
 			"type": "text",
 			"text": "**[[Stimulant and non-stimulant mechanisms]]**\n*mechanism* - 6 sources\n\nHow ADHD medications increase catecholamine signalling by different routes, and how their evidence is measured.",
 			"x": 870,
-			"y": 1318,
+			"y": 1170,
 			"width": 360,
 			"height": 218,
 			"color": "#F07A3C"
@@ -164,24 +134,14 @@
 			"x": 1260,
 			"y": 310,
 			"width": 420,
-			"height": 988
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**[[Pharmacology - Safety and evidence|Safety and evidence index]]**",
-			"x": 1290,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 840
 		},
 		{
 			"id": "t3_0",
 			"type": "text",
 			"text": "**[[Efficacy versus tolerability]]**\n*framework* - 4 sources\n\nEfficacy and tolerability as separate endpoints, and how rater and comparator choices change what an effect estimate means.",
 			"x": 1290,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"
@@ -191,7 +151,7 @@
 			"type": "text",
 			"text": "**[[Therapeutic index, monitoring and interactions]]**\n*framework* - 3 sources\n\nTherapeutic index, monitoring logic and interaction classes, with the explicit boundary that this is reference material rather than personal guidance.",
 			"x": 1290,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 242,
 			"color": "#F07A3C"
@@ -201,7 +161,7 @@
 			"type": "text",
 			"text": "**[[Trial endpoints, benefit and harms]]**\n*framework* - 8 sources\n\nHow outcomes are selected and reported in treatment trials, and why the choice of endpoint changes what a result means.",
 			"x": 1290,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 194,
 			"color": "#F07A3C"

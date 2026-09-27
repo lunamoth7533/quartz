@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 7
 reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Construct families]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical, research/domain/psychology]
 ---
@@ -31,7 +31,7 @@ Personality constructs describe enduring patterns of thinking, feeling and behav
 
 **Why dimensions keep winning arguments about thresholds.** Research increasingly measures personality pathology dimensionally, mirroring the wider classification debate. [[P28333488 Kotov 2017 HiTOP#^p28333488-structure|HiTOP]] The HiTOP critique - arbitrary thresholds, unclear boundaries, frequent co-occurrence, within-disorder heterogeneity and diagnostic instability - applies with full force to personality pathology, where dimensional models are a mainstream research direction rather than a fringe proposal. [[P28333488 Kotov 2017 HiTOP#^p28333488-problem|HiTOP]] [[P28333488 Kotov 2017 HiTOP#^p28333488-purpose|HiTOP]]
 
-**Measurement before comparison.** Comparing trait or personality-pathology scores across groups or time assumes invariance, and absent invariance changes what a difference means; content validity and reliability are separate properties from predictive usefulness, and invariance plus content validity remain prerequisites for any comparison. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-definition|Measurement invariance]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|AI appraisal: Developing and validating scales]]
+**Measurement before comparison.** Comparing trait or personality-pathology scores across groups or time assumes invariance, and absent invariance changes what a difference means; content validity and reliability are separate properties from predictive usefulness, and invariance plus content validity remain prerequisites for any comparison. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-definition|Measurement invariance]] [[P29942800 Boateng 2018 Developing and validating scales#^p29942800-caution-score|Appraisal: Developing and validating scales]]
 
 **Reading rule.** A trait score is a description of position in a distribution, not a verdict, and the harm-and-dysfunction requirement means unusual behaviour alone is not disorder. Cultural expectations shape what counts as disordered, so criteria are not culture-free. [[F47 OpenStax Psychology 2e psychological disorders#^f47-cultural|Psychological Disorders]] [[F47 OpenStax Psychology 2e psychological disorders#^f47-harm|Psychological Disorders]]
 
@@ -42,6 +42,10 @@ Trait dimensions replicate; personality disorder categories have weaker reliabil
 ## Connections
 
 This note pairs with [[Personality models]] and [[Categorical versus dimensional classification]].
+
+- [[Self-concept and identity]] - identity disturbance in borderline personality disorder, how it is measured, and how it differs from the persistently negative self-concept of complex PTSD.
+
+- [[Borderline personality disorder]] - the categorical personality diagnosis examined in full: its course, the class-level therapy evidence and its differentials with bipolar II, complex PTSD and autism.
 
 **Cross-domain connection (curation).** The genetics domain's twin literature gives the aetiological layer - moderate heritability, nonshared environment prominent - and the clinical domain's treatment evidence gives the changeability layer; both constrain the trait talk this article organises. [[Inheritance and variation]] [[Therapy models overview]]
 

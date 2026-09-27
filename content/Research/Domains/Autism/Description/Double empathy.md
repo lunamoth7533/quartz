@@ -7,9 +7,9 @@ concept_kind: theory
 domain: [autism, psychology]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Autism - Description]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Autism Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/autism, research/domain/psychology]
 ---
@@ -39,9 +39,16 @@ The double empathy account proposes that difficulties in understanding arise bet
 
 The account is supported by information-transfer and rapport studies and by qualitative evidence; it is best described as a well-motivated reframing with growing empirical support, not as a complete theory of social cognition. Most of the evidence concerns autistic adults in Western settings, and bidirectional effects in other cultural and linguistic contexts are less studied. The review of adult views is also retrospective and methodologically varied, so recall and selection shape what was reported. [[P42411151 Nosova 2026 Autistic adults views on early interventions#^p42411151-limit|Autistic adults' views on early interventions]] [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-context|Quality-of-life assessment in autistic adults]]
 
+## Recent research
+
+- **2026 · Empathic-accuracy experiment (Molecular Autism).** With 141 autistic and 94 non-autistic raters judging autistic and non-autistic storytellers, empathic accuracy showed no main effect of either neurotype and only a trend toward better autistic-to-autistic accuracy, which the authors call partial support and a caution against treating neurotypes as uniform groups. [[P42271534 Rum 2026 Double empathy and empathic accuracy#^p42271534-accuracy|Rum 2026]] [[P42271534 Rum 2026 Double empathy and empathic accuracy#^p42271534-conclusion|Rum 2026]] A null result in a video paradigm says little about live interaction either way. [[P42271534 Rum 2026 Double empathy and empathic accuracy#^p42271534-caution-null|Appraisal: Rum 2026]]
+- **2025 · Group-interaction experiment (Autism).** In 36 four-person groups, all-autistic groups matched all-non-autistic groups on overall rapport and rated enjoyment and friendliness above mixed groups, but the effect was not symmetric: autistic participants' rapport fell as non-autistic members were added, while non-autistic participants' rapport barely changed. [[P39989258 Foster 2025 Rapport in same and mixed neurotype groups#^p39989258-groups|Foster 2025]] [[P39989258 Foster 2025 Rapport in same and mixed neurotype groups#^p39989258-asymmetry|Foster 2025]] Five minutes of self-rated rapport cannot separate relational mismatch from comfort with the task setting. [[P39989258 Foster 2025 Rapport in same and mixed neurotype groups#^p39989258-caution-asymmetry|Appraisal: Foster 2025]]
+
 ## Connections
 
 This note qualifies [[Social cognition accounts]] and is referenced from [[Masking and camouflaging]].
+
+- [[Neurodiversity paradigm]] - the wider framework that, like double empathy, moves the source of difficulty from the autistic person alone to the fit with other people and surroundings.
 
 ## Uncertainties
 

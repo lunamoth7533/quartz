@@ -43,7 +43,7 @@ which the authors flag as a measurement caveat rather than a settled finding.
 [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-prevalence|ICD-11 PTSD and complex PTSD proposals]]
 
 And the boundary between PTSD and complex PTSD remains sensitive to measurement development.
-[[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|AI synthesis: ICD-11 PTSD and complex PTSD proposals]]
+[[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-caution-boundary|Appraisal: ICD-11 PTSD and complex PTSD proposals]]
 
 ## Worked example (hypothetical)
 

@@ -95,4 +95,4 @@ diagnosis or a treatment plan.
 
 - This completes the ten modules. Review [[Learning Coverage Matrix]] and work through
   [[Practice and Synthesis Exercises]] to consolidate.
-- Pick one module assessment in [[Learning Hub]] and answer it from memory.
+- Pick one module assessment in [[Learning Path]] and answer it from memory.

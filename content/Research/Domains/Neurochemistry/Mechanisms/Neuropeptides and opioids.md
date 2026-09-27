@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Neurochemistry - Mechanisms]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurochemistry]
 ---
@@ -43,9 +43,11 @@ Peptide anatomy and receptor pharmacology are well established; the behavioural 
 
 Peptides are the counterexample to the fast-synapse model described in [[Synaptic signalling model]], and they are covered computationally as signals that shift circuit state in [[Neuromodulation and circuit state]].
 
+- [[Oxytocin and vasopressin]] - two hypothalamic peptides that follow this note's precursor and release logic, and whose social-behaviour story shows how far animal peptide findings do and do not transfer to people.
+
 **Cross-domain connection (curation).** Pharmacology's opioid article is this note's applied twin: endogenous peptide systems set the receptor target structure that exogenous opioids exploit, and the tolerance mechanisms discovered at the receptor are the same ones that shape the clinical evidence. [[Receptor adaptation tolerance and dependence|Receptor adaptation, tolerance and dependence]] [[Neuromodulation and circuit state]]
 
 ## Uncertainties
 
 - Peptide signalling is difficult to measure dynamically in humans, so most mechanistic knowledge comes from animal work.
-- The relationship between receptor-level adaptation and clinical tolerance is not one-to-one. [[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance#^p25566076-caution-scope|AI appraisal: Opioid receptor desensitization and tolerance]]
+- The relationship between receptor-level adaptation and clinical tolerance is not one-to-one. [[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance#^p25566076-caution-scope|Appraisal: Opioid receptor desensitization and tolerance]]

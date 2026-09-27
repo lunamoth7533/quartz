@@ -103,4 +103,4 @@ Working definitions for the vocabulary this vault uses. Each term links to the l
 
 ## Using the glossary
 
-Read the definition, then open the lesson and find the claim the term belongs to. If a term appears in a source you are reading but not here, add it with the lesson that should own it rather than inventing a definition in a source note (see [[Learning Maintenance]]).
+Read the definition, then open the lesson and find the claim the term belongs to. If a term appears in a source you are reading but not here, add it with the lesson that should own it rather than inventing a definition in a source note (see [[How to use this vault#Adding to the library]]).

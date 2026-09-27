@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## Autism\n\nCondition hub: autism heterogeneity, partial cognitive and biological accounts, multi-source assessment, and support framed by autistic perspectives.\n\n[[Autism Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## Autism\n\nCondition hub: autism heterogeneity, partial cognitive and biological accounts, multi-source assessment, and support framed by autistic perspectives.\n\n[[Autism Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 1680,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 1266
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[Autism - Description|Description index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1762
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[Autism heterogeneity and support needs]]**\n*condition* - 6 sources\n\nHeterogeneity in autism and its consequences: individualised support, frequent co-occurrence, and outcomes beyond measured traits.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 242,
 			"color": "#D9467F"
@@ -44,7 +34,7 @@
 			"type": "text",
 			"text": "**[[Double empathy]]**\n*theory* - 5 sources\n\nThe proposal that misunderstanding between autistic and non-autistic people is bidirectional, and the evidence that supports it.",
 			"x": 30,
-			"y": 810,
+			"y": 662,
 			"width": 360,
 			"height": 218,
 			"color": "#D9467F"
@@ -54,7 +44,7 @@
 			"type": "text",
 			"text": "**[[Masking and camouflaging]]**\n*process* - 5 sources\n\nDeliberate and automatic self-presentation strategies, their reported costs, and their consequences for assessment.",
 			"x": 30,
-			"y": 1088,
+			"y": 940,
 			"width": 360,
 			"height": 194,
 			"color": "#D9467F"
@@ -64,7 +54,7 @@
 			"type": "text",
 			"text": "**[[Social cognition accounts]]**\n*theory* - 6 sources\n\nAccounts that explain autistic social differences through social-cognitive processes, and the criticisms they attracted.",
 			"x": 30,
-			"y": 1342,
+			"y": 1194,
 			"width": 360,
 			"height": 194,
 			"color": "#D9467F"
@@ -76,24 +66,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 456
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[Autism - Biology|Biology index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 308
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Autism genetics and rare variants]]**\n*framework* - 7 sources\n\nCommon and rare variant architecture in autism, what exome sequencing has shown, and why a risk variant is not a diagnosis or a mechanism.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#D9467F"
@@ -105,24 +85,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 1314
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[Autism - Assessment and support|Assessment and support index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1166
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Adult autism assessment and differential considerations]]**\n*method* - 3 sources\n\nRecognition, screening limits, comprehensive multi-source assessment and differential scope in adult autism assessment.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#D9467F"
@@ -132,7 +102,7 @@
 			"type": "text",
 			"text": "**[[Autism support and services]]**\n*framework* - 5 sources\n\nHow autism support and services are organised, where medication belongs, and why access and participation are part of the evidence.",
 			"x": 870,
-			"y": 786,
+			"y": 638,
 			"width": 360,
 			"height": 218,
 			"color": "#D9467F"
@@ -142,7 +112,7 @@
 			"type": "text",
 			"text": "**[[Autistic sensory and communication access]]**\n*framework* - 4 sources\n\nAccess as environmental and communicative design, the cost of camouflaging, and the qualitative evidence base behind these recommendations.",
 			"x": 870,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 242,
 			"color": "#D9467F"
@@ -152,7 +122,7 @@
 			"type": "text",
 			"text": "**[[Intervention outcomes and autistic perspectives]]**\n*framework* - 6 sources\n\nWhat intervention research measures, what autistic adults say about outcomes, and how the two relate.",
 			"x": 870,
-			"y": 1366,
+			"y": 1218,
 			"width": 360,
 			"height": 218,
 			"color": "#D9467F"
@@ -245,6 +215,26 @@
 			"width": 360,
 			"height": 160,
 			"color": "#6E7787"
+		},
+		{
+			"id": "n-autistic-burnout",
+			"type": "text",
+			"text": "**[[Autistic burnout]]**\n*condition* - 8 sources\n\nAutistic burnout as defined by autistic adults and early research: exhaustion, loss of function and reduced stimulus tolerance under chronic load, its links to masking, stress and depression, and a young, contested measurement base.",
+			"x": 30,
+			"y": 1448,
+			"width": 360,
+			"height": 250,
+			"color": "#D9467F"
+		},
+		{
+			"id": "n-predictive-processing-accounts-of-autism",
+			"type": "text",
+			"text": "**[[Predictive processing accounts of autism]]**\n*theory* - 9 sources\n\nBayesian and predictive-coding accounts of autistic perception - weaker priors, aberrant precision, inflexible prediction errors - and the mixed experimental and meta-analytic record that keeps them debated.",
+			"x": 30,
+			"y": 1758,
+			"width": 360,
+			"height": 274,
+			"color": "#D9467F"
 		}
 	],
 	"edges": [

@@ -14,7 +14,7 @@ tags: [research/module, research/module/m09]
 
 # Module 09 - Autism
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Autism.canvas]] · **Entry point.** [[Learning Hub]]
+**Lessons.** 5 · **Canvas.** [[Learning Map - Autism.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -75,7 +75,7 @@ Answer from memory first; the parent lesson holds the supporting detail.
 
 2. What does finding a risk gene license you to say?
    - *Working answer.* That variants in the gene are statistically enriched in the studied samples; it does not classify an individual's variant or determine their traits, strengths or support needs.
-   - *Answer sources.* [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI synthesis: autism exome sequencing study]]
+   - *Answer sources.* [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: autism exome sequencing study]]
 
 3. Name two reasons local evidence matters for support questions.
    - *Working answer.* Service availability, funding and eligibility differ by country and region, and outcomes that matter locally may not be measured in international trials.
@@ -88,4 +88,4 @@ Every lesson names the access level and check status of its sources. Where a cla
 ## Next steps
 
 - Revisit [[Learning Coverage Matrix]] to see which topics this module does not yet cover and why.
-- Move to the next module in [[Learning Hub]] once the check-yourself questions are answerable without the notes.
+- Move to the next module in [[Learning Path]] once the check-yourself questions are answerable without the notes.

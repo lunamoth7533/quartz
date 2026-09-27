@@ -61,7 +61,7 @@ criteria were revised.
 The boundary is worth stating plainly: screening can produce both false positives and false negatives, so a
 score alone neither confirms nor excludes autism; it opens the door to assessment rather than closing the
 question.
-[[F24 NICE CG142 autism in adults diagnosis and management#^f24-caution|AI synthesis: NICE CG142]]
+[[F24 NICE CG142 autism in adults diagnosis and management#^f24-caution|Appraisal: NICE CG142]]
 
 ## Worked example (hypothetical)
 

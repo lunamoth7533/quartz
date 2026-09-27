@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 10
 reviewed: 2026-09-25
-up: "[[Neurochemistry - Mechanisms]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurochemistry, research/domain/pharmacology]
 ---
@@ -23,7 +23,7 @@ Monoamine signalling is terminated mainly by reuptake into the presynaptic termi
 
 **Two clearance routes.** Monoamines are removed from the cleft by reuptake transporters and degraded by enzymes. Reuptake is fast, local and quantitative - the transporter returns transmitter to the terminal for repackaging - while enzymatic degradation by monoamine oxidase and catechol-O-methyltransferase handles transmitter that escapes and provides the main metabolic products used as clinical markers. [[F06 OpenStax Cells of the nervous system#^f06-receptor|Cells of the Nervous System]] [[F62 Neuroscience Online biogenic amines#^f62-classes|Biogenic amines]]
 
-**Transporters are structurally specific.** Each monoamine has its own uptake transporter with a characteristic distribution, which is why drugs can be relatively selective for the serotonin transporter, the noradrenaline transporter or the dopamine transporter, and why selectivity is a matter of degree rather than a binary property. [[F06 OpenStax Cells of the nervous system#^f06-receptor|Cells of the Nervous System]] Transporter blockade raises extracellular transmitter concentrations in the short term; this is the mechanism shared by stimulants, many antidepressants and some other agents. [[F12 NIGMS What happens to medicine in your body|What happens to medicine in your body]] [[F13 NIGMS How do medicines work|How do medicines work]]
+**Transporters are structurally specific.** Each monoamine has its own uptake transporter with a characteristic distribution, which is why drugs can be relatively selective for the serotonin transporter, the noradrenaline transporter or the dopamine transporter, and why selectivity is a matter of degree rather than a binary property. [[F06 OpenStax Cells of the nervous system#^f06-receptor|Cells of the Nervous System]] Transporter blockade raises extracellular transmitter concentrations in the short term; this is the mechanism shared by stimulants, many antidepressants and some other drugs. [[F12 NIGMS What happens to medicine in your body|What happens to medicine in your body]] [[F13 NIGMS How do medicines work|How do medicines work]]
 
 **Reuptake inhibition versus release.** Keeping transmitter active in the cleft for longer is a different mechanism from increasing release: inhibitors act on the transporter, releasers act on vesicular stores and reverse transport. The two produce different concentration dynamics and different side-effect profiles, which is why they are discussed as separate pharmacological classes rather than as variants of one. [[F06 OpenStax Cells of the nervous system#^f06-receptor|Cells of the Nervous System]] [[F13 NIGMS How do medicines work#^f13-agonism|How do medicines work]]
 
@@ -44,6 +44,10 @@ Transporter and enzyme pharmacology is established molecularly; clinical outcome
 ## Connections
 
 This is the clearance step from [[Transmitter synthesis, release and clearance]] and the mechanism layer for the pharmacology domain's drug-class articles.
+
+- [[Selective serotonin reuptake inhibitors]] - the class that blocks the serotonin transporter alone, the purest test of the transporter-to-clinic gap described here.
+- [[Tricyclic antidepressants]] - blockers of both serotonin and noradrenaline reuptake whose additional receptor actions bring an anticholinergic burden and overdose risk.
+- [[Monoamine oxidase inhibitors]] - the drugs acting on the enzymatic route of this note, where selectivity for one enzyme form decides the interaction risk.
 
 **Cross-domain connection (curation).** This note is the shared mechanism floor for two clinical literatures - stimulant treatment in ADHD and antidepressant treatment in depression - and the evidence articles in both condition domains exist precisely because mechanism and clinical effect must be verified separately. [[ADHD medication evidence]] [[Antidepressant mechanisms]]
 

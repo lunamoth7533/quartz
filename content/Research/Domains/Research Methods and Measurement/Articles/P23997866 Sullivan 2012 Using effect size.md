@@ -57,8 +57,7 @@ Effect sizes are the main finding and belong alongside significance tests; stand
 A teaching article aimed at readers of medical education research. The thresholds it reviews are conventions rather than clinical decision rules, and the examples come from selected trials rather than a systematic sample.
 ^p23997866-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the paper.
 
 Small, medium and large labels are context-dependent. A small standardized difference can matter for a policy applied to a whole population, while a large difference on a badly chosen outcome can be irrelevant; the number needs the outcome, the comparator and the decision attached before it means anything.
@@ -71,4 +70,4 @@ Small, medium and large labels are context-dependent. A small standardized diffe
 
 ## Working notes
 
-- Reading status: `queued`. Access: `public-page` (free full text). Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `public-page` (free full text). Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

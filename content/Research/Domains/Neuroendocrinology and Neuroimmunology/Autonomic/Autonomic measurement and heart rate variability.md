@@ -7,9 +7,9 @@ concept_kind: method
 domain: [neuroendocrinology-neuroimmunology, research-methods]
 secondary_domain: []
 condition: []
-source_count: 4
-reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Autonomic]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine, research/domain/methods]
 ---
@@ -31,11 +31,16 @@ Autonomic measurement estimates the activity of sympathetic and parasympathetic 
 
 **Afferent side and the construct jump.** Interoceptive signals reaching cortex carry information about internal state, and the interoceptive system they feed has a proposed cortical representation, which is why autonomic measures are also used in studies of emotional processing - as markers of stress, emotion regulation and interoceptive state in the wider literature. The inference from a beat-to-beat series to a psychological state crosses at least two jumps - signal to physiology, physiology to construct - and each jump needs its own evidence. [[P12965300 Craig 2003 Interoception#^p12965300-system|Interoception]] [[P12965300 Craig 2003 Interoception#^p12965300-insula|Interoception]]
 
-**Reading rule.** State the metric, the recording conditions, the population norm used and the construct claimed; then check whether the study reports all four. The library's stance is that autonomic claims stay at the level of physiology and model-building rather than personal interpretation. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI appraisal: Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-limit|Heart rate variability metrics]]
+**Reading rule.** State the metric, the recording conditions, the population norm used and the construct claimed; then check whether the study reports all four. The library's stance is that autonomic claims stay at the level of physiology and model-building rather than personal interpretation. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: Heart rate variability metrics]] [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-limit|Heart rate variability metrics]]
 
 ## Evidence and status
 
 The physiological sources of heart rate variability are well characterised; the leap from a variability index to a psychological construct such as 'emotion regulation capacity' is generally not warranted by measurement alone. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-limit|Heart rate variability metrics]]
+
+## Recent research
+
+- **2024 · Society guideline (Psychophysiology).** Supplies the reporting standard this note's reading rule asks for: a Society for Psychophysiological Research committee sets recording, derivation and reporting guidance for heart rate and its variability across laboratory, ambulatory and imaging settings. [[P38873876 Quigley 2024 Heart rate and HRV publication guidelines#^p38873876-guidance|Quigley 2024]] Its checklists replace committee guidance several decades old. [[P38873876 Quigley 2024 Heart rate and HRV publication guidelines#^p38873876-checklists|Quigley 2024]] Standards make studies comparable but do not validate a psychological reading of any index. [[P38873876 Quigley 2024 Heart rate and HRV publication guidelines#^p38873876-caution-standard|Appraisal: Quigley 2024]]
+- **2023 · Systematic review and meta-analysis (Frontiers in Public Health).** A clinical example of group-level differences: adults with depression had lower resting time- and frequency-domain variability than controls. [[P38169979 Wu 2023 Resting heart rate variability in depression#^p38169979-lower|Wu 2023]] The LF/HF ratio did not differ, in line with the ratio's weakness noted above. [[P38169979 Wu 2023 Resting heart rate variability in depression#^p38169979-lfhf|Wu 2023]] The step from these pooled differences to cardiovascular risk is an inference, and none of it supports reading one person's value. [[P38169979 Wu 2023 Resting heart rate variability in depression#^p38169979-caution-inference|Appraisal: Wu 2023]]
 
 ## Connections
 

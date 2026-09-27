@@ -3,15 +3,15 @@ note_type: topic
 title: "Circadian rhythms and sleep"
 domain: [neurochemistry]
 condition: []
-source_count: 4
-up: "[[Neuroendocrinology and Neuroimmunology - Timing]]"
+source_count: 6
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Circadian clock biology, distributed tissue clocks, sleep pressure versus timing, and the limited evidence linking rhythm disruption to mood episodes."
-secondary_domain: [bipolar-i]
-reviewed: 2026-09-25
+secondary_domain: [bipolar-disorders]
+reviewed: 2026-09-27
 ---
 
 # Circadian rhythms and sleep
@@ -37,7 +37,7 @@ reviewed: 2026-09-25
 
 **Rhythm disruption and mood: the honest state of the link.** The social zeitgeber theory proposes that life events trigger episodes by disrupting social routines and thereby circadian rhythm stability, contributing to mood episodes. [[P16904251 Grandin 2006 Social zeitgeber theory#^p16904251-theory|The social zeitgeber theory]] The review that evaluates it reports limited direct support for the full theory and considers an internal-pacemaker alternative, while noting the plausibility of circadian mechanisms; circadian disruption is therefore a plausible contributing process, not an established cause. [[P16904251 Grandin 2006 Social zeitgeber theory#^p16904251-evaluation|The social zeitgeber theory]] [[P16904251 Grandin 2006 Social zeitgeber theory#^p16904251-status|The social zeitgeber theory]] The defensible connection is that rhythm stability is measurable, disrupted in some conditions, and treatment-relevant as a stability target - not that rhythm disruption causes episodes in any individual. [[Psychoeducation and social rhythms]]
 
-**Reading rule.** Specify which system is being claimed - circadian phase, homeostatic drive, architecture or duration - and which measure supports it. A single night's sleep report contains none of them separately. [[F14 NINDS Brain basics understanding sleep#^f14-caution-ninds|AI appraisal: Brain Basics: Understanding Sleep]]
+**Reading rule.** Specify which system is being claimed - circadian phase, homeostatic drive, architecture or duration - and which measure supports it. A single night's sleep report contains none of them separately. [[F14 NINDS Brain basics understanding sleep#^f14-caution-ninds|Appraisal: Brain Basics: Understanding Sleep]]
 
 **Cross-domain connection (curation).** Neuroendocrinology is the natural partner domain: cortisol's daily rhythm, body-temperature cycles and sleep-stage physiology are all clock outputs, so a claim about "circadian effects" in any of them inherits the two-system logic spelled out here. [[Stress response and the HPA axis]] [[Circadian clock biology]]
 
@@ -45,10 +45,17 @@ reviewed: 2026-09-25
 
 The two-process description is a model of average behaviour; shift work, illness, medication and light exposure complicate it.
 
-## Related notes
+## Recent research
 
-- [[Stress response and the HPA axis]]
-- [[Psychoeducation and social rhythms]]
+- **2024 · Prospective observational cohort (EBioMedicine).** Adds time-order evidence to the 'rhythm disruption and mood' paragraph: over more than 40,000 days, modelled circadian phase from wearables was paired with daily mood ratings. [[P38579366 Song 2024 Circadian phase and mood symptom dynamics#^p38579366-design|Song 2024]] Circadian phase disturbance preceded mood symptoms in major depression and bipolar I but not bipolar II, while sleep-phase disturbance did not. [[P38579366 Song 2024 Circadian phase and mood symptom dynamics#^p38579366-direction|Song 2024]] Precedence in observational series is compatible with causation but does not prove it. [[P38579366 Song 2024 Circadian phase and mood symptom dynamics#^p38579366-caution-precedence|Appraisal: Song 2024]]
+- **2024 · Narrative review (PNAS).** Widens the two-system account into a reciprocal, transdiagnostic model: disrupted sleep and timing can precipitate or worsen symptoms, and symptoms can disturb sleep and clock-controlled processes. [[P38394243 Meyer 2024 Sleep-circadian interface in mental disorders#^p38394243-reciprocal|Meyer 2024]] It argues that sleep and circadian factors are usually studied apart when they need an integrated approach. [[P38394243 Meyer 2024 Sleep-circadian interface in mental disorders#^p38394243-transdiagnostic|Meyer 2024]]
+
+## Connections
+
+- [[Stress response and the HPA axis]] - cortisol's daily rhythm is a clock output, so every HPA measurement inherits the timing logic set out here.
+- [[Psychoeducation and social rhythms]] - where rhythm stability becomes a bipolar treatment target, supported as a package rather than as proof of the social zeitgeber theory.
+- [[Circadian clock biology]] - the molecular machinery beneath this note's two-system account: the feedback loop, light entrainment and tissue clocks.
+- [[Sleep and circadian disruption across conditions]] - applies this two-system account condition by condition, asking whether disturbed sleep is cause, consequence or shared vulnerability in each.
 
 ## Study question
 

@@ -4,7 +4,7 @@ title: "Pharmacodynamics and receptors"
 domain: [pharmacology]
 condition: []
 source_count: 6
-up: "[[Pharmacology - Action]]"
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/pharmacology]
 content_layer: reference
@@ -44,11 +44,13 @@ reviewed: 2026-09-25
 
 Receptor language is precise about molecules and imprecise about experience, because downstream effects depend on circuit state and time course.
 
-## Related notes
+## Connections
 
-- [[Pharmacokinetics and ADME]]
-- [[Serotonin signalling]]
-- [[Efficacy versus tolerability]]
+- [[Pharmacokinetics and ADME]] - the other half of any prediction: this note says what a drug does at its target, ADME says how much reaches the target and for how long.
+- [[Serotonin signalling]] - an endogenous system where these action categories apply; its receptor families illustrate why a claim must name the receptor, the mode of action and the endogenous tone.
+- [[Efficacy versus tolerability]] - the clinical consequence of off-target binding: effects at receptors other than the intended one appear in trials as the tolerability side of the trade-off.
+- [[Target binding and dose-response]] - sibling note on the quantitative side: affinity, efficacy and potency describe how binding at a target translates into response, before circuit and clinical links.
+- [[Receptor adaptation tolerance and dependence]] - what repeated action at a target does over time: desensitisation and trafficking change receptor signalling, one basis for tolerance and withdrawal.
 
 ## Study question
 

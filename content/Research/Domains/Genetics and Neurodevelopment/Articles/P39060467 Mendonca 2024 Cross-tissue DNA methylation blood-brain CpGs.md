@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/domain/genetics-neurodevelopment, research/domain/neurology]
+tags: [research/source, research/recent, research/domain/genetics-neurodevelopment, research/domain/neurology]
 ---
 # Exploring cross-tissue DNA methylation patterns: blood-brain CpGs as potential neurodegenerative disease biomarkers
 

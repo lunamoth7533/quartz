@@ -54,8 +54,7 @@ Imaging studies in ADHD show underactive prefrontal regions with weakened connec
 Mechanistic review. Findings combine human imaging, genetic linkage and animal pharmacology rather than a single clinical trial.
 ^p19621976-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Mechanistic plausibility does not reduce ADHD to one transmitter deficit, and the review predates later treatment literature.
@@ -67,6 +66,7 @@ Mechanistic plausibility does not reduce ADHD to one transmitter deficit, and th
 - [[Noradrenaline signalling]]
 - [[Attention and executive function]]
 - [[ADHD and prefrontal catecholamines]]
+- [[Prefrontal cortex]]
 
 ## Working notes
 

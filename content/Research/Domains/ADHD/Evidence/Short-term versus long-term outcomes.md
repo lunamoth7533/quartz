@@ -3,15 +3,15 @@ note_type: topic
 title: "Short-term versus long-term outcomes"
 domain: [pharmacology]
 condition: []
-source_count: 7
-up: "[[ADHD - Evidence]]"
+source_count: 9
+up: "[[ADHD Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/pharmacology]
 content_layer: reference
 concept_kind: method
 description: "How the evidence horizon bounds a treatment claim, what remains open at 26 and 52 weeks, and the certainty tools used to say so."
 secondary_domain: [adhd]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Short-term versus long-term outcomes
@@ -32,7 +32,7 @@ In depth: why the time horizon changes the claim
 
 **Open questions are themselves evidence.** The adult ADHD evidence review lists long-term treatment effects among its open questions alongside late-onset ADHD, emotional dysregulation and the definition of functional impairment, which is the honest form of a statement that a literature cannot yet answer a question. [[P40948064 Cortese 2025 ADHD in adults evidence base#^p40948064-open|ADHD in adults: evidence base]]
 
-**Absence of evidence is not equivalence.** When longer-term comparisons are missing, the correct reading is that no average benefit has been demonstrated at that horizon; it is not evidence that treatment stops working, and the same logic applies in the other direction. The distinction is what keeps a reference account from converting a gap into a verdict. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|AI appraisal: Comparative interventions for ADHD]]
+**Absence of evidence is not equivalence.** When longer-term comparisons are missing, the correct reading is that no average benefit has been demonstrated at that horizon; it is not evidence that treatment stops working, and the same logic applies in the other direction. The distinction is what keeps a reference account from converting a gap into a verdict. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|Appraisal: Comparative interventions for ADHD]]
 
 **Reading rule.** For any treatment claim, name the outcome, the horizon and the population, then check whether the study measured all three. Time horizon is one of the most common places where a correct short-term result becomes an incorrect long-term claim. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-effects|Cochrane Handbook]]
 
@@ -59,10 +59,17 @@ Extending short-term results to years is an assumption, and observational long-t
 - [[Lesson - Short-term versus long-term outcomes]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
 - Module: [[Module 08 - ADHD|ADHD]]
 
-## Related notes
+## Recent research
 
-- [[Efficacy versus tolerability]]
-- [[ADHD medication evidence]]
+- **2025 · Umbrella review (BMJ).** Confirms the horizon gap across the ADHD intervention literature as a whole: analysing outcomes at 12, 26 and 52 weeks, it found no high-certainty evidence at the long-term time point for any drug or non-drug intervention. [[P41297970 Gosling 2025 Umbrella review of ADHD interventions#^p41297970-limit|Gosling 2025]] [[P41297970 Gosling 2025 Umbrella review of ADHD interventions#^p41297970-longterm|Gosling 2025]] Its certainty grades describe average effects against passive controls. [[P41297970 Gosling 2025 Umbrella review of ADHD interventions#^p41297970-caution-umbrella|Appraisal: Gosling 2025]]
+- **2025 · Systematic review and network meta-analysis (Lancet Psychiatry).** Shows the same gap for harms: the 102 cardiovascular-safety trials had a median follow-up of about seven weeks, only four informed medium-term effects and none long-term. [[P40203844 Farhat 2025 Cardiovascular safety of ADHD medications#^p40203844-horizon|Farhat 2025]] Trials of that length can measure blood-pressure and pulse shifts but not the long-term cardiovascular outcomes those shifts might lead to. [[P40203844 Farhat 2025 Cardiovascular safety of ADHD medications#^p40203844-caution-horizon|Appraisal: Farhat 2025]]
+
+## Connections
+
+- [[Efficacy versus tolerability]] - a second axis on the same trials: horizon limits what either endpoint can show, since both efficacy and dropout are measured over the trial's weeks.
+- [[ADHD medication evidence]] - the worked case for this note: well-established 12-week randomised results alongside insufficient 26- and 52-week data and adult quality-of-life outcomes that did not separate from placebo.
+- [[Observational designs]] - where long-term questions go once randomised horizons end; cohort and case-control designs extend the horizon but bring the confounding this note warns about.
+- [[Functional outcomes and measurement]] - supplies the outcomes that longer horizons are about: function, participation and quality of life are measured differently from symptom scales, so horizon and outcome change together.
 
 ## Study question
 

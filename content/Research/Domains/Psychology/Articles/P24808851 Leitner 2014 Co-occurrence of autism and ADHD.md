@@ -57,8 +57,7 @@ Co-occurring presentations show more severe social and adaptive difficulties and
 A narrative review with emphasis on preschool-age evidence, drawing on heterogeneous clinical and community samples. Reported frequencies depend on the sample, the informant and the diagnostic instrument, so the numbers are not one fixed prevalence.
 ^p24808851-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the review.
 
 Co-occurrence is a definition-dependent, group-level observation. It does not say that one condition causes the other, and it does not license a lay diagnosis. Its practical value here is the reminder that categories overlap and that assessment has to consider more than one condition at a time.
@@ -73,7 +72,8 @@ Co-occurrence is a definition-dependent, group-level observation. It does not sa
 - [[Lesson - Autism heterogeneity and support needs]]
 - [[Lesson - Autism support and services]]
 - [[Lesson - Co-occurrence and differential reasoning]]
+- [[Co-occurring conditions in autism]]
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

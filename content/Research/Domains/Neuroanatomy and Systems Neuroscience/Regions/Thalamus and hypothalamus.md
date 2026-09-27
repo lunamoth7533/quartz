@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 10
 reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Regions]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/neuroendocrine]
 ---
@@ -44,6 +44,8 @@ Anatomy and hormonal control are well established in animals and humans; functio
 ## Connections
 
 This article links structural anatomy to [[HPA axis]] and [[Circadian clock biology]], and it is the anatomical reference for endocrine and autonomic material elsewhere in the vault.
+
+- [[Oxytocin and vasopressin]] - the two peptides that hypothalamic neurons make and release through the posterior pituitary and inside the brain, with the social-behaviour findings and trial limits attached to them.
 
 **Cross-domain connection (curation).** The neuroendocrine domain is the hypothalamus's applied literature - the HPA axis, circadian timing and autonomic output all begin at its nuclei - while the sleep and neuromodulation literatures pass through its thalamic neighbour; this one note therefore underwrites claims in at least three other domains, which is why its links run outward rather than summarising them. [[Stress response and the HPA axis]] [[Circadian clock biology]]
 

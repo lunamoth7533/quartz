@@ -4,7 +4,7 @@ title: "Reviews, guidelines and preprints"
 domain: [research-literacy]
 condition: []
 source_count: 8
-up: "[[Research Methods and Measurement - Integrity]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
@@ -22,7 +22,7 @@ reviewed: 2026-09-25
 
 - The CANMAT and ISBD summary translates evidence into first-, second- and third-line recommendations across illness phases. [[P38695002 Keramatian 2023 CANMAT and ISBD bipolar treatment guidelines#^p38695002-phases|CANMAT and ISBD bipolar treatment guidelines]]
 - The ADHD consensus statement curates 208 assertions using stated inclusion rules. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-methods|World Federation ADHD consensus statement]]
-- Consensus statements reflect judgment about a changing literature; treatment questions should also check newer primary studies. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|AI synthesis: World Federation ADHD consensus statement]]
+- Consensus statements reflect judgment about a changing literature; treatment questions should also check newer primary studies. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|Appraisal: World Federation ADHD consensus statement]]
 
 ## How it works
 
@@ -34,9 +34,9 @@ reviewed: 2026-09-25
 
 **Guidelines are service documents built on an evidence review.** National guidance such as the NICE bipolar guideline ties graded recommendations to the evidence review its committee used, and the CANMAT and ISBD guidance translates efficacy, safety and tolerability evidence into first-, second- and third-line recommendations by phase of illness, carrying no individual dose guidance. Both reflect a service context as well as a literature, and neither transfers automatically to another health system or to an individual. [[F94 NICE Bipolar disorder CG185#^f94-framing|Bipolar disorder CG185]] [[P38695002 Keramatian 2023 CANMAT and ISBD bipolar treatment guidelines#^p38695002-phases|CANMAT and ISBD bipolar treatment guidelines]]
 
-**Consensus statements are judgement, however well-catalogued.** The World Federation ADHD consensus statement curates 208 assertions drawn from studies above a size threshold and was read by hundreds of endorsers; consensus statements curate an evolving literature by documented thresholds rather than producing new data. Its own caution is that consensus reflects judgement about a literature that keeps changing, so treatment questions should be checked against newer primary studies and guidelines. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-scope|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-methods|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|AI appraisal: ADHD consensus statement]]
+**Consensus statements are judgement, however well-catalogued.** The World Federation ADHD consensus statement curates 208 assertions drawn from studies above a size threshold and was read by hundreds of endorsers; consensus statements curate an evolving literature by documented thresholds rather than producing new data. Its own caution is that consensus reflects judgement about a literature that keeps changing, so treatment questions should be checked against newer primary studies and guidelines. [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-scope|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-methods|ADHD consensus statement]] [[P33549739 Faraone 2021 World Federation ADHD consensus statement#^p33549739-caution-consensus|Appraisal: ADHD consensus statement]]
 
-**Preprints and single papers.** A preprint has a permanent identifier and no peer review: preprints make work visible before peer review, which makes them useful for currency and hazardous for settled claims, since many are revised or never published. A journal article has usually undergone peer review, though peer review varies in rigour and some journal items (editorials, commentaries, conference abstracts) do not undergo full review. The standing rule for either is the same here: identify the design, the access level actually checked, and whether the claim quoted matches the anchored statement. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-caution-authority|AI appraisal: Cochrane Handbook]] [[P33954258 Munafo 2017 Reproducible science#^p33954258-practices|A manifesto for reproducible science]]
+**Preprints and single papers.** A preprint has a permanent identifier and no peer review: preprints make work visible before peer review, which makes them useful for currency and hazardous for settled claims, since many are revised or never published. A journal article has usually undergone peer review, though peer review varies in rigour and some journal items (editorials, commentaries, conference abstracts) do not undergo full review. The standing rule for either is the same here: identify the design, the access level actually checked, and whether the claim quoted matches the anchored statement. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-caution-authority|Appraisal: Cochrane Handbook]] [[P33954258 Munafo 2017 Reproducible science#^p33954258-practices|A manifesto for reproducible science]]
 
 **Practical order.** Prefer preregistered, protocol-driven syntheses with certainty ratings; treat narrative reviews and preprints as orientation rather than as the final word.
 
@@ -46,10 +46,12 @@ reviewed: 2026-09-25
 
 Every synthesis layer loses detail and can preserve errors from the studies below it.
 
-## Related notes
+## Connections
 
-- [[Evidence types and causal inference]]
-- [[Phase-specific bipolar treatment evidence]]
+- [[Evidence types and causal inference]] - supplies the design logic that reviews and guidelines grade; a synthesis is only as strong as the designs of the studies it rests on.
+- [[Phase-specific bipolar treatment evidence]] - an applied case: bipolar guidelines attach recommendation strength to phase-specific trial evidence, so certainty and recommendation have to be read as separate columns.
+- [[Meta-analysis and review limits]] - the statistical engine inside most systematic reviews, with its own assumptions about comparability, heterogeneity and publication bias.
+- [[Replication and publication bias]] - why a synthesis of published studies can still be skewed: the publication filter operates before any review or guideline is written.
 
 ## Study question
 

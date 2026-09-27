@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/domain/research-literacy]
+tags: [research/source, research/recent, research/domain/research-literacy]
 ---
 
 # Systematic review of distributed practice and retrieval practice in health professions education
@@ -57,8 +57,7 @@ Time on task and assessment stakes are flagged as confounders to track.
 A systematic review of health professions education, with academic grades as the outcome. It reviews study strategies rather than clinical treatments, and its conclusions are about that educational setting.
 ^p37615780-scope
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the review.
 
 The finding supports using retrieval and spacing as a personal study routine; it does not show that a particular schedule is optimal, and grade improvements in health professions students may not transfer unchanged to other learners, subjects or outcomes.
@@ -70,4 +69,4 @@ The finding supports using retrieval and spacing as a personal study routine; it
 
 ## Working notes
 
-- Reading status: `queued`. Access: `open-access-online`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `open-access-online`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

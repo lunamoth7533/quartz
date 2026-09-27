@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [genetics-neurodevelopment]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Genetics]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics]
 ---
@@ -40,6 +40,11 @@ Common variants are present in a substantial fraction of a population and typica
 ## Evidence and status
 
 Detection methods are well established; the architecture of most psychiatric conditions is characterised in general terms but not in detail, and effect-size estimates keep moving as samples grow.
+
+## Recent research
+
+- **2024 · Genomic cohort study (Genetics in Medicine).** Genotyping and exome sequencing of 21,532 autistic participants in the SPARK research cohort found likely pathogenic or pathogenic variants in 8.6%, more often in those with cognitive or medical complexity and in female and White participants. [[P38958063 Wright 2024 Returning genetic results in autism#^p38958063-limit|Wright 2024]] [[P38958063 Wright 2024 Returning genetic results in autism#^p38958063-yield|Wright 2024]] [[P38958063 Wright 2024 Returning genetic results in autism#^p38958063-predictors|Wright 2024]] The yield depends on which variant classes were counted and on uneven reference data, so it is not an estimate of how much of autism rare variants explain. [[P38958063 Wright 2024 Returning genetic results in autism#^p38958063-caution-yield|Appraisal: Wright 2024]]
+- **2023 · Genome-wide association meta-analysis (Nature Genetics).** The ADHD meta-analysis found 27 loci and 76 candidate risk genes, and its exome-sequencing arm found an excess of rare protein-truncating variants in a set of risk genes, pointing to SORCS3 through both common and rare variation. [[P36702997 Demontis 2023 ADHD genome-wide analyses#^p36702997-loci|Demontis 2023]] [[P36702997 Demontis 2023 ADHD genome-wide analyses#^p36702997-limit|Demontis 2023]] It is a second worked case of convergence beside the bipolar result, though most ADHD-influencing variants are shared with other disorders and the signal describes populations rather than any individual's biology. [[P36702997 Demontis 2023 ADHD genome-wide analyses#^p36702997-shared|Demontis 2023]] [[P36702997 Demontis 2023 ADHD genome-wide analyses#^p36702997-caution-polygenic|Appraisal: Demontis 2023]]
 
 ## Connections
 

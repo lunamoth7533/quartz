@@ -51,8 +51,7 @@ Longer illness duration was associated with reduced cortical thickness; reduced 
 Observational cortical MRI analysis that the authors describe as an extensive analysis of potential confounding variables in bipolar neuroimaging.
 ^p28461699-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Group-level averages describe a sample, not a person: they cannot establish causation or diagnose an individual.
@@ -64,6 +63,7 @@ Group-level averages describe a sample, not a person: they cannot establish caus
 - [[MRI versus EEG]]
 - [[Interpreting group brain differences]]
 - [[Bipolar MRI findings and their limits]]
+- [[Prefrontal cortex]]
 
 ## Working notes
 

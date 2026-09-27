@@ -4,14 +4,14 @@ title: "Nervous tissue and myelin"
 domain: [neurobiology]
 condition: []
 source_count: 7
-up: "[[Neurobiology - Structures]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: structure
 description: "Grey and white matter, myelin structure, saltatory conduction, and the developmental timeline of central myelination."
 secondary_domain: [neuroanatomy-systems]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Nervous tissue and myelin
@@ -47,11 +47,13 @@ reviewed: 2026-09-25
 
 A volume or thickness difference on a scan does not map onto 'more' or 'better' tissue.
 
-## Related notes
+## Connections
 
-- [[Neurons and glia]]
-- [[Structural versus functional measures]]
-- [[Interpreting group brain differences]]
+- [[Neurons and glia]] - the cell-level components of the tissue described here: the neurons that populate grey matter and the glia whose myelin builds white matter.
+- [[Structural versus functional measures]] - why a white-matter or thickness difference on a scan is a structural measurement that does not by itself report function.
+- [[Interpreting group brain differences]] - the reading rules for group imaging findings about tissue: medication and course confounds, and why an average difference is not an individual test.
+- [[Myelin and saltatory conduction]] - the conduction physiology in detail: nodes of Ranvier, how speed is achieved and what fails when myelin is damaged, summarised here as an engineering trade.
+- [[Synaptic pruning and myelination]] - the developmental programme behind this note's point that myelination continues into adolescence and adulthood, paired there with experience-dependent synapse elimination.
 
 ## Study question
 

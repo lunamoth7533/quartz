@@ -3,15 +3,15 @@ note_type: topic
 title: "Autism genetics and rare variants"
 domain: [neurobiology]
 condition: ['autism']
-source_count: 7
-up: "[[Autism - Biology]]"
+source_count: 9
+up: "[[Autism Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology, research/condition/autism]
 content_layer: reference
 concept_kind: framework
 description: "Common and rare variant architecture in autism, what exome sequencing has shown, and why a risk variant is not a diagnosis or a mechanism."
 secondary_domain: []
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Autism genetics and rare variants
@@ -23,7 +23,7 @@ reviewed: 2026-09-25
 - A 35,584-sample exome study identified 102 risk genes, mostly expressed early in brain development. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-genes|Autism exome sequencing study]]
 - Forty-nine genes were enriched in developmental delay and 53 in autism, with phenotypic differences. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-subgroups|Autism exome sequencing study]]
 - Risk-gene expression was enriched in excitatory and inhibitory lineages, consistent with multiple imbalance paths. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-model|Autism exome sequencing study]]
-- Finding a risk gene does not determine a person's traits or support needs. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI synthesis: Autism exome sequencing study]]
+- Finding a risk gene does not determine a person's traits or support needs. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: Autism exome sequencing study]]
 
 ## How it works
 
@@ -39,11 +39,11 @@ reviewed: 2026-09-25
 
 **What kind of claim this is.** It is a genetic association study using rare de novo and case-control variation that estimates population-level risk contributions. Finding a risk variant is not a diagnosis, a prognosis or a mechanism: variants vary in penetrance, and the same variant can appear in people with different presentations. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-limit|Autism exome sequencing]] [[P29844615 Schaid 2018 Fine-mapping#^p29844615-limits|Fine-mapping]]
 
-**Penetrance and variable expression are the rule, not a footnote.** A risk variant raises the probability of a particular developmental profile without fixing it: carriers of the same variant differ in whether they meet diagnostic criteria at all, in language level, in co-occurring conditions and in support needs. That is why a risk-gene list characterises a sample's biology while saying almost nothing about any carrier's presentation - the library's own caution notes that finding a risk gene does not determine an individual's traits, strengths or support needs - and why genetic findings feed research stratification and counselling conversations rather than diagnostic checklists. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-limit|Autism exome sequencing]] [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI appraisal: Autism exome sequencing]]
+**Penetrance and variable expression are the rule, not a footnote.** A risk variant raises the probability of a particular developmental profile without fixing it: carriers of the same variant differ in whether they meet diagnostic criteria at all, in language level, in co-occurring conditions and in support needs. That is why a risk-gene list characterises a sample's biology while saying almost nothing about any carrier's presentation - the library's own caution notes that finding a risk gene does not determine an individual's traits, strengths or support needs - and why genetic findings feed research stratification and counselling conversations rather than diagnostic checklists. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-limit|Autism exome sequencing]] [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: Autism exome sequencing]]
 
 **Practical framing.** Genetics research in autism is best read as identifying biological pathways and improving understanding of heterogeneity - not as establishing that any individual's autism was caused by a specific gene. [[F66 NHGRI Genomics fact sheet#^f66-applications|Genomics fact sheet]]
 
-**Reading rule.** Name the variant class, the ascertainment scheme and the level of claim. A risk-gene list is a statement about a sample's genetics, not a description of an autistic person. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI appraisal: Autism exome sequencing]] [[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-caution-prediction|AI appraisal: Genomics of bipolar disorder]]
+**Reading rule.** Name the variant class, the ascertainment scheme and the level of claim. A risk-gene list is a statement about a sample's genetics, not a description of an autistic person. [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: Autism exome sequencing]] [[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-caution-prediction|Appraisal: Genomics of bipolar disorder]]
 
 **Cross-domain connection (curation).** The genetics domain supplies the designs and the condition domain supplies the constructs: an exome finding becomes autism-relevant only through how the sample was ascertained, which is why the same gene list splits into developmental-delay-enriched and autism-enriched subsets when ascertainment differs. [[Common and rare variants]] [[Autism heterogeneity and support needs]]
 
@@ -51,11 +51,19 @@ reviewed: 2026-09-25
 
 Genetic findings describe population-level risk contributions, and pathway stories need convergent evidence.
 
-## Related notes
+## Recent research
 
-- [[Genes, environment and polygenic risk]]
-- [[Excitation and inhibition balance]]
-- [[Autism heterogeneity and support needs]]
+- **2025 · Family-based genetic study (Genome Medicine).** Across 21,735 families of diverse ancestries, scoring phenotypes relative to unaffected relatives showed that probands with disruptive de novo variants had more behavioural symptoms and lower adaptive functioning, sharpened gene discovery (18 newly associated genes), and exposed 11 genes whose effects varied markedly between families. [[P40836247 Kim 2025 Familial phenotype deviation and de novo variants#^p40836247-within-family|Kim 2025]] [[P40836247 Kim 2025 Familial phenotype deviation and de novo variants#^p40836247-discovery|Kim 2025]] [[P40836247 Kim 2025 Familial phenotype deviation and de novo variants#^p40836247-variability|Kim 2025]] That between-family variability is itself evidence against reading a variant as a fixed presentation. [[P40836247 Kim 2025 Familial phenotype deviation and de novo variants#^p40836247-caution-individual|Appraisal: Kim 2025]]
+- **2025 · Cohort modelling study with replication (Nature Genetics).** Phenotypic classes derived from broad trait data mapped onto different mixes of common, de novo and inherited variation and onto different developmental timing of affected genes, tying the architecture described above to measured heterogeneity rather than to a single diagnostic category. [[P40634707 Litman 2025 Phenotypic heterogeneity and genetic programs#^p40634707-genetics|Litman 2025]] [[P40634707 Litman 2025 Phenotypic heterogeneity and genetic programs#^p40634707-timing|Litman 2025]] The classes remain population-level groupings for generating hypotheses. [[P40634707 Litman 2025 Phenotypic heterogeneity and genetic programs#^p40634707-caution-classes|Appraisal: Litman 2025]]
+
+## Connections
+
+- [[Genes, environment and polygenic risk]] - the methods behind the common-variant half of this architecture: association studies, polygenic scores and gene-environment interplay.
+- [[Excitation and inhibition balance]] - the circuit-level hypothesis that risk-gene expression in excitatory and inhibitory lineages motivates, tested there rather than assumed here.
+- [[Autism heterogeneity and support needs]] - the phenotypic variation that ascertainment and variable expression help explain, and the reason a variant says little about support needs.
+- [[Common and rare variants]] - the general genetics distinction this note applies: two regimes of architecture that call for different designs and different interpretations.
+- [[Association versus individual prediction]] - why population-level risk contributions from a gene list do not become predictions of one person's traits or needs.
+- [[Heritability and twin studies]] - where the twin heritability figures for autism come from, how their assumptions move the estimate, and why they exceed what measured variants explain.
 
 ## Study question
 

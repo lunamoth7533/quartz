@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 3
 reviewed: 2026-09-25
-up: "[[Psychology - Development and therapy]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology, research/domain/clinical]
 ---
@@ -27,7 +27,7 @@ Psychotherapy models differ in what they treat as the mechanism of change: behav
 
 **Comparators decide how effects look.** Trials compare against waiting list, treatment as usual or another active therapy, and the comparator determines how large an effect looks, so 'works' is always relative to a specified alternative.
 
-**Non-specific factors are part of the mechanism problem.** Alliance, expectancy and allegiance contribute to outcomes in all orientations, which is why attributing change to a specific technique requires designs that hold those factors constant; most trials do not. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|AI synthesis: CBT for ADHD (Cochrane review)]]
+**Non-specific factors are part of the mechanism problem.** Alliance, expectancy and allegiance contribute to outcomes in all orientations, which is why attributing change to a specific technique requires designs that hold those factors constant; most trials do not. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-caution-rater|Appraisal: CBT for ADHD (Cochrane review)]]
 
 **Dismantling and additive designs are how mechanisms get tested.** Comparing a full package against a version with one component removed tests whether that component carries unique effect; most therapy trials do not do this, so component claims in therapy - like exposure being the active ingredient of CBT for a given condition - rest on a thinner design base than the package-level evidence. The honest statement is usually that a package works and that a mechanism is plausible and partially tested. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|CBT for ADHD (Cochrane review)]] [[Trial endpoints, benefit and harms]]
 
@@ -39,11 +39,16 @@ Psychotherapy models differ in what they treat as the mechanism of change: behav
 
 Evidence is uneven across orientations and conditions, with the strongest trial base for cognitive-behavioural and behavioural methods in specific conditions; psychodynamic and humanistic approaches have been studied less extensively in randomised trials than CBT. Comparator choice changes the apparent size of an effect, and certainty can stay low even where a difference is statistically significant: in the adult-ADHD trials reviewed by Cochrane, gains over waiting list were large while the comparison against supportive psychotherapy was not statistically significant, and certainty was mostly low or very low. [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|Cognitive behavioural interventions for ADHD]]
 
-This library's strongest synthesis is instructive about method: adding manualised psychotherapy to medication was associated with lower recurrence in bipolar disorder, and the component analysis linked psychoeducation with supervised skills practice to fewer recurrences, while component analyses estimate average contributions across heterogeneous protocols. [[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-recurrence|Adjunctive psychotherapy for bipolar disorder]] [[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-caution-ingredients|AI appraisal: Adjunctive psychotherapy for bipolar disorder]]
+This library's strongest synthesis is instructive about method: adding manualised psychotherapy to medication was associated with lower recurrence in bipolar disorder, and the component analysis linked psychoeducation with supervised skills practice to fewer recurrences, while component analyses estimate average contributions across heterogeneous protocols. [[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-recurrence|Adjunctive psychotherapy for bipolar disorder]] [[P33052390 Miklowitz 2021 Adjunctive psychotherapy for bipolar disorder#^p33052390-caution-ingredients|Appraisal: Adjunctive psychotherapy for bipolar disorder]]
 
 ## Connections
 
 This overview frames the condition-specific psychotherapy articles, including [[Bipolar psychotherapy evidence]] and [[Psychological interventions for complex trauma]].
+
+- [[Dialectical behaviour therapy]] - a cognitive-behavioural skills therapy for emotional escalation and self-harm whose trials against usual care show how comparator and certainty shape a therapy's record.
+- [[EMDR]] - a trauma-focused therapy whose eye-movement component has been dismantled directly, a worked example of testing one component inside a package.
+- [[Acceptance and commitment therapy]] - a third-wave behavioural therapy that names six components of its mechanism and tests them in laboratory component studies.
+- [[Mindfulness-based interventions]] - mindfulness programmes whose pooled effects vary by condition, by review quality and by who rates the outcome.
 
 **Cross-domain connection (curation).** This note is the psychology domain's counterpart to the pharmacology domain's drug-classes overview: both organise interventions by named mechanism, both face the comparator problem, and both route the reader to condition-specific evidence articles where the actual trials live. [[Phase-specific bipolar treatment evidence]] [[Antidepressant mechanisms]]
 

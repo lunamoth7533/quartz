@@ -11,13 +11,13 @@ tags: [research/argument]
 
 **Question.** Does the 'chemical imbalance' framing help people understand and manage psychiatric conditions, or does it create more confusion than it resolves?
 
-**Origin.** AI-generated starter question, written for this library. It does not represent anyone's beliefs or history.
+**Origin.** Starter question written for this library. It does not represent anyone's beliefs or history.
 
 ## Competing explanations
 
 **A simple story may help people.** A memorable, non-moralizing explanation could reduce self-blame and support engagement with treatment. This is a hypothesis about communication, and the evidence needed below is what would test it. 
 
-**A simple story misstates the science.** The textbook presents the imbalance perspective while documenting receptor-dependent mixed effects, and the bipolar dopamine model is presented by its authors as speculation. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI synthesis: Cells of the Nervous System]]; [[P28289283 Ashok 2017 Dopamine hypothesis of bipolar disorder#^p28289283-speculative|Dopamine hypothesis of bipolar disorder]]
+**A simple story misstates the science.** The textbook presents the imbalance perspective while documenting receptor-dependent mixed effects, and the bipolar dopamine model is presented by its authors as speculation. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]]; [[P28289283 Ashok 2017 Dopamine hypothesis of bipolar disorder#^p28289283-speculative|Dopamine hypothesis of bipolar disorder]]
 
 **Mechanism is real, the mapping is indirect.** Medicines do act on signalling systems, but the effect depends on the receptor and the circuit rather than on a single level of one chemical. [[F06 OpenStax Cells of the nervous system#^f06-receptor|Cells of the Nervous System]]
 

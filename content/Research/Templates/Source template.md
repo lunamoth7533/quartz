@@ -27,20 +27,33 @@ tags: [research/source]
 
 # {{title}}
 
-**Authors.**  **Published.**  **Identifiers.** DOI · PMID
+<!-- Name the file "P<PMID> <First author> <Year> <Short title>" and file it in its domain's Articles/ folder (Pages/ for official or educational pages). Add the tag research/recent if it was published in 2023 or later. -->
 
-**Access.** State plainly what was checked: abstract, full text, official page or downloaded PDF.
+**Authors.**  · [PubMed record](https://pubmed.ncbi.nlm.nih.gov/)
 
-## Summary (paraphrase, not a quote)
+**Published.** Year in Journal.
 
-Two or three sentences in your own words. Do not paste the abstract.
-^summary
+**Identifiers.** DOI · PMID · PMCID - copied from the publisher or PubMed page, never from memory.
 
-## Scope and limitations
+**Verification.** State plainly what was checked (abstract, full text, official page, downloaded PDF) and when. Downloaded is not read.
 
-Population, design, size, follow-up and anything that limits how far the finding travels.
-^limitation
+## Reported findings (checked abstract)
+
+One finding per paragraph, in your own words; under 100 words in total. Do not paste the abstract.
+^pmid-finding
+
+## Scope as reported
+
+Design, population, size, follow-up and the limitations the authors state.
+^pmid-limit
+
+## Library appraisal
+
+These paragraphs are this library's own methodological appraisal, not statements from the source.
+
+What the design can and cannot show.
+^pmid-caution-slug
 
 ## Used by
 
-- Link topics that cite this source.
+- Concept notes that cite this source.

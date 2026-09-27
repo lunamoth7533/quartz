@@ -40,7 +40,7 @@ The limits are specific. This is a 2012 review covering PTSD rather than complex
 
 PTSD findings cannot be relabelled as complex PTSD specific mechanisms, and no single biological marker
 explains PTSD, so these findings describe mechanisms under study rather than a diagnostic test.
-[[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|AI synthesis: Biological studies of PTSD]]
+[[P23047775 Pitman 2012 Biological studies of PTSD#^p23047775-caution-cptsd|Appraisal: Biological studies of PTSD]]
 
 The construct adds further distance: current definitions are symptom-based, and complex PTSD adds
 self-organization domains that have no established biological signature in this vault.

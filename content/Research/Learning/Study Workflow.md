@@ -39,12 +39,12 @@ stakes are both confounders the authors flag. [[P37615780 Trumble 2024 Distribut
 
 The intervals above are a workable default, not a finding about optimal spacing. The review evidence supports
 spacing over massing; it does not identify the best schedule, and it does not test this vault's material.
-[[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-caution-transfer|AI synthesis: Trumble 2024]]
+[[P37615780 Trumble 2024 Distributed and retrieval practice review#^p37615780-caution-transfer|Appraisal: Trumble 2024]]
 
 ## Working with the evidence layer
 
 - A lesson is teaching text; a topic note holds the atomic claim; a source block decides. When they disagree,
-  the source block wins and the lesson is wrong and should be fixed ([[Learning Maintenance]]).
+  the source block wins and the lesson is wrong and should be fixed.
 - Keep `reading_status` honest. This layer does not mark a source read because a lesson cites it; the user's
   reading state stays `queued` until they read it.
 - Treat every group statistic as a group statistic. Write "in the studied sample" before you write a sentence

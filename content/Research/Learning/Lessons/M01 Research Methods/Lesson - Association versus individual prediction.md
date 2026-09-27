@@ -31,15 +31,15 @@ Group-level averages describe samples. In the ENIGMA imaging analysis of 6503 in
 differed on average between people with bipolar disorder and controls; that comparison cannot establish
 causation and cannot diagnose an individual, because the distributions overlap and the study was never
 calibrated as a personal test.
-[[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI synthesis: ENIGMA cortical MRI findings in bipolar disorder]]
+[[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical MRI findings in bipolar disorder]]
 
 Genomic findings have the same structure. A multi-ancestry bipolar analysis identified hundreds of loci, and
 its risk architecture is statistical: it describes populations rather than predicting an individual's course.
-[[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-caution-prediction|AI synthesis: Bipolar disorder genomics]]
+[[P39843750 O'Connell 2025 Genomics of bipolar disorder#^p39843750-caution-prediction|Appraisal: Bipolar disorder genomics]]
 
 Autism exome findings add the developmental version: a risk gene does not determine a person's traits or
 support needs.
-[[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI synthesis: Autism exome sequencing study]]
+[[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: Autism exome sequencing study]]
 
 Individual prediction is a separate technical claim. It requires a model fitted and calibrated in a comparable
 population, a decision threshold with established consequences, and validation in people who were not part of
@@ -91,7 +91,7 @@ records the transfer gap as an open question in the coverage matrix.
    evidence about the consequences of using it.
 3. Something like "variants in this gene contribute to population-level risk in the studied samples; they do
    not determine an individual's traits or support needs".
-4. In the AI-synthesis cautions of the source notes, and in the lessons that cite them; the coverage matrix
+4. In the library-appraisal sections of the source notes, and in the lessons that cite them; the coverage matrix
    lists the same gap at topic level.
 
 ## Next steps

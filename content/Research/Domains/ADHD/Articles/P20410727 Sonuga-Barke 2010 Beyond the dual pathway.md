@@ -36,6 +36,9 @@ tags: [research/source, research/domain/adhd, research/domain/psychology, resear
 
 ## Reported findings (checked abstract)
 
+The dual pathway model under test attributes ADHD's neuropsychological heterogeneity to separable cognitive and motivational deficits, each affecting only some patients.
+^p20410727-model
+
 Children with ADHD, their siblings and non-ADHD controls completed nine tasks tapping inhibitory control, delay aversion and temporal processing.
 ^p20410727-design
 
@@ -49,3 +52,7 @@ The result supports heterogeneity in ADHD's cognitive profile rather than a sing
 
 A primary study in a clinic-referred sample, published in the Journal of the American Academy of Child and Adolescent Psychiatry. Access was abstract-level.
 ^p20410727-limit
+
+## Used by
+
+- [[Cognitive models of ADHD]]

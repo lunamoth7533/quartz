@@ -26,20 +26,17 @@ properties:
     displayName: Year
 views:
   - type: table
-    name: Topics by subdomain
-    filters:
-      and:
-        - note_type == "topic"
-    groupBy:
-      property: formula.folder
-      direction: ASC
+    name: Concepts by theme
     order:
       - file.name
       - concept_kind
       - source_count
       - description
+    sort: []
     summaries:
       source_count: Sum
+    columnSize:
+      file.name: 234
   - type: table
     name: Evidence filed here
     filters:

@@ -7,9 +7,9 @@ concept_kind: process
 domain: [psychology]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Psychology - Perception and attention]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology]
 ---
@@ -35,11 +35,16 @@ Working memory is the limited-capacity system that holds information in an activ
 
 **Clinically tempting and measurement-poor.** Working-memory tasks are sensitive to prefrontal state and load, which makes them attractive as objective markers; but span tasks, n-back tasks and self-report scales measure different things and correlate modestly with each other and with everyday function, so a single 'working memory score' hides task, strategy and motivation differences and should be treated with caution. The clinical literatures that cite working-memory deficits - ADHD especially - inherit exactly these measurement qualifications. [[P20410727 Sonuga-Barke 2010 Beyond the dual pathway#^p20410727-implication|Beyond the dual pathway model]] [[Attention and executive function]]
 
-**Reading rule.** Name the task, the load, the manipulation required and the population - naming them is what makes the claim interpretable; a working-memory difference can reflect storage, control, strategy or motivation, and the four are not distinguished by a single score. [[F09 Noba Research designs#^f09-limit|Research Designs]] [[P19621976 Arnsten 2009 Prefrontal catecholamines and ADHD#^p19621976-caution-transfer|AI appraisal: Prefrontal catecholamines and ADHD]]
+**Reading rule.** Name the task, the load, the manipulation required and the population - naming them is what makes the claim interpretable; a working-memory difference can reflect storage, control, strategy or motivation, and the four are not distinguished by a single score. [[F09 Noba Research designs#^f09-limit|Research Designs]] [[P19621976 Arnsten 2009 Prefrontal catecholamines and ADHD#^p19621976-caution-transfer|Appraisal: Prefrontal catecholamines and ADHD]]
 
 ## Evidence and status
 
 Capacity limits are among the most replicated findings in psychology; the neural implementation and the mapping from tasks to everyday function remain contested.
+
+## Recent research
+
+- **2024 · Meta-analysis with risk-of-bias assessment (Psychonomic Bulletin & Review).** Across 52 comparisons, training improved working memory only slightly, much more when outcome tasks resembled the training tasks, and not fluid intelligence - quantifying the transfer caution under Uncertainties. [[P38366265 Rodas 2024 Bias in working memory training#^p38366265-effect|Rodas 2024]] [[P38366265 Rodas 2024 Bias in working memory training#^p38366265-transfer|Rodas 2024]] The authors name task similarity as the largest bias, so a gain on a trained format measures practice with that format. [[P38366265 Rodas 2024 Bias in working memory training#^p38366265-bias|Rodas 2024]] [[P38366265 Rodas 2024 Bias in working memory training#^p38366265-caution-similarity|Appraisal: Rodas 2024]]
+- **2024 · Computational modelling study (Journal of Affective Disorders).** In 220 young people with and without mood disorders, a combined reinforcement-learning and working-memory model linked higher current manic symptoms to faster working-memory decay and less use of working memory, while reward learning rates tracked anhedonia and lifetime diagnoses - a model-based way of separating storage from reward processes. [[P37839471 Cheng 2024 Reinforcement learning and working memory in mood disorders#^p37839471-wm|Cheng 2024]] [[P37839471 Cheng 2024 Reinforcement learning and working memory in mood disorders#^p37839471-reward|Cheng 2024]] The separation holds within one deterministic task and a small bipolar group. [[P37839471 Cheng 2024 Reinforcement learning and working memory in mood disorders#^p37839471-caution-state|Appraisal: Cheng 2024]]
 
 ## Connections
 

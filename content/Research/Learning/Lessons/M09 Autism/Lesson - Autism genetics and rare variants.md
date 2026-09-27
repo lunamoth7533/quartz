@@ -46,7 +46,7 @@ population-level risk contributions.
 Two consequences follow. First, the subgroup finding shows that the genetic correlates differ with the
 presentation that led to ascertainment, which is a concrete way heterogeneity shows up in the data. Second,
 finding a risk gene does not determine a person's traits, strengths or support needs.
-[[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI synthesis: Autism exome sequencing study]]
+[[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: Autism exome sequencing study]]
 
 The co-occurrence literature adds a related caution: family and twin evidence suggests partly shared
 contributions with ADHD.

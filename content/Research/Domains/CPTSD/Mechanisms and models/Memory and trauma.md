@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [cptsd, psychology]
 secondary_domain: []
 condition: []
-source_count: 4
-reviewed: 2026-09-25
-up: "[[CPTSD - Mechanisms and models]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[CPTSD Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/cptsd, research/domain/psychology]
 ---
@@ -37,9 +37,16 @@ Memory for traumatic events is studied through clinical samples, prospective coh
 
 Prospective studies of documented events provide the strongest evidence, because they are the design that can distinguish memory properties from sampling effects; retrospective clinical samples cannot, because who presents for trauma-focused assessment is itself selected. That asymmetry is why the field's claims are strongest about central-detail accuracy in documented-event cohorts and weakest about the mechanisms by which individual memories are organised. The dissociative subtype was proposed through antecedent, concurrent and predictive evidence assembled in a review, with differential-response evidence still developing. [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-validators|The dissociative subtype of PTSD]] [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-implication|The dissociative subtype of PTSD]]
 
+## Recent research
+
+- **2024 · Cross-sectional survey (Journal of anxiety disorders).** The first test of the memory and identity theory, in a wartime Ukrainian sample, found newly built memory and identity measures psychometrically adequate and observed all but one of the predicted links with complex PTSD symptoms, plus some unpredicted ones. [[P38991292 Hyland 2024 Testing memory and identity theory#^p38991292-sample|Hyland 2024]] [[P38991292 Hyland 2024 Testing memory and identity theory#^p38991292-measures|Hyland 2024]] [[P38991292 Hyland 2024 Testing memory and identity theory#^p38991292-structure|Hyland 2024]] One cross-sectional survey shows the associations hold, not that the processes cause the symptoms. [[P38991292 Hyland 2024 Testing memory and identity theory#^p38991292-caution-crosssectional|Appraisal: Hyland 2024]]
+- **2023 · Theory paper (Psychological review).** Gives memory a named role in complex PTSD: trauma exposure interacting with individual vulnerability is proposed to produce intrusive, sensation-based memories and negative identities that together generate the PTSD and self-organisation symptoms. [[P37338431 Hyland 2023 Memory and identity theory of CPTSD#^p37338431-model|Hyland 2023]] [[P37338431 Hyland 2023 Memory and identity theory of CPTSD#^p37338431-continuum|Hyland 2023]] Its causal claims await independent, prospective tests. [[P37338431 Hyland 2023 Memory and identity theory of CPTSD#^p37338431-caution-untested|Appraisal: Hyland 2023]]
+
 ## Connections
 
 This note qualifies [[Episodic memory]] and is used by [[Developmental perspectives and attachment]] and [[CPTSD and disturbances in self-organization]].
+
+- [[EMDR]] - a therapy that works directly on distressing memories; in laboratory studies, eye movements during recall reduced how vivid a memory felt.
 
 **Written to be read alongside the condition-domain material.** The PTSD, dissociative-subtype and treatment articles in the clinical and neuroendocrine domains draw on the same evidence base this article describes; reading them together makes the causal ladder explicit rather than leaving each article to imply its own. [[PTSD biology and CPTSD evidence limits]] [[Cytokines and inflammation in psychiatric conditions]]
 

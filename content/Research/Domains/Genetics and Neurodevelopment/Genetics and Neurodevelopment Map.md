@@ -8,7 +8,7 @@ concept_kind: framework
 condition: []
 domain: [genetics-neurodevelopment]
 reviewed: 2026-09-25
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map, research/reference, research/domain/genetics-neurodevelopment]
 ---
@@ -16,11 +16,17 @@ tags: [research/map, research/reference, research/domain/genetics-neurodevelopme
 
 This domain covers two linked subjects: how genetic variation is measured and interpreted, and how the nervous system is built, refined and tuned by experience.
 
-> **Reference entry point:** [[Research Atlas]] carries the fifteen-domain reference layer for this hub; [[Reference Index]] lists every concept article, the native views and the relationship register.
+> **Reference entry point:** [[Home]] lists all fifteen domain maps; [[Reference Index]] lists every concept article, the native views and the relationship register.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Reading a genetic or developmental claim|Reading a claim]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Reading a genetic or developmental claim|Reading a genetic or developmental claim]]
 
-## Reference overview
+## Concept register
+
+- **Genetics:** [[DNA RNA and gene expression]], [[Inheritance and variation]], [[Common and rare variants]], [[Genome-wide association studies]], [[Polygenic scores and prediction]], [[Gene-environment interplay and epigenetics]], [[Genes, environment and polygenic risk]], [[Genetic inference and polygenic scores]], [[Heritability and twin studies]]
+- **Development:** [[Neurogenesis and migration]], [[Axon guidance and synaptogenesis]], [[Synaptic pruning and myelination]], [[Sensitive periods]], [[Circuit development and homeostasis]]
+- **Model systems:** [[Translational validity]]
+
+## Overview
 
 This domain covers two linked subjects: how genetic variation is organised and measured, and how
 the nervous system is built. The link is not that genes specify circuits - they do not - but that
@@ -60,12 +66,12 @@ human interpretation. [[Translational validity]] [[Reading a study and matching 
 
 **Evidence boundaries.** Polygenic scores summarise average risks across a sample and need
 calibration before any individual reading; a risk gene does not determine traits or support needs;
-and genetic correlation between traits does not establish a shared mechanism. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|AI appraisal: 10 years of GWAS discovery]]
-[[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|AI appraisal: Autism exome sequencing]]
+and genetic correlation between traits does not establish a shared mechanism. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|Appraisal: 10 years of GWAS discovery]]
+[[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-caution-risk|Appraisal: Autism exome sequencing]]
 
 **Where to start.** [[DNA RNA and gene expression]] and [[Inheritance and variation]] for the basis, [[Genome-wide association studies]] and [[Genetic inference and polygenic scores]] for how evidence is produced, and [[Neurogenesis and migration]] through [[Sensitive periods]] for development. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Genetic claims rest on measurement. Genetics studies single genes and genomics studies the whole set of genetic material; common variants are detected by association studies while rare variants are detected by sequencing, and the two regimes coexist in most conditions. [[F66 NHGRI Genomics fact sheet#^f66-scope|Genomics fact sheet]] [[F67 NHGRI GWAS fact sheet#^f67-design|GWAS fact sheet]] [[P31981491 Satterstrom 2020 Autism exome sequencing#^p31981491-model|Autism exome sequencing]]
 
@@ -76,20 +82,6 @@ Environment enters in several distinct ways: interaction, correlation between ge
 Development runs through overlapping processes - proliferation, migration, differentiation, synaptogenesis, pruning and myelination - with different schedules across systems. Axon guidance uses conserved cue families, and refinement removes as much as it adds. [[P19794405 Tau 2010 Normal development of brain circuits#^p19794405-sequence|Normal development of brain circuits]] [[P21042938 Stiles 2010 Basics of brain development#^p21042938-overlap|The basics of brain development]] [[P12471249 Dickson 2002 Molecular mechanisms of axon guidance#^p12471249-cues|Molecular mechanisms of axon guidance]] [[F101 Neuroscience Online synapse formation and elimination#^f101-elimination|Synapse Formation, Survival, and Elimination]]
 
 Sensitive periods give experience disproportionate influence during defined windows, with circuit mechanisms that open and close them. [[P16261181 Hensch 2005 Critical period plasticity#^p16261181-trigger|Critical period plasticity]] [[P16261181 Hensch 2005 Critical period plasticity#^p16261181-consolidation|Critical period plasticity]]
-
-## Concept register
-
-- **[[Genetics and Neurodevelopment - Genetics|Genetics]]:** [[DNA RNA and gene expression]], [[Inheritance and variation]], [[Common and rare variants]], [[Genome-wide association studies]], [[Polygenic scores and prediction]], [[Gene-environment interplay and epigenetics]], [[Genes, environment and polygenic risk]], [[Genetic inference and polygenic scores]]
-- **[[Genetics and Neurodevelopment - Development|Development]]:** [[Neurogenesis and migration]], [[Axon guidance and synaptogenesis]], [[Synaptic pruning and myelination]], [[Sensitive periods]], [[Circuit development and homeostasis]]
-- **Model systems:** [[Translational validity]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
 
 ## Where this domain connects
 
@@ -104,3 +96,11 @@ Embryonic development is established in animals and human tissue; adult human ne
 ## Reading a genetic or developmental claim
 
 Four distinctions carry most of the weight in this domain. Variant class matters, because common and rare variation are detected by different designs and describe different parts of an architecture. Level of claim matters, because association, fine-mapping, mechanism and prediction are consecutive steps with separate evidence. Population matters, because heritability and polygenic scores are statistics of the samples they were estimated in and do not transport freely across ancestry or ascertainment. And timing matters, because development runs as overlapping processes rather than a schedule, so a mechanism demonstrated in one system does not transfer to another age or region. The articles below take each of these in turn and mark where the sources stop.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

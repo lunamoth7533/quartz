@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Computational Neuroscience and Brain Theories - Foundations]]"
+up: "[[Computational Neuroscience and Brain Theories Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/computational, research/domain/methods]
 ---
@@ -40,6 +40,8 @@ The methodology is well developed in computational neuroscience and increasingly
 ## Connections
 
 This is the epistemic companion to every theory note in this domain, and it links to [[Replication and publication bias]] in the methods domain.
+
+- [[Computational psychiatry]] - the clinical application where identifiability becomes a measurement question: fitted parameters must be distinguishable and reliable before they can describe patients.
 
 **Cross-domain connection (curation).** The clinical-translation articles in every condition domain inherit this discipline: fitted computational parameters used as "biomarkers" stand or fall on the same recovery and identifiability checks, applied to clinical samples. [[ADHD medication evidence]] [[Measurement validity and reliability]]
 

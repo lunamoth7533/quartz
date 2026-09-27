@@ -3,15 +3,15 @@ note_type: topic
 title: "Trauma and stress responses"
 domain: [psychology]
 condition: [cptsd]
-source_count: 6
-up: "[[CPTSD - Mechanisms and models]]"
+source_count: 8
+up: "[[CPTSD Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/psychology, research/condition/cptsd]
 content_layer: reference
 concept_kind: process
 description: "Appraisal, acute versus chronic stress physiology, the immune route, and the step from traumatic exposure to a symptom-based diagnosis."
 secondary_domain: [clinical-psychiatry]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Trauma and stress responses
@@ -41,11 +41,20 @@ reviewed: 2026-09-25
 
 Exposure to traumatic events is common and does not imply a disorder.
 
-## Related notes
+## Recent research
 
-- [[Stress response and the HPA axis]]
-- [[ICD-11 versus DSM-5 classification]]
-- [[PTSD biology and CPTSD evidence limits]]
+- **2025 · Population survey (Journal of anxiety disorders).** In a probability-based Dutch sample, 81.5% reported lifetime exposure to a potentially traumatic event, while current PTSD was about 1% under either system and current complex PTSD 1.6%, a concrete measure of how far exposure outruns disorder. [[P39808949 Hoeboer 2025 PTSD and CPTSD epidemiology Netherlands#^p39808949-exposure|Hoeboer 2025]] [[P39808949 Hoeboer 2025 PTSD and CPTSD epidemiology Netherlands#^p39808949-prevalence|Hoeboer 2025]]
+- **2024 · Narrative review (Physiological reviews).** Treats resilience, meaning maintained mental health or quick recovery after adversity, as an outcome with candidate protective mechanisms: hippocampal and prefrontal processes that support the perception of safety after single events, and reward processes after severe or prolonged stress, all described as preliminary and limited by problems of operationalisation and replication. [[P38483288 Kalisch 2024 Neurobiology of stress resilience#^p38483288-definition|Kalisch 2024]] [[P38483288 Kalisch 2024 Neurobiology of stress resilience#^p38483288-safety|Kalisch 2024]] [[P38483288 Kalisch 2024 Neurobiology of stress resilience#^p38483288-reward|Kalisch 2024]] [[P38483288 Kalisch 2024 Neurobiology of stress resilience#^p38483288-methods|Kalisch 2024]] These are group-level candidates, not predictors for a person. [[P38483288 Kalisch 2024 Neurobiology of stress resilience#^p38483288-caution-outcome|Appraisal: Kalisch 2024]]
+
+## Connections
+
+- [[Stress response and the HPA axis]] - the physiological mechanism summarised here, set out in full: the slower hormonal arm, its feedback, and why single cortisol measures mislead.
+- [[ICD-11 versus DSM-5 classification]] - where the classification step lands: which responses count as a disorder depends on each system's symptom rules.
+- [[PTSD biology and CPTSD evidence limits]] - how far stress-response biology can be carried into trauma-related diagnoses, and why PTSD findings are not complex PTSD mechanisms.
+- [[Allostasis and chronic stress]] - the cumulative-cost framing used here for sustained activation, with its own measurement problems.
+- [[Trauma and PTSD in autistic and ADHD people]] - applies the exposure-versus-disorder distinction to neurodivergent groups, where what counts as a traumatic event and how reactions are reported both shift.
+- [[Traumatic brain injury]] - PTSD after brain injury pooled at about one in six in civilian studies, with overlapping symptoms that make the two hard to separate.
+- [[Post-traumatic stress disorder]] - the diagnosis that only some of these responses meet: its DSM and ICD-11 criteria, prevalence set against near-universal exposure, course and first-line treatment classes.
 
 ## Study question
 

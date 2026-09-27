@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Axes and physiology]]"
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine]
 ---
@@ -44,6 +44,8 @@ Axis anatomy and feedback are well established; the functional interpretation of
 ## Connections
 
 This note is the mechanism behind [[Allostasis and chronic stress]] and connects to [[Circadian clock biology]], which times the axis across the day.
+
+- [[Thyroid axis and mood]] - a sibling hypothalamic-pituitary loop with the same feedback design, whose links to depression and to lithium are summarised there.
 
 **Cross-domain connection (curation).** The HPA axis supplies the physiological route that the neuroendocrine-neuroimmune domain uses to connect stress to immune and metabolic signalling, and it is the substrate the clinical-psychiatry domain invokes when it describes allostatic load in mood and trauma-related conditions. A stress claim in any of those domains has to state which axis arm is being measured and how, which is the measurement discipline the methods domain supplies. [[Allostasis and chronic stress]] [[Measurement validity and reliability]]
 

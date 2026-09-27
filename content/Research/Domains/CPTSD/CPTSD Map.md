@@ -4,7 +4,7 @@ title: "CPTSD Map"
 map_kind: condition
 condition: [cptsd]
 domain: []
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map]
 content_layer: reference
@@ -17,9 +17,15 @@ concept_kind: framework
 
 Complex PTSD is an ICD-11 construct combining PTSD symptoms with disturbances in self-organization. This library holds no complex PTSD specific biological studies, so the neurobiology section is marked as an evidence gap rather than filled with transferred PTSD findings.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Domains|Domains]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Background reading|Background reading]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Evidence gaps|Evidence gaps]], [[#Study question|Study question]], [[#Learning layer|Learning layer]]
 
-## Reference overview
+## Concept register
+
+- **Constructs:** [[CPTSD and disturbances in self-organization]], [[ICD-11 versus DSM-5 classification]], [[Dissociative constructs]], [[Post-traumatic stress disorder]]
+- **Mechanisms and models:** [[Trauma and stress responses]], [[Stress response and the HPA axis]], [[Fear learning and extinction]], [[Memory and trauma]], [[PTSD biology and CPTSD evidence limits]], [[Trauma and PTSD in autistic and ADHD people]], [[Adverse childhood experiences]]
+- **Assessment and treatment:** [[Phase-based trauma therapy evidence]], [[Psychological interventions for complex trauma]], [[Recovery function and social context]]
+
+## Overview
 
 ICD-11 complex PTSD adds disturbances in self-organization - affect dysregulation, a persistently
 negative self-concept, and difficulties in sustaining relationships - to the core PTSD symptom
@@ -60,7 +66,7 @@ self-directed protocols. [[P40154799 Hu 2025 Psychological interventions for CPT
 
 **Where to start.** [[CPTSD and disturbances in self-organization]] and [[ICD-11 versus DSM-5 classification]] for the construct, [[Fear learning and extinction]] for mechanism, and [[Phase-based trauma therapy evidence]] for the treatment debate. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Complex PTSD is an ICD-11 construct: core PTSD symptoms plus disturbances in self-organisation (DSO) - affect regulation difficulties, a persistent negative self-concept, and relationship difficulties. The reference layer keeps construct, mechanism and treatment evidence separate, because the third is much thinner than the first.
 
@@ -68,21 +74,7 @@ The construct is defined by essential features with an exposure requirement; tra
 
 Mechanisms are borrowed from PTSD research and general stress science. Fear conditioning and extinction explain how threat associations form and how exposure works, with the qualifier that extinction is new learning rather than erasure. [[P22129456 Milad 2012 Fear extinction#^p22129456-newlearning|Fear extinction]] [[P22129456 Milad 2012 Fear extinction#^p22129456-translation|Fear extinction]] A dissociative subtype of PTSD - depersonalisation and derealisation - was proposed on the basis of latent class analyses in veteran and civilian samples, and it belongs to the PTSD literature rather than to ICD-11 complex PTSD: the two constructs come from different classification systems and are not competing versions of one diagnosis. [[P22431063 Lanius 2012 Dissociative subtype of PTSD#^p22431063-definition|The dissociative subtype of PTSD]] HPA axis findings are heterogeneous and single cortisol measures are weak indices. [[F64 OpenStax The adrenal glands#^f64-drive|The Adrenal Glands]] [[P10696570 Sapolsky 2000 Glucocorticoids and stress#^p10696570-timing|Glucocorticoids and stress]]
 
-The treatment debate concerns sequencing. In the meta-analysis comparing packaged protocols, the planned contrasts showed no statistically significant differences for most outcomes; where differences appeared, multi-phase interventions were superior on PTSD symptoms and phase-based, multi-phase and exposure interventions were superior on some outcomes, and the authors concluded that approaches without a stabilisation phase or formal exposure performed no worse in many situations. Non-significant contrasts are not evidence of equivalence, the analysis rests on few trials at a single time point with heterogeneous outcome measures, and it compares packaged protocols rather than testing sequencing within one protocol - so the defensible reading is that mandatory stabilisation is not established, not that sequencing never matters. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-comparison|Phase-based versus non-phase-based trauma therapy]] [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-outcomes|Phase-based versus non-phase-based trauma therapy]] [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|AI synthesis: Phase-based versus non-phase-based trauma therapy]] Reviews of psychological interventions for complex PTSD report pooled symptom effects that were largely maintained at follow-up: effect sizes decreased slightly, and the symptom reductions remained statistically significant except for anxiety and dissociation. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-improvement|Psychological interventions for CPTSD]] [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-followup|Psychological interventions for CPTSD]]
-
-## Concept register
-
-- **[[CPTSD - Constructs|Constructs]]:** [[CPTSD and disturbances in self-organization]], [[ICD-11 versus DSM-5 classification]], [[Dissociative constructs]]
-- **[[CPTSD - Mechanisms and models|Mechanisms and models]]:** [[Trauma and stress responses]], [[Stress response and the HPA axis]], [[Fear learning and extinction]], [[Memory and trauma]], [[PTSD biology and CPTSD evidence limits]]
-- **[[CPTSD - Assessment and treatment|Assessment and treatment]]:** [[Phase-based trauma therapy evidence]], [[Psychological interventions for complex trauma]], [[Recovery function and social context]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
+The treatment debate concerns sequencing. In the meta-analysis comparing packaged protocols, the planned contrasts showed no statistically significant differences for most outcomes; where differences appeared, multi-phase interventions were superior on PTSD symptoms and phase-based, multi-phase and exposure interventions were superior on some outcomes, and the authors concluded that approaches without a stabilisation phase or formal exposure performed no worse in many situations. Non-significant contrasts are not evidence of equivalence, the analysis rests on few trials at a single time point with heterogeneous outcome measures, and it compares packaged protocols rather than testing sequencing within one protocol - so the defensible reading is that mandatory stabilisation is not established, not that sequencing never matters. [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-comparison|Phase-based versus non-phase-based trauma therapy]] [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-outcomes|Phase-based versus non-phase-based trauma therapy]] [[P41949043 Lee 2026 Phase-based versus non-phase-based trauma therapy#^p41949043-caution-sequence|Appraisal: Phase-based versus non-phase-based trauma therapy]] Reviews of psychological interventions for complex PTSD report pooled symptom effects that were largely maintained at follow-up: effect sizes decreased slightly, and the symptom reductions remained statistically significant except for anxiety and dissociation. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-improvement|Psychological interventions for CPTSD]] [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-followup|Psychological interventions for CPTSD]]
 
 ## Where this domain connects
 
@@ -99,10 +91,6 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 CPTSD-specific biological evidence is limited, and much of what is cited is PTSD evidence at one remove. No certainty grade is assigned here: the sources held by this library report pooled effects with moderators, risk-of-bias findings and small trial numbers rather than a formal certainty rating, and inventing one would misrepresent them. Symptom outcomes are better populated than functioning outcomes in the same literature. This hub contains no trauma-exposure instructions or self-directed protocols.
 
 ## Learning route
-
-The sections below keep the earlier learning-oriented framing of this hub - course sequence, study questions and the learning-layer pointer. They are retained for continuity and cross-reference; where they state a mechanism, the reference overview above and the linked articles are the current account.
-
-## Domains
 
 ### Neurobiology
 
@@ -148,3 +136,11 @@ What evidence would justify changing clinical guidance on phase-based sequencing
 
 - [[Module 10 - CPTSD]] - module guide, lesson sequence, prerequisites and assessment.
 - [[Learning Map - CPTSD.canvas]] - populated canvas with lessons, sources, uncertainty and open questions.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

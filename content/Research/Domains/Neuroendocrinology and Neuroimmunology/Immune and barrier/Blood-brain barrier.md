@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 4
 reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Immune and barrier]]"
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine, research/domain/neuroanatomy]
 ---
@@ -29,7 +29,7 @@ The blood-brain barrier is the selective interface between blood and central ner
 
 **Permeability claims need a route and a molecule.** Regulated transport, leakage, injury and immune-cell entry are distinct phenomena, and barrier integrity is not a binary open-or-closed state. "The barrier is leaky" is therefore meaningless without naming which route and which cargo changed, and how it was measured. That framing is the discipline that separates barrier biology from barrier marketing, including claims that supplements "strengthen" a barrier whose transport is selectively regulated, not simply closed. [[P32211826 Profaci 2020 Blood-brain barrier#^p32211826-permeability|The blood-brain barrier in health and disease]] [[F105 Neuroscience Online blood-brain barrier#^f105-transport|Blood-brain barrier]]
 
-**Drug delivery.** For pharmacology, the barrier is the first selectivity filter a psychotropic must pass, by design: lipophilic agents cross, polar ones need transporters, and efflux pumps expel some drugs outright. [[Pharmacokinetics and ADME]]
+**Drug delivery.** For pharmacology, the barrier is the first selectivity filter a psychotropic must pass, by design: lipophilic drugs cross, polar ones need transporters, and efflux pumps expel some drugs outright. [[Pharmacokinetics and ADME]]
 
 **Reading rule.** Distinguish barrier permeability, regulated transport and immune surveillance; they involve different cells and different measurements, and the brain's interface is only a wall in the loosest sense. [[F105 Neuroscience Online blood-brain barrier#^f105-limit|Blood-brain barrier]]
 

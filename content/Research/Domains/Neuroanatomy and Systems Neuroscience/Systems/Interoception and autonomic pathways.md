@@ -7,9 +7,9 @@ concept_kind: structure
 domain: [neuroanatomy-systems, neuroendocrinology-neuroimmunology]
 secondary_domain: []
 condition: []
-source_count: 5
-reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Systems]]"
+source_count: 7
+reviewed: 2026-09-27
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/neuroendocrine]
 ---
@@ -29,7 +29,7 @@ Interoception is the sensing of the physiological condition of the body, distinc
 
 **Autonomic control is central and distributed.** Sites receiving visceral input, including pre-autonomic neurons in several populations, interconnect with those controlling sympathetic and parasympathetic output and with endocrine and limbic circuitry, forming a central autonomic network. [[F63 Neuroscience Online central autonomic control#^f63-network|Central Control of the Autonomic Nervous System]] Thermoregulation illustrates how autonomic, endocrine and behavioural responses are integrated for a single physiological demand. [[F63 Neuroscience Online central autonomic control#^f63-integration|Central Control of the Autonomic Nervous System]]
 
-**Output branches.** Sympathetic and parasympathetic divisions differ in outflow and signalling, and they are cooperative as well as opposing, with most organs receiving both. [[F32 OpenStax Divisions of the autonomic nervous system#^f32-outflow|Divisions of the Autonomic Nervous System]] [[F32 OpenStax Divisions of the autonomic nervous system#^f32-cooperation|Divisions of the Autonomic Nervous System]] Recorded signals such as heart rate variability reflect this integrated system, so a change in one channel rarely identifies one cause. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI appraisal: Heart rate variability metrics]]
+**Output branches.** Sympathetic and parasympathetic divisions differ in outflow and signalling, and they are cooperative as well as opposing, with most organs receiving both. [[F32 OpenStax Divisions of the autonomic nervous system#^f32-outflow|Divisions of the Autonomic Nervous System]] [[F32 OpenStax Divisions of the autonomic nervous system#^f32-cooperation|Divisions of the Autonomic Nervous System]] Recorded signals such as heart rate variability reflect this integrated system, so a change in one channel rarely identifies one cause. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: Heart rate variability metrics]]
 
 **Reading rule.** Interoception claims should specify the signal (cardiac, respiratory, gastric), the measure (awareness task, evoked potential, self-report) and the level (afferent, insular representation, behaviour). Studies that use an interoceptive task to index 'emotional awareness' extend the construct well beyond what the measure captures. [[P12965300 Craig 2003 Interoception#^p12965300-limit|Interoception]] [[Autonomic measurement and heart rate variability]]
 
@@ -39,9 +39,17 @@ Autonomic anatomy and physiology are well established; interoceptive representat
 
 **Two honest boundaries on the feeling-of-self extension.** First, the insular claim is anatomical and functional at the group level, and the meta-representation proposal - right anterior insula as the basis for subjective bodily feeling, so that interoceptive signals constitute a sense of self - is the review's interpretation of converging imaging, demonstrated at group level, rather than a measured outcome. Second, clinical and individual claims built on it (for example, that a given emotion is a given bodily signal) require their own measurement, because the proposal does not deliver a readout. The construct is anatomically grounded and psychologically unfinished, and this note keeps both halves visible. [[P12965300 Craig 2003 Interoception#^p12965300-insula|Interoception]] [[P12965300 Craig 2003 Interoception#^p12965300-self|Interoception]]
 
+## Recent research
+
+- **2024 · Preregistered fMRI case-control study (eLife).** Attention to heartbeat and breathing, and drug-driven cardiorespiratory sensations, both engaged granular and dysgranular insula, and a mixed anxiety, depression and eating-disorder group differed in left-right pattern and in anterior insula activity during anticipation. [[P39535878 Adamic 2024 Insula interoception across psychiatric disorders#^p39535878-insula|Adamic 2024]] [[P39535878 Adamic 2024 Insula interoception across psychiatric disorders#^p39535878-asymmetry|Adamic 2024]] The authors place the meeting point of attention, prediction and bodily input in the dysgranular mid-insula, a refinement of the posterior-to-anterior map above that has not been tested in the four conditions this library covers. [[P39535878 Adamic 2024 Insula interoception across psychiatric disorders#^p39535878-interface|Adamic 2024]] [[P39535878 Adamic 2024 Insula interoception across psychiatric disorders#^p39535878-caution-scope|Appraisal: Adamic 2024]]
+- **2023 · Transdiagnostic cross-sectional study (Autonomic Neuroscience).** In 258 patients in secondary mental health care, heartbeat-task accuracy and confidence were lower than in 67 comparison participants, while anxiety and depression went with higher self-rated sensibility and a wider gap between self-report and performance. [[P36709619 Critchley 2023 Cardiac interoception in mental health services#^p36709619-limit|Critchley 2023]] [[P36709619 Critchley 2023 Cardiac interoception in mental health services#^p36709619-accuracy|Critchley 2023]] [[P36709619 Critchley 2023 Cardiac interoception in mental health services#^p36709619-mismatch|Critchley 2023]] That dissociation is direct support for the reading rule above: awareness tasks, confidence ratings and questionnaires measure different things. [[P36709619 Critchley 2023 Cardiac interoception in mental health services#^p36709619-caution-measures|Appraisal: Critchley 2023]]
+
 ## Connections
 
 This article links to [[Autonomic regulation]] and [[Autonomic measurement and heart rate variability]], and it is the anatomical basis for the role of bodily state in [[Emotion regulation]].
+
+- [[Insula]] - the cortical target of these pathways, from the posterior primary representation to the anterior insula's salience role, with the parcellation differences that complicate insular findings.
+- [[Eating disorders]] - a clinical group that interoception imaging often pools with anxiety and depression, where bodily-signal differences are studied alongside medical complications.
 
 **Cross-domain connection (curation).** The neuroendocrine domain's autonomic-measurement article is the applied inverse of this anatomy: heart-rate variability and related indices estimate the output arm from outside, while interoception describes the afferent and central arm; neither substitutes for the other, and both carry the same measurement cautions. [[Autonomic measurement and heart rate variability]] [[Autonomic regulation]]
 

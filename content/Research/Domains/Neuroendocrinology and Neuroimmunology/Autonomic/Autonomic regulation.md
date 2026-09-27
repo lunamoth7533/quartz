@@ -4,14 +4,14 @@ title: "Autonomic regulation"
 domain: [neurochemistry]
 condition: []
 source_count: 6
-up: "[[Neuroendocrinology and Neuroimmunology - Autonomic]]"
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Autonomic divisions and central control, the limits of the fight-or-flight shorthand, and why heart rate variability is not one quantity."
 secondary_domain: [psychology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Autonomic regulation
@@ -26,7 +26,7 @@ reviewed: 2026-09-25
 - Heart rate variability is measured with time-domain, frequency-domain and non-linear metrics, each with different recording requirements and assumptions. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-metrics|P29034226]]
 - Baseline values depend on recording length, age, sex and posture, and published short-term and 24-hour norms are not interchangeable. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-context|P29034226]]
 - The low-frequency to high-frequency ratio is often called sympathovagal balance, but the review documents why that label is contested. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-lfhf|P29034226]]
-- A single heart-rate-variability measurement is not a direct readout of stress or of one branch's activity. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|AI synthesis: P29034226]]
+- A single heart-rate-variability measurement is not a direct readout of stress or of one branch's activity. [[P29034226 Shaffer 2017 Heart rate variability metrics#^p29034226-caution-marker|Appraisal: P29034226]]
 
 ## How it works
 
@@ -48,12 +48,14 @@ reviewed: 2026-09-25
 
 Autonomic measures are confounded by breathing, movement, medication and context; this library uses them as physiology, never as a personal interpretation.
 
-## Related notes
+## Connections
 
-- [[Nervous system divisions]]
-- [[Stress response and the HPA axis]]
-- [[Trauma and stress responses]]
-- [[Neurological examination]]
+- [[Nervous system divisions]] - the anatomical map that places autonomic fibres in the peripheral system beside somatic and enteric divisions; this note follows the autonomic branch's control and measurement.
+- [[Stress response and the HPA axis]] - the slower hormonal partner of the fast sympathetic response; the two arms run on different timescales and have to be measured separately.
+- [[Trauma and stress responses]] - the trauma domain treats autonomic, HPA and inflammatory signalling as its physiological substrate, so the measurement limits described here carry over.
+- [[Neurological examination]] - the clinical battery organised around the nervous system's functional divisions; this note supplies the autonomic division's physiology and its indirect measures.
+- [[Autonomic measurement and heart rate variability]] - the measurement companion, setting out how variability indices estimate the activity described here and which confounds limit them.
+- [[Interoception and autonomic pathways]] - the afferent side of the same loop: interoceptive signals ascend to cortex while the central autonomic network sets outflow.
 
 ## Study question
 

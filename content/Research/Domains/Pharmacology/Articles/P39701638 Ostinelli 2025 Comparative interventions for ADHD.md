@@ -22,7 +22,7 @@ reading_status: queued
 queue_tier: core
 pdf: ""
 cssclasses: [research-source]
-tags: [research/source, research/condition/adhd, research/domain/pharmacology, research/domain/psychology]
+tags: [research/source, research/recent, research/condition/adhd, research/domain/pharmacology, research/domain/psychology]
 ---
 
 # Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis.
@@ -54,8 +54,7 @@ The authors report that ADHD medications were not efficacious on additional outc
 Randomized trials in adults; confidence in efficacy estimates ranged between very low and moderate, and interventions were dismantled into components.
 ^p39701638-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 A component analysis of average effects does not show that an intervention cannot help an individual, and missing evidence for an outcome is not evidence of no benefit.
@@ -68,6 +67,8 @@ A component analysis of average effects does not show that an intervention canno
 - [[Short-term versus long-term outcomes]]
 - [[ADHD medication evidence]]
 - [[ADHD diagnosis and measurement]]
+- [[CBT and its evidence base]]
+- [[Mindfulness-based interventions]]
 
 ## Working notes
 

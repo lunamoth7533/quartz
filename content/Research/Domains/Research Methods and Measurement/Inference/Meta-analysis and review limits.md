@@ -3,15 +3,15 @@ note_type: topic
 title: "Meta-analysis and review limits"
 domain: [research-literacy]
 condition: []
-source_count: 7
-up: "[[Research Methods and Measurement - Inference]]"
+source_count: 9
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
 concept_kind: method
 description: "Pooling, reporting standards, certainty rating and indirect comparisons: what meta-analysis and network meta-analysis can and cannot establish."
 secondary_domain: [pharmacology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Meta-analysis and review limits
@@ -25,7 +25,7 @@ reviewed: 2026-09-25
 - Misleading conclusions can be inherited from flawed included studies or created by review-level analysis choices that ignore bias. [[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-misleading|P27620683]]
 - Cochrane methods require an explicit certainty rating for each important outcome and advise against coding results as significant or non-significant. [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-certainty|F22]]; [[F22 Cochrane Handbook for Systematic Reviews of Interventions#^f22-thresholds|F22]]
 - The complex-trauma meta-analysis in this library reports some indications of publication bias in its own evidence base and lower effects in childhood-trauma samples. [[P40154799 Hu 2025 Psychological interventions for CPTSD#^p40154799-moderators|Hu 2025 Psychological interventions for CPTSD]]
-- A systematic review inherits the biases of its included studies and adds selection and interpretation choices, so it is a method rather than a seal. [[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-caution-use|AI synthesis: P27620683]]
+- A systematic review inherits the biases of its included studies and adds selection and interpretation choices, so it is a method rather than a seal. [[P27620683 Ioannidis 2016 Mass production of systematic reviews#^p27620683-caution-use|Appraisal: P27620683]]
 
 ## How it works
 
@@ -51,12 +51,19 @@ reviewed: 2026-09-25
 
 Pooled estimates describe the studies that met the inclusion criteria; they do not measure the studies that were never published or never run, and certainty ratings route around that gap rather than filling it.
 
-## Related notes
+## Recent research
 
-- [[Reviews, guidelines and preprints]]
-- [[Bias and confounding]]
-- [[Evidence types and causal inference]]
-- [[Psychological interventions for complex trauma]]
+- **2024 · Meta-research study (Scandinavian Journal of Medicine & Science in Sports).** Across 866 random-effects meta-analyses, a prediction interval was reported in under 4% of articles in each field; where one could be calculated for sports-medicine reviews it was about 3.4 times wider than the confidence interval and disagreed with the reported conclusion in 60%, which sharpens the aggregation point above: a pooled mean can hide a wide spread of study effects. [[P38501202 Borg 2024 Prediction intervals rarely reported#^p38501202-reporting|Borg 2024]] [[P38501202 Borg 2024 Prediction intervals rarely reported#^p38501202-discrepancy|Borg 2024]] The samples came from sports medicine and general medical journals, not psychiatry. [[P38501202 Borg 2024 Prediction intervals rarely reported#^p38501202-limit|Borg 2024]] [[P38501202 Borg 2024 Prediction intervals rarely reported#^p38501202-caution-transfer|Appraisal: Borg 2024]]
+- **2024 · Meta-research study (PLoS One).** Correlations between sample size and effect size looked unremarkable across 150 psychology meta-analyses but were much stronger for papers' focal effects, which qualifies the publication-bias paragraph above: small-study patterns are indirect signals whose strength depends on which effects are examined. [[P38359021 Linden 2024 Sample size and effect size#^p38359021-metaanalyses|Linden 2024]] [[P38359021 Linden 2024 Sample size and effect size#^p38359021-focal|Linden 2024]] [[P38359021 Linden 2024 Sample size and effect size#^p38359021-caution-indicator|Appraisal: Linden 2024]]
+
+## Connections
+
+- [[Reviews, guidelines and preprints]] - the wider synthesis layer; guidelines build on meta-analyses and add certainty grades and value judgements that pooling alone does not supply.
+- [[Bias and confounding]] - pooling inherits the confounding, selection and reporting biases of the included studies, so a precise pooled estimate can still be systematically wrong.
+- [[Evidence types and causal inference]] - the design of the included studies, not the act of pooling, decides whether a pooled estimate can carry a causal claim.
+- [[Psychological interventions for complex trauma]] - a worked example in this library: its pooled psychotherapy effects come with moderators and signs of publication bias that shape how they are read.
+- [[Replication and publication bias]] - the upstream filter: meta-analyses pool what was published, so publication bias limits every pooled estimate however well it is computed.
+- [[Effect sizes and uncertainty]] - the shared vocabulary for pooling; commensurable effect measures and honest intervals are preconditions for any pooled estimate.
 
 ## Study question
 

@@ -4,14 +4,14 @@ title: "Neurons and glia"
 domain: [neurobiology]
 condition: []
 source_count: 5
-up: "[[Neurobiology - Structures]]"
+up: "[[Neurobiology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: structure
 description: "Neurons and the major glial cell types, their compartments, and the division of labour between signalling, insulation, support and immune surveillance."
 secondary_domain: [neuroanatomy-systems]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Neurons and glia
@@ -45,11 +45,13 @@ reviewed: 2026-09-25
 
 Textbook diagrams show clean arrows; real cells have thousands of inputs and glia that respond on their own timescales.
 
-## Related notes
+## Connections
 
-- [[Nervous tissue and myelin]]
-- [[Synaptic signalling model]]
-- [[Brain regions and networks]]
+- [[Nervous tissue and myelin]] - how these cells assemble into grey and white matter, the tissue level at which imaging and lesion findings are usually read.
+- [[Synaptic signalling model]] - the stepwise account of what happens between the presynaptic terminal and the receiving dendrite, the junction between the compartments described here.
+- [[Brain regions and networks]] - the scale-up: regions and networks are built from these cells, and claims at that level should name the cell types where the evidence does.
+- [[Glial cell types]] - the glial families taken one at a time, expanding the single-paragraph summary of glial functions given here.
+- [[Dendritic integration]] - the receiving compartment in action: how inputs spread across the dendritic tree and summate at the initial segment, the coupling this note outlines.
 
 ## Study question
 

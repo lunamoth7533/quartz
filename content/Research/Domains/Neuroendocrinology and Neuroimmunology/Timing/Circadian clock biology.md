@@ -7,9 +7,9 @@ concept_kind: process
 domain: [neuroendocrinology-neuroimmunology]
 secondary_domain: []
 condition: []
-source_count: 4
-reviewed: 2026-09-25
-up: "[[Neuroendocrinology and Neuroimmunology - Timing]]"
+source_count: 6
+reviewed: 2026-09-27
+up: "[[Neuroendocrinology and Neuroimmunology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroendocrine]
 ---
@@ -41,9 +41,16 @@ The molecular clock is established in model organisms and human tissue. For peri
 
 The practical effects of chronic misalignment on psychiatric outcomes are studied observationally, with the usual limits on causal inference, and the connection to mood is proposed rather than established: the social-zeitgeber review reports limited direct support for its causal version and considers an internal-pacemaker alternative. [[P16904251 Grandin 2006 Social zeitgeber theory#^p16904251-evaluation|The social zeitgeber theory]] [[P16904251 Grandin 2006 Social zeitgeber theory#^p16904251-status|The social zeitgeber theory]]
 
+## Recent research
+
+- **2024 · Narrative review (Trends in Genetics).** Carries 'variants in clock genes shift period length' toward people: association and forward-genetic studies link single-nucleotide variants in core clock genes to gene regulation and to risk of various conditions. [[P38871615 Janoski 2024 Clock gene polymorphisms in human pathologies#^p38871615-variants|Janoski 2024]] A variant associated with a condition shows shared genetic influence, not that disrupted timing causes it. [[P38871615 Janoski 2024 Clock gene polymorphisms in human pathologies#^p38871615-caution-association|Appraisal: Janoski 2024]]
+- **2023 · Narrative review (Cell Chemical Biology).** Names the loop's parts, a CLOCK-BMAL1 activator opposed by a PER-CRY-casein kinase repressor complex. [[P37708890 Laothamatas 2023 Metabolic and chemical architecture of the clock#^p37708890-loop|Laothamatas 2023]] Metabolism both follows the clock and feeds back on it, which makes clock components candidate drug targets that are still rarely drugged. [[P37708890 Laothamatas 2023 Metabolic and chemical architecture of the clock#^p37708890-metabolism|Laothamatas 2023]]
+
 ## Connections
 
 This note supplies the biology behind [[Circadian rhythms and sleep]] and the circadian hypotheses discussed in the bipolar domain, including [[Circadian and social rhythm hypotheses]].
+
+- [[Sleep and circadian disruption across conditions]] - applies this clock biology across bipolar I, ADHD, autism and PTSD, where clock-gene variants are one candidate route to shared vulnerability.
 
 **Cross-domain connection (curation).** The neurochemistry domain's sleep article applies this clock to sleep timing, and the bipolar condition domain's social-rhythm literature applies it to episode stability; both inherit the two-system and entrainment logic stated here. [[Circadian rhythms and sleep]] [[Psychoeducation and social rhythms]]
 

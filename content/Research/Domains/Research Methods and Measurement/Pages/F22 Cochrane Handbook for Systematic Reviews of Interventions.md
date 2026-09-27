@@ -52,8 +52,7 @@ The handbook advises against healthcare recommendations from reviews, while allo
 Official methodological guidance rather than a study or a finding. Chapters are updated on their own dates within the handbook, and following a method does not guarantee that the resulting review's conclusions are correct.
 ^f22-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from Cochrane.
 
 A handbook defines a standard of practice; it is not itself evidence about any treatment. In this vault it is used to mark where a claim sits relative to review method and certainty, and to keep "a review says" from being treated as "the evidence is settled".

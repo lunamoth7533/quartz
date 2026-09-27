@@ -51,8 +51,7 @@ The authors found insufficient data at 26 and 52 weeks and call for urgent resea
 Short-term randomized evidence; most indirect comparisons carried low or very low confidence, while some direct comparisons were high or moderate.
 ^p30097390-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own methodological appraisal, not statements from the paper.
 
 Group-level rankings and head-to-head averages are not prescribing guidance for one person.
@@ -63,6 +62,9 @@ Group-level rankings and head-to-head averages are not prescribing guidance for 
 - [[Efficacy versus tolerability]]
 - [[Short-term versus long-term outcomes]]
 - [[ADHD medication evidence]]
+- [[ADHD and substance use]]
+- [[Serotonin-noradrenaline reuptake inhibitors]]
+- [[Atypical antidepressants]]
 
 ## Working notes
 

@@ -44,6 +44,12 @@ The clinical picture combines episodes with a lifetime course, so treatment plan
 Treatment approaches include medication and psychotherapy, and biological and psychological factors are both treated as relevant.
 ^f16-treatment
 
+Symptoms usually begin in late adolescence or early adulthood, and only occasionally in childhood.
+^f16-onset
+
+The page defines bipolar I by manic episodes of at least seven days, or severe enough to need hospital care; bipolar II by depressive and hypomanic episodes, with hypomania less severe than mania; and cyclothymic disorder by repeated hypomanic and depressive symptoms too mild or too brief to count as episodes.
+^f16-types
+
 ## Scope and limitations
 
 Educational overview written for a general audience; it simplifies and does not carry the qualifications of primary literature.
@@ -53,7 +59,12 @@ Educational overview written for a general audience; it simplifies and does not 
 
 - [[Phase-specific bipolar treatment evidence]]
 - [[Bipolar I episodes and course]]
+- [[Mania]]
+- [[Hypomania]]
+- [[Bipolar II disorder]]
+- [[Cyclothymia and the bipolar spectrum]]
 
 ## Working notes
 
 - Reading status: `queued`. Verification: `educational_checked`.
+- Key points ^f16-onset and ^f16-types were added after the page was reopened and checked on 2026-09-27.

@@ -41,7 +41,7 @@ order within tens of milliseconds produces different synaptic outcomes from the 
 
 Release is also not strictly all-or-none at the synapse end: many neurons release transmitter in graded ways
 without producing a spike, which is why the topic note carries that warning.
-[[F04 OpenStax Communication between neurons#^f04-caution-summation|AI synthesis: Communication Between Neurons]]
+[[F04 OpenStax Communication between neurons#^f04-caution-summation|Appraisal: Communication Between Neurons]]
 
 ## Worked example (hypothetical)
 

@@ -39,7 +39,7 @@ That instrument is documented for cross-cultural use with reliability and validi
 what makes its scores interpretable in the first place.
 [[F23 WHO International Classification of Functioning#^f23-instrument|International Classification of Functioning]]
 But a functioning score summarises reported activity and participation, not symptom severity or capacity.
-[[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI synthesis: International Classification of Functioning]]
+[[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
 Clinical evidence makes the distinction concrete. ICD-11 complex PTSD identifies a group with greater
 functional impairment than PTSD alone, which is part of why the construct matters.

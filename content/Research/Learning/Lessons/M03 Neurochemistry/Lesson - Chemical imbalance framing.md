@@ -29,7 +29,7 @@ and people who found a simple explanation helpful were not being foolish. It is 
 
 The textbook presents the imbalance perspective among psychological perspectives while also documenting
 receptor-dependent mixed effects; it does not resolve whether transmitter levels explain disorders.
-[[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI synthesis: Cells of the Nervous System]]
+[[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]]
 
 The dopamine hypothesis in bipolar disorder illustrates the epistemic status of such models: its authors
 present the receptor-and-transporter homeostasis model as speculation, with treatment implications that would

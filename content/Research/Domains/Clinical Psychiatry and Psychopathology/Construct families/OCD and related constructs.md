@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Construct families]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical]
 ---
@@ -44,6 +44,8 @@ The construct has established reliability and treatment evidence; boundaries wit
 ## Connections
 
 This note completes the anxiety-adjacent constructs with [[Anxiety and fear constructs]] and links to [[Therapy models overview]].
+
+- [[Tic disorders and Tourette syndrome]] - OCD is one of the two commonest conditions accompanying Tourette syndrome, and appears to account for its high rate of mood disorders.
 
 **Cross-domain connection (curation).** The habit literature is the mechanistic neighbour: ritual sequences that persist despite diminishing value behave like goal-directed behaviour shifting toward automatic control, and the procedural-memory article supplies that account. [[Procedural memory and habit]] [[Reinforcement learning]]
 

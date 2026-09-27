@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 11
 reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Regions]]"
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy]
 ---
@@ -41,11 +41,13 @@ The cerebral cortex is the folded sheet of grey matter covering the hemispheres,
 
 Lobar anatomy and primary areas are established by anatomy, stimulation and lesion work. Functional localisations of complex functions are model-dependent and have been repeatedly revised. [[F110 Neuroscience Online language#^f110-limits|Language]]
 
-Structural MRI renders the map by reconstructing a signal from tissue properties, and cortical-thickness comparisons are anatomical measurements that require a separate argument before function can be inferred. [[F28 OpenStax Brain imaging Psychology 2e#^f28-mri|Brain Imaging]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
+Structural MRI renders the map by reconstructing a signal from tissue properties, and cortical-thickness comparisons are anatomical measurements that require a separate argument before function can be inferred. [[F28 OpenStax Brain imaging Psychology 2e#^f28-mri|Brain Imaging]] [[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical abnormalities in bipolar disorder]]
 
 ## Connections
 
 This article is the entry point to [[Cortical layers and columns]], [[Association cortex and networks]] and [[Sensory and motor systems]].
+
+- [[Prefrontal cortex]] - the anterior association cortex of the frontal lobe, the lobe's most studied territory for executive control and valuation, divided into sectors rather than acting as one unit.
 
 ## Uncertainties
 

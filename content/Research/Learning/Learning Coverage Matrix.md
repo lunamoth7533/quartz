@@ -95,7 +95,7 @@ Every topic under `Domains/`, the lesson that teaches it, the module that sequen
 | [[Psychology Map]] | [[Module 04 - Psychology]] | [[Learning Map - Psychology.canvas]] |
 | [[Pharmacology Map]] | [[Module 05 - Pharmacology]] | [[Learning Map - Pharmacology.canvas]] |
 | [[Neurology Map]] | [[Module 06 - Neurology]] | [[Learning Map - Neurology.canvas]] |
-| [[Bipolar I Map]] | [[Module 07 - Bipolar I]] | [[Learning Map - Bipolar I.canvas]] |
+| [[Bipolar Disorders Map]] | [[Module 07 - Bipolar Disorders]] | [[Learning Map - Bipolar Disorders.canvas]] |
 | [[ADHD Map]] | [[Module 08 - ADHD]] | [[Learning Map - ADHD.canvas]] |
 | [[Autism Map]] | [[Module 09 - Autism]] | [[Learning Map - Autism.canvas]] |
 | [[CPTSD Map]] | [[Module 10 - CPTSD]] | [[Learning Map - CPTSD.canvas]] |
@@ -109,7 +109,7 @@ Every topic under `Domains/`, the lesson that teaches it, the module that sequen
 | --- | --- |
 | Topics with a detailed lesson | 70 |
 | Lessons citing two or more source records | 58 |
-| Lessons that cite an AI-synthesis caution block | 33 |
+| Lessons that cite a library-appraisal block | 33 |
 | Retrieval or application questions written | 232 |
 | Median lesson length (words) | 643 |
 | Source records checked at full text | 13 |
@@ -127,9 +127,9 @@ These are real evidence limits, not unfilled placeholders. Each names the module
 - **What is the biological signature of ICD-11 complex PTSD specifically?** (M10 CPTSD) - Studies that recruit ICD-11 complex PTSD samples, contrast them with PTSD and controls, and replicate with convergent measures.
 - **How well do polygenic scores transfer across ancestries, environments and case definitions?** (M01 Research Methods / M02 Neurobiology) - Multi-ancestry discovery and calibration studies with external validation and decision-impact analysis.
 - **Are autism interventions effective and acceptable for adults?** (M09 Autism) - Adult trials with outcomes chosen with autistic participants, and long-term follow-up.
-- **How much of the group imaging difference in bipolar disorder is medication exposure versus illness?** (M06 Neurology / M07 Bipolar I) - Longitudinal first-episode cohorts with prospective treatment-exposure measurement.
+- **How much of the group imaging difference in bipolar disorder is medication exposure versus illness?** (M06 Neurology / M07 Bipolar Disorders) - Longitudinal first-episode cohorts with prospective treatment-exposure measurement.
 - **What spacing schedule works best for this material?** (M01 Research Methods) - Direct studies of spacing intervals for this kind of material; the current review supports spacing over massing and does not identify an optimum.
-- **Do simple explanatory models help engagement without misstating mechanism?** (M03 Neurochemistry / M07 Bipolar I) - Studies of explanation comprehension and its effects on engagement, alongside careful mechanism language.
+- **Do simple explanatory models help engagement without misstating mechanism?** (M03 Neurochemistry / M07 Bipolar Disorders) - Studies of explanation comprehension and its effects on engagement, alongside careful mechanism language.
 
 ## Coverage limits
 

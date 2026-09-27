@@ -3,7 +3,7 @@
 		{
 			"id": "header",
 			"type": "text",
-			"text": "## CPTSD\n\nCondition hub: the ICD-11 complex PTSD construct, borrowed mechanisms with their limits, assessment, and the treatment sequencing debate.\n\n[[CPTSD Map|Open the domain map]] - snapshot of 2026-09-25; the map's *In this folder* section is the live view.",
+			"text": "## CPTSD\n\nCondition hub: the ICD-11 complex PTSD construct, borrowed mechanisms with their limits, assessment, and the treatment sequencing debate.\n\n[[CPTSD Map|Open the domain map]] - snapshot of 2026-09-27; the map's *In this folder* section is the live view.",
 			"x": 0,
 			"y": 0,
 			"width": 1680,
@@ -17,24 +17,14 @@
 			"x": 0,
 			"y": 310,
 			"width": 420,
-			"height": 456
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**[[CPTSD - Constructs|Constructs index]]**",
-			"x": 30,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 308
 		},
 		{
 			"id": "t0_0",
 			"type": "text",
 			"text": "**[[CPTSD and disturbances in self-organization]]**\n*condition* - 6 sources\n\nThe ICD-11 complex PTSD construct, its DSO clusters, the exposure requirement and the instrument used to measure it.",
 			"x": 30,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 218,
 			"color": "#FF6B5B"
@@ -46,24 +36,14 @@
 			"x": 420,
 			"y": 310,
 			"width": 420,
-			"height": 1266
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**[[CPTSD - Mechanisms and models|Mechanisms and models index]]**",
-			"x": 450,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 1404
 		},
 		{
 			"id": "t1_0",
 			"type": "text",
 			"text": "**[[Fear learning and extinction]]**\n*mechanism* - 5 sources\n\nThe laboratory model underlying exposure treatment, its mechanisms and the reasons relapse occurs.",
 			"x": 450,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#FF6B5B"
@@ -73,7 +53,7 @@
 			"type": "text",
 			"text": "**[[Memory and trauma]]**\n*framework* - 4 sources\n\nWhat is established about memory for traumatic events, and why both popular exaggeration and dismissal are wrong.",
 			"x": 450,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 194,
 			"color": "#FF6B5B"
@@ -83,7 +63,7 @@
 			"type": "text",
 			"text": "**[[PTSD biology and CPTSD evidence limits]]**\n*framework* - 10 sources\n\nWhat PTSD biology covers, why it does not transfer to complex PTSD, and the status of the dissociative subtype as the best-supported subdivision.",
 			"x": 450,
-			"y": 1016,
+			"y": 868,
 			"width": 360,
 			"height": 242,
 			"color": "#FF6B5B"
@@ -93,7 +73,7 @@
 			"type": "text",
 			"text": "**[[Trauma and stress responses]]**\n*process* - 6 sources\n\nAppraisal, acute versus chronic stress physiology, the immune route, and the step from traumatic exposure to a symptom-based diagnosis.",
 			"x": 450,
-			"y": 1318,
+			"y": 1170,
 			"width": 360,
 			"height": 218,
 			"color": "#FF6B5B"
@@ -105,24 +85,14 @@
 			"x": 840,
 			"y": 310,
 			"width": 420,
-			"height": 1012
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**[[CPTSD - Assessment and treatment|Assessment and treatment index]]**",
-			"x": 870,
-			"y": 360,
-			"width": 360,
-			"height": 88,
-			"color": "#B8A4FF"
+			"height": 864
 		},
 		{
 			"id": "t2_0",
 			"type": "text",
 			"text": "**[[Phase-based trauma therapy evidence]]**\n*framework* - 2 sources\n\nThe stabilisation-first rationale, the comparative evidence, and what the sequencing debate is actually about.",
 			"x": 870,
-			"y": 508,
+			"y": 360,
 			"width": 360,
 			"height": 194,
 			"color": "#FF6B5B"
@@ -132,7 +102,7 @@
 			"type": "text",
 			"text": "**[[Psychological interventions for complex trauma]]**\n*framework* - 4 sources\n\nWhat pooled psychotherapy effects in complex trauma show, which moderators weaken them, and why trial categories are not diagnoses.",
 			"x": 870,
-			"y": 762,
+			"y": 614,
 			"width": 360,
 			"height": 242,
 			"color": "#FF6B5B"
@@ -142,7 +112,7 @@
 			"type": "text",
 			"text": "**[[Recovery function and social context]]**\n*framework* - 4 sources\n\nWhat recovery means in complex trauma work, how function is measured, and why social conditions belong in the outcome picture.",
 			"x": 870,
-			"y": 1064,
+			"y": 916,
 			"width": 360,
 			"height": 218,
 			"color": "#FF6B5B"
@@ -235,6 +205,16 @@
 			"width": 360,
 			"height": 136,
 			"color": "#6E7787"
+		},
+		{
+			"id": "n-trauma-and-ptsd-in-autistic-and-adhd-people",
+			"type": "text",
+			"text": "**[[Trauma and PTSD in autistic and ADHD people]]**\n*framework* - 10 sources\n\nHow often trauma exposure and PTSD are recorded in autistic and ADHD people, why assessment is harder, and how far trauma treatments have been adapted and tested.",
+			"x": 450,
+			"y": 1448,
+			"width": 360,
+			"height": 226,
+			"color": "#FF6B5B"
 		}
 	],
 	"edges": [

@@ -4,7 +4,7 @@ title: "Pharmacokinetics and ADME"
 domain: [pharmacology]
 condition: []
 source_count: 6
-up: "[[Pharmacology - Exposure]]"
+up: "[[Pharmacology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/pharmacology]
 content_layer: reference
@@ -47,11 +47,13 @@ reviewed: 2026-09-25
 
 These are averaged properties: metabolism, interactions and adherence move exposure away from the label value.
 
-## Related notes
+## Connections
 
-- [[Half-life and steady state]]
-- [[Therapeutic index, monitoring and interactions]]
-- [[Pharmacodynamics and receptors]]
+- [[Half-life and steady state]] - turns these processes into a time course: elimination rate sets half-life, which sets how exposure accumulates to steady state under repeated dosing.
+- [[Therapeutic index, monitoring and interactions]] - where ADME variation becomes a safety issue: kinetic interactions change absorption, metabolism or binding, and narrow-window drugs are monitored because such shifts move exposure across the window.
+- [[Pharmacodynamics and receptors]] - the complementary half of the prediction: ADME says how much drug reaches the target and for how long, pharmacodynamics says what it does there.
+- [[Blood-brain barrier]] - the distribution constraint for central effects: the barrier restricts entry for many compounds, so central and peripheral effects can diverge in magnitude and timing.
+- [[Lithium mechanisms and uncertainty]] - the excretion case study: renal elimination proportional to serum concentration is why kidney function matters for lithium exposure, developed there alongside its monitoring.
 
 ## Study question
 

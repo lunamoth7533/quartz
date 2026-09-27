@@ -55,6 +55,8 @@ Educational overview written for a general audience; it simplifies and does not 
 - [[Trauma and stress responses]]
 - [[CPTSD and disturbances in self-organization]]
 - [[ICD-11 versus DSM-5 classification]]
+- [[Self-concept and identity]]
+- [[Post-traumatic stress disorder]]
 
 ## Working notes
 

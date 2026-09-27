@@ -4,14 +4,14 @@ title: "Genes, environment and polygenic risk"
 domain: [neurobiology]
 condition: []
 source_count: 13
-up: "[[Genetics and Neurodevelopment - Genetics]]"
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurobiology]
 content_layer: reference
 concept_kind: framework
 description: "Common variants, genome-wide association, polygenic scores, fine-mapping and gene-environment interplay as the actual methods behind inheritance claims."
 secondary_domain: [research-methods]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Genes, environment and polygenic risk
@@ -40,7 +40,7 @@ reviewed: 2026-09-25
 
 **Gene-by-environment claims need specific designs.** Detecting interaction requires either measured exposures with adequate variation or designs that exploit natural experiments. A measured exposure, adequate variation in it, and a design that separates the exposure's association with genotype from its effect are the entry requirements for any gene-by-environment statement. [[Gene-environment interplay and epigenetics]] The field's methodological literature emphasises preregistration, larger samples and reporting standards because flexible analyses of interaction are prone to false positives. [[P33954258 Munafo 2017 Reproducible science#^p33954258-practices|A manifesto for reproducible science]] [[P16060722 Ioannidis 2005 Why most findings are false#^p16060722-probability|Why most published research findings are false]]
 
-**Reading rule.** Separate heritability, genetic correlation, polygenic score and interaction; each is estimated differently, and only a design that measured the environment can support an environmental claim. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|AI appraisal: 10 years of GWAS discovery]] [[F07 OpenStax Human genetics#^f07-limit|Human Genetics]]
+**Reading rule.** Separate heritability, genetic correlation, polygenic score and interaction; each is estimated differently, and only a design that measured the environment can support an environmental claim. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|Appraisal: 10 years of GWAS discovery]] [[F07 OpenStax Human genetics#^f07-limit|Human Genetics]]
 
 **Cross-domain connection (curation).** Research-methods owns the inference rules this article applies: heritability, genetic correlation and scores are estimators with assumptions, and the condition-domain claims that quote them inherit those assumptions with the numbers. [[Association versus individual prediction]] [[Causality and counterfactuals]]
 
@@ -48,11 +48,13 @@ reviewed: 2026-09-25
 
 Polygenic scores aggregate population-level risk and do not predict an individual's future.
 
-## Related notes
+## Connections
 
-- [[Association versus individual prediction]]
-- [[Bipolar genetics and polygenic risk]]
-- [[Autism genetics and rare variants]]
+- [[Association versus individual prediction]] - the general principle behind this note's caution that polygenic scores describe populations: a group association and a useful individual prediction are different achievements.
+- [[Bipolar genetics and polygenic risk]] - the condition-level application: bipolar's many small-effect loci illustrate the common-variant architecture and why loci are neither mechanisms nor diagnoses.
+- [[Autism genetics and rare variants]] - the contrasting architecture: autism shows common and rare variation acting together, and why a single risk variant is neither a diagnosis nor a mechanism.
+- [[Gene-environment interplay and epigenetics]] - the design requirements for the environmental half of this note: interaction, correlation and epigenetic claims each need a design that measured the exposure.
+- [[Polygenic scores and prediction]] - the method note for the scores introduced here: construction, validation, transfer limits across ancestries, and the path from score to decision.
 
 ## Study question
 

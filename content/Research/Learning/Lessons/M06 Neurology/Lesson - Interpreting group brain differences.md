@@ -46,7 +46,7 @@ history, illness duration and state.
 
 Group-level averages describe a sample, not a person: they cannot establish causation or diagnose an
 individual.
-[[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|AI synthesis: ENIGMA cortical MRI findings in bipolar disorder]]
+[[P28461699 Hibar 2018 ENIGMA cortical abnormalities in bipolar disorder#^p28461699-caution-groups|Appraisal: ENIGMA cortical MRI findings in bipolar disorder]]
 
 ## Worked example (hypothetical)
 
@@ -97,5 +97,5 @@ matrix lists the confounding question as open.
 
 ## Next steps
 
-- This completes Module 06; continue to [[Module 07 - Bipolar I|Bipolar I]].
+- This completes Module 06; continue to [[Module 07 - Bipolar Disorders|Bipolar disorders]].
 - Compare this discipline with [[Association versus individual prediction]] in Module 01.

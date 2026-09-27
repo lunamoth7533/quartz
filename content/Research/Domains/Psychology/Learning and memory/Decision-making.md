@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 6
 reviewed: 2026-09-25
-up: "[[Psychology - Learning and memory]]"
+up: "[[Psychology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/psychology, research/domain/computational]
 ---
@@ -21,7 +21,7 @@ Decision-making research studies how people choose between options, particularly
 
 ## How it works
 
-**The formal frame.** Reinforcement learning formalises how an agent learns from reward signals to choose actions, with value functions and policies as central objects and the exploration-exploitation trade-off as an explicit part of the framework rather than an afterthought. Its models describe choice as value comparison updated by prediction error, providing a quantitative alternative to descriptive bias lists, and it supplies the vocabulary - expected value, uncertainty, policy - that decision research in this library uses. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]]
+**The formal frame.** Reinforcement learning formalises how a learner uses reward signals to choose actions, with value functions and policies as central objects and the exploration-exploitation trade-off as an explicit part of the framework rather than an afterthought. Its models describe choice as value comparison updated by prediction error, providing a quantitative alternative to descriptive bias lists, and it supplies the vocabulary - expected value, uncertainty, policy - that decision research in this library uses. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]]
 
 **A decision is constructed from a representation.** Cognition is described through concepts and categories, which shape how options are represented, and social psychology examines how situations and interpretations shape behaviour rather than treating choice as a fixed property of the person - two reminders that a decision is constructed from a representation of the situation as well as from its payoffs. [[F97 OpenStax Psychology 2e what is cognition#^f97-concepts|What Is Cognition?]] [[F46 OpenStax Psychology 2e social psychology#^f46-situational|Social Psychology]]
 
@@ -42,6 +42,8 @@ Evidence about decisions is subject to the general replication problem. Many cla
 ## Connections
 
 This note connects to [[Motivation and reward]] and to the clinical material on impulsive choice in the ADHD domain.
+
+- [[Drift diffusion models]] - formalises fast two-choice decisions as evidence accumulation, separating the quality of the evidence from how cautious the decision is.
 
 **Cross-domain connection (curation).** Computational neuroscience's reinforcement-learning and Bayesian models are the formal descendants of this literature, specifying the computations the heuristics approximate; the interval between a bias demonstrated in a questionnaire and a model fitted to choices is exactly the level-of-analysis gap this library keeps flagging. [[Reinforcement learning]] [[Model comparison and identifiability]]
 

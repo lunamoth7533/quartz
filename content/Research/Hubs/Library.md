@@ -27,6 +27,7 @@ All remain queued; verification labels describe what was checked, not whether th
 - **Source Table** - all source records, sorted by title.
 - **Reading Queue Board** - card view grouped by `queue_tier`.
 - **Condition Cards** - source cards grouped by condition.
+- **Recent research** - papers from 2023 onward that were added to update the concepts.
 - **Journal articles** - papers sorted newest first.
 - **Educational and official** - official or educational pages.
 - **Reading queue** - queued sources grouped by queue tier.
@@ -39,6 +40,12 @@ All remain queued; verification labels describe what was checked, not whether th
 Columns to read first: `verification` (what was actually checked), `access_level` (abstract, public page or downloaded PDF) and `reading_status` (queued until read). `doi`, `pmid` and `source_url` are the citation handles.
 
 ![[Library.base]]
+
+## Recent research
+
+Papers published in 2023 or later carry the tag `research/recent`. Each was added to bring a concept note up to date: the concept's *Recent research* section says what the paper adds, confirms or changes, and links the exact finding. They were checked at abstract level unless the note says otherwise, and every one is still queued for reading.
+
+![[Library.base#Recent research]]
 
 ## Dashboards and synthesis maps
 

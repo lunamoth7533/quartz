@@ -34,7 +34,7 @@ tags: [research/source, research/educational, research/domain/computational-brai
 
 ## Key points (as published)
 
-Reinforcement learning formalises how an agent learns from reward signals to choose actions, with value functions and policies as central objects.
+Reinforcement learning formalises how a learner uses reward signals to choose actions, with value functions and policies as central objects.
 ^f123-framework
 
 Temporal-difference learning updates value estimates from the difference between predicted and observed outcomes, a quantity that maps onto prediction-error signals in the brain.

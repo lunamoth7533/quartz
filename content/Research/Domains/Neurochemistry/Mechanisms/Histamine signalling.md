@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 6
 reviewed: 2026-09-25
-up: "[[Neurochemistry - Mechanisms]]"
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neurochemistry]
 ---
@@ -29,7 +29,7 @@ Histamine is both a neurotransmitter and a peripheral signalling molecule involv
 
 **Why the H3 receptor is the system's own brake.** H3 receptors sit presynaptically on histaminergic terminals and on terminals of other transmitters, so histamine release partly regulates itself: more release activates more H3-mediated restraint, and the same transmitter therefore both drives and limits its own signalling depending on receptor. That autoreceptor loop is why H3 antagonism raises histaminergic tone and why the receptor has been a wake-promoting drug target, and it illustrates the general principle that transmitter systems carry their own negative feedback. [[P18626069 Haas 2008 Histamine in the nervous system#^p18626069-receptors|Histamine in the nervous system]]
 
-**Clinical leverage from the same anatomy.** Drugs that cross the blood-brain barrier and block H1 receptors produce sedation as a predictable consequence, which is why first- and second-generation antihistamines differ mainly in brain penetration rather than in receptor selectivity. [[F105 Neuroscience Online blood-brain barrier#^f105-transport|Blood Brain Barrier]] [[F13 NIGMS How do medicines work#^f13-targets|How do medicines work]] Because histaminergic activity is highest in waking, drugs that block it impair alertness; conversely, drugs that increase histaminergic or related arousal signalling were pursued as wake-promoting agents. Both directions illustrate the same point - the system contributes to arousal level, so its manipulation moves alertness rather than targeting a disease process. [[F14 NINDS Brain basics understanding sleep#^f14-stages|Brain Basics: Understanding Sleep]]
+**Clinical leverage from the same anatomy.** Drugs that cross the blood-brain barrier and block H1 receptors produce sedation as a predictable consequence, which is why first- and second-generation antihistamines differ mainly in brain penetration rather than in receptor selectivity. [[F105 Neuroscience Online blood-brain barrier#^f105-transport|Blood Brain Barrier]] [[F13 NIGMS How do medicines work#^f13-targets|How do medicines work]] Because histaminergic activity is highest in waking, drugs that block it impair alertness; conversely, drugs that increase histaminergic or related arousal signalling were pursued as wake-promoting drugs. Both directions illustrate the same point - the system contributes to arousal level, so its manipulation moves alertness rather than targeting a disease process. [[F14 NINDS Brain basics understanding sleep#^f14-stages|Brain Basics: Understanding Sleep]]
 
 **Reading rule.** Peripheral claims (allergy, gastric acid) and central claims (arousal, cognition) about histamine should not be transferred to one another; they involve overlapping receptors but different tissues, barriers and endpoints. [[F62 Neuroscience Online biogenic amines#^f62-limit|Biogenic Amines]]
 

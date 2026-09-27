@@ -4,7 +4,7 @@ title: "Neurochemistry Map"
 map_kind: foundation
 condition: []
 domain: [neurochemistry]
-up: "[[Research Atlas]]"
+up: "[[Home]]"
 cssclasses: [research-map]
 tags: [research/map]
 content_layer: reference
@@ -17,9 +17,15 @@ concept_kind: framework
 
 Neurochemistry here means signalling systems and the stress and sleep regulation they support, with one-transmitter explanations treated as oversimplified.
 
-**Contents.** [[#Reference overview|Overview]], [[#Reference spine|Reference spine]], [[#Concept register|Concept register]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Core sequence|Core sequence]]
+**Contents.** [[#Concept register|Concept register]], [[#Overview|Overview]], [[#Key evidence|Key evidence]], [[#Where this domain connects|Cross-domain links]], [[#Evidence boundaries|Evidence boundaries]], [[#Learning route|Learning route]], [[#Evidence gaps|Evidence gaps]], [[#Study question|Study question]], [[#Learning layer|Learning layer]]
 
-## Reference overview
+## Concept register
+
+- **Structures:** [[Transmitter synthesis, release and clearance]], [[The synaptic vesicle cycle]], [[Receptor families and second messengers]]
+- **Mechanisms:** [[Acetylcholine signalling]], [[Dopamine signalling]], [[Noradrenaline signalling]], [[Serotonin signalling]], [[Glutamate and GABA]], [[Histamine signalling]], [[Adenosine signalling]], [[Neuropeptides and opioids]], [[Endocannabinoid signalling]], [[Monoamine reuptake and degradation]], [[Neuromodulation and circuit state]], [[Oxytocin and vasopressin]]
+- **Contested framing:** [[Chemical imbalance framing]], [[Synaptic signalling model]]
+
+## Overview
 
 Neurochemistry is the study of the molecules that carry and shape neural signalling, and of the
 systems that produce them. Its central lesson is that a transmitter is not a message: the message
@@ -61,7 +67,7 @@ about treatment targets and receptor-level actions. [[Chemical imbalance framing
 
 **Where to start.** [[Transmitter synthesis, release and clearance]] for the life cycle, [[Receptor families and second messengers]] for the decision point, and [[Neuromodulation and circuit state]] for why transmitter effects depend on context. The full article list for this domain is in the concept register below; [[Reference Index]] carries A-Z, concept-kind, domain, condition and evidence routes over the whole reference layer.
 
-## Reference spine
+## Key evidence
 
 Neurochemistry studies the molecules that carry and shape neural signalling, and the machinery that makes, releases, receives and clears them. Its central lesson is that transmitter identity is the beginning of an explanation rather than the end.
 
@@ -73,20 +79,6 @@ Each major system has a characteristic organisation. Histamine neurons sit in th
 
 Modulation then changes what a circuit does rather than what it says. Neuromodulators alter neuronal and synaptic properties across populations, so the same anatomy produces different outputs in different states. [[P23040802 Marder 2012 Neuromodulation#^p23040802-reconfigure|Neuromodulation of neuronal circuits]] [[P23040802 Marder 2012 Neuromodulation#^p23040802-state|Neuromodulation of neuronal circuits]]
 
-## Concept register
-
-- **[[Neurochemistry - Structures|Structures]]:** [[Transmitter synthesis, release and clearance]], [[The synaptic vesicle cycle]], [[Receptor families and second messengers]]
-- **[[Neurochemistry - Mechanisms|Mechanisms]]:** [[Acetylcholine signalling]], [[Dopamine signalling]], [[Noradrenaline signalling]], [[Serotonin signalling]], [[Glutamate and GABA]], [[Histamine signalling]], [[Adenosine signalling]], [[Neuropeptides and opioids]], [[Endocannabinoid signalling]], [[Monoamine reuptake and degradation]], [[Neuromodulation and circuit state]]
-- **[[Neurochemistry - Contested framing|Contested framing]]:** [[Chemical imbalance framing]], [[Synaptic signalling model]]
-
-## In this folder
-
-Live view of the topic notes filed under this domain, grouped by subdomain, and of the sources whose own domain is this one.
-
-![[Domain Contents.base#Topics by subdomain]]
-
-![[Domain Contents.base#Evidence filed here]]
-
 ## Where this domain connects
 
 - Neurobiology supplies the membranes, channels and release machinery: [[The synaptic vesicle cycle]], [[Membrane transport and ion channels]].
@@ -95,13 +87,9 @@ Live view of the topic notes filed under this domain, grouped by subdomain, and 
 
 ## Evidence boundaries
 
-Transmitter pharmacology is precisely established, and claims that a psychiatric condition is a transmitter imbalance are generally not supported by that precision. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI appraisal: Cells of the Nervous System]] [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-monoamine|How do antidepressants work?]]
+Transmitter pharmacology is precisely established, and claims that a psychiatric condition is a transmitter imbalance are generally not supported by that precision. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]] [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-monoamine|How do antidepressants work?]]
 
 ## Learning route
-
-The sections below keep the earlier learning-oriented framing of this hub - course sequence, study questions and the learning-layer pointer. They are retained for continuity and cross-reference; where they state a mechanism, the reference overview above and the linked articles are the current account.
-
-## Core sequence
 
 ### Signalling basics
 
@@ -146,3 +134,11 @@ Rewrite one commonly repeated neurochemical claim so that it becomes falsifiable
 
 - [[Module 03 - Neurochemistry]] - module guide, lesson sequence, prerequisites and assessment.
 - [[Learning Map - Neurochemistry.canvas]] - populated canvas with lessons, sources, uncertainty and open questions.
+
+## In this folder
+
+Live view of the concept notes filed under this domain, grouped by theme folder, and of the sources whose own domain is this one.
+
+![[Domain Contents.base#Concepts by theme]]
+
+![[Domain Contents.base#Evidence filed here]]

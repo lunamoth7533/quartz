@@ -57,8 +57,7 @@ Demand from clinicians and patients increases the supply of reviews regardless o
 An essay synthesizing published meta-research, not a systematic review itself, with a literature base through 2016. It argues about the population of reviews rather than estimating a frequency in a defined sample.
 ^p27620683-limit
 
-## Analyst cautions (AI synthesis)
-
+## Library appraisal
 These paragraphs are this library's own appraisal, not statements from the essay.
 
 A systematic review is a method, not a seal of quality. Because reviews inherit the biases of the studies they pool and add selection, synthesis and interpretation choices of their own, this library treats a review as a starting point that still has to be traced to the underlying studies.
@@ -72,4 +71,4 @@ A systematic review is a method, not a seal of quality. Because reviews inherit 
 
 ## Working notes
 
-- Reading status: `queued`. Access: `public-page`. Agent check: `full_text_checked` on 2026-09-24. Queue tier: `core`.
+- Reading status: `queued`. Access: `public-page`. Check: `full_text_checked` on 2026-09-24. Queue tier: `core`.

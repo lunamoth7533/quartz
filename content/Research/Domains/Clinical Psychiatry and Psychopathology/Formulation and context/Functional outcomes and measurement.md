@@ -4,14 +4,14 @@ title: "Functional outcomes and measurement"
 domain: [research-literacy]
 condition: ['adhd']
 source_count: 6
-up: "[[Clinical Psychiatry and Psychopathology - Formulation and context]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
 concept_kind: framework
 description: "Functioning and participation as outcomes in their own right, the ICF framework, and why symptom change is not the same as life change."
 secondary_domain: [research-methods]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Functional outcomes and measurement
@@ -23,7 +23,7 @@ reviewed: 2026-09-25
 - The ICF framework describes health and disability through body functions, activities, participation and environmental factors, at individual and population levels. [[F23 WHO International Classification of Functioning#^f23-framework|F23]]
 - WHODAS 2.0 is an official generic instrument linked to the ICF that covers cognition, mobility, self-care, getting along, life activities and participation. [[F23 WHO International Classification of Functioning#^f23-domains|F23]]
 - The instrument's development included cross-cultural application and reliability and validity field studies, which is why its scores are interpretable but bounded to what they measure. [[F23 WHO International Classification of Functioning#^f23-instrument|F23]]
-- A functioning score summarises reported activity and participation rather than symptom severity or capacity. [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI synthesis: F23]]
+- A functioning score summarises reported activity and participation rather than symptom severity or capacity. [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: F23]]
 - ICD-11 complex PTSD identifies a group with more multiple and sustained traumas and greater functional impairment than PTSD alone. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-impairment|Brewin 2017 ICD-11 PTSD proposals review]]
 - In adult ADHD, a large intervention synthesis found that medications were not efficacious on additional outcomes such as quality of life, which are the outcomes closest to daily functioning. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-longterm|Ostinelli 2025 Comparative interventions for ADHD]]
 
@@ -35,9 +35,9 @@ reviewed: 2026-09-25
 
 **The environment is part of the framework.** Environmental factors - support, accommodation, stigma - are part of the framework rather than background, which is why social determinants belong in outcome discussions. [[P23488505 Hatzenbuehler 2013 Stigma as fundamental cause#^p23488505-levels|Stigma as a fundamental cause of health inequalities]]
 
-**What such a score is not.** A functioning score summarises reported activity and participation; it is not a direct measure of symptom severity, capacity or potential and should not be read as a verdict about a person. How functioning is operationalised depends on the instrument, the informant and the study design. [[F23 WHO International Classification of Functioning#^f23-limit|International Classification of Functioning]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI appraisal: International Classification of Functioning]]
+**What such a score is not.** A functioning score summarises reported activity and participation; it is not a direct measure of symptom severity, capacity or potential and should not be read as a verdict about a person. How functioning is operationalised depends on the instrument, the informant and the study design. [[F23 WHO International Classification of Functioning#^f23-limit|International Classification of Functioning]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
-**Symptoms and functioning diverge.** Symptom scales and functional measures diverge: a person can have reduced symptoms and unchanged participation, or the reverse, so treatment claims should specify which outcome improved. [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI appraisal: International Classification of Functioning]]
+**Symptoms and functioning diverge.** Symptom scales and functional measures diverge: a person can have reduced symptoms and unchanged participation, or the reverse, so treatment claims should specify which outcome improved. [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
 **Functioning is not the same as diagnosis.** ICD-11 PTSD detects some impaired people missed by other systems, and complex PTSD identifies a group with greater functional impairment - so impairment is correlated with, but not identical to, a category. Impairment must be assessed rather than inferred from a label. [[P29029837 Brewin 2017 ICD-11 PTSD proposals review#^p29029837-impairment|ICD-11 PTSD proposals review]]
 
@@ -45,7 +45,7 @@ reviewed: 2026-09-25
 
 **Autism outcomes.** In autism research, participation and quality of life have become explicit outcomes, reflecting a shift away from treating measured traits as the endpoint. [[P41993846 Fernandez 2026 Quality-of-life assessment in autistic adults#^p41993846-validity|Quality-of-life assessment in autistic adults]]
 
-**Reading rule.** Name the instrument, the informant and the domain; then say whether the claim is about capacity, performance or participation. The three are usually different numbers. [[F23 WHO International Classification of Functioning#^f23-domains|International Classification of Functioning]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|AI appraisal: International Classification of Functioning]]
+**Reading rule.** Name the instrument, the informant and the domain; then say whether the claim is about capacity, performance or participation. The three are usually different numbers. [[F23 WHO International Classification of Functioning#^f23-domains|International Classification of Functioning]] [[F23 WHO International Classification of Functioning#^f23-caution-impairment|Appraisal: International Classification of Functioning]]
 
 **Cross-domain connection (curation).** Outcome measurement is the shared endpoint across the clinical-psychiatry, ADHD, autism and CPTSD domains - every treatment claim in those domains names a functioning endpoint, and whether that endpoint is valid depends on the measurement-validity material described in the methods domain. [[Measurement validity and reliability]] [[Measurement invariance]]
 
@@ -53,12 +53,13 @@ reviewed: 2026-09-25
 
 Self-report and informant-report functioning measures carry rater and recall limits, and a change in score is not automatically a change in a person's life.
 
-## Related notes
+## Connections
 
-- [[Short-term versus long-term outcomes]]
-- [[Efficacy versus tolerability]]
-- [[ADHD across the lifespan]]
-- [[CPTSD and disturbances in self-organization]]
+- [[Short-term versus long-term outcomes]] - the time-horizon problem behind functional claims: trials usually run for weeks, while function and participation are long-term questions.
+- [[Efficacy versus tolerability]] - a parallel separation of endpoints; efficacy, tolerability and functioning are distinct outcomes, and each needs its own measure.
+- [[ADHD across the lifespan]] - where function is kept apart from symptom counts across ages, and where defining functional impairment remains an open question.
+- [[CPTSD and disturbances in self-organization]] - a construct linked to impairment: complex PTSD identifies a group with greater functional impairment than PTSD.
+- [[Recovery function and social context]] - the trauma-specific application: recovery measured as functioning and participation alongside symptom change, with social conditions inside the outcome picture.
 
 ## Study question
 

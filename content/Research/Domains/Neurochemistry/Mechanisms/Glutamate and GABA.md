@@ -3,15 +3,15 @@ note_type: topic
 title: "Glutamate and GABA"
 domain: [neurochemistry]
 condition: []
-source_count: 8
-up: "[[Neurochemistry - Mechanisms]]"
+source_count: 10
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Glutamate and GABA as the fast excitatory and inhibitory channels, their metabolic coupling, spatial logic and receptor pharmacology."
 secondary_domain: [pharmacology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Glutamate and GABA
@@ -45,11 +45,19 @@ reviewed: 2026-09-25
 
 Excitation and inhibition are often described in broad terms; local measurement is difficult and findings do not transfer across conditions.
 
-## Related notes
+## Recent research
 
-- [[Excitation and inhibition balance]]
-- [[Action potentials]]
-- [[Autism genetics and rare variants]]
+- **2023 · Systematic review (Molecular Psychiatry).** Supports the 'level of description' point above with post-mortem data from depression: GABAergic and glutamatergic alterations appear across many regions. [[P37495889 Hu 2023 Excitation-inhibition topography in depression#^p37495889-brainwide|Hu 2023]] Their direction differs by region, with weaker GABAergic and stronger glutamatergic signalling in limbic areas but higher GABAergic signalling in lateral prefrontal cortex. [[P37495889 Hu 2023 Excitation-inhibition topography in depression#^p37495889-topography|Hu 2023]] Expression in post-mortem tissue is only a proxy for signalling in living circuits. [[P37495889 Hu 2023 Excitation-inhibition topography in depression#^p37495889-caution-proxy|Appraisal: Hu 2023]]
+- **2023 · Cohort study (Translational Psychiatry).** In a multi-site autism cohort, variation in a glutamate gene-set tracked symptom severity. [[P36681677 Hollestein 2023 Glutamate and GABA gene-sets in autism#^p36681677-limit|Hollestein 2023]] [[P36681677 Hollestein 2023 Glutamate and GABA gene-sets in autism#^p36681677-symptoms|Hollestein 2023]] Glutamate and GABA gene expression related to cortical thickness differences in opposite directions. [[P36681677 Hollestein 2023 Glutamate and GABA gene-sets in autism#^p36681677-cortex|Hollestein 2023]] Gene-set associations do not measure excitation or inhibition, so they cannot confirm a single imbalance. [[P36681677 Hollestein 2023 Glutamate and GABA gene-sets in autism#^p36681677-caution-distinct|Appraisal: Hollestein 2023]]
+
+## Connections
+
+- [[Excitation and inhibition balance]] - the network-level concept built from these two transmitters; its several meanings must be kept apart before a cellular finding is read as imbalance.
+- [[Action potentials]] - the spike these transmitters push toward or away from threshold, and whose initiation site inhibitory synapses are placed to control.
+- [[Autism genetics and rare variants]] - where the excitatory and inhibitory lineages enter condition genetics, with autism risk-gene expression enriched in both.
+- [[Neuromodulation and circuit state]] - the slower layer acting on these fast channels; modulators change neuronal and synaptic properties, so one wiring diagram can yield different outputs.
+- [[Receptor families and second messengers]] - the ionotropic versus metabotropic split that gives both transmitters fast and slow effects in the same tissue.
+- [[Ketamine and rapid-acting antidepressants]] - ketamine blocks NMDA receptors, and rapid-acting drugs are proposed to converge on stronger excitatory synapses.
 
 ## Study question
 

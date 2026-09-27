@@ -4,7 +4,7 @@ title: "Evidence types and causal inference"
 domain: [research-literacy]
 condition: []
 source_count: 6
-up: "[[Research Methods and Measurement - Inference]]"
+up: "[[Research Methods and Measurement Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/research-literacy]
 content_layer: reference
@@ -22,7 +22,7 @@ reviewed: 2026-09-25
 
 - Observational designs describe what co-occurs; experiments that manipulate a variable can support causal inference. [[F09 Noba Research designs#^f09-designs|Research Designs]]
 - Correlation does not establish direction or rule out a third explanation. [[F09 Noba Research designs#^f09-correlation|Research Designs]]
-- Component analyses add detail to average effects across trials but do not establish what will help one person. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|AI synthesis: Comparative efficacy of ADHD interventions in adults]]
+- Component analyses add detail to average effects across trials but do not establish what will help one person. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|Appraisal: Comparative efficacy of ADHD interventions in adults]]
 
 ## How it works
 
@@ -36,7 +36,7 @@ reviewed: 2026-09-25
 
 **The probability that a claim is true depends on the whole field.** The p-value is not the probability that a hypothesis is true: the probability a finding is real depends additionally on prior odds, power, the number of tested relationships and bias, which together determine how much a single significant result should move a reader's belief. Small studies with flexible designs in fields with many tested hypotheses are the least informative. That is a claim about inference in aggregate, not an accusation about any one paper. [[P16060722 Ioannidis 2005 Why most findings are false#^p16060722-probability|Why most published research findings are false]]
 
-**Absence of evidence is not evidence of absence.** When a component analysis finds no effect on an outcome, the correct reading is that the average effect on that outcome was not detectable in those trials - as the ADHD intervention review states when it notes that missing evidence for an outcome is not evidence of no benefit. The reverse error, treating a null subgroup contrast as proof of equivalence, is equally common. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|AI appraisal: Comparative interventions for ADHD]] [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|Cognitive behavioural interventions for ADHD]]
+**Absence of evidence is not evidence of absence.** When a component analysis finds no effect on an outcome, the correct reading is that the average effect on that outcome was not detectable in those trials - as the ADHD intervention review states when it notes that missing evidence for an outcome is not evidence of no benefit. The reverse error, treating a null subgroup contrast as proof of equivalence, is equally common. [[P39701638 Ostinelli 2025 Comparative interventions for ADHD#^p39701638-caution-absence|Appraisal: Comparative interventions for ADHD]] [[P29566425 Lopez 2018 Cognitive behavioural interventions for ADHD#^p29566425-certainty|Cognitive behavioural interventions for ADHD]]
 
 **Reading rule.** For any claim, identify the type of claim first, then the design that could support it, then whether that design was used. The same sentence can be defensible as description and indefensible as causation. [[F09 Noba Research designs#^f09-correlation|Research Designs]] [[F09 Noba Research designs#^f09-confounds|Research Designs]]
 
@@ -46,11 +46,13 @@ reviewed: 2026-09-25
 
 A design hierarchy is a starting point rather than a verdict: a well-run cohort can beat a small flawed trial.
 
-## Related notes
+## Connections
 
-- [[Bias and confounding]]
-- [[Reading a study and matching populations]]
-- [[Reviews, guidelines and preprints]]
+- [[Bias and confounding]] - names the specific threats (confounding, selection, reporting) that decide whether a given design can support the claim made from it.
+- [[Reading a study and matching populations]] - the practical checklist that follows design: who was enrolled, what the comparator was and whether the sample matches the question.
+- [[Reviews, guidelines and preprints]] - the synthesis layer; reviews and guidelines grade bodies of evidence by the same design-claim logic, adding certainty ratings and value judgements.
+- [[Causality and counterfactuals]] - states what a causal claim asserts; this note then asks which designs can approximate the counterfactual comparison it requires.
+- [[Observational designs]] - cohort, case-control and cross-sectional designs in detail, with the characteristic biases that limit how far each can support a causal reading.
 
 ## Study question
 

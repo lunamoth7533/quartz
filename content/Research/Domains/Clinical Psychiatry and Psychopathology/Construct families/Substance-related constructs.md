@@ -9,7 +9,7 @@ secondary_domain: []
 condition: []
 source_count: 8
 reviewed: 2026-09-25
-up: "[[Clinical Psychiatry and Psychopathology - Construct families]]"
+up: "[[Clinical Psychiatry and Psychopathology Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/clinical, research/domain/neurochemistry]
 ---
@@ -27,7 +27,7 @@ Substance-related constructs describe patterns of use that produce harm or impai
 
 **Habit and control.** Compulsive use resembles the shift from goal-directed to habitual control described in learning research, which is one bridge between behavioural and neural accounts. [[F56 Neuroscience Online basal ganglia#^f56-pathways|Basal ganglia]]
 
-**Reinforcement learning formalises the learning part.** Reinforcement learning supplies the formal account of how outcomes shape choice: value functions and policies describe how an agent learns from reward signals to choose actions, and exploration-exploitation trade-offs are explicit parts of the framework. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]] The dopamine signals that carry prediction errors are also heterogeneous - additional salience and movement signals, different populations with different targets - so 'reward' is a useful approximation rather than a complete description. [[P27069377 Schultz 2016 Reward prediction error#^p27069377-scope|Reward prediction error]] [[P29760524 Berke 2018 What does dopamine mean#^p29760524-complexity|What does dopamine mean?]] [[P29760524 Berke 2018 What does dopamine mean#^p29760524-heterogeneity|What does dopamine mean?]]
+**Reinforcement learning formalises the learning part.** Reinforcement learning supplies the formal account of how outcomes shape choice: value functions and policies describe how a learner uses reward signals to choose actions, and exploration-exploitation trade-offs are explicit parts of the framework. [[F123 Sutton and Barto Reinforcement Learning#^f123-framework|Reinforcement Learning]] [[F123 Sutton and Barto Reinforcement Learning#^f123-exploration|Reinforcement Learning]] The dopamine signals that carry prediction errors are also heterogeneous - additional salience and movement signals, different populations with different targets - so 'reward' is a useful approximation rather than a complete description. [[P27069377 Schultz 2016 Reward prediction error#^p27069377-scope|Reward prediction error]] [[P29760524 Berke 2018 What does dopamine mean#^p29760524-complexity|What does dopamine mean?]] [[P29760524 Berke 2018 What does dopamine mean#^p29760524-heterogeneity|What does dopamine mean?]]
 
 **Variation is the rule.** Response varies with the drug, the route, the amount, genetics and environment, so no single pathway explains all substance-use problems. That statement rules out both a moralised account and a strictly pharmacological one, and it is why this library stays away from individualised predictions. [[F87 NIDA Drugs and the brain#^f87-variation|Drugs and the Brain]] [[F87 NIDA Drugs and the brain#^f87-limit|Drugs and the Brain]] Drugs of abuse converge on reward circuitry while producing dependence through receptor-level adaptation, but because response varies, a single-substance-pathway story predicts neither which exposures become disorders nor which treatments work for whom: the honest mechanism layer is a set of biasing processes, not a destiny. [[F87 NIDA Drugs and the brain#^f87-variation|Drugs and the Brain]] [[Motivation and reward]]
 
@@ -44,6 +44,8 @@ Reward and adaptation mechanisms are supported by animal and human studies; trea
 ## Connections
 
 This note is the clinical counterpart of [[Motivation and reward]] and [[Procedural memory and habit]].
+
+- [[ADHD and substance use]] - a worked case of risk and treatment questions: childhood ADHD predicts later substance use disorders, and registry designs test whether ADHD medication changes that risk.
 
 **Cross-domain connection (curation).** The reinforcement-learning and habit articles supply the formal and circuit-level accounts of the shift from goal-directed to compulsive use, and the pharmacology domain's tolerance article supplies the receptor-level half - substance-related constructs sit at their intersection. [[Model-based and model-free control]] [[Receptor adaptation tolerance and dependence]]
 

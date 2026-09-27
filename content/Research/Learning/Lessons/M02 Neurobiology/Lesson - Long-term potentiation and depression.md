@@ -54,7 +54,7 @@ says it remains important to show that these effects have the same defining feat
 [[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-translation|Bliss and Cooke 2011]]
 So a change in a slice constrains what a memory mechanism could look like; it does not show what a person
 learned.
-[[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|AI synthesis: Bliss and Cooke 2011]]
+[[P21779718 Bliss 2011 Long-term potentiation and depression#^p21779718-caution-inference|Appraisal: Bliss and Cooke 2011]]
 
 ## Worked example (hypothetical)
 

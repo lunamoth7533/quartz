@@ -7,9 +7,9 @@ concept_kind: framework
 domain: [neuroanatomy-systems, computational-brain-theories]
 secondary_domain: []
 condition: []
-source_count: 7
-reviewed: 2026-09-25
-up: "[[Neuroanatomy and Systems Neuroscience - Systems]]"
+source_count: 9
+reviewed: 2026-09-27
+up: "[[Neuroanatomy and Systems Neuroscience Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/neuroanatomy, research/domain/computational]
 ---
@@ -29,7 +29,7 @@ Association cortex comprises regions that are not primary sensory or motor areas
 
 **Network level.** Network models describe regions as nodes and connections as edges. Population analyses show that cortical activity is structured and low-dimensional, and low-dimensional trajectory descriptions capture structure that single-unit rates miss - which is why network models describe coordinated patterns rather than individual cells. Degeneracy means different underlying parameters can produce similar outputs, so a network description constrains function without determining it. [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-population|Neural population dynamics]] [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-trajectory|Neural population dynamics]] [[P23040802 Marder 2012 Neuromodulation#^p23040802-degeneracy|Neuromodulation]]
 
-**What network language adds, and what it does not.** Network descriptions summarise statistical dependence between regions' activity. That is a different object from an anatomical connection and from a causal influence, so a network claim must name its measure (correlation, coherence, effective connectivity model). The methodological literature is explicit that analytic flexibility and low power make these maps less stable than they look. [[Brain regions and networks]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|AI synthesis: Brain imaging]]
+**What network language adds, and what it does not.** Network descriptions summarise statistical dependence between regions' activity. That is a different object from an anatomical connection and from a causal influence, so a network claim must name its measure (correlation, coherence, effective connectivity model). The methodological literature is explicit that analytic flexibility and low power make these maps less stable than they look. [[Brain regions and networks]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]] [[F28 OpenStax Brain imaging Psychology 2e#^f28-caution-modality|Appraisal: Brain imaging]]
 
 **Reading rule.** Network names are hypotheses about coordinated function; they become testable when a study specifies the nodes, the measure and the task, and they become misleading when used as explanations ("the network caused it"). [[Association cortex and networks]] [[P22722855 Churchland 2012 Neural population dynamics#^p22722855-claim|Neural population dynamics]]
 
@@ -37,9 +37,16 @@ Association cortex comprises regions that are not primary sensory or motor areas
 
 Association regions are established anatomically and clinically; network assignments are statistical constructs whose stability across tasks, samples and analysis choices is an active research question. [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]
 
+## Recent research
+
+- **2023 · Review (Neuron).** A synthesis of two decades of work ties the default mode network to self-reference, social cognition, autobiographical memory, semantic processing and mind wandering, and proposes that it weaves these into an internal narrative. [[P37167968 Menon 2023 Twenty years of the default mode network#^p37167968-functions|Menon 2023]] [[P37167968 Menon 2023 Twenty years of the default mode network#^p37167968-narrative|Menon 2023]] The narrative account is a theory to test rather than a demonstrated mechanism, in line with this note's warning about network labels. [[P37167968 Menon 2023 Twenty years of the default mode network#^p37167968-caution-theory|Appraisal: Menon 2023]]
+- **2023 · Developmental imaging cohort (Nature Neuroscience).** In 1,033 youths aged 8-23, the amplitude of intrinsic fMRI activity declined with age in a regional sequence ordered from sensorimotor to association cortex and coupled to intracortical myelin maturation, and neighbourhood-disadvantage effects diverged most along that axis in mid-adolescence. [[P36973514 Sydnor 2023 Sensorimotor-association axis development#^p36973514-limit|Sydnor 2023]] [[P36973514 Sydnor 2023 Sensorimotor-association axis development#^p36973514-refinement|Sydnor 2023]] [[P36973514 Sydnor 2023 Sensorimotor-association axis development#^p36973514-axis|Sydnor 2023]] [[P36973514 Sydnor 2023 Sensorimotor-association axis development#^p36973514-environment|Sydnor 2023]] It adds a developmental axis to the anatomy above, running from primary sensorimotor to association regions, as a group-level pattern rather than an individual curve. [[P36973514 Sydnor 2023 Sensorimotor-association axis development#^p36973514-caution-inference|Appraisal: Sydnor 2023]]
+
 ## Connections
 
 This is the structural counterpart to [[Network and connectome models]] and the basis for the executive and control material in the psychology domain.
+
+- [[Default mode, salience and executive networks]] - the three named networks most used in psychiatry, with the triple-network model and the reproducibility limits of its clinical findings.
 
 ## Uncertainties
 

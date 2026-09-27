@@ -3,15 +3,15 @@ note_type: topic
 title: "Serotonin signalling"
 domain: [neurochemistry]
 condition: []
-source_count: 7
-up: "[[Neurochemistry - Mechanisms]]"
+source_count: 8
+up: "[[Neurochemistry Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/domain/neurochemistry]
 content_layer: reference
 concept_kind: mechanism
 description: "Serotonin distribution and receptor families, the treatment link, and why 'low serotonin' is not an adequate causal account."
 secondary_domain: [pharmacology]
-reviewed: 2026-09-25
+reviewed: 2026-09-27
 ---
 
 # Serotonin signalling
@@ -35,9 +35,9 @@ reviewed: 2026-09-25
 
 **The deficit story and what replaced it.** The "low serotonin" shorthand fails not because serotonin is irrelevant but because the arithmetic fails: acute tryptophan depletion and acute transporter blockade both move serotonergic transmission quickly, while mood changes over weeks or not at all. The defensible modern framing is that serotonergic systems participate in the circuits whose changed function is measured as mood, and that treatments acting here change those circuits' behaviour through adaptation processes still being worked out. [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-monoamine|How do antidepressants work?]]
 
-**Interpretive caution.** Serotonin's involvement in mood regulation is not in doubt; the claim that low serotonin causes depression as a general mechanism does not follow from it, and the same transmitter shapes sleep, appetite, thermoregulation and gut motility. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI appraisal: Cells of the Nervous System]]
+**Interpretive caution.** Serotonin's involvement in mood regulation is not in doubt; the claim that low serotonin causes depression as a general mechanism does not follow from it, and the same transmitter shapes sleep, appetite, thermoregulation and gut motility. [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]]
 
-**Reading rule.** 'Low serotonin' as a description of a person is not a measurable claim; the defensible statements concern receptor-level pharmacology, measurable treatment effects and the timescales on which they appear. The popular shorthand survives because it is simple, not because it matches the mechanism literature. [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-limit|How do antidepressants work]] [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|AI synthesis: Cells of the Nervous System]]
+**Reading rule.** 'Low serotonin' as a description of a person is not a measurable claim; the defensible statements concern receptor-level pharmacology, measurable treatment effects and the timescales on which they appear. The popular shorthand survives because it is simple, not because it matches the mechanism literature. [[P28153641 Harmer 2017 How do antidepressants work#^p28153641-limit|How do antidepressants work]] [[F06 OpenStax Cells of the nervous system#^f06-caution-framing|Appraisal: Cells of the Nervous System]]
 
 **Cross-domain connection (curation).** The pharmacology domain's antidepressant-mechanism article is this note's downstream consumer: it takes the receptor diversity, the reuptake mechanism and the timescale mismatch and reads the actual trial evidence against them. [[Antidepressant mechanisms]] [[Monoamine reuptake and degradation]]
 
@@ -45,11 +45,19 @@ reviewed: 2026-09-25
 
 Mood is not a serotonin level; the transmitter is one component of a distributed system.
 
-## Related notes
+## Recent research
 
-- [[Synaptic signalling model]]
-- [[Chemical imbalance framing]]
-- [[Pharmacodynamics and receptors]]
+- **2025 · Systematic review and meta-analysis (Molecular Psychiatry).** Adds receptor-level evidence to the account above: in patients free of antidepressants, cortical 5-HT2A binding was lower than in controls across frontal and cingulate regions. [[P41053435 Chapman 2025 Cortical 5-HT2A receptors in depression#^p41053435-invivo|Chapman 2025]] In those regions the difference tracked depression severity. [[P41053435 Chapman 2025 Cortical 5-HT2A receptors in depression#^p41053435-severity|Chapman 2025]] Post-mortem studies were mostly negative, and antidepressant treatment appeared to lower binding further. [[P41053435 Chapman 2025 Cortical 5-HT2A receptors in depression#^p41053435-postmortem|Chapman 2025]] A receptor-binding difference is not a serotonin level, the distinction the reading rule above draws. [[P41053435 Chapman 2025 Cortical 5-HT2A receptors in depression#^p41053435-caution-direction|Appraisal: Chapman 2025]]
+
+## Connections
+
+- [[Synaptic signalling model]] - the general frame; serotonin's many receptor subtypes are the clearest case of receptor identity, not transmitter identity, deciding what one transmitter does.
+- [[Chemical imbalance framing]] - where the 'low serotonin' shorthand is examined as a public explanation; this note supplies the receptor and timescale facts that critique relies on.
+- [[Pharmacodynamics and receptors]] - the pharmacology of agonists, antagonists and reuptake inhibitors acting at the serotonin receptors and transporter described here.
+- [[Monoamine reuptake and degradation]] - the clearance step that reuptake inhibitors block, which is why synaptic serotonin rises within hours while clinical change in depression takes weeks.
+- [[Antidepressant mechanisms]] - the downstream consumer that reads trial evidence against the receptor diversity and timescale mismatch set out in this note.
+- [[Selective serotonin reuptake inhibitors]] - the drug class built on this system's transporter; its side effects are the receptor diversity described here showing up outside the brain.
+- [[Psychedelics and MDMA-assisted therapy]] - treatments proposed to start from serotonin-receptor activation rather than transporter block, tested in depression and PTSD.
 
 ## Study question
 

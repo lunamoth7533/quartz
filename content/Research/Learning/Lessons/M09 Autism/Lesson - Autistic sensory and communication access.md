@@ -65,7 +65,7 @@ limitations; they do not establish that no validated instruments exist.
 
 Keep the epistemic status of each statement clear: the environment recommendations are service design
 principles, not trial results.
-[[F24 NICE CG142 autism in adults diagnosis and management#^f25-caution|AI synthesis: NICE CG142]]
+[[F24 NICE CG142 autism in adults diagnosis and management#^f25-caution|Appraisal: NICE CG142]]
 
 ## Worked example (hypothetical)
 

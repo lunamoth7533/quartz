@@ -7,9 +7,9 @@ concept_kind: method
 domain: [genetics-neurodevelopment, research-methods]
 secondary_domain: []
 condition: []
-source_count: 6
-reviewed: 2026-09-25
-up: "[[Genetics and Neurodevelopment - Genetics]]"
+source_count: 8
+reviewed: 2026-09-27
+up: "[[Genetics and Neurodevelopment Map]]"
 cssclasses: [research-topic]
 tags: [research/topic, research/reference, research/domain/genetics, research/domain/methods]
 ---
@@ -33,11 +33,16 @@ A polygenic score is a weighted sum of many variant effects, computed for an ind
 
 **Use.** Possible uses include stratifying research samples and screening, but these are framed as areas under investigation rather than settled clinical practice. [[F68 NHGRI Polygenic risk scores#^f68-use|Polygenic risk scores]]
 
-**From score to decision.** Turning a score into a statement about one person requires calibration and validation in a comparable population, evidence for decision benefit, and a clinical pathway that can act - requirements the association literature does not supply, and a pathway that does not exist yet for most conditions in this vault. That last requirement is the one most often omitted: a well-calibrated probability is not yet a useful test. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|AI appraisal: 10 years of GWAS discovery]] [[F68 NHGRI Polygenic risk scores#^f68-limit|Polygenic risk scores]]
+**From score to decision.** Turning a score into a statement about one person requires calibration and validation in a comparable population, evidence for decision benefit, and a clinical pathway that can act - requirements the association literature does not supply, and a pathway that does not exist yet for most conditions in this vault. That last requirement is the one most often omitted: a well-calibrated probability is not yet a useful test. [[P28686856 Visscher 2017 10 years of GWAS discovery#^p28686856-caution-individual|Appraisal: 10 years of GWAS discovery]] [[F68 NHGRI Polygenic risk scores#^f68-limit|Polygenic risk scores]]
 
 ## Evidence and status
 
 Scores reliably index genetic liability at the group level for many traits; individual-level prediction of psychiatric outcomes remains weak, and the gap between group and individual inference is the central caveat. [[P26315443 Open Science Collaboration 2015 Reproducibility#^p26315443-scope|Estimating the reproducibility of psychological science]] The replication backdrop applies here too: published effect sizes are systematically optimistic when power is low, and a multi-team replication project in psychology found replication effect sizes averaging about half the originals, so a score built on un-replicated weights inherits that optimism. [[P26315443 Open Science Collaboration 2015 Reproducibility#^p26315443-result|Reproducibility in psychology]] [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-power|Neuroimaging reproducibility]]
+
+## Recent research
+
+- **2024 · Cross-method genetic meta-analysis (Nature Human Behaviour).** Spouse, sibling and population-genetic analyses found signatures of assortative mating in polygenic risk for several psychiatric traits including bipolar disorder, and genetic differences between people who did and did not answer a biobank mental health questionnaire. [[P38366106 Cabrera-Mendoza 2024 Assortative mating and polygenic risk#^p38366106-mating|Cabrera-Mendoza 2024]] [[P38366106 Cabrera-Mendoza 2024 Assortative mating and polygenic risk#^p38366106-participation|Cabrera-Mendoza 2024]] Both break the sampling assumptions behind score weights, so a score can carry mating and participation structure as well as direct genetic effects. [[P38366106 Cabrera-Mendoza 2024 Assortative mating and polygenic risk#^p38366106-caution-assumptions|Appraisal: Cabrera-Mendoza 2024]]
+- **2023 · Biobank analysis (Nature).** Across 84 traits, polygenic score accuracy fell person by person with genetic distance from the training sample - even within groups labelled as one ancestry - and the furthest tenth of European-ancestry participants had 14% lower accuracy than the nearest. [[P37198491 Ding 2023 Polygenic score accuracy across ancestry#^p37198491-continuum|Ding 2023]] [[P37198491 Ding 2023 Polygenic score accuracy across ancestry#^p37198491-decile|Ding 2023]] This turns the transfer limit above from a between-group into a within-group problem; its size for psychiatric scores still has to be measured. [[P37198491 Ding 2023 Polygenic score accuracy across ancestry#^p37198491-caution-transfer|Appraisal: Ding 2023]]
 
 ## Connections
 
