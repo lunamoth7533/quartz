@@ -64,3 +64,8 @@ Graded associations between ACE counts and later health are consistent across a 
 - [[Bias and confounding]] - confounding that inflates the raw association, and recall that makes retrospective reports diverge from prospective records.
 
 **Cross-domain connection (curation).** Adverse childhood experiences link the CPTSD domain to the genetics-and-development domain's work on sensitive periods and gene-environment interplay and to the research-methods domain's rules on confounding and individual prediction: the same count supports public-health statements about groups and fails as a screening tool for a person. [[Gene-environment interplay and epigenetics]] [[Sensitive periods]] [[Association versus individual prediction]] [[Bias and confounding]]
+
+## Detailed lesson
+
+- [[Lesson - Adverse childhood experiences]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 10 - CPTSD|CPTSD]]

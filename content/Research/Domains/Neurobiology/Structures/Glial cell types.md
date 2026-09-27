@@ -56,3 +56,8 @@ Glia are covered here because they mediate processes that other notes treat as n
 - How much of synaptic signalling depends on astrocyte activity in the intact human brain remains contested, with most evidence from slice and animal preparations.
 - Microglial states are heterogeneous, and the field has moved from a binary resting/activated model to multi-state descriptions that are still being standardised.
 - Human-specific glial biology is difficult to study, so cross-species generalisation is a real limitation.
+
+## Detailed lesson
+
+- [[Lesson - Glial cell types]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

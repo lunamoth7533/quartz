@@ -41,9 +41,16 @@ Anatomy and firing patterns are established in animals; the receptor division is
 
 Histamine belongs with the other modulatory systems in [[Neuromodulation and circuit state]] and is one of several transmitters whose waking-related activity is described in [[Circadian rhythms and sleep]].
 
+- [[Hypnotics and sleep medicines]] - where H1 blockade is used on purpose: sedating antihistamines and antidepressants such as trazodone promote sleep by removing a waking input.
+
 **Cross-domain connection (curation).** Pharmacology's oldest antihistamine lesson is this system's anatomy: first-generation H1 antagonists cross into the brain and produce sedation, which is the clinical fingerprint of removing one arousal input. The histamine case is the cleanest bridge in this library between a transmitter's circuit role and a familiar drug effect. [[Neuromodulation and circuit state]] [[Circadian rhythms and sleep]]
 
 ## Uncertainties
 
 - Human histaminergic activity is not directly measurable outside research settings.
 - The therapeutic and adverse consequences of histamine receptor blockade are better characterised than histamine's role in psychiatric conditions themselves.
+
+## Detailed lesson
+
+- [[Lesson - Histamine signalling]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

@@ -67,3 +67,8 @@ Service availability varies by region and country, guideline recommendations are
 ## Study question
 
 How would you tell the difference between a support that changes a measured outcome and an accommodation that removes a barrier?
+
+## Detailed lesson
+
+- [[Lesson - Autistic sensory and communication access]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

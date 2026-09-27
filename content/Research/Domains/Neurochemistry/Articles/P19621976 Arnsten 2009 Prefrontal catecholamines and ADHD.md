@@ -67,6 +67,7 @@ Mechanistic plausibility does not reduce ADHD to one transmitter deficit, and th
 - [[Attention and executive function]]
 - [[ADHD and prefrontal catecholamines]]
 - [[Prefrontal cortex]]
+- [[Adrenergic blockers in psychiatry]]
 
 ## Working notes
 

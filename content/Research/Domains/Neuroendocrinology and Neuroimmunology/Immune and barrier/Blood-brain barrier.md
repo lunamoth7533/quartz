@@ -48,3 +48,8 @@ The barrier is why peripheral immune and endocrine signals need specific routes 
 ## Uncertainties
 
 - How much barrier change matters in psychiatric conditions is largely unexplored rather than established.
+
+## Detailed lesson
+
+- [[Lesson - Blood-brain barrier]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

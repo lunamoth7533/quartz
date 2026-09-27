@@ -57,3 +57,8 @@ This article sits between [[Sensory and motor systems]] and [[Movement disorders
 ## Uncertainties
 
 - The classical direct/indirect model does not capture all basal ganglia functions, including non-motor roles in learning and motivation.
+
+## Detailed lesson
+
+- [[Lesson - Basal ganglia]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

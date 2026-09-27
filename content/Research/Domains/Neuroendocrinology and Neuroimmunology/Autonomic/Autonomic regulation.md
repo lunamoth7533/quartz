@@ -60,3 +60,8 @@ Autonomic measures are confounded by breathing, movement, medication and context
 ## Study question
 
 Why can two healthy people have very different resting heart-rate variability without either being in a different state of health?
+
+## Detailed lesson
+
+- [[Lesson - Autonomic regulation]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

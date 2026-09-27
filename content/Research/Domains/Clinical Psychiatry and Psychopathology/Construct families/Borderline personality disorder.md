@@ -71,3 +71,8 @@ Treatment evidence is the strongest part: a Cochrane review of 75 randomised tri
 - [[Co-occurrence and differential reasoning]] - the general method for presentations that fit more than one category, applied here to three differentials at once.
 
 **Cross-domain connection (curation).** Borderline personality disorder is where the clinical-psychiatry domain's categorical personality diagnosis meets the psychology domain's emotion-regulation and therapy research and three condition domains' differentials - bipolar II, complex PTSD and autism in women; the methods lesson is that remission, co-occurrence and differential accuracy each need their own measure. [[Emotion regulation]] [[CPTSD and disturbances in self-organization]] [[Autism in girls and women]]
+
+## Detailed lesson
+
+- [[Lesson - Borderline personality disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]

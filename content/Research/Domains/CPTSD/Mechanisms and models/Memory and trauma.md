@@ -53,3 +53,8 @@ This note qualifies [[Episodic memory]] and is used by [[Developmental perspecti
 ## Uncertainties
 
 - How dissociation at encoding affects later recollection is not well characterised in prospective designs.
+
+## Detailed lesson
+
+- [[Lesson - Memory and trauma]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 10 - CPTSD|CPTSD]]

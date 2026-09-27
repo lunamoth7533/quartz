@@ -51,3 +51,8 @@ This is the developmental context for [[Neurotrophic support and cell death]] an
 
 - Whether sensitive-period mechanisms can be safely reopened in humans is a research question with clinical implications, not an established treatment. [[P16261181 Hensch 2005 Critical period plasticity#^p16261181-reactivation|Critical period plasticity]]
 - Individual differences in developmental timing are large, so group averages can mislead about any one child. [[P21042938 Stiles 2010 Basics of brain development#^p21042938-experience|The basics of brain development]]
+
+## Detailed lesson
+
+- [[Lesson - Circuit development and homeostasis]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

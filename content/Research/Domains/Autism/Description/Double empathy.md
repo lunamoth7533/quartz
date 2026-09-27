@@ -53,3 +53,8 @@ This note qualifies [[Social cognition accounts]] and is referenced from [[Maski
 ## Uncertainties
 
 - Most evidence concerns autistic adults in Western settings; bidirectional effects in other cultural contexts are less studied.
+
+## Detailed lesson
+
+- [[Lesson - Double empathy]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

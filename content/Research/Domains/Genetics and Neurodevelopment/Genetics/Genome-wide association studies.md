@@ -50,3 +50,8 @@ This method produces the data used in [[Polygenic scores and prediction]], and i
 ## Uncertainties
 
 - Annotations and pathway analyses of GWAS hits depend on reference datasets with their own coverage gaps.
+
+## Detailed lesson
+
+- [[Lesson - Genome-wide association studies]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

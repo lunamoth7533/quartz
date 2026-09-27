@@ -63,3 +63,8 @@ The firmest evidence is register epidemiology: a population birth cohort shows t
 - [[Autistic burnout]] - the exhausted state camouflaging is said to feed, relevant where women describe long periods of masking before diagnosis.
 
 **Cross-domain connection (curation).** This note joins the autism domain's camouflaging literature to the clinical-psychiatry domain's differential reasoning and the research-methods domain's measurement checks: a sex difference in autism can sit in the people, in the referral pathway or in the instrument, and each domain supplies the test for one of them. The ADHD domain shows the same pattern, which suggests a shared problem in how neurodevelopmental conditions are recognised in females. [[Co-occurrence and differential reasoning]] [[Measurement invariance]] [[ADHD in girls and women]]
+
+## Detailed lesson
+
+- [[Lesson - Autism in girls and women]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

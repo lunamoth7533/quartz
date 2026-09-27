@@ -61,3 +61,8 @@ Three meta-analyses agree on moderate associations: shame with depressive sympto
 - [[Emotion regulation]] - shame and guilt are emotions to be regulated, and the process model explains why self-reports of them diverge from other channels.
 
 **Cross-domain connection (curation).** Shame and guilt connect the psychology domain's emotion research to the CPTSD domain's self-organisation clusters and to autism research on appraisals after trauma, while the research-methods domain's concern with overlapping item content explains why associations with depression and PTSD must be read with the scales in view. [[CPTSD and disturbances in self-organization]] [[Trauma and PTSD in autistic and ADHD people]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Shame and guilt]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

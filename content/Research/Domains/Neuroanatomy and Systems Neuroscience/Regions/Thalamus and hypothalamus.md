@@ -52,3 +52,8 @@ This article links structural anatomy to [[HPA axis]] and [[Circadian clock biol
 ## Uncertainties
 
 - Thalamic function is best described as participation in cortico-thalamic loops, which makes simple relay metaphors misleading.
+
+## Detailed lesson
+
+- [[Lesson - Thalamus and hypothalamus]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

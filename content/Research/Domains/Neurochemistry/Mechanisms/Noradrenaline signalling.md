@@ -60,6 +60,7 @@ Arousal is easy to measure badly, and much of the mechanistic evidence is animal
 - [[ADHD and prefrontal catecholamines]] - the condition-level application of the inverted U and postsynaptic alpha-2A receptor account described here.
 - [[Autonomic regulation]] - the peripheral side of the same transmitter: postganglionic sympathetic neurons release noradrenaline, so autonomic and central findings share machinery but not conclusions.
 - [[Serotonin-noradrenaline reuptake inhibitors]] - antidepressants that block this system's transporter together with serotonin's, used in depression, anxiety and chronic pain.
+- [[Adrenergic blockers in psychiatry]] - drugs that block alpha-1 or beta receptors or stimulate alpha-2 receptors, applied to trauma-related nightmares, anxiety and ADHD.
 
 ## Study question
 

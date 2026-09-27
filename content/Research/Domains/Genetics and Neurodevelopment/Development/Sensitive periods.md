@@ -46,3 +46,8 @@ This note completes the developmental sequence and is the reference point for cl
 ## Uncertainties
 
 - Claims about 'reopening' sensitive periods in humans are not clinically established and should not be read as intervention guidance.
+
+## Detailed lesson
+
+- [[Lesson - Sensitive periods]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

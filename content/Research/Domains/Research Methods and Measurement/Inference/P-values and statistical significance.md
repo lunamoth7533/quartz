@@ -57,3 +57,8 @@ The misreadings have been documented for decades, and no interpretation of these
 - [[Screening and diagnostic accuracy]] - the same base-rate logic: whether a significant finding is true depends on prior odds, as a positive test depends on prevalence.
 
 **Cross-domain connection (curation).** Every condition domain in this library quotes p-values from trials and cohorts, and the research-methods domain's rule is that significance never stands alone: the pharmacology domain's efficacy claims need effect sizes and intervals, and the genetics domain's genome-wide thresholds are a stricter version of the same multiple-testing problem. [[Trial endpoints, benefit and harms]] [[Genome-wide association studies]] [[Effect sizes and uncertainty]]
+
+## Detailed lesson
+
+- [[Lesson - P-values and statistical significance]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

@@ -43,3 +43,8 @@ Adenosine is a second example of non-classical signalling alongside [[Endocannab
 
 - Human adenosine dynamics are inferred from indirect measures and from pharmacological probes such as caffeine.
 - Chronic caffeine use produces adaptive changes that complicate the simple 'blocks sleep pressure' description.
+
+## Detailed lesson
+
+- [[Lesson - Adenosine signalling]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

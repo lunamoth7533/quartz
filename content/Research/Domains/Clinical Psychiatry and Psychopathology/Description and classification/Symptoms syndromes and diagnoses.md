@@ -46,3 +46,8 @@ This is the entry note for [[Categorical versus dimensional classification]] and
 ## Uncertainties
 
 - Two clinicians using the same manual can reach different conclusions, which is why structured interviews were developed.
+
+## Detailed lesson
+
+- [[Lesson - Symptoms syndromes and diagnoses]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]

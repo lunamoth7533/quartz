@@ -23,8 +23,8 @@ This domain is the lens for everything else in the library: how studies are desi
 ## Concept register
 
 - **Designs:** [[Experimental designs]], [[Observational designs]], [[Qualitative designs]], [[Longitudinal and within-person inference]]
-- **Measurement:** [[Measurement validity and reliability]], [[Measurement invariance]], [[Psychophysiology methods]], [[Neuroimaging methods]], [[Genome-wide association studies]]
-- **Inference:** [[Causality and counterfactuals]], [[Effect sizes and uncertainty]], [[Association versus individual prediction]], [[Meta-analysis and review limits]], [[Network and connectome models]]
+- **Measurement:** [[Measurement validity and reliability]], [[Measurement invariance]], [[Psychophysiology methods]], [[Neuroimaging methods]], [[Genome-wide association studies]], [[Screening and diagnostic accuracy]]
+- **Inference:** [[Causality and counterfactuals]], [[Effect sizes and uncertainty]], [[Association versus individual prediction]], [[Meta-analysis and review limits]], [[Network and connectome models]], [[P-values and statistical significance]]
 - **Integrity:** [[Replication and publication bias]], [[Translational validity]], [[Reviews, guidelines and preprints]]
 
 ## Overview

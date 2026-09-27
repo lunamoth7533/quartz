@@ -62,3 +62,8 @@ Community prevalence and the severity gradient rest on large cross-sectional sur
 - [[Emotion dysregulation across conditions]] - affective lability and reactivity described across diagnoses, the dimension that the temperament account of cyclothymia emphasises.
 
 **Cross-domain connection (curation).** The spectrum question joins the bipolar domain to the clinical-psychiatry domain's debate over categories and dimensions and the psychology domain's temperament and personality models; the methods domain's measurement discipline decides whether a gradient across categories is evidence for a continuum or an artefact of how the categories were drawn. [[Categorical versus dimensional classification]] [[Personality models]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Cyclothymia and the bipolar spectrum]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

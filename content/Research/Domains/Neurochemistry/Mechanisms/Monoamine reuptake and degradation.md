@@ -55,3 +55,8 @@ This is the clearance step from [[Transmitter synthesis, release and clearance]]
 
 - Occupancy of a transporter measured by imaging does not translate directly into clinical effect.
 - Individual differences in metabolism change exposure to the same dose, which is why monitoring exists for some drugs and not others. [[F18 FDA Narrow therapeutic index drugs#^f18-nti|Narrow therapeutic index drugs]]
+
+## Detailed lesson
+
+- [[Lesson - Monoamine reuptake and degradation]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

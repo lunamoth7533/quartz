@@ -5,8 +5,8 @@ module: "m01"
 module_order: 1
 domain: [research-literacy]
 condition: []
-lesson_count: 11
-source_count: 23
+lesson_count: 23
+source_count: 45
 canvas: "Learning Map - Research Methods.canvas"
 cssclasses: [research-module]
 tags: [research/module, research/module/m01]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m01]
 
 # Module 01 - Research Methods and Evidence Literacy
 
-**Lessons.** 11 · **Canvas.** [[Learning Map - Research Methods.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 23 · **Canvas.** [[Learning Map - Research Methods.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -43,6 +43,18 @@ Research literacy is the module that makes the other nine readable. It teaches h
 9. [[Lesson - Genetic inference and polygenic scores]] · after [[Lesson - Association versus individual prediction]] · 3 sources
 10. [[Lesson - Co-occurrence and differential reasoning]] · after [[Lesson - Reading a study and matching populations]], [[Lesson - Association versus individual prediction]] · 3 sources
 11. [[Lesson - Functional outcomes and measurement]] · after [[Lesson - Reading a study and matching populations]] · 3 sources
+12. [[Lesson - Experimental designs]] · after [[Lesson - Evidence types and causal inference]], [[Lesson - Bias and confounding]] · 3 sources
+13. [[Lesson - Observational designs]] · after [[Lesson - Experimental designs]], [[Lesson - Bias and confounding]] · 3 sources
+14. [[Lesson - Longitudinal and within-person inference]] · after [[Lesson - Observational designs]] · 3 sources
+15. [[Lesson - Qualitative designs]] · after [[Lesson - Experimental designs]], [[Lesson - Observational designs]] · 2 sources
+16. [[Lesson - Causality and counterfactuals]] · after [[Lesson - Experimental designs]], [[Lesson - Observational designs]] · 3 sources
+17. [[Lesson - P-values and statistical significance]] · after [[Lesson - Effect sizes and uncertainty]], [[Lesson - Causality and counterfactuals]] · 4 sources
+18. [[Lesson - Screening and diagnostic accuracy]] · after [[Lesson - P-values and statistical significance]], [[Lesson - Measurement validity and reliability]] · 3 sources
+19. [[Lesson - Measurement invariance]] · after [[Lesson - Measurement validity and reliability]] · 3 sources
+20. [[Lesson - Psychophysiology methods]] · after [[Lesson - Measurement validity and reliability]] · 2 sources
+21. [[Lesson - Neuroimaging methods]] · after [[Lesson - Measurement validity and reliability]], [[Lesson - Psychophysiology methods]] · 3 sources
+22. [[Lesson - Replication and publication bias]] · after [[Lesson - P-values and statistical significance]], [[Lesson - Meta-analysis and review limits]] · 3 sources
+23. [[Lesson - Translational validity]] · after [[Lesson - Causality and counterfactuals]], [[Lesson - Replication and publication bias]] · 2 sources
 
 ## Worked-example trail
 
@@ -57,6 +69,18 @@ Research literacy is the module that makes the other nine readable. It teaches h
 - [[Lesson - Genetic inference and polygenic scores]] - hypothetical worked example: a polygenic score is traced from discovery sample to prediction claim.
 - [[Lesson - Co-occurrence and differential reasoning]] - hypothetical worked example: a presentation that fits two labels is reasoned about without forcing one.
 - [[Lesson - Functional outcomes and measurement]] - hypothetical worked example: a symptom endpoint and a functioning endpoint are compared in one trial report.
+- [[Lesson - Experimental designs]] - hypothetical worked example: a study-technique claim is redesigned from a self-selected comparison into a randomised experiment.
+- [[Lesson - Observational designs]] - hypothetical worked example: a rare workplace exposure is matched to the cohort, case-control or cross-sectional design that fits the question.
+- [[Lesson - Longitudinal and within-person inference]] - hypothetical worked example: a diary study's between-person and within-person sleep-concentration patterns are pulled apart.
+- [[Lesson - Qualitative designs]] - hypothetical worked example: an interview study's themes are checked against what a qualitative design can and cannot claim.
+- [[Lesson - Causality and counterfactuals]] - hypothetical worked example: a natural experiment in school start times is tested against its missing counterfactual.
+- [[Lesson - P-values and statistical significance]] - hypothetical worked example: a significant but tiny trial result is read for size, power and multiplicity.
+- [[Lesson - Screening and diagnostic accuracy]] - hypothetical worked example: one screening test's predictive value is recomputed across a clinic and a community setting.
+- [[Lesson - Measurement invariance]] - hypothetical worked example: an age-group score gap on a wellbeing scale is tested through configural, metric and scalar invariance.
+- [[Lesson - Psychophysiology methods]] - hypothetical worked example: a heart-rate-variability "reduced stress" claim is checked against recording conditions and the layer measured.
+- [[Lesson - Neuroimaging methods]] - hypothetical worked example: a small-sample brain-behaviour correlation is audited for modality, power and level of claim.
+- [[Lesson - Replication and publication bias]] - hypothetical worked example: a striking original finding and its smaller, non-significant replication are read without either easy verdict.
+- [[Lesson - Translational validity]] - hypothetical worked example: an animal-model "breakthrough" claim is walked through face, predictive and construct validity and the translation stages.
 
 ## Core and advanced branches
 

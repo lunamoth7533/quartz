@@ -51,3 +51,8 @@ Peptides are the counterexample to the fast-synapse model described in [[Synapti
 
 - Peptide signalling is difficult to measure dynamically in humans, so most mechanistic knowledge comes from animal work.
 - The relationship between receptor-level adaptation and clinical tolerance is not one-to-one. [[P25566076 Allouche 2014 Opioid receptor desensitization and tolerance#^p25566076-caution-scope|Appraisal: Opioid receptor desensitization and tolerance]]
+
+## Detailed lesson
+
+- [[Lesson - Neuropeptides and opioids]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

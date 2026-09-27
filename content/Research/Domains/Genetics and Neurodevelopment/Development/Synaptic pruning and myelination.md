@@ -48,3 +48,8 @@ This is the refinement stage following [[Axon guidance and synaptogenesis]], and
 ## Uncertainties
 
 - Imaging cannot separate pruning from other processes that change measured tissue properties.
+
+## Detailed lesson
+
+- [[Lesson - Synaptic pruning and myelination]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

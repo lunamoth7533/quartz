@@ -69,6 +69,7 @@ A component analysis of average effects does not show that an intervention canno
 - [[ADHD diagnosis and measurement]]
 - [[CBT and its evidence base]]
 - [[Mindfulness-based interventions]]
+- [[Adrenergic blockers in psychiatry]]
 
 ## Working notes
 

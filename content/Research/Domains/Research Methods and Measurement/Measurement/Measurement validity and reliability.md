@@ -58,3 +58,8 @@ Psychometric quality is population- and purpose-specific: an instrument validate
 ## Study question
 
 Pick a scale used in one of this library's sources and ask what population, purpose and criterion its scores were validated against.
+
+## Detailed lesson
+
+- [[Lesson - Measurement validity and reliability]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

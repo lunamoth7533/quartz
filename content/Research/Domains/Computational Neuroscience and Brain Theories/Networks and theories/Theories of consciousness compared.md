@@ -55,3 +55,8 @@ This note is the integrating overview for [[Global workspace and integrated info
 ## Uncertainties
 
 - Progress depends on agreeing what a theory of consciousness must explain, which is itself disputed.
+
+## Detailed lesson
+
+- [[Lesson - Theories of consciousness compared]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

@@ -52,3 +52,8 @@ This article pairs with [[Spinal cord]] for localisation and with [[Sensory and 
 ## Uncertainties
 
 - Many neuropathies remain idiopathic after investigation, which is a limit of current classification rather than of the patient.
+
+## Detailed lesson
+
+- [[Lesson - Peripheral neuropathy and neuromuscular disease]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

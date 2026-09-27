@@ -53,6 +53,11 @@ This note is the generic reference point for [[Bipolar I episodes and course]] a
 
 **Cross-domain connection (curation).** The neurochemistry domain's monoamine and antidepressant-mechanism articles supply the treatment-side mechanism debate, and the inflammation and stress material supplies the systemic-correlate layer; the mood-disorder article's job is to keep those layers attached to a precisely described clinical construct. [[Antidepressant mechanisms]] [[Allostasis and chronic stress]]
 
+## Detailed lesson
+
+- [[Lesson - Mood disorders]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Whether bipolar spectrum concepts should be widened is an active debate with treatment implications.

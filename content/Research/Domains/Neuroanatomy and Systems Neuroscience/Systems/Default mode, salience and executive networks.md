@@ -69,3 +69,8 @@ What the three networks do is described in narrative and theoretical reviews, an
 - [[PTSD biology and CPTSD evidence limits]] - why PTSD network findings, including trauma-exposure effects, cannot be carried over to complex PTSD.
 
 **Cross-domain connection (curation).** The triple network model links this domain's anatomy to the computational domain's network methods and the clinical-psychiatry domain's transdiagnostic thinking; every condition domain uses it, and the research-methods domain decides how far its findings can be trusted, because scan length, design, comparison group and clinical state all move the result. [[Network and connectome models]] [[Network and developmental formulations]] [[Neuroimaging methods]] [[Replication and publication bias]]
+
+## Detailed lesson
+
+- [[Lesson - Default mode, salience and executive networks]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

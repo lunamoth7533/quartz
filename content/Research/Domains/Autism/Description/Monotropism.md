@@ -58,3 +58,8 @@ The founding statement is a theoretical argument from criteria, literature and p
 - [[Qualitative designs]] - most of the evidence for monotropism comes from first-person and interview material, with the strengths and limits that brings.
 
 **Cross-domain connection (curation).** Monotropism links the autism domain to the psychology domain's attention research and to the research-methods domain's measurement questions: a theory stated in first-person terms needs measures that agree with one another before it can be set against computational accounts of the same experiences. [[Attention]] [[Measurement validity and reliability]] [[Predictive processing accounts of autism]]
+
+## Detailed lesson
+
+- [[Lesson - Monotropism]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

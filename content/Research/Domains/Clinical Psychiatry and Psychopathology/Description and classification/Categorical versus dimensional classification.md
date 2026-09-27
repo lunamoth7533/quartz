@@ -53,6 +53,11 @@ This note frames the whole clinical domain and connects to [[Network and develop
 
 **Cross-domain connection (curation).** The measurement-invariance article is the dimensional programme's load-bearing methods dependency - spectra are only comparable across groups and time if their measures hold invariance - and the personality article is the domain where dimensional measurement is longest established. [[Measurement invariance]] [[Personality models]]
 
+## Detailed lesson
+
+- [[Lesson - Categorical versus dimensional classification]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Dimensional scores still require thresholds to be useful in services, so the debate partly relocates rather than disappears.

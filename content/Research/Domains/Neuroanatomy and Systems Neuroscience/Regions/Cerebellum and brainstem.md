@@ -48,3 +48,8 @@ This article pairs with [[Basal ganglia]] in the motor domain and with [[Autonom
 ## Uncertainties
 
 - Cerebellar contributions to cognition are investigated but less well established than its motor roles.
+
+## Detailed lesson
+
+- [[Lesson - Cerebellum and brainstem]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

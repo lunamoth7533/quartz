@@ -60,3 +60,8 @@ Esketamine's short-term effect in unipolar depression carries moderate certainty
 - [[Atypical antidepressants]] - bupropion's place in the dextromethorphan-bupropion combination.
 
 **Cross-domain connection (curation).** Rapid-acting antidepressants join the neurochemistry domain's glutamate note and the neurobiology domain's plasticity notes to a clinical claim about speed, and the bipolar domain's phase logic tests how far that claim travels. [[Glutamate and GABA]] [[Long-term potentiation and depression]] [[Phase-specific bipolar treatment evidence]]
+
+## Detailed lesson
+
+- [[Lesson - Ketamine and rapid-acting antidepressants]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

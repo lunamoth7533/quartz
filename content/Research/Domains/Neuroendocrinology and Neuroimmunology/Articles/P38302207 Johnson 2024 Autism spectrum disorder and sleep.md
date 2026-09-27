@@ -58,6 +58,7 @@ Linking sleep loss to daytime behaviour in clinical data leaves the direction op
 ## Used by
 
 - [[Sleep and circadian disruption across conditions]]
+- [[Hypnotics and sleep medicines]]
 
 ## Working notes
 

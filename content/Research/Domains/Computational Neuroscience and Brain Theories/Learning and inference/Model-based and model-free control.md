@@ -50,3 +50,8 @@ This note extends [[Reinforcement learning]] and is used in the ADHD and clinica
 ## Uncertainties
 
 - Parameters estimated from behaviour are not direct measures of a neural strategy. [[P31769410 Wilson 2019 Computational modelling rules#^p31769410-identifiability|Computational modelling rules]]
+
+## Detailed lesson
+
+- [[Lesson - Model-based and model-free control]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

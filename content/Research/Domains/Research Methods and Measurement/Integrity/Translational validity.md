@@ -46,3 +46,8 @@ This note is the bridge between the biological domains and the clinical ones, an
 ## Uncertainties
 
 - Predictive validity is often assessed retrospectively, which weakens the evidence it provides.
+
+## Detailed lesson
+
+- [[Lesson - Translational validity]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

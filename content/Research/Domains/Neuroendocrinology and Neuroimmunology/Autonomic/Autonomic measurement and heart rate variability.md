@@ -49,3 +49,8 @@ This note is the measurement companion to [[Autonomic regulation]] and a worked 
 ## Uncertainties
 
 - Standardisation of recording and analysis remains incomplete, which limits comparison across studies.
+
+## Detailed lesson
+
+- [[Lesson - Autonomic measurement and heart rate variability]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

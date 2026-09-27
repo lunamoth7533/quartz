@@ -71,3 +71,8 @@ Overlap statistics depend on the sample, the informant and the diagnostic instru
 ## Study question
 
 How would you reason about a presentation that fits two categories without forcing a single-label answer?
+
+## Detailed lesson
+
+- [[Lesson - Co-occurrence and differential reasoning]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

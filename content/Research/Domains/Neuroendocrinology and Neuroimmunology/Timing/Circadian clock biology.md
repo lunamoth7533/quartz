@@ -57,3 +57,8 @@ This note supplies the biology behind [[Circadian rhythms and sleep]] and the ci
 ## Uncertainties
 
 - Actigraphy and questionnaire measures of rhythm are useful but coarse relative to the underlying molecular cycle.
+
+## Detailed lesson
+
+- [[Lesson - Circadian clock biology]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

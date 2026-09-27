@@ -44,9 +44,15 @@ Migraine mechanisms involve trigeminovascular and cortical processes; treatment 
 This article connects [[Sensory and motor systems]] to the clinical material on chronic pain and to the interoceptive discussion in [[Interoception and autonomic pathways]].
 
 - [[Serotonin-noradrenaline reuptake inhibitors]] - duloxetine's evidence in chronic pain other than headache, the best-supported antidepressant result in pain, gathered in people without clinically low mood.
+- [[Antiseizure medications]] - migraine and neuropathic pain are among their main non-epileptic uses, with use-dependent sodium-channel block and gabapentin's calcium-channel binding as the proposed mechanisms.
 
 **Cross-domain connection (curation).** The psychology domain's emotion-regulation and attention material meets pain through the modulation systems - attention and context change what is felt because the pathway is built to be modulated - which is also why psychological pain management has a mechanism-level rationale rather than being merely supportive. [[Attention]] [[Emotion regulation]]
 
 ## Uncertainties
 
 - The relationship between migraine and psychiatric conditions is associational and partly explained by shared treatment and lifestyle factors.
+
+## Detailed lesson
+
+- [[Lesson - Headache and pain]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

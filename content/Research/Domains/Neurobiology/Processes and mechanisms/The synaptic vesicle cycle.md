@@ -45,3 +45,8 @@ This note details the release step of [[Synapses and plasticity]] and the supply
 
 - Vesicle pool sizes and release probabilities differ by synapse, so findings from one preparation do not generalise to all synapses.
 - Human presynaptic function is inferred from indirect measures, including imaging and pharmacology, rather than recorded directly.
+
+## Detailed lesson
+
+- [[Lesson - The synaptic vesicle cycle]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

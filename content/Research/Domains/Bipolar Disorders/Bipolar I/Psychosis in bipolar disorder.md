@@ -60,3 +60,8 @@ Prevalence rests on a very large but heterogeneous pooled literature built from 
 - [[Bipolar II disorder]] - the type with fewer psychotic features and no clear schizophrenia-related polygenic signal.
 
 **Cross-domain connection (curation).** Bipolar psychosis is where the bipolar domain meets the clinical-psychiatry domain's psychosis constructs and the genetics domain's polygenic scores; the methods domain's line between group association and individual prediction governs both the genetic gradient and the imaging differences. [[Psychosis constructs]] [[Polygenic scores and prediction]] [[Association versus individual prediction]]
+
+## Detailed lesson
+
+- [[Lesson - Psychosis in bipolar disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

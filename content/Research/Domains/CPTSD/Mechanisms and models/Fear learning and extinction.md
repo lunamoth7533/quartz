@@ -49,3 +49,8 @@ This is the mechanism reference for [[Anxiety and fear constructs]] and [[Psycho
 ## Uncertainties
 
 - Laboratory extinction is a model of one mechanism; it does not represent trauma memory in full.
+
+## Detailed lesson
+
+- [[Lesson - Fear learning and extinction]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 10 - CPTSD|CPTSD]]

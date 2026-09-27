@@ -67,3 +67,8 @@ The strongest comparative evidence is one meta-analysis that could pool only the
 - [[Rumination and repetitive negative thinking]] - the regulation strategy most tied to both depressive and (hypo)manic symptoms in bipolar disorder, and to intrusive re-experiencing in PTSD.
 
 **Cross-domain connection (curation).** Emotion dysregulation joins the psychology domain's process account of regulation to the four condition domains and to the clinical-psychiatry domain's dimensional classification, while the neuroendocrine domain's stress physiology supplies the bodily side of the same reactions. [[Emotion regulation]] [[Categorical versus dimensional classification]] [[Stress response and the HPA axis]]
+
+## Detailed lesson
+
+- [[Lesson - Emotion dysregulation across conditions]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]

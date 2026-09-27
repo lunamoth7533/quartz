@@ -37,13 +37,13 @@ tags: [research/source, research/domain/psychology]
 
 ## Reported findings (checked abstract)
 
-Against treatment as usual, therapies tailored to borderline personality disorder lowered symptom severity (SMD -0.52; 22 trials; moderate-quality evidence). Smaller gains in self-harm, suicide-related outcomes and psychosocial functioning rested on low-quality evidence, and only the severity change passed the authors' threshold for a clinically relevant difference.
+Against treatment as usual, therapies tailored to borderline personality disorder lowered symptom severity (SMD -0.52; 22 trials; moderate-quality evidence). Smaller gains in self-harm, suicide-related outcomes and functioning rested on low-quality evidence; only the severity change reached the authors' threshold for clinical relevance.
 ^p32368793-tau
 
 Dialectical behaviour therapy was the most studied model, about one-third of all trials. Compared with usual care it reduced borderline severity and self-harm and improved functioning, each estimate coming from three to seven small trials rated low quality.
 ^p32368793-dbt
 
-Subgroup comparisons found no clear difference between therapy models on severity or functioning, and harms could not be judged because too few trials reported them.
+Therapy models did not clearly differ on severity or functioning, and too few trials reported harms to judge them.
 ^p32368793-models
 
 ## Scope as reported

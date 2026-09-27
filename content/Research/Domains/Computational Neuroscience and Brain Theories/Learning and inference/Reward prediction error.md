@@ -46,3 +46,8 @@ This is the physiological anchor for [[Reinforcement learning]] and is used in t
 ## Uncertainties
 
 - Translating group-level prediction-error differences into claims about any individual is not supported.
+
+## Detailed lesson
+
+- [[Lesson - Reward prediction error]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

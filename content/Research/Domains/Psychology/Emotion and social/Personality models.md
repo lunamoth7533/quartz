@@ -48,3 +48,8 @@ This note links to [[Personality constructs and traits]] in the clinical domain 
 ## Uncertainties
 
 - Self-report and informant ratings of personality diverge systematically, and neither is a gold standard.
+
+## Detailed lesson
+
+- [[Lesson - Personality models]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

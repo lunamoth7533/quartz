@@ -48,3 +48,8 @@ The spinal cord is where [[Sensory and motor systems]] converge with peripheral 
 ## Uncertainties
 
 - Individual variation in root and tract anatomy produces occasional atypical presentations.
+
+## Detailed lesson
+
+- [[Lesson - Spinal cord]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

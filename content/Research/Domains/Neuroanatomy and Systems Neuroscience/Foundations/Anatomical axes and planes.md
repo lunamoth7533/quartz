@@ -44,3 +44,8 @@ This vocabulary is the prerequisite for [[Neuroanatomical methods]] and for the 
 ## Uncertainties
 
 - Terminology is not perfectly consistent across atlases and clinical traditions, particularly around the brain stem and diencephalon.
+
+## Detailed lesson
+
+- [[Lesson - Anatomical axes and planes]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

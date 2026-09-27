@@ -58,6 +58,7 @@ Divergent rankings for the same phase show that a guideline's order partly refle
 ## Used by
 
 - [[Phase-specific bipolar treatment evidence]]
+- [[Antidepressants in bipolar disorder]]
 
 ## Working notes
 

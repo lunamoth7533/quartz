@@ -58,3 +58,8 @@ Short-term efficacy against placebo in acute schizophrenia is supported by three
 - [[Psychosis constructs]] - the clinical target; a second mechanism that reduces psychosis is also evidence that dopamine blockade is not the only route.
 
 **Cross-domain connection (curation).** The muscarinic route links the neurochemistry domain's cholinergic system to the clinical domain's psychosis constructs without passing through dopamine blockade, and the autonomic material explains why the approved product pairs a central agonist with a peripheral antagonist. [[Acetylcholine signalling]] [[Autonomic regulation]] [[Psychosis constructs]]
+
+## Detailed lesson
+
+- [[Lesson - Muscarinic antipsychotics]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

@@ -59,3 +59,8 @@ The comparative base is large but short-term: 150 mostly short double-blind tria
 - [[Dopamine signalling]] - the transmitter system and receptor subtypes these drugs block; a D2 claim should name the pathway it concerns.
 
 **Cross-domain connection (curation).** First-generation antipsychotics are where the pharmacology domain's receptor account meets the neurology domain's movement disorders and the neuroendocrine account of prolactin control: one blockade, three clinical signatures. The methods domain decides how to read the class comparisons, because comparator choice and exposure history shape every contrast with newer drugs. [[Antipsychotic mechanisms]] [[Movement disorders]] [[Thalamus and hypothalamus]] [[Bias and confounding]]
+
+## Detailed lesson
+
+- [[Lesson - First-generation antipsychotics]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

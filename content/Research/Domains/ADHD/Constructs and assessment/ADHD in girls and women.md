@@ -64,3 +64,8 @@ The evidence combines a meta-analysis of diagnosed samples, a national register 
 - [[Measurement invariance]] - an adult ADHD screener was only partially invariant across genders, so raw-score comparisons between women and men assume what has to be tested.
 
 **Cross-domain connection (curation).** This note joins the ADHD domain's measurement problems to the clinical-psychiatry domain's differential reasoning and the research-methods domain's invariance checks: a sex difference in diagnosed rates can arise from biology, presentation, referral or instrument, and only designs that separate these can say which. [[Co-occurrence and differential reasoning]] [[Measurement invariance]] [[Masking and camouflaging]]
+
+## Detailed lesson
+
+- [[Lesson - ADHD in girls and women]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 08 - ADHD|ADHD]]

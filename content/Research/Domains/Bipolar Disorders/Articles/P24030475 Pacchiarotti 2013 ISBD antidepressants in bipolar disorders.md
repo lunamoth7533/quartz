@@ -64,6 +64,7 @@ Consensus fills gaps where trials were lacking, so its class comparisons of swit
 - [[Selective serotonin reuptake inhibitors]]
 - [[Tricyclic antidepressants]]
 - [[Atypical antidepressants]]
+- [[Antidepressants in bipolar disorder]]
 
 ## Working notes
 

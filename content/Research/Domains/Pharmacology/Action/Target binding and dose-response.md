@@ -46,3 +46,8 @@ This note extends [[Pharmacodynamics and receptors]] and is used in [[Antipsycho
 ## Uncertainties
 
 - Two drugs with similar binding profiles can differ clinically because of metabolites, kinetics and off-target actions.
+
+## Detailed lesson
+
+- [[Lesson - Target binding and dose-response]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

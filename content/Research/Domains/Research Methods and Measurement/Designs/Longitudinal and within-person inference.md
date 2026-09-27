@@ -50,3 +50,8 @@ This note supports the course and outcome articles across the condition domains 
 ## Uncertainties
 
 - Measurement instruments themselves may change meaning over long follow-up, which is an invariance problem in the temporal dimension. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-levels|Measurement invariance]]
+
+## Detailed lesson
+
+- [[Lesson - Longitudinal and within-person inference]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

@@ -48,3 +48,8 @@ This note completes the design trio with [[Experimental designs]] and [[Observat
 ## Uncertainties
 
 - Findings are not intended to be statistically generalisable, and asking them to be is a category error rather than a limitation.
+
+## Detailed lesson
+
+- [[Lesson - Qualitative designs]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

@@ -52,3 +52,8 @@ This note links the ADHD domain to [[Reinforcement learning]] and to [[Model-bas
 ## Uncertainties
 
 - Task parameters and everyday reinforcement sensitivity correlate weakly, which limits clinical inference from these paradigms.
+
+## Detailed lesson
+
+- [[Lesson - Reinforcement learning accounts of ADHD]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 08 - ADHD|ADHD]]

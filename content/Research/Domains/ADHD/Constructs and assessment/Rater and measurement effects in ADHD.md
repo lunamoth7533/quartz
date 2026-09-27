@@ -51,3 +51,8 @@ This note is the measurement companion to [[ADHD diagnosis and measurement]] and
 ## Uncertainties
 
 - Discrepancy between informants has been interpreted both as context sensitivity and as measurement error, and the literature has not settled the question.
+
+## Detailed lesson
+
+- [[Lesson - Rater and measurement effects in ADHD]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 08 - ADHD|ADHD]]

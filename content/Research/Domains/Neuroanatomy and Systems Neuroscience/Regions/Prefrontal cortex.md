@@ -68,3 +68,8 @@ Prefrontal involvement in executive processing is established from lesion and im
 - [[Default mode, salience and executive networks]] - the large-scale networks in which medial and lateral prefrontal regions act as hubs.
 
 **Cross-domain connection (curation).** The prefrontal cortex is where regional anatomy meets psychology's executive and valuation constructs, neurochemistry's catecholamine tuning and the developmental timeline; the ADHD, bipolar and CPTSD domains borrow it for accounts built on group-level imaging, so the reading rules for group brain differences apply to each. [[Attention and executive function]] [[ADHD and prefrontal catecholamines]] [[Sensitive periods]] [[Interpreting group brain differences]] [[PTSD biology and CPTSD evidence limits]]
+
+## Detailed lesson
+
+- [[Lesson - Prefrontal cortex]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

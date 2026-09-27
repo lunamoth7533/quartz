@@ -50,3 +50,8 @@ This is the molecular layer for [[Inheritance and variation]] and [[Gene-environ
 ## Uncertainties
 
 - Regulatory variation, non-coding sequence and post-transcriptional control remain harder to interpret than coding changes.
+
+## Detailed lesson
+
+- [[Lesson - DNA RNA and gene expression]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

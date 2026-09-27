@@ -58,3 +58,8 @@ Efficacy differences between these drugs are mostly gradual while harm differenc
 - [[Efficacy versus tolerability]] - the trade-off these drugs make vivid: small efficacy differences against large metabolic and movement differences.
 
 **Cross-domain connection (curation).** Second-generation antipsychotics link the pharmacology domain's receptor theory to the bipolar domain's phase-specific evidence and to long-term physical health. Reading them well needs the methods domain's distinction between short-trial markers and long-term outcomes. [[Pharmacodynamics and receptors]] [[Phase-specific bipolar treatment evidence]] [[Short-term versus long-term outcomes]]
+
+## Detailed lesson
+
+- [[Lesson - Second-generation antipsychotics]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

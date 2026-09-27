@@ -66,3 +66,8 @@ Prevalence evidence for autism is meta-analytic but rests on recorded diagnoses,
 - [[ADHD in girls and women]] - the wider picture behind the adult female excess in ADHD-PTSD comorbidity: ADHD in females tends to be recognised later, often after internalising diagnoses.
 
 **Cross-domain connection (curation).** This note joins the CPTSD domain to the autism and ADHD domains through the clinical-psychiatry domain's differential reasoning: a feature seen in a trauma-exposed autistic or ADHD person may belong to either condition, to both, or to the measurement, which is why the methods domain's rules on matching populations apply before any rate is compared. [[Co-occurrence and differential reasoning]] [[Reading a study and matching populations]] [[Autism heterogeneity and support needs]]
+
+## Detailed lesson
+
+- [[Lesson - Trauma and PTSD in autistic and ADHD people]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 10 - CPTSD|CPTSD]]

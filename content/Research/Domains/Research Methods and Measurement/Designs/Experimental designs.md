@@ -50,3 +50,8 @@ This note is the counterpart to [[Observational designs]] and is applied in [[Tr
 ## Uncertainties
 
 - Blinding is not always feasible, and unblinded trials systematically overestimate some effects.
+
+## Detailed lesson
+
+- [[Lesson - Experimental designs]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

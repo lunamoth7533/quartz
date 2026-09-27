@@ -61,3 +61,8 @@ Across the conditions in this library the evidence is modest and uneven. PTSD ha
 - [[Psychological interventions for complex trauma]] - the complex-trauma therapy evidence against which mindfulness's PTSD effect has to be read, with its trial-category cautions.
 
 **Cross-domain connection (curation).** Mindfulness-based interventions connect the psychology domain's attention and emotion-regulation constructs to trial evidence in bipolar disorder, ADHD and trauma, and the research-methods domain's review-quality tools, such as AMSTAR 2, decide how much weight their pooled figures can bear. [[Attention]] [[Emotion regulation]] [[Meta-analysis and review limits]]
+
+## Detailed lesson
+
+- [[Lesson - Mindfulness-based interventions]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

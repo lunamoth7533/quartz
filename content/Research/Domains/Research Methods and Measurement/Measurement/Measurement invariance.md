@@ -53,3 +53,8 @@ This note extends [[Measurement validity and reliability]] and is used in the CP
 ## Uncertainties
 
 - Fit-index thresholds for invariance testing are conventions, and small samples make the tests unreliable.
+
+## Detailed lesson
+
+- [[Lesson - Measurement invariance]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

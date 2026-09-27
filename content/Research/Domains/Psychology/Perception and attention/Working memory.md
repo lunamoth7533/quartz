@@ -55,3 +55,8 @@ Working memory is the load-bearing component of [[Attention and executive functi
 ## Uncertainties
 
 - Training studies show reliable improvements on trained tasks with much weaker transfer to untrained ones.
+
+## Detailed lesson
+
+- [[Lesson - Working memory]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

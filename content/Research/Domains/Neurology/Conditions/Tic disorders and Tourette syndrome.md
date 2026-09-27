@@ -59,3 +59,8 @@ The clinical picture and course come from a reference chapter rather than from c
 - [[Functional neurological disorder]] - the differential for sudden-onset tic-like presentations, which raise a functional-versus-primary question.
 
 **Cross-domain connection (curation).** Tic disorders connect the neurology domain's movement phenomenology and basal ganglia circuits to the clinical-psychiatry domain's OCD constructs and the ADHD domain's co-occurrence problems, and the research-methods domain's sampling caution explains why comorbidity figures from genetic studies differ from community ones. [[Movement disorders]] [[OCD and related constructs]] [[Reading a study and matching populations]]
+
+## Detailed lesson
+
+- [[Lesson - Tic disorders and Tourette syndrome]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

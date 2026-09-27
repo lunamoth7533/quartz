@@ -64,6 +64,7 @@ Guideline agreement concerns first-line treatment classes for populations and re
 - [[Selective serotonin reuptake inhibitors]]
 - [[Serotonin-noradrenaline reuptake inhibitors]]
 - [[Psychedelics and MDMA-assisted therapy]]
+- [[Adrenergic blockers in psychiatry]]
 
 ## Working notes
 

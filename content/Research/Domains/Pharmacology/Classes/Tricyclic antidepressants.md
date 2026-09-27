@@ -65,3 +65,8 @@ Depression evidence comes from the large 2018 trial network, with certainty from
 - [[Antidepressant mechanisms]] - the delay problem and the processing and plasticity accounts that apply to tricyclics as to other monoamine drugs.
 
 **Cross-domain connection (curation).** The tricyclics show how one mechanism family can rank high on efficacy and low on safety at once; the neurochemistry acetylcholine note explains the burden, and the ADHD, autism and bipolar domains each read the class through a different risk. [[Acetylcholine signalling]] [[ADHD medication evidence]] [[Intervention outcomes and autistic perspectives]] [[Phase-specific bipolar treatment evidence]]
+
+## Detailed lesson
+
+- [[Lesson - Tricyclic antidepressants]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

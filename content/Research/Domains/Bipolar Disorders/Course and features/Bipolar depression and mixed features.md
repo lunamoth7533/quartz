@@ -50,9 +50,15 @@ This note pairs with [[Bipolar I episodes and course]] and [[Phase-specific bipo
 
 - [[Rumination and repetitive negative thinking]] - rumination tracks depressive and (hypo)manic symptoms alike in bipolar disorder, which bears on presentations where both poles meet.
 - [[Thyroid axis and mood]] - the research record on thyroid hormone added in bipolar depression and rapid cycling: open-label promise, mostly unreplicated in randomised trials.
+- [[Antidepressants in bipolar disorder]] - switch risk when antidepressants treat bipolar depression, and the missing trials of antidepressants alone in depression with mixed features.
 
 The diagnosis-history and subtype articles in the condition domain develop the longitudinal and genetic-context parts of this story; reading them together makes the episode/disorder/ascertainment layers explicit rather than implied. [[Bipolar I episodes and course]] [[Bipolar genetics and polygenic risk]]
 
 ## Uncertainties
 
 - How to define the boundary between mixed features and rapid cycling remains debated.
+
+## Detailed lesson
+
+- [[Lesson - Bipolar depression and mixed features]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

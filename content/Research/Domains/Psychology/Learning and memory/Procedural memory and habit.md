@@ -48,3 +48,8 @@ This note completes the memory systems with [[Episodic memory]] and is used in t
 ## Uncertainties
 
 - The degree to which everyday behaviour is habitual is disputed and difficult to measure outside the laboratory.
+
+## Detailed lesson
+
+- [[Lesson - Procedural memory and habit]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

@@ -64,3 +64,8 @@ Psilocybin's short-term effect in depression carries moderate certainty from sev
 - [[Experimental designs]] - blinding and active controls, the design problems that decide what these trials can show.
 
 **Cross-domain connection (curation).** Psychedelic and MDMA trials sit where neurochemistry's serotonin receptors, the CPTSD domain's psychotherapy evidence and research methods' blinding problem meet; each regulatory and evidential judgement here turns on the methods question as much as on the pharmacology. [[Serotonin signalling]] [[Psychological interventions for complex trauma]] [[Experimental designs]]
+
+## Detailed lesson
+
+- [[Lesson - Psychedelics and MDMA-assisted therapy]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

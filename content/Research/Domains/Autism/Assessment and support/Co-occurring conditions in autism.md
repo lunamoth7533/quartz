@@ -66,3 +66,8 @@ Prevalence evidence is broad but heterogeneous: two large meta-analyses and an e
 - [[Suicide and self-harm]] - co-occurring conditions, especially ADHD, carry much of the raised risk of suicidal behaviour in autism.
 
 **Cross-domain connection (curation).** Co-occurrence ties the autism domain to neurology through epilepsy, to neuroendocrinology through sleep and circadian regulation, and to the clinical-psychiatry domain's differential reasoning; the research-methods lesson is the same each time - a prevalence figure belongs to its sample and diagnostic method, not to autistic people in general. [[Seizures and epilepsy]] [[Sleep and circadian disruption across conditions]] [[Reading a study and matching populations]]
+
+## Detailed lesson
+
+- [[Lesson - Co-occurring conditions in autism]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

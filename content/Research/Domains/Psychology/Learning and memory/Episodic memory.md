@@ -50,3 +50,8 @@ This article pairs with [[Memory processes]] and with [[Memory and trauma]] in t
 ## Uncertainties
 
 - Metamemory is poorly calibrated: confidence and accuracy dissociate under many conditions.
+
+## Detailed lesson
+
+- [[Lesson - Episodic memory]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

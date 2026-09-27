@@ -65,3 +65,8 @@ A systematic review of the first decade of experiments found highly mixed result
 - [[Monotropism]] - an autistic-developed rival account that puts the allocation of attention first, so far with much less experimental testing than predictive accounts.
 
 **Cross-domain connection (curation).** This note is where the computational-theories domain's inference models meet the autism domain's sensory and social descriptions. Stating the level of each claim - computational, algorithmic or neural - and holding it to the methods domain's standards for comparing models is what separates a tested version of the account from a redescription of autistic traits in Bayesian vocabulary. [[Levels of analysis]] [[Model comparison and identifiability]] [[Bayesian inference and predictive processing]]
+
+## Detailed lesson
+
+- [[Lesson - Predictive processing accounts of autism]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

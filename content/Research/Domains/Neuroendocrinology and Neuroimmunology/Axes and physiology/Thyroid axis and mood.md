@@ -58,3 +58,8 @@ The feedback architecture of the axis is textbook physiology. [[F34 OpenStax Pit
 - [[Sex hormones and mood across the lifespan]] - the other endocrine influence on mood in this library; in both, associations differ between women and men.
 
 **Cross-domain connection (curation).** The thyroid axis links the neuroendocrine domain's feedback loops to the bipolar domain's lithium and bipolar-depression questions and to the pharmacology domain's monitoring logic, while the research-methods domain supplies the check that a modest observational association does not show direction. [[Lithium mechanisms and uncertainty]] [[Therapeutic index, monitoring and interactions]] [[Evidence types and causal inference]]
+
+## Detailed lesson
+
+- [[Lesson - Thyroid axis and mood]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

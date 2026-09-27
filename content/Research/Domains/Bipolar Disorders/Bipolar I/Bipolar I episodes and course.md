@@ -51,6 +51,14 @@ Descriptions of course are population averages; individual trajectories, trigger
 
 ## Connections
 
+- [[Mania]] - the defining episode in full: its features, the DSM and ICD-11 thresholds, psychotic features, what precedes episodes and the acute-treatment evidence.
+- [[Psychosis in bipolar disorder]] - delusions and hallucinations within mood episodes, most frequent in bipolar I, and the whole-course rule that keeps them inside this diagnosis.
+- [[Hypomania]] - the milder elevated state, which also occurs in bipolar I; where its line with mania falls decides bipolar I versus bipolar II.
+- [[Bipolar II disorder]] - the comparison type, defined by hypomania and major depression, with more depressive episodes but no difference in suicide-attempt risk; not a milder bipolar I.
+- [[Bipolar II treatment evidence]] - what happens when bipolar I trial results are carried over to bipolar II, a type with few treatment trials of its own.
+- [[Rapid cycling]] - a course specifier for four or more episodes in a year, one of the patterns the lifetime course described here can take.
+- [[Cyclothymia and the bipolar spectrum]] - the subthreshold end of the spectrum whose most severe pole, defined by mania, is bipolar I.
+- [[Antidepressants in bipolar disorder]] - the switch question raised by the depressive episodes of the course; for bipolar I, consensus limits antidepressants to add-on use.
 - [[Phase-specific bipolar treatment evidence]] - applies this note's episode-and-phase framing: each treatment result belongs to the phase in which it was tested, acute or maintenance.
 - [[Bipolar psychotherapy evidence]] - tests adjunctive psychological treatment against the long-term course described here, with recurrence as the main trial outcome.
 - [[Dopamine hypothesis in bipolar disorder]] - a mechanistic account of the episodes defined here; its findings change direction between mania and depression, so claims must name the episode state.

@@ -60,3 +60,8 @@ The paradigm is a framework rather than a testable hypothesis, and its core stat
 - [[Qualitative designs]] - the methods most used to capture autistic perspectives, with their strengths and limits for claims about outcomes.
 
 **Cross-domain connection (curation).** The neurodiversity paradigm is where the autism domain's participation literature meets the clinical-psychiatry domain's classification debate and the research-methods domain's questions about outcome measurement: whether autism is described as disorder, difference or disability changes which categories are used, which outcomes are measured and whose reports count. [[Categorical versus dimensional classification]] [[Functional outcomes and measurement]] [[Intervention outcomes and autistic perspectives]]
+
+## Detailed lesson
+
+- [[Lesson - Neurodiversity paradigm]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

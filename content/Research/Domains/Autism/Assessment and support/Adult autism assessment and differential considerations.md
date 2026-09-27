@@ -68,3 +68,8 @@ Assessment pathways, instruments and eligibility differ by country and age group
 ## Study question
 
 What does a screening instrument contribute to adult autism assessment, and what does it not decide?
+
+## Detailed lesson
+
+- [[Lesson - Adult autism assessment and differential considerations]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

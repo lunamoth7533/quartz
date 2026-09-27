@@ -5,8 +5,8 @@ module: "m05"
 module_order: 5
 domain: [pharmacology]
 condition: []
-lesson_count: 5
-source_count: 11
+lesson_count: 28
+source_count: 85
 canvas: "Learning Map - Pharmacology.canvas"
 cssclasses: [research-module]
 tags: [research/module, research/module/m05]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m05]
 
 # Module 05 - Pharmacology
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Pharmacology.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 28 · **Canvas.** [[Learning Map - Pharmacology.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -37,6 +37,29 @@ Pharmacology explains how exposure, targets and measurement interact. It is writ
 3. [[Lesson - Half-life and steady state]] · after [[Lesson - Pharmacokinetics and ADME]] · 2 sources
 4. [[Lesson - Efficacy versus tolerability]] · after [[Lesson - Half-life and steady state]] · 3 sources
 5. [[Lesson - Therapeutic index, monitoring and interactions]] · after [[Lesson - Efficacy versus tolerability]] · 3 sources
+6. [[Lesson - Drug classes and mechanisms overview]] · after [[Lesson - Pharmacodynamics and receptors]] · 7 sources
+7. [[Lesson - Target binding and dose-response]] · after [[Lesson - Pharmacodynamics and receptors]], [[Lesson - Drug classes and mechanisms overview]] · 6 sources
+8. [[Lesson - Receptor adaptation tolerance and dependence]] · after [[Lesson - Target binding and dose-response]] · 6 sources
+9. [[Lesson - Pharmacogenomics]] · after [[Lesson - Receptor adaptation tolerance and dependence]] · 5 sources
+10. [[Lesson - Trial endpoints, benefit and harms]] · after [[Lesson - Pharmacogenomics]] · 7 sources
+11. [[Lesson - Antidepressant mechanisms]] · after [[Lesson - Trial endpoints, benefit and harms]], [[Lesson - Drug classes and mechanisms overview]] · 6 sources
+12. [[Lesson - Selective serotonin reuptake inhibitors]] · after [[Lesson - Antidepressant mechanisms]] · 7 sources
+13. [[Lesson - Serotonin-noradrenaline reuptake inhibitors]] · after [[Lesson - Selective serotonin reuptake inhibitors]] · 7 sources
+14. [[Lesson - Tricyclic antidepressants]] · after [[Lesson - Serotonin-noradrenaline reuptake inhibitors]] · 6 sources
+15. [[Lesson - Monoamine oxidase inhibitors]] · after [[Lesson - Tricyclic antidepressants]] · 5 sources
+16. [[Lesson - Atypical antidepressants]] · after [[Lesson - Monoamine oxidase inhibitors]], [[Lesson - Selective serotonin reuptake inhibitors]] · 6 sources
+17. [[Lesson - Ketamine and rapid-acting antidepressants]] · after [[Lesson - Antidepressant mechanisms]], [[Lesson - Atypical antidepressants]] · 5 sources
+18. [[Lesson - Psychedelics and MDMA-assisted therapy]] · after [[Lesson - Pharmacodynamics and receptors]] · 4 sources
+19. [[Lesson - Antipsychotic mechanisms]] · after [[Lesson - Pharmacodynamics and receptors]] · 5 sources
+20. [[Lesson - First-generation antipsychotics]] · after [[Lesson - Antipsychotic mechanisms]] · 4 sources
+21. [[Lesson - Second-generation antipsychotics]] · after [[Lesson - Antipsychotic mechanisms]], [[Lesson - First-generation antipsychotics]] · 4 sources
+22. [[Lesson - Muscarinic antipsychotics]] · after [[Lesson - Antipsychotic mechanisms]], [[Lesson - Second-generation antipsychotics]] · 5 sources
+23. [[Lesson - Anticonvulsant mood stabilisers]] · after [[Lesson - Muscarinic antipsychotics]] · 5 sources
+24. [[Lesson - Antiseizure medications]] · after [[Lesson - Anticonvulsant mood stabilisers]] · 4 sources
+25. [[Lesson - Benzodiazepines and Z-drugs]] · after [[Lesson - Antiseizure medications]] · 6 sources
+26. [[Lesson - Hypnotics and sleep medicines]] · after [[Lesson - Benzodiazepines and Z-drugs]] · 4 sources
+27. [[Lesson - Adrenergic blockers in psychiatry]] · after [[Lesson - Hypnotics and sleep medicines]] · 6 sources
+28. [[Lesson - Stimulant and non-stimulant mechanisms]] · after [[Lesson - Adrenergic blockers in psychiatry]] · 5 sources
 
 ## Worked-example trail
 
@@ -45,6 +68,29 @@ Pharmacology explains how exposure, targets and measurement interact. It is writ
 - [[Lesson - Half-life and steady state]] - hypothetical worked example: an effect appears before the concentration peak, and the difference is explained.
 - [[Lesson - Efficacy versus tolerability]] - hypothetical worked example: a trial's dropout measure is compared with what it fails to capture.
 - [[Lesson - Therapeutic index, monitoring and interactions]] - hypothetical worked example: a narrow-window drug's monitoring need is derived from its exposure properties.
+- [[Lesson - Drug classes and mechanisms overview]] - hypothetical worked example: a claim that a compound "is classified as an antidepressant, so it works by raising serotonin" is tested against what a class label actually promises.
+- [[Lesson - Target binding and dose-response]] - hypothetical worked example: a "binds the receptor with very high affinity" headline is unpacked into agonism, dose-response shape and whether the target sits in other tissues too.
+- [[Lesson - Receptor adaptation tolerance and dependence]] - hypothetical worked example: a "40% show dependence" headline is checked for whether tolerance, dependence or withdrawal was actually measured, and against what comparison.
+- [[Lesson - Pharmacogenomics]] - hypothetical worked example: a testing company's "tells you which antidepressant works best" claim is separated into its exposure, reaction-risk and response-prediction parts.
+- [[Lesson - Trial endpoints, benefit and harms]] - hypothetical worked example: a press summary of a significant trial result is tested against endpoint, rater, matched harms and certainty grade.
+- [[Lesson - Antidepressant mechanisms]] - hypothetical worked example: a "depression is a serotonin deficiency, proven" claim is checked against the hours-versus-weeks mismatch this lesson opens with.
+- [[Lesson - Selective serotonin reuptake inhibitors]] - hypothetical worked example: a "proven safe and effective, full stop" claim about SSRIs is tested condition by condition.
+- [[Lesson - Serotonin-noradrenaline reuptake inhibitors]] - hypothetical worked example: duloxetine's chronic-pain evidence is checked against a claim that the whole SNRI class relieves pain.
+- [[Lesson - Tricyclic antidepressants]] - hypothetical worked example: a "replaced because they don't work as well" claim about tricyclics is checked against the largest head-to-head efficacy result.
+- [[Lesson - Monoamine oxidase inhibitors]] - hypothetical worked example: a blanket tyramine-food warning for "antidepressants" is checked against which specific MAOIs the risk actually applies to.
+- [[Lesson - Atypical antidepressants]] - hypothetical worked example: a "unique shared mechanism" claim is tested against three members' unrelated receptor profiles.
+- [[Lesson - Ketamine and rapid-acting antidepressants]] - hypothetical worked example: a clinic's "lasting remission" marketing claim is separated into a 24-hour, a repeated-dosing and a durability claim.
+- [[Lesson - Psychedelics and MDMA-assisted therapy]] - hypothetical worked example: a "cures patients others could not help" headline about psilocybin is checked against comparator, certainty rating and unblinding.
+- [[Lesson - Antipsychotic mechanisms]] - hypothetical worked example: an older textbook's "antipsychotics work by blocking dopamine" claim is dated and scoped against a newer muscarinic drug.
+- [[Lesson - First-generation antipsychotics]] - hypothetical worked example: a two-bar movement-side-effect chart is checked against which comparator drug each bar is actually built from.
+- [[Lesson - Second-generation antipsychotics]] - hypothetical worked example: a "metabolically safer than first-generation" claim is broken apart drug by drug.
+- [[Lesson - Muscarinic antipsychotics]] - hypothetical worked example: a "causes none of the side effects doctors used to worry about" claim is checked against the drug's actual gastrointestinal and heart-rate signal.
+- [[Lesson - Anticonvulsant mood stabilisers]] - hypothetical worked example: a "prevents both mania and depression" claim is checked against each drug's polarity-specific evidence.
+- [[Lesson - Antiseizure medications]] - hypothetical worked example: a "calms overactive nerves, so it calms an overactive mood" claim is tested against the two separate accounts offered for pain relief.
+- [[Lesson - Benzodiazepines and Z-drugs]] - hypothetical worked example: a "trial proved it works, so safety worries are overblown" argument is separated into its short-term and long-term claims.
+- [[Lesson - Hypnotics and sleep medicines]] - hypothetical worked example: a "melatonin and prescription sleep aids work the same way" claim is checked receptor route by receptor route.
+- [[Lesson - Adrenergic blockers in psychiatry]] - hypothetical worked example: an "adrenergic drugs calm the nervous system, so any should help trauma" claim is tested receptor by receptor against prazosin's and propranolol's actual trial results.
+- [[Lesson - Stimulant and non-stimulant mechanisms]] - hypothetical worked example: an "opposite mechanisms, so if one fails the other will work" claim is checked against the shared prefrontal catecholamine target.
 
 ## Core and advanced branches
 

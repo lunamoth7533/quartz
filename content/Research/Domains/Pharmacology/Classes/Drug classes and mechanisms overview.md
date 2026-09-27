@@ -60,3 +60,8 @@ This overview indexes [[Antidepressant mechanisms]], [[Antipsychotic mechanisms]
 ## Uncertainties
 
 - Within-class differences in efficacy and tolerability are often larger than between-class differences for a given individual.
+
+## Detailed lesson
+
+- [[Lesson - Drug classes and mechanisms overview]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

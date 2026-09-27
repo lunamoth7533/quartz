@@ -50,6 +50,11 @@ This note integrates [[Categorical versus dimensional classification]] with [[Ne
 
 **Cross-domain connection (curation).** The network and developmental formulations in the clinical-psychiatry and computational-brain-theories domains supply a structural vocabulary that the research-methods domain uses when it evaluates causal and dimensional claims. A network-model inference in clinical material inherits the methods-domain discipline about whether a fitted network is identified, and the developmental material makes the inference path from cross-sectional to longitudinal claims explicit. [[Causality and counterfactuals]] [[Longitudinal and within-person inference]]
 
+## Detailed lesson
+
+- [[Lesson - Network and developmental formulations]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Network models of individual cases are hard to validate, and formulations vary between clinicians.

@@ -64,3 +64,8 @@ Depression efficacy for most members rests on the same trial network as the othe
 - [[Ketamine and rapid-acting antidepressants]] - where dextromethorphan-bupropion sits among faster-acting approaches.
 
 **Cross-domain connection (curation).** This group shows the limits of class names: one label covers a catecholamine drug studied in ADHD, sedating drugs that meet sleep medicine, and a melatonergic drug tied to circadian biology, so each member connects to a different domain. [[ADHD medication evidence]] [[Sleep disorders]] [[Circadian rhythms and sleep]] [[Drug classes and mechanisms overview]]
+
+## Detailed lesson
+
+- [[Lesson - Atypical antidepressants]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

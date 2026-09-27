@@ -60,6 +60,7 @@ This record summarizes a guideline summary; medication choice, dose and monitori
 - [[Bipolar psychotherapy evidence]] - the psychological half of the same phase-structured evidence base, with its own recurrence and depressive-symptom trials.
 - [[Trial endpoints, benefit and harms]] - the general account of how the choice of endpoint (symptom score, relapse, functioning) changes what a trial result means, applied here phase by phase.
 - [[Reviews, guidelines and preprints]] - explains the evidential weight of guidelines and reviews, the products whose first-, second- and third-line rankings this note reads.
+- [[Antidepressants in bipolar disorder]] - a worked case of phase logic: acute trials find no significant excess of switching over placebo, while maintenance evidence rests on one trial stopped early and register data.
 
 ## Study question
 

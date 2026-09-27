@@ -7,89 +7,62 @@ tags: [research/learning, research/coverage]
 
 # Learning Coverage Matrix
 
-Every topic under `Domains/`, the lesson that teaches it, the module that sequences it, and the number of source records its claims cite. Machine-readable copies of the same data live in `coverage-manifest.json` and `source-receipts.json` in the task workspace.
+Which concepts have lessons, which module teaches them, and how deep the evidence goes. Every table below is computed live from note properties and links, so it stays current as notes are added.
 
-**Totals at the learning build (2026-09-24).** 70 topics · 70 lessons · 10 module guides · 60 source records · 18 Canvas maps.
+## Coverage at a glance
 
-## Topics to lessons
+```dataviewjs
+const topics = dv.pages('#research/topic').where(p => p.note_type === "topic" && !p.file.path.includes("/Templates/"));
+const lessons = dv.pages('#research/lesson').where(p => p.note_type === "lesson");
+const sources = dv.pages('#research/source').where(p => p.note_type === "source" && !p.file.path.includes("/Templates/"));
+const taught = topics.where(t => t.file.outlinks.some(l => l.path.includes("/Lessons/")));
+const words = lessons.map(l => Number(l.word_count) || 0).array().sort((a, b) => a - b);
+dv.table(["Measure", "Count"], [
+  ["Concepts", topics.length],
+  ["Concepts with a lesson", taught.length],
+  ["Lessons", lessons.length],
+  ["Modules", dv.pages('#research/module').where(p => p.note_type === "module").length],
+  ["Practice questions", lessons.map(l => Number(l.question_count) || 0).array().reduce((a, b) => a + b, 0)],
+  ["Median lesson length (words)", words.length ? words[Math.floor(words.length / 2)] : 0],
+  ["Source records", sources.length],
+  ["Sources checked in full text", sources.where(s => s.verification === "full_text_checked").length],
+  ["Sources checked at abstract level", sources.where(s => s.verification === "abstract_checked").length],
+  ["Recent research (2023 onward)", sources.where(s => (s.file.tags || []).includes("#research/recent")).length],
+]);
+```
 
-| Topic | Module | Lesson | Sources | Notes |
-| --- | --- | --- | --- | --- |
-| [[ADHD across the lifespan]] | 08 ADHD | [[Lesson - ADHD across the lifespan]] | 2 |  |
-| [[ADHD and prefrontal catecholamines]] | 08 ADHD | [[Lesson - ADHD and prefrontal catecholamines]] | 1 |  |
-| [[ADHD diagnosis and measurement]] | 08 ADHD | [[Lesson - ADHD diagnosis and measurement]] | 4 |  |
-| [[ADHD medication evidence]] | 08 ADHD | [[Lesson - ADHD medication evidence]] | 3 |  |
-| [[Acetylcholine signalling]] | 03 Neurochemistry | [[Lesson - Acetylcholine signalling]] | 2 |  |
-| [[Action potentials]] | 02 Neurobiology | [[Lesson - Action potentials]] | 1 |  |
-| [[Adult autism assessment and differential considerations]] | 09 Autism | [[Lesson - Adult autism assessment and differential considerations]] | 3 | new gap topic |
-| [[Association versus individual prediction]] | 01 Research Methods and Evidence Literacy | [[Lesson - Association versus individual prediction]] | 3 |  |
-| [[Attention and executive function]] | 04 Psychology | [[Lesson - Attention and executive function]] | 2 |  |
-| [[Autism genetics and rare variants]] | 09 Autism | [[Lesson - Autism genetics and rare variants]] | 1 |  |
-| [[Autism heterogeneity and support needs]] | 09 Autism | [[Lesson - Autism heterogeneity and support needs]] | 1 |  |
-| [[Autism support and services]] | 09 Autism | [[Lesson - Autism support and services]] | 1 |  |
-| [[Autistic sensory and communication access]] | 09 Autism | [[Lesson - Autistic sensory and communication access]] | 3 | new gap topic |
-| [[Autonomic regulation]] | 03 Neurochemistry | [[Lesson - Autonomic regulation]] | 3 | new gap topic |
-| [[Bias and confounding]] | 01 Research Methods and Evidence Literacy | [[Lesson - Bias and confounding]] | 2 |  |
-| [[Bipolar I episodes and course]] | 07 Bipolar I | [[Lesson - Bipolar I episodes and course]] | 2 |  |
-| [[Bipolar MRI findings and their limits]] | 07 Bipolar I | [[Lesson - Bipolar MRI findings and their limits]] | 1 |  |
-| [[Bipolar genetics and polygenic risk]] | 07 Bipolar I | [[Lesson - Bipolar genetics and polygenic risk]] | 1 |  |
-| [[Bipolar psychotherapy evidence]] | 07 Bipolar I | [[Lesson - Bipolar psychotherapy evidence]] | 1 |  |
-| [[Brain regions and networks]] | 02 Neurobiology | [[Lesson - Brain regions and networks]] | 2 |  |
-| [[CBT and its evidence base]] | 04 Psychology | [[Lesson - CBT and its evidence base]] | 2 |  |
-| [[CBT for adult ADHD]] | 08 ADHD | [[Lesson - CBT for adult ADHD]] | 1 |  |
-| [[CPTSD and disturbances in self-organization]] | 10 CPTSD | [[Lesson - CPTSD and disturbances in self-organization]] | 2 |  |
-| [[Chemical imbalance framing]] | 03 Neurochemistry | [[Lesson - Chemical imbalance framing]] | 3 |  |
-| [[Circadian rhythms and sleep]] | 03 Neurochemistry | [[Lesson - Circadian rhythms and sleep]] | 1 |  |
-| [[Co-occurrence and differential reasoning]] | 01 Research Methods and Evidence Literacy | [[Lesson - Co-occurrence and differential reasoning]] | 3 | new gap topic |
-| [[Dopamine hypothesis in bipolar disorder]] | 07 Bipolar I | [[Lesson - Dopamine hypothesis in bipolar disorder]] | 1 |  |
-| [[Dopamine signalling]] | 03 Neurochemistry | [[Lesson - Dopamine signalling]] | 2 |  |
-| [[Effect sizes and uncertainty]] | 01 Research Methods and Evidence Literacy | [[Lesson - Effect sizes and uncertainty]] | 4 | new gap topic |
-| [[Efficacy versus tolerability]] | 05 Pharmacology | [[Lesson - Efficacy versus tolerability]] | 3 |  |
-| [[Emotion regulation]] | 04 Psychology | [[Lesson - Emotion regulation]] | 2 |  |
-| [[Evidence types and causal inference]] | 01 Research Methods and Evidence Literacy | [[Lesson - Evidence types and causal inference]] | 2 |  |
-| [[Excitation and inhibition balance]] | 03 Neurochemistry | [[Lesson - Excitation and inhibition balance]] | 2 |  |
-| [[Functional outcomes and measurement]] | 01 Research Methods and Evidence Literacy | [[Lesson - Functional outcomes and measurement]] | 3 | new gap topic |
-| [[Genes, environment and polygenic risk]] | 02 Neurobiology | [[Lesson - Genes, environment and polygenic risk]] | 2 |  |
-| [[Genetic inference and polygenic scores]] | 01 Research Methods and Evidence Literacy | [[Lesson - Genetic inference and polygenic scores]] | 3 | new gap topic |
-| [[Glutamate and GABA]] | 03 Neurochemistry | [[Lesson - Glutamate and GABA]] | 2 |  |
-| [[Half-life and steady state]] | 05 Pharmacology | [[Lesson - Half-life and steady state]] | 1 |  |
-| [[ICD-11 versus DSM-5 classification]] | 10 CPTSD | [[Lesson - ICD-11 versus DSM-5 classification]] | 2 |  |
-| [[Interpreting group brain differences]] | 06 Neurology | [[Lesson - Interpreting group brain differences]] | 1 |  |
-| [[Ion gradients and membrane potential]] | 02 Neurobiology | [[Lesson - Ion gradients and membrane potential]] | 2 |  |
-| [[Learning and conditioning]] | 04 Psychology | [[Lesson - Learning and conditioning]] | 1 |  |
-| [[Lithium mechanisms and uncertainty]] | 07 Bipolar I | [[Lesson - Lithium mechanisms and uncertainty]] | 2 |  |
-| [[Long-term potentiation and depression]] | 02 Neurobiology | [[Lesson - Long-term potentiation and depression]] | 1 | new gap topic |
-| [[MRI versus EEG]] | 06 Neurology | [[Lesson - MRI versus EEG]] | 2 |  |
-| [[Measurement validity and reliability]] | 01 Research Methods and Evidence Literacy | [[Lesson - Measurement validity and reliability]] | 2 | new gap topic |
-| [[Memory processes]] | 04 Psychology | [[Lesson - Memory processes]] | 1 |  |
-| [[Meta-analysis and review limits]] | 01 Research Methods and Evidence Literacy | [[Lesson - Meta-analysis and review limits]] | 3 | new gap topic |
-| [[Nervous system divisions]] | 06 Neurology | [[Lesson - Nervous system divisions]] | 1 |  |
-| [[Nervous tissue and myelin]] | 02 Neurobiology | [[Lesson - Nervous tissue and myelin]] | 2 |  |
-| [[Neurological examination]] | 06 Neurology | [[Lesson - Neurological examination]] | 1 |  |
-| [[Neurons and glia]] | 02 Neurobiology | [[Lesson - Neurons and glia]] | 1 |  |
-| [[Noradrenaline signalling]] | 03 Neurochemistry | [[Lesson - Noradrenaline signalling]] | 1 |  |
-| [[PTSD biology and CPTSD evidence limits]] | 10 CPTSD | [[Lesson - PTSD biology and CPTSD evidence limits]] | 1 |  |
-| [[Pharmacodynamics and receptors]] | 05 Pharmacology | [[Lesson - Pharmacodynamics and receptors]] | 2 |  |
-| [[Pharmacokinetics and ADME]] | 05 Pharmacology | [[Lesson - Pharmacokinetics and ADME]] | 1 |  |
-| [[Phase-based trauma therapy evidence]] | 10 CPTSD | [[Lesson - Phase-based trauma therapy evidence]] | 1 |  |
-| [[Phase-specific bipolar treatment evidence]] | 07 Bipolar I | [[Lesson - Phase-specific bipolar treatment evidence]] | 2 |  |
-| [[Psychoeducation and social rhythms]] | 07 Bipolar I | [[Lesson - Psychoeducation and social rhythms]] | 2 |  |
-| [[Psychological interventions for complex trauma]] | 10 CPTSD | [[Lesson - Psychological interventions for complex trauma]] | 1 |  |
-| [[Reading a study and matching populations]] | 01 Research Methods and Evidence Literacy | [[Lesson - Reading a study and matching populations]] | 2 |  |
-| [[Reviews, guidelines and preprints]] | 01 Research Methods and Evidence Literacy | [[Lesson - Reviews, guidelines and preprints]] | 2 |  |
-| [[Serotonin signalling]] | 03 Neurochemistry | [[Lesson - Serotonin signalling]] | 2 |  |
-| [[Short-term versus long-term outcomes]] | 08 ADHD | [[Lesson - Short-term versus long-term outcomes]] | 3 |  |
-| [[Stress response and the HPA axis]] | 03 Neurochemistry | [[Lesson - Stress response and the HPA axis]] | 1 |  |
-| [[Structural versus functional measures]] | 06 Neurology | [[Lesson - Structural versus functional measures]] | 1 |  |
-| [[Synapses and plasticity]] | 02 Neurobiology | [[Lesson - Synapses and plasticity]] | 1 |  |
-| [[Synaptic signalling model]] | 03 Neurochemistry | [[Lesson - Synaptic signalling model]] | 2 |  |
-| [[Therapeutic index, monitoring and interactions]] | 05 Pharmacology | [[Lesson - Therapeutic index, monitoring and interactions]] | 2 |  |
-| [[Trauma and stress responses]] | 10 CPTSD | [[Lesson - Trauma and stress responses]] | 2 |  |
+## Modules
 
-## Maps and arguments
+```dataview
+TABLE WITHOUT ID file.link AS Module, lesson_count AS Lessons, source_count AS Sources
+FROM #research/module
+WHERE note_type = "module"
+SORT module_order ASC
+```
 
-| Note | Learning entry | Canvas |
+## Concepts and their lessons
+
+```dataview
+TABLE WITHOUT ID file.link AS Concept, filter(file.outlinks, (l) => contains(l.path, "/Lessons/")) AS Lesson, source_count AS Sources
+FROM #research/topic
+WHERE note_type = "topic" AND !contains(file.path, "Templates")
+SORT file.folder ASC, file.name ASC
+```
+
+## Concepts still without a lesson
+
+```dataview
+LIST
+FROM #research/topic
+WHERE note_type = "topic" AND !contains(file.path, "Templates") AND length(filter(file.outlinks, (l) => contains(l.path, "/Lessons/"))) = 0
+SORT file.name ASC
+```
+
+## Maps, modules and learning maps
+
+| Domain map | Module | Learning map |
 | --- | --- | --- |
+| [[Research Methods and Measurement Map]] | [[Module 01 - Research Methods and Evidence Literacy]] | [[Learning Map - Research Methods.canvas]] |
 | [[Neurobiology Map]] | [[Module 02 - Neurobiology]] | [[Learning Map - Neurobiology.canvas]] |
 | [[Neurochemistry Map]] | [[Module 03 - Neurochemistry]] | [[Learning Map - Neurochemistry.canvas]] |
 | [[Psychology Map]] | [[Module 04 - Psychology]] | [[Learning Map - Psychology.canvas]] |
@@ -99,22 +72,14 @@ Every topic under `Domains/`, the lesson that teaches it, the module that sequen
 | [[ADHD Map]] | [[Module 08 - ADHD]] | [[Learning Map - ADHD.canvas]] |
 | [[Autism Map]] | [[Module 09 - Autism]] | [[Learning Map - Autism.canvas]] |
 | [[CPTSD Map]] | [[Module 10 - CPTSD]] | [[Learning Map - CPTSD.canvas]] |
-| [[Argument - Is chemical imbalance a useful explanation]] | (argument, kept as an open question) | [[Argument Map - Chemical imbalance explanation.canvas]] |
-| [[Argument - Does ADHD medication change long-term outcomes]] | (argument, kept as an open question) | [[Argument Map - ADHD medication long-term outcomes.canvas]] |
-| [[Argument - Does trauma therapy need a stabilization phase]] | (argument, kept as an open question) | [[Argument Map - Trauma therapy stabilization phase.canvas]] |
-
-## Depth and access
-
-| Measure | Count |
-| --- | --- |
-| Topics with a detailed lesson | 70 |
-| Lessons citing two or more source records | 58 |
-| Lessons that cite a library-appraisal block | 33 |
-| Retrieval or application questions written | 232 |
-| Median lesson length (words) | 643 |
-| Source records checked at full text | 13 |
-| Source records still abstract-only | 20 |
-| Total source records | 60 |
+| [[Neuroanatomy and Systems Neuroscience Map]] | [[Module 11 - Neuroanatomy and Systems Neuroscience]] | the domain canvas beside the map |
+| [[Genetics and Neurodevelopment Map]] | [[Module 12 - Genetics and Neurodevelopment]] | the domain canvas beside the map |
+| [[Neuroendocrinology and Neuroimmunology Map]] | [[Module 13 - Neuroendocrinology and Neuroimmunology]] | the domain canvas beside the map |
+| [[Computational Neuroscience and Brain Theories Map]] | [[Module 14 - Computational Neuroscience and Brain Theories]] | the domain canvas beside the map |
+| [[Clinical Psychiatry and Psychopathology Map]] | [[Module 15 - Clinical Psychiatry and Psychopathology]] | the domain canvas beside the map |
+| [[Argument - Is chemical imbalance a useful explanation]] | (open question) | [[Argument Map - Chemical imbalance explanation.canvas]] |
+| [[Argument - Does ADHD medication change long-term outcomes]] | (open question) | [[Argument Map - ADHD medication long-term outcomes.canvas]] |
+| [[Argument - Does trauma therapy need a stabilization phase]] | (open question) | [[Argument Map - Trauma therapy stabilization phase.canvas]] |
 
 ## Open questions
 

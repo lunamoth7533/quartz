@@ -53,3 +53,8 @@ This note is cited by [[Circadian rhythms and sleep]] and by the psychotherapy m
 ## Uncertainties
 
 - Direction of effect is difficult to establish: disturbed sleep may be an early symptom rather than a trigger.
+
+## Detailed lesson
+
+- [[Lesson - Circadian and social rhythm hypotheses]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

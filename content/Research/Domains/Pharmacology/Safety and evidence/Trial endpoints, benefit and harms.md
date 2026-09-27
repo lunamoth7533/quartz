@@ -48,3 +48,8 @@ This framework is applied in the condition domains and in [[Efficacy versus tole
 ## Uncertainties
 
 - Composite endpoints can hide divergent effects on their components.
+
+## Detailed lesson
+
+- [[Lesson - Trial endpoints, benefit and harms]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

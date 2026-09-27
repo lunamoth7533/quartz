@@ -61,3 +61,8 @@ The associations are consistent and moderate: rumination correlates with PTSD sy
 - [[Default mode, salience and executive networks]] - the default mode network's proposed self-referential and mind-wandering functions make it the candidate substrate for repetitive self-focused thought, with the reproducibility limits set out there.
 
 **Cross-domain connection (curation).** Repetitive negative thinking links the psychology domain's regulation research to the bipolar and CPTSD domains' symptom literatures and to the neuroanatomy domain's network accounts of self-referential thought, while the research-methods domain's warnings about cross-sectional designs apply at every step. [[Emotion regulation]] [[Default mode, salience and executive networks]] [[Longitudinal and within-person inference]]
+
+## Detailed lesson
+
+- [[Lesson - Rumination and repetitive negative thinking]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

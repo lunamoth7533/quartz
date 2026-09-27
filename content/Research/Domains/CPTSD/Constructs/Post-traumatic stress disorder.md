@@ -64,5 +64,11 @@ Prevalence rests on large population surveys using structured lay interviews or 
 - [[Antidepressant mechanisms]] - how the drug class that guidelines name first-line acts at the synapse, and why clinical change lags behind the pharmacology.
 - [[PTSD biology and CPTSD evidence limits]] - the biological findings attached to this diagnosis, which are group-level and do not transfer automatically to complex PTSD.
 - [[Adverse childhood experiences]] - childhood adversity as a population risk factor, measured by counts that cannot predict an individual's outcome.
+- [[Adrenergic blockers in psychiatry]] - prazosin and clonidine for hyperarousal and nightmares, and propranolol tried as prevention after trauma, each with discordant or weak evidence.
 
 **Cross-domain connection (curation).** PTSD is the hinge of the CPTSD domain: the psychology and neuroendocrinology domains supply the stress-response and learning mechanisms it draws on, the clinical-psychiatry domain supplies two manuals that define it differently, and complex PTSD is built on top of it. [[Trauma and stress responses]] [[Stress response and the HPA axis]] [[ICD-11 versus DSM-5 classification]] [[CPTSD and disturbances in self-organization]]
+
+## Detailed lesson
+
+- [[Lesson - Post-traumatic stress disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 10 - CPTSD|CPTSD]]

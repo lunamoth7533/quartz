@@ -46,3 +46,8 @@ This note complements [[Neural coding and population codes]] and supplies the vo
 ## Uncertainties
 
 - Dimensionality reduction choices affect the resulting picture, so reported trajectories are partly analysis-dependent.
+
+## Detailed lesson
+
+- [[Lesson - Dynamical systems models]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

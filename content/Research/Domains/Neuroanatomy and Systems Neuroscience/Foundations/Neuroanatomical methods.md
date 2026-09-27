@@ -44,3 +44,8 @@ This method layer supports every regional article in this domain and is the coun
 ## Uncertainties
 
 - Human tract estimates vary with acquisition and analysis choices, so reported connections should be treated as hypotheses with uncertainty attached.
+
+## Detailed lesson
+
+- [[Lesson - Neuroanatomical methods]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

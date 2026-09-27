@@ -50,3 +50,8 @@ This is the conceptual foundation for [[Experimental designs]] and [[Observation
 ## Uncertainties
 
 - Natural experiments vary in how convincingly they isolate a causal mechanism, and each requires substantive justification.
+
+## Detailed lesson
+
+- [[Lesson - Causality and counterfactuals]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

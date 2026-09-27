@@ -45,3 +45,8 @@ This note supplies the machinery behind [[Membrane transport and ion channels]] 
 
 - How local translation in dendrites contributes to plasticity in the human brain is difficult to measure directly.
 - Energy measurements in animals and tissue preparations do not translate directly into rates in intact human cortex.
+
+## Detailed lesson
+
+- [[Lesson - Neuronal cell biology and energetics]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

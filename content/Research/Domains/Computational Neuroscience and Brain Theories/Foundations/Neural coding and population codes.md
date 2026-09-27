@@ -48,3 +48,8 @@ This note is the representational counterpart to [[Dynamical systems models]] an
 ## Uncertainties
 
 - Population analyses depend on which cells were recorded, so sampling bias is a real limitation.
+
+## Detailed lesson
+
+- [[Lesson - Neural coding and population codes]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

@@ -66,6 +66,7 @@ Reading these results by molecular route rather than by the stimulant label is t
 - [[Stimulant and non-stimulant mechanisms]]
 - [[Short-term versus long-term outcomes]]
 - [[Serotonin-noradrenaline reuptake inhibitors]]
+- [[Adrenergic blockers in psychiatry]]
 
 ## Working notes
 

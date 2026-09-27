@@ -1,7 +1,7 @@
 ---
 note_type: hub
 title: Learning Path
-description: "The guided route through the library: eight stages, ten modules, one lesson per core concept, and the study loop."
+description: "The guided route through the library: eight stages, fifteen modules, a lesson for every concept, and the study loop."
 cssclasses: [research-hub]
 tags: [research/learning-path]
 ---
@@ -10,7 +10,7 @@ tags: [research/learning-path]
 
 This is the guided route through the library. It moves from how to read evidence, to how the nervous system works, then to the four conditions, and finally to what connects them. Each stage assumes the one before it: skipping straight to conditions means reading group averages without the tools to interpret them.
 
-Each stage has a **module** (the overview, prerequisites and assessment) and each core concept has a **lesson** (plain-language model, worked example, common confusions, practice questions). Lessons teach; the **concept note** states what is known; the **source block** it links decides.
+Each stage has one or more **modules** (overview, prerequisites and assessment) and every concept has a **lesson** (plain-language model, worked example, common confusions, practice questions). Lessons teach; the **concept note** states what is known; the **source block** it links decides.
 
 ## How to study here
 
@@ -33,25 +33,27 @@ Practice: take one paper from [[Library]] and write its population and design in
 
 ## Stage 2 - Cells and circuits
 
-Module: [[Module 02 - Neurobiology|Neurobiology]]. [[Neurons and glia]] then [[Nervous tissue and myelin]]; then [[Ion gradients and membrane potential]] and [[Action potentials]]; then [[Synapses and plasticity]] and [[Brain regions and networks]]. Plasticity in depth: [[Long-term potentiation and depression]] ([[Lesson - Long-term potentiation and depression|lesson]]), grounded in the checked source [[P21779718 Bliss 2011 Long-term potentiation and depression]].
+Modules: [[Module 02 - Neurobiology|Neurobiology]] · [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and systems]] · [[Module 12 - Genetics and Neurodevelopment|Genetics and neurodevelopment]]. Core route: [[Neurons and glia]] then [[Nervous tissue and myelin]]; then [[Ion gradients and membrane potential]] and [[Action potentials]]; then [[Synapses and plasticity]] and [[Brain regions and networks]]. Plasticity in depth: [[Long-term potentiation and depression]] ([[Lesson - Long-term potentiation and depression|lesson]]), grounded in the checked source [[P21779718 Bliss 2011 Long-term potentiation and depression]].
 
 Practice: explain why an action potential is stereotyped but a circuit response is not.
 
 ## Stage 3 - Chemistry
 
-Module: [[Module 03 - Neurochemistry|Neurochemistry]]. [[Synaptic signalling model]] first, then [[Dopamine signalling]], [[Noradrenaline signalling]], [[Serotonin signalling]], [[Glutamate and GABA]] and [[Acetylcholine signalling]]. Finish with [[Excitation and inhibition balance]] and the misconception note [[Chemical imbalance framing]]; then regulation systems [[Stress response and the HPA axis]] and [[Circadian rhythms and sleep]].
+Modules: [[Module 03 - Neurochemistry|Neurochemistry]] · [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and neuroimmunology]]. Core route: [[Synaptic signalling model]] first, then [[Dopamine signalling]], [[Noradrenaline signalling]], [[Serotonin signalling]], [[Glutamate and GABA]] and [[Acetylcholine signalling]]. Finish with [[Excitation and inhibition balance]] and the misconception note [[Chemical imbalance framing]]; then regulation systems [[Stress response and the HPA axis]] and [[Circadian rhythms and sleep]].
 
 Practice: pick one transmitter and describe two different jobs it does in two circuits.
 
 ## Stage 4 - Psychology
 
-Module: [[Module 04 - Psychology|Psychology]]. [[Attention and executive function]], [[Learning and conditioning]], [[Memory processes]], [[Emotion regulation]], [[Trauma and stress responses]], then the therapy evidence notes [[CBT and its evidence base]] and [[Psychoeducation and social rhythms]].
+Modules: [[Module 04 - Psychology|Psychology]] · [[Module 14 - Computational Neuroscience and Brain Theories|Computational neuroscience]]. Core route: [[Attention and executive function]], [[Learning and conditioning]], [[Memory processes]], [[Emotion regulation]], [[Trauma and stress responses]], then the therapy evidence notes [[CBT and its evidence base]] and [[Psychoeducation and social rhythms]].
 
 Practice: state one limit of symptom-scale outcomes for therapy trials.
 
 ## Stage 5 - Pharmacology
 
 Module: [[Module 05 - Pharmacology|Pharmacology]]. [[Pharmacokinetics and ADME]], [[Pharmacodynamics and receptors]], [[Half-life and steady state]], then [[Efficacy versus tolerability]], [[Short-term versus long-term outcomes]] and [[Therapeutic index, monitoring and interactions]]. Applied reading: [[Lithium mechanisms and uncertainty]], [[ADHD medication evidence]], [[Phase-specific bipolar treatment evidence]].
+
+Then the drug classes, each with its own lesson: [[Selective serotonin reuptake inhibitors]], [[Serotonin-noradrenaline reuptake inhibitors]], [[Tricyclic antidepressants]], [[Monoamine oxidase inhibitors]], [[Atypical antidepressants]], [[Ketamine and rapid-acting antidepressants]], [[First-generation antipsychotics]], [[Second-generation antipsychotics]], [[Anticonvulsant mood stabilisers]], [[Benzodiazepines and Z-drugs]], [[Hypnotics and sleep medicines]], [[Adrenergic blockers in psychiatry]]. The full list is in the [[Pharmacology Map]].
 
 Practice: explain why a drug's half-life matters clinically without giving any dosing advice.
 
@@ -63,12 +65,12 @@ Practice: write an honest one-sentence summary of a group imaging finding.
 
 ## Stage 7 - Conditions
 
-Modules: [[Module 07 - Bipolar Disorders|Bipolar disorders]] · [[Module 08 - ADHD|ADHD]] · [[Module 09 - Autism|Autism]] · [[Module 10 - CPTSD|CPTSD]]. Read the map first, then its concepts, then at least one primary source per section.
+Start with [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical psychiatry]] (how conditions are classified, described and formulated), then [[Module 07 - Bipolar Disorders|Bipolar disorders]] · [[Module 08 - ADHD|ADHD]] · [[Module 09 - Autism|Autism]] · [[Module 10 - CPTSD|CPTSD]]. For each condition read the map first, then its concepts, then at least one primary source per section.
 
-- [[Bipolar Disorders Map]] - [[Bipolar I episodes and course]], [[Phase-specific bipolar treatment evidence]], [[Dopamine hypothesis in bipolar disorder]], [[Bipolar genetics and polygenic risk]], [[Bipolar MRI findings and their limits]], [[Bipolar psychotherapy evidence]].
+- [[Bipolar Disorders Map]] - bipolar I: [[Mania]], [[Bipolar I episodes and course]]; bipolar II: [[Hypomania]], [[Bipolar II disorder]]; both: [[Bipolar depression and mixed features]], [[Phase-specific bipolar treatment evidence]], [[Dopamine hypothesis in bipolar disorder]], [[Bipolar genetics and polygenic risk]], [[Bipolar psychotherapy evidence]].
 - [[ADHD Map]] - [[ADHD across the lifespan]], [[ADHD diagnosis and measurement]], [[ADHD and prefrontal catecholamines]], [[ADHD medication evidence]], [[CBT for adult ADHD]].
 - [[Autism Map]] - [[Autism heterogeneity and support needs]], [[Autism genetics and rare variants]], [[Autism support and services]].
-- [[CPTSD Map]] - [[CPTSD and disturbances in self-organization]], [[ICD-11 versus DSM-5 classification]], [[Psychological interventions for complex trauma]], [[Phase-based trauma therapy evidence]], [[PTSD biology and CPTSD evidence limits]].
+- [[CPTSD Map]] - [[Post-traumatic stress disorder]], [[CPTSD and disturbances in self-organization]], [[ICD-11 versus DSM-5 classification]], [[Psychological interventions for complex trauma]], [[Phase-based trauma therapy evidence]], [[PTSD biology and CPTSD evidence limits]].
 
 Practice: pick one claim about a condition and name the design, population and outcome it rests on.
 

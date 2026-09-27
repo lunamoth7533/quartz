@@ -17,7 +17,7 @@ A connected library for learning how **bipolar I and II, ADHD, autism and comple
 
 | I want to… | Start at |
 | --- | --- |
-| **Learn** it in order | [[Learning Path]] - eight stages, ten modules, a lesson for each core concept |
+| **Learn** it in order | [[Learning Path]] - eight stages, fifteen modules, a lesson for every concept |
 | **Explore** a field or condition | [[#Domain maps]] below - fifteen maps in five families |
 | **Look up** a term or concept | [[Reference Index]] (A-Z, by kind, by condition) · [[Glossary]] |
 | **Check the evidence** | [[Library]] - every paper and page, with what was checked |
@@ -41,7 +41,7 @@ Each map is a curated overview of one field: what it is about, its concepts grou
 - [[Computational Neuroscience and Brain Theories Map]] - neural coding, reinforcement learning, predictive processing and theories of consciousness.
 
 **Clinical and applied**
-- [[Pharmacology Map]] - exposure, action, drug classes, and how benefit and harm are measured.
+- [[Pharmacology Map]] - exposure and action, every major drug class (antidepressants, antipsychotics, mood stabilisers, sedatives, hypnotics and more), and how benefit and harm are measured.
 - [[Neurology Map]] - examination, localisation, diagnostics and the main neurological conditions.
 - [[Clinical Psychiatry and Psychopathology Map]] - classification, construct families, formulation and co-occurrence.
 

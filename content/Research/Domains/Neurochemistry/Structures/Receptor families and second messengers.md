@@ -45,3 +45,8 @@ This is the molecular layer beneath [[Transmitter synthesis, release and clearan
 
 - Receptor subtype selectivity of available drugs is often incomplete, so off-target effects are the rule rather than the exception. [[P31299229 Kaar 2020 Antipsychotics mechanisms#^p31299229-offtarget|Antipsychotics mechanisms]]
 - Individual differences in receptor abundance and genetics are not yet usable to predict response. [[P29844615 Schaid 2018 Fine-mapping#^p29844615-limits|Fine-mapping]]
+
+## Detailed lesson
+
+- [[Lesson - Receptor families and second messengers]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

@@ -49,6 +49,11 @@ This note completes the anxiety-adjacent constructs with [[Anxiety and fear cons
 
 **Cross-domain connection (curation).** The habit literature is the mechanistic neighbour: ritual sequences that persist despite diminishing value behave like goal-directed behaviour shifting toward automatic control, and the procedural-memory article supplies that account. [[Procedural memory and habit]] [[Reinforcement learning]]
 
+## Detailed lesson
+
+- [[Lesson - OCD and related constructs]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Insight varies widely across presentations, which affects both classification and engagement with treatment.

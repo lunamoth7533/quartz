@@ -49,3 +49,8 @@ Dendritic integration is the bridge between [[Ion gradients and membrane potenti
 
 - Human dendritic computation cannot be recorded directly; extrapolation rests on animal work and modelling.
 - Neuromodulation changes dendritic properties, so integration rules are state-dependent. [[P23040802 Marder 2012 Neuromodulation#^p23040802-state|Neuromodulation]]
+
+## Detailed lesson
+
+- [[Lesson - Dendritic integration]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

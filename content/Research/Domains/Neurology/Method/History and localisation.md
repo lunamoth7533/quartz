@@ -46,3 +46,8 @@ This note is the applied form of [[Neuroanatomy and Systems Neuroscience Map]] m
 ## Uncertainties
 
 - Small lesions can produce disproportionate deficits if they hit a critical tract or nucleus.
+
+## Detailed lesson
+
+- [[Lesson - History and localisation]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

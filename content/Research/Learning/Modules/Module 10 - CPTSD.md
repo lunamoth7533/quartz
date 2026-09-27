@@ -5,7 +5,7 @@ module: "m10"
 module_order: 10
 domain: [psychology, neurobiology]
 condition: [cptsd]
-lesson_count: 6
+lesson_count: 12
 source_count: 8
 canvas: "Learning Map - CPTSD.canvas"
 cssclasses: [research-module]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m10]
 
 # Module 10 - CPTSD
 
-**Lessons.** 6 · **Canvas.** [[Learning Map - CPTSD.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 12 · **Canvas.** [[Learning Map - CPTSD.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -38,6 +38,12 @@ CPTSD applies the foundations to a construct that exists in ICD-11 and not in DS
 4. [[Lesson - Phase-based trauma therapy evidence]] · after [[Lesson - Psychological interventions for complex trauma]] · 1 sources
 5. [[Lesson - PTSD biology and CPTSD evidence limits]] · after [[Lesson - Phase-based trauma therapy evidence]] · 3 sources
 6. [[Lesson - Trauma and stress responses]] · after [[Lesson - PTSD biology and CPTSD evidence limits]] · 3 sources
+7. [[Lesson - Post-traumatic stress disorder]] · after [[Lesson - Trauma and stress responses]] · 6 sources
+8. [[Lesson - Adverse childhood experiences]] · after [[Lesson - Post-traumatic stress disorder]] · 6 sources
+9. [[Lesson - Fear learning and extinction]] · after [[Lesson - Post-traumatic stress disorder]] · 5 sources
+10. [[Lesson - Memory and trauma]] · after [[Lesson - Post-traumatic stress disorder]] · 5 sources
+11. [[Lesson - Recovery function and social context]] · after [[Lesson - Psychological interventions for complex trauma]] · 6 sources
+12. [[Lesson - Trauma and PTSD in autistic and ADHD people]] · after [[Lesson - Post-traumatic stress disorder]], [[Lesson - ADHD in girls and women]] · 8 sources
 
 ## Worked-example trail
 
@@ -47,6 +53,12 @@ CPTSD applies the foundations to a construct that exists in ICD-11 and not in DS
 - [[Lesson - Phase-based trauma therapy evidence]] - hypothetical worked example: the sequencing question is separated from the comparison of packaged protocols.
 - [[Lesson - PTSD biology and CPTSD evidence limits]] - hypothetical worked example: a PTSD biological finding is tested for whether it can be called CPTSD-specific.
 - [[Lesson - Trauma and stress responses]] - hypothetical worked example: exposure and disorder are separated for a person with a trauma history.
+- [[Lesson - Post-traumatic stress disorder]] - hypothetical worked example: two survey prevalence figures are compared for manual, instrument and time window before being read as a real trend.
+- [[Lesson - Adverse childhood experiences]] - hypothetical worked example: a school's plan to sort students by ACE score is tested against the individual-prediction evidence.
+- [[Lesson - Fear learning and extinction]] - hypothetical worked example: a post-therapy return of fear is read through the mechanism of extinction as new, competing learning.
+- [[Lesson - Memory and trauma]] - hypothetical worked example: a claim about retrieving an "exact, accurate" memory is checked against reconstructive memory and reconsolidation.
+- [[Lesson - Recovery function and social context]] - hypothetical worked example: a trial reporting only symptom improvement is checked for whether it measured functioning or social context at all.
+- [[Lesson - Trauma and PTSD in autistic and ADHD people]] - hypothetical worked example: a presentation of shutdowns and concentration trouble is worked through as an autism, ADHD and trauma differential at once.
 
 ## Core and advanced branches
 

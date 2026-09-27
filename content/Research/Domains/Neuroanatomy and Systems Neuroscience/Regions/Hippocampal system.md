@@ -46,3 +46,8 @@ The hippocampal system is the anatomical setting for [[Memory and trauma]], [[Ep
 ## Uncertainties
 
 - Reported hippocampal volume differences carry measurement error from segmentation and protocol choices alongside biological variation; without reliability data for a specific protocol, a group difference or an individual value cannot be decomposed into those components. [[Neuroimaging methods]] and [[Interpreting group brain differences]] carry the general imaging-measurement problem.
+
+## Detailed lesson
+
+- [[Lesson - Hippocampal system]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

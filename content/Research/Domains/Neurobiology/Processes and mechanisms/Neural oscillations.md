@@ -62,3 +62,8 @@ That extracellular fields and EEG mainly reflect synaptic currents rests on anim
 - [[Seizures and epilepsy]] - abnormal synchrony as a clinical condition, and why a normal EEG between episodes does not exclude it.
 
 **Cross-domain connection (curation).** Oscillations join this domain's synaptic mechanisms to the neurology domain's EEG practice, the neuroendocrine domain's sleep and circadian material and the ADHD and bipolar domains' search for markers; the research-methods domain supplies the checks, such as blinding, heterogeneity and independent validation, that have so far kept EEG measures out of diagnosis for these conditions. [[EEG and other diagnostics]] [[Circadian rhythms and sleep]] [[Rater and measurement effects in ADHD]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Neural oscillations]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

@@ -57,6 +57,7 @@ An association between a timing disorder and neurodevelopmental conditions does 
 ## Used by
 
 - [[Sleep and circadian disruption across conditions]]
+- [[Hypnotics and sleep medicines]]
 
 ## Working notes
 

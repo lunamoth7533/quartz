@@ -26,7 +26,7 @@ flowchart LR
 - **Home** is the one front door. It groups the fifteen **domain maps** into five families.
 - A **domain map** is a curated overview of one field or condition: what the field is about, its concepts grouped by theme, how it connects to other fields, and where its evidence runs out.
 - A **concept note** covers one idea completely: definition, how it works, how strong the evidence is, what is still uncertain, recent research, and connections that say *why* each linked idea matters here.
-- A **lesson** teaches one concept step by step, with a worked example and practice questions. The **Learning Path** puts the lessons in order.
+- A **lesson** teaches one concept step by step, with a worked example and practice questions; every concept has one. The **Learning Path** puts them in order across fifteen modules.
 - A **source note** records one paper or page: what it reports, its scope, and, separately, the library's own appraisal.
 - An **open question** sets competing explanations side by side without deciding them.
 

@@ -48,3 +48,8 @@ This note is the cellular entry point for [[Cytokines and inflammation in psychi
 ## Uncertainties
 
 - Microglial states are heterogeneous, and a binary resting/activated model is no longer adequate.
+
+## Detailed lesson
+
+- [[Lesson - Neuroimmune interactions and microglia]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

@@ -5,7 +5,7 @@ module: "m02"
 module_order: 2
 domain: [neurobiology]
 condition: []
-lesson_count: 8
+lesson_count: 20
 source_count: 11
 canvas: "Learning Map - Neurobiology.canvas"
 cssclasses: [research-module]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m02]
 
 # Module 02 - Neurobiology
 
-**Lessons.** 8 · **Canvas.** [[Learning Map - Neurobiology.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 20 · **Canvas.** [[Learning Map - Neurobiology.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -40,6 +40,18 @@ Neurobiology supplies the physical vocabulary for everything else: how cells hol
 6. [[Lesson - Long-term potentiation and depression]] · after [[Lesson - Synapses and plasticity]] · 1 sources
 7. [[Lesson - Brain regions and networks]] · after [[Lesson - Neurons and glia]], [[Lesson - Action potentials]] · 2 sources
 8. [[Lesson - Genes, environment and polygenic risk]] · after [[Lesson - Brain regions and networks]] · 3 sources
+9. [[Lesson - Glial cell types]] · after [[Lesson - Neurons and glia]] · 4 sources
+10. [[Lesson - Membrane transport and ion channels]] · after [[Lesson - Ion gradients and membrane potential]], [[Lesson - Action potentials]] · 6 sources
+11. [[Lesson - Myelin and saltatory conduction]] · after [[Lesson - Nervous tissue and myelin]], [[Lesson - Action potentials]] · 4 sources
+12. [[Lesson - Chemical and electrical synapses]] · after [[Lesson - Synapses and plasticity]] · 3 sources
+13. [[Lesson - The synaptic vesicle cycle]] · after [[Lesson - Chemical and electrical synapses]] · 4 sources
+14. [[Lesson - Dendritic integration]] · after [[Lesson - Ion gradients and membrane potential]], [[Lesson - Action potentials]] · 5 sources
+15. [[Lesson - Short-term synaptic plasticity]] · after [[Lesson - The synaptic vesicle cycle]] · 5 sources
+16. [[Lesson - Neuronal cell biology and energetics]] · after [[Lesson - Neurons and glia]], [[Lesson - Membrane transport and ion channels]] · 7 sources
+17. [[Lesson - Neurotrophic support and cell death]] · after [[Lesson - Synapses and plasticity]] · 3 sources
+18. [[Lesson - Circuit development and homeostasis]] · after [[Lesson - Neurotrophic support and cell death]], [[Lesson - Long-term potentiation and depression]] · 6 sources
+19. [[Lesson - Neural oscillations]] · after [[Lesson - Action potentials]], [[Lesson - Chemical and electrical synapses]] · 5 sources
+20. [[Lesson - Adult neurogenesis]] · after [[Lesson - Neurotrophic support and cell death]] · 5 sources
 
 ## Worked-example trail
 
@@ -51,6 +63,18 @@ Neurobiology supplies the physical vocabulary for everything else: how cells hol
 - [[Lesson - Long-term potentiation and depression]] - hypothetical worked example: an LTP-like finding in humans is tested against the defining properties.
 - [[Lesson - Brain regions and networks]] - hypothetical worked example: an 'amygdala does fear' claim is rewritten as a network claim.
 - [[Lesson - Genes, environment and polygenic risk]] - hypothetical worked example: a family-history question is answered without genetic determinism.
+- [[Lesson - Glial cell types]] - hypothetical worked example: live imaging of microglia before and after an injury tests the difference between surveillance and activation.
+- [[Lesson - Membrane transport and ion channels]] - hypothetical worked example: a claim that a compound "blocks sodium channels" is checked against channel subtype and tissue distribution.
+- [[Lesson - Myelin and saltatory conduction]] - hypothetical worked example: a scan report's "reduced myelin signal" is checked against what it can and cannot say about connection count.
+- [[Lesson - Chemical and electrical synapses]] - hypothetical worked example: a paired recording's near-instant and delayed responses are traced to an electrical and a chemical contact.
+- [[Lesson - The synaptic vesicle cycle]] - hypothetical worked example: a shrinking burst response is explained by pool depletion rather than a shortage of transmitter.
+- [[Lesson - Dendritic integration]] - hypothetical worked example: two equal-strength inputs fire a cell only when they share a nearby branch and timing window.
+- [[Lesson - Short-term synaptic plasticity]] - hypothetical worked example: the same burst produces facilitation at one synapse and depression at another because of their starting release probabilities.
+- [[Lesson - Neuronal cell biology and energetics]] - hypothetical worked example: a "neurons lit up" scan claim is rewritten as an indirect, glially mediated blood-flow estimate.
+- [[Lesson - Neurotrophic support and cell death]] - hypothetical worked example: a claim about killing and regrowing brain cells is tested against the difference between cell death, pruning and trophic maintenance.
+- [[Lesson - Circuit development and homeostasis]] - hypothetical worked example: an adult sensitive-period reactivation finding in animals is checked against what a human treatment claim would require.
+- [[Lesson - Neural oscillations]] - hypothetical worked example: a "raised beta power causes bipolar disorder" headline is checked against the band, state, medication and group-average reading rule.
+- [[Lesson - Adult neurogenesis]] - hypothetical worked example: a supplement's "boosts neurogenesis, lifts mood" claim is separated into its unproven steps.
 
 ## Core and advanced branches
 

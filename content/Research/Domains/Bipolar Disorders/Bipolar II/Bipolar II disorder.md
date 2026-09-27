@@ -62,3 +62,8 @@ The distinct profile rests on a meta-analysis of 36 head-to-head reports whose h
 - [[Rapid cycling]] - more frequent in bipolar II, and part of its heavier episode burden.
 
 **Cross-domain connection (curation).** Bipolar II links the bipolar domain to the clinical-psychiatry domain's personality and mood-disorder constructs and to the genetics domain's evidence that subtypes differ in architecture; the methods domain's warnings about ascertainment explain why a finding in pooled bipolar samples may not describe bipolar II. [[Personality constructs and traits]] [[Mood disorders]] [[Bipolar genetics and polygenic risk]]
+
+## Detailed lesson
+
+- [[Lesson - Bipolar II disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

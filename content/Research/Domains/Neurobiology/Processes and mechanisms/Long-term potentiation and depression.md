@@ -61,3 +61,8 @@ The evidence base for mechanisms is largely animal tissue; LTP and LTD are model
 ## Study question
 
 What would it take to show that an LTP-like change measured in a human brain is actually the mechanism of a specific memory?
+
+## Detailed lesson
+
+- [[Lesson - Long-term potentiation and depression]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

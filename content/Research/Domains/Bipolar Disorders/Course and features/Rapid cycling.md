@@ -61,3 +61,8 @@ Prevalence and correlates come from a meta-review of 22 reviews covering 13,698 
 - [[Longitudinal and within-person inference]] - counting episodes over time is a longitudinal measurement, with the design problems that brings.
 
 **Cross-domain connection (curation).** Rapid cycling joins the bipolar domain's course descriptions to the pharmacology domain's antidepressant evidence and the neuroendocrine domain's thyroid, metabolic and immune correlates, while the methods domain's within-person designs decide whether dense monitoring and episode counts describe the same instability. [[Antidepressant mechanisms]] [[Cytokines and inflammation in psychiatric conditions]] [[Longitudinal and within-person inference]]
+
+## Detailed lesson
+
+- [[Lesson - Rapid cycling]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

@@ -61,3 +61,8 @@ Mood-stabiliser evidence in bipolar II is of very low certainty; antidepressant 
 - [[Bipolar I episodes and course]] - the type from which most bipolar II treatment evidence is borrowed.
 
 **Cross-domain connection (curation).** Bipolar II treatment evidence is where the bipolar domain depends on the pharmacology domain's trial-reading tools and the methods domain's certainty grading: a very-low-certainty review, two small monotherapy trials and a consensus statement are different kinds of evidence, and guidelines combine them with extrapolation. [[Trial endpoints, benefit and harms]] [[Meta-analysis and review limits]] [[Efficacy versus tolerability]]
+
+## Detailed lesson
+
+- [[Lesson - Bipolar II treatment evidence]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

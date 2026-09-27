@@ -54,3 +54,8 @@ This is the conceptual bridge between [[DNA RNA and gene expression]] and [[Comm
 ## Uncertainties
 
 - Which specific variants matter, and how they combine, remains unresolved for most psychiatric traits.
+
+## Detailed lesson
+
+- [[Lesson - Inheritance and variation]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

@@ -49,3 +49,8 @@ This process is the reason [[Circuit development and homeostasis]] is framed as 
 
 - How much adult human neuronal death is programmed versus pathological is often unresolved in individual cases.
 - Trophic signalling is studied in animal models, and translating it into human degenerative disease has a long record of failed trials.
+
+## Detailed lesson
+
+- [[Lesson - Neurotrophic support and cell death]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

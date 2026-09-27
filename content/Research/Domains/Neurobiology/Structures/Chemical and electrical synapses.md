@@ -51,3 +51,8 @@ Chemical transmission is developed in [[Synapses and plasticity]] and [[The syna
 
 - How much electrical coupling contributes to human cognition is not established; most evidence is from animal preparations and specific cell types.
 - The same pair of neurons can be connected chemically and electrically, so the two modes interact rather than partition the system.
+
+## Detailed lesson
+
+- [[Lesson - Chemical and electrical synapses]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

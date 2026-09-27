@@ -64,3 +64,8 @@ Self-report and informant-report functioning measures carry rater and recall lim
 ## Study question
 
 For one condition in this library, name a symptom outcome and a functioning outcome, then say what each would miss.
+
+## Detailed lesson
+
+- [[Lesson - Functional outcomes and measurement]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

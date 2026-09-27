@@ -45,7 +45,14 @@ Conditioning and extinction mechanisms are well established in animals and healt
 
 This note pairs with [[Fear learning and extinction]] in the CPTSD domain and with [[Therapy models overview]].
 
+- [[Benzodiazepines and Z-drugs]] - drugs that reduce anxiety against placebo but are tolerated worse than several alternatives, and that neither treat nor prevent PTSD in the evidence gathered there.
+
 **Cross-domain connection (curation).** The neurobiology domain's amygdala and fear-extinction circuitry is the mechanism layer, and the methods domain's conditioning paradigms are its measurement layer; anxiety constructs are where all three meet in clinical work. [[Amygdala]] [[Learning and conditioning]]
+
+## Detailed lesson
+
+- [[Lesson - Anxiety and fear constructs]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
 
 ## Uncertainties
 

@@ -63,3 +63,8 @@ Synthesis and pituitary release are textbook material. [[F34 OpenStax Pituitary 
 - [[HPA axis]] - a neighbouring hypothalamic-pituitary system, useful for contrast: a feedback-regulated hormone chain rather than peptides also released inside the brain.
 
 **Cross-domain connection (curation).** Oxytocin and vasopressin tie the neurochemistry domain's peptide material to the neuroendocrine domain's pituitary axes and to the autism domain's treatment questions, and the research-methods domain explains why the story changed: small positive studies and animal mechanisms gave way to large null trials. [[Neuropeptides and opioids]] [[Translational validity]] [[Social cognition accounts]]
+
+## Detailed lesson
+
+- [[Lesson - Oxytocin and vasopressin]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

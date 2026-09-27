@@ -50,3 +50,8 @@ This note applies the systems material from [[Association cortex and networks]] 
 ## Uncertainties
 
 - Whether network-level descriptions add explanatory power beyond regional ones is contested.
+
+## Detailed lesson
+
+- [[Lesson - Network and connectome models]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

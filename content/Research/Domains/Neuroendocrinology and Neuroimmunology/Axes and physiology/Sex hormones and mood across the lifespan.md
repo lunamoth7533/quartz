@@ -59,3 +59,8 @@ Postpartum relapse risk in bipolar disorder is quantified by a meta-analysis of 
 - [[Longitudinal and within-person inference]] - the design that could show whether a hormonal transition changes symptoms in the same person, which cross-sectional work cannot.
 
 **Cross-domain connection (curation).** Sex hormones connect the neuroendocrine domain's pituitary axes to the bipolar domain's relapse questions and the ADHD domain's lifespan view, and the research-methods domain sets how far the evidence reaches: timing symptoms to a cycle phase or a delivery is association, and only within-person studies with measured hormones can test a hormonal mechanism. [[Bipolar I episodes and course]] [[ADHD across the lifespan]] [[Longitudinal and within-person inference]]
+
+## Detailed lesson
+
+- [[Lesson - Sex hormones and mood across the lifespan]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

@@ -58,6 +58,7 @@ Sedation and appetite gain are wanted effects for some people and harms for othe
 ## Used by
 
 - [[Atypical antidepressants]]
+- [[Hypnotics and sleep medicines]]
 
 ## Working notes
 

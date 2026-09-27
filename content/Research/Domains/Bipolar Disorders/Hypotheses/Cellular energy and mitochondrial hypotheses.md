@@ -49,3 +49,8 @@ This is one of the biological hypotheses that should be read alongside [[Bipolar
 ## Uncertainties
 
 - Peripheral measures are not proxies for brain energetics, and reverse causation from illness or treatment is plausible.
+
+## Detailed lesson
+
+- [[Lesson - Cellular energy and mitochondrial hypotheses]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

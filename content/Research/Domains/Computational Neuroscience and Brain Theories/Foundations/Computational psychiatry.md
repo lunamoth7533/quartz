@@ -68,3 +68,8 @@ The field is rich in programmes and thin in replication: the condition findings 
 - [[Fear learning and extinction]] - the stimulus-specific fear-learning account that the latent-state proposal for PTSD seeks to extend.
 
 **Cross-domain connection (curation).** Computational psychiatry is the computational domain's route into the condition domains: it turns reinforcement-learning, diffusion and Bayesian formalisms into parameters measured in bipolar disorder, ADHD, autism and PTSD, and the research-methods domain's reliability and validity standards decide whether those parameters are measurements or model artefacts. [[Reinforcement learning]] [[Measurement validity and reliability]] [[Association versus individual prediction]]
+
+## Detailed lesson
+
+- [[Lesson - Computational psychiatry]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

@@ -65,6 +65,7 @@ Group-level rankings and head-to-head averages are not prescribing guidance for 
 - [[ADHD and substance use]]
 - [[Serotonin-noradrenaline reuptake inhibitors]]
 - [[Atypical antidepressants]]
+- [[Adrenergic blockers in psychiatry]]
 
 ## Working notes
 

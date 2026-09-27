@@ -5,8 +5,8 @@ module: "m04"
 module_order: 4
 domain: [psychology]
 condition: []
-lesson_count: 5
-source_count: 9
+lesson_count: 25
+source_count: 59
 canvas: "Learning Map - Psychology.canvas"
 cssclasses: [research-module]
 tags: [research/module, research/module/m04]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m04]
 
 # Module 04 - Psychology
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Psychology.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 25 · **Canvas.** [[Learning Map - Psychology.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -37,6 +37,26 @@ Psychology covers the processes the condition modules refer to constantly: atten
 3. [[Lesson - Memory processes]] · after [[Lesson - Learning and conditioning]] · 1 sources
 4. [[Lesson - Emotion regulation]] · after [[Lesson - Memory processes]] · 2 sources
 5. [[Lesson - CBT and its evidence base]] · after [[Lesson - Learning and conditioning]], [[Lesson - Emotion regulation]] · 2 sources
+6. [[Lesson - Perception]] · 2 sources
+7. [[Lesson - Attention]] · after [[Lesson - Perception]], [[Lesson - Attention and executive function]] · 3 sources
+8. [[Lesson - Working memory]] · after [[Lesson - Attention and executive function]] · 3 sources
+9. [[Lesson - Episodic memory]] · after [[Lesson - Memory processes]] · 3 sources
+10. [[Lesson - Procedural memory and habit]] · after [[Lesson - Episodic memory]], [[Lesson - Learning and conditioning]] · 6 sources
+11. [[Lesson - Motivation and reward]] · after [[Lesson - Learning and conditioning]] · 3 sources
+12. [[Lesson - Decision-making]] · after [[Lesson - Motivation and reward]] · 4 sources
+13. [[Lesson - Language]] · 2 sources
+14. [[Lesson - Social cognition]] · after [[Lesson - Language]] · 3 sources
+15. [[Lesson - Personality models]] · after [[Lesson - Social cognition]] · 3 sources
+16. [[Lesson - Developmental perspectives and attachment]] · after [[Lesson - Episodic memory]] · 3 sources
+17. [[Lesson - Alexithymia]] · after [[Lesson - Social cognition]], [[Lesson - Emotion regulation]] · 3 sources
+18. [[Lesson - Rumination and repetitive negative thinking]] · after [[Lesson - Emotion regulation]] · 3 sources
+19. [[Lesson - Self-concept and identity]] · after [[Lesson - Episodic memory]] · 4 sources
+20. [[Lesson - Shame and guilt]] · after [[Lesson - Self-concept and identity]] · 3 sources
+21. [[Lesson - Therapy models overview]] · after [[Lesson - CBT and its evidence base]] · 3 sources
+22. [[Lesson - Dialectical behaviour therapy]] · after [[Lesson - Therapy models overview]], [[Lesson - Emotion regulation]] · 3 sources
+23. [[Lesson - Acceptance and commitment therapy]] · after [[Lesson - Therapy models overview]] · 3 sources
+24. [[Lesson - Mindfulness-based interventions]] · after [[Lesson - Acceptance and commitment therapy]] · 3 sources
+25. [[Lesson - EMDR]] · after [[Lesson - Therapy models overview]] · 3 sources
 
 ## Worked-example trail
 
@@ -45,6 +65,26 @@ Psychology covers the processes the condition modules refer to constantly: atten
 - [[Lesson - Memory processes]] - hypothetical worked example: a confident recollection is treated as reconstructible rather than recorded.
 - [[Lesson - Emotion regulation]] - hypothetical worked example: a regulation strategy is evaluated in context rather than as good or bad.
 - [[Lesson - CBT and its evidence base]] - hypothetical worked example: two CBT protocols are compared by holding population and outcome constant.
+- [[Lesson - Perception]] - hypothetical worked example: a signal-detection design separates sensitivity from response bias in an ambiguous-image report.
+- [[Lesson - Attention]] - hypothetical worked example: a vigilance-task group difference is tested against a motivational explanation before being read as a capacity limit.
+- [[Lesson - Working memory]] - hypothetical worked example: a brain-training claim is checked for transfer beyond the trained task.
+- [[Lesson - Episodic memory]] - hypothetical worked example: two witnesses' conflicting accounts are read as reconstructions rather than as a credibility contest.
+- [[Lesson - Procedural memory and habit]] - hypothetical worked example: a habitual phone check is tested against the outcome-devaluation criterion for habit.
+- [[Lesson - Motivation and reward]] - hypothetical worked example: a dopamine headline is unpacked into what was measured versus what was implied.
+- [[Lesson - Decision-making]] - hypothetical worked example: a framing-effect headline is separated from an overreaching claim about irrationality.
+- [[Lesson - Language]] - hypothetical worked example: a stroke-related language label is treated as a hypothesis to test against each language component.
+- [[Lesson - Social cognition]] - hypothetical worked example: a theory-of-mind finding is checked against task demands and the double-empathy account.
+- [[Lesson - Personality models]] - hypothetical worked example: a trait-quiz result is translated from a population statement into an individual one.
+- [[Lesson - Developmental perspectives and attachment]] - hypothetical worked example: an adult relationship pattern is traced back through the evidence an infant attachment classification can actually carry.
+- [[Lesson - Alexithymia]] - hypothetical worked example: an autism-alexithymia headline is checked against what the underlying comparison actually tested.
+- [[Lesson - Rumination and repetitive negative thinking]] - hypothetical worked example: a rumination-causes-mania claim is checked against its cross-sectional design.
+- [[Lesson - Self-concept and identity]] - hypothetical worked example: overlapping self-concept and identity features are read as needing the fuller diagnostic picture, not one label.
+- [[Lesson - Shame and guilt]] - hypothetical worked example: a guilt-predicts-PTSD headline is separated from the same-time correlation it is built on.
+- [[Lesson - Therapy models overview]] - hypothetical worked example: two therapies with a null comparison are checked against whether the trial was designed to test equivalence.
+- [[Lesson - Dialectical behaviour therapy]] - hypothetical worked example: a bipolar DBT trial's suicide-attempt finding is separated from an overreaching claim about mood.
+- [[Lesson - Acceptance and commitment therapy]] - hypothetical worked example: laboratory component evidence and clinical trial evidence for ACT are kept in separate sentences.
+- [[Lesson - Mindfulness-based interventions]] - hypothetical worked example: a mindfulness-for-PTSD headline is checked against the rigour of the reviews behind its pooled effect.
+- [[Lesson - EMDR]] - hypothetical worked example: a bipolar EMDR trial's secondary findings are read only after its negative primary outcome.
 
 ## Core and advanced branches
 

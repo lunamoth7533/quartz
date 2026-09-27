@@ -62,3 +62,8 @@ That childhood ADHD predicts later substance use disorders rests on a meta-analy
 - [[Alexithymia]] - a trait that carried part of the link between ADHD symptoms and drinking in non-clinical adults, one transdiagnostic route to substance problems.
 
 **Cross-domain connection (curation).** This note connects the ADHD domain's treatment evidence to the clinical-psychiatry domain's substance-related constructs and to the research-methods domain's causal-inference designs: whether medication changes later substance risk can only be judged by reading between-person, within-person and emulated-trial comparisons together. [[Substance-related constructs]] [[Observational designs]] [[Causality and counterfactuals]]
+
+## Detailed lesson
+
+- [[Lesson - ADHD and substance use]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 08 - ADHD|ADHD]]

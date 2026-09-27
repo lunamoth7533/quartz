@@ -54,6 +54,7 @@ These are averaged properties: metabolism, interactions and adherence move expos
 - [[Pharmacodynamics and receptors]] - the complementary half of the prediction: ADME says how much drug reaches the target and for how long, pharmacodynamics says what it does there.
 - [[Blood-brain barrier]] - the distribution constraint for central effects: the barrier restricts entry for many compounds, so central and peripheral effects can diverge in magnitude and timing.
 - [[Lithium mechanisms and uncertainty]] - the excretion case study: renal elimination proportional to serum concentration is why kidney function matters for lithium exposure, developed there alongside its monitoring.
+- [[Pharmacogenomics]] - the inherited part of variation in metabolism: CYP2D6 and CYP2C19 genotypes that shift exposure for a given dose, and what testing has achieved in trials.
 
 ## Study question
 

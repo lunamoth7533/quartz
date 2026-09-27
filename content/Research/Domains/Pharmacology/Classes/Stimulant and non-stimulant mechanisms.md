@@ -46,7 +46,13 @@ Short-term randomised evidence for symptom reduction is well established; longer
 This article pairs with [[ADHD medication evidence]] and [[Trial endpoints, benefit and harms]]. It contains no dosing or titration information.
 
 - [[ADHD and substance use]] - tests the worry that stimulant pharmacology sensitises people to later substance use; between-person, within-person and emulated-trial evidence finds no increase in risk.
+- [[Adrenergic blockers in psychiatry]] - clonidine and guanfacine as the alpha-2 non-stimulants, set beside prazosin and propranolol, the other noradrenaline-receptor drugs used in psychiatry.
 
 ## Uncertainties
 
 - Individual response varies substantially and is not predicted by mechanism.
+
+## Detailed lesson
+
+- [[Lesson - Stimulant and non-stimulant mechanisms]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

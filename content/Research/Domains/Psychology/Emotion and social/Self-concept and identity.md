@@ -65,3 +65,8 @@ Most of the evidence is conceptual or cross-sectional: a scoping review of defin
 - [[Episodic memory]] - autobiographical recall is the raw material of a continuous self-narrative, the continuity that identity-disturbance models describe as broken.
 
 **Cross-domain connection (curation).** Self-concept and identity join the psychology domain's memory and emotion research to two diagnostic literatures - the CPTSD domain's self-organisation clusters and clinical psychiatry's borderline construct - and to the neuroanatomy domain's network account of a narrative self; the methods domain's warnings about shared self-report and criterion overlap decide how far the comparisons can go. [[CPTSD and disturbances in self-organization]] [[Default mode, salience and executive networks]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Self-concept and identity]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

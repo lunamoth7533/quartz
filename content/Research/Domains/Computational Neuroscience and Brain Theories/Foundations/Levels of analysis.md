@@ -50,3 +50,8 @@ This note frames [[Neural coding and population codes]], [[Dynamical systems mod
 ## Uncertainties
 
 - There is no agreed rule for when a lower-level difference is sufficient to explain a higher-level one.
+
+## Detailed lesson
+
+- [[Lesson - Levels of analysis]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

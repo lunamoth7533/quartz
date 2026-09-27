@@ -59,3 +59,8 @@ The model is well characterised in healthy adults through selective manipulation
 - [[Levels of analysis]] - drift rate is an algorithmic-level quantity; readings in terms of arousal or neuromodulators move to another level and need their own evidence.
 
 **Cross-domain connection (curation).** Drift diffusion models connect the computational domain's evidence-accumulation formalism to the psychology domain's decision and attention constructs and to the ADHD domain's reaction-time literature, and the research-methods domain's reliability standards decide whether a parameter can serve as more than a group description. [[Decision-making]] [[Reinforcement learning accounts of ADHD]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Drift diffusion models]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

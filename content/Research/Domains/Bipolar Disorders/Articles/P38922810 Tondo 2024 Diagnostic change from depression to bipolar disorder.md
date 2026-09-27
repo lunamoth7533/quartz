@@ -59,6 +59,7 @@ Switching during antidepressant treatment is observed, not assigned, so the stud
 
 - [[Bipolar depression and mixed features]]
 - [[Selective serotonin reuptake inhibitors]]
+- [[Antidepressants in bipolar disorder]]
 
 ## Working notes
 

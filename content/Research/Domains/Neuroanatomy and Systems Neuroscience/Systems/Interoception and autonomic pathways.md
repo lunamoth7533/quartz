@@ -56,3 +56,8 @@ This article links to [[Autonomic regulation]] and [[Autonomic measurement and h
 ## Uncertainties
 
 - Interoceptive measures are heterogeneous - questionnaires, heartbeat detection tasks and physiological indices measure different things.
+
+## Detailed lesson
+
+- [[Lesson - Interoception and autonomic pathways]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

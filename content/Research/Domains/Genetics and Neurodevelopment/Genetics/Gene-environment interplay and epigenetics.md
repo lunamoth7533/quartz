@@ -55,3 +55,8 @@ This note qualifies [[Inheritance and variation]] and connects to [[Sensitive pe
 ## Uncertainties
 
 - Cross-tissue inference needs validation for the specific mark and purpose; where it has not been validated, a blood-based measure is a peripheral signal rather than a brain measurement. Reverse causation and confounding remain difficult to exclude in observational designs.
+
+## Detailed lesson
+
+- [[Lesson - Gene-environment interplay and epigenetics]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

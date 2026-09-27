@@ -50,3 +50,8 @@ This note connects to [[Motivation and reward]] and to the clinical material on 
 ## Uncertainties
 
 - Which departures from normative models count as biases versus adaptive strategies is partly a normative question.
+
+## Detailed lesson
+
+- [[Lesson - Decision-making]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

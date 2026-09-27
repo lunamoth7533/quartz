@@ -67,6 +67,7 @@ The comparisons come from clinical samples in which bipolar II had been recognis
 - [[Psychosis in bipolar disorder]]
 - [[Bipolar II treatment evidence]]
 - [[Rapid cycling]]
+- [[Antidepressants in bipolar disorder]]
 
 ## Working notes
 

@@ -62,3 +62,8 @@ The overview figures come from a 2025 clinical review that summarises trials and
 - [[Suicide and self-harm]] - anorexia nervosa's excess mortality includes a large share of deaths by suicide, and suicide attempts are more common across eating disorders.
 
 **Cross-domain connection (curation).** Eating disorders connect the clinical-psychiatry domain's construct families to the autism and ADHD domains through measured overlap and to the neuroanatomy domain's interoception research through the body; the methods lesson is that an overlap estimate depends on how the second condition was measured and when. [[Co-occurring conditions in autism]] [[Interoception and autonomic pathways]] [[ADHD diagnosis and measurement]]
+
+## Detailed lesson
+
+- [[Lesson - Eating disorders]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]

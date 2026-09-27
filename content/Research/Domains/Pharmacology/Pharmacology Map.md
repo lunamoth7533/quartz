@@ -21,9 +21,9 @@ Pharmacology has two directions: what the body does to a drug and what the drug 
 
 ## Concept register
 
-- **Exposure:** [[Pharmacokinetics and ADME]], [[Half-life and steady state]]
+- **Exposure:** [[Pharmacokinetics and ADME]], [[Half-life and steady state]], [[Pharmacogenomics]]
 - **Action:** [[Pharmacodynamics and receptors]], [[Target binding and dose-response]], [[Receptor adaptation tolerance and dependence|Receptor adaptation, tolerance and dependence]], [[Monoamine reuptake and degradation]]
-- **Classes:** [[Drug classes and mechanisms overview]], [[Antidepressant mechanisms]], [[Antipsychotic mechanisms]], [[Stimulant and non-stimulant mechanisms]], [[Selective serotonin reuptake inhibitors]], [[Serotonin-noradrenaline reuptake inhibitors]], [[Tricyclic antidepressants]], [[Monoamine oxidase inhibitors]], [[Atypical antidepressants]], [[Ketamine and rapid-acting antidepressants]], [[Psychedelics and MDMA-assisted therapy]]
+- **Classes:** [[Drug classes and mechanisms overview]], [[Antidepressant mechanisms]], [[Antipsychotic mechanisms]], [[Stimulant and non-stimulant mechanisms]], [[Selective serotonin reuptake inhibitors]], [[Serotonin-noradrenaline reuptake inhibitors]], [[Tricyclic antidepressants]], [[Monoamine oxidase inhibitors]], [[Atypical antidepressants]], [[Ketamine and rapid-acting antidepressants]], [[Psychedelics and MDMA-assisted therapy]], [[First-generation antipsychotics]], [[Second-generation antipsychotics]], [[Muscarinic antipsychotics]], [[Anticonvulsant mood stabilisers]], [[Antiseizure medications]], [[Benzodiazepines and Z-drugs]], [[Hypnotics and sleep medicines]], [[Adrenergic blockers in psychiatry]]
 - **Safety and evidence:** [[Therapeutic index, monitoring and interactions]], [[Efficacy versus tolerability]], [[Trial endpoints, benefit and harms]]
 
 ## Overview

@@ -48,3 +48,8 @@ Pairs with [[Causality and counterfactuals]] and [[Observational designs]], and 
 ## Uncertainties
 
 - Unmeasured confounding cannot be excluded by analysis, only argued about.
+
+## Detailed lesson
+
+- [[Lesson - Observational designs]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

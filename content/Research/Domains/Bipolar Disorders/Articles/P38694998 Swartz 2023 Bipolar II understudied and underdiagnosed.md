@@ -63,6 +63,7 @@ The decade-long delay and the harms attributed to misdiagnosis are summary claim
 - [[Bipolar II treatment evidence]]
 - [[Bipolar II disorder]]
 - [[Hypomania]]
+- [[Antidepressants in bipolar disorder]]
 
 ## Working notes
 

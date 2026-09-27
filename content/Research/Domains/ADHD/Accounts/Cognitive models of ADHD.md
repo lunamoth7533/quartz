@@ -61,3 +61,8 @@ Each account has group-level support from a meta-analysis or a large pooled samp
 - [[Model comparison and identifiability]] - the method for choosing between accounts that predict similar behaviour, since a good fit by one model does not rule out the others.
 
 **Cross-domain connection (curation).** Cognitive models of ADHD sit where the psychology domain's attention and executive constructs meet the neuroanatomy domain's network descriptions and the computational domain's learning models; the research-methods domain adds the rule that an average task difference does not reveal the mechanism in any one person. [[Attention and executive function]] [[Association cortex and networks]] [[Reinforcement learning]] [[Association versus individual prediction]]
+
+## Detailed lesson
+
+- [[Lesson - Cognitive models of ADHD]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 08 - ADHD|ADHD]]

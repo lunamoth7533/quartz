@@ -54,6 +54,7 @@ Monitoring manages concentration rather than the whole clinical picture; individ
 - [[Pharmacodynamics and receptors]] - the source of dynamic interactions: two drugs acting on the same receptors or physiological system can add or oppose at unchanged exposure.
 - [[Measurement validity and reliability]] - monitoring treated as measurement: a blood level or renal marker is a surrogate whose validity, reliability and timing need checking like any instrument's.
 - [[Tricyclic antidepressants]] - a drug class ranked second-line for its narrow overdose margin and anticholinergic burden rather than for weaker efficacy.
+- [[Pharmacogenomics]] - genotype as a further source of exposure variation beside kinetic interactions; a predicted metaboliser status can differ from actual enzyme activity when other drugs are taken.
 
 ## Study question
 

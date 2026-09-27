@@ -69,3 +69,8 @@ Group-level associations are consistent: meta-analyses link ADHD and PTSD with e
 - [[Sleep and circadian disruption across conditions]] - poor sleep preceded suicidal ideation in adolescents with bipolar disorder, one of the few time-ordered signals sourced here.
 
 **Cross-domain connection (curation).** Suicide and self-harm run through every condition domain in this library, but the research-methods domain decides how to read them: raised group risk, weak individual prediction and a small trial base are three different findings, and the sleep literature supplies one of the few time-ordered warning signals. [[Association versus individual prediction]] [[Sleep and circadian disruption across conditions]] [[Emotion dysregulation across conditions]]
+
+## Detailed lesson
+
+- [[Lesson - Suicide and self-harm]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]

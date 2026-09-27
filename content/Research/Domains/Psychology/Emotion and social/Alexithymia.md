@@ -63,3 +63,8 @@ As a questionnaire score, alexithymia is consistently higher in autistic than in
 - [[Insula]] - the region proposed to turn bodily signals into felt emotion; the alexithymia evidence gathered here is self-report and has not been tied to insular measurements.
 
 **Cross-domain connection (curation).** Alexithymia sits where the psychology domain's emotion constructs meet the neuroanatomy domain's interoceptive pathways and the autism and trauma domains' questions about emotional awareness; the research-methods domain supplies the invariance and discriminant-validity checks that decide whether a group difference in a questionnaire score is a difference in the trait. [[Interoception and autonomic pathways]] [[Measurement invariance]] [[CPTSD and disturbances in self-organization]]
+
+## Detailed lesson
+
+- [[Lesson - Alexithymia]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

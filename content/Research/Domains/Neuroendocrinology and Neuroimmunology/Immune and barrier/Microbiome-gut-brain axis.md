@@ -55,3 +55,8 @@ This axis is a second route by which peripheral state reaches the brain, alongsi
 ## Uncertainties
 
 - Diet, medication and illness alter both microbiome and behaviour, so observational associations are difficult to interpret.
+
+## Detailed lesson
+
+- [[Lesson - Microbiome-gut-brain axis]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

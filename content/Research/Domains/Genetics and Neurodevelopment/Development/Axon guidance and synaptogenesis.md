@@ -48,3 +48,8 @@ This note follows [[Neurogenesis and migration]] and precedes [[Synaptic pruning
 ## Uncertainties
 
 - Most mechanism work is in animals, and human developmental timing differs, so direct transfer of specific mechanisms is uncertain.
+
+## Detailed lesson
+
+- [[Lesson - Axon guidance and synaptogenesis]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

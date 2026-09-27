@@ -62,3 +62,8 @@ The insula's location and its role as the cortical target of interoceptive pathw
 - [[Psychophysiology methods]] - the peripheral measures used to index interoceptive and emotional state, and the inference steps they require.
 
 **Cross-domain connection (curation).** The insula is where this domain's interoceptive anatomy meets psychology's emotional-awareness constructs and the computational domain's network models; the condition domains draw on it for anxiety, trauma and neurodevelopmental findings that are shared across diagnoses, and the methods domain's measurement material decides whether a task, a confidence rating or a questionnaire is standing in for "interoception". [[Interoception and autonomic pathways]] [[Alexithymia]] [[Network and connectome models]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Insula]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

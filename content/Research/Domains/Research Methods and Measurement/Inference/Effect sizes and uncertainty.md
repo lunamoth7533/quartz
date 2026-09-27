@@ -60,3 +60,8 @@ These are reporting conventions, not a scoring system: whether an effect matters
 ## Study question
 
 Take one effect from the library and restate it as an absolute change, a relative change and a person-based number, then say which version changes your reading.
+
+## Detailed lesson
+
+- [[Lesson - Effect sizes and uncertainty]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

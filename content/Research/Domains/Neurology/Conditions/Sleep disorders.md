@@ -49,9 +49,15 @@ Diagnostic categories and the physiology of sleep are well established; treatmen
 This article links [[Circadian clock biology]] and [[Circadian rhythms and sleep]] to clinical material, including the sleep questions that appear in mood and ADHD assessment.
 
 - [[Atypical antidepressants]] - mirtazapine, whose receptor profile is linked to sedation, trazodone, which blocks histamine receptors, and agomelatine, a melatonergic agonist, all meet sleep questions here.
+- [[Hypnotics and sleep medicines]] - the medicines matched to these categories: sedating and orexin-blocking drugs for insomnia and melatonin for timing disorders, with trial evidence and harms group by group.
 
 **Cross-domain connection (curation).** Sleep sits at the intersection of this domain and two others: the neurochemistry domain's circadian-clock and adenosine material supplies the timing and pressure mechanisms, and the psychiatric domains meet it because sleep disturbance is both symptom and maintaining factor across conditions. [[Circadian rhythms and sleep]] [[Adenosine signalling]]
 
 ## Uncertainties
 
 - Self-reported sleep and actigraphy-derived sleep disagree in ways that matter for both research and assessment.
+
+## Detailed lesson
+
+- [[Lesson - Sleep disorders]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

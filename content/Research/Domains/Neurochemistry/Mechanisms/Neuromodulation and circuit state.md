@@ -49,3 +49,8 @@ This note explains why [[Receptor families and second messengers]] matter for ne
 
 - Most modulator systems are studied in animal preparations; human receptor-level dynamics are inferred.
 - Because modulators act broadly, distinguishing their cognitive role from their arousal or autonomic role is genuinely difficult in naturalistic settings.
+
+## Detailed lesson
+
+- [[Lesson - Neuromodulation and circuit state]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

@@ -52,3 +52,8 @@ This article is closely tied to [[Attention and executive function]] and to the 
 ## Uncertainties
 
 - Laboratory attention tasks predict everyday functioning weakly, which limits clinical interpretation of task differences.
+
+## Detailed lesson
+
+- [[Lesson - Attention]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

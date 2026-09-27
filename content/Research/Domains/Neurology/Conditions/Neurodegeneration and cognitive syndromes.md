@@ -54,3 +54,8 @@ This article belongs with [[Memory processes]] and [[Association cortex and netw
 ## Uncertainties
 
 - Agreement on biomarker-based diagnosis continues to evolve, and biomarker positivity does not always correspond to clinical syndrome.
+
+## Detailed lesson
+
+- [[Lesson - Neurodegeneration and cognitive syndromes]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

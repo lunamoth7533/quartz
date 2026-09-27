@@ -53,3 +53,8 @@ This note links to [[Dissociative constructs]] in the CPTSD domain and to [[Cate
 ## Uncertainties
 
 - Prevalence estimates vary widely with instrument and setting, so they should not be quoted as settled.
+
+## Detailed lesson
+
+- [[Lesson - Dissociative constructs]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]

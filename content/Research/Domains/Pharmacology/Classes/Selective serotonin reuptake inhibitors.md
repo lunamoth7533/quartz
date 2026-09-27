@@ -67,3 +67,8 @@ Efficacy in adult depression rests on hundreds of double-blind trials whose cert
 - [[Psychological interventions for complex trauma]] - the psychological treatments that most PTSD guidelines rank as first-line alongside SSRIs.
 
 **Cross-domain connection (curation).** SSRIs tie neurochemistry's serotonin and reuptake notes to three condition domains that read the same drugs differently: first-line in PTSD, doubtful for autistic repetitive behaviour, and a switch concern in bipolar I. [[Serotonin signalling]] [[CPTSD and disturbances in self-organization]] [[Intervention outcomes and autistic perspectives]] [[Phase-specific bipolar treatment evidence]]
+
+## Detailed lesson
+
+- [[Lesson - Selective serotonin reuptake inhibitors]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

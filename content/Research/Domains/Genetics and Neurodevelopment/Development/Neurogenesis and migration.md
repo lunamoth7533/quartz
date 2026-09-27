@@ -50,3 +50,8 @@ This note is the first stage of the developmental sequence completed by [[Axon g
 ## Uncertainties
 
 - Post-mortem markers for new neurons are indirect and sensitive to tissue handling, which is part of why estimates vary widely between studies.
+
+## Detailed lesson
+
+- [[Lesson - Neurogenesis and migration]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

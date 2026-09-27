@@ -50,6 +50,8 @@ Receptor-level adaptation is well characterised in cell and animal systems; pred
 
 This note links [[Pharmacodynamics and receptors]] to clinical material on discontinuation effects across drug classes.
 
+- [[Benzodiazepines and Z-drugs]] - the class-level account of this note's benzodiazepine example: tolerance, dependence and withdrawal, and why guidance advises against abrupt stopping after long use.
+
 **Cross-domain connection (curation).** The benzodiazepine case is where pharmacology, clinical psychiatry and neurochemistry meet on this topic: tolerance, dependence and withdrawal are documented together with sedation and falls, and duration-of-use questions follow from the biology rather than from policy preferences. [[P23789008 Griffin 2013 Benzodiazepine pharmacology]] [[Drug classes and mechanisms overview]]
 
 **Cross-domain connection (curation).** Receptor adaptation in the pharmacology domain supplies the molecular substrate that the clinical-psychiatry domain uses when it discusses discontinuation syndromes and treatment-emergent effects, and that the neurochemistry domain uses when it describes homeostatic compensation. The inference chain from receptor-level adaptation to clinical discontinuation runs through at least two domains, and the methods domain's causal-inference rules govern whether the chain can be read in the stated direction. [[Evidence types and causal inference]] [[Lithium mechanisms and uncertainty]]
@@ -57,3 +59,8 @@ This note links [[Pharmacodynamics and receptors]] to clinical material on disco
 ## Uncertainties
 
 - Withdrawal syndromes differ substantially across classes and are often misattributed to relapse.
+
+## Detailed lesson
+
+- [[Lesson - Receptor adaptation tolerance and dependence]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

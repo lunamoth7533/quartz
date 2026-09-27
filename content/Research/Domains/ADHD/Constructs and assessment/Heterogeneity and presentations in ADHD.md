@@ -55,3 +55,8 @@ This note qualifies [[ADHD across the lifespan]] and is referenced by [[Attentio
 ## Uncertainties
 
 - Whether specific profiles predict differential treatment response has not been established.
+
+## Detailed lesson
+
+- [[Lesson - Heterogeneity and presentations in ADHD]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 08 - ADHD|ADHD]]

@@ -62,5 +62,11 @@ Descriptive evidence is the strongest layer: meta-analyses establish objective s
 - [[Adenosine signalling]] - the best-supported molecular candidate for homeostatic sleep pressure, the second system alongside the clock in every finding above.
 - [[Trauma and stress responses]] - the trauma domain's account of stress physiology across HPA, autonomic and inflammatory signalling, the wider frame for the PTSD sleep findings here.
 - [[Neural oscillations]] - the EEG rhythms that define sleep stages, and the gap between the timing and continuity findings here and oscillation measures such as spindles.
+- [[Hypnotics and sleep medicines]] - the drug side of these sleep problems: melatonin in autistic children and in delayed sleep phase, prazosin for trauma nightmares, and how the hypnotic groups differ.
 
 **Cross-domain connection (curation).** Sleep and circadian disruption is where this domain's timing material meets all four condition domains: the clock and sleep-pressure mechanisms come from [[Circadian clock biology]] and [[Circadian rhythms and sleep]], the bipolar domain contributes the social-rhythm hypothesis and its treatment use, and the neurology domain contributes the clinical categories. Because each condition literature measures sleep differently, the methods domain's measurement discipline decides which comparisons are fair. [[Circadian and social rhythm hypotheses]] [[Sleep disorders]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Sleep and circadian disruption across conditions]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

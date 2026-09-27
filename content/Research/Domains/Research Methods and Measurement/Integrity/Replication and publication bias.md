@@ -53,3 +53,8 @@ This note sits behind every effect estimate cited in the vault, and it pairs wit
 ## Uncertainties
 
 - Replication failure can reflect contextual differences rather than error, so a failed replication is information rather than a verdict.
+
+## Detailed lesson
+
+- [[Lesson - Replication and publication bias]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

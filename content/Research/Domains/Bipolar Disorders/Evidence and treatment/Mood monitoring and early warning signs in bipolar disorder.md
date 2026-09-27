@@ -59,3 +59,8 @@ Prospective tests of warning signals come from small intensive cohorts. In a yea
 - [[Autonomic measurement and heart rate variability]] - background for the heart-rate and electrodermal signals that wearables record, and for which physiological inferences from them are defensible.
 
 **Cross-domain connection (curation).** Mood monitoring is where the bipolar condition domain meets the methods domain's within-person inference and the neuroendocrine domain's clock biology: many of the signals are sleep and activity rhythms, the inference is longitudinal, and the clinical question is relapse. A monitoring claim needs all three - a physiological rationale, a design that separates within-person change from between-person difference, and a clinically defined episode label. [[Circadian clock biology]] [[Longitudinal and within-person inference]] [[Bipolar I episodes and course]]
+
+## Detailed lesson
+
+- [[Lesson - Mood monitoring and early warning signs in bipolar disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

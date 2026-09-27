@@ -51,7 +51,7 @@ Overall certainty was moderate at best, limited by risk of bias and inconsistent
 
 ## Scope as reported
 
-An umbrella review of 17 systematic reviews and meta-analyses of psychological, physiotherapy, neuromodulation, multidisciplinary and drug treatments, assessing effect direction, GRADE certainty and risk of bias across 10 methodological domains.
+An umbrella review of 17 systematic reviews and meta-analyses of psychological, physiotherapy, neuromodulation, multidisciplinary and drug treatments, rating each treatment's direction of effect, its GRADE certainty and its risk of bias on ten methodological criteria.
 ^p41111084-limit
 
 ## Library appraisal

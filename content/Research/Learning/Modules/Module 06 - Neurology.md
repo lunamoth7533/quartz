@@ -5,7 +5,7 @@ module: "m06"
 module_order: 6
 domain: [neurology]
 condition: []
-lesson_count: 5
+lesson_count: 19
 source_count: 4
 canvas: "Learning Map - Neurology.canvas"
 cssclasses: [research-module]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m06]
 
 # Module 06 - Neurology
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Neurology.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 19 · **Canvas.** [[Learning Map - Neurology.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -37,6 +37,20 @@ Neurology covers the organisation of the nervous system and the measurement tool
 3. [[Lesson - Structural versus functional measures]] · after [[Lesson - Neurological examination]] · 2 sources
 4. [[Lesson - MRI versus EEG]] · after [[Lesson - Structural versus functional measures]] · 3 sources
 5. [[Lesson - Interpreting group brain differences]] · after [[Lesson - MRI versus EEG]], [[Lesson - Association versus individual prediction]] · 2 sources
+6. [[Lesson - History and localisation]] · after [[Lesson - Interpreting group brain differences]] · 3 sources
+7. [[Lesson - Differential reasoning in neurology]] · after [[Lesson - History and localisation]] · 4 sources
+8. [[Lesson - EEG and other diagnostics]] · after [[Lesson - Differential reasoning in neurology]], [[Lesson - Structural versus functional measures]] · 4 sources
+9. [[Lesson - Seizures and epilepsy]] · after [[Lesson - EEG and other diagnostics]] · 4 sources
+10. [[Lesson - Headache and pain]] · after [[Lesson - Differential reasoning in neurology]] · 2 sources
+11. [[Lesson - Cerebrovascular disease]] · after [[Lesson - History and localisation]] · 2 sources
+12. [[Lesson - Traumatic brain injury]] · after [[Lesson - History and localisation]] · 3 sources
+13. [[Lesson - Demyelination and multiple sclerosis]] · after [[Lesson - EEG and other diagnostics]] · 3 sources
+14. [[Lesson - Movement disorders]] · after [[Lesson - Differential reasoning in neurology]] · 3 sources
+15. [[Lesson - Tic disorders and Tourette syndrome]] · after [[Lesson - Movement disorders]] · 3 sources
+16. [[Lesson - Neurodegeneration and cognitive syndromes]] · after [[Lesson - Structural versus functional measures]] · 2 sources
+17. [[Lesson - Peripheral neuropathy and neuromuscular disease]] · after [[Lesson - EEG and other diagnostics]] · 3 sources
+18. [[Lesson - Sleep disorders]] · after [[Lesson - EEG and other diagnostics]] · 4 sources
+19. [[Lesson - Functional neurological disorder]] · after [[Lesson - Differential reasoning in neurology]], [[Lesson - Movement disorders]] · 3 sources
 
 ## Worked-example trail
 
@@ -45,6 +59,20 @@ Neurology covers the organisation of the nervous system and the measurement tool
 - [[Lesson - Structural versus functional measures]] - hypothetical worked example: a question about moment-to-moment activity chooses the measure that fits it.
 - [[Lesson - MRI versus EEG]] - hypothetical worked example: a combined design is chosen to answer an anatomy-and-timing question.
 - [[Lesson - Interpreting group brain differences]] - hypothetical worked example: the ENIGMA finding is rewritten as two sentences, only one of which is supported.
+- [[Lesson - History and localisation]] - hypothetical worked example: two invented presentations are localised and timed before any test is chosen.
+- [[Lesson - Differential reasoning in neurology]] - hypothetical worked example: a multifocal, fluctuating presentation is narrowed by location and tempo together.
+- [[Lesson - EEG and other diagnostics]] - hypothetical worked example: a normal EEG between episodes is read as a probability update, not a verdict.
+- [[Lesson - Seizures and epilepsy]] - hypothetical worked example: a single provoked seizure is checked against the practical definition of epilepsy.
+- [[Lesson - Headache and pain]] - hypothetical worked example: two headache patterns are sorted by the primary-versus-secondary fork rather than by pain intensity.
+- [[Lesson - Cerebrovascular disease]] - hypothetical worked example: a sudden multi-territory deficit is reasoned through by vascular territory and tempo.
+- [[Lesson - Traumatic brain injury]] - hypothetical worked example: a post-concussion attention complaint is checked against severity grading and pre-injury status before attribution.
+- [[Lesson - Demyelination and multiple sclerosis]] - hypothetical worked example: a single ambiguous scan finding is weighed against the dissemination-in-space-and-time criteria.
+- [[Lesson - Movement disorders]] - hypothetical worked example: two invented movement descriptions are sorted into the hypokinetic and hyperkinetic poles by phenomenology alone.
+- [[Lesson - Tic disorders and Tourette syndrome]] - hypothetical worked example: a child's anxiety and inattention are checked against the co-occurrence evidence before being credited to tics.
+- [[Lesson - Neurodegeneration and cognitive syndromes]] - hypothetical worked example: an ageing-related scan finding is weighed against the requirement for functional decline.
+- [[Lesson - Peripheral neuropathy and neuromuscular disease]] - hypothetical worked example: a symmetric, distal symptom pattern is read against the length-dependent model.
+- [[Lesson - Sleep disorders]] - hypothetical worked example: a circadian mismatch is sorted from insomnia by which dimension of sleep is actually disrupted.
+- [[Lesson - Functional neurological disorder]] - hypothetical worked example: a diagnosis reached by normal tests alone is contrasted with one built on positive examination signs.
 
 ## Core and advanced branches
 

@@ -53,3 +53,8 @@ This is the fast end of the spectrum developed in [[Synapses and plasticity]]; i
 
 - The mapping from short-term dynamics to network computations is model-dependent.
 - Neuromodulators alter release probability, so short-term dynamics change with circuit state. [[P23040802 Marder 2012 Neuromodulation#^p23040802-state|Neuromodulation]]
+
+## Detailed lesson
+
+- [[Lesson - Short-term synaptic plasticity]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

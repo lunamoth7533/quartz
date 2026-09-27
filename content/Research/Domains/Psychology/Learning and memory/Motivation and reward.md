@@ -50,3 +50,8 @@ This note links to [[Reinforcement learning]] and is referenced from the bipolar
 ## Uncertainties
 
 - Self-reported motivation and behavioural measures of effort frequently diverge.
+
+## Detailed lesson
+
+- [[Lesson - Motivation and reward]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

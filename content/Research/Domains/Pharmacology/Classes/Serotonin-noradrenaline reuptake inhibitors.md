@@ -65,3 +65,8 @@ For adult depression the class rests on the same large trial network as other an
 - [[Anxiety and fear constructs]] - the social anxiety and panic presentations covered by venlafaxine's approvals.
 
 **Cross-domain connection (curation).** SNRIs join neurochemistry's serotonin and noradrenaline systems to neurology's pain material and to ADHD's non-stimulant drugs, and bipolar guidance marks the same dual mechanism as a switch concern; reading all three needs the indication named each time. [[Noradrenaline signalling]] [[Headache and pain]] [[Stimulant and non-stimulant mechanisms]] [[Phase-specific bipolar treatment evidence]]
+
+## Detailed lesson
+
+- [[Lesson - Serotonin-noradrenaline reuptake inhibitors]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

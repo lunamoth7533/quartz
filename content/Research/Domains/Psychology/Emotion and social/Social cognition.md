@@ -50,3 +50,8 @@ This note is used in the autism domain for [[Social cognition accounts]] and [[D
 ## Uncertainties
 
 - Task performance and everyday social functioning correlate weakly, so scores should not be treated as social competence.
+
+## Detailed lesson
+
+- [[Lesson - Social cognition]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

@@ -58,6 +58,7 @@ Excitation and inhibition are often described in broad terms; local measurement 
 - [[Neuromodulation and circuit state]] - the slower layer acting on these fast channels; modulators change neuronal and synaptic properties, so one wiring diagram can yield different outputs.
 - [[Receptor families and second messengers]] - the ionotropic versus metabotropic split that gives both transmitters fast and slow effects in the same tissue.
 - [[Ketamine and rapid-acting antidepressants]] - ketamine blocks NMDA receptors, and rapid-acting drugs are proposed to converge on stronger excitatory synapses.
+- [[Benzodiazepines and Z-drugs]] - the clinical case of GABA-A modulation: drugs that amplify inhibition rather than activate the receptor, used for sleep, anxiety and seizures and limited by dependence.
 
 ## Study question
 

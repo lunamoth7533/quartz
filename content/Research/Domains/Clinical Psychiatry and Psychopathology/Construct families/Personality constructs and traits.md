@@ -49,6 +49,11 @@ This note pairs with [[Personality models]] and [[Categorical versus dimensional
 
 **Cross-domain connection (curation).** The genetics domain's twin literature gives the aetiological layer - moderate heritability, nonshared environment prominent - and the clinical domain's treatment evidence gives the changeability layer; both constrain the trait talk this article organises. [[Inheritance and variation]] [[Therapy models overview]]
 
+## Detailed lesson
+
+- [[Lesson - Personality constructs and traits]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Diagnostic labels carry stigma that affects care, which is one argument for careful language as well as for dimensional description. [[P23488505 Hatzenbuehler 2013 Stigma as fundamental cause#^p23488505-implication|Stigma as a fundamental cause of health inequalities]]

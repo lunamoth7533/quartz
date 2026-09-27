@@ -63,3 +63,8 @@ Severity grading and the clinical picture of closed injury come from a clinical 
 - [[Co-occurrence and differential reasoning]] - the general logic for three overlapping conditions (TBI, PTSD and ADHD) that share symptoms such as poor concentration.
 
 **Cross-domain connection (curation).** Traumatic brain injury is where the neurology domain's lesion reasoning meets the complex-trauma and ADHD domains' attribution problems: the same poor concentration can be read as a post-concussive, posttraumatic or attentional symptom, and the research-methods domain's insistence on pre-injury baselines and proper control groups decides which reading the evidence supports. [[Co-occurrence and differential reasoning]] [[Trauma and PTSD in autistic and ADHD people]] [[Bias and confounding]]
+
+## Detailed lesson
+
+- [[Lesson - Traumatic brain injury]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

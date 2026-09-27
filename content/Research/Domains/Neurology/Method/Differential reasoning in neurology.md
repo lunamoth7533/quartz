@@ -52,3 +52,8 @@ This article is the counterpart of [[Co-occurrence and differential reasoning]] 
 ## Uncertainties
 
 - Diagnostic error rates in neurology are substantial, and most errors involve reasoning rather than test interpretation.
+
+## Detailed lesson
+
+- [[Lesson - Differential reasoning in neurology]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

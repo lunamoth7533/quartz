@@ -49,6 +49,11 @@ This note sits with [[Symptoms syndromes and diagnoses]] and connects to the pha
 
 **Cross-domain connection (curation).** The Bayesian article's psychosis proposal and the dopamine-reward literature are this construct's computational and mechanistic neighbours; both are framed as proposals and research programmes respectively, consistent with the descriptive caution this article maintains. [[Bayesian inference and predictive processing]] [[Reward prediction error]]
 
+## Detailed lesson
+
+- [[Lesson - Psychosis constructs]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Predicting who will develop a psychotic disorder from at-risk presentations remains unreliable.

@@ -51,3 +51,8 @@ This article links [[Basal ganglia]] and [[Cerebellum and brainstem]] to the cli
 ## Uncertainties
 
 - Distinguishing drug-induced from idiopathic movement disorders can be difficult when both are plausible.
+
+## Detailed lesson
+
+- [[Lesson - Movement disorders]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

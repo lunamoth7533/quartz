@@ -51,3 +51,8 @@ This note is the applied end of [[Common and rare variants]] and a recurring exa
 ## Uncertainties
 
 - Ancestry representation in discovery samples remains a major limitation of current scores.
+
+## Detailed lesson
+
+- [[Lesson - Polygenic scores and prediction]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

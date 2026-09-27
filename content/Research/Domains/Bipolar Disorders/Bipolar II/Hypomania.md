@@ -59,3 +59,8 @@ Screening accuracy rests on a meta-analysis of 53 studies, most from mental heal
 - [[Antidepressants in bipolar disorder]] - hypomania emerging during antidepressant treatment, one way unrecognised bipolar II comes to light.
 
 **Cross-domain connection (curation).** Hypomania is where the bipolar domain's diagnostic thresholds meet the methods domain's measurement questions: screening accuracy, informant and setting decide who is counted as bipolar II, and the clinical-psychiatry domain's comparison of classification systems decides where the line is drawn. [[Measurement validity and reliability]] [[ICD-11 versus DSM-5 classification]] [[Categorical versus dimensional classification]]
+
+## Detailed lesson
+
+- [[Lesson - Hypomania]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

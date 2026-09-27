@@ -57,3 +57,8 @@ This note is the psychological counterpart to [[Developmental perspectives and a
 ## Uncertainties
 
 - Attachment measures are context-sensitive, so a single assessment should not be treated as a stable trait.
+
+## Detailed lesson
+
+- [[Lesson - Developmental perspectives and attachment]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

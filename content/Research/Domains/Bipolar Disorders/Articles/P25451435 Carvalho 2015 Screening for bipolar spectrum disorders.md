@@ -61,6 +61,7 @@ With specificity of roughly 60-80% in clinics, a screen flags many people who do
 ## Used by
 
 - [[Hypomania]]
+- [[Screening and diagnostic accuracy]]
 
 ## Working notes
 

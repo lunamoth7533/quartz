@@ -53,9 +53,15 @@ This article belongs with [[Drug classes and mechanisms overview]] and is refere
 - [[Atypical antidepressants]] - drugs with different first targets, from alpha-2 blockade to melatonergic agonism, that converge on the same clinical use.
 - [[Ketamine and rapid-acting antidepressants]] - fast-onset treatments that sharpen the delay problem and extend the plasticity account beyond monoamines.
 - [[Psychedelics and MDMA-assisted therapy]] - serotonin-receptor activation within structured therapy, tested for speed and durability under imperfect blinding.
+- [[Antidepressants in bipolar disorder]] - where the same monoamine drugs meet a switch concern: mania, hypomania or mixed states during treatment of bipolar depression, on weak efficacy evidence.
 
 **Cross-domain connection (curation).** Psychology's therapy-evidence articles and this note meet at the same trial literature: both domains read effect sizes with raters, comparators and certainty grades attached, and neither can convert a group average into an individual prediction. [[Therapy models overview]] [[Efficacy versus tolerability]]
 
 ## Uncertainties
 
 - Why some people respond to one drug and not another is not predicted by mechanism.
+
+## Detailed lesson
+
+- [[Lesson - Antidepressant mechanisms]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

@@ -45,3 +45,8 @@ This note supplies the supply-and-clearance layer for [[The synaptic vesicle cyc
 
 - Quantifying release and clearance in the intact human brain is not possible with current methods; estimates come from animals, tissue and indirect measures.
 - Transmitter levels measured in blood or cerebrospinal fluid are not direct indices of synaptic activity.
+
+## Detailed lesson
+
+- [[Lesson - Transmitter synthesis, release and clearance]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

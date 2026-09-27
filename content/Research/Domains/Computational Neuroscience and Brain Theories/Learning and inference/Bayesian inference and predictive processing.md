@@ -53,3 +53,8 @@ This note is the perception-side counterpart to [[Active inference and free ener
 ## Uncertainties
 
 - Different predictive-coding algorithms make different neural predictions, so evidence in their favour is not interchangeable.
+
+## Detailed lesson
+
+- [[Lesson - Bayesian inference and predictive processing]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

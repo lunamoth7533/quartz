@@ -5,7 +5,7 @@ module: "m08"
 module_order: 8
 domain: [psychology, neurochemistry, pharmacology]
 condition: [adhd]
-lesson_count: 6
+lesson_count: 12
 source_count: 8
 canvas: "Learning Map - ADHD.canvas"
 cssclasses: [research-module]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m08]
 
 # Module 08 - ADHD
 
-**Lessons.** 6 · **Canvas.** [[Learning Map - ADHD.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 12 · **Canvas.** [[Learning Map - ADHD.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -38,6 +38,12 @@ ADHD applies the foundations to a lifespan condition defined by persistent, impa
 4. [[Lesson - ADHD medication evidence]] · after [[Lesson - ADHD and prefrontal catecholamines]] · 3 sources
 5. [[Lesson - CBT for adult ADHD]] · after [[Lesson - ADHD medication evidence]] · 2 sources
 6. [[Lesson - Short-term versus long-term outcomes]] · after [[Lesson - CBT for adult ADHD]] · 3 sources
+7. [[Lesson - Heterogeneity and presentations in ADHD]] · after [[Lesson - ADHD across the lifespan]] · 4 sources
+8. [[Lesson - Rater and measurement effects in ADHD]] · after [[Lesson - ADHD diagnosis and measurement]], [[Lesson - Heterogeneity and presentations in ADHD]] · 6 sources
+9. [[Lesson - ADHD in girls and women]] · after [[Lesson - Rater and measurement effects in ADHD]], [[Lesson - Heterogeneity and presentations in ADHD]] · 5 sources
+10. [[Lesson - Cognitive models of ADHD]] · after [[Lesson - Heterogeneity and presentations in ADHD]] · 5 sources
+11. [[Lesson - Reinforcement learning accounts of ADHD]] · after [[Lesson - Cognitive models of ADHD]] · 6 sources
+12. [[Lesson - ADHD and substance use]] · after [[Lesson - ADHD medication evidence]], [[Lesson - Short-term versus long-term outcomes]] · 5 sources
 
 ## Worked-example trail
 
@@ -47,6 +53,12 @@ ADHD applies the foundations to a lifespan condition defined by persistent, impa
 - [[Lesson - ADHD medication evidence]] - hypothetical worked example: a network ranking is read for what it does not compare.
 - [[Lesson - CBT for adult ADHD]] - hypothetical worked example: a durability question is turned into a follow-up design.
 - [[Lesson - Short-term versus long-term outcomes]] - hypothetical worked example: a short-term result is extended to years with the gap made explicit.
+- [[Lesson - Heterogeneity and presentations in ADHD]] - hypothetical worked example: a fictional "impaired working memory" finding is checked against group overlap, sample source and whether the effect held for most of the group or a minority.
+- [[Lesson - Rater and measurement effects in ADHD]] - hypothetical worked example: a school pilot's teacher-improved, parent-unchanged result is read for rater, setting and blinding before any verdict on the programme.
+- [[Lesson - ADHD in girls and women]] - hypothetical worked example: a claim of a distinct female ADHD presentation is checked against clinical-interview evidence and the limits of already-diagnosed samples.
+- [[Lesson - Cognitive models of ADHD]] - hypothetical worked example: a press release naming one brain network as ADHD's "true cause" is checked against effect size, design and the other cognitive accounts.
+- [[Lesson - Reinforcement learning accounts of ADHD]] - hypothetical worked example: a fitted "learning rate" claim is separated into the task finding, the modelling step and the leap to daily motivation.
+- [[Lesson - ADHD and substance use]] - hypothetical worked example: a headline claiming medication "proves" addiction prevention is tested against what a randomised trial would need to show.
 
 ## Core and advanced branches
 

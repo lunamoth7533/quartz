@@ -49,6 +49,11 @@ This note is the clinical counterpart of [[Motivation and reward]] and [[Procedu
 
 **Cross-domain connection (curation).** The reinforcement-learning and habit articles supply the formal and circuit-level accounts of the shift from goal-directed to compulsive use, and the pharmacology domain's tolerance article supplies the receptor-level half - substance-related constructs sit at their intersection. [[Model-based and model-free control]] [[Receptor adaptation tolerance and dependence]]
 
+## Detailed lesson
+
+- [[Lesson - Substance-related constructs]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 15 - Clinical Psychiatry and Psychopathology|Clinical Psychiatry and Psychopathology]]
+
 ## Uncertainties
 
 - Stigma reduces help-seeking and distorts self-report, which affects both clinical care and research measurement. [[P23488505 Hatzenbuehler 2013 Stigma as fundamental cause#^p23488505-argument|Stigma as a fundamental cause of health inequalities]]

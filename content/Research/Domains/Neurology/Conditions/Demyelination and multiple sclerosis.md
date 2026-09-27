@@ -44,3 +44,8 @@ This is the clinical case for [[Myelin and saltatory conduction]] and for the st
 ## Uncertainties
 
 - Why remyelination succeeds in some lesions and fails in others remains unresolved. [[P32211826 Profaci 2020 Blood-brain barrier#^p32211826-open|The blood-brain barrier in health and disease]]
+
+## Detailed lesson
+
+- [[Lesson - Demyelination and multiple sclerosis]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

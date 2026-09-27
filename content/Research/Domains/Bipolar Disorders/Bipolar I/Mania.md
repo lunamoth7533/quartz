@@ -65,3 +65,8 @@ The episode is described consistently across the sources, but its thresholds are
 - [[Stimulant and non-stimulant mechanisms]] - how ADHD stimulants act on catecholamines, background to the stimulant-exposure question raised here.
 
 **Cross-domain connection (curation).** Mania ties the bipolar domain's episode definitions to the neuroendocrine domain's sleep and clock biology, the neurochemistry domain's dopamine findings and the pharmacology domain's evidence on antidepressant and stimulant exposure; the methods domain decides whether a sleep change that precedes an episode is read as a trigger or as its first symptom. [[Sleep and circadian disruption across conditions]] [[Dopamine signalling]] [[Longitudinal and within-person inference]]
+
+## Detailed lesson
+
+- [[Lesson - Mania]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

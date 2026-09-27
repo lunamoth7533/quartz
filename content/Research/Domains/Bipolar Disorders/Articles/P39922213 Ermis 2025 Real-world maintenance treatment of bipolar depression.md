@@ -63,6 +63,7 @@ Register admissions capture severe relapse only, and a within-person design remo
 - [[Phase-specific bipolar treatment evidence]]
 - [[Lithium mechanisms and uncertainty]]
 - [[Selective serotonin reuptake inhibitors]]
+- [[Antidepressants in bipolar disorder]]
 
 ## Working notes
 

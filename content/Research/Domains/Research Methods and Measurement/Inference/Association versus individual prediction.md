@@ -64,6 +64,7 @@ A real group signal can answer a group question and still say nothing about the 
 - [[Neuroimaging methods]] - the modality-level account of why small-sample brain-behaviour correlations are unstable and inflated, which limits any brain-based individual prediction built on them.
 - [[Suicide and self-harm]] - the clinical case where the gap is starkest: raised group risk across conditions, yet risk factors predict individual outcomes only slightly better than chance.
 - [[Adverse childhood experiences]] - an applied case outside biology: ACE scores forecast group differences in later health yet discriminate between individuals barely better than chance.
+- [[Pharmacogenomics]] - a drug-response case: strong gene-drug associations such as HLA-B*15:02 with carbamazepine skin reactions still predict individual outcomes imperfectly.
 
 ## Study question
 

@@ -61,6 +61,7 @@ Narrow-therapeutic-window monitoring is not a finding of this review. That conce
 
 - [[Chemical imbalance framing]]
 - [[Lithium mechanisms and uncertainty]]
+- [[Pharmacogenomics]]
 
 ## Working notes
 

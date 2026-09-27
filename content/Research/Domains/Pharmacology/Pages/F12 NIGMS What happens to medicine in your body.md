@@ -49,6 +49,7 @@ Educational overview written for a general audience; it simplifies and does not 
 ## Used by
 
 - [[Pharmacokinetics and ADME]]
+- [[Pharmacogenomics]]
 
 ## Working notes
 

@@ -63,3 +63,8 @@ Most GWAS data are still from a narrow set of ancestries, and scores lose accura
 ## Study question
 
 What evidence would a polygenic score need before it could change a screening decision for one person, and why is a group association insufficient?
+
+## Detailed lesson
+
+- [[Lesson - Genetic inference and polygenic scores]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

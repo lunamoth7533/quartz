@@ -58,3 +58,8 @@ ACT has a laboratory evidence base for most of its components and a moderate poo
 - [[CBT for adult ADHD]] - the better-characterised adult ADHD psychotherapy evidence against which ACT's small studies in ADHD can be read.
 
 **Cross-domain connection (curation).** ACT links the psychology domain's learning and emotion-regulation research to the trauma and neurodevelopmental condition domains, and the research-methods domain's distinction between process measures and clinical outcomes decides how its laboratory and trial results can be combined. [[Learning and conditioning]] [[Emotion regulation]] [[Measurement validity and reliability]]
+
+## Detailed lesson
+
+- [[Lesson - Acceptance and commitment therapy]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

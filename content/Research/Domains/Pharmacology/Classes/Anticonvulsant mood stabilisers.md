@@ -61,3 +61,8 @@ Phase-specific efficacy rests on meta-analyses whose certainty is mostly moderat
 - [[Second-generation antipsychotics]] - the other main drug group in bipolar treatment, tested alone and added to lithium or valproate.
 
 **Cross-domain connection (curation).** Anticonvulsant mood stabilisers are where the neurology domain's antiseizure pharmacology meets the bipolar domain's phase-specific evidence and the genetics domain's pharmacogenomic markers. Their mechanisms are as unsettled as lithium's, so the methods domain's line between clinical effect and mechanistic explanation governs how any of them is described. [[Antiseizure medications]] [[Phase-specific bipolar treatment evidence]] [[Pharmacogenomics]] [[Evidence types and causal inference]]
+
+## Detailed lesson
+
+- [[Lesson - Anticonvulsant mood stabilisers]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

@@ -58,6 +58,7 @@ Balance is usually measured indirectly, and a difference in one circuit says lit
 - [[Interpreting group brain differences]] - the reading rules for the regional and imaging E/I measures used in condition research: group averages, medication and course confounds, and no individual test.
 - [[Circuit development and homeostasis]] - where excitability is regulated during development and then held stable, the slower counterpart to the state-dependent shifts in balance described here.
 - [[Sensitive periods]] - the developmental meaning of E/I listed here: maturation of local inhibition is the trigger that opens the best-studied plasticity window described there.
+- [[Antiseizure medications]] - the clinical test of this concept: drugs that suppress seizures by damping excitation or strengthening inhibition, without correcting the cause of the epilepsy.
 
 ## Study question
 

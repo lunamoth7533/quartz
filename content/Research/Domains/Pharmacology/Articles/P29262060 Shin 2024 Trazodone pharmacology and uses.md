@@ -58,6 +58,7 @@ The receptor actions are listed without their relative strengths, so the chapter
 ## Used by
 
 - [[Atypical antidepressants]]
+- [[Hypnotics and sleep medicines]]
 
 ## Working notes
 

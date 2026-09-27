@@ -46,3 +46,8 @@ This article is the connective tissue for [[Association cortex and networks]] an
 ## Uncertainties
 
 - Diffusion-derived tractography cannot distinguish afferent from efferent fibres, so directionality claims require caution.
+
+## Detailed lesson
+
+- [[Lesson - White matter and tracts]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

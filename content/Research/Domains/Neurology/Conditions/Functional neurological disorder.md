@@ -63,3 +63,8 @@ The positive-sign approach and the grouping of four subtypes are set out in an e
 - [[Tic disorders and Tourette syndrome]] - the neighbouring hyperkinetic condition, where sudden tic-like presentations in adolescents raise a similar functional-versus-primary question.
 
 **Cross-domain connection (curation).** Functional neurological disorder sits on the neurology-psychiatry border: the neurology domain supplies the positive examination signs, the clinical-psychiatry and complex-trauma domains supply the dissociation and stress links, and the computational domain's predictive-processing models offer a mechanism that the research-methods domain treats as a group-level hypothesis rather than a test. [[Dissociative constructs]] [[Bayesian inference and predictive processing]] [[Trauma and stress responses]]
+
+## Detailed lesson
+
+- [[Lesson - Functional neurological disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

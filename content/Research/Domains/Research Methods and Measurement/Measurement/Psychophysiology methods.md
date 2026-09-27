@@ -50,3 +50,8 @@ This note is the measurement companion to [[Autonomic measurement and heart rate
 ## Uncertainties
 
 - Composite indices are frequently interpreted as single constructs without validation in the studied population.
+
+## Detailed lesson
+
+- [[Lesson - Psychophysiology methods]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

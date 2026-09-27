@@ -50,3 +50,8 @@ Layer and column structure connects cellular organisation in [[Neurons and glia]
 ## Uncertainties
 
 - The extent to which canonical cortical microcircuits generalise across areas is still debated.
+
+## Detailed lesson
+
+- [[Lesson - Cortical layers and columns]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

@@ -61,3 +61,8 @@ Efficacy evidence in depression is a network of 83 double-blind trials that conc
 - [[Antidepressant mechanisms]] - the delay between enzyme inhibition and clinical change that MAOIs share with the reuptake classes.
 
 **Cross-domain connection (curation).** MAOIs link the neurochemistry domain's enzymatic clearance to two clinical worlds, depression in psychiatry and Parkinson disease in neurology, and the pharmacology domain's interaction material explains why the same mechanism is managed so differently in each. [[Monoamine reuptake and degradation]] [[Movement disorders]] [[Therapeutic index, monitoring and interactions]]
+
+## Detailed lesson
+
+- [[Lesson - Monoamine oxidase inhibitors]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

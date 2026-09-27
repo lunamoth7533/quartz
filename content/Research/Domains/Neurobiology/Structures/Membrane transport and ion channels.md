@@ -47,3 +47,8 @@ This machinery implements [[Ion gradients and membrane potential]], [[Action pot
 
 - Receptor and channel subtypes are numerous, and assigning a behavioural role to one subtype usually requires selective tools that do not exist for every target.
 - Human variation in these genes is common, and inferring function from sequence alone is unreliable. [[P29844615 Schaid 2018 Fine-mapping#^p29844615-limits|Fine-mapping]]
+
+## Detailed lesson
+
+- [[Lesson - Membrane transport and ion channels]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

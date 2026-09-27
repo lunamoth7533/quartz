@@ -64,3 +64,8 @@ Twin and family estimates are consistently substantial for bipolar disorder, ADH
 - [[Association versus individual prediction]] - why a population statistic such as heritability cannot be read as a person's genetic loading.
 
 **Cross-domain connection (curation).** Heritability sits where the genetics domain's designs meet the research-methods domain's inference rules and the condition domains' questions about cause: twin figures for bipolar disorder, ADHD, autism and PTSD are often quoted as if they measured personal risk, and the methods domain's line between population association and individual prediction is the corrective. [[Association versus individual prediction]] [[Bipolar genetics and polygenic risk]] [[Trauma and stress responses]]
+
+## Detailed lesson
+
+- [[Lesson - Heritability and twin studies]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

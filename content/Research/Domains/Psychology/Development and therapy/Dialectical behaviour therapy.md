@@ -63,3 +63,8 @@ The evidence base is broad but thin. DBT is the most trialled therapy in borderl
 - [[Personality constructs and traits]] - the borderline personality construct whose trial base DBT dominates, with the measurement and stigma issues that come with it.
 
 **Cross-domain connection (curation).** DBT joins the psychology domain's account of emotion regulation to three condition literatures - borderline personality disorder in clinical psychiatry, childhood-abuse trauma in the complex PTSD domain and suicide risk in bipolar disorder - while the research-methods domain's rules on comparators and certainty decide how much each trial can carry. [[Emotion regulation]] [[CPTSD and disturbances in self-organization]] [[Effect sizes and uncertainty]]
+
+## Detailed lesson
+
+- [[Lesson - Dialectical behaviour therapy]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

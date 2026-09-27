@@ -47,3 +47,8 @@ This is the applied counterpart to [[Neuroanatomical methods]] and the methodolo
 ## Uncertainties
 
 - None of these methods measures neuronal firing directly in humans, so mechanism claims require bridging assumptions.
+
+## Detailed lesson
+
+- [[Lesson - Neuroimaging methods]] - full lesson with a plain-language model, worked example, misconceptions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

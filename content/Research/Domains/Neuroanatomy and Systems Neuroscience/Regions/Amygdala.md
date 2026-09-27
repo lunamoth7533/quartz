@@ -46,3 +46,8 @@ This note is the structural counterpart to [[Fear learning and extinction]] and 
 ## Uncertainties
 
 - The 'fear centre' label over-simplifies a structure involved in salience, social processing and reward as well as threat.
+
+## Detailed lesson
+
+- [[Lesson - Amygdala]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 11 - Neuroanatomy and Systems Neuroscience|Neuroanatomy and Systems Neuroscience]]

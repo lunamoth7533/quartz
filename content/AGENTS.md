@@ -1,6 +1,6 @@
 # Research vault - maintainer notes
 
-`Research/` is a source-backed learning library on bipolar I, ADHD, autism and complex PTSD and the neurobiology, neurochemistry, psychology, pharmacology, neurology and methods underneath them. It is educational material, not a diagnosis or an individual treatment plan.
+`Research/` is a source-backed learning library on bipolar I and II, ADHD, autism and complex PTSD and the neurobiology, neurochemistry, psychology, pharmacology, neurology and methods underneath them. It is educational material, not a diagnosis or an individual treatment plan.
 
 These notes are for maintaining the vault. They, `CLAUDE.md` and `README.md` are hidden from Obsidian's file explorer (CSS snippet `research-library`) and excluded from search and the graph (*Excluded files* in `.obsidian/app.json`). This is not an Obsidian Mind vault: global instructions about `work/`, `brain/`, `perf/`, `org/` and the `om-*` commands and hooks do not apply.
 
@@ -8,8 +8,8 @@ These notes are for maintaining the vault. They, `CLAUDE.md` and `README.md` are
 
 - `Research/Home.md` - the one front door (the Homepage plugin opens it): five ways in, the fifteen domain maps in five families, recent research, open questions.
 - `Research/Hubs/` - `How to use this vault` (the user guide), `Reference Index` (with `Reference Index.base` and the two relationship registers) and `Library` (with `Library.base`).
-- `Research/Domains/<Domain>/` - `<Domain> Map` (the map of content), `<Domain> Canvas` (a dated snapshot), one folder per theme holding the concept notes, `Articles/` (papers) and `Pages/` (official and educational pages). A concept is filed under the one map that registers it; a source is filed once, under its own `domain`.
-- `Research/Learning/` - `Learning Path` (the learning entry), `Study Workflow`, `Glossary`, `Practice and Synthesis Exercises`, `Learning Coverage Matrix`, `Learning Dashboard`, `Learning Library.base`, `Modules/`, `Lessons/` and `Maps/` (one canvas per module).
+- `Research/Domains/<Domain>/` - `<Domain> Map` (the map of content), `<Domain> Canvas` (a dated snapshot), one folder per theme holding the concept notes, `Articles/` (papers) and `Pages/` (official and educational pages). A concept is filed under the one map that registers it; a source is filed once, under its own `domain`. `Bipolar Disorders/` splits into `Bipolar I/` and `Bipolar II/` for type-specific concepts, with shared themes (`Course and features/`, `Hypotheses/`, `Evidence and treatment/`) beside them.
+- `Research/Learning/` - `Learning Path` (the learning entry), `Study Workflow`, `Glossary`, `Practice and Synthesis Exercises`, `Learning Coverage Matrix`, `Learning Dashboard`, `Learning Library.base`, `Modules/` (M01-M15, one per domain), `Lessons/` (one lesson per concept, filed in its module's folder) and `Maps/` (learning-map canvases for M01-M10).
 - `Research/Arguments/` - open questions beside their argument-map canvases.
 - `Research/Visualizations/` - `Visualizations.md`, `Knowledge Explorer.base`, `Domain Contents.base` (embedded by every map) and the landscape canvases.
 - `Research/Templates/` - note and canvas templates. `Research/Support/` - attachments with provenance, `Explorer order.md`, the Web Clipper template.
@@ -20,6 +20,7 @@ These notes are for maintaining the vault. They, `CLAUDE.md` and `README.md` are
 
 - **Concept notes** (`note_type: topic`) are atomic: Definition · How it works (bold lead-ins, ending with a **Reading rule**) · Evidence and status · Uncertainties · Recent research · Connections. Every factual sentence links a source block as `[[Source note#^anchor|Short title]]`. Every entry under Connections says *why* the linked concept matters (part of, mechanism behind, measured by, contrasts with, tested in), and the section ends with the `**Cross-domain connection (curation).**` paragraph. Older notes keep Supported claims / Limitation or common misconception / Study question / Detailed lesson, and carry the curation paragraph at the end of How it works.
 - **Source notes** (`note_type: source`): Reported findings (checked abstract, or checked full text) · Scope as reported · Library appraisal · Used by · Working notes. Anchors are `^p<pmid>-<slug>` for papers and `^f<nn>-<slug>` for pages. *Library appraisal* is the library's own methodological reasoning, never a source claim, and a concept link into one of its anchors is labelled `|Appraisal: <short title>]]`.
+- **Lessons** (`note_type: lesson`): Why this matters · The core model · Worked example (hypothetical) · Common confusions · What the sources do not establish · Check yourself · Answer notes · Next steps. A lesson cites the same anchors as its concept and teaches nothing the concept's sources do not support. Every concept ends with a `## Detailed lesson` link to its lesson and module.
 - **Recent research:** a paper published in 2023 or later carries the tag `research/recent` and is cited from the `## Recent research` section of the concept it updates, placed immediately before `## Connections`.
 - **Domain maps** (`note_type: map`): Concept register · Overview · Key evidence · Where this domain connects · Evidence boundaries · Learning route (with evidence gaps, study question and learning layer where present) · In this folder (Base embeds).
 
@@ -34,6 +35,7 @@ These notes are for maintaining the vault. They, `CLAUDE.md` and `README.md` are
 - Queries select notes by `note_type`, tag or property, never by folder, so a note can move without breaking a view.
 - `source_count` equals the number of distinct source notes a concept links; the vault check flags drift.
 - Preserve existing user notes, plugins and settings.
+- Before creating a source note, check the PMID is not already in the vault (`ls Research/Domains/*/Articles/P<PMID>*`); parallel writers once created the same paper twice.
 
 ## Tooling
 
@@ -45,6 +47,16 @@ These notes are for maintaining the vault. They, `CLAUDE.md` and `README.md` are
 - File-explorer order is `Research/Support/Explorer order.md` (Custom File Explorer sorting); icons come from Iconize. The display plugins' settings are tracked in git; token-bearing plugin data is not.
 - **Adding a concept:** file it in its domain's theme folder, set `up` to the domain map, add it to the map's Concept register, and link it with a reason from two or three related concepts. The domain canvas is a dated snapshot; add a card for the new concept if you want it there.
 - **Adding a source:** start from the template, file it in `Articles/` or `Pages/` of its domain, anchor each finding, tag `research/recent` if published 2023 or later, cite it from the concept, update `source_count`.
+
+### Maintenance tools (`.claude/tools/`, run from anywhere)
+
+- `pubmed.py search "terms" --reviews --from 2023` / `pubmed.py fetch PMID...` - compact PubMed lookups via NCBI E-utilities; `fetch` gives exact identifiers, the issue year (use as `year`) and the e-pub date (use as `first_online`).
+- `verify_sources.py [--since <commit>]` - checks new source notes against PubMed (identifiers, title, journal, year, findings length, runs copied from the abstract).
+- `check_concepts.py "Title" ...` and `check_lessons.py "<module folder>" ...` - structure, sources, connections, register entries, back-links and wording.
+- `lesson_gaps.py` - concepts without a lesson, by module. `module_sync.py` - makes module notes list every lesson and adds missing concept-to-lesson links.
+- `domain_canvas.py [Domain ...]` - rebuilds domain canvases from the theme folders and map registers.
+- `graph_views.py` - rewrites the default graph, the bookmarked graph views and Extended Graph's synced copy together.
+- `glossary_add.py <titles file>` - adds glossary rows for new concepts.
 
 ### Canvas conventions
 
@@ -69,3 +81,4 @@ Three staging workspaces generated the original vault. The live vault is the sou
 
 - **2026-09-25 reorganisation.** Hubs, learning files and canvases moved into `Hubs/`, `Learning/`, `Arguments/`, `Templates/` and `Visualizations/`; `Topics/`, `Sources/` and `Maps/` replaced by `Domains/`; every canvas re-laid out; repeated depth sections in topics merged so each point is stated once; one argument note restored from its build payload. Git history holds every pre-image.
 - **2026-09-27 restructure.** Hierarchy flattened to Home → domain map → concept: the 48 theme index notes and `Research Atlas` were removed (Home took over the atlas; each map's register already grouped its concepts), `up` retargeted, and each map reordered so its Concept register comes first. `Learning Hub` merged into `Learning Path`; `Workflow` replaced by `How to use this vault`; `Learning Maintenance` folded into these notes. All AI and agent wording removed from the notes: `## Analyst cautions (AI synthesis)` became `## Library appraisal` and link labels `AI appraisal:`/`AI synthesis:` became `Appraisal:`. Bare *Related notes* lists became explained *Connections*; recent papers (2023 onward, tag `research/recent`) were added to concepts' *Recent research* sections; new cross-condition concepts were written; the graph was reset to the concept map with twelve bookmarked views; templates updated to the current formats.
+- **2026-09-27, second pass.** Bipolar I folder became `Bipolar Disorders/` with `Bipolar I/` and `Bipolar II/` subfolders (module 07 renamed to match; domain key `bipolar-disorders`, condition keys `bipolar-i` and `bipolar-ii`). 58 concept notes added across every domain, including each major drug class in Pharmacology and Mania, Hypomania and Bipolar II notes. A lesson written for every concept; modules M11-M15 created for the five domains that had none. Learning Coverage Matrix turned into live queries; domain canvases regenerated; glossary extended. Fixed Obsidian Git's `basePath` (it held an absolute path, so the plugin looked for a folder that does not exist) and Extended Graph's `maxNodes` (20, which disabled node shapes on every real graph).

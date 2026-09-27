@@ -47,3 +47,8 @@ This note completes the picture of non-classical transmission begun in [[Neurope
 
 - Because the system is distributed and involved in pain, appetite and immunity, findings in one domain should not be generalised to others.
 - Human dosing and long-term effects of cannabinoid exposure are outside this library's scope; the note covers mechanism and research only.
+
+## Detailed lesson
+
+- [[Lesson - Endocannabinoid signalling]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 03 - Neurochemistry|Neurochemistry]]

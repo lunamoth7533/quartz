@@ -52,3 +52,8 @@ This note is where the autism domain's evidence meets its participation material
 ## Uncertainties
 
 - Very few intervention studies use autistic-defined outcomes as the primary endpoint.
+
+## Detailed lesson
+
+- [[Lesson - Intervention outcomes and autistic perspectives]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

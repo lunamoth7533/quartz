@@ -49,3 +49,8 @@ This note connects the CPTSD domain to [[Functional outcomes and measurement]] i
 ## Uncertainties
 
 - Recovery definitions vary between clinical, research and lived-experience perspectives, and outcome selection reflects that disagreement.
+
+## Detailed lesson
+
+- [[Lesson - Recovery function and social context]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 10 - CPTSD|CPTSD]]

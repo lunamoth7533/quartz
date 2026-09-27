@@ -46,3 +46,8 @@ Perception is the input side of [[Attention]], and it is where the computational
 ## Uncertainties
 
 - Whether perception should be described as inference is a modelling claim; the behavioural regularities themselves are better established.
+
+## Detailed lesson
+
+- [[Lesson - Perception]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

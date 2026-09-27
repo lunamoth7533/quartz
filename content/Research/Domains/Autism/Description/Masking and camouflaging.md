@@ -55,3 +55,8 @@ This note pairs with [[Double empathy]] and with [[Adult autism assessment and d
 ## Uncertainties
 
 - No validated cross-cultural measure of camouflaging exists, which limits comparison across samples. [[P27942093 Putnick 2016 Measurement invariance#^p27942093-practice|Measurement invariance]]
+
+## Detailed lesson
+
+- [[Lesson - Masking and camouflaging]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

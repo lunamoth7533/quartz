@@ -49,3 +49,8 @@ This note pairs with [[Cellular energy and mitochondrial hypotheses]] as a secon
 ## Uncertainties
 
 - Whether elevated markers reflect the condition, its treatment or associated health factors cannot be resolved by cross-sectional studies.
+
+## Detailed lesson
+
+- [[Lesson - Inflammation and immune hypotheses in bipolar disorder]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 07 - Bipolar Disorders|Bipolar Disorders]]

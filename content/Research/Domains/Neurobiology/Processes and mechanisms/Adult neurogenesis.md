@@ -62,3 +62,8 @@ Lifelong hippocampal neurogenesis in rodents is an experimental finding, and so 
 - [[Translational validity]] - why rodent ablation and behavioural tests cannot by themselves establish a human mechanism.
 
 **Cross-domain connection (curation).** Adult neurogenesis links the genetics-and-neurodevelopment domain's account of how neurons are made to the pharmacology domain's delay problem and the neuroendocrine domain's stress physiology; the research-methods domain decides how far the debate can move, because post-mortem marker detection and animal-to-human translation are measurement problems before they are biological ones. [[Neurogenesis and migration]] [[Antidepressant mechanisms]] [[Stress response and the HPA axis]] [[Translational validity]]
+
+## Detailed lesson
+
+- [[Lesson - Adult neurogenesis]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

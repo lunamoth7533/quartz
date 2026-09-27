@@ -49,3 +49,8 @@ This is the conceptual home for [[HPA axis]], and it connects to [[Cytokines and
 ## Uncertainties
 
 - Allostatic load is a useful organising idea whose measurement is not standardised, so cross-study comparisons should be made cautiously.
+
+## Detailed lesson
+
+- [[Lesson - Allostasis and chronic stress]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

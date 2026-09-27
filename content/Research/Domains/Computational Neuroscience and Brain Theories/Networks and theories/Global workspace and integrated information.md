@@ -48,3 +48,8 @@ This note pairs with [[Theories of consciousness compared]] and is a worked exam
 ## Uncertainties
 
 - Measures derived from either theory are not clinically usable indices of consciousness.
+
+## Detailed lesson
+
+- [[Lesson - Global workspace and integrated information]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

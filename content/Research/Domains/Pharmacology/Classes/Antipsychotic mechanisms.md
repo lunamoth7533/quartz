@@ -54,3 +54,8 @@ This note is the mechanism layer for dopamine material in the neurochemistry dom
 ## Uncertainties
 
 - Why response varies so much between individuals remains unexplained by receptor occupancy alone.
+
+## Detailed lesson
+
+- [[Lesson - Antipsychotic mechanisms]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 05 - Pharmacology|Pharmacology]]

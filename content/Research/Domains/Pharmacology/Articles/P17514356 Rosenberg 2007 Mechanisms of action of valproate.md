@@ -64,6 +64,7 @@ The review predates later genomic and imaging work, so its list of candidate act
 ## Used by
 
 - [[Anticonvulsant mood stabilisers]]
+- [[Antiseizure medications]]
 
 ## Working notes
 

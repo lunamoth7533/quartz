@@ -53,3 +53,8 @@ This note is the applied end of [[Neuroimmune interactions and microglia]] and i
 ## Uncertainties
 
 - Circulating cytokine measures do not index brain immune activity directly.
+
+## Detailed lesson
+
+- [[Lesson - Cytokines and inflammation in psychiatric conditions]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 13 - Neuroendocrinology and Neuroimmunology|Neuroendocrinology and Neuroimmunology]]

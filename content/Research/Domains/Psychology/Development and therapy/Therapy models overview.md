@@ -55,3 +55,8 @@ This overview frames the condition-specific psychotherapy articles, including [[
 ## Uncertainties
 
 - Common factors such as alliance and expectancy contribute to outcomes in all orientations, which complicates attributing effects to specific techniques.
+
+## Detailed lesson
+
+- [[Lesson - Therapy models overview]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

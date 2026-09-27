@@ -48,3 +48,8 @@ This is the epistemic companion to every theory note in this domain, and it link
 ## Uncertainties
 
 - Model comparison verdicts depend on the candidate set, so a winning model may simply be the best of a limited field.
+
+## Detailed lesson
+
+- [[Lesson - Model comparison and identifiability]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

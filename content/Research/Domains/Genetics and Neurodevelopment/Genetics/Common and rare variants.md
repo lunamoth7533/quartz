@@ -55,3 +55,8 @@ This note pairs with [[Genome-wide association studies]] and [[Polygenic scores 
 ## Uncertainties
 
 - Rare-variant interpretation depends on frequency databases that are unevenly representative across populations.
+
+## Detailed lesson
+
+- [[Lesson - Common and rare variants]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 12 - Genetics and Neurodevelopment|Genetics and Neurodevelopment]]

@@ -64,6 +64,7 @@ Class acronyms for these drugs vary between sources and this review's labels are
 - [[Serotonin-noradrenaline reuptake inhibitors]]
 - [[Monoamine oxidase inhibitors]]
 - [[Ketamine and rapid-acting antidepressants]]
+- [[Hypnotics and sleep medicines]]
 
 ## Working notes
 

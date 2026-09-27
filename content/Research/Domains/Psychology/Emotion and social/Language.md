@@ -46,3 +46,8 @@ This article links to [[Cerebral cortex and lobes]] and to the autism domain's m
 ## Uncertainties
 
 - The language-thought relationship remains unresolved, with evidence supporting contributions in both directions. [[F40 OpenStax Psychology 2e language#^f40-thought|Language]]
+
+## Detailed lesson
+
+- [[Lesson - Language]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

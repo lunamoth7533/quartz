@@ -49,8 +49,15 @@ Epilepsy is the clearest clinical case for the excitation-inhibition material in
 
 - [[Co-occurring conditions in autism]] - epilepsy affects about one in ten autistic people, more often where intellectual disability is present, one of the clearest neurological overlaps with a developmental condition.
 
+- [[Antiseizure medications]] - the drug class behind the treatment paragraph here: its mechanism families, what it achieves in epilepsy, and the pregnancy, skin and behavioural risks it carries.
+
 **Cross-domain connection (curation).** Pharmacology meets epilepsy at shared mechanisms: psychotropics that lower seizure threshold and antiseizure drugs with psychiatric effects are the practical case for the interaction article's dynamic-interaction category. [[Therapeutic index, monitoring and interactions]] [[Drug classes and mechanisms overview]]
 
 ## Uncertainties
 
 - A normal EEG between episodes does not exclude epilepsy, which is why diagnosis is clinical.
+
+## Detailed lesson
+
+- [[Lesson - Seizures and epilepsy]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

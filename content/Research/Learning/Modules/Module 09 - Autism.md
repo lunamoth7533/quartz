@@ -5,7 +5,7 @@ module: "m09"
 module_order: 9
 domain: [psychology, neurobiology]
 condition: [autism]
-lesson_count: 5
+lesson_count: 15
 source_count: 7
 canvas: "Learning Map - Autism.canvas"
 cssclasses: [research-module]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m09]
 
 # Module 09 - Autism
 
-**Lessons.** 5 · **Canvas.** [[Learning Map - Autism.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 15 · **Canvas.** [[Learning Map - Autism.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -39,6 +39,16 @@ Autism applies the foundations to a heterogeneous developmental condition where 
 3. [[Lesson - Autism support and services]] · after [[Lesson - Autism heterogeneity and support needs]] · 3 sources
 4. [[Lesson - Adult autism assessment and differential considerations]] · after [[Lesson - Autism heterogeneity and support needs]] · 3 sources
 5. [[Lesson - Autistic sensory and communication access]] · after [[Lesson - Adult autism assessment and differential considerations]] · 3 sources
+6. [[Lesson - Masking and camouflaging]] · after [[Lesson - Adult autism assessment and differential considerations]] · 3 sources
+7. [[Lesson - Double empathy]] · after [[Lesson - Masking and camouflaging]] · 3 sources
+8. [[Lesson - Social cognition accounts]] · after [[Lesson - Double empathy]] · 3 sources
+9. [[Lesson - Predictive processing accounts of autism]] · after [[Lesson - Social cognition accounts]] · 4 sources
+10. [[Lesson - Monotropism]] · after [[Lesson - Predictive processing accounts of autism]] · 3 sources
+11. [[Lesson - Neurodiversity paradigm]] · after [[Lesson - Monotropism]] · 3 sources
+12. [[Lesson - Autism in girls and women]] · after [[Lesson - Masking and camouflaging]] · 3 sources
+13. [[Lesson - Autistic burnout]] · after [[Lesson - Masking and camouflaging]] · 3 sources
+14. [[Lesson - Co-occurring conditions in autism]] · after [[Lesson - Autism in girls and women]] · 3 sources
+15. [[Lesson - Intervention outcomes and autistic perspectives]] · after [[Lesson - Neurodiversity paradigm]] · 3 sources
 
 ## Worked-example trail
 
@@ -47,6 +57,16 @@ Autism applies the foundations to a heterogeneous developmental condition where 
 - [[Lesson - Autism support and services]] - hypothetical worked example: a service question is answered with local evidence requirements attached.
 - [[Lesson - Adult autism assessment and differential considerations]] - hypothetical worked example: a screening score is carried through to a full assessment without becoming a diagnosis.
 - [[Lesson - Autistic sensory and communication access]] - hypothetical worked example: a clinic environment is audited as a design problem rather than a personal one.
+- [[Lesson - Masking and camouflaging]] - hypothetical worked example: a single fluent clinical interview is checked against what camouflaging could hide.
+- [[Lesson - Double empathy]] - hypothetical worked example: a one-directional headline finding is tested against the account's two-directional prediction.
+- [[Lesson - Social cognition accounts]] - hypothetical worked example: a mentalising-task "deficit" claim is checked against accuracy, measurement invariance and everyday relevance.
+- [[Lesson - Predictive processing accounts of autism]] - hypothetical worked example: a "proves weaker priors" headline is checked against which version and which prior type the study could actually isolate.
+- [[Lesson - Monotropism]] - hypothetical worked example: a questionnaire finding is checked against what the theory's causal claim actually requires.
+- [[Lesson - Neurodiversity paradigm]] - hypothetical worked example: a claim that the movement opposes all individual support is tested against survey evidence.
+- [[Lesson - Autism in girls and women]] - hypothetical worked example: a "females are less autistic" claim is tested against the recognition-pathway evidence.
+- [[Lesson - Autistic burnout]] - hypothetical worked example: a "proven distinct from depression" headline is checked against what the measurement evidence actually shows.
+- [[Lesson - Co-occurring conditions in autism]] - hypothetical worked example: a new difficulty in an autistic adult is run through the diagnostic-overshadowing check.
+- [[Lesson - Intervention outcomes and autistic perspectives]] - hypothetical worked example: a parent-reported trial result is traced back to who reported it and what autistic adults say matters.
 
 ## Core and advanced branches
 

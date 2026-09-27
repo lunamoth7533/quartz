@@ -74,6 +74,7 @@ Summation is the usual route to firing, not a universal rule: some cells release
 - [[Acetylcholine signalling]]
 - [[Excitation and inhibition balance]]
 - [[Pharmacodynamics and receptors]]
+- [[Adrenergic blockers in psychiatry]]
 
 ## Working notes
 

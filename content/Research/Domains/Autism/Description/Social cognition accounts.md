@@ -59,3 +59,8 @@ This note pairs with [[Double empathy]] and with the psychology-domain article [
 ## Uncertainties
 
 - Cultural and linguistic variability in social expectations is rarely modelled, which limits transfer of findings.
+
+## Detailed lesson
+
+- [[Lesson - Social cognition accounts]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]

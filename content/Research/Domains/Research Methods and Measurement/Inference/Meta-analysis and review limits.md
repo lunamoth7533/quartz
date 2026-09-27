@@ -68,3 +68,8 @@ Pooled estimates describe the studies that met the inclusion criteria; they do n
 ## Study question
 
 For one meta-analysis in the library, list the decisions a different review team could have made differently and how each would move the estimate.
+
+## Detailed lesson
+
+- [[Lesson - Meta-analysis and review limits]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 01 - Research Methods and Evidence Literacy|Research Methods and Evidence Literacy]]

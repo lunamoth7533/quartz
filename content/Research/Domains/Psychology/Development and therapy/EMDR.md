@@ -63,3 +63,8 @@ For adult PTSD the direction is consistent - EMDR beats waitlist and usual care 
 - [[Recovery function and social context]] - the youth review behind this note found trauma therapy leaving social functioning largely unchanged, the gap that note's functioning framework addresses.
 
 **Cross-domain connection (curation).** EMDR ties the psychology domain's therapy models to the CPTSD domain's research on traumatic memory and to the bipolar domain's relapse-prevention trials, while the research-methods domain's rules on dismantling designs and on reading null contrasts decide what its comparisons show. [[Memory and trauma]] [[Bipolar psychotherapy evidence]] [[Meta-analysis and review limits]]
+
+## Detailed lesson
+
+- [[Lesson - EMDR]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 04 - Psychology|Psychology]]

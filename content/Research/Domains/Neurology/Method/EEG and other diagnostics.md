@@ -52,3 +52,8 @@ This note supplies the test-level detail for [[Seizures and epilepsy]], [[Demyel
 ## Uncertainties
 
 - Incidental findings on imaging are common and create their own management dilemmas.
+
+## Detailed lesson
+
+- [[Lesson - EEG and other diagnostics]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 06 - Neurology|Neurology]]

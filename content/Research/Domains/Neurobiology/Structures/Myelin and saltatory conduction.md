@@ -47,3 +47,8 @@ This note explains the conducting machinery behind [[Action potentials]] and is 
 
 - Imaging estimates of myelination are indirect, and different sequences give different answers.
 - Remyelination in the human central nervous system occurs but is variable, and why it fails in some lesions remains an open question. [[F75 MedlinePlus Multiple sclerosis#^f75-course|Multiple Sclerosis]]
+
+## Detailed lesson
+
+- [[Lesson - Myelin and saltatory conduction]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 02 - Neurobiology|Neurobiology]]

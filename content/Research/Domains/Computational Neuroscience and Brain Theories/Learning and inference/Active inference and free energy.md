@@ -44,3 +44,8 @@ This note completes the perception-action pair with [[Bayesian inference and pre
 ## Uncertainties
 
 - Empirical discrimination between active-inference models and simpler reinforcement-learning accounts is often inconclusive. [[P31769410 Wilson 2019 Computational modelling rules#^p31769410-identifiability|Computational modelling rules]]
+
+## Detailed lesson
+
+- [[Lesson - Active inference and free energy]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 14 - Computational Neuroscience and Brain Theories|Computational Neuroscience and Brain Theories]]

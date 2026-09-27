@@ -5,7 +5,7 @@ module: "m03"
 module_order: 3
 domain: [neurochemistry]
 condition: []
-lesson_count: 11
+lesson_count: 20
 source_count: 11
 canvas: "Learning Map - Neurochemistry.canvas"
 cssclasses: [research-module]
@@ -14,7 +14,7 @@ tags: [research/module, research/module/m03]
 
 # Module 03 - Neurochemistry
 
-**Lessons.** 11 · **Canvas.** [[Learning Map - Neurochemistry.canvas]] · **Entry point.** [[Learning Path]]
+**Lessons.** 20 · **Canvas.** [[Learning Map - Neurochemistry.canvas]] · **Entry point.** [[Learning Path]]
 
 ## What this module is for
 
@@ -43,6 +43,15 @@ Neurochemistry covers how signals are transmitted, how the same molecule perform
 9. [[Lesson - Stress response and the HPA axis]] · after [[Lesson - Chemical imbalance framing]] · 2 sources
 10. [[Lesson - Circadian rhythms and sleep]] · after [[Lesson - Stress response and the HPA axis]] · 2 sources
 11. [[Lesson - Autonomic regulation]] · after [[Lesson - Stress response and the HPA axis]] · 3 sources
+12. [[Lesson - Transmitter synthesis, release and clearance]] · after [[Lesson - Synaptic signalling model]] · 4 sources
+13. [[Lesson - Receptor families and second messengers]] · after [[Lesson - Transmitter synthesis, release and clearance]] · 3 sources
+14. [[Lesson - Monoamine reuptake and degradation]] · after [[Lesson - Receptor families and second messengers]] · 3 sources
+15. [[Lesson - Neuromodulation and circuit state]] · after [[Lesson - Receptor families and second messengers]] · 3 sources
+16. [[Lesson - Histamine signalling]] · after [[Lesson - Neuromodulation and circuit state]] · 3 sources
+17. [[Lesson - Adenosine signalling]] · after [[Lesson - Circadian rhythms and sleep]] · 3 sources
+18. [[Lesson - Neuropeptides and opioids]] · after [[Lesson - Transmitter synthesis, release and clearance]] · 2 sources
+19. [[Lesson - Endocannabinoid signalling]] · after [[Lesson - Neuropeptides and opioids]] · 1 source
+20. [[Lesson - Oxytocin and vasopressin]] · after [[Lesson - Neuropeptides and opioids]] · 3 sources
 
 ## Worked-example trail
 
@@ -57,6 +66,15 @@ Neurochemistry covers how signals are transmitted, how the same molecule perform
 - [[Lesson - Stress response and the HPA axis]] - hypothetical worked example: a single cortisol sample is evaluated against the two-process stress model.
 - [[Lesson - Circadian rhythms and sleep]] - hypothetical worked example: sleep duration and sleep timing are separated as different problems.
 - [[Lesson - Autonomic regulation]] - hypothetical worked example: one HRV reading is interpreted with its measurement context attached.
+- [[Lesson - Transmitter synthesis, release and clearance]] - hypothetical worked example: a urinary serotonin-metabolite claim is traced back to which stage of the transmitter cycle it actually reflects.
+- [[Lesson - Receptor families and second messengers]] - hypothetical worked example: a "selective" drug's side effect is checked against off-target receptor binding.
+- [[Lesson - Monoamine reuptake and degradation]] - hypothetical worked example: a same-day "instant relief" claim is checked against the biochemical-to-clinical timescale mismatch.
+- [[Lesson - Neuromodulation and circuit state]] - hypothetical worked example: a "more noradrenaline is better" claim is checked against the inverted-U and circuit state.
+- [[Lesson - Histamine signalling]] - hypothetical worked example: antihistamine drowsiness is traced to H1 receptor blockade rather than to any effect on anxiety.
+- [[Lesson - Adenosine signalling]] - hypothetical worked example: a "clears adenosine buildup" marketing claim is checked against what caffeine's receptor blockade actually does.
+- [[Lesson - Neuropeptides and opioids]] - hypothetical worked example: a blood "endorphin level" claim is checked against what a peripheral measurement can say about brain peptide signalling.
+- [[Lesson - Endocannabinoid signalling]] - hypothetical worked example: an animal brain-slice finding is checked against a commercial product's memory claim.
+- [[Lesson - Oxytocin and vasopressin]] - hypothetical worked example: an early small positive trial is weighed against the largest randomised trial's null result.
 
 ## Core and advanced branches
 

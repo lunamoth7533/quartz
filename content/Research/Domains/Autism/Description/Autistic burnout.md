@@ -61,3 +61,8 @@ The evidence base is young: qualitative interviews and online accounts, one Delp
 - [[Measurement validity and reliability]] - the open question here is discriminant validity: whether burnout scales measure something other than depression and fatigue.
 
 **Cross-domain connection (curation).** Autistic burnout sits where the autism domain's participation literature meets clinical psychiatry's mood constructs and neuroendocrinology's load models: the same exhaustion can be described as a depressive episode, an allostatic cost or a mismatch between demands and support, and each description brings its own measures. Reading it beside [[Mood disorders]], [[Allostasis and chronic stress]] and [[Measurement validity and reliability]] keeps the lived-experience definition, the psychiatric differential and the measurement question apart.
+
+## Detailed lesson
+
+- [[Lesson - Autistic burnout]] - full lesson with a plain-language model, worked example, common confusions, source boundaries and practice questions.
+- Module: [[Module 09 - Autism|Autism]]
