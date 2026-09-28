@@ -123,12 +123,13 @@ Answer from memory first; the parent lesson holds the supporting detail.
      findings are shared across many diagnoses rather than being specific to one.
    - *Answer sources.* [[P38476041 Norman 2024 Subcortico-cortical connectivity in ADHD#^p38476041-caution-effect|Appraisal: Norman 2024]]; [[P32259712 Wang 2020 Network dysfunction across bipolar mood states#^p32259712-caution-state|Appraisal: Wang 2020]]; [[P34688728 Bao 2021 Large-scale networks in adult PTSD#^p34688728-caution-controls|Appraisal: Bao 2021]]
 
-3. Why is a diffusion-imaging or resting-state "connectivity" claim weaker evidence than a tracer-based
-   connectivity claim in an animal?
-   - *Working answer.* Diffusion and resting-state estimates are indirect and model-dependent, and inherit
-     documented analytic-flexibility and power problems, while a tracer is transported directly along an axon
-     and reveals a real anatomical connection.
-   - *Answer sources.* [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]; [[F101 Neuroscience Online synapse formation and elimination#^f101-elimination|Synapse Formation, Survival, and Elimination]]
+3. Why should a diffusion-imaging or resting-state "connectivity" claim in humans be read as an estimate
+   rather than a measured wiring diagram?
+   - *Working answer.* Imaging-based connectivity depends on many defensible preprocessing and modelling
+     choices, and low statistical power exaggerates published brain-behaviour effects, so one defensible
+     analysis can show a "connection" that another would not; the method and analysis have to be named
+     before the claim is weighed.
+   - *Answer sources.* [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-flexibility|Neuroimaging reproducibility]]; [[P28053326 Poldrack 2017 Neuroimaging reproducibility#^p28053326-power|Neuroimaging reproducibility]]
 
 ## Source boundaries
 
